@@ -1,0 +1,102 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "henry-iv-part1/00_front_matter/02_SETTING.txt"
+    },
+    "play": {
+      "id": "henry-iv-part1",
+      "title": "Henry IV, Part 1",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "front_matter",
+      "act": null,
+      "scene": null,
+      "label": null,
+      "title": null,
+      "unit_key": "02-setting",
+      "unit_id": "henry-iv-part1-02-setting",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "henry-iv-part1-02-setting-i0001",
+      "kind": "heading",
+      "subtype": "setting",
+      "speech_id": "henry-iv-part1-02-setting-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "henry-iv-part1-02-setting-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "England and Wales.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "England",
+              "norm": "england",
+              "pre": "",
+              "serial": "henry-iv-part1-02-setting-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-iv-part1-02-setting-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Wales",
+              "norm": "wales",
+              "pre": " ",
+              "serial": "henry-iv-part1-02-setting-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-iv-part1-02-setting-l0001-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

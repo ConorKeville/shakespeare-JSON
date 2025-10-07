@@ -1,0 +1,1649 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "henry-v/95_special/Epilogue.txt"
+    },
+    "play": {
+      "id": "henry-v",
+      "title": "Henry V",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "epilogue",
+      "act": null,
+      "scene": null,
+      "label": null,
+      "title": null,
+      "unit_key": "epilogue",
+      "unit_id": "henry-v-epilogue",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "henry-v-epilogue-i0001",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 2,
+      "serial": "henry-v-epilogue-i0002",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Chorus.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-v-epilogue-i0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Chorus",
+              "norm": "chorus",
+              "pre": " ",
+              "serial": "henry-v-epilogue-i0002-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-epilogue-i0002-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "henry-v-epilogue-i0003",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 4,
+      "serial": "henry-v-epilogue-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "henry-v-epilogue-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thus far, with rough and all-unable pen,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thus",
+              "norm": "thus",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "far",
+              "norm": "far",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0001-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "rough",
+              "norm": "rough",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0001-t007"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0001-t008",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 8
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "unable",
+              "norm": "unable",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "pen",
+              "norm": "pen",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0001-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0001-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "henry-v-epilogue-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "henry-v-epilogue-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Our bending author hath pursu’d the story,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Our",
+              "norm": "our",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "bending",
+              "norm": "bending",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "author",
+              "norm": "author",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "pursu’d",
+              "norm": "pursu'd",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "story",
+              "norm": "story",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0002-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "henry-v-epilogue-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "henry-v-epilogue-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In little room confining mighty men,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "little",
+              "norm": "little",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "room",
+              "norm": "room",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "confining",
+              "norm": "confining",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "mighty",
+              "norm": "mighty",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0003-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "henry-v-epilogue-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "henry-v-epilogue-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Mangling by starts the full course of their glory.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Mangling",
+              "norm": "mangling",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "starts",
+              "norm": "starts",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "full",
+              "norm": "full",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "course",
+              "norm": "course",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "glory",
+              "norm": "glory",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0004-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "henry-v-epilogue-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "henry-v-epilogue-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Small time, but in that small most greatly lived",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Small",
+              "norm": "small",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0005-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "small",
+              "norm": "small",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "most",
+              "norm": "most",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "greatly",
+              "norm": "greatly",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "lived",
+              "norm": "lived",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0005-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "henry-v-epilogue-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "henry-v-epilogue-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This star of England. Fortune made his sword,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "star",
+              "norm": "star",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "England",
+              "norm": "england",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0006-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Fortune",
+              "norm": "fortune",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "made",
+              "norm": "made",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "sword",
+              "norm": "sword",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0006-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "henry-v-epilogue-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "henry-v-epilogue-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "By which the world’s best garden he achieved,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "By",
+              "norm": "by",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "which",
+              "norm": "which",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "world’s",
+              "norm": "world's",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "best",
+              "norm": "best",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "garden",
+              "norm": "garden",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "achieved",
+              "norm": "achieved",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0007-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "henry-v-epilogue-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "henry-v-epilogue-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And of it left his son imperial lord.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "left",
+              "norm": "left",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "son",
+              "norm": "son",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "imperial",
+              "norm": "imperial",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0008-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "henry-v-epilogue-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "henry-v-epilogue-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Henry the Sixth, in infant bands crown’d King",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Henry",
+              "norm": "henry",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Sixth",
+              "norm": "sixth",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0009-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "infant",
+              "norm": "infant",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "bands",
+              "norm": "bands",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "crown’d",
+              "norm": "crown'd",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0009-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "henry-v-epilogue-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "henry-v-epilogue-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Of France and England, did this king succeed;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Of",
+              "norm": "of",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "France",
+              "norm": "france",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "England",
+              "norm": "england",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0010-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "king",
+              "norm": "king",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "succeed",
+              "norm": "succeed",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0010-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0010-t010",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "henry-v-epilogue-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 11,
+      "line_number": 11,
+      "line_serial": "henry-v-epilogue-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Whose state so many had the managing,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Whose",
+              "norm": "whose",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "state",
+              "norm": "state",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "many",
+              "norm": "many",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "had",
+              "norm": "had",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "managing",
+              "norm": "managing",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0011-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "henry-v-epilogue-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 12,
+      "line_number": 12,
+      "line_serial": "henry-v-epilogue-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That they lost France and made his England bleed:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "lost",
+              "norm": "lost",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "France",
+              "norm": "france",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "made",
+              "norm": "made",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "England",
+              "norm": "england",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "bleed",
+              "norm": "bleed",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0012-t010",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "henry-v-epilogue-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 13,
+      "line_number": 13,
+      "line_serial": "henry-v-epilogue-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Which oft our stage hath shown; and, for their sake,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Which",
+              "norm": "which",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "oft",
+              "norm": "oft",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "stage",
+              "norm": "stage",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "shown",
+              "norm": "shown",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0013-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0013-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "sake",
+              "norm": "sake",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0013-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0013-t013",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "henry-v-epilogue-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-epilogue-s0001",
+      "speech_seq": 14,
+      "line_number": 14,
+      "line_serial": "henry-v-epilogue-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In your fair minds let this acceptance take.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fair",
+              "norm": "fair",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "minds",
+              "norm": "minds",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "acceptance",
+              "norm": "acceptance",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "take",
+              "norm": "take",
+              "pre": " ",
+              "serial": "henry-v-epilogue-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-epilogue-l0014-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "henry-v-epilogue-i0018",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "henry-v-epilogue-i0018-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-epilogue-i0018-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

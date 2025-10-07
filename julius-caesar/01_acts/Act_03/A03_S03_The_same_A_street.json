@@ -1,0 +1,4359 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "julius-caesar/01_acts/Act_03/A03_S03_The_same_A_street.txt"
+    },
+    "play": {
+      "id": "julius-caesar",
+      "title": "Julius Caesar",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 3,
+      "scene": 3,
+      "label": "Act III, Scene III",
+      "title": "SCENE III. The same. A street.",
+      "unit_key": "a03-s03",
+      "unit_id": "julius-caesar-a03-s03",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "julius-caesar-a03-s03-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT III",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "III",
+              "norm": "iii",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "julius-caesar-a03-s03-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE III. The same. A street.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "III",
+              "norm": "iii",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0002-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "same",
+              "norm": "same",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0002-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "street",
+              "norm": "street",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0002-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "julius-caesar-a03-s03-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Cinna, the poet, and after him the citizens.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Cinna",
+              "norm": "cinna",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0003-t003",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "poet",
+              "norm": "poet",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0003-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0003-t006",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0003-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "after",
+              "norm": "after",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0003-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0003-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0003-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "citizens",
+              "norm": "citizens",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-i0003-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0003-t012",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "julius-caesar-a03-s03-i0004",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "julius-caesar-a03-s03-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "julius-caesar-a03-s03-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I dreamt tonight that I did feast with Caesar,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "dreamt",
+              "norm": "dreamt",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "tonight",
+              "norm": "tonight",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "feast",
+              "norm": "feast",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Caesar",
+              "norm": "caesar",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0001-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "julius-caesar-a03-s03-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "julius-caesar-a03-s03-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And things unluckily charge my fantasy.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "things",
+              "norm": "things",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "unluckily",
+              "norm": "unluckily",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "charge",
+              "norm": "charge",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "fantasy",
+              "norm": "fantasy",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0002-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "julius-caesar-a03-s03-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "julius-caesar-a03-s03-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I have no will to wander forth of doors,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "wander",
+              "norm": "wander",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "doors",
+              "norm": "doors",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0003-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "julius-caesar-a03-s03-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "julius-caesar-a03-s03-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Yet something leads me forth.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Yet",
+              "norm": "yet",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "something",
+              "norm": "something",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "leads",
+              "norm": "leads",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0004-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "julius-caesar-a03-s03-i0009",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FIRST CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 10,
+      "serial": "julius-caesar-a03-s03-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0002",
+      "speech_seq": 1,
+      "line_number": 5,
+      "line_serial": "julius-caesar-a03-s03-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What is your name?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "name",
+              "norm": "name",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0005-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "julius-caesar-a03-s03-i0011",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 12,
+      "serial": "julius-caesar-a03-s03-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0003",
+      "speech_seq": 1,
+      "line_number": 6,
+      "line_serial": "julius-caesar-a03-s03-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Whither are you going?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Whither",
+              "norm": "whither",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "going",
+              "norm": "going",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0006-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "julius-caesar-a03-s03-i0013",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 14,
+      "serial": "julius-caesar-a03-s03-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0004",
+      "speech_seq": 1,
+      "line_number": 7,
+      "line_serial": "julius-caesar-a03-s03-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Where do you dwell?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "dwell",
+              "norm": "dwell",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0007-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "julius-caesar-a03-s03-i0015",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 16,
+      "serial": "julius-caesar-a03-s03-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0005",
+      "speech_seq": 1,
+      "line_number": 8,
+      "line_serial": "julius-caesar-a03-s03-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Are you a married man or a bachelor?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Are",
+              "norm": "are",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "married",
+              "norm": "married",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "bachelor",
+              "norm": "bachelor",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0008-t009",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "julius-caesar-a03-s03-i0017",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 18,
+      "serial": "julius-caesar-a03-s03-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0006",
+      "speech_seq": 1,
+      "line_number": 9,
+      "line_serial": "julius-caesar-a03-s03-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Answer every man directly.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Answer",
+              "norm": "answer",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "every",
+              "norm": "every",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "directly",
+              "norm": "directly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0009-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "julius-caesar-a03-s03-i0019",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FIRST CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 20,
+      "serial": "julius-caesar-a03-s03-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0007",
+      "speech_seq": 1,
+      "line_number": 10,
+      "line_serial": "julius-caesar-a03-s03-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Ay, and briefly.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ay",
+              "norm": "ay",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0010-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "briefly",
+              "norm": "briefly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0010-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "julius-caesar-a03-s03-i0021",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 22,
+      "serial": "julius-caesar-a03-s03-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0008",
+      "speech_seq": 1,
+      "line_number": 11,
+      "line_serial": "julius-caesar-a03-s03-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Ay, and wisely.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ay",
+              "norm": "ay",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0011-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "wisely",
+              "norm": "wisely",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0011-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "julius-caesar-a03-s03-i0023",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 24,
+      "serial": "julius-caesar-a03-s03-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0009",
+      "speech_seq": 1,
+      "line_number": 12,
+      "line_serial": "julius-caesar-a03-s03-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Ay, and truly, you were best.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ay",
+              "norm": "ay",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0012-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "truly",
+              "norm": "truly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0012-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "were",
+              "norm": "were",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "best",
+              "norm": "best",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0012-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "julius-caesar-a03-s03-i0025",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 26,
+      "serial": "julius-caesar-a03-s03-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0010",
+      "speech_seq": 1,
+      "line_number": 13,
+      "line_serial": "julius-caesar-a03-s03-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What is my name? Whither am I going? Where do I dwell? Am I a married",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "name",
+              "norm": "name",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0013-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Whither",
+              "norm": "whither",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "going",
+              "norm": "going",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0013-t010",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "dwell",
+              "norm": "dwell",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t014"
+            },
+            {
+              "i": 15,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0013-t015",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "Am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t016"
+            },
+            {
+              "i": 17,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t017"
+            },
+            {
+              "i": 18,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t018"
+            },
+            {
+              "i": 19,
+              "type": "word",
+              "s": "married",
+              "norm": "married",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0013-t019"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "julius-caesar-a03-s03-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0010",
+      "speech_seq": 2,
+      "line_number": 14,
+      "line_serial": "julius-caesar-a03-s03-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "man or a bachelor? Then, to answer every man directly and briefly,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bachelor",
+              "norm": "bachelor",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0014-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0014-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "answer",
+              "norm": "answer",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "every",
+              "norm": "every",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "directly",
+              "norm": "directly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "briefly",
+              "norm": "briefly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0014-t014"
+            },
+            {
+              "i": 15,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0014-t015",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "julius-caesar-a03-s03-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0010",
+      "speech_seq": 3,
+      "line_number": 15,
+      "line_serial": "julius-caesar-a03-s03-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "wisely and truly. Wisely I say I am a bachelor.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "wisely",
+              "norm": "wisely",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "truly",
+              "norm": "truly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0015-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Wisely",
+              "norm": "wisely",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "say",
+              "norm": "say",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "bachelor",
+              "norm": "bachelor",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0015-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0015-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "julius-caesar-a03-s03-i0029",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 30,
+      "serial": "julius-caesar-a03-s03-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0011",
+      "speech_seq": 1,
+      "line_number": 16,
+      "line_serial": "julius-caesar-a03-s03-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That’s as much as to say they are fools that marry; you’ll bear me a",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That’s",
+              "norm": "that's",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "say",
+              "norm": "say",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "fools",
+              "norm": "fools",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "marry",
+              "norm": "marry",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0016-t012",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "you’ll",
+              "norm": "you'll",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "bear",
+              "norm": "bear",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t014"
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t015"
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0016-t016"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "julius-caesar-a03-s03-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0011",
+      "speech_seq": 2,
+      "line_number": 17,
+      "line_serial": "julius-caesar-a03-s03-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "bang for that, I fear. Proceed, directly.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "bang",
+              "norm": "bang",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0017-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "fear",
+              "norm": "fear",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0017-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Proceed",
+              "norm": "proceed",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0017-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "directly",
+              "norm": "directly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0017-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0017-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "julius-caesar-a03-s03-i0032",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 33,
+      "serial": "julius-caesar-a03-s03-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0012",
+      "speech_seq": 1,
+      "line_number": 18,
+      "line_serial": "julius-caesar-a03-s03-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Directly, I am going to Caesar’s funeral.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Directly",
+              "norm": "directly",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0018-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "going",
+              "norm": "going",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Caesar’s",
+              "norm": "caesar's",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "funeral",
+              "norm": "funeral",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0018-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "julius-caesar-a03-s03-i0034",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FIRST CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 35,
+      "serial": "julius-caesar-a03-s03-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0013",
+      "speech_seq": 1,
+      "line_number": 19,
+      "line_serial": "julius-caesar-a03-s03-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As a friend, or an enemy?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "friend",
+              "norm": "friend",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0019-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0019-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "enemy",
+              "norm": "enemy",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0019-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0019-t008",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "julius-caesar-a03-s03-i0036",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 37,
+      "serial": "julius-caesar-a03-s03-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0014",
+      "speech_seq": 1,
+      "line_number": 20,
+      "line_serial": "julius-caesar-a03-s03-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As a friend.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "friend",
+              "norm": "friend",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0020-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "julius-caesar-a03-s03-i0038",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 39,
+      "serial": "julius-caesar-a03-s03-i0039",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SECOND CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0015",
+      "speech_seq": 1,
+      "line_number": 21,
+      "line_serial": "julius-caesar-a03-s03-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That matter is answered directly.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "matter",
+              "norm": "matter",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "answered",
+              "norm": "answered",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "directly",
+              "norm": "directly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0021-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 40,
+      "serial": "julius-caesar-a03-s03-i0040",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 41,
+      "serial": "julius-caesar-a03-s03-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0016",
+      "speech_seq": 1,
+      "line_number": 22,
+      "line_serial": "julius-caesar-a03-s03-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For your dwelling, briefly.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "dwelling",
+              "norm": "dwelling",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0022-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "briefly",
+              "norm": "briefly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0022-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "julius-caesar-a03-s03-i0042",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 43,
+      "serial": "julius-caesar-a03-s03-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0017",
+      "speech_seq": 1,
+      "line_number": 23,
+      "line_serial": "julius-caesar-a03-s03-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Briefly, I dwell by the Capitol.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Briefly",
+              "norm": "briefly",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0023-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "dwell",
+              "norm": "dwell",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Capitol",
+              "norm": "capitol",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0023-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "julius-caesar-a03-s03-i0044",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 45,
+      "serial": "julius-caesar-a03-s03-i0045",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0018",
+      "speech_seq": 1,
+      "line_number": 24,
+      "line_serial": "julius-caesar-a03-s03-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Your name, sir, truly.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Your",
+              "norm": "your",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "name",
+              "norm": "name",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0024-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "sir",
+              "norm": "sir",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0024-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "truly",
+              "norm": "truly",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0024-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 46,
+      "serial": "julius-caesar-a03-s03-i0046",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 47,
+      "serial": "julius-caesar-a03-s03-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0019",
+      "speech_seq": 1,
+      "line_number": 25,
+      "line_serial": "julius-caesar-a03-s03-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Truly, my name is Cinna.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Truly",
+              "norm": "truly",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0025-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "name",
+              "norm": "name",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Cinna",
+              "norm": "cinna",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0025-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "julius-caesar-a03-s03-i0048",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FIRST CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 49,
+      "serial": "julius-caesar-a03-s03-i0049",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0020",
+      "speech_seq": 1,
+      "line_number": 26,
+      "line_serial": "julius-caesar-a03-s03-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Tear him to pieces! He’s a conspirator.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Tear",
+              "norm": "tear",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "pieces",
+              "norm": "pieces",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0026-t005",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "He’s",
+              "norm": "he's",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0026-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "conspirator",
+              "norm": "conspirator",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0026-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0026-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 50,
+      "serial": "julius-caesar-a03-s03-i0050",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 51,
+      "serial": "julius-caesar-a03-s03-i0051",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0021",
+      "speech_seq": 1,
+      "line_number": 27,
+      "line_serial": "julius-caesar-a03-s03-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I am Cinna the poet, I am Cinna the poet.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Cinna",
+              "norm": "cinna",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "poet",
+              "norm": "poet",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0027-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Cinna",
+              "norm": "cinna",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "poet",
+              "norm": "poet",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0027-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0027-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 52,
+      "serial": "julius-caesar-a03-s03-i0052",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 53,
+      "serial": "julius-caesar-a03-s03-i0053",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0022",
+      "speech_seq": 1,
+      "line_number": 28,
+      "line_serial": "julius-caesar-a03-s03-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Tear him for his bad verses, tear him for his bad verses.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Tear",
+              "norm": "tear",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "bad",
+              "norm": "bad",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "verses",
+              "norm": "verses",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0028-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "tear",
+              "norm": "tear",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "bad",
+              "norm": "bad",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "verses",
+              "norm": "verses",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0028-t013"
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0028-t014",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 54,
+      "serial": "julius-caesar-a03-s03-i0054",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 55,
+      "serial": "julius-caesar-a03-s03-i0055",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CINNA",
+      "speech_id": "julius-caesar-a03-s03-s0023",
+      "speech_seq": 1,
+      "line_number": 29,
+      "line_serial": "julius-caesar-a03-s03-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I am not Cinna the conspirator.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Cinna",
+              "norm": "cinna",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "conspirator",
+              "norm": "conspirator",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0029-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 56,
+      "serial": "julius-caesar-a03-s03-i0056",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 57,
+      "serial": "julius-caesar-a03-s03-i0057",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0024",
+      "speech_seq": 1,
+      "line_number": 30,
+      "line_serial": "julius-caesar-a03-s03-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "It is no matter, his name’s Cinna; pluck but his name out of his heart,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "matter",
+              "norm": "matter",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0030-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "name’s",
+              "norm": "name's",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Cinna",
+              "norm": "cinna",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0030-t009",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "pluck",
+              "norm": "pluck",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "name",
+              "norm": "name",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t014"
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t015"
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t016"
+            },
+            {
+              "i": 17,
+              "type": "word",
+              "s": "heart",
+              "norm": "heart",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0030-t017"
+            },
+            {
+              "i": 18,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0030-t018",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 58,
+      "serial": "julius-caesar-a03-s03-i0058",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FOURTH CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0024",
+      "speech_seq": 2,
+      "line_number": 31,
+      "line_serial": "julius-caesar-a03-s03-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "and turn him going.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "turn",
+              "norm": "turn",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "going",
+              "norm": "going",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0031-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 59,
+      "serial": "julius-caesar-a03-s03-i0059",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 60,
+      "serial": "julius-caesar-a03-s03-i0060",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0025",
+      "speech_seq": 1,
+      "line_number": 32,
+      "line_serial": "julius-caesar-a03-s03-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Tear him, tear him! Come; brands, ho! firebrands. To Brutus’, to",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Tear",
+              "norm": "tear",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0032-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "tear",
+              "norm": "tear",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0032-t006",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0032-t008",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "brands",
+              "norm": "brands",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0032-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "ho",
+              "norm": "ho",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0032-t012",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "firebrands",
+              "norm": "firebrands",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t013"
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0032-t014",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t015"
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "Brutus’",
+              "norm": "brutus'",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t016"
+            },
+            {
+              "i": 17,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0032-t017",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 18,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0032-t018"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 61,
+      "serial": "julius-caesar-a03-s03-i0061",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0025",
+      "speech_seq": 2,
+      "line_number": 33,
+      "line_serial": "julius-caesar-a03-s03-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Cassius’; burn all. Some to Decius’ house, and some to Casca’s, some to",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Cassius’",
+              "norm": "cassius'",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0033-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0033-t002",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "burn",
+              "norm": "burn",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0033-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Decius’",
+              "norm": "decius'",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "house",
+              "norm": "house",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0033-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "Casca’s",
+              "norm": "casca's",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t014"
+            },
+            {
+              "i": 15,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0033-t015",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t016"
+            },
+            {
+              "i": 17,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0033-t017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 62,
+      "serial": "julius-caesar-a03-s03-i0062",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THIRD CITIZEN",
+      "speech_id": "julius-caesar-a03-s03-s0025",
+      "speech_seq": 3,
+      "line_number": 34,
+      "line_serial": "julius-caesar-a03-s03-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Ligarius’. Away, go!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ligarius’",
+              "norm": "ligarius'",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0034-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0034-t002",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0034-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0034-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "julius-caesar-a03-s03-l0034-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-l0034-t006",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 63,
+      "serial": "julius-caesar-a03-s03-i0063",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0063-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "julius-caesar-a03-s03-i0063-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

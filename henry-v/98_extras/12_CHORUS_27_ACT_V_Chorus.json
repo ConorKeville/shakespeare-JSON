@@ -1,0 +1,4840 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "henry-v/98_extras/12_CHORUS_27_ACT_V_Chorus.txt"
+    },
+    "play": {
+      "id": "henry-v",
+      "title": "Henry V",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "chorus",
+      "act": 5,
+      "scene": null,
+      "label": null,
+      "title": null,
+      "unit_key": "12-chorus-27-act-v-chorus",
+      "unit_id": "henry-v-12-chorus-27-act-v-chorus",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT V",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "V",
+              "norm": "v",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0002",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Chorus.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-i0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Chorus",
+              "norm": "chorus",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-i0002-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-i0002-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0003",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 4,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Vouchsafe to those that have not read the story,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Vouchsafe",
+              "norm": "vouchsafe",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "those",
+              "norm": "those",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "read",
+              "norm": "read",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "story",
+              "norm": "story",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0001-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That I may prompt them; and of such as have,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "prompt",
+              "norm": "prompt",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "such",
+              "norm": "such",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0002-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I humbly pray them to admit the excuse",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "humbly",
+              "norm": "humbly",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "pray",
+              "norm": "pray",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "admit",
+              "norm": "admit",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "excuse",
+              "norm": "excuse",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0003-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Of time, of numbers, and due course of things,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Of",
+              "norm": "of",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "numbers",
+              "norm": "numbers",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "due",
+              "norm": "due",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "course",
+              "norm": "course",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "things",
+              "norm": "things",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0004-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Which cannot in their huge and proper life",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Which",
+              "norm": "which",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "cannot",
+              "norm": "cannot",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "huge",
+              "norm": "huge",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "proper",
+              "norm": "proper",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "life",
+              "norm": "life",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0005-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Be here presented. Now we bear the King",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Be",
+              "norm": "be",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "presented",
+              "norm": "presented",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "bear",
+              "norm": "bear",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0006-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Toward Calais; grant him there; there seen,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Toward",
+              "norm": "toward",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Calais",
+              "norm": "calais",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t003",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "grant",
+              "norm": "grant",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "seen",
+              "norm": "seen",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0007-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Heave him away upon your winged thoughts",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Heave",
+              "norm": "heave",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "upon",
+              "norm": "upon",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "winged",
+              "norm": "winged",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "thoughts",
+              "norm": "thoughts",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0008-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Athwart the sea. Behold, the English beach",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Athwart",
+              "norm": "athwart",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "sea",
+              "norm": "sea",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Behold",
+              "norm": "behold",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "English",
+              "norm": "english",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "beach",
+              "norm": "beach",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0009-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Pales in the flood with men, with wives and boys,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Pales",
+              "norm": "pales",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "flood",
+              "norm": "flood",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "wives",
+              "norm": "wives",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "boys",
+              "norm": "boys",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0010-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 11,
+      "line_number": 11,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Whose shouts and claps out-voice the deep-mouth’d sea,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Whose",
+              "norm": "whose",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "shouts",
+              "norm": "shouts",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "claps",
+              "norm": "claps",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t005"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t006",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 6
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "voice",
+              "norm": "voice",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "deep",
+              "norm": "deep",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t009"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t010",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 10
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "mouth’d",
+              "norm": "mouth'd",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "sea",
+              "norm": "sea",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0011-t013",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 12,
+      "line_number": 12,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Which like a mighty whiffler ’fore the King",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Which",
+              "norm": "which",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "mighty",
+              "norm": "mighty",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "whiffler",
+              "norm": "whiffler",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "’fore",
+              "norm": "'fore",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0012-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 13,
+      "line_number": 13,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Seems to prepare his way. So let him land,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Seems",
+              "norm": "seems",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "prepare",
+              "norm": "prepare",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "way",
+              "norm": "way",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "land",
+              "norm": "land",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0013-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 14,
+      "line_number": 14,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And solemnly see him set on to London.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "solemnly",
+              "norm": "solemnly",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "set",
+              "norm": "set",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "London",
+              "norm": "london",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0014-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 15,
+      "line_number": 15,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "So swift a pace hath thought that even now",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "swift",
+              "norm": "swift",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "pace",
+              "norm": "pace",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "thought",
+              "norm": "thought",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "even",
+              "norm": "even",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0015-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 16,
+      "line_number": 16,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "You may imagine him upon Blackheath,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "You",
+              "norm": "you",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "imagine",
+              "norm": "imagine",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "upon",
+              "norm": "upon",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Blackheath",
+              "norm": "blackheath",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0016-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 17,
+      "line_number": 17,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Where that his lords desire him to have borne",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "lords",
+              "norm": "lords",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "desire",
+              "norm": "desire",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "borne",
+              "norm": "borne",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0017-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 18,
+      "line_number": 18,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "His bruised helmet and his bended sword",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "His",
+              "norm": "his",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "bruised",
+              "norm": "bruised",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "helmet",
+              "norm": "helmet",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "bended",
+              "norm": "bended",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "sword",
+              "norm": "sword",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0018-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 19,
+      "line_number": 19,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Before him through the city. He forbids it,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Before",
+              "norm": "before",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "through",
+              "norm": "through",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "city",
+              "norm": "city",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "forbids",
+              "norm": "forbids",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0019-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 20,
+      "line_number": 20,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Being free from vainness and self-glorious pride;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Being",
+              "norm": "being",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "free",
+              "norm": "free",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "vainness",
+              "norm": "vainness",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "self",
+              "norm": "self",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t006"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 7
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "glorious",
+              "norm": "glorious",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "pride",
+              "norm": "pride",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0020-t010",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 21,
+      "line_number": 21,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Giving full trophy, signal, and ostent",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Giving",
+              "norm": "giving",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "full",
+              "norm": "full",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "trophy",
+              "norm": "trophy",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0021-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "signal",
+              "norm": "signal",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0021-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "ostent",
+              "norm": "ostent",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0021-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 22,
+      "line_number": 22,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Quite from himself to God. But now behold,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Quite",
+              "norm": "quite",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "himself",
+              "norm": "himself",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "God",
+              "norm": "god",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "behold",
+              "norm": "behold",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0022-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 23,
+      "line_number": 23,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In the quick forge and working-house of thought,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "quick",
+              "norm": "quick",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "forge",
+              "norm": "forge",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "working",
+              "norm": "working",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t006"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 7
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "house",
+              "norm": "house",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "thought",
+              "norm": "thought",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0023-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 24,
+      "line_number": 24,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "How London doth pour out her citizens!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "How",
+              "norm": "how",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "London",
+              "norm": "london",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "doth",
+              "norm": "doth",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "pour",
+              "norm": "pour",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "citizens",
+              "norm": "citizens",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0024-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0024-t008",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 25,
+      "line_number": 25,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The mayor and all his brethren in best sort,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "mayor",
+              "norm": "mayor",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "brethren",
+              "norm": "brethren",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "best",
+              "norm": "best",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "sort",
+              "norm": "sort",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0025-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 26,
+      "line_number": 26,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Like to the senators of th’ antique Rome,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Like",
+              "norm": "like",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "senators",
+              "norm": "senators",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "th’",
+              "norm": "th'",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "antique",
+              "norm": "antique",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Rome",
+              "norm": "rome",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0026-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 27,
+      "line_number": 27,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "With the plebeians swarming at their heels,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "With",
+              "norm": "with",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "plebeians",
+              "norm": "plebeians",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "swarming",
+              "norm": "swarming",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "heels",
+              "norm": "heels",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0027-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 28,
+      "line_number": 28,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Go forth and fetch their conquering Caesar in;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Go",
+              "norm": "go",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fetch",
+              "norm": "fetch",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "conquering",
+              "norm": "conquering",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Caesar",
+              "norm": "caesar",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0028-t009",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 29,
+      "line_number": 29,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As, by a lower but loving likelihood,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "lower",
+              "norm": "lower",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "loving",
+              "norm": "loving",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "likelihood",
+              "norm": "likelihood",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0029-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 30,
+      "line_number": 30,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Were now the general of our gracious empress,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Were",
+              "norm": "were",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "general",
+              "norm": "general",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "gracious",
+              "norm": "gracious",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "empress",
+              "norm": "empress",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0030-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0034",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 31,
+      "line_number": 31,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As in good time he may, from Ireland coming,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Ireland",
+              "norm": "ireland",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "coming",
+              "norm": "coming",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0031-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 32,
+      "line_number": 32,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Bringing rebellion broached on his sword,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Bringing",
+              "norm": "bringing",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "rebellion",
+              "norm": "rebellion",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "broached",
+              "norm": "broached",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0032-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "sword",
+              "norm": "sword",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0032-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0032-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 33,
+      "line_number": 33,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "How many would the peaceful city quit,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "How",
+              "norm": "how",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0033-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "many",
+              "norm": "many",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0033-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0033-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0033-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "peaceful",
+              "norm": "peaceful",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0033-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "city",
+              "norm": "city",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0033-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "quit",
+              "norm": "quit",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0033-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0033-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 34,
+      "line_number": 34,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To welcome him! Much more, and much more cause,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "welcome",
+              "norm": "welcome",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t004",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "cause",
+              "norm": "cause",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0034-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0038",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 35,
+      "line_number": 35,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0035",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Did they this Harry. Now in London place him;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Did",
+              "norm": "did",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Harry",
+              "norm": "harry",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "London",
+              "norm": "london",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "place",
+              "norm": "place",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0035-t011",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0039",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 36,
+      "line_number": 36,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0036",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As yet the lamentation of the French",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0036-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "yet",
+              "norm": "yet",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0036-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0036-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "lamentation",
+              "norm": "lamentation",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0036-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0036-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0036-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "French",
+              "norm": "french",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0036-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 40,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0040",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 37,
+      "line_number": 37,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0037",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Invites the King of England’s stay at home,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Invites",
+              "norm": "invites",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "England’s",
+              "norm": "england's",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "stay",
+              "norm": "stay",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "home",
+              "norm": "home",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0037-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 38,
+      "line_number": 38,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0038",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The Emperor’s coming in behalf of France,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0038-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Emperor’s",
+              "norm": "emperor's",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0038-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "coming",
+              "norm": "coming",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0038-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0038-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "behalf",
+              "norm": "behalf",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0038-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0038-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "France",
+              "norm": "france",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0038-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0038-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0042",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 39,
+      "line_number": 39,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0039",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To order peace between them;—and omit",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "order",
+              "norm": "order",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "peace",
+              "norm": "peace",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "between",
+              "norm": "between",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "omit",
+              "norm": "omit",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0039-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 43,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 40,
+      "line_number": 40,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0040",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "All the occurrences, whatever chanc’d,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0040-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0040-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "occurrences",
+              "norm": "occurrences",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0040-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0040-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "whatever",
+              "norm": "whatever",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0040-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "chanc’d",
+              "norm": "chanc'd",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0040-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0040-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0044",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 41,
+      "line_number": 41,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0041",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Till Harry’s back-return again to France.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Till",
+              "norm": "till",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Harry’s",
+              "norm": "harry's",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "back",
+              "norm": "back",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t003"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t004",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 4
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "return",
+              "norm": "return",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "again",
+              "norm": "again",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "France",
+              "norm": "france",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0041-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 45,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0045",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 42,
+      "line_number": 42,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0042",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "There must we bring him; and myself have play’d",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "There",
+              "norm": "there",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bring",
+              "norm": "bring",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "myself",
+              "norm": "myself",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "play’d",
+              "norm": "play'd",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0042-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 46,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0046",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 43,
+      "line_number": 43,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0043",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The interim, by rememb’ring you ’tis past.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "interim",
+              "norm": "interim",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "rememb’ring",
+              "norm": "rememb'ring",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "past",
+              "norm": "past",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0043-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 47,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 44,
+      "line_number": 44,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0044",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Then brook abridgement, and your eyes advance",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Then",
+              "norm": "then",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0044-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "brook",
+              "norm": "brook",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0044-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "abridgement",
+              "norm": "abridgement",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0044-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0044-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0044-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0044-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "eyes",
+              "norm": "eyes",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0044-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "advance",
+              "norm": "advance",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0044-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0048",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-12-chorus-27-act-v-chorus-s0001",
+      "speech_seq": 45,
+      "line_number": 45,
+      "line_serial": "henry-v-12-chorus-27-act-v-chorus-l0045",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "After your thoughts, straight back again to France.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "After",
+              "norm": "after",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "thoughts",
+              "norm": "thoughts",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "straight",
+              "norm": "straight",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "back",
+              "norm": "back",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "again",
+              "norm": "again",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "France",
+              "norm": "france",
+              "pre": " ",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-l0045-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 49,
+      "serial": "henry-v-12-chorus-27-act-v-chorus-i0049",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-i0049-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-12-chorus-27-act-v-chorus-i0049-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

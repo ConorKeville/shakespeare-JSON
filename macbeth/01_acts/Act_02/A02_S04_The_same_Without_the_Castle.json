@@ -1,0 +1,5409 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "macbeth/01_acts/Act_02/A02_S04_The_same_Without_the_Castle.txt"
+    },
+    "play": {
+      "id": "macbeth",
+      "title": "Macbeth",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 2,
+      "scene": 4,
+      "label": "Act II, Scene IV",
+      "title": "SCENE IV. The same. Without the Castle.",
+      "unit_key": "a02-s04",
+      "unit_id": "macbeth-a02-s04",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "macbeth-a02-s04-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT II",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "II",
+              "norm": "ii",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "macbeth-a02-s04-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE IV. The same. Without the Castle.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "IV",
+              "norm": "iv",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0002-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "same",
+              "norm": "same",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0002-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Without",
+              "norm": "without",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Castle",
+              "norm": "castle",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0002-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "macbeth-a02-s04-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Ross and an Old Man.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Ross",
+              "norm": "ross",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0003-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Old",
+              "norm": "old",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0003-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0003-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0003-t007",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "macbeth-a02-s04-i0004",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "macbeth-a02-s04-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "macbeth-a02-s04-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Threescore and ten I can remember well,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Threescore",
+              "norm": "threescore",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "ten",
+              "norm": "ten",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "can",
+              "norm": "can",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "remember",
+              "norm": "remember",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "well",
+              "norm": "well",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0001-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "macbeth-a02-s04-i0006",
+      "kind": "stage",
+      "subtype": "within",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Within the volume of which time I have seen",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Within",
+              "norm": "within",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0006-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0006-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "volume",
+              "norm": "volume",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0006-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0006-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "which",
+              "norm": "which",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0006-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0006-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0006-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0006-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "seen",
+              "norm": "seen",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0006-t009",
+              "em": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "macbeth-a02-s04-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "macbeth-a02-s04-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hours dreadful and things strange, but this sore night",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hours",
+              "norm": "hours",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "dreadful",
+              "norm": "dreadful",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "things",
+              "norm": "things",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "strange",
+              "norm": "strange",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0002-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "sore",
+              "norm": "sore",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "night",
+              "norm": "night",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0002-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "macbeth-a02-s04-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "macbeth-a02-s04-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hath trifled former knowings.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hath",
+              "norm": "hath",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "trifled",
+              "norm": "trifled",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "former",
+              "norm": "former",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "knowings",
+              "norm": "knowings",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0003-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "macbeth-a02-s04-i0009",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 10,
+      "serial": "macbeth-a02-s04-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0003",
+      "speech_seq": 1,
+      "line_number": 4,
+      "line_serial": "macbeth-a02-s04-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Ha, good father,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ha",
+              "norm": "ha",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0004-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "father",
+              "norm": "father",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0004-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "macbeth-a02-s04-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0003",
+      "speech_seq": 2,
+      "line_number": 5,
+      "line_serial": "macbeth-a02-s04-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thou seest the heavens, as troubled with man’s act,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thou",
+              "norm": "thou",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "seest",
+              "norm": "seest",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "heavens",
+              "norm": "heavens",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0005-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "troubled",
+              "norm": "troubled",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "man’s",
+              "norm": "man's",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "act",
+              "norm": "act",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0005-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0005-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "macbeth-a02-s04-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0003",
+      "speech_seq": 3,
+      "line_number": 6,
+      "line_serial": "macbeth-a02-s04-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Threatens his bloody stage: by the clock ’tis day,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Threatens",
+              "norm": "threatens",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "bloody",
+              "norm": "bloody",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "stage",
+              "norm": "stage",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0006-t005",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "clock",
+              "norm": "clock",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0006-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0006-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "macbeth-a02-s04-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0003",
+      "speech_seq": 4,
+      "line_number": 7,
+      "line_serial": "macbeth-a02-s04-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And yet dark night strangles the travelling lamp.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "yet",
+              "norm": "yet",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "dark",
+              "norm": "dark",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "night",
+              "norm": "night",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "strangles",
+              "norm": "strangles",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "travelling",
+              "norm": "travelling",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "lamp",
+              "norm": "lamp",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0007-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "macbeth-a02-s04-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0003",
+      "speech_seq": 5,
+      "line_number": 8,
+      "line_serial": "macbeth-a02-s04-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Is’t night’s predominance, or the day’s shame,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Is’t",
+              "norm": "is't",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "night’s",
+              "norm": "night's",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "predominance",
+              "norm": "predominance",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0008-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "day’s",
+              "norm": "day's",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "shame",
+              "norm": "shame",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0008-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "macbeth-a02-s04-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0003",
+      "speech_seq": 6,
+      "line_number": 9,
+      "line_serial": "macbeth-a02-s04-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That darkness does the face of earth entomb,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "darkness",
+              "norm": "darkness",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "does",
+              "norm": "does",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "face",
+              "norm": "face",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "earth",
+              "norm": "earth",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "entomb",
+              "norm": "entomb",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0009-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "macbeth-a02-s04-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0003",
+      "speech_seq": 7,
+      "line_number": 10,
+      "line_serial": "macbeth-a02-s04-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "When living light should kiss it?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "When",
+              "norm": "when",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "living",
+              "norm": "living",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "light",
+              "norm": "light",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "should",
+              "norm": "should",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "kiss",
+              "norm": "kiss",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0010-t007",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "macbeth-a02-s04-i0017",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 18,
+      "serial": "macbeth-a02-s04-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0004",
+      "speech_seq": 1,
+      "line_number": 11,
+      "line_serial": "macbeth-a02-s04-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "’Tis unnatural,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "’Tis",
+              "norm": "'tis",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "unnatural",
+              "norm": "unnatural",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0011-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "macbeth-a02-s04-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0004",
+      "speech_seq": 2,
+      "line_number": 12,
+      "line_serial": "macbeth-a02-s04-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Even like the deed that’s done. On Tuesday last,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Even",
+              "norm": "even",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "deed",
+              "norm": "deed",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "that’s",
+              "norm": "that's",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "done",
+              "norm": "done",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0012-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "On",
+              "norm": "on",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Tuesday",
+              "norm": "tuesday",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "last",
+              "norm": "last",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0012-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0012-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "macbeth-a02-s04-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0004",
+      "speech_seq": 3,
+      "line_number": 13,
+      "line_serial": "macbeth-a02-s04-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A falcon, towering in her pride of place,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "falcon",
+              "norm": "falcon",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0013-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "towering",
+              "norm": "towering",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "pride",
+              "norm": "pride",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "place",
+              "norm": "place",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0013-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "macbeth-a02-s04-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0004",
+      "speech_seq": 4,
+      "line_number": 14,
+      "line_serial": "macbeth-a02-s04-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Was by a mousing owl hawk’d at and kill’d.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Was",
+              "norm": "was",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "mousing",
+              "norm": "mousing",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "owl",
+              "norm": "owl",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hawk’d",
+              "norm": "hawk'd",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "kill’d",
+              "norm": "kill'd",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0014-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "macbeth-a02-s04-i0022",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 23,
+      "serial": "macbeth-a02-s04-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0005",
+      "speech_seq": 1,
+      "line_number": 15,
+      "line_serial": "macbeth-a02-s04-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And Duncan’s horses (a thing most strange and certain)",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Duncan’s",
+              "norm": "duncan's",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "horses",
+              "norm": "horses",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "(",
+              "norm": "(",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0015-t004",
+              "punct": {
+                "kind": "paren_open",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "thing",
+              "norm": "thing",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "most",
+              "norm": "most",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "strange",
+              "norm": "strange",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0015-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "certain",
+              "norm": "certain",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0015-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ")",
+              "norm": ")",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0015-t011",
+              "punct": {
+                "kind": "paren_close",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "macbeth-a02-s04-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0005",
+      "speech_seq": 2,
+      "line_number": 16,
+      "line_serial": "macbeth-a02-s04-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Beauteous and swift, the minions of their race,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Beauteous",
+              "norm": "beauteous",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "swift",
+              "norm": "swift",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0016-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "minions",
+              "norm": "minions",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "race",
+              "norm": "race",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0016-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0016-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "macbeth-a02-s04-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0005",
+      "speech_seq": 3,
+      "line_number": 17,
+      "line_serial": "macbeth-a02-s04-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Turn’d wild in nature, broke their stalls, flung out,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Turn’d",
+              "norm": "turn'd",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "wild",
+              "norm": "wild",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "nature",
+              "norm": "nature",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0017-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "broke",
+              "norm": "broke",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "stalls",
+              "norm": "stalls",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0017-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "flung",
+              "norm": "flung",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0017-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0017-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0017-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "macbeth-a02-s04-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0005",
+      "speech_seq": 4,
+      "line_number": 18,
+      "line_serial": "macbeth-a02-s04-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Contending ’gainst obedience, as they would make",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Contending",
+              "norm": "contending",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "’gainst",
+              "norm": "'gainst",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "obedience",
+              "norm": "obedience",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0018-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0018-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "macbeth-a02-s04-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0005",
+      "speech_seq": 5,
+      "line_number": 19,
+      "line_serial": "macbeth-a02-s04-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "War with mankind.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "War",
+              "norm": "war",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "mankind",
+              "norm": "mankind",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0019-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "macbeth-a02-s04-i0028",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 29,
+      "serial": "macbeth-a02-s04-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0006",
+      "speech_seq": 1,
+      "line_number": 20,
+      "line_serial": "macbeth-a02-s04-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "’Tis said they eat each other.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "’Tis",
+              "norm": "'tis",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "said",
+              "norm": "said",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "eat",
+              "norm": "eat",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "each",
+              "norm": "each",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "other",
+              "norm": "other",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0020-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "macbeth-a02-s04-i0030",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 31,
+      "serial": "macbeth-a02-s04-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0007",
+      "speech_seq": 1,
+      "line_number": 21,
+      "line_serial": "macbeth-a02-s04-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "They did so; to the amazement of mine eyes,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "They",
+              "norm": "they",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0021-t004",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "amazement",
+              "norm": "amazement",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0021-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "mine",
+              "norm": "mine",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0021-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "eyes",
+              "norm": "eyes",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0021-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0021-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "macbeth-a02-s04-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0007",
+      "speech_seq": 2,
+      "line_number": 22,
+      "line_serial": "macbeth-a02-s04-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That look’d upon’t.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "look’d",
+              "norm": "look'd",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "upon’t",
+              "norm": "upon't",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0022-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "macbeth-a02-s04-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0007",
+      "speech_seq": 3,
+      "line_number": 23,
+      "line_serial": "macbeth-a02-s04-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Here comes the good Macduff.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Here",
+              "norm": "here",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "comes",
+              "norm": "comes",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Macduff",
+              "norm": "macduff",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0023-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "macbeth-a02-s04-i0034",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Macduff.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0034-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Macduff",
+              "norm": "macduff",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0034-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0034-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "macbeth-a02-s04-i0036",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 36,
+      "serial": "macbeth-a02-s04-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0008",
+      "speech_seq": 1,
+      "line_number": 24,
+      "line_serial": "macbeth-a02-s04-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "How goes the world, sir, now?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "How",
+              "norm": "how",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0035-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "goes",
+              "norm": "goes",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0035-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0035-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "world",
+              "norm": "world",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0035-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0035-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "sir",
+              "norm": "sir",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0035-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0035-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-i0035-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0035-t009",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "macbeth-a02-s04-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0008",
+      "speech_seq": 2,
+      "line_number": 25,
+      "line_serial": "macbeth-a02-s04-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Why, see you not?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Why",
+              "norm": "why",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0024-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0024-t006",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "macbeth-a02-s04-i0038",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 39,
+      "serial": "macbeth-a02-s04-i0039",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0009",
+      "speech_seq": 1,
+      "line_number": 26,
+      "line_serial": "macbeth-a02-s04-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Is’t known who did this more than bloody deed?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Is’t",
+              "norm": "is't",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "known",
+              "norm": "known",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "who",
+              "norm": "who",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "than",
+              "norm": "than",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "bloody",
+              "norm": "bloody",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "deed",
+              "norm": "deed",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0025-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0025-t010",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 40,
+      "serial": "macbeth-a02-s04-i0040",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 41,
+      "serial": "macbeth-a02-s04-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0010",
+      "speech_seq": 1,
+      "line_number": 27,
+      "line_serial": "macbeth-a02-s04-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Those that Macbeth hath slain.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Those",
+              "norm": "those",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Macbeth",
+              "norm": "macbeth",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "slain",
+              "norm": "slain",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0026-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "macbeth-a02-s04-i0042",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 43,
+      "serial": "macbeth-a02-s04-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0011",
+      "speech_seq": 1,
+      "line_number": 28,
+      "line_serial": "macbeth-a02-s04-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Alas, the day!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Alas",
+              "norm": "alas",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0027-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0027-t005",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "macbeth-a02-s04-i0044",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0011",
+      "speech_seq": 2,
+      "line_number": 29,
+      "line_serial": "macbeth-a02-s04-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What good could they pretend?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "could",
+              "norm": "could",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "pretend",
+              "norm": "pretend",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0028-t006",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 45,
+      "serial": "macbeth-a02-s04-i0045",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 46,
+      "serial": "macbeth-a02-s04-i0046",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0012",
+      "speech_seq": 1,
+      "line_number": 30,
+      "line_serial": "macbeth-a02-s04-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "They were suborn’d.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "They",
+              "norm": "they",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "were",
+              "norm": "were",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "suborn’d",
+              "norm": "suborn'd",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0029-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 47,
+      "serial": "macbeth-a02-s04-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0012",
+      "speech_seq": 2,
+      "line_number": 31,
+      "line_serial": "macbeth-a02-s04-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Malcolm and Donalbain, the King’s two sons,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Malcolm",
+              "norm": "malcolm",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Donalbain",
+              "norm": "donalbain",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0030-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "King’s",
+              "norm": "king's",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "sons",
+              "norm": "sons",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0030-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0030-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "macbeth-a02-s04-i0048",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0012",
+      "speech_seq": 3,
+      "line_number": 32,
+      "line_serial": "macbeth-a02-s04-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Are stol’n away and fled; which puts upon them",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Are",
+              "norm": "are",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "stol’n",
+              "norm": "stol'n",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "fled",
+              "norm": "fled",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0031-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "which",
+              "norm": "which",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0031-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "puts",
+              "norm": "puts",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0031-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "upon",
+              "norm": "upon",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0031-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0031-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 49,
+      "serial": "macbeth-a02-s04-i0049",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0012",
+      "speech_seq": 4,
+      "line_number": 33,
+      "line_serial": "macbeth-a02-s04-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Suspicion of the deed.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Suspicion",
+              "norm": "suspicion",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "deed",
+              "norm": "deed",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0032-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 50,
+      "serial": "macbeth-a02-s04-i0050",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 51,
+      "serial": "macbeth-a02-s04-i0051",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0013",
+      "speech_seq": 1,
+      "line_number": 34,
+      "line_serial": "macbeth-a02-s04-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "’Gainst nature still:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "’Gainst",
+              "norm": "'gainst",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0033-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "nature",
+              "norm": "nature",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0033-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "still",
+              "norm": "still",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0033-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0033-t004",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 52,
+      "serial": "macbeth-a02-s04-i0052",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0013",
+      "speech_seq": 2,
+      "line_number": 35,
+      "line_serial": "macbeth-a02-s04-l0035",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thriftless ambition, that will ravin up",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thriftless",
+              "norm": "thriftless",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0034-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "ambition",
+              "norm": "ambition",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0034-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0034-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0034-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0034-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "ravin",
+              "norm": "ravin",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0034-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "up",
+              "norm": "up",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0034-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 53,
+      "serial": "macbeth-a02-s04-i0053",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0013",
+      "speech_seq": 3,
+      "line_number": 36,
+      "line_serial": "macbeth-a02-s04-l0036",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thine own life’s means!—Then ’tis most like",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thine",
+              "norm": "thine",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0035-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "own",
+              "norm": "own",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0035-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "life’s",
+              "norm": "life's",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0035-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "means",
+              "norm": "means",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0035-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0035-t005",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0035-t006",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Then",
+              "norm": "then",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0035-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0035-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "most",
+              "norm": "most",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0035-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0035-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 54,
+      "serial": "macbeth-a02-s04-i0054",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0013",
+      "speech_seq": 4,
+      "line_number": 37,
+      "line_serial": "macbeth-a02-s04-l0037",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The sovereignty will fall upon Macbeth.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0036-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sovereignty",
+              "norm": "sovereignty",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0036-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0036-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fall",
+              "norm": "fall",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0036-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "upon",
+              "norm": "upon",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0036-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Macbeth",
+              "norm": "macbeth",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0036-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0036-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 55,
+      "serial": "macbeth-a02-s04-i0055",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 56,
+      "serial": "macbeth-a02-s04-i0056",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0014",
+      "speech_seq": 1,
+      "line_number": 38,
+      "line_serial": "macbeth-a02-s04-l0038",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "He is already nam’d; and gone to Scone",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0037-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0037-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "already",
+              "norm": "already",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0037-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "nam’d",
+              "norm": "nam'd",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0037-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0037-t005",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0037-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0037-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0037-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Scone",
+              "norm": "scone",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0037-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 57,
+      "serial": "macbeth-a02-s04-i0057",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0014",
+      "speech_seq": 2,
+      "line_number": 39,
+      "line_serial": "macbeth-a02-s04-l0039",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To be invested.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0038-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0038-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "invested",
+              "norm": "invested",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0038-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0038-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 58,
+      "serial": "macbeth-a02-s04-i0058",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 59,
+      "serial": "macbeth-a02-s04-i0059",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0015",
+      "speech_seq": 1,
+      "line_number": 40,
+      "line_serial": "macbeth-a02-s04-l0040",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Where is Duncan’s body?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0039-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0039-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Duncan’s",
+              "norm": "duncan's",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0039-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "body",
+              "norm": "body",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0039-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0039-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 60,
+      "serial": "macbeth-a02-s04-i0060",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 61,
+      "serial": "macbeth-a02-s04-i0061",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0016",
+      "speech_seq": 1,
+      "line_number": 41,
+      "line_serial": "macbeth-a02-s04-l0041",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Carried to Colmekill,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Carried",
+              "norm": "carried",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0040-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0040-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Colmekill",
+              "norm": "colmekill",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0040-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0040-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 62,
+      "serial": "macbeth-a02-s04-i0062",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0016",
+      "speech_seq": 2,
+      "line_number": 42,
+      "line_serial": "macbeth-a02-s04-l0042",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The sacred storehouse of his predecessors,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0041-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sacred",
+              "norm": "sacred",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0041-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "storehouse",
+              "norm": "storehouse",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0041-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0041-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0041-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "predecessors",
+              "norm": "predecessors",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0041-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0041-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 63,
+      "serial": "macbeth-a02-s04-i0063",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0016",
+      "speech_seq": 3,
+      "line_number": 43,
+      "line_serial": "macbeth-a02-s04-l0043",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And guardian of their bones.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0042-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "guardian",
+              "norm": "guardian",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0042-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0042-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0042-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "bones",
+              "norm": "bones",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0042-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0042-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 64,
+      "serial": "macbeth-a02-s04-i0064",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 65,
+      "serial": "macbeth-a02-s04-i0065",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0017",
+      "speech_seq": 1,
+      "line_number": 44,
+      "line_serial": "macbeth-a02-s04-l0044",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Will you to Scone?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Will",
+              "norm": "will",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0043-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0043-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0043-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Scone",
+              "norm": "scone",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0043-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0043-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 66,
+      "serial": "macbeth-a02-s04-i0066",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 67,
+      "serial": "macbeth-a02-s04-i0067",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0018",
+      "speech_seq": 1,
+      "line_number": 45,
+      "line_serial": "macbeth-a02-s04-l0045",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "No, cousin, I’ll to Fife.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "No",
+              "norm": "no",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0044-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0044-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "cousin",
+              "norm": "cousin",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0044-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0044-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0044-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0044-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Fife",
+              "norm": "fife",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0044-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0044-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 68,
+      "serial": "macbeth-a02-s04-i0068",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 69,
+      "serial": "macbeth-a02-s04-i0069",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0019",
+      "speech_seq": 1,
+      "line_number": 46,
+      "line_serial": "macbeth-a02-s04-l0046",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Well, I will thither.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Well",
+              "norm": "well",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0045-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0045-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0045-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0045-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "thither",
+              "norm": "thither",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0045-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0045-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 70,
+      "serial": "macbeth-a02-s04-i0070",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 71,
+      "serial": "macbeth-a02-s04-i0071",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0020",
+      "speech_seq": 1,
+      "line_number": 47,
+      "line_serial": "macbeth-a02-s04-l0047",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Well, may you see things well done there. Adieu!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Well",
+              "norm": "well",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0046-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0046-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0046-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0046-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0046-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "things",
+              "norm": "things",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0046-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "well",
+              "norm": "well",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0046-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "done",
+              "norm": "done",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0046-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0046-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0046-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "Adieu",
+              "norm": "adieu",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0046-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0046-t012",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 72,
+      "serial": "macbeth-a02-s04-i0072",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MACDUFF",
+      "speech_id": "macbeth-a02-s04-s0020",
+      "speech_seq": 2,
+      "line_number": 48,
+      "line_serial": "macbeth-a02-s04-l0048",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Lest our old robes sit easier than our new!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Lest",
+              "norm": "lest",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0047-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0047-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "old",
+              "norm": "old",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0047-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "robes",
+              "norm": "robes",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0047-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "sit",
+              "norm": "sit",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0047-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "easier",
+              "norm": "easier",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0047-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "than",
+              "norm": "than",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0047-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0047-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "new",
+              "norm": "new",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0047-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0047-t010",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 73,
+      "serial": "macbeth-a02-s04-i0073",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 74,
+      "serial": "macbeth-a02-s04-i0074",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ROSS",
+      "speech_id": "macbeth-a02-s04-s0021",
+      "speech_seq": 1,
+      "line_number": 49,
+      "line_serial": "macbeth-a02-s04-l0049",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Farewell, father.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Farewell",
+              "norm": "farewell",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0048-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0048-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "father",
+              "norm": "father",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0048-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0048-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 75,
+      "serial": "macbeth-a02-s04-i0075",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 76,
+      "serial": "macbeth-a02-s04-i0076",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0022",
+      "speech_seq": 1,
+      "line_number": 50,
+      "line_serial": "macbeth-a02-s04-l0050",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "God’s benison go with you; and with those",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "God’s",
+              "norm": "god's",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0049-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "benison",
+              "norm": "benison",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0049-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0049-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0049-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0049-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0049-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0049-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0049-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "those",
+              "norm": "those",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0049-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 77,
+      "serial": "macbeth-a02-s04-i0077",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OLD MAN",
+      "speech_id": "macbeth-a02-s04-s0022",
+      "speech_seq": 2,
+      "line_number": 51,
+      "line_serial": "macbeth-a02-s04-l0051",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That would make good of bad, and friends of foes!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0050-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "bad",
+              "norm": "bad",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0050-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "foes",
+              "norm": "foes",
+              "pre": " ",
+              "serial": "macbeth-a02-s04-l0050-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "macbeth-a02-s04-l0050-t012",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 78,
+      "serial": "macbeth-a02-s04-i0078",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0078-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "macbeth-a02-s04-i0078-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

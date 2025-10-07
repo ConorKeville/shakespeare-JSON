@@ -1,0 +1,946 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "merry-wives/01_acts/Act_05/A05_S04_Windsor_Park.txt"
+    },
+    "play": {
+      "id": "merry-wives",
+      "title": "Merry Wives",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 5,
+      "scene": 4,
+      "label": "Act V, Scene IV",
+      "title": "SCENE IV. Windsor Park",
+      "unit_key": "a05-s04",
+      "unit_id": "merry-wives-a05-s04",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "merry-wives-a05-s04-i0001",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The Merry Wives of Windsor",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Merry",
+              "norm": "merry",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Wives",
+              "norm": "wives",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Windsor",
+              "norm": "windsor",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0001-t005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "merry-wives-a05-s04-i0002",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT V",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "V",
+              "norm": "v",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0002-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "merry-wives-a05-s04-i0003",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE IV. Windsor Park",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "IV",
+              "norm": "iv",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0003-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Windsor",
+              "norm": "windsor",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Park",
+              "norm": "park",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0003-t005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "merry-wives-a05-s04-i0004",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Sir Hugh Evans disguised, and children as Fairies.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0004-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Sir",
+              "norm": "sir",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0004-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Hugh",
+              "norm": "hugh",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0004-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Evans",
+              "norm": "evans",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0004-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "disguised",
+              "norm": "disguised",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0004-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0004-t006",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0004-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "children",
+              "norm": "children",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0004-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0004-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Fairies",
+              "norm": "fairies",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-i0004-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0004-t011",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "merry-wives-a05-s04-i0005",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "EVANS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 6,
+      "serial": "merry-wives-a05-s04-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EVANS",
+      "speech_id": "merry-wives-a05-s04-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "merry-wives-a05-s04-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Trib, trib, fairies. Come, and remember your parts. Be pold, I pray",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Trib",
+              "norm": "trib",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0001-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "trib",
+              "norm": "trib",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0001-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "fairies",
+              "norm": "fairies",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0001-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0001-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "remember",
+              "norm": "remember",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "parts",
+              "norm": "parts",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0001-t013",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "Be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t014"
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "pold",
+              "norm": "pold",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t015"
+            },
+            {
+              "i": 16,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0001-t016",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 17,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t017"
+            },
+            {
+              "i": 18,
+              "type": "word",
+              "s": "pray",
+              "norm": "pray",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0001-t018"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "merry-wives-a05-s04-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EVANS",
+      "speech_id": "merry-wives-a05-s04-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "merry-wives-a05-s04-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "you, follow me into the pit, and when I give the watch-’ords, do as I",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0002-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "follow",
+              "norm": "follow",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "into",
+              "norm": "into",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "pit",
+              "norm": "pit",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0002-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "when",
+              "norm": "when",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "give",
+              "norm": "give",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "watch",
+              "norm": "watch",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t014"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0002-t015",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 15
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "’ords",
+              "norm": "'ords",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0002-t016"
+            },
+            {
+              "i": 17,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0002-t017",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 18,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t018"
+            },
+            {
+              "i": 19,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t019"
+            },
+            {
+              "i": 20,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0002-t020"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "merry-wives-a05-s04-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EVANS",
+      "speech_id": "merry-wives-a05-s04-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "merry-wives-a05-s04-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "pid you. Come, come; trib, trib.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "pid",
+              "norm": "pid",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0003-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0003-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0003-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "trib",
+              "norm": "trib",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0003-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "trib",
+              "norm": "trib",
+              "pre": " ",
+              "serial": "merry-wives-a05-s04-l0003-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-l0003-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "merry-wives-a05-s04-i0009",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0009-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "merry-wives-a05-s04-i0009-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

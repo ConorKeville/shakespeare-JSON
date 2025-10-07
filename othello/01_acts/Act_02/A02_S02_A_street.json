@@ -1,0 +1,1678 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "othello-txt/01_acts/Act_02/A02_S02_A_street.txt"
+    },
+    "play": {
+      "id": "othello-txt",
+      "title": "Othello",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 2,
+      "scene": 2,
+      "label": "Act II, Scene II",
+      "title": "SCENE II. A street.",
+      "unit_key": "a02-s02",
+      "unit_id": "othello-txt-a02-s02",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "othello-txt-a02-s02-i0001",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "THE TRAGEDY OF OTHELLO, THE MOOR OF VENICE",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "THE",
+              "norm": "the",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "TRAGEDY",
+              "norm": "tragedy",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "OF",
+              "norm": "of",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "OTHELLO",
+              "norm": "othello",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0001-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "THE",
+              "norm": "the",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "MOOR",
+              "norm": "moor",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "OF",
+              "norm": "of",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "VENICE",
+              "norm": "venice",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0001-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "othello-txt-a02-s02-i0002",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT II — SCENE II: A street.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "II",
+              "norm": "ii",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0002-t003",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "II",
+              "norm": "ii",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0002-t006",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "street",
+              "norm": "street",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0002-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "othello-txt-a02-s02-i0003",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE II. A street.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "II",
+              "norm": "ii",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0003-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "street",
+              "norm": "street",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0003-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "othello-txt-a02-s02-i0004",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Othello’s Herald with a proclamation.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0004-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Othello’s",
+              "norm": "othello's",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0004-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Herald",
+              "norm": "herald",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0004-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0004-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0004-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "proclamation",
+              "norm": "proclamation",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-i0004-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0004-t007",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "othello-txt-a02-s02-i0005",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 6,
+      "serial": "othello-txt-a02-s02-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "othello-txt-a02-s02-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "It is Othello’s pleasure, our noble and valiant general, that upon",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Othello’s",
+              "norm": "othello's",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "pleasure",
+              "norm": "pleasure",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0001-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "noble",
+              "norm": "noble",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "valiant",
+              "norm": "valiant",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "general",
+              "norm": "general",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0001-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "upon",
+              "norm": "upon",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0001-t013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "othello-txt-a02-s02-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "othello-txt-a02-s02-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "certain tidings now arrived, importing the mere perdition of the",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "certain",
+              "norm": "certain",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "tidings",
+              "norm": "tidings",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "arrived",
+              "norm": "arrived",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0002-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "importing",
+              "norm": "importing",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "mere",
+              "norm": "mere",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "perdition",
+              "norm": "perdition",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0002-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "othello-txt-a02-s02-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "othello-txt-a02-s02-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Turkish fleet, every man put himself into triumph: some to dance, some",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Turkish",
+              "norm": "turkish",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fleet",
+              "norm": "fleet",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0003-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "every",
+              "norm": "every",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "put",
+              "norm": "put",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "himself",
+              "norm": "himself",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "into",
+              "norm": "into",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "triumph",
+              "norm": "triumph",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0003-t010",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "dance",
+              "norm": "dance",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t013"
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0003-t014",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0003-t015"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "othello-txt-a02-s02-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "othello-txt-a02-s02-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "to make bonfires, each man to what sport and revels his addition leads",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "bonfires",
+              "norm": "bonfires",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0004-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "each",
+              "norm": "each",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "sport",
+              "norm": "sport",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "revels",
+              "norm": "revels",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "addition",
+              "norm": "addition",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "leads",
+              "norm": "leads",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0004-t014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "othello-txt-a02-s02-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "othello-txt-a02-s02-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "him. For besides these beneficial news, it is the celebration of his",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0005-t002",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "besides",
+              "norm": "besides",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "these",
+              "norm": "these",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "beneficial",
+              "norm": "beneficial",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "news",
+              "norm": "news",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0005-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "celebration",
+              "norm": "celebration",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0005-t014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "othello-txt-a02-s02-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "othello-txt-a02-s02-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "nuptial. So much was his pleasure should be proclaimed. All offices are",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "nuptial",
+              "norm": "nuptial",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0006-t002",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "pleasure",
+              "norm": "pleasure",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "should",
+              "norm": "should",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "proclaimed",
+              "norm": "proclaimed",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0006-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "offices",
+              "norm": "offices",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0006-t014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "othello-txt-a02-s02-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "othello-txt-a02-s02-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "open, and there is full liberty of feasting from this present hour of",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "open",
+              "norm": "open",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0007-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "full",
+              "norm": "full",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "liberty",
+              "norm": "liberty",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "feasting",
+              "norm": "feasting",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "present",
+              "norm": "present",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "hour",
+              "norm": "hour",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0007-t014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "othello-txt-a02-s02-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "othello-txt-a02-s02-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "five till the bell have told eleven. Heaven bless the isle of Cyprus",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "five",
+              "norm": "five",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "till",
+              "norm": "till",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bell",
+              "norm": "bell",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "told",
+              "norm": "told",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "eleven",
+              "norm": "eleven",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0008-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Heaven",
+              "norm": "heaven",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "bless",
+              "norm": "bless",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "isle",
+              "norm": "isle",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "Cyprus",
+              "norm": "cyprus",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0008-t014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "othello-txt-a02-s02-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERALD",
+      "speech_id": "othello-txt-a02-s02-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "othello-txt-a02-s02-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "and our noble general Othello!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "noble",
+              "norm": "noble",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "general",
+              "norm": "general",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Othello",
+              "norm": "othello",
+              "pre": " ",
+              "serial": "othello-txt-a02-s02-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-l0009-t006",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "othello-txt-a02-s02-i0015",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0015-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "othello-txt-a02-s02-i0015-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

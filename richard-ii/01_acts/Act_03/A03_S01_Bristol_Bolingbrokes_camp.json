@@ -1,0 +1,5115 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-07T08:44:56Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "richard-ii/01_acts/Act_03/A03_S01_Bristol_Bolingbrokes_camp.txt"
+    },
+    "play": {
+      "id": "richard-ii",
+      "title": "Richard II",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 3,
+      "scene": 1,
+      "label": "Act III, Scene I",
+      "title": "Scene I. Bristol. Bolingbroke’s camp.",
+      "unit_key": "a03-s01",
+      "unit_id": "richard-ii-a03-s01",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "richard-ii-a03-s01-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT III",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "III",
+              "norm": "iii",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "richard-ii-a03-s01-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE I. Bristol. Bolingbroke’s camp.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0002-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Bristol",
+              "norm": "bristol",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0002-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Bolingbroke’s",
+              "norm": "bolingbroke's",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "camp",
+              "norm": "camp",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0002-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "richard-ii-a03-s01-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Bolingbroke, York, Northumberland, Harry Percy, Willoughby,",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Bolingbroke",
+              "norm": "bolingbroke",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0003-t003",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "York",
+              "norm": "york",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0003-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Northumberland",
+              "norm": "northumberland",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0003-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0003-t007",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Harry",
+              "norm": "harry",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0003-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Percy",
+              "norm": "percy",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0003-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0003-t010",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "Willoughby",
+              "norm": "willoughby",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0003-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0003-t012",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "richard-ii-a03-s01-i0005",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "richard-ii-a03-s01-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "richard-ii-a03-s01-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": " Ross; Officers behind, with Bushy and Green, prisoners.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ross",
+              "norm": "ross",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0004-t002",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Officers",
+              "norm": "officers",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "behind",
+              "norm": "behind",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0004-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Bushy",
+              "norm": "bushy",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Green",
+              "norm": "green",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0004-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "prisoners",
+              "norm": "prisoners",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0004-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0004-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "richard-ii-a03-s01-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "richard-ii-a03-s01-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Bring forth these men.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Bring",
+              "norm": "bring",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "these",
+              "norm": "these",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0001-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "richard-ii-a03-s01-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "richard-ii-a03-s01-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Bushy and Green, I will not vex your souls—",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Bushy",
+              "norm": "bushy",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Green",
+              "norm": "green",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0002-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "vex",
+              "norm": "vex",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "souls",
+              "norm": "souls",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0002-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0002-t011",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "richard-ii-a03-s01-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "richard-ii-a03-s01-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Since presently your souls must part your bodies—",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Since",
+              "norm": "since",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "presently",
+              "norm": "presently",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "souls",
+              "norm": "souls",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "part",
+              "norm": "part",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "bodies",
+              "norm": "bodies",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0003-t009",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "richard-ii-a03-s01-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "richard-ii-a03-s01-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "With too much urging your pernicious lives,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "With",
+              "norm": "with",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "too",
+              "norm": "too",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "urging",
+              "norm": "urging",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "pernicious",
+              "norm": "pernicious",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "lives",
+              "norm": "lives",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0004-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "richard-ii-a03-s01-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "richard-ii-a03-s01-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For ’twere no charity; yet to wash your blood",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "’twere",
+              "norm": "'twere",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "charity",
+              "norm": "charity",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0005-t005",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "yet",
+              "norm": "yet",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "wash",
+              "norm": "wash",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "blood",
+              "norm": "blood",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0005-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "richard-ii-a03-s01-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "richard-ii-a03-s01-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "From off my hands, here in the view of men",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "From",
+              "norm": "from",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "off",
+              "norm": "off",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hands",
+              "norm": "hands",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0006-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "view",
+              "norm": "view",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0006-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "richard-ii-a03-s01-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "richard-ii-a03-s01-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I will unfold some causes of your deaths:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "unfold",
+              "norm": "unfold",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "causes",
+              "norm": "causes",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "deaths",
+              "norm": "deaths",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0007-t009",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "richard-ii-a03-s01-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "richard-ii-a03-s01-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "You have misled a prince, a royal king,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "You",
+              "norm": "you",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "misled",
+              "norm": "misled",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "prince",
+              "norm": "prince",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0008-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "royal",
+              "norm": "royal",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "king",
+              "norm": "king",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0008-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0008-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "richard-ii-a03-s01-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "richard-ii-a03-s01-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A happy gentleman in blood and lineaments,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "happy",
+              "norm": "happy",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "gentleman",
+              "norm": "gentleman",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "blood",
+              "norm": "blood",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "lineaments",
+              "norm": "lineaments",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0009-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "richard-ii-a03-s01-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 11,
+      "line_number": 11,
+      "line_serial": "richard-ii-a03-s01-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "By you unhappied and disfigured clean.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "By",
+              "norm": "by",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "unhappied",
+              "norm": "unhappied",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "disfigured",
+              "norm": "disfigured",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "clean",
+              "norm": "clean",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0010-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "richard-ii-a03-s01-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 12,
+      "line_number": 12,
+      "line_serial": "richard-ii-a03-s01-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "You have in manner with your sinful hours",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "You",
+              "norm": "you",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "manner",
+              "norm": "manner",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "sinful",
+              "norm": "sinful",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "hours",
+              "norm": "hours",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0011-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "richard-ii-a03-s01-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 13,
+      "line_number": 13,
+      "line_serial": "richard-ii-a03-s01-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Made a divorce betwixt his queen and him,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Made",
+              "norm": "made",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "divorce",
+              "norm": "divorce",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "betwixt",
+              "norm": "betwixt",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "queen",
+              "norm": "queen",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0012-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "richard-ii-a03-s01-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 14,
+      "line_number": 14,
+      "line_serial": "richard-ii-a03-s01-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Broke the possession of a royal bed,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Broke",
+              "norm": "broke",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "possession",
+              "norm": "possession",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "royal",
+              "norm": "royal",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "bed",
+              "norm": "bed",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0013-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "richard-ii-a03-s01-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 15,
+      "line_number": 15,
+      "line_serial": "richard-ii-a03-s01-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And stained the beauty of a fair queen’s cheeks",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "stained",
+              "norm": "stained",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "beauty",
+              "norm": "beauty",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "fair",
+              "norm": "fair",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "queen’s",
+              "norm": "queen's",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "cheeks",
+              "norm": "cheeks",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0014-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "richard-ii-a03-s01-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 16,
+      "line_number": 16,
+      "line_serial": "richard-ii-a03-s01-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "With tears drawn from her eyes by your foul wrongs.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "With",
+              "norm": "with",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "tears",
+              "norm": "tears",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "drawn",
+              "norm": "drawn",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "eyes",
+              "norm": "eyes",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "foul",
+              "norm": "foul",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "wrongs",
+              "norm": "wrongs",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0015-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0015-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "richard-ii-a03-s01-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 17,
+      "line_number": 17,
+      "line_serial": "richard-ii-a03-s01-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Myself, a prince by fortune of my birth,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Myself",
+              "norm": "myself",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0016-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "prince",
+              "norm": "prince",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "fortune",
+              "norm": "fortune",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "birth",
+              "norm": "birth",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0016-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0016-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "richard-ii-a03-s01-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 18,
+      "line_number": 18,
+      "line_serial": "richard-ii-a03-s01-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Near to the King in blood, and near in love",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Near",
+              "norm": "near",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "blood",
+              "norm": "blood",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0017-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "near",
+              "norm": "near",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0017-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "richard-ii-a03-s01-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 19,
+      "line_number": 19,
+      "line_serial": "richard-ii-a03-s01-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Till you did make him misinterpret me,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Till",
+              "norm": "till",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "misinterpret",
+              "norm": "misinterpret",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0018-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "richard-ii-a03-s01-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 20,
+      "line_number": 20,
+      "line_serial": "richard-ii-a03-s01-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Have stooped my neck under your injuries",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Have",
+              "norm": "have",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "stooped",
+              "norm": "stooped",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "neck",
+              "norm": "neck",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "under",
+              "norm": "under",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0019-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "injuries",
+              "norm": "injuries",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0019-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "richard-ii-a03-s01-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 21,
+      "line_number": 21,
+      "line_serial": "richard-ii-a03-s01-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And sighed my English breath in foreign clouds,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sighed",
+              "norm": "sighed",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "English",
+              "norm": "english",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "breath",
+              "norm": "breath",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "foreign",
+              "norm": "foreign",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "clouds",
+              "norm": "clouds",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0020-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0020-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "richard-ii-a03-s01-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 22,
+      "line_number": 22,
+      "line_serial": "richard-ii-a03-s01-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Eating the bitter bread of banishment,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Eating",
+              "norm": "eating",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "bitter",
+              "norm": "bitter",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bread",
+              "norm": "bread",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "banishment",
+              "norm": "banishment",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0021-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "richard-ii-a03-s01-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 23,
+      "line_number": 23,
+      "line_serial": "richard-ii-a03-s01-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Whilst you have fed upon my signories,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Whilst",
+              "norm": "whilst",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fed",
+              "norm": "fed",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "upon",
+              "norm": "upon",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0022-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "signories",
+              "norm": "signories",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0022-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "richard-ii-a03-s01-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 24,
+      "line_number": 24,
+      "line_serial": "richard-ii-a03-s01-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Disparked my parks and felled my forest woods,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Disparked",
+              "norm": "disparked",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "parks",
+              "norm": "parks",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "felled",
+              "norm": "felled",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "forest",
+              "norm": "forest",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "woods",
+              "norm": "woods",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0023-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "richard-ii-a03-s01-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 25,
+      "line_number": 25,
+      "line_serial": "richard-ii-a03-s01-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "From my own windows torn my household coat,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "From",
+              "norm": "from",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "own",
+              "norm": "own",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "windows",
+              "norm": "windows",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "torn",
+              "norm": "torn",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "household",
+              "norm": "household",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0024-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "coat",
+              "norm": "coat",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0024-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "richard-ii-a03-s01-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 26,
+      "line_number": 26,
+      "line_serial": "richard-ii-a03-s01-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Rased out my imprese, leaving me no sign",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Rased",
+              "norm": "rased",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "imprese",
+              "norm": "imprese",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0025-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "leaving",
+              "norm": "leaving",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "sign",
+              "norm": "sign",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0025-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "richard-ii-a03-s01-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 27,
+      "line_number": 27,
+      "line_serial": "richard-ii-a03-s01-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Save men’s opinions and my living blood",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Save",
+              "norm": "save",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "men’s",
+              "norm": "men's",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "opinions",
+              "norm": "opinions",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "living",
+              "norm": "living",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "blood",
+              "norm": "blood",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0026-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "richard-ii-a03-s01-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 28,
+      "line_number": 28,
+      "line_serial": "richard-ii-a03-s01-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To show the world I am a gentleman.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "show",
+              "norm": "show",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "world",
+              "norm": "world",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "gentleman",
+              "norm": "gentleman",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0027-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0027-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "richard-ii-a03-s01-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 29,
+      "line_number": 29,
+      "line_serial": "richard-ii-a03-s01-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This and much more, much more than twice all this,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0028-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "than",
+              "norm": "than",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "twice",
+              "norm": "twice",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0028-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0028-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "richard-ii-a03-s01-i0034",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 30,
+      "line_number": 30,
+      "line_serial": "richard-ii-a03-s01-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Condemns you to the death. See them delivered over",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Condemns",
+              "norm": "condemns",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "death",
+              "norm": "death",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0029-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "See",
+              "norm": "see",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0029-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "delivered",
+              "norm": "delivered",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0029-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "over",
+              "norm": "over",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0029-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "richard-ii-a03-s01-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0001",
+      "speech_seq": 31,
+      "line_number": 31,
+      "line_serial": "richard-ii-a03-s01-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To execution and the hand of death.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "execution",
+              "norm": "execution",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0030-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hand",
+              "norm": "hand",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "death",
+              "norm": "death",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0030-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "richard-ii-a03-s01-i0036",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BUSHY",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 37,
+      "serial": "richard-ii-a03-s01-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUSHY",
+      "speech_id": "richard-ii-a03-s01-s0002",
+      "speech_seq": 1,
+      "line_number": 32,
+      "line_serial": "richard-ii-a03-s01-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "More welcome is the stroke of death to me",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "More",
+              "norm": "more",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "welcome",
+              "norm": "welcome",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "stroke",
+              "norm": "stroke",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0031-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "death",
+              "norm": "death",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0031-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0031-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0031-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "richard-ii-a03-s01-i0038",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUSHY",
+      "speech_id": "richard-ii-a03-s01-s0002",
+      "speech_seq": 2,
+      "line_number": 33,
+      "line_serial": "richard-ii-a03-s01-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Than Bolingbroke to England. Lords, farewell.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Than",
+              "norm": "than",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Bolingbroke",
+              "norm": "bolingbroke",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "England",
+              "norm": "england",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0032-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Lords",
+              "norm": "lords",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0032-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0032-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "farewell",
+              "norm": "farewell",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0032-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0032-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "richard-ii-a03-s01-i0039",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "GREEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 40,
+      "serial": "richard-ii-a03-s01-i0040",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "GREEN",
+      "speech_id": "richard-ii-a03-s01-s0003",
+      "speech_seq": 1,
+      "line_number": 34,
+      "line_serial": "richard-ii-a03-s01-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "My comfort is that heaven will take our souls",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "My",
+              "norm": "my",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0033-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "comfort",
+              "norm": "comfort",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0033-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0033-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0033-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "heaven",
+              "norm": "heaven",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0033-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0033-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "take",
+              "norm": "take",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0033-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0033-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "souls",
+              "norm": "souls",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0033-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "serial": "richard-ii-a03-s01-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "GREEN",
+      "speech_id": "richard-ii-a03-s01-s0003",
+      "speech_seq": 2,
+      "line_number": 35,
+      "line_serial": "richard-ii-a03-s01-l0035",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And plague injustice with the pains of hell.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0034-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "plague",
+              "norm": "plague",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0034-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "injustice",
+              "norm": "injustice",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0034-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0034-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0034-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "pains",
+              "norm": "pains",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0034-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0034-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "hell",
+              "norm": "hell",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0034-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0034-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "richard-ii-a03-s01-i0042",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 43,
+      "serial": "richard-ii-a03-s01-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0004",
+      "speech_seq": 1,
+      "line_number": 36,
+      "line_serial": "richard-ii-a03-s01-l0036",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "My Lord Northumberland, see them dispatched.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "My",
+              "norm": "my",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0035-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0035-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Northumberland",
+              "norm": "northumberland",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0035-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0035-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0035-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0035-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "dispatched",
+              "norm": "dispatched",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0035-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0035-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "richard-ii-a03-s01-i0044",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt Northumberland and Others, with Bushy and Green.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0044-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Northumberland",
+              "norm": "northumberland",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0044-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0044-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Others",
+              "norm": "others",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0044-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0044-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0044-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Bushy",
+              "norm": "bushy",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0044-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0044-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Green",
+              "norm": "green",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0044-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0044-t010",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 45,
+      "serial": "richard-ii-a03-s01-i0049",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "YORK",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 46,
+      "serial": "richard-ii-a03-s01-i0045",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "YORK",
+      "speech_id": "richard-ii-a03-s01-s0005",
+      "speech_seq": 1,
+      "line_number": 37,
+      "line_serial": "richard-ii-a03-s01-l0037",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Uncle, you say the Queen is at your house;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Uncle",
+              "norm": "uncle",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0045-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0045-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0045-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "say",
+              "norm": "say",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0045-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0045-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Queen",
+              "norm": "queen",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0045-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0045-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0045-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0045-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "house",
+              "norm": "house",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0045-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0045-t011",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 47,
+      "serial": "richard-ii-a03-s01-i0046",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "YORK",
+      "speech_id": "richard-ii-a03-s01-s0005",
+      "speech_seq": 2,
+      "line_number": 38,
+      "line_serial": "richard-ii-a03-s01-l0038",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For God’s sake, fairly let her be entreated.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0046-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "God’s",
+              "norm": "god's",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0046-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "sake",
+              "norm": "sake",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0046-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0046-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "fairly",
+              "norm": "fairly",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0046-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0046-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0046-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0046-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "entreated",
+              "norm": "entreated",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0046-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0046-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "richard-ii-a03-s01-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "YORK",
+      "speech_id": "richard-ii-a03-s01-s0005",
+      "speech_seq": 3,
+      "line_number": 39,
+      "line_serial": "richard-ii-a03-s01-l0039",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Tell her I send to her my kind commends;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Tell",
+              "norm": "tell",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0047-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0047-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0047-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "send",
+              "norm": "send",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0047-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0047-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0047-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0047-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "kind",
+              "norm": "kind",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0047-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "commends",
+              "norm": "commends",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0047-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0047-t010",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 49,
+      "serial": "richard-ii-a03-s01-i0048",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "YORK",
+      "speech_id": "richard-ii-a03-s01-s0005",
+      "speech_seq": 4,
+      "line_number": 40,
+      "line_serial": "richard-ii-a03-s01-l0040",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Take special care my greetings be delivered.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Take",
+              "norm": "take",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0048-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "special",
+              "norm": "special",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0048-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "care",
+              "norm": "care",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0048-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0048-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "greetings",
+              "norm": "greetings",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0048-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0048-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "delivered",
+              "norm": "delivered",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-i0048-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0048-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 50,
+      "serial": "richard-ii-a03-s01-i0050",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "YORK",
+      "speech_id": "richard-ii-a03-s01-s0005",
+      "speech_seq": 5,
+      "line_number": 41,
+      "line_serial": "richard-ii-a03-s01-l0041",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A gentleman of mine I have dispatched",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0036-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "gentleman",
+              "norm": "gentleman",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0036-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0036-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "mine",
+              "norm": "mine",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0036-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0036-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0036-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "dispatched",
+              "norm": "dispatched",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0036-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 51,
+      "serial": "richard-ii-a03-s01-i0051",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "YORK",
+      "speech_id": "richard-ii-a03-s01-s0005",
+      "speech_seq": 6,
+      "line_number": 42,
+      "line_serial": "richard-ii-a03-s01-l0042",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "With letters of your love to her at large.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "With",
+              "norm": "with",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0037-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "letters",
+              "norm": "letters",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0037-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0037-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0037-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0037-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0037-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0037-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0037-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "large",
+              "norm": "large",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0037-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0037-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 52,
+      "serial": "richard-ii-a03-s01-i0052",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 53,
+      "serial": "richard-ii-a03-s01-i0053",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0006",
+      "speech_seq": 1,
+      "line_number": 43,
+      "line_serial": "richard-ii-a03-s01-l0043",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thanks, gentle uncle. Come, lords, away,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thanks",
+              "norm": "thanks",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0038-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0038-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "gentle",
+              "norm": "gentle",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0038-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "uncle",
+              "norm": "uncle",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0038-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0038-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0038-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0038-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "lords",
+              "norm": "lords",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0038-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0038-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0038-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0038-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 54,
+      "serial": "richard-ii-a03-s01-i0054",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0006",
+      "speech_seq": 2,
+      "line_number": 44,
+      "line_serial": "richard-ii-a03-s01-l0044",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To fight with Glendower and his complices.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0039-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0039-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0039-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Glendower",
+              "norm": "glendower",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0039-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0039-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0039-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "complices",
+              "norm": "complices",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0039-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0039-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 55,
+      "serial": "richard-ii-a03-s01-i0055",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BOLINGBROKE",
+      "speech_id": "richard-ii-a03-s01-s0006",
+      "speech_seq": 3,
+      "line_number": 45,
+      "line_serial": "richard-ii-a03-s01-l0045",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A while to work, and after holiday.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0040-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "while",
+              "norm": "while",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0040-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0040-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "work",
+              "norm": "work",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0040-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0040-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0040-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "after",
+              "norm": "after",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0040-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "holiday",
+              "norm": "holiday",
+              "pre": " ",
+              "serial": "richard-ii-a03-s01-l0040-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-l0040-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 56,
+      "serial": "richard-ii-a03-s01-i0056",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0056-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "richard-ii-a03-s01-i0056-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

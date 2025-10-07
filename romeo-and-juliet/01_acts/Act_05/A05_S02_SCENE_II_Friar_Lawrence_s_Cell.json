@@ -1,0 +1,3542 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "romeo-and-juliet-scenes/01_acts/Act_05/A05_S02_Friar_Lawrence's_Cell.txt"
+    },
+    "play": {
+      "id": "romeo-and-juliet-scenes",
+      "title": "Romeo and Juliet",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 5,
+      "scene": 2,
+      "label": "Act V, Scene II",
+      "title": "SCENE II. Friar Lawrence’s Cell.",
+      "unit_key": "a05-s02",
+      "unit_id": "romeo-and-juliet-scenes-a05-s02",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT V",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "V",
+              "norm": "v",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE II. Friar Lawrence’s Cell.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "II",
+              "norm": "ii",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0002-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Friar",
+              "norm": "friar",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Lawrence’s",
+              "norm": "lawrence's",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Cell",
+              "norm": "cell",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0002-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Friar John.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Friar",
+              "norm": "friar",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "John",
+              "norm": "john",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0003-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0003-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0004",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Holy Franciscan Friar! Brother, ho!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Holy",
+              "norm": "holy",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Franciscan",
+              "norm": "franciscan",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Friar",
+              "norm": "friar",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0001-t004",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Brother",
+              "norm": "brother",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0001-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "ho",
+              "norm": "ho",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0001-t008",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0006",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Friar Lawrence.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0006-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Friar",
+              "norm": "friar",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0006-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Lawrence",
+              "norm": "lawrence",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0006-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0006-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0007",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 8,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0002",
+      "speech_seq": 1,
+      "line_number": 2,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This same should be the voice of Friar John.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "same",
+              "norm": "same",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "should",
+              "norm": "should",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "voice",
+              "norm": "voice",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Friar",
+              "norm": "friar",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "John",
+              "norm": "john",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0002-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0002",
+      "speech_seq": 2,
+      "line_number": 3,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Welcome from Mantua. What says Romeo?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Welcome",
+              "norm": "welcome",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Mantua",
+              "norm": "mantua",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0003-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "says",
+              "norm": "says",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Romeo",
+              "norm": "romeo",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0003-t008",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0002",
+      "speech_seq": 3,
+      "line_number": 4,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Or, if his mind be writ, give me his letter.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Or",
+              "norm": "or",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "if",
+              "norm": "if",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "mind",
+              "norm": "mind",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "writ",
+              "norm": "writ",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "give",
+              "norm": "give",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "letter",
+              "norm": "letter",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0004-t013",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0011",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 12,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0003",
+      "speech_seq": 1,
+      "line_number": 5,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Going to find a barefoot brother out,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Going",
+              "norm": "going",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "find",
+              "norm": "find",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "barefoot",
+              "norm": "barefoot",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "brother",
+              "norm": "brother",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0005-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0003",
+      "speech_seq": 2,
+      "line_number": 6,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "One of our order, to associate me,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "One",
+              "norm": "one",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "order",
+              "norm": "order",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "associate",
+              "norm": "associate",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0006-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0003",
+      "speech_seq": 3,
+      "line_number": 7,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Here in this city visiting the sick,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Here",
+              "norm": "here",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "city",
+              "norm": "city",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "visiting",
+              "norm": "visiting",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "sick",
+              "norm": "sick",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0007-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0003",
+      "speech_seq": 4,
+      "line_number": 8,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And finding him, the searchers of the town,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "finding",
+              "norm": "finding",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "searchers",
+              "norm": "searchers",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "town",
+              "norm": "town",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0008-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0003",
+      "speech_seq": 5,
+      "line_number": 9,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Suspecting that we both were in a house",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Suspecting",
+              "norm": "suspecting",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "both",
+              "norm": "both",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "were",
+              "norm": "were",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "house",
+              "norm": "house",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0009-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0003",
+      "speech_seq": 6,
+      "line_number": 10,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Where the infectious pestilence did reign,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "infectious",
+              "norm": "infectious",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "pestilence",
+              "norm": "pestilence",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "reign",
+              "norm": "reign",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0010-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0003",
+      "speech_seq": 7,
+      "line_number": 11,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Seal’d up the doors, and would not let us forth,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Seal’d",
+              "norm": "seal'd",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "up",
+              "norm": "up",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "doors",
+              "norm": "doors",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0011-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0003",
+      "speech_seq": 8,
+      "line_number": 12,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "So that my speed to Mantua there was stay’d.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "speed",
+              "norm": "speed",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Mantua",
+              "norm": "mantua",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "stay’d",
+              "norm": "stay'd",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0012-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0020",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 21,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0004",
+      "speech_seq": 1,
+      "line_number": 13,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Who bare my letter then to Romeo?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Who",
+              "norm": "who",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "bare",
+              "norm": "bare",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "letter",
+              "norm": "letter",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Romeo",
+              "norm": "romeo",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0013-t008",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0022",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 23,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0005",
+      "speech_seq": 1,
+      "line_number": 14,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I could not send it,—here it is again,—",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "could",
+              "norm": "could",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "send",
+              "norm": "send",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "again",
+              "norm": "again",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0014-t013",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0005",
+      "speech_seq": 2,
+      "line_number": 15,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Nor get a messenger to bring it thee,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Nor",
+              "norm": "nor",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "get",
+              "norm": "get",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "messenger",
+              "norm": "messenger",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "bring",
+              "norm": "bring",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0015-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0005",
+      "speech_seq": 3,
+      "line_number": 16,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "So fearful were they of infection.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fearful",
+              "norm": "fearful",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "were",
+              "norm": "were",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "infection",
+              "norm": "infection",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0016-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0026",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 27,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0006",
+      "speech_seq": 1,
+      "line_number": 17,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Unhappy fortune! By my brotherhood,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Unhappy",
+              "norm": "unhappy",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fortune",
+              "norm": "fortune",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0017-t003",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "By",
+              "norm": "by",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "brotherhood",
+              "norm": "brotherhood",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0017-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0006",
+      "speech_seq": 2,
+      "line_number": 18,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The letter was not nice, but full of charge,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "letter",
+              "norm": "letter",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "nice",
+              "norm": "nice",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "full",
+              "norm": "full",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "charge",
+              "norm": "charge",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0018-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0006",
+      "speech_seq": 3,
+      "line_number": 19,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Of dear import, and the neglecting it",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Of",
+              "norm": "of",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "dear",
+              "norm": "dear",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "import",
+              "norm": "import",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0019-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0019-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "neglecting",
+              "norm": "neglecting",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0019-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0019-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0006",
+      "speech_seq": 4,
+      "line_number": 20,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "May do much danger. Friar John, go hence,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "May",
+              "norm": "may",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "danger",
+              "norm": "danger",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Friar",
+              "norm": "friar",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "John",
+              "norm": "john",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "hence",
+              "norm": "hence",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0020-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0006",
+      "speech_seq": 5,
+      "line_number": 21,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Get me an iron crow and bring it straight",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Get",
+              "norm": "get",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "iron",
+              "norm": "iron",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "crow",
+              "norm": "crow",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "bring",
+              "norm": "bring",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "straight",
+              "norm": "straight",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0021-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0006",
+      "speech_seq": 6,
+      "line_number": 22,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Unto my cell.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Unto",
+              "norm": "unto",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "cell",
+              "norm": "cell",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0022-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0033",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 34,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0034",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR JOHN",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0007",
+      "speech_seq": 1,
+      "line_number": 23,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Brother, I’ll go and bring it thee.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Brother",
+              "norm": "brother",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "bring",
+              "norm": "bring",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0023-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0035",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0035-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0035-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0036",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 37,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0008",
+      "speech_seq": 1,
+      "line_number": 24,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Now must I to the monument alone.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Now",
+              "norm": "now",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "monument",
+              "norm": "monument",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "alone",
+              "norm": "alone",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0024-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0024-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0038",
+      "kind": "stage",
+      "subtype": "within",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Within this three hours will fair Juliet wake.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Within",
+              "norm": "within",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "three",
+              "norm": "three",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hours",
+              "norm": "hours",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "fair",
+              "norm": "fair",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Juliet",
+              "norm": "juliet",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "wake",
+              "norm": "wake",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0038-t009",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0039",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0008",
+      "speech_seq": 2,
+      "line_number": 25,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "She will beshrew me much that Romeo",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "She",
+              "norm": "she",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "beshrew",
+              "norm": "beshrew",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Romeo",
+              "norm": "romeo",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0025-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 40,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0040",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0008",
+      "speech_seq": 3,
+      "line_number": 26,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hath had no notice of these accidents;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hath",
+              "norm": "hath",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "had",
+              "norm": "had",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "notice",
+              "norm": "notice",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "these",
+              "norm": "these",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "accidents",
+              "norm": "accidents",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0026-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0026-t008",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0008",
+      "speech_seq": 4,
+      "line_number": 27,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "But I will write again to Mantua,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "write",
+              "norm": "write",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "again",
+              "norm": "again",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Mantua",
+              "norm": "mantua",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0027-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0042",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0008",
+      "speech_seq": 5,
+      "line_number": 28,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And keep her at my cell till Romeo come.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "keep",
+              "norm": "keep",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "cell",
+              "norm": "cell",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "till",
+              "norm": "till",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Romeo",
+              "norm": "romeo",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0028-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 43,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FRIAR LAWRENCE",
+      "speech_id": "romeo-and-juliet-scenes-a05-s02-s0008",
+      "speech_seq": 6,
+      "line_number": 29,
+      "line_serial": "romeo-and-juliet-scenes-a05-s02-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Poor living corse, clos’d in a dead man’s tomb.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Poor",
+              "norm": "poor",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "living",
+              "norm": "living",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "corse",
+              "norm": "corse",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "clos’d",
+              "norm": "clos'd",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "dead",
+              "norm": "dead",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "man’s",
+              "norm": "man's",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "tomb",
+              "norm": "tomb",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-l0029-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "romeo-and-juliet-scenes-a05-s02-i0044",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0044-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a05-s02-i0044-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

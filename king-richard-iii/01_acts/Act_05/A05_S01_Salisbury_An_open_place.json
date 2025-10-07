@@ -1,0 +1,3554 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "king-richard-iii/01_acts/Act_05/A05_S01_Salisbury_An_open_place.txt"
+    },
+    "play": {
+      "id": "king-richard-iii",
+      "title": "King Richard Iii",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 5,
+      "scene": 1,
+      "label": "Act V, Scene I",
+      "title": "SCENE I. Salisbury. An open place",
+      "unit_key": "a05-s01",
+      "unit_id": "king-richard-iii-a05-s01",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "king-richard-iii-a05-s01-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT V",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "V",
+              "norm": "v",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "king-richard-iii-a05-s01-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE I. Salisbury. An open place",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0002-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Salisbury",
+              "norm": "salisbury",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0002-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "An",
+              "norm": "an",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "open",
+              "norm": "open",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "place",
+              "norm": "place",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0002-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "king-richard-iii-a05-s01-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Sheriff and Halberds, with Buckingham, led to execution.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Sheriff",
+              "norm": "sheriff",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0003-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Halberds",
+              "norm": "halberds",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0003-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0003-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Buckingham",
+              "norm": "buckingham",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0003-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0003-t008",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "led",
+              "norm": "led",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0003-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0003-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "execution",
+              "norm": "execution",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0003-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0003-t012",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "king-richard-iii-a05-s01-i0004",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "king-richard-iii-a05-s01-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "king-richard-iii-a05-s01-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Will not King Richard let me speak with him?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Will",
+              "norm": "will",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Richard",
+              "norm": "richard",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "speak",
+              "norm": "speak",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0001-t010",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "king-richard-iii-a05-s01-i0006",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SHERIFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 7,
+      "serial": "king-richard-iii-a05-s01-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SHERIFF",
+      "speech_id": "king-richard-iii-a05-s01-s0002",
+      "speech_seq": 1,
+      "line_number": 2,
+      "line_serial": "king-richard-iii-a05-s01-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "No, my good lord; therefore be patient.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "No",
+              "norm": "no",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0002-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0002-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "therefore",
+              "norm": "therefore",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "patient",
+              "norm": "patient",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0002-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "king-richard-iii-a05-s01-i0008",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 9,
+      "serial": "king-richard-iii-a05-s01-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0003",
+      "speech_seq": 1,
+      "line_number": 3,
+      "line_serial": "king-richard-iii-a05-s01-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hastings, and Edward’s children, Grey, and Rivers,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hastings",
+              "norm": "hastings",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0003-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Edward’s",
+              "norm": "edward's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "children",
+              "norm": "children",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0003-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Grey",
+              "norm": "grey",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0003-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Rivers",
+              "norm": "rivers",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0003-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0003-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "king-richard-iii-a05-s01-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0003",
+      "speech_seq": 2,
+      "line_number": 4,
+      "line_serial": "king-richard-iii-a05-s01-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Holy King Henry, and thy fair son Edward,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Holy",
+              "norm": "holy",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Henry",
+              "norm": "henry",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0004-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "fair",
+              "norm": "fair",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "son",
+              "norm": "son",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Edward",
+              "norm": "edward",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0004-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "king-richard-iii-a05-s01-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0003",
+      "speech_seq": 3,
+      "line_number": 5,
+      "line_serial": "king-richard-iii-a05-s01-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Vaughan, and all that have miscarried",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Vaughan",
+              "norm": "vaughan",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0005-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "miscarried",
+              "norm": "miscarried",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0005-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "king-richard-iii-a05-s01-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0003",
+      "speech_seq": 4,
+      "line_number": 6,
+      "line_serial": "king-richard-iii-a05-s01-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "By underhand, corrupted foul injustice,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "By",
+              "norm": "by",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "underhand",
+              "norm": "underhand",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0006-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "corrupted",
+              "norm": "corrupted",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "foul",
+              "norm": "foul",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "injustice",
+              "norm": "injustice",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0006-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "king-richard-iii-a05-s01-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0003",
+      "speech_seq": 5,
+      "line_number": 7,
+      "line_serial": "king-richard-iii-a05-s01-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "If that your moody discontented souls",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "If",
+              "norm": "if",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "moody",
+              "norm": "moody",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "discontented",
+              "norm": "discontented",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "souls",
+              "norm": "souls",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0007-t006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "king-richard-iii-a05-s01-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0003",
+      "speech_seq": 6,
+      "line_number": 8,
+      "line_serial": "king-richard-iii-a05-s01-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Do through the clouds behold this present hour,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Do",
+              "norm": "do",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "through",
+              "norm": "through",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "clouds",
+              "norm": "clouds",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "behold",
+              "norm": "behold",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "present",
+              "norm": "present",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "hour",
+              "norm": "hour",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0008-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "king-richard-iii-a05-s01-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0003",
+      "speech_seq": 7,
+      "line_number": 9,
+      "line_serial": "king-richard-iii-a05-s01-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Even for revenge mock my destruction.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Even",
+              "norm": "even",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "revenge",
+              "norm": "revenge",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "mock",
+              "norm": "mock",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "destruction",
+              "norm": "destruction",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0009-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "king-richard-iii-a05-s01-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0003",
+      "speech_seq": 8,
+      "line_number": 10,
+      "line_serial": "king-richard-iii-a05-s01-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This is All-Souls’ day, fellow, is it not?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0010-t003"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0010-t004",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 4
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Souls’",
+              "norm": "souls'",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0010-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "fellow",
+              "norm": "fellow",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0010-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0010-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0010-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0010-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0010-t013",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "king-richard-iii-a05-s01-i0017",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SHERIFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 18,
+      "serial": "king-richard-iii-a05-s01-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SHERIFF",
+      "speech_id": "king-richard-iii-a05-s01-s0004",
+      "speech_seq": 1,
+      "line_number": 11,
+      "line_serial": "king-richard-iii-a05-s01-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "It is.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0011-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "king-richard-iii-a05-s01-i0019",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 20,
+      "serial": "king-richard-iii-a05-s01-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 1,
+      "line_number": 12,
+      "line_serial": "king-richard-iii-a05-s01-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Why, then All-Souls’ day is my body’s doomsday.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Why",
+              "norm": "why",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0012-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0012-t004"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0012-t005",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 5
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Souls’",
+              "norm": "souls'",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "body’s",
+              "norm": "body's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0012-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "doomsday",
+              "norm": "doomsday",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0012-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0012-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "king-richard-iii-a05-s01-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 2,
+      "line_number": 13,
+      "line_serial": "king-richard-iii-a05-s01-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This is the day which, in King Edward’s time,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "which",
+              "norm": "which",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0013-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Edward’s",
+              "norm": "edward's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0013-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0013-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "king-richard-iii-a05-s01-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 3,
+      "line_number": 14,
+      "line_serial": "king-richard-iii-a05-s01-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I wished might fall on me when I was found",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "wished",
+              "norm": "wished",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "might",
+              "norm": "might",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fall",
+              "norm": "fall",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "when",
+              "norm": "when",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "found",
+              "norm": "found",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0014-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "king-richard-iii-a05-s01-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 4,
+      "line_number": 15,
+      "line_serial": "king-richard-iii-a05-s01-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "False to his children and his wife’s allies.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "False",
+              "norm": "false",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "children",
+              "norm": "children",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "wife’s",
+              "norm": "wife's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "allies",
+              "norm": "allies",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0015-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "king-richard-iii-a05-s01-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 5,
+      "line_number": 16,
+      "line_serial": "king-richard-iii-a05-s01-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This is the day wherein I wished to fall",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "wherein",
+              "norm": "wherein",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "wished",
+              "norm": "wished",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "fall",
+              "norm": "fall",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0016-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "king-richard-iii-a05-s01-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 6,
+      "line_number": 17,
+      "line_serial": "king-richard-iii-a05-s01-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "By the false faith of him whom most I trusted.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "By",
+              "norm": "by",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "false",
+              "norm": "false",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "faith",
+              "norm": "faith",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "whom",
+              "norm": "whom",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "most",
+              "norm": "most",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "trusted",
+              "norm": "trusted",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0017-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0017-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "king-richard-iii-a05-s01-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 7,
+      "line_number": 18,
+      "line_serial": "king-richard-iii-a05-s01-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This, this All-Souls’ day to my fearful soul",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0018-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0018-t004"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0018-t005",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 5
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Souls’",
+              "norm": "souls'",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0018-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "fearful",
+              "norm": "fearful",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0018-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "soul",
+              "norm": "soul",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0018-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "king-richard-iii-a05-s01-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 8,
+      "line_number": 19,
+      "line_serial": "king-richard-iii-a05-s01-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Is the determined respite of my wrongs.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Is",
+              "norm": "is",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "determined",
+              "norm": "determined",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "respite",
+              "norm": "respite",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0019-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "wrongs",
+              "norm": "wrongs",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0019-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0019-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "king-richard-iii-a05-s01-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 9,
+      "line_number": 20,
+      "line_serial": "king-richard-iii-a05-s01-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That high All-Seer which I dallied with",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "high",
+              "norm": "high",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0020-t003"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0020-t004",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 4
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Seer",
+              "norm": "seer",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "which",
+              "norm": "which",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "dallied",
+              "norm": "dallied",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0020-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0020-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "king-richard-iii-a05-s01-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 10,
+      "line_number": 21,
+      "line_serial": "king-richard-iii-a05-s01-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hath turned my feigned prayer on my head",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hath",
+              "norm": "hath",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "turned",
+              "norm": "turned",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "feigned",
+              "norm": "feigned",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "prayer",
+              "norm": "prayer",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "head",
+              "norm": "head",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0021-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "king-richard-iii-a05-s01-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 11,
+      "line_number": 22,
+      "line_serial": "king-richard-iii-a05-s01-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And given in earnest what I begged in jest.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "given",
+              "norm": "given",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "earnest",
+              "norm": "earnest",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0022-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "begged",
+              "norm": "begged",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0022-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "jest",
+              "norm": "jest",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0022-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0022-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "king-richard-iii-a05-s01-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 12,
+      "line_number": 23,
+      "line_serial": "king-richard-iii-a05-s01-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thus doth He force the swords of wicked men",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thus",
+              "norm": "thus",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "doth",
+              "norm": "doth",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "force",
+              "norm": "force",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "swords",
+              "norm": "swords",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "wicked",
+              "norm": "wicked",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0023-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "king-richard-iii-a05-s01-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 13,
+      "line_number": 24,
+      "line_serial": "king-richard-iii-a05-s01-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To turn their own points in their masters’ bosoms.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "turn",
+              "norm": "turn",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "own",
+              "norm": "own",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "points",
+              "norm": "points",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0024-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "masters’",
+              "norm": "masters'",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "bosoms",
+              "norm": "bosoms",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0024-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0024-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "king-richard-iii-a05-s01-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 14,
+      "line_number": 25,
+      "line_serial": "king-richard-iii-a05-s01-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thus Margaret’s curse falls heavy on my neck:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thus",
+              "norm": "thus",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Margaret’s",
+              "norm": "margaret's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "curse",
+              "norm": "curse",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "falls",
+              "norm": "falls",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "heavy",
+              "norm": "heavy",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "neck",
+              "norm": "neck",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0025-t009",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "king-richard-iii-a05-s01-i0034",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 15,
+      "line_number": 26,
+      "line_serial": "king-richard-iii-a05-s01-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "“When he,” quoth she, “shall split thy heart with sorrow,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "punct",
+              "s": "“",
+              "norm": "\"",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0026-t001",
+              "punct": {
+                "kind": "quote_open",
+                "dash": null,
+                "quote": "double",
+                "role": null
+              }
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "When",
+              "norm": "when",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0026-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "”",
+              "norm": "\"",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0026-t005",
+              "punct": {
+                "kind": "quote_close",
+                "dash": null,
+                "quote": "double",
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "quoth",
+              "norm": "quoth",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0026-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "“",
+              "norm": "\"",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t009",
+              "punct": {
+                "kind": "quote_open",
+                "dash": null,
+                "quote": "double",
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0026-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "split",
+              "norm": "split",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "heart",
+              "norm": "heart",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t014"
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "sorrow",
+              "norm": "sorrow",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0026-t015"
+            },
+            {
+              "i": 16,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0026-t016",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "king-richard-iii-a05-s01-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 16,
+      "line_number": 27,
+      "line_serial": "king-richard-iii-a05-s01-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Remember Margaret was a prophetess.”",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Remember",
+              "norm": "remember",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Margaret",
+              "norm": "margaret",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "prophetess",
+              "norm": "prophetess",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0027-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "”",
+              "norm": "\"",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0027-t007",
+              "punct": {
+                "kind": "quote_close",
+                "dash": null,
+                "quote": "double",
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "king-richard-iii-a05-s01-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 17,
+      "line_number": 28,
+      "line_serial": "king-richard-iii-a05-s01-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Come lead me, officers, to the block of shame;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Come",
+              "norm": "come",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "lead",
+              "norm": "lead",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0028-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "officers",
+              "norm": "officers",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0028-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "block",
+              "norm": "block",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0028-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0028-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "shame",
+              "norm": "shame",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0028-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0028-t012",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "king-richard-iii-a05-s01-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BUCKINGHAM",
+      "speech_id": "king-richard-iii-a05-s01-s0005",
+      "speech_seq": 18,
+      "line_number": 29,
+      "line_serial": "king-richard-iii-a05-s01-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Wrong hath but wrong, and blame the due of blame.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Wrong",
+              "norm": "wrong",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "wrong",
+              "norm": "wrong",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0029-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "blame",
+              "norm": "blame",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "due",
+              "norm": "due",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "blame",
+              "norm": "blame",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-l0029-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-l0029-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "king-richard-iii-a05-s01-i0038",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit with Officers.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0038-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0038-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Officers",
+              "norm": "officers",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s01-i0038-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s01-i0038-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

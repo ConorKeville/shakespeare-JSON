@@ -1,0 +1,3463 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "henry-v/98_extras/11_PROLOGUE_02_Prologue.txt"
+    },
+    "play": {
+      "id": "henry-v",
+      "title": "Henry V",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "prologue",
+      "act": null,
+      "scene": null,
+      "label": null,
+      "title": null,
+      "unit_key": "11-prologue-02-prologue",
+      "unit_id": "henry-v-11-prologue-02-prologue",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "henry-v-11-prologue-02-prologue-i0001",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "PROLOGUE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 2,
+      "serial": "henry-v-11-prologue-02-prologue-i0002",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Chorus.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-i0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Chorus",
+              "norm": "chorus",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-i0002-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-i0002-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "henry-v-11-prologue-02-prologue-i0003",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 4,
+      "serial": "henry-v-11-prologue-02-prologue-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "O for a Muse of fire, that would ascend",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "O",
+              "norm": "o",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Muse",
+              "norm": "muse",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "fire",
+              "norm": "fire",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "ascend",
+              "norm": "ascend",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0001-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "henry-v-11-prologue-02-prologue-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The brightest heaven of invention,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "brightest",
+              "norm": "brightest",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "heaven",
+              "norm": "heaven",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "invention",
+              "norm": "invention",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0002-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "henry-v-11-prologue-02-prologue-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A kingdom for a stage, princes to act,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "kingdom",
+              "norm": "kingdom",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "stage",
+              "norm": "stage",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "princes",
+              "norm": "princes",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "act",
+              "norm": "act",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0003-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "henry-v-11-prologue-02-prologue-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And monarchs to behold the swelling scene!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "monarchs",
+              "norm": "monarchs",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "behold",
+              "norm": "behold",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "swelling",
+              "norm": "swelling",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "scene",
+              "norm": "scene",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0004-t008",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "henry-v-11-prologue-02-prologue-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Then should the warlike Harry, like himself,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Then",
+              "norm": "then",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "should",
+              "norm": "should",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "warlike",
+              "norm": "warlike",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Harry",
+              "norm": "harry",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "himself",
+              "norm": "himself",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0005-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "henry-v-11-prologue-02-prologue-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Assume the port of Mars, and at his heels,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Assume",
+              "norm": "assume",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "port",
+              "norm": "port",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Mars",
+              "norm": "mars",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "heels",
+              "norm": "heels",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0006-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "henry-v-11-prologue-02-prologue-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Leash’d in like hounds, should famine, sword, and fire",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Leash’d",
+              "norm": "leash'd",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hounds",
+              "norm": "hounds",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "should",
+              "norm": "should",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "famine",
+              "norm": "famine",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "sword",
+              "norm": "sword",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "fire",
+              "norm": "fire",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0007-t012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "henry-v-11-prologue-02-prologue-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Crouch for employment. But pardon, gentles all,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Crouch",
+              "norm": "crouch",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "employment",
+              "norm": "employment",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "pardon",
+              "norm": "pardon",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "gentles",
+              "norm": "gentles",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0008-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "henry-v-11-prologue-02-prologue-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The flat unraised spirits that hath dar’d",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "flat",
+              "norm": "flat",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "unraised",
+              "norm": "unraised",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "spirits",
+              "norm": "spirits",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "dar’d",
+              "norm": "dar'd",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0009-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "henry-v-11-prologue-02-prologue-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "On this unworthy scaffold to bring forth",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "On",
+              "norm": "on",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "unworthy",
+              "norm": "unworthy",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "scaffold",
+              "norm": "scaffold",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "bring",
+              "norm": "bring",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0010-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "henry-v-11-prologue-02-prologue-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 11,
+      "line_number": 11,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "So great an object. Can this cockpit hold",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "great",
+              "norm": "great",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "object",
+              "norm": "object",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Can",
+              "norm": "can",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "cockpit",
+              "norm": "cockpit",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "hold",
+              "norm": "hold",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0011-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "henry-v-11-prologue-02-prologue-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0001",
+      "speech_seq": 12,
+      "line_number": 12,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The vasty fields of France? Or may we cram",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "vasty",
+              "norm": "vasty",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fields",
+              "norm": "fields",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "France",
+              "norm": "france",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t006",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "cram",
+              "norm": "cram",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0012-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "henry-v-11-prologue-02-prologue-i0016",
+      "kind": "stage",
+      "subtype": "within",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Within this wooden O the very casques",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Within",
+              "norm": "within",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-i0016-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-i0016-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "wooden",
+              "norm": "wooden",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-i0016-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "O",
+              "norm": "o",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-i0016-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-i0016-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "very",
+              "norm": "very",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-i0016-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "casques",
+              "norm": "casques",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-i0016-t007",
+              "em": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "henry-v-11-prologue-02-prologue-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 1,
+      "line_number": 13,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That did affright the air at Agincourt?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "affright",
+              "norm": "affright",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "air",
+              "norm": "air",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Agincourt",
+              "norm": "agincourt",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0013-t008",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "henry-v-11-prologue-02-prologue-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 2,
+      "line_number": 14,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "O pardon! since a crooked figure may",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "O",
+              "norm": "o",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "pardon",
+              "norm": "pardon",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0014-t003",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "since",
+              "norm": "since",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "crooked",
+              "norm": "crooked",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "figure",
+              "norm": "figure",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0014-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "henry-v-11-prologue-02-prologue-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 3,
+      "line_number": 15,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Attest in little place a million,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Attest",
+              "norm": "attest",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "little",
+              "norm": "little",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "place",
+              "norm": "place",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "million",
+              "norm": "million",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0015-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "henry-v-11-prologue-02-prologue-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 4,
+      "line_number": 16,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And let us, ciphers to this great accompt,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "ciphers",
+              "norm": "ciphers",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "great",
+              "norm": "great",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "accompt",
+              "norm": "accompt",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0016-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "henry-v-11-prologue-02-prologue-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 5,
+      "line_number": 17,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "On your imaginary forces work.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "On",
+              "norm": "on",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "imaginary",
+              "norm": "imaginary",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "forces",
+              "norm": "forces",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "work",
+              "norm": "work",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0017-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "henry-v-11-prologue-02-prologue-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 6,
+      "line_number": 18,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Suppose within the girdle of these walls",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Suppose",
+              "norm": "suppose",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "within",
+              "norm": "within",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "girdle",
+              "norm": "girdle",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "these",
+              "norm": "these",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "walls",
+              "norm": "walls",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0018-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "henry-v-11-prologue-02-prologue-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 7,
+      "line_number": 19,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Are now confin’d two mighty monarchies,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Are",
+              "norm": "are",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "confin’d",
+              "norm": "confin'd",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "mighty",
+              "norm": "mighty",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "monarchies",
+              "norm": "monarchies",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0019-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0019-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "henry-v-11-prologue-02-prologue-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 8,
+      "line_number": 20,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Whose high upreared and abutting fronts",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Whose",
+              "norm": "whose",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "high",
+              "norm": "high",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "upreared",
+              "norm": "upreared",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "abutting",
+              "norm": "abutting",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "fronts",
+              "norm": "fronts",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0020-t006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "henry-v-11-prologue-02-prologue-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 9,
+      "line_number": 21,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The perilous narrow ocean parts asunder;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "perilous",
+              "norm": "perilous",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "narrow",
+              "norm": "narrow",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "ocean",
+              "norm": "ocean",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "parts",
+              "norm": "parts",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "asunder",
+              "norm": "asunder",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0021-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "henry-v-11-prologue-02-prologue-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 10,
+      "line_number": 22,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Piece out our imperfections with your thoughts.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Piece",
+              "norm": "piece",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "imperfections",
+              "norm": "imperfections",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0022-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "thoughts",
+              "norm": "thoughts",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0022-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "henry-v-11-prologue-02-prologue-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 11,
+      "line_number": 23,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Into a thousand parts divide one man,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Into",
+              "norm": "into",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "thousand",
+              "norm": "thousand",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "parts",
+              "norm": "parts",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "divide",
+              "norm": "divide",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "one",
+              "norm": "one",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0023-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "henry-v-11-prologue-02-prologue-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 12,
+      "line_number": 24,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And make imaginary puissance.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "imaginary",
+              "norm": "imaginary",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "puissance",
+              "norm": "puissance",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0024-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "henry-v-11-prologue-02-prologue-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 13,
+      "line_number": 25,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Think, when we talk of horses, that you see them",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Think",
+              "norm": "think",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "when",
+              "norm": "when",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "talk",
+              "norm": "talk",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "horses",
+              "norm": "horses",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0025-t012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "henry-v-11-prologue-02-prologue-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 14,
+      "line_number": 26,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Printing their proud hoofs i’ th’ receiving earth.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Printing",
+              "norm": "printing",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "proud",
+              "norm": "proud",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hoofs",
+              "norm": "hoofs",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "i’",
+              "norm": "i'",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "th’",
+              "norm": "th'",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "receiving",
+              "norm": "receiving",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "earth",
+              "norm": "earth",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0026-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "henry-v-11-prologue-02-prologue-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 15,
+      "line_number": 27,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For ’tis your thoughts that now must deck our kings,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "thoughts",
+              "norm": "thoughts",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "deck",
+              "norm": "deck",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "kings",
+              "norm": "kings",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0027-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "henry-v-11-prologue-02-prologue-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 16,
+      "line_number": 28,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Carry them here and there, jumping o’er times,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Carry",
+              "norm": "carry",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "jumping",
+              "norm": "jumping",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "o’er",
+              "norm": "o'er",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "times",
+              "norm": "times",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0028-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "henry-v-11-prologue-02-prologue-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 17,
+      "line_number": 29,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Turning the accomplishment of many years",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Turning",
+              "norm": "turning",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "accomplishment",
+              "norm": "accomplishment",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "many",
+              "norm": "many",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "years",
+              "norm": "years",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0029-t006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "henry-v-11-prologue-02-prologue-i0034",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 18,
+      "line_number": 30,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Into an hour-glass: for the which supply,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Into",
+              "norm": "into",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "hour",
+              "norm": "hour",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t003"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t004",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 4
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "glass",
+              "norm": "glass",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t006",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "which",
+              "norm": "which",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "supply",
+              "norm": "supply",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0030-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "henry-v-11-prologue-02-prologue-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 19,
+      "line_number": 31,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Admit me Chorus to this history;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Admit",
+              "norm": "admit",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Chorus",
+              "norm": "chorus",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "history",
+              "norm": "history",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0031-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0031-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "henry-v-11-prologue-02-prologue-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 20,
+      "line_number": 32,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Who prologue-like your humble patience pray,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Who",
+              "norm": "who",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "prologue",
+              "norm": "prologue",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t002"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t003",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 3
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "humble",
+              "norm": "humble",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "patience",
+              "norm": "patience",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "pray",
+              "norm": "pray",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0032-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "henry-v-11-prologue-02-prologue-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "henry-v-11-prologue-02-prologue-s0002",
+      "speech_seq": 21,
+      "line_number": 33,
+      "line_serial": "henry-v-11-prologue-02-prologue-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Gently to hear, kindly to judge, our play.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Gently",
+              "norm": "gently",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "hear",
+              "norm": "hear",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "kindly",
+              "norm": "kindly",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "judge",
+              "norm": "judge",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "play",
+              "norm": "play",
+              "pre": " ",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-l0033-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "henry-v-11-prologue-02-prologue-i0038",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-i0038-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-11-prologue-02-prologue-i0038-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

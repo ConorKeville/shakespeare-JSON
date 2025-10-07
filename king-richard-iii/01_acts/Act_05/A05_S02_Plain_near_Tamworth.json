@@ -1,0 +1,2947 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "king-richard-iii/01_acts/Act_05/A05_S02_Plain_near_Tamworth.txt"
+    },
+    "play": {
+      "id": "king-richard-iii",
+      "title": "King Richard Iii",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 5,
+      "scene": 2,
+      "label": "Act V, Scene II",
+      "title": "SCENE II. Plain near Tamworth",
+      "unit_key": "a05-s02",
+      "unit_id": "king-richard-iii-a05-s02",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "king-richard-iii-a05-s02-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT V",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "V",
+              "norm": "v",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "king-richard-iii-a05-s02-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE II. Plain near Tamworth",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "II",
+              "norm": "ii",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0002-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Plain",
+              "norm": "plain",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "near",
+              "norm": "near",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Tamworth",
+              "norm": "tamworth",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0002-t006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "king-richard-iii-a05-s02-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Richmond, Oxford, Blunt, Herbert, and others, with drum and",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Richmond",
+              "norm": "richmond",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0003-t003",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Oxford",
+              "norm": "oxford",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0003-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Blunt",
+              "norm": "blunt",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0003-t007",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Herbert",
+              "norm": "herbert",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0003-t009",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "others",
+              "norm": "others",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0003-t012",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t013",
+              "em": true
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "drum",
+              "norm": "drum",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t014",
+              "em": true
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-i0003-t015",
+              "em": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "king-richard-iii-a05-s02-i0005",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "king-richard-iii-a05-s02-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "king-richard-iii-a05-s02-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "colours.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "colours",
+              "norm": "colours",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0004-t002",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "king-richard-iii-a05-s02-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "king-richard-iii-a05-s02-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Fellows in arms, and my most loving friends,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Fellows",
+              "norm": "fellows",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "arms",
+              "norm": "arms",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0001-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "most",
+              "norm": "most",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "loving",
+              "norm": "loving",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0001-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "king-richard-iii-a05-s02-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "king-richard-iii-a05-s02-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Bruised underneath the yoke of tyranny,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Bruised",
+              "norm": "bruised",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "underneath",
+              "norm": "underneath",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "yoke",
+              "norm": "yoke",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "tyranny",
+              "norm": "tyranny",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0002-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "king-richard-iii-a05-s02-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "king-richard-iii-a05-s02-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thus far into the bowels of the land",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thus",
+              "norm": "thus",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "far",
+              "norm": "far",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "into",
+              "norm": "into",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "bowels",
+              "norm": "bowels",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "land",
+              "norm": "land",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0003-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "king-richard-iii-a05-s02-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "king-richard-iii-a05-s02-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Have we marched on without impediment;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Have",
+              "norm": "have",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "marched",
+              "norm": "marched",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "without",
+              "norm": "without",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "impediment",
+              "norm": "impediment",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0004-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "king-richard-iii-a05-s02-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "king-richard-iii-a05-s02-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And here receive we from our father Stanley",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "receive",
+              "norm": "receive",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "father",
+              "norm": "father",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Stanley",
+              "norm": "stanley",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0005-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "king-richard-iii-a05-s02-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "king-richard-iii-a05-s02-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Lines of fair comfort and encouragement.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Lines",
+              "norm": "lines",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fair",
+              "norm": "fair",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "comfort",
+              "norm": "comfort",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "encouragement",
+              "norm": "encouragement",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0006-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "king-richard-iii-a05-s02-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "king-richard-iii-a05-s02-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The wretched, bloody, and usurping boar,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "wretched",
+              "norm": "wretched",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0007-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bloody",
+              "norm": "bloody",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0007-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "usurping",
+              "norm": "usurping",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "boar",
+              "norm": "boar",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0007-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "king-richard-iii-a05-s02-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "king-richard-iii-a05-s02-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That spoiled your summer fields and fruitful vines,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "spoiled",
+              "norm": "spoiled",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "summer",
+              "norm": "summer",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "fields",
+              "norm": "fields",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "fruitful",
+              "norm": "fruitful",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "vines",
+              "norm": "vines",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0008-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "king-richard-iii-a05-s02-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "king-richard-iii-a05-s02-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Swills your warm blood like wash, and makes his trough",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Swills",
+              "norm": "swills",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "warm",
+              "norm": "warm",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "blood",
+              "norm": "blood",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "wash",
+              "norm": "wash",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0009-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "makes",
+              "norm": "makes",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "trough",
+              "norm": "trough",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0009-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "king-richard-iii-a05-s02-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 11,
+      "line_number": 11,
+      "line_serial": "king-richard-iii-a05-s02-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In your embowelled bosoms—this foul swine",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "embowelled",
+              "norm": "embowelled",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bosoms",
+              "norm": "bosoms",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0010-t005",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "foul",
+              "norm": "foul",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "swine",
+              "norm": "swine",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0010-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "king-richard-iii-a05-s02-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 12,
+      "line_number": 12,
+      "line_serial": "king-richard-iii-a05-s02-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Is now even in the centre of this isle,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Is",
+              "norm": "is",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "even",
+              "norm": "even",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "centre",
+              "norm": "centre",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "isle",
+              "norm": "isle",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0011-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "king-richard-iii-a05-s02-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 13,
+      "line_number": 13,
+      "line_serial": "king-richard-iii-a05-s02-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Near to the town of Leicester, as we learn.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Near",
+              "norm": "near",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "town",
+              "norm": "town",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Leicester",
+              "norm": "leicester",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0012-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "learn",
+              "norm": "learn",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0012-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0012-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "king-richard-iii-a05-s02-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 14,
+      "line_number": 14,
+      "line_serial": "king-richard-iii-a05-s02-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "From Tamworth thither is but one day’s march.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "From",
+              "norm": "from",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Tamworth",
+              "norm": "tamworth",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "thither",
+              "norm": "thither",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "one",
+              "norm": "one",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "day’s",
+              "norm": "day's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "march",
+              "norm": "march",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0013-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "king-richard-iii-a05-s02-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 15,
+      "line_number": 15,
+      "line_serial": "king-richard-iii-a05-s02-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In God’s name, cheerly on, courageous friends,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "God’s",
+              "norm": "god's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "name",
+              "norm": "name",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0014-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "cheerly",
+              "norm": "cheerly",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0014-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "courageous",
+              "norm": "courageous",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0014-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "king-richard-iii-a05-s02-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 16,
+      "line_number": 16,
+      "line_serial": "king-richard-iii-a05-s02-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To reap the harvest of perpetual peace",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "reap",
+              "norm": "reap",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "harvest",
+              "norm": "harvest",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "perpetual",
+              "norm": "perpetual",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "peace",
+              "norm": "peace",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0015-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "king-richard-iii-a05-s02-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0001",
+      "speech_seq": 17,
+      "line_number": 17,
+      "line_serial": "king-richard-iii-a05-s02-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "By this one bloody trial of sharp war.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "By",
+              "norm": "by",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "one",
+              "norm": "one",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bloody",
+              "norm": "bloody",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "trial",
+              "norm": "trial",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "sharp",
+              "norm": "sharp",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "war",
+              "norm": "war",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0016-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "king-richard-iii-a05-s02-i0022",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OXFORD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 23,
+      "serial": "king-richard-iii-a05-s02-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OXFORD",
+      "speech_id": "king-richard-iii-a05-s02-s0002",
+      "speech_seq": 1,
+      "line_number": 18,
+      "line_serial": "king-richard-iii-a05-s02-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Every man’s conscience is a thousand men,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Every",
+              "norm": "every",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "man’s",
+              "norm": "man's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "conscience",
+              "norm": "conscience",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "thousand",
+              "norm": "thousand",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0017-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "king-richard-iii-a05-s02-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OXFORD",
+      "speech_id": "king-richard-iii-a05-s02-s0002",
+      "speech_seq": 2,
+      "line_number": 19,
+      "line_serial": "king-richard-iii-a05-s02-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To fight against that guilty homicide.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "against",
+              "norm": "against",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "guilty",
+              "norm": "guilty",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "homicide",
+              "norm": "homicide",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0018-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "king-richard-iii-a05-s02-i0025",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "HERBERT",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 26,
+      "serial": "king-richard-iii-a05-s02-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "HERBERT",
+      "speech_id": "king-richard-iii-a05-s02-s0003",
+      "speech_seq": 1,
+      "line_number": 20,
+      "line_serial": "king-richard-iii-a05-s02-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I doubt not but his friends will turn to us.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "doubt",
+              "norm": "doubt",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "turn",
+              "norm": "turn",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0019-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0019-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "king-richard-iii-a05-s02-i0027",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BLUNT",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 28,
+      "serial": "king-richard-iii-a05-s02-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BLUNT",
+      "speech_id": "king-richard-iii-a05-s02-s0004",
+      "speech_seq": 1,
+      "line_number": 21,
+      "line_serial": "king-richard-iii-a05-s02-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "He hath no friends but what are friends for fear,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "fear",
+              "norm": "fear",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0020-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0020-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "king-richard-iii-a05-s02-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "BLUNT",
+      "speech_id": "king-richard-iii-a05-s02-s0004",
+      "speech_seq": 2,
+      "line_number": 22,
+      "line_serial": "king-richard-iii-a05-s02-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Which in his dearest need will fly from him.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Which",
+              "norm": "which",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "dearest",
+              "norm": "dearest",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "need",
+              "norm": "need",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "fly",
+              "norm": "fly",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0021-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0021-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0021-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "king-richard-iii-a05-s02-i0030",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 31,
+      "serial": "king-richard-iii-a05-s02-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0005",
+      "speech_seq": 1,
+      "line_number": 23,
+      "line_serial": "king-richard-iii-a05-s02-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "All for our vantage. Then in God’s name, march.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "vantage",
+              "norm": "vantage",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0022-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0022-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "God’s",
+              "norm": "god's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0022-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "name",
+              "norm": "name",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0022-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0022-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "march",
+              "norm": "march",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0022-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0022-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "king-richard-iii-a05-s02-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0005",
+      "speech_seq": 2,
+      "line_number": 24,
+      "line_serial": "king-richard-iii-a05-s02-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "True hope is swift, and flies with swallow’s wings;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "True",
+              "norm": "true",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "hope",
+              "norm": "hope",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "swift",
+              "norm": "swift",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0023-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "flies",
+              "norm": "flies",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "swallow’s",
+              "norm": "swallow's",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0023-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "wings",
+              "norm": "wings",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0023-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0023-t011",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "king-richard-iii-a05-s02-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "RICHMOND",
+      "speech_id": "king-richard-iii-a05-s02-s0005",
+      "speech_seq": 3,
+      "line_number": 25,
+      "line_serial": "king-richard-iii-a05-s02-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Kings it makes gods, and meaner creatures kings.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Kings",
+              "norm": "kings",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "makes",
+              "norm": "makes",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "gods",
+              "norm": "gods",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0024-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "meaner",
+              "norm": "meaner",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0024-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "creatures",
+              "norm": "creatures",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "kings",
+              "norm": "kings",
+              "pre": " ",
+              "serial": "king-richard-iii-a05-s02-l0024-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-l0024-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "king-richard-iii-a05-s02-i0034",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0034-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-richard-iii-a05-s02-i0034-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

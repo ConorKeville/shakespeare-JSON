@@ -1,0 +1,3518 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "king-henry-viii/98_extras/02_PROLOGUE.txt"
+    },
+    "play": {
+      "id": "king-henry-viii",
+      "title": "King Henry VIII",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "prologue",
+      "act": null,
+      "scene": null,
+      "label": null,
+      "title": null,
+      "unit_key": "02-prologue",
+      "unit_id": "king-henry-viii-02-prologue",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "king-henry-viii-02-prologue-i0001",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Prologue.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-i0001-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Prologue",
+              "norm": "prologue",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-i0001-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-i0001-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "king-henry-viii-02-prologue-i0002",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 3,
+      "serial": "king-henry-viii-02-prologue-i0003",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "king-henry-viii-02-prologue-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I come no more to make you laugh. Things now",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "laugh",
+              "norm": "laugh",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0001-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Things",
+              "norm": "things",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0001-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "king-henry-viii-02-prologue-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "king-henry-viii-02-prologue-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That bear a weighty and a serious brow,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "bear",
+              "norm": "bear",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "weighty",
+              "norm": "weighty",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "serious",
+              "norm": "serious",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "brow",
+              "norm": "brow",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0002-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "king-henry-viii-02-prologue-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "king-henry-viii-02-prologue-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Sad, high, and working, full of state and woe,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Sad",
+              "norm": "sad",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0003-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "high",
+              "norm": "high",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0003-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "working",
+              "norm": "working",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0003-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "full",
+              "norm": "full",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "state",
+              "norm": "state",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0003-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0003-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "woe",
+              "norm": "woe",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0003-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0003-t013",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "king-henry-viii-02-prologue-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "king-henry-viii-02-prologue-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Such noble scenes as draw the eye to flow,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Such",
+              "norm": "such",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "noble",
+              "norm": "noble",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "scenes",
+              "norm": "scenes",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "draw",
+              "norm": "draw",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "eye",
+              "norm": "eye",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "flow",
+              "norm": "flow",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0004-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "king-henry-viii-02-prologue-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "king-henry-viii-02-prologue-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "We now present. Those that can pity, here",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We",
+              "norm": "we",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "present",
+              "norm": "present",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0005-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Those",
+              "norm": "those",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "can",
+              "norm": "can",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "pity",
+              "norm": "pity",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0005-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0005-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "king-henry-viii-02-prologue-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "king-henry-viii-02-prologue-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "May, if they think it well, let fall a tear;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "May",
+              "norm": "may",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0006-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "if",
+              "norm": "if",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "think",
+              "norm": "think",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "well",
+              "norm": "well",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0006-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "fall",
+              "norm": "fall",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "tear",
+              "norm": "tear",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0006-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0006-t013",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "king-henry-viii-02-prologue-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "king-henry-viii-02-prologue-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The subject will deserve it. Such as give",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "subject",
+              "norm": "subject",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "deserve",
+              "norm": "deserve",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0007-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Such",
+              "norm": "such",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "give",
+              "norm": "give",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0007-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "king-henry-viii-02-prologue-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "king-henry-viii-02-prologue-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Their money out of hope they may believe",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Their",
+              "norm": "their",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "money",
+              "norm": "money",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hope",
+              "norm": "hope",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "believe",
+              "norm": "believe",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0008-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "king-henry-viii-02-prologue-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "king-henry-viii-02-prologue-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "May here find truth too. Those that come to see",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "May",
+              "norm": "may",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "find",
+              "norm": "find",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "truth",
+              "norm": "truth",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "too",
+              "norm": "too",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0009-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Those",
+              "norm": "those",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0009-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "king-henry-viii-02-prologue-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "king-henry-viii-02-prologue-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Only a show or two, and so agree",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Only",
+              "norm": "only",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "show",
+              "norm": "show",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0010-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "agree",
+              "norm": "agree",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0010-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "king-henry-viii-02-prologue-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 11,
+      "line_number": 11,
+      "line_serial": "king-henry-viii-02-prologue-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The play may pass, if they be still and willing,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "play",
+              "norm": "play",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "pass",
+              "norm": "pass",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0011-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "if",
+              "norm": "if",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "still",
+              "norm": "still",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "willing",
+              "norm": "willing",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0011-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0011-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "king-henry-viii-02-prologue-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 12,
+      "line_number": 12,
+      "line_serial": "king-henry-viii-02-prologue-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I’ll undertake may see away their shilling",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "undertake",
+              "norm": "undertake",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "shilling",
+              "norm": "shilling",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0012-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "king-henry-viii-02-prologue-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 13,
+      "line_number": 13,
+      "line_serial": "king-henry-viii-02-prologue-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Richly in two short hours. Only they",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Richly",
+              "norm": "richly",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "short",
+              "norm": "short",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hours",
+              "norm": "hours",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0013-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Only",
+              "norm": "only",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0013-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "king-henry-viii-02-prologue-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 14,
+      "line_number": 14,
+      "line_serial": "king-henry-viii-02-prologue-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That come to hear a merry bawdy play,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hear",
+              "norm": "hear",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "merry",
+              "norm": "merry",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "bawdy",
+              "norm": "bawdy",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "play",
+              "norm": "play",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0014-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "king-henry-viii-02-prologue-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 15,
+      "line_number": 15,
+      "line_serial": "king-henry-viii-02-prologue-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A noise of targets, or to see a fellow",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "noise",
+              "norm": "noise",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "targets",
+              "norm": "targets",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0015-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0015-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "fellow",
+              "norm": "fellow",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0015-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "king-henry-viii-02-prologue-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 16,
+      "line_number": 16,
+      "line_serial": "king-henry-viii-02-prologue-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In a long motley coat guarded with yellow,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "long",
+              "norm": "long",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "motley",
+              "norm": "motley",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "coat",
+              "norm": "coat",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "guarded",
+              "norm": "guarded",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "yellow",
+              "norm": "yellow",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0016-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "king-henry-viii-02-prologue-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 17,
+      "line_number": 17,
+      "line_serial": "king-henry-viii-02-prologue-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Will be deceived. For, gentle hearers, know",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Will",
+              "norm": "will",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "deceived",
+              "norm": "deceived",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0017-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0017-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "gentle",
+              "norm": "gentle",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "hearers",
+              "norm": "hearers",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0017-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0017-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "king-henry-viii-02-prologue-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 18,
+      "line_number": 18,
+      "line_serial": "king-henry-viii-02-prologue-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To rank our chosen truth with such a show",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "rank",
+              "norm": "rank",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "chosen",
+              "norm": "chosen",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "truth",
+              "norm": "truth",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "such",
+              "norm": "such",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "show",
+              "norm": "show",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0018-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "king-henry-viii-02-prologue-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 19,
+      "line_number": 19,
+      "line_serial": "king-henry-viii-02-prologue-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As fool and fight is, beside forfeiting",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fool",
+              "norm": "fool",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0019-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "beside",
+              "norm": "beside",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0019-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "forfeiting",
+              "norm": "forfeiting",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0019-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "king-henry-viii-02-prologue-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 20,
+      "line_number": 20,
+      "line_serial": "king-henry-viii-02-prologue-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Our own brains and the opinion that we bring",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Our",
+              "norm": "our",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "own",
+              "norm": "own",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "brains",
+              "norm": "brains",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "opinion",
+              "norm": "opinion",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0020-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "bring",
+              "norm": "bring",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0020-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "king-henry-viii-02-prologue-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 21,
+      "line_number": 21,
+      "line_serial": "king-henry-viii-02-prologue-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To make that only true we now intend,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "only",
+              "norm": "only",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "true",
+              "norm": "true",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "intend",
+              "norm": "intend",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0021-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0021-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "king-henry-viii-02-prologue-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 22,
+      "line_number": 22,
+      "line_serial": "king-henry-viii-02-prologue-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Will leave us never an understanding friend.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Will",
+              "norm": "will",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "leave",
+              "norm": "leave",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "never",
+              "norm": "never",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "understanding",
+              "norm": "understanding",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0022-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "friend",
+              "norm": "friend",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0022-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "king-henry-viii-02-prologue-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 23,
+      "line_number": 23,
+      "line_serial": "king-henry-viii-02-prologue-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Therefore, for goodness’ sake, and as you are known",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Therefore",
+              "norm": "therefore",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0023-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "goodness’",
+              "norm": "goodness'",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "sake",
+              "norm": "sake",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0023-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0023-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0023-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "known",
+              "norm": "known",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0023-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "king-henry-viii-02-prologue-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 24,
+      "line_number": 24,
+      "line_serial": "king-henry-viii-02-prologue-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The first and happiest hearers of the town,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "first",
+              "norm": "first",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "happiest",
+              "norm": "happiest",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hearers",
+              "norm": "hearers",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0024-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "town",
+              "norm": "town",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0024-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "king-henry-viii-02-prologue-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 25,
+      "line_number": 25,
+      "line_serial": "king-henry-viii-02-prologue-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Be sad, as we would make ye. Think ye see",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Be",
+              "norm": "be",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sad",
+              "norm": "sad",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0025-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "ye",
+              "norm": "ye",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0025-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Think",
+              "norm": "think",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "ye",
+              "norm": "ye",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0025-t012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "king-henry-viii-02-prologue-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 26,
+      "line_number": 26,
+      "line_serial": "king-henry-viii-02-prologue-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The very persons of our noble story",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "very",
+              "norm": "very",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "persons",
+              "norm": "persons",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "noble",
+              "norm": "noble",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "story",
+              "norm": "story",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0026-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "king-henry-viii-02-prologue-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 27,
+      "line_number": 27,
+      "line_serial": "king-henry-viii-02-prologue-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As they were living; think you see them great,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "were",
+              "norm": "were",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "living",
+              "norm": "living",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0027-t005",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "think",
+              "norm": "think",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0027-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0027-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "great",
+              "norm": "great",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0027-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0027-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "king-henry-viii-02-prologue-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 28,
+      "line_number": 28,
+      "line_serial": "king-henry-viii-02-prologue-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And followed with the general throng and sweat",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "followed",
+              "norm": "followed",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "general",
+              "norm": "general",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "throng",
+              "norm": "throng",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0028-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "sweat",
+              "norm": "sweat",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0028-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "king-henry-viii-02-prologue-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 29,
+      "line_number": 29,
+      "line_serial": "king-henry-viii-02-prologue-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Of thousand friends; then, in a moment, see",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Of",
+              "norm": "of",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thousand",
+              "norm": "thousand",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0029-t004",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0029-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0029-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "moment",
+              "norm": "moment",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0029-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0029-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "see",
+              "norm": "see",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0029-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "king-henry-viii-02-prologue-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 30,
+      "line_number": 30,
+      "line_serial": "king-henry-viii-02-prologue-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "How soon this mightiness meets misery;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "How",
+              "norm": "how",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "soon",
+              "norm": "soon",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "mightiness",
+              "norm": "mightiness",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0030-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "meets",
+              "norm": "meets",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "misery",
+              "norm": "misery",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0030-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "king-henry-viii-02-prologue-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 31,
+      "line_number": 31,
+      "line_serial": "king-henry-viii-02-prologue-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And if you can be merry then, I’ll say",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "if",
+              "norm": "if",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "can",
+              "norm": "can",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "merry",
+              "norm": "merry",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0031-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0031-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0031-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0031-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "say",
+              "norm": "say",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0031-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "king-henry-viii-02-prologue-i0034",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "THE PROLOGUE",
+      "speech_id": "king-henry-viii-02-prologue-s0001",
+      "speech_seq": 32,
+      "line_number": 32,
+      "line_serial": "king-henry-viii-02-prologue-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A man may weep upon his wedding day.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "weep",
+              "norm": "weep",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "upon",
+              "norm": "upon",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0032-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0032-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "wedding",
+              "norm": "wedding",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0032-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "king-henry-viii-02-prologue-l0032-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-l0032-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "king-henry-viii-02-prologue-i0035",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-i0035-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-02-prologue-i0035-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

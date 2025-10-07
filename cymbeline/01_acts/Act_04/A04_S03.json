@@ -1,0 +1,5863 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "cymbeline/01_acts/Act_04/A04_S03.txt"
+    },
+    "play": {
+      "id": "cymbeline",
+      "title": "Cymbeline",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 4,
+      "scene": 3,
+      "label": "Act IV, Scene III",
+      "title": "SCENE III. Britain. Cymbeline’s palace.",
+      "unit_key": "a04-s03",
+      "unit_id": "cymbeline-a04-s03",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "cymbeline-a04-s03-i0001",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE III. Britain. Cymbeline’s palace.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "III",
+              "norm": "iii",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0001-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Britain",
+              "norm": "britain",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0001-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Cymbeline’s",
+              "norm": "cymbeline's",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "palace",
+              "norm": "palace",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0001-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "cymbeline-a04-s03-i0002",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Cymbeline, Lords, Pisanio and Attendants.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Cymbeline",
+              "norm": "cymbeline",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0002-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0002-t003",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Lords",
+              "norm": "lords",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0002-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0002-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Pisanio",
+              "norm": "pisanio",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0002-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0002-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Attendants",
+              "norm": "attendants",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0002-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0002-t009",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "cymbeline-a04-s03-i0003",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 4,
+      "serial": "cymbeline-a04-s03-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "cymbeline-a04-s03-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Again! and bring me word how ’tis with her.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Again",
+              "norm": "again",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0001-t002",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bring",
+              "norm": "bring",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "word",
+              "norm": "word",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "how",
+              "norm": "how",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0001-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0001-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "cymbeline-a04-s03-i0005",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit an Attendant.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0005-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0005-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Attendant",
+              "norm": "attendant",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0005-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0005-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "cymbeline-a04-s03-i0017",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 7,
+      "serial": "cymbeline-a04-s03-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 1,
+      "line_number": 2,
+      "line_serial": "cymbeline-a04-s03-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A fever with the absence of her son;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fever",
+              "norm": "fever",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "absence",
+              "norm": "absence",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "son",
+              "norm": "son",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0006-t009",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "cymbeline-a04-s03-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 2,
+      "line_number": 3,
+      "line_serial": "cymbeline-a04-s03-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A madness, of which her life’s in danger. Heavens,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "madness",
+              "norm": "madness",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0007-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "which",
+              "norm": "which",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "life’s",
+              "norm": "life's",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "danger",
+              "norm": "danger",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0007-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0007-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "Heavens",
+              "norm": "heavens",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0007-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0007-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "cymbeline-a04-s03-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 3,
+      "line_number": 4,
+      "line_serial": "cymbeline-a04-s03-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "How deeply you at once do touch me! Imogen,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "How",
+              "norm": "how",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "deeply",
+              "norm": "deeply",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "once",
+              "norm": "once",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "touch",
+              "norm": "touch",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0008-t009",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Imogen",
+              "norm": "imogen",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0008-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0008-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "cymbeline-a04-s03-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 4,
+      "line_number": 5,
+      "line_serial": "cymbeline-a04-s03-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The great part of my comfort, gone; my queen",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "great",
+              "norm": "great",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "part",
+              "norm": "part",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "comfort",
+              "norm": "comfort",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0009-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0009-t009",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0009-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "queen",
+              "norm": "queen",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0009-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "cymbeline-a04-s03-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 5,
+      "line_number": 6,
+      "line_serial": "cymbeline-a04-s03-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Upon a desperate bed, and in a time",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Upon",
+              "norm": "upon",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "desperate",
+              "norm": "desperate",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bed",
+              "norm": "bed",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0010-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0010-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "cymbeline-a04-s03-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 6,
+      "line_number": 7,
+      "line_serial": "cymbeline-a04-s03-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "When fearful wars point at me; her son gone,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "When",
+              "norm": "when",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fearful",
+              "norm": "fearful",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "wars",
+              "norm": "wars",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "point",
+              "norm": "point",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0011-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "son",
+              "norm": "son",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0011-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0011-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "cymbeline-a04-s03-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 7,
+      "line_number": 8,
+      "line_serial": "cymbeline-a04-s03-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "So needful for this present. It strikes me past",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "needful",
+              "norm": "needful",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "present",
+              "norm": "present",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0012-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "strikes",
+              "norm": "strikes",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "past",
+              "norm": "past",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0012-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "cymbeline-a04-s03-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 8,
+      "line_number": 9,
+      "line_serial": "cymbeline-a04-s03-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The hope of comfort. But for thee, fellow,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "hope",
+              "norm": "hope",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "comfort",
+              "norm": "comfort",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0013-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0013-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "fellow",
+              "norm": "fellow",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0013-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0013-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "cymbeline-a04-s03-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 9,
+      "line_number": 10,
+      "line_serial": "cymbeline-a04-s03-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Who needs must know of her departure and",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Who",
+              "norm": "who",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "needs",
+              "norm": "needs",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "departure",
+              "norm": "departure",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0014-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "cymbeline-a04-s03-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 10,
+      "line_number": 11,
+      "line_serial": "cymbeline-a04-s03-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Dost seem so ignorant, we’ll enforce it from thee",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Dost",
+              "norm": "dost",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "seem",
+              "norm": "seem",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "ignorant",
+              "norm": "ignorant",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0015-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "we’ll",
+              "norm": "we'll",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "enforce",
+              "norm": "enforce",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0015-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0015-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "cymbeline-a04-s03-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 11,
+      "line_number": 12,
+      "line_serial": "cymbeline-a04-s03-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "By a sharp torture.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "By",
+              "norm": "by",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "sharp",
+              "norm": "sharp",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "torture",
+              "norm": "torture",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0016-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "cymbeline-a04-s03-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 12,
+      "line_number": 13,
+      "line_serial": "cymbeline-a04-s03-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Sir, my life is yours;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Sir",
+              "norm": "sir",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0002-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "life",
+              "norm": "life",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "yours",
+              "norm": "yours",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0002-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "cymbeline-a04-s03-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 13,
+      "line_number": 14,
+      "line_serial": "cymbeline-a04-s03-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I humbly set it at your will; but for my mistress,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "humbly",
+              "norm": "humbly",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "set",
+              "norm": "set",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0003-t008",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "mistress",
+              "norm": "mistress",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0003-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0003-t013",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "cymbeline-a04-s03-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 14,
+      "line_number": 15,
+      "line_serial": "cymbeline-a04-s03-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I nothing know where she remains, why gone,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "nothing",
+              "norm": "nothing",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "where",
+              "norm": "where",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "remains",
+              "norm": "remains",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0004-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "why",
+              "norm": "why",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0004-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "cymbeline-a04-s03-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 15,
+      "line_number": 16,
+      "line_serial": "cymbeline-a04-s03-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Nor when she purposes return. Beseech your Highness,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Nor",
+              "norm": "nor",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "when",
+              "norm": "when",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "purposes",
+              "norm": "purposes",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "return",
+              "norm": "return",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0005-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Beseech",
+              "norm": "beseech",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Highness",
+              "norm": "highness",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0005-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "cymbeline-a04-s03-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0002",
+      "speech_seq": 16,
+      "line_number": 17,
+      "line_serial": "cymbeline-a04-s03-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hold me your loyal servant.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hold",
+              "norm": "hold",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "loyal",
+              "norm": "loyal",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "servant",
+              "norm": "servant",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0006-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "cymbeline-a04-s03-i0023",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 24,
+      "serial": "cymbeline-a04-s03-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0003",
+      "speech_seq": 1,
+      "line_number": 18,
+      "line_serial": "cymbeline-a04-s03-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Good my liege,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Good",
+              "norm": "good",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "liege",
+              "norm": "liege",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0007-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "cymbeline-a04-s03-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0003",
+      "speech_seq": 2,
+      "line_number": 19,
+      "line_serial": "cymbeline-a04-s03-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The day that she was missing he was here.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "missing",
+              "norm": "missing",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0008-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0008-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "cymbeline-a04-s03-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0003",
+      "speech_seq": 3,
+      "line_number": 20,
+      "line_serial": "cymbeline-a04-s03-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I dare be bound he’s true and shall perform",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "dare",
+              "norm": "dare",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "bound",
+              "norm": "bound",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "he’s",
+              "norm": "he's",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "true",
+              "norm": "true",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "perform",
+              "norm": "perform",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0009-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "cymbeline-a04-s03-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0003",
+      "speech_seq": 4,
+      "line_number": 21,
+      "line_serial": "cymbeline-a04-s03-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "All parts of his subjection loyally. For Cloten,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "parts",
+              "norm": "parts",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "subjection",
+              "norm": "subjection",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "loyally",
+              "norm": "loyally",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0010-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Cloten",
+              "norm": "cloten",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0010-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0010-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "cymbeline-a04-s03-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0003",
+      "speech_seq": 5,
+      "line_number": 22,
+      "line_serial": "cymbeline-a04-s03-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "There wants no diligence in seeking him,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "There",
+              "norm": "there",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "wants",
+              "norm": "wants",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "diligence",
+              "norm": "diligence",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "seeking",
+              "norm": "seeking",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0011-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "cymbeline-a04-s03-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0003",
+      "speech_seq": 6,
+      "line_number": 23,
+      "line_serial": "cymbeline-a04-s03-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And will no doubt be found.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "doubt",
+              "norm": "doubt",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "found",
+              "norm": "found",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0012-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "cymbeline-a04-s03-i0030",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 31,
+      "serial": "cymbeline-a04-s03-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0004",
+      "speech_seq": 1,
+      "line_number": 24,
+      "line_serial": "cymbeline-a04-s03-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The time is troublesome.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "troublesome",
+              "norm": "troublesome",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0013-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "cymbeline-a04-s03-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0004",
+      "speech_seq": 2,
+      "line_number": 25,
+      "line_serial": "cymbeline-a04-s03-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "To Pisanio.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0014-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Pisanio",
+              "norm": "pisanio",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0014-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " We’ll slip you for a season; but our jealousy",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We’ll",
+              "norm": "we'll",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "slip",
+              "norm": "slip",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "season",
+              "norm": "season",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0014-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "jealousy",
+              "norm": "jealousy",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0014-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "cymbeline-a04-s03-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0004",
+      "speech_seq": 3,
+      "line_number": 26,
+      "line_serial": "cymbeline-a04-s03-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Does yet depend.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Does",
+              "norm": "does",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "yet",
+              "norm": "yet",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "depend",
+              "norm": "depend",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0015-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "cymbeline-a04-s03-i0034",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 35,
+      "serial": "cymbeline-a04-s03-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0005",
+      "speech_seq": 1,
+      "line_number": 27,
+      "line_serial": "cymbeline-a04-s03-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "So please your Majesty,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "please",
+              "norm": "please",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Majesty",
+              "norm": "majesty",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0016-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "cymbeline-a04-s03-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0005",
+      "speech_seq": 2,
+      "line_number": 28,
+      "line_serial": "cymbeline-a04-s03-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The Roman legions, all from Gallia drawn,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Roman",
+              "norm": "roman",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "legions",
+              "norm": "legions",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0017-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Gallia",
+              "norm": "gallia",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "drawn",
+              "norm": "drawn",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0017-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "cymbeline-a04-s03-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0005",
+      "speech_seq": 3,
+      "line_number": 29,
+      "line_serial": "cymbeline-a04-s03-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Are landed on your coast, with a supply",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Are",
+              "norm": "are",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "landed",
+              "norm": "landed",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "coast",
+              "norm": "coast",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0018-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "supply",
+              "norm": "supply",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0018-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "cymbeline-a04-s03-i0038",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0005",
+      "speech_seq": 4,
+      "line_number": 30,
+      "line_serial": "cymbeline-a04-s03-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Of Roman gentlemen by the Senate sent.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Of",
+              "norm": "of",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Roman",
+              "norm": "roman",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "gentlemen",
+              "norm": "gentlemen",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Senate",
+              "norm": "senate",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0019-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "sent",
+              "norm": "sent",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0019-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0019-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "cymbeline-a04-s03-i0039",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 40,
+      "serial": "cymbeline-a04-s03-i0040",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0006",
+      "speech_seq": 1,
+      "line_number": 31,
+      "line_serial": "cymbeline-a04-s03-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Now for the counsel of my son and queen!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Now",
+              "norm": "now",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "counsel",
+              "norm": "counsel",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "son",
+              "norm": "son",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0020-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "queen",
+              "norm": "queen",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0020-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0020-t010",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "serial": "cymbeline-a04-s03-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0006",
+      "speech_seq": 2,
+      "line_number": 32,
+      "line_serial": "cymbeline-a04-s03-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I am amaz’d with matter.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "amaz’d",
+              "norm": "amaz'd",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "matter",
+              "norm": "matter",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0021-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "cymbeline-a04-s03-i0042",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 43,
+      "serial": "cymbeline-a04-s03-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0007",
+      "speech_seq": 1,
+      "line_number": 33,
+      "line_serial": "cymbeline-a04-s03-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Good my liege,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Good",
+              "norm": "good",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "liege",
+              "norm": "liege",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0022-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "cymbeline-a04-s03-i0044",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0007",
+      "speech_seq": 2,
+      "line_number": 34,
+      "line_serial": "cymbeline-a04-s03-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Your preparation can affront no less",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Your",
+              "norm": "your",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "preparation",
+              "norm": "preparation",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "can",
+              "norm": "can",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "affront",
+              "norm": "affront",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "less",
+              "norm": "less",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0023-t006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 45,
+      "serial": "cymbeline-a04-s03-i0045",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0007",
+      "speech_seq": 3,
+      "line_number": 35,
+      "line_serial": "cymbeline-a04-s03-l0035",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Than what you hear of. Come more, for more you’re ready.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Than",
+              "norm": "than",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hear",
+              "norm": "hear",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0024-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0024-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "you’re",
+              "norm": "you're",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "ready",
+              "norm": "ready",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0024-t013"
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0024-t014",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 46,
+      "serial": "cymbeline-a04-s03-i0046",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0007",
+      "speech_seq": 4,
+      "line_number": 36,
+      "line_serial": "cymbeline-a04-s03-l0036",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The want is but to put those pow’rs in motion",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "want",
+              "norm": "want",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "put",
+              "norm": "put",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "those",
+              "norm": "those",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "pow’rs",
+              "norm": "pow'rs",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "motion",
+              "norm": "motion",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0025-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 47,
+      "serial": "cymbeline-a04-s03-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LORD",
+      "speech_id": "cymbeline-a04-s03-s0007",
+      "speech_seq": 5,
+      "line_number": 37,
+      "line_serial": "cymbeline-a04-s03-l0037",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That long to move.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "long",
+              "norm": "long",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "move",
+              "norm": "move",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0026-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "cymbeline-a04-s03-i0048",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 49,
+      "serial": "cymbeline-a04-s03-i0049",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0008",
+      "speech_seq": 1,
+      "line_number": 38,
+      "line_serial": "cymbeline-a04-s03-l0038",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I thank you. Let’s withdraw,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thank",
+              "norm": "thank",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0027-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Let’s",
+              "norm": "let's",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "withdraw",
+              "norm": "withdraw",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0027-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 50,
+      "serial": "cymbeline-a04-s03-i0050",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0008",
+      "speech_seq": 2,
+      "line_number": 39,
+      "line_serial": "cymbeline-a04-s03-l0039",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And meet the time as it seeks us. We fear not",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "meet",
+              "norm": "meet",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "seeks",
+              "norm": "seeks",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0028-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "We",
+              "norm": "we",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "fear",
+              "norm": "fear",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0028-t012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 51,
+      "serial": "cymbeline-a04-s03-i0051",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0008",
+      "speech_seq": 3,
+      "line_number": 40,
+      "line_serial": "cymbeline-a04-s03-l0040",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What can from Italy annoy us; but",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "can",
+              "norm": "can",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Italy",
+              "norm": "italy",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "annoy",
+              "norm": "annoy",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0029-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0029-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 52,
+      "serial": "cymbeline-a04-s03-i0052",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CYMBELINE",
+      "speech_id": "cymbeline-a04-s03-s0008",
+      "speech_seq": 4,
+      "line_number": 41,
+      "line_serial": "cymbeline-a04-s03-l0041",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "We grieve at chances here. Away!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We",
+              "norm": "we",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "grieve",
+              "norm": "grieve",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "chances",
+              "norm": "chances",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0030-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0030-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0030-t008",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 53,
+      "serial": "cymbeline-a04-s03-i0053",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt all but Pisanio.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0053-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0053-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0053-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Pisanio",
+              "norm": "pisanio",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-i0053-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0053-t005",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 54,
+      "serial": "cymbeline-a04-s03-i0054",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 55,
+      "serial": "cymbeline-a04-s03-i0055",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 1,
+      "line_number": 42,
+      "line_serial": "cymbeline-a04-s03-l0042",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I heard no letter from my master since",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "heard",
+              "norm": "heard",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "letter",
+              "norm": "letter",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0031-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "master",
+              "norm": "master",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0031-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "since",
+              "norm": "since",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0031-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 56,
+      "serial": "cymbeline-a04-s03-i0056",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 2,
+      "line_number": 43,
+      "line_serial": "cymbeline-a04-s03-l0043",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I wrote him Imogen was slain. ’Tis strange.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "wrote",
+              "norm": "wrote",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Imogen",
+              "norm": "imogen",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0032-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "slain",
+              "norm": "slain",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0032-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0032-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "’Tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0032-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "strange",
+              "norm": "strange",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0032-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0032-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 57,
+      "serial": "cymbeline-a04-s03-i0057",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 3,
+      "line_number": 44,
+      "line_serial": "cymbeline-a04-s03-l0044",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Nor hear I from my mistress, who did promise",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Nor",
+              "norm": "nor",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0033-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "hear",
+              "norm": "hear",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0033-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0033-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0033-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0033-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "mistress",
+              "norm": "mistress",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0033-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0033-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "who",
+              "norm": "who",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0033-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0033-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "promise",
+              "norm": "promise",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0033-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 58,
+      "serial": "cymbeline-a04-s03-i0058",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 4,
+      "line_number": 45,
+      "line_serial": "cymbeline-a04-s03-l0045",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To yield me often tidings. Neither know I",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0034-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "yield",
+              "norm": "yield",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0034-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0034-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "often",
+              "norm": "often",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0034-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "tidings",
+              "norm": "tidings",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0034-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0034-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Neither",
+              "norm": "neither",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0034-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0034-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0034-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 59,
+      "serial": "cymbeline-a04-s03-i0059",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 5,
+      "line_number": 46,
+      "line_serial": "cymbeline-a04-s03-l0046",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What is betid to Cloten, but remain",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0035-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0035-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "betid",
+              "norm": "betid",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0035-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0035-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Cloten",
+              "norm": "cloten",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0035-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0035-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0035-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "remain",
+              "norm": "remain",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0035-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 60,
+      "serial": "cymbeline-a04-s03-i0060",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 6,
+      "line_number": 47,
+      "line_serial": "cymbeline-a04-s03-l0047",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Perplex’d in all. The heavens still must work.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Perplex’d",
+              "norm": "perplex'd",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0036-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0036-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0036-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0036-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0036-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "heavens",
+              "norm": "heavens",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0036-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "still",
+              "norm": "still",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0036-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0036-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "work",
+              "norm": "work",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0036-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0036-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 61,
+      "serial": "cymbeline-a04-s03-i0061",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 7,
+      "line_number": 48,
+      "line_serial": "cymbeline-a04-s03-l0048",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Wherein I am false I am honest; not true, to be true.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Wherein",
+              "norm": "wherein",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0037-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "false",
+              "norm": "false",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "honest",
+              "norm": "honest",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0037-t008",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "true",
+              "norm": "true",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0037-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "true",
+              "norm": "true",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0037-t014"
+            },
+            {
+              "i": 15,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0037-t015",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 62,
+      "serial": "cymbeline-a04-s03-i0062",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 8,
+      "line_number": 49,
+      "line_serial": "cymbeline-a04-s03-l0049",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "These present wars shall find I love my country,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "These",
+              "norm": "these",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0038-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "present",
+              "norm": "present",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0038-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "wars",
+              "norm": "wars",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0038-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0038-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "find",
+              "norm": "find",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0038-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0038-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0038-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0038-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "country",
+              "norm": "country",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0038-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0038-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 63,
+      "serial": "cymbeline-a04-s03-i0063",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 9,
+      "line_number": 50,
+      "line_serial": "cymbeline-a04-s03-l0050",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Even to the note o’ th’ King, or I’ll fall in them.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Even",
+              "norm": "even",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0039-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "note",
+              "norm": "note",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "o’",
+              "norm": "o'",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "th’",
+              "norm": "th'",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0039-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "fall",
+              "norm": "fall",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0039-t013"
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0039-t014",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 64,
+      "serial": "cymbeline-a04-s03-i0064",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 10,
+      "line_number": 51,
+      "line_serial": "cymbeline-a04-s03-l0051",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "All other doubts, by time let them be clear’d:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0040-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "other",
+              "norm": "other",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0040-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "doubts",
+              "norm": "doubts",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0040-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0040-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0040-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0040-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0040-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0040-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0040-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "clear’d",
+              "norm": "clear'd",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0040-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0040-t011",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 65,
+      "serial": "cymbeline-a04-s03-i0065",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISANIO",
+      "speech_id": "cymbeline-a04-s03-s0009",
+      "speech_seq": 11,
+      "line_number": 52,
+      "line_serial": "cymbeline-a04-s03-l0052",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Fortune brings in some boats that are not steer’d.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Fortune",
+              "norm": "fortune",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0041-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "brings",
+              "norm": "brings",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0041-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0041-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0041-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "boats",
+              "norm": "boats",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0041-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0041-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0041-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0041-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "steer’d",
+              "norm": "steer'd",
+              "pre": " ",
+              "serial": "cymbeline-a04-s03-l0041-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-l0041-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 66,
+      "serial": "cymbeline-a04-s03-i0066",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0066-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a04-s03-i0066-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

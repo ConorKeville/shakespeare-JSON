@@ -1,0 +1,1633 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "romeo-and-juliet-scenes/98_extras/02_Prologue.txt"
+    },
+    "play": {
+      "id": "romeo-and-juliet-scenes",
+      "title": "Romeo and Juliet",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "prologue",
+      "act": null,
+      "scene": null,
+      "label": null,
+      "title": null,
+      "unit_key": "02-prologue",
+      "unit_id": "romeo-and-juliet-scenes-02-prologue",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0001",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "THE PROLOGUE",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "THE",
+              "norm": "the",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "PROLOGUE",
+              "norm": "prologue",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0002",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Chorus.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-i0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Chorus",
+              "norm": "chorus",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-i0002-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-i0002-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0003",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 4,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Two households, both alike in dignity,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Two",
+              "norm": "two",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "households",
+              "norm": "households",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0001-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "both",
+              "norm": "both",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "alike",
+              "norm": "alike",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "dignity",
+              "norm": "dignity",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0001-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In fair Verona, where we lay our scene,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fair",
+              "norm": "fair",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Verona",
+              "norm": "verona",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "where",
+              "norm": "where",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "lay",
+              "norm": "lay",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "scene",
+              "norm": "scene",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0002-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "From ancient grudge break to new mutiny,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "From",
+              "norm": "from",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "ancient",
+              "norm": "ancient",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "grudge",
+              "norm": "grudge",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "break",
+              "norm": "break",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "new",
+              "norm": "new",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "mutiny",
+              "norm": "mutiny",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0003-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Where civil blood makes civil hands unclean.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "civil",
+              "norm": "civil",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "blood",
+              "norm": "blood",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "makes",
+              "norm": "makes",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "civil",
+              "norm": "civil",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hands",
+              "norm": "hands",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "unclean",
+              "norm": "unclean",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0004-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "From forth the fatal loins of these two foes",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "From",
+              "norm": "from",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fatal",
+              "norm": "fatal",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "loins",
+              "norm": "loins",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "these",
+              "norm": "these",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "foes",
+              "norm": "foes",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0005-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A pair of star-cross’d lovers take their life;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "pair",
+              "norm": "pair",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "star",
+              "norm": "star",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t004"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t005",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 5
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "cross’d",
+              "norm": "cross'd",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "lovers",
+              "norm": "lovers",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "take",
+              "norm": "take",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "life",
+              "norm": "life",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0006-t011",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Whose misadventur’d piteous overthrows",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Whose",
+              "norm": "whose",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "misadventur’d",
+              "norm": "misadventur'd",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "piteous",
+              "norm": "piteous",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "overthrows",
+              "norm": "overthrows",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0007-t004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Doth with their death bury their parents’ strife.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Doth",
+              "norm": "doth",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "death",
+              "norm": "death",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "bury",
+              "norm": "bury",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "parents’",
+              "norm": "parents'",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "strife",
+              "norm": "strife",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0008-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The fearful passage of their death-mark’d love,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fearful",
+              "norm": "fearful",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "passage",
+              "norm": "passage",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "death",
+              "norm": "death",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t006"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 7
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "mark’d",
+              "norm": "mark'd",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0009-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And the continuance of their parents’ rage,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "continuance",
+              "norm": "continuance",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "parents’",
+              "norm": "parents'",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "rage",
+              "norm": "rage",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0010-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 11,
+      "line_number": 11,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Which, but their children’s end, nought could remove,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Which",
+              "norm": "which",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "children’s",
+              "norm": "children's",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "end",
+              "norm": "end",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "nought",
+              "norm": "nought",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "could",
+              "norm": "could",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "remove",
+              "norm": "remove",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0011-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 12,
+      "line_number": 12,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Is now the two hours’ traffic of our stage;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Is",
+              "norm": "is",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hours’",
+              "norm": "hours'",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "traffic",
+              "norm": "traffic",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "stage",
+              "norm": "stage",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0012-t010",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 13,
+      "line_number": 13,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The which, if you with patient ears attend,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "which",
+              "norm": "which",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "if",
+              "norm": "if",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "patient",
+              "norm": "patient",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "ears",
+              "norm": "ears",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "attend",
+              "norm": "attend",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0013-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CHORUS",
+      "speech_id": "romeo-and-juliet-scenes-02-prologue-s0001",
+      "speech_seq": 14,
+      "line_number": 14,
+      "line_serial": "romeo-and-juliet-scenes-02-prologue-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What here shall miss, our toil shall strive to mend.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "miss",
+              "norm": "miss",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "toil",
+              "norm": "toil",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "strive",
+              "norm": "strive",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "mend",
+              "norm": "mend",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-l0014-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "romeo-and-juliet-scenes-02-prologue-i0018",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-i0018-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-02-prologue-i0018-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

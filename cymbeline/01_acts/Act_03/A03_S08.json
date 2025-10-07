@@ -1,0 +1,1965 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "cymbeline/01_acts/Act_03/A03_S08.txt"
+    },
+    "play": {
+      "id": "cymbeline",
+      "title": "Cymbeline",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 3,
+      "scene": 8,
+      "label": "Act III, Scene VIII",
+      "title": "SCENE VIII. Rome. A public place.",
+      "unit_key": "a03-s08",
+      "unit_id": "cymbeline-a03-s08",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "cymbeline-a03-s08-i0001",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE VIII. Rome. A public place.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "VIII",
+              "norm": "viii",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-i0001-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Rome",
+              "norm": "rome",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-i0001-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "public",
+              "norm": "public",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "place",
+              "norm": "place",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-i0001-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "cymbeline-a03-s08-i0002",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter two Roman Senators and Tribunes.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-i0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0002-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Roman",
+              "norm": "roman",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0002-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Senators",
+              "norm": "senators",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0002-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0002-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Tribunes",
+              "norm": "tribunes",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-i0002-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-i0002-t007",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "cymbeline-a03-s08-i0003",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 4,
+      "serial": "cymbeline-a03-s08-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "cymbeline-a03-s08-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This is the tenour of the Emperor’s writ:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "tenour",
+              "norm": "tenour",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Emperor’s",
+              "norm": "emperor's",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "writ",
+              "norm": "writ",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0001-t009",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "cymbeline-a03-s08-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "cymbeline-a03-s08-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That since the common men are now in action",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "since",
+              "norm": "since",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "common",
+              "norm": "common",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "action",
+              "norm": "action",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0002-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "cymbeline-a03-s08-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "cymbeline-a03-s08-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "’Gainst the Pannonians and Dalmatians,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "’Gainst",
+              "norm": "'gainst",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Pannonians",
+              "norm": "pannonians",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Dalmatians",
+              "norm": "dalmatians",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0003-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "cymbeline-a03-s08-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "cymbeline-a03-s08-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And that the legions now in Gallia are",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "legions",
+              "norm": "legions",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Gallia",
+              "norm": "gallia",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0004-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "cymbeline-a03-s08-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "cymbeline-a03-s08-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Full weak to undertake our wars against",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Full",
+              "norm": "full",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "weak",
+              "norm": "weak",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "undertake",
+              "norm": "undertake",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "wars",
+              "norm": "wars",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "against",
+              "norm": "against",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0005-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "cymbeline-a03-s08-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "cymbeline-a03-s08-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The fall’n-off Britons, that we do incite",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fall’n",
+              "norm": "fall'n",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0006-t002"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0006-t003",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 3
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "off",
+              "norm": "off",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Britons",
+              "norm": "britons",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0006-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "incite",
+              "norm": "incite",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0006-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "cymbeline-a03-s08-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "cymbeline-a03-s08-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The gentry to this business. He creates",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "gentry",
+              "norm": "gentry",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "business",
+              "norm": "business",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0007-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "creates",
+              "norm": "creates",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0007-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "cymbeline-a03-s08-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "cymbeline-a03-s08-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Lucius proconsul; and to you, the tribunes,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Lucius",
+              "norm": "lucius",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "proconsul",
+              "norm": "proconsul",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0008-t003",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0008-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "tribunes",
+              "norm": "tribunes",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0008-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0008-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "cymbeline-a03-s08-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "cymbeline-a03-s08-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For this immediate levy, he commands",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "immediate",
+              "norm": "immediate",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "levy",
+              "norm": "levy",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0009-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "commands",
+              "norm": "commands",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0009-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "cymbeline-a03-s08-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "cymbeline-a03-s08-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "His absolute commission. Long live Caesar!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "His",
+              "norm": "his",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "absolute",
+              "norm": "absolute",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "commission",
+              "norm": "commission",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0010-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Long",
+              "norm": "long",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "live",
+              "norm": "live",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Caesar",
+              "norm": "caesar",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0010-t008",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "cymbeline-a03-s08-i0014",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "TRIBUNE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 15,
+      "serial": "cymbeline-a03-s08-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TRIBUNE",
+      "speech_id": "cymbeline-a03-s08-s0002",
+      "speech_seq": 1,
+      "line_number": 11,
+      "line_serial": "cymbeline-a03-s08-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Is Lucius general of the forces?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Is",
+              "norm": "is",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Lucius",
+              "norm": "lucius",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "general",
+              "norm": "general",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "forces",
+              "norm": "forces",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0011-t007",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "cymbeline-a03-s08-i0016",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SECOND SENATOR",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 17,
+      "serial": "cymbeline-a03-s08-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SECOND SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0003",
+      "speech_seq": 1,
+      "line_number": 12,
+      "line_serial": "cymbeline-a03-s08-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Ay.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ay",
+              "norm": "ay",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0012-t002",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "cymbeline-a03-s08-i0018",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "TRIBUNE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 19,
+      "serial": "cymbeline-a03-s08-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TRIBUNE",
+      "speech_id": "cymbeline-a03-s08-s0004",
+      "speech_seq": 1,
+      "line_number": 13,
+      "line_serial": "cymbeline-a03-s08-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Remaining now in Gallia?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Remaining",
+              "norm": "remaining",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "now",
+              "norm": "now",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Gallia",
+              "norm": "gallia",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0013-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "cymbeline-a03-s08-i0020",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 21,
+      "serial": "cymbeline-a03-s08-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0005",
+      "speech_seq": 1,
+      "line_number": 14,
+      "line_serial": "cymbeline-a03-s08-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "With those legions",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "With",
+              "norm": "with",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "those",
+              "norm": "those",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "legions",
+              "norm": "legions",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0014-t003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "cymbeline-a03-s08-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0005",
+      "speech_seq": 2,
+      "line_number": 15,
+      "line_serial": "cymbeline-a03-s08-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Which I have spoke of, whereunto your levy",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Which",
+              "norm": "which",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "spoke",
+              "norm": "spoke",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0015-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "whereunto",
+              "norm": "whereunto",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "levy",
+              "norm": "levy",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0015-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "cymbeline-a03-s08-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0005",
+      "speech_seq": 3,
+      "line_number": 16,
+      "line_serial": "cymbeline-a03-s08-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Must be supplyant. The words of your commission",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Must",
+              "norm": "must",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "supplyant",
+              "norm": "supplyant",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0016-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "words",
+              "norm": "words",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "commission",
+              "norm": "commission",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0016-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "cymbeline-a03-s08-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0005",
+      "speech_seq": 4,
+      "line_number": 17,
+      "line_serial": "cymbeline-a03-s08-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Will tie you to the numbers and the time",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Will",
+              "norm": "will",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "tie",
+              "norm": "tie",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "numbers",
+              "norm": "numbers",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0017-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "cymbeline-a03-s08-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FIRST SENATOR",
+      "speech_id": "cymbeline-a03-s08-s0005",
+      "speech_seq": 5,
+      "line_number": 18,
+      "line_serial": "cymbeline-a03-s08-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Of their dispatch.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Of",
+              "norm": "of",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "dispatch",
+              "norm": "dispatch",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0018-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "cymbeline-a03-s08-i0026",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "TRIBUNE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 27,
+      "serial": "cymbeline-a03-s08-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TRIBUNE",
+      "speech_id": "cymbeline-a03-s08-s0006",
+      "speech_seq": 1,
+      "line_number": 19,
+      "line_serial": "cymbeline-a03-s08-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "We will discharge our duty.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We",
+              "norm": "we",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "discharge",
+              "norm": "discharge",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "duty",
+              "norm": "duty",
+              "pre": " ",
+              "serial": "cymbeline-a03-s08-l0019-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-l0019-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "cymbeline-a03-s08-i0028",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-i0028-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s08-i0028-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

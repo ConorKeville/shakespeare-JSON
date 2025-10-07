@@ -1,0 +1,2640 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "antony-and-cleopatra/01_acts/Act_04/A04_S05_Antonys_camp_near_Alexandria.txt"
+    },
+    "play": {
+      "id": "antony-and-cleopatra",
+      "title": "Antony And Cleopatra",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 4,
+      "scene": 5,
+      "label": "Act IV, Scene V",
+      "title": "SCENE V. Antony’s camp near Alexandria.",
+      "unit_key": "a04-s05",
+      "unit_id": "antony-and-cleopatra-a04-s05",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "antony-and-cleopatra-a04-s05-i0001",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE V. Antony’s camp near Alexandria.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "V",
+              "norm": "v",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0001-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Antony’s",
+              "norm": "antony's",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "camp",
+              "norm": "camp",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "near",
+              "norm": "near",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Alexandria",
+              "norm": "alexandria",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0001-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "antony-and-cleopatra-a04-s05-i0002",
+      "kind": "stage",
+      "subtype": "sound",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Trumpets sound. Enter Antony and Eros, a Soldier meeting them.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Trumpets",
+              "norm": "trumpets",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sound",
+              "norm": "sound",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Antony",
+              "norm": "antony",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Eros",
+              "norm": "eros",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t008",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Soldier",
+              "norm": "soldier",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "meeting",
+              "norm": "meeting",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t012",
+              "em": true
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0002-t013",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "antony-and-cleopatra-a04-s05-i0003",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 4,
+      "serial": "antony-and-cleopatra-a04-s05-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The gods make this a happy day to Antony!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "gods",
+              "norm": "gods",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "happy",
+              "norm": "happy",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Antony",
+              "norm": "antony",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0001-t010",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "antony-and-cleopatra-a04-s05-i0005",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 6,
+      "serial": "antony-and-cleopatra-a04-s05-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0002",
+      "speech_seq": 1,
+      "line_number": 2,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Would thou and those thy scars had once prevailed",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Would",
+              "norm": "would",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thou",
+              "norm": "thou",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "those",
+              "norm": "those",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "scars",
+              "norm": "scars",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "had",
+              "norm": "had",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "once",
+              "norm": "once",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "prevailed",
+              "norm": "prevailed",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0002-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "antony-and-cleopatra-a04-s05-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0002",
+      "speech_seq": 2,
+      "line_number": 3,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To make me fight at land!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "land",
+              "norm": "land",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0003-t007",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "antony-and-cleopatra-a04-s05-i0008",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 9,
+      "serial": "antony-and-cleopatra-a04-s05-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0003",
+      "speech_seq": 1,
+      "line_number": 4,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hadst thou done so,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hadst",
+              "norm": "hadst",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thou",
+              "norm": "thou",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "done",
+              "norm": "done",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0004-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "antony-and-cleopatra-a04-s05-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0003",
+      "speech_seq": 2,
+      "line_number": 5,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The kings that have revolted and the soldier",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "kings",
+              "norm": "kings",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "revolted",
+              "norm": "revolted",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "soldier",
+              "norm": "soldier",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0005-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "antony-and-cleopatra-a04-s05-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0003",
+      "speech_seq": 3,
+      "line_number": 6,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That has this morning left thee would have still",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "has",
+              "norm": "has",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "morning",
+              "norm": "morning",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "left",
+              "norm": "left",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "still",
+              "norm": "still",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0006-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "antony-and-cleopatra-a04-s05-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0003",
+      "speech_seq": 4,
+      "line_number": 7,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Followed thy heels.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Followed",
+              "norm": "followed",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "heels",
+              "norm": "heels",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0007-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "antony-and-cleopatra-a04-s05-i0013",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 14,
+      "serial": "antony-and-cleopatra-a04-s05-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0004",
+      "speech_seq": 1,
+      "line_number": 8,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Who’s gone this morning?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Who’s",
+              "norm": "who's",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "morning",
+              "norm": "morning",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0008-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "antony-and-cleopatra-a04-s05-i0015",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 16,
+      "serial": "antony-and-cleopatra-a04-s05-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0005",
+      "speech_seq": 1,
+      "line_number": 9,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Who?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Who",
+              "norm": "who",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0009-t002",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "antony-and-cleopatra-a04-s05-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0005",
+      "speech_seq": 2,
+      "line_number": 10,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "One ever near thee. Call for Enobarbus,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "One",
+              "norm": "one",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "ever",
+              "norm": "ever",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "near",
+              "norm": "near",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Call",
+              "norm": "call",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Enobarbus",
+              "norm": "enobarbus",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0010-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "antony-and-cleopatra-a04-s05-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0005",
+      "speech_seq": 3,
+      "line_number": 11,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "He shall not hear thee, or from Caesar’s camp",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hear",
+              "norm": "hear",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Caesar’s",
+              "norm": "caesar's",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "camp",
+              "norm": "camp",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0011-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "antony-and-cleopatra-a04-s05-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0005",
+      "speech_seq": 4,
+      "line_number": 12,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Say “I am none of thine.”",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Say",
+              "norm": "say",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": "“",
+              "norm": "\"",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t002",
+              "punct": {
+                "kind": "quote_open",
+                "dash": null,
+                "quote": "double",
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "none",
+              "norm": "none",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "thine",
+              "norm": "thine",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "”",
+              "norm": "\"",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0012-t009",
+              "punct": {
+                "kind": "quote_close",
+                "dash": null,
+                "quote": "double",
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "antony-and-cleopatra-a04-s05-i0020",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 21,
+      "serial": "antony-and-cleopatra-a04-s05-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0006",
+      "speech_seq": 1,
+      "line_number": 13,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What sayest thou?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sayest",
+              "norm": "sayest",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "thou",
+              "norm": "thou",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0013-t004",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "antony-and-cleopatra-a04-s05-i0022",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 23,
+      "serial": "antony-and-cleopatra-a04-s05-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0007",
+      "speech_seq": 1,
+      "line_number": 14,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Sir,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Sir",
+              "norm": "sir",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0014-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "antony-and-cleopatra-a04-s05-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0007",
+      "speech_seq": 2,
+      "line_number": 15,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "He is with Caesar.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Caesar",
+              "norm": "caesar",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0015-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "antony-and-cleopatra-a04-s05-i0025",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "EROS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 26,
+      "serial": "antony-and-cleopatra-a04-s05-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EROS",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0008",
+      "speech_seq": 1,
+      "line_number": 16,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Sir, his chests and treasure",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Sir",
+              "norm": "sir",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0016-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "chests",
+              "norm": "chests",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "treasure",
+              "norm": "treasure",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0016-t006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "antony-and-cleopatra-a04-s05-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EROS",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0008",
+      "speech_seq": 2,
+      "line_number": 17,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "He has not with him.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "has",
+              "norm": "has",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0017-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "antony-and-cleopatra-a04-s05-i0028",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 29,
+      "serial": "antony-and-cleopatra-a04-s05-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0009",
+      "speech_seq": 1,
+      "line_number": 18,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Is he gone?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Is",
+              "norm": "is",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0018-t004",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "antony-and-cleopatra-a04-s05-i0030",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 31,
+      "serial": "antony-and-cleopatra-a04-s05-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "SOLDIER",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0010",
+      "speech_seq": 1,
+      "line_number": 19,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Most certain.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Most",
+              "norm": "most",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "certain",
+              "norm": "certain",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0019-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "antony-and-cleopatra-a04-s05-i0032",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 33,
+      "serial": "antony-and-cleopatra-a04-s05-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0011",
+      "speech_seq": 1,
+      "line_number": 20,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Go, Eros, send his treasure after. Do it.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Go",
+              "norm": "go",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Eros",
+              "norm": "eros",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "send",
+              "norm": "send",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "treasure",
+              "norm": "treasure",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "after",
+              "norm": "after",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0020-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "antony-and-cleopatra-a04-s05-i0034",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0011",
+      "speech_seq": 2,
+      "line_number": 21,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Detain no jot, I charge thee. Write to him—",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Detain",
+              "norm": "detain",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "jot",
+              "norm": "jot",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "charge",
+              "norm": "charge",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Write",
+              "norm": "write",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0021-t012",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "antony-and-cleopatra-a04-s05-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0011",
+      "speech_seq": 3,
+      "line_number": 22,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I will subscribe—gentle adieus and greetings.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "subscribe",
+              "norm": "subscribe",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t004",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "gentle",
+              "norm": "gentle",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "adieus",
+              "norm": "adieus",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "greetings",
+              "norm": "greetings",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0022-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "antony-and-cleopatra-a04-s05-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0011",
+      "speech_seq": 4,
+      "line_number": 23,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Say that I wish he never find more cause",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Say",
+              "norm": "say",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "wish",
+              "norm": "wish",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "never",
+              "norm": "never",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "find",
+              "norm": "find",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "cause",
+              "norm": "cause",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0023-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "antony-and-cleopatra-a04-s05-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0011",
+      "speech_seq": 5,
+      "line_number": 24,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To change a master. O, my fortunes have",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "change",
+              "norm": "change",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "master",
+              "norm": "master",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "O",
+              "norm": "o",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "fortunes",
+              "norm": "fortunes",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0024-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "antony-and-cleopatra-a04-s05-i0038",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "ANTONY",
+      "speech_id": "antony-and-cleopatra-a04-s05-s0011",
+      "speech_seq": 6,
+      "line_number": 25,
+      "line_serial": "antony-and-cleopatra-a04-s05-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Corrupted honest men! Dispatch.—Enobarbus!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Corrupted",
+              "norm": "corrupted",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "honest",
+              "norm": "honest",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t004",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Dispatch",
+              "norm": "dispatch",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Enobarbus",
+              "norm": "enobarbus",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-l0025-t009",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "antony-and-cleopatra-a04-s05-i0039",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0039-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s05-i0039-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

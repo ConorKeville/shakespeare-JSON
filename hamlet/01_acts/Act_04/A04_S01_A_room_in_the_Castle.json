@@ -1,0 +1,5501 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "hamlet/01_acts/Act_04/A04_S01_A_room_in_the_Castle.txt"
+    },
+    "play": {
+      "id": "hamlet",
+      "title": "Hamlet",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 4,
+      "scene": 1,
+      "label": "Act IV, Scene I",
+      "title": "SCENE I. A room in the Castle.",
+      "unit_key": "a04-s01",
+      "unit_id": "hamlet-a04-s01",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "hamlet-a04-s01-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT IV",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "IV",
+              "norm": "iv",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "hamlet-a04-s01-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE I. A room in the Castle.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0002-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "room",
+              "norm": "room",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Castle",
+              "norm": "castle",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0002-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "hamlet-a04-s01-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter King, Queen, Rosencrantz and Guildenstern.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0003-t003",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Queen",
+              "norm": "queen",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0003-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Rosencrantz",
+              "norm": "rosencrantz",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0003-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0003-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Guildenstern",
+              "norm": "guildenstern",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0003-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0003-t009",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "hamlet-a04-s01-i0004",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "hamlet-a04-s01-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "hamlet-a04-s01-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "There’s matter in these sighs. These profound heaves",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "There’s",
+              "norm": "there's",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "matter",
+              "norm": "matter",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "these",
+              "norm": "these",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "sighs",
+              "norm": "sighs",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0001-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "These",
+              "norm": "these",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "profound",
+              "norm": "profound",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "heaves",
+              "norm": "heaves",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0001-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "hamlet-a04-s01-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "hamlet-a04-s01-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "You must translate; ’tis fit we understand them.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "You",
+              "norm": "you",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "translate",
+              "norm": "translate",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0002-t004",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "fit",
+              "norm": "fit",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "understand",
+              "norm": "understand",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0002-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "hamlet-a04-s01-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "hamlet-a04-s01-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Where is your son?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "son",
+              "norm": "son",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0003-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "hamlet-a04-s01-i0008",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 9,
+      "serial": "hamlet-a04-s01-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0002",
+      "speech_seq": 1,
+      "line_number": 4,
+      "line_serial": "hamlet-a04-s01-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Bestow this place on us a little while.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Bestow",
+              "norm": "bestow",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "place",
+              "norm": "place",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "little",
+              "norm": "little",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "while",
+              "norm": "while",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0004-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "hamlet-a04-s01-i0010",
+      "kind": "stage",
+      "subtype": null,
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "To Rosencrantz and Guildenstern, who go out.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0010-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Rosencrantz",
+              "norm": "rosencrantz",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0010-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0010-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Guildenstern",
+              "norm": "guildenstern",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0010-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0010-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "who",
+              "norm": "who",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0010-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0010-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0010-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0010-t009",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "hamlet-a04-s01-i0012",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 12,
+      "serial": "hamlet-a04-s01-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0003",
+      "speech_seq": 1,
+      "line_number": 5,
+      "line_serial": "hamlet-a04-s01-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Ah, my good lord, what have I seen tonight!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ah",
+              "norm": "ah",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0011-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0011-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "seen",
+              "norm": "seen",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0011-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "tonight",
+              "norm": "tonight",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0011-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0011-t012",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "hamlet-a04-s01-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0003",
+      "speech_seq": 2,
+      "line_number": 6,
+      "line_serial": "hamlet-a04-s01-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What, Gertrude? How does Hamlet?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0005-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Gertrude",
+              "norm": "gertrude",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0005-t004",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "How",
+              "norm": "how",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "does",
+              "norm": "does",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Hamlet",
+              "norm": "hamlet",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0005-t008",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "hamlet-a04-s01-i0014",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 15,
+      "serial": "hamlet-a04-s01-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0004",
+      "speech_seq": 1,
+      "line_number": 7,
+      "line_serial": "hamlet-a04-s01-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Mad as the sea and wind, when both contend",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Mad",
+              "norm": "mad",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "sea",
+              "norm": "sea",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "wind",
+              "norm": "wind",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0006-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "when",
+              "norm": "when",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "both",
+              "norm": "both",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "contend",
+              "norm": "contend",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0006-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "hamlet-a04-s01-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0004",
+      "speech_seq": 2,
+      "line_number": 8,
+      "line_serial": "hamlet-a04-s01-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Which is the mightier. In his lawless fit",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Which",
+              "norm": "which",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "mightier",
+              "norm": "mightier",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0007-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "lawless",
+              "norm": "lawless",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "fit",
+              "norm": "fit",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0007-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "hamlet-a04-s01-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0004",
+      "speech_seq": 3,
+      "line_number": 9,
+      "line_serial": "hamlet-a04-s01-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Behind the arras hearing something stir,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Behind",
+              "norm": "behind",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "arras",
+              "norm": "arras",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hearing",
+              "norm": "hearing",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "something",
+              "norm": "something",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "stir",
+              "norm": "stir",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0008-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "hamlet-a04-s01-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0004",
+      "speech_seq": 4,
+      "line_number": 10,
+      "line_serial": "hamlet-a04-s01-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Whips out his rapier, cries ‘A rat, a rat!’",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Whips",
+              "norm": "whips",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "rapier",
+              "norm": "rapier",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0009-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "cries",
+              "norm": "cries",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "‘A",
+              "norm": "'a",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "rat",
+              "norm": "rat",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0009-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0009-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "rat",
+              "norm": "rat",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0009-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0009-t012",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "’",
+              "norm": "'",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0009-t013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "hamlet-a04-s01-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0004",
+      "speech_seq": 5,
+      "line_number": 11,
+      "line_serial": "hamlet-a04-s01-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And in this brainish apprehension kills",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "brainish",
+              "norm": "brainish",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "apprehension",
+              "norm": "apprehension",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "kills",
+              "norm": "kills",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0010-t006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "hamlet-a04-s01-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0004",
+      "speech_seq": 6,
+      "line_number": 12,
+      "line_serial": "hamlet-a04-s01-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The unseen good old man.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "unseen",
+              "norm": "unseen",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "old",
+              "norm": "old",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0011-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "hamlet-a04-s01-i0021",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 22,
+      "serial": "hamlet-a04-s01-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 1,
+      "line_number": 13,
+      "line_serial": "hamlet-a04-s01-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "O heavy deed!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "O",
+              "norm": "o",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "heavy",
+              "norm": "heavy",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "deed",
+              "norm": "deed",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0012-t004",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "hamlet-a04-s01-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 2,
+      "line_number": 14,
+      "line_serial": "hamlet-a04-s01-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "It had been so with us, had we been there.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "had",
+              "norm": "had",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "been",
+              "norm": "been",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0013-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "had",
+              "norm": "had",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "been",
+              "norm": "been",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0013-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0013-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "hamlet-a04-s01-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 3,
+      "line_number": 15,
+      "line_serial": "hamlet-a04-s01-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "His liberty is full of threats to all;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "His",
+              "norm": "his",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "liberty",
+              "norm": "liberty",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "full",
+              "norm": "full",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "threats",
+              "norm": "threats",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0014-t009",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "hamlet-a04-s01-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 4,
+      "line_number": 16,
+      "line_serial": "hamlet-a04-s01-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To you yourself, to us, to everyone.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "yourself",
+              "norm": "yourself",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0015-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0015-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "everyone",
+              "norm": "everyone",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0015-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0015-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "hamlet-a04-s01-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 5,
+      "line_number": 17,
+      "line_serial": "hamlet-a04-s01-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Alas, how shall this bloody deed be answer’d?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Alas",
+              "norm": "alas",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0016-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "how",
+              "norm": "how",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "bloody",
+              "norm": "bloody",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "deed",
+              "norm": "deed",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "answer’d",
+              "norm": "answer'd",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0016-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0016-t010",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "hamlet-a04-s01-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 6,
+      "line_number": 18,
+      "line_serial": "hamlet-a04-s01-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "It will be laid to us, whose providence",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "laid",
+              "norm": "laid",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0017-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "whose",
+              "norm": "whose",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "providence",
+              "norm": "providence",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0017-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "hamlet-a04-s01-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 7,
+      "line_number": 19,
+      "line_serial": "hamlet-a04-s01-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Should have kept short, restrain’d, and out of haunt",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Should",
+              "norm": "should",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "kept",
+              "norm": "kept",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "short",
+              "norm": "short",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0018-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "restrain’d",
+              "norm": "restrain'd",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0018-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0018-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0018-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "haunt",
+              "norm": "haunt",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0018-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "hamlet-a04-s01-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 8,
+      "line_number": 20,
+      "line_serial": "hamlet-a04-s01-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This mad young man. But so much was our love",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "mad",
+              "norm": "mad",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "young",
+              "norm": "young",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "man",
+              "norm": "man",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0019-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0019-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "hamlet-a04-s01-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 9,
+      "line_number": 21,
+      "line_serial": "hamlet-a04-s01-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "We would not understand what was most fit,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We",
+              "norm": "we",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "understand",
+              "norm": "understand",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0020-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0020-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "most",
+              "norm": "most",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "fit",
+              "norm": "fit",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0020-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0020-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "hamlet-a04-s01-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 10,
+      "line_number": 22,
+      "line_serial": "hamlet-a04-s01-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "But like the owner of a foul disease,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "owner",
+              "norm": "owner",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "foul",
+              "norm": "foul",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "disease",
+              "norm": "disease",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0021-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0021-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "hamlet-a04-s01-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 11,
+      "line_number": 23,
+      "line_serial": "hamlet-a04-s01-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To keep it from divulging, let it feed",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "keep",
+              "norm": "keep",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "divulging",
+              "norm": "divulging",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0022-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0022-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "feed",
+              "norm": "feed",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0022-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "hamlet-a04-s01-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0005",
+      "speech_seq": 12,
+      "line_number": 24,
+      "line_serial": "hamlet-a04-s01-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Even on the pith of life. Where is he gone?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Even",
+              "norm": "even",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "pith",
+              "norm": "pith",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "life",
+              "norm": "life",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0023-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0023-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0023-t012",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "hamlet-a04-s01-i0034",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 35,
+      "serial": "hamlet-a04-s01-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0006",
+      "speech_seq": 1,
+      "line_number": 25,
+      "line_serial": "hamlet-a04-s01-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To draw apart the body he hath kill’d,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "draw",
+              "norm": "draw",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "apart",
+              "norm": "apart",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "body",
+              "norm": "body",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0024-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "kill’d",
+              "norm": "kill'd",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0024-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "hamlet-a04-s01-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0006",
+      "speech_seq": 2,
+      "line_number": 26,
+      "line_serial": "hamlet-a04-s01-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "O’er whom his very madness, like some ore",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "O’er",
+              "norm": "o'er",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "whom",
+              "norm": "whom",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "very",
+              "norm": "very",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "madness",
+              "norm": "madness",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0025-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "ore",
+              "norm": "ore",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0025-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "hamlet-a04-s01-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0006",
+      "speech_seq": 3,
+      "line_number": 27,
+      "line_serial": "hamlet-a04-s01-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Among a mineral of metals base,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Among",
+              "norm": "among",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "mineral",
+              "norm": "mineral",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "metals",
+              "norm": "metals",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "base",
+              "norm": "base",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0026-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "hamlet-a04-s01-i0038",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "QUEEN",
+      "speech_id": "hamlet-a04-s01-s0006",
+      "speech_seq": 4,
+      "line_number": 28,
+      "line_serial": "hamlet-a04-s01-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Shows itself pure. He weeps for what is done.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Shows",
+              "norm": "shows",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "itself",
+              "norm": "itself",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "pure",
+              "norm": "pure",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0027-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "He",
+              "norm": "he",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "weeps",
+              "norm": "weeps",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0027-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0027-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "done",
+              "norm": "done",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0027-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0027-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "hamlet-a04-s01-i0039",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 40,
+      "serial": "hamlet-a04-s01-i0040",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 1,
+      "line_number": 29,
+      "line_serial": "hamlet-a04-s01-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "O Gertrude, come away!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "O",
+              "norm": "o",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Gertrude",
+              "norm": "gertrude",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0028-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0028-t006",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "serial": "hamlet-a04-s01-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 2,
+      "line_number": 30,
+      "line_serial": "hamlet-a04-s01-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The sun no sooner shall the mountains touch",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sun",
+              "norm": "sun",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "sooner",
+              "norm": "sooner",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "mountains",
+              "norm": "mountains",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "touch",
+              "norm": "touch",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0029-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "hamlet-a04-s01-i0042",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 3,
+      "line_number": 31,
+      "line_serial": "hamlet-a04-s01-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "But we will ship him hence, and this vile deed",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "ship",
+              "norm": "ship",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hence",
+              "norm": "hence",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0030-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "vile",
+              "norm": "vile",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "deed",
+              "norm": "deed",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0030-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 43,
+      "serial": "hamlet-a04-s01-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 4,
+      "line_number": 32,
+      "line_serial": "hamlet-a04-s01-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "We must with all our majesty and skill",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We",
+              "norm": "we",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "majesty",
+              "norm": "majesty",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0031-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0031-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "skill",
+              "norm": "skill",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0031-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "hamlet-a04-s01-i0044",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 5,
+      "line_number": 33,
+      "line_serial": "hamlet-a04-s01-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Both countenance and excuse.—Ho, Guildenstern!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Both",
+              "norm": "both",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "countenance",
+              "norm": "countenance",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "excuse",
+              "norm": "excuse",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0032-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0032-t006",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Ho",
+              "norm": "ho",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0032-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0032-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Guildenstern",
+              "norm": "guildenstern",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0032-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0032-t010",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 45,
+      "serial": "hamlet-a04-s01-i0045",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 6,
+      "line_number": 34,
+      "line_serial": "hamlet-a04-s01-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Re-enter Rosencrantz and Guildenstern.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Re",
+              "norm": "re",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0033-t001"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0033-t002",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 2
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0033-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Rosencrantz",
+              "norm": "rosencrantz",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0033-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0033-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Guildenstern",
+              "norm": "guildenstern",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0033-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0033-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 46,
+      "serial": "hamlet-a04-s01-i0046",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 7,
+      "line_number": 35,
+      "line_serial": "hamlet-a04-s01-l0035",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Friends both, go join you with some further aid:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Friends",
+              "norm": "friends",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0034-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "both",
+              "norm": "both",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0034-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0034-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0034-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "join",
+              "norm": "join",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0034-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0034-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0034-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0034-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "further",
+              "norm": "further",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0034-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "aid",
+              "norm": "aid",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0034-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0034-t011",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 47,
+      "serial": "hamlet-a04-s01-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 8,
+      "line_number": 36,
+      "line_serial": "hamlet-a04-s01-l0036",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hamlet in madness hath Polonius slain,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hamlet",
+              "norm": "hamlet",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0035-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0035-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "madness",
+              "norm": "madness",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0035-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0035-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Polonius",
+              "norm": "polonius",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0035-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "slain",
+              "norm": "slain",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0035-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0035-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "hamlet-a04-s01-i0048",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 9,
+      "line_number": 37,
+      "line_serial": "hamlet-a04-s01-l0037",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And from his mother’s closet hath he dragg’d him.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0036-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0036-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0036-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "mother’s",
+              "norm": "mother's",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0036-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "closet",
+              "norm": "closet",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0036-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hath",
+              "norm": "hath",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0036-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0036-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "dragg’d",
+              "norm": "dragg'd",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0036-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0036-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0036-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 49,
+      "serial": "hamlet-a04-s01-i0049",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 10,
+      "line_number": 38,
+      "line_serial": "hamlet-a04-s01-l0038",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Go seek him out, speak fair, and bring the body",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Go",
+              "norm": "go",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0037-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "seek",
+              "norm": "seek",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0037-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "speak",
+              "norm": "speak",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "fair",
+              "norm": "fair",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0037-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "bring",
+              "norm": "bring",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "body",
+              "norm": "body",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0037-t012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 50,
+      "serial": "hamlet-a04-s01-i0050",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 11,
+      "line_number": 39,
+      "line_serial": "hamlet-a04-s01-l0039",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Into the chapel. I pray you haste in this.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Into",
+              "norm": "into",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0038-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0038-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "chapel",
+              "norm": "chapel",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0038-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0038-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0038-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "pray",
+              "norm": "pray",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0038-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0038-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "haste",
+              "norm": "haste",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0038-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0038-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-l0038-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-l0038-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 51,
+      "serial": "hamlet-a04-s01-i0051",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt Rosencrantz and Guildenstern.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0051-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Rosencrantz",
+              "norm": "rosencrantz",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0051-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0051-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Guildenstern",
+              "norm": "guildenstern",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0051-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0051-t005",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 52,
+      "serial": "hamlet-a04-s01-i0052",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 12,
+      "line_number": 40,
+      "line_serial": "hamlet-a04-s01-l0040",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Come, Gertrude, we’ll call up our wisest friends,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Come",
+              "norm": "come",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0052-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0052-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Gertrude",
+              "norm": "gertrude",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0052-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0052-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "we’ll",
+              "norm": "we'll",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0052-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "call",
+              "norm": "call",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0052-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "up",
+              "norm": "up",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0052-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0052-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "wisest",
+              "norm": "wisest",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0052-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0052-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0052-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 53,
+      "serial": "hamlet-a04-s01-i0053",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 13,
+      "line_number": 41,
+      "line_serial": "hamlet-a04-s01-l0041",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And let them know both what we mean to do",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0053-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "both",
+              "norm": "both",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "mean",
+              "norm": "mean",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0053-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 54,
+      "serial": "hamlet-a04-s01-i0054",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 14,
+      "line_number": 42,
+      "line_serial": "hamlet-a04-s01-l0042",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And what’s untimely done, so haply slander,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0054-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "what’s",
+              "norm": "what's",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0054-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "untimely",
+              "norm": "untimely",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0054-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "done",
+              "norm": "done",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0054-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0054-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0054-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "haply",
+              "norm": "haply",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0054-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "slander",
+              "norm": "slander",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0054-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0054-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 55,
+      "serial": "hamlet-a04-s01-i0055",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 15,
+      "line_number": 43,
+      "line_serial": "hamlet-a04-s01-l0043",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Whose whisper o’er the world’s diameter,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Whose",
+              "norm": "whose",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0055-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "whisper",
+              "norm": "whisper",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0055-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "o’er",
+              "norm": "o'er",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0055-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0055-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "world’s",
+              "norm": "world's",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0055-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "diameter",
+              "norm": "diameter",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0055-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0055-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 56,
+      "serial": "hamlet-a04-s01-i0056",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 16,
+      "line_number": 44,
+      "line_serial": "hamlet-a04-s01-l0044",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As level as the cannon to his blank,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0056-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "level",
+              "norm": "level",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0056-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0056-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0056-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "cannon",
+              "norm": "cannon",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0056-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0056-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0056-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "blank",
+              "norm": "blank",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0056-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0056-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 57,
+      "serial": "hamlet-a04-s01-i0057",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 17,
+      "line_number": 45,
+      "line_serial": "hamlet-a04-s01-l0045",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Transports his poison’d shot, may miss our name,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Transports",
+              "norm": "transports",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0057-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0057-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "poison’d",
+              "norm": "poison'd",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0057-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "shot",
+              "norm": "shot",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0057-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0057-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0057-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "miss",
+              "norm": "miss",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0057-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0057-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "name",
+              "norm": "name",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0057-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0057-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 58,
+      "serial": "hamlet-a04-s01-i0058",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 18,
+      "line_number": 46,
+      "line_serial": "hamlet-a04-s01-l0046",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And hit the woundless air. O, come away!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0058-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "hit",
+              "norm": "hit",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0058-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0058-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "woundless",
+              "norm": "woundless",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0058-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "air",
+              "norm": "air",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0058-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0058-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "O",
+              "norm": "o",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0058-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0058-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0058-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0058-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0058-t011",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 59,
+      "serial": "hamlet-a04-s01-i0059",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "KING",
+      "speech_id": "hamlet-a04-s01-s0007",
+      "speech_seq": 19,
+      "line_number": 47,
+      "line_serial": "hamlet-a04-s01-l0047",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "My soul is full of discord and dismay.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "My",
+              "norm": "my",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0059-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "soul",
+              "norm": "soul",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0059-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0059-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "full",
+              "norm": "full",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0059-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0059-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "discord",
+              "norm": "discord",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0059-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0059-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "dismay",
+              "norm": "dismay",
+              "pre": " ",
+              "serial": "hamlet-a04-s01-i0059-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0059-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 60,
+      "serial": "hamlet-a04-s01-i0060",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0060-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "hamlet-a04-s01-i0060-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

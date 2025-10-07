@@ -1,0 +1,4904 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-06T20:02:05Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "king-lear/01_acts/Act_04/A04_S05_A_Room_in_Gloucesters_Castle.txt"
+    },
+    "play": {
+      "id": "king-lear",
+      "title": "King Lear",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 4,
+      "scene": 5,
+      "label": "Act IV, Scene V",
+      "title": "Scene V. A Room in Gloucester’s Castle",
+      "unit_key": "a04-s05",
+      "unit_id": "king-lear-a04-s05",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "king-lear-a04-s05-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT IV",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "IV",
+              "norm": "iv",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "king-lear-a04-s05-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Scene V. A Room in Gloucester’s Castle",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Scene",
+              "norm": "scene",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "V",
+              "norm": "v",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Room",
+              "norm": "room",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Gloucester",
+              "norm": "gloucester",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "’",
+              "norm": "'",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "s",
+              "norm": "s",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Castle",
+              "norm": "castle",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0002-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "king-lear-a04-s05-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": false,
+          "text": "Enter Regan and Oswald.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Regan",
+              "norm": "regan",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Oswald",
+              "norm": "oswald",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-i0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0003-t005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "king-lear-a04-s05-i0004",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "king-lear-a04-s05-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "king-lear-a04-s05-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "But are my brother’s powers set forth?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "brother’s",
+              "norm": "brother's",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "powers",
+              "norm": "powers",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "set",
+              "norm": "set",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0001-t008",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "king-lear-a04-s05-i0006",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 7,
+      "serial": "king-lear-a04-s05-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0002",
+      "speech_seq": 1,
+      "line_number": 2,
+      "line_serial": "king-lear-a04-s05-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Ay, madam.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Ay",
+              "norm": "ay",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0002-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "madam",
+              "norm": "madam",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0002-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "king-lear-a04-s05-i0008",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 9,
+      "serial": "king-lear-a04-s05-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0003",
+      "speech_seq": 1,
+      "line_number": 3,
+      "line_serial": "king-lear-a04-s05-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Himself in person there?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Himself",
+              "norm": "himself",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "person",
+              "norm": "person",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0003-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "king-lear-a04-s05-i0010",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 11,
+      "serial": "king-lear-a04-s05-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0004",
+      "speech_seq": 1,
+      "line_number": 4,
+      "line_serial": "king-lear-a04-s05-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Madam, with much ado.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Madam",
+              "norm": "madam",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0004-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "ado",
+              "norm": "ado",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0004-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "king-lear-a04-s05-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0004",
+      "speech_seq": 2,
+      "line_number": 5,
+      "line_serial": "king-lear-a04-s05-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Your sister is the better soldier.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Your",
+              "norm": "your",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sister",
+              "norm": "sister",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "better",
+              "norm": "better",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "soldier",
+              "norm": "soldier",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0005-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "king-lear-a04-s05-i0013",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 14,
+      "serial": "king-lear-a04-s05-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0005",
+      "speech_seq": 1,
+      "line_number": 6,
+      "line_serial": "king-lear-a04-s05-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Lord Edmund spake not with your lord at home?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Lord",
+              "norm": "lord",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Edmund",
+              "norm": "edmund",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "spake",
+              "norm": "spake",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "home",
+              "norm": "home",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0006-t010",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "king-lear-a04-s05-i0015",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 16,
+      "serial": "king-lear-a04-s05-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0006",
+      "speech_seq": 1,
+      "line_number": 7,
+      "line_serial": "king-lear-a04-s05-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "No, madam.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "No",
+              "norm": "no",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0007-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "madam",
+              "norm": "madam",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0007-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "king-lear-a04-s05-i0017",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 18,
+      "serial": "king-lear-a04-s05-i0018",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0007",
+      "speech_seq": 1,
+      "line_number": 8,
+      "line_serial": "king-lear-a04-s05-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What might import my sister’s letter to him?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "might",
+              "norm": "might",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "import",
+              "norm": "import",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "sister’s",
+              "norm": "sister's",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "letter",
+              "norm": "letter",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0008-t009",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "king-lear-a04-s05-i0019",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 20,
+      "serial": "king-lear-a04-s05-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0008",
+      "speech_seq": 1,
+      "line_number": 9,
+      "line_serial": "king-lear-a04-s05-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I know not, lady.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0009-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "lady",
+              "norm": "lady",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0009-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "king-lear-a04-s05-i0021",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 22,
+      "serial": "king-lear-a04-s05-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0009",
+      "speech_seq": 1,
+      "line_number": 10,
+      "line_serial": "king-lear-a04-s05-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Faith, he is posted hence on serious matter.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Faith",
+              "norm": "faith",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0010-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "posted",
+              "norm": "posted",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hence",
+              "norm": "hence",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "serious",
+              "norm": "serious",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "matter",
+              "norm": "matter",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0010-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0010-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "king-lear-a04-s05-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0009",
+      "speech_seq": 2,
+      "line_number": 11,
+      "line_serial": "king-lear-a04-s05-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "It was great ignorance, Gloucester’s eyes being out,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "great",
+              "norm": "great",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "ignorance",
+              "norm": "ignorance",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0011-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Gloucester’s",
+              "norm": "gloucester's",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "eyes",
+              "norm": "eyes",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "being",
+              "norm": "being",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0011-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "king-lear-a04-s05-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0009",
+      "speech_seq": 3,
+      "line_number": 12,
+      "line_serial": "king-lear-a04-s05-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To let him live. Where he arrives he moves",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "live",
+              "norm": "live",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0012-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "arrives",
+              "norm": "arrives",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "moves",
+              "norm": "moves",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0012-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "king-lear-a04-s05-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0009",
+      "speech_seq": 4,
+      "line_number": 13,
+      "line_serial": "king-lear-a04-s05-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "All hearts against us. Edmund, I think, is gone",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "hearts",
+              "norm": "hearts",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "against",
+              "norm": "against",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0013-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Edmund",
+              "norm": "edmund",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0013-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "think",
+              "norm": "think",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0013-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0013-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0013-t012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "king-lear-a04-s05-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0009",
+      "speech_seq": 5,
+      "line_number": 14,
+      "line_serial": "king-lear-a04-s05-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In pity of his misery, to dispatch",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "pity",
+              "norm": "pity",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "misery",
+              "norm": "misery",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0014-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "dispatch",
+              "norm": "dispatch",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0014-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "king-lear-a04-s05-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0009",
+      "speech_seq": 6,
+      "line_number": 15,
+      "line_serial": "king-lear-a04-s05-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "His nighted life; moreover to descry",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "His",
+              "norm": "his",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "nighted",
+              "norm": "nighted",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "life",
+              "norm": "life",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0015-t004",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "moreover",
+              "norm": "moreover",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "descry",
+              "norm": "descry",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0015-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "king-lear-a04-s05-i0028",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0009",
+      "speech_seq": 7,
+      "line_number": 16,
+      "line_serial": "king-lear-a04-s05-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The strength o’ th’enemy.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "strength",
+              "norm": "strength",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "o’",
+              "norm": "o'",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "th’enemy",
+              "norm": "th'enemy",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0016-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "king-lear-a04-s05-i0029",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 30,
+      "serial": "king-lear-a04-s05-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0010",
+      "speech_seq": 1,
+      "line_number": 17,
+      "line_serial": "king-lear-a04-s05-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I must needs after him, madam, with my letter.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "needs",
+              "norm": "needs",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "after",
+              "norm": "after",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0017-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "madam",
+              "norm": "madam",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0017-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0017-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0017-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "letter",
+              "norm": "letter",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0017-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0017-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "king-lear-a04-s05-i0031",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 32,
+      "serial": "king-lear-a04-s05-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0011",
+      "speech_seq": 1,
+      "line_number": 18,
+      "line_serial": "king-lear-a04-s05-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Our troops set forth tomorrow; stay with us;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Our",
+              "norm": "our",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "troops",
+              "norm": "troops",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "set",
+              "norm": "set",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "forth",
+              "norm": "forth",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "tomorrow",
+              "norm": "tomorrow",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0018-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "stay",
+              "norm": "stay",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0018-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0018-t010",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "king-lear-a04-s05-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0011",
+      "speech_seq": 2,
+      "line_number": 19,
+      "line_serial": "king-lear-a04-s05-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The ways are dangerous.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "ways",
+              "norm": "ways",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0019-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "dangerous",
+              "norm": "dangerous",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0019-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "king-lear-a04-s05-i0034",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 35,
+      "serial": "king-lear-a04-s05-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0012",
+      "speech_seq": 1,
+      "line_number": 20,
+      "line_serial": "king-lear-a04-s05-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I may not, madam:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0020-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0020-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "madam",
+              "norm": "madam",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0020-t006",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "king-lear-a04-s05-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0012",
+      "speech_seq": 2,
+      "line_number": 21,
+      "line_serial": "king-lear-a04-s05-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "My lady charg’d my duty in this business.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "My",
+              "norm": "my",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "lady",
+              "norm": "lady",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "charg’d",
+              "norm": "charg'd",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "duty",
+              "norm": "duty",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0021-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "business",
+              "norm": "business",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0021-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0021-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "king-lear-a04-s05-i0037",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 38,
+      "serial": "king-lear-a04-s05-i0038",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0013",
+      "speech_seq": 1,
+      "line_number": 22,
+      "line_serial": "king-lear-a04-s05-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Why should she write to Edmund? Might not you",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Why",
+              "norm": "why",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "should",
+              "norm": "should",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "write",
+              "norm": "write",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Edmund",
+              "norm": "edmund",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0022-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0022-t007",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Might",
+              "norm": "might",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0022-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0022-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0022-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "king-lear-a04-s05-i0039",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0013",
+      "speech_seq": 2,
+      "line_number": 23,
+      "line_serial": "king-lear-a04-s05-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Transport her purposes by word? Belike,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Transport",
+              "norm": "transport",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "purposes",
+              "norm": "purposes",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "word",
+              "norm": "word",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0023-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0023-t006",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Belike",
+              "norm": "belike",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0023-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 40,
+      "serial": "king-lear-a04-s05-i0040",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0013",
+      "speech_seq": 3,
+      "line_number": 24,
+      "line_serial": "king-lear-a04-s05-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Somethings, I know not what, I’ll love thee much.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Somethings",
+              "norm": "somethings",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0024-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0024-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0024-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0024-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0024-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0024-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0024-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "serial": "king-lear-a04-s05-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0013",
+      "speech_seq": 4,
+      "line_number": 25,
+      "line_serial": "king-lear-a04-s05-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Let me unseal the letter.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Let",
+              "norm": "let",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0025-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "unseal",
+              "norm": "unseal",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "letter",
+              "norm": "letter",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0025-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0025-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "king-lear-a04-s05-i0042",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 43,
+      "serial": "king-lear-a04-s05-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0014",
+      "speech_seq": 1,
+      "line_number": 26,
+      "line_serial": "king-lear-a04-s05-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Madam, I had rather—",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Madam",
+              "norm": "madam",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0026-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "had",
+              "norm": "had",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "rather",
+              "norm": "rather",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0026-t006",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "king-lear-a04-s05-i0044",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 45,
+      "serial": "king-lear-a04-s05-i0045",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0015",
+      "speech_seq": 1,
+      "line_number": 27,
+      "line_serial": "king-lear-a04-s05-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I know your lady does not love her husband;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "lady",
+              "norm": "lady",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0027-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "does",
+              "norm": "does",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0027-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "husband",
+              "norm": "husband",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0027-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0027-t010",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 46,
+      "serial": "king-lear-a04-s05-i0046",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0015",
+      "speech_seq": 2,
+      "line_number": 28,
+      "line_serial": "king-lear-a04-s05-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I am sure of that; and at her late being here",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "sure",
+              "norm": "sure",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0028-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "late",
+              "norm": "late",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "being",
+              "norm": "being",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0028-t012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 47,
+      "serial": "king-lear-a04-s05-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0015",
+      "speech_seq": 3,
+      "line_number": 29,
+      "line_serial": "king-lear-a04-s05-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "She gave strange oeillades and most speaking looks",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "She",
+              "norm": "she",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "gave",
+              "norm": "gave",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "strange",
+              "norm": "strange",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "oeillades",
+              "norm": "oeillades",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "most",
+              "norm": "most",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "speaking",
+              "norm": "speaking",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "looks",
+              "norm": "looks",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0029-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "king-lear-a04-s05-i0048",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0015",
+      "speech_seq": 4,
+      "line_number": 30,
+      "line_serial": "king-lear-a04-s05-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To noble Edmund. I know you are of her bosom.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "noble",
+              "norm": "noble",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Edmund",
+              "norm": "edmund",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0030-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "bosom",
+              "norm": "bosom",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0030-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0030-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 49,
+      "serial": "king-lear-a04-s05-i0049",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 50,
+      "serial": "king-lear-a04-s05-i0050",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0016",
+      "speech_seq": 1,
+      "line_number": 31,
+      "line_serial": "king-lear-a04-s05-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I, madam?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0031-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "madam",
+              "norm": "madam",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0031-t004",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 51,
+      "serial": "king-lear-a04-s05-i0051",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 52,
+      "serial": "king-lear-a04-s05-i0052",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 1,
+      "line_number": 32,
+      "line_serial": "king-lear-a04-s05-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I speak in understanding; y’are, I know’t:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "speak",
+              "norm": "speak",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "understanding",
+              "norm": "understanding",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0032-t005",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "y’are",
+              "norm": "y'are",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0032-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0032-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0032-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "know’t",
+              "norm": "know't",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0032-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0032-t010",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 53,
+      "serial": "king-lear-a04-s05-i0053",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 2,
+      "line_number": 33,
+      "line_serial": "king-lear-a04-s05-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Therefore I do advise you take this note:",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Therefore",
+              "norm": "therefore",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0033-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0033-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0033-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "advise",
+              "norm": "advise",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0033-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0033-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "take",
+              "norm": "take",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0033-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0033-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "note",
+              "norm": "note",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0033-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ":",
+              "norm": ":",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0033-t009",
+              "punct": {
+                "kind": "colon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 54,
+      "serial": "king-lear-a04-s05-i0054",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 3,
+      "line_number": 34,
+      "line_serial": "king-lear-a04-s05-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "My lord is dead; Edmund and I have talk’d,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "My",
+              "norm": "my",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0034-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0034-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0034-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "dead",
+              "norm": "dead",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0034-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0034-t005",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Edmund",
+              "norm": "edmund",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0034-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0034-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0034-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0034-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "talk’d",
+              "norm": "talk'd",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0034-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0034-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 55,
+      "serial": "king-lear-a04-s05-i0055",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 4,
+      "line_number": 35,
+      "line_serial": "king-lear-a04-s05-l0035",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And more convenient is he for my hand",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0035-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0035-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "convenient",
+              "norm": "convenient",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0035-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0035-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0035-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0035-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0035-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "hand",
+              "norm": "hand",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0035-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 56,
+      "serial": "king-lear-a04-s05-i0056",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 5,
+      "line_number": 36,
+      "line_serial": "king-lear-a04-s05-l0036",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Than for your lady’s. You may gather more.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Than",
+              "norm": "than",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0036-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0036-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0036-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "lady’s",
+              "norm": "lady's",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0036-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0036-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "You",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0036-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0036-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "gather",
+              "norm": "gather",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0036-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0036-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0036-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 57,
+      "serial": "king-lear-a04-s05-i0057",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 6,
+      "line_number": 37,
+      "line_serial": "king-lear-a04-s05-l0037",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "If you do find him, pray you give him this;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "If",
+              "norm": "if",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0037-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "find",
+              "norm": "find",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0037-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "pray",
+              "norm": "pray",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "give",
+              "norm": "give",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0037-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0037-t012",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 58,
+      "serial": "king-lear-a04-s05-i0058",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 7,
+      "line_number": 38,
+      "line_serial": "king-lear-a04-s05-l0038",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And when your mistress hears thus much from you,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0038-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "when",
+              "norm": "when",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0038-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0038-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "mistress",
+              "norm": "mistress",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0038-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hears",
+              "norm": "hears",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0038-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "thus",
+              "norm": "thus",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0038-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0038-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0038-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0038-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0038-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 59,
+      "serial": "king-lear-a04-s05-i0059",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 8,
+      "line_number": 39,
+      "line_serial": "king-lear-a04-s05-l0039",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I pray desire her call her wisdom to her.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0039-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "pray",
+              "norm": "pray",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0039-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "desire",
+              "norm": "desire",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0039-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0039-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "call",
+              "norm": "call",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0039-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0039-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "wisdom",
+              "norm": "wisdom",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0039-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0039-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0039-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0039-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 60,
+      "serial": "king-lear-a04-s05-i0060",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 9,
+      "line_number": 40,
+      "line_serial": "king-lear-a04-s05-l0040",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "So, fare you well.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0040-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0040-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fare",
+              "norm": "fare",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0040-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0040-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "well",
+              "norm": "well",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0040-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0040-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 61,
+      "serial": "king-lear-a04-s05-i0061",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 10,
+      "line_number": 41,
+      "line_serial": "king-lear-a04-s05-l0041",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "If you do chance to hear of that blind traitor,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "If",
+              "norm": "if",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0041-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "chance",
+              "norm": "chance",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hear",
+              "norm": "hear",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "blind",
+              "norm": "blind",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "traitor",
+              "norm": "traitor",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0041-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0041-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 62,
+      "serial": "king-lear-a04-s05-i0062",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0017",
+      "speech_seq": 11,
+      "line_number": 42,
+      "line_serial": "king-lear-a04-s05-l0042",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Preferment falls on him that cuts him off.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Preferment",
+              "norm": "preferment",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0042-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "falls",
+              "norm": "falls",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0042-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0042-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0042-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0042-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "cuts",
+              "norm": "cuts",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0042-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0042-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "off",
+              "norm": "off",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0042-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0042-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 63,
+      "serial": "king-lear-a04-s05-i0063",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 64,
+      "serial": "king-lear-a04-s05-i0064",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0018",
+      "speech_seq": 1,
+      "line_number": 43,
+      "line_serial": "king-lear-a04-s05-l0043",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Would I could meet him, madam! I should show",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Would",
+              "norm": "would",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0043-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0043-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "could",
+              "norm": "could",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0043-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "meet",
+              "norm": "meet",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0043-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0043-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0043-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "madam",
+              "norm": "madam",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0043-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0043-t008",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0043-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "should",
+              "norm": "should",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0043-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "show",
+              "norm": "show",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0043-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 65,
+      "serial": "king-lear-a04-s05-i0065",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "OSWALD",
+      "speech_id": "king-lear-a04-s05-s0018",
+      "speech_seq": 2,
+      "line_number": 44,
+      "line_serial": "king-lear-a04-s05-l0044",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "What party I do follow.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "What",
+              "norm": "what",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0044-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "party",
+              "norm": "party",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0044-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0044-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0044-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "follow",
+              "norm": "follow",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0044-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0044-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 66,
+      "serial": "king-lear-a04-s05-i0066",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 67,
+      "serial": "king-lear-a04-s05-i0067",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "REGAN",
+      "speech_id": "king-lear-a04-s05-s0019",
+      "speech_seq": 1,
+      "line_number": 45,
+      "line_serial": "king-lear-a04-s05-l0045",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Fare thee well.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Fare",
+              "norm": "fare",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0045-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0045-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "well",
+              "norm": "well",
+              "pre": " ",
+              "serial": "king-lear-a04-s05-l0045-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-l0045-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 68,
+      "serial": "king-lear-a04-s05-i0068",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": false,
+          "text": "Exeunt.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0068-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-lear-a04-s05-i0068-t002"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

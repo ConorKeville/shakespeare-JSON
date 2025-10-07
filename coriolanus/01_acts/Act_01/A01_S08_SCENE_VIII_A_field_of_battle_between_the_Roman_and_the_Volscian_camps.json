@@ -1,0 +1,2739 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "coriolanus/01_acts/Act_01/A01_S08_A_field_of_battle_between_the_Roman_and_the_Vols.txt"
+    },
+    "play": {
+      "id": "coriolanus",
+      "title": "Coriolanus",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 1,
+      "scene": 8,
+      "label": "Act I, Scene VIII",
+      "title": "SCENE VIII. A field of battle between the Roman and the Volscian camps",
+      "unit_key": "a01-s08",
+      "unit_id": "coriolanus-a01-s08",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "coriolanus-a01-s08-i0001",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "THE TRAGEDY OF CORIOLANUS",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "THE",
+              "norm": "the",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "TRAGEDY",
+              "norm": "tragedy",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "OF",
+              "norm": "of",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "CORIOLANUS",
+              "norm": "coriolanus",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0001-t004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "coriolanus-a01-s08-i0002",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT I, SCENE VIII — A field of battle between the Roman and the Volscian camps",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0002-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "VIII",
+              "norm": "viii",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t006",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "field",
+              "norm": "field",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "battle",
+              "norm": "battle",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "between",
+              "norm": "between",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "Roman",
+              "norm": "roman",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t014"
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t015"
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "Volscian",
+              "norm": "volscian",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t016"
+            },
+            {
+              "i": 17,
+              "type": "word",
+              "s": "camps",
+              "norm": "camps",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0002-t017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "coriolanus-a01-s08-i0003",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE VIII. A field of battle between the Roman and the Volscian camps",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "VIII",
+              "norm": "viii",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0003-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "field",
+              "norm": "field",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "battle",
+              "norm": "battle",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "between",
+              "norm": "between",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Roman",
+              "norm": "roman",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "Volscian",
+              "norm": "volscian",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t013"
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "camps",
+              "norm": "camps",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0003-t014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "coriolanus-a01-s08-i0004",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Alarum, as in battle. Enter Martius and Aufidius at several doors.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Alarum",
+              "norm": "alarum",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0004-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "battle",
+              "norm": "battle",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0004-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Martius",
+              "norm": "martius",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Aufidius",
+              "norm": "aufidius",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "several",
+              "norm": "several",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "doors",
+              "norm": "doors",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0004-t013"
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0004-t014",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "coriolanus-a01-s08-i0005",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 6,
+      "serial": "coriolanus-a01-s08-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "coriolanus-a01-s08-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I’ll fight with none but thee, for I do hate thee",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "none",
+              "norm": "none",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0001-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "hate",
+              "norm": "hate",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0001-t012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "coriolanus-a01-s08-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "coriolanus-a01-s08-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Worse than a promise-breaker.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Worse",
+              "norm": "worse",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "than",
+              "norm": "than",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "promise",
+              "norm": "promise",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0002-t004"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0002-t005",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 5
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "breaker",
+              "norm": "breaker",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0002-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "coriolanus-a01-s08-i0008",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 9,
+      "serial": "coriolanus-a01-s08-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0002",
+      "speech_seq": 1,
+      "line_number": 3,
+      "line_serial": "coriolanus-a01-s08-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "We hate alike.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We",
+              "norm": "we",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "hate",
+              "norm": "hate",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "alike",
+              "norm": "alike",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0003-t004",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "coriolanus-a01-s08-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0002",
+      "speech_seq": 2,
+      "line_number": 4,
+      "line_serial": "coriolanus-a01-s08-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Not Afric owns a serpent I abhor",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Not",
+              "norm": "not",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Afric",
+              "norm": "afric",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "owns",
+              "norm": "owns",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "serpent",
+              "norm": "serpent",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "abhor",
+              "norm": "abhor",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0004-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "coriolanus-a01-s08-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0002",
+      "speech_seq": 3,
+      "line_number": 5,
+      "line_serial": "coriolanus-a01-s08-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "More than thy fame and envy. Fix thy foot.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "More",
+              "norm": "more",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "than",
+              "norm": "than",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fame",
+              "norm": "fame",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "envy",
+              "norm": "envy",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0005-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Fix",
+              "norm": "fix",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "foot",
+              "norm": "foot",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0005-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0005-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "coriolanus-a01-s08-i0012",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 13,
+      "serial": "coriolanus-a01-s08-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0003",
+      "speech_seq": 1,
+      "line_number": 6,
+      "line_serial": "coriolanus-a01-s08-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Let the first budger die the other’s slave,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Let",
+              "norm": "let",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "first",
+              "norm": "first",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "budger",
+              "norm": "budger",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "die",
+              "norm": "die",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "other’s",
+              "norm": "other's",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "slave",
+              "norm": "slave",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0006-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "coriolanus-a01-s08-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0003",
+      "speech_seq": 2,
+      "line_number": 7,
+      "line_serial": "coriolanus-a01-s08-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And the gods doom him after!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "gods",
+              "norm": "gods",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "doom",
+              "norm": "doom",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "after",
+              "norm": "after",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0007-t007",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "coriolanus-a01-s08-i0015",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 16,
+      "serial": "coriolanus-a01-s08-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0004",
+      "speech_seq": 1,
+      "line_number": 8,
+      "line_serial": "coriolanus-a01-s08-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "If I fly, Martius,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "If",
+              "norm": "if",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fly",
+              "norm": "fly",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0008-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Martius",
+              "norm": "martius",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0008-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "coriolanus-a01-s08-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0004",
+      "speech_seq": 2,
+      "line_number": 9,
+      "line_serial": "coriolanus-a01-s08-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hollo me like a hare.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hollo",
+              "norm": "hollo",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "hare",
+              "norm": "hare",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0009-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "coriolanus-a01-s08-i0018",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 19,
+      "serial": "coriolanus-a01-s08-i0019",
+      "kind": "stage",
+      "subtype": "within",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Within these three hours, Tullus,",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Within",
+              "norm": "within",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0019-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "these",
+              "norm": "these",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0019-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "three",
+              "norm": "three",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0019-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hours",
+              "norm": "hours",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0019-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0019-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Tullus",
+              "norm": "tullus",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0019-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0019-t007",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "coriolanus-a01-s08-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0005",
+      "speech_seq": 1,
+      "line_number": 10,
+      "line_serial": "coriolanus-a01-s08-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Alone I fought in your Corioles’ walls,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Alone",
+              "norm": "alone",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fought",
+              "norm": "fought",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Corioles’",
+              "norm": "corioles'",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "walls",
+              "norm": "walls",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0010-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "coriolanus-a01-s08-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0005",
+      "speech_seq": 2,
+      "line_number": 11,
+      "line_serial": "coriolanus-a01-s08-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And made what work I pleased. ’Tis not my blood",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "made",
+              "norm": "made",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "work",
+              "norm": "work",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "pleased",
+              "norm": "pleased",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0011-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "’Tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "blood",
+              "norm": "blood",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0011-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "coriolanus-a01-s08-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0005",
+      "speech_seq": 3,
+      "line_number": 12,
+      "line_serial": "coriolanus-a01-s08-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Wherein thou seest me masked. For thy revenge",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Wherein",
+              "norm": "wherein",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thou",
+              "norm": "thou",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "seest",
+              "norm": "seest",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "masked",
+              "norm": "masked",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0012-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "revenge",
+              "norm": "revenge",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0012-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "coriolanus-a01-s08-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0005",
+      "speech_seq": 4,
+      "line_number": 13,
+      "line_serial": "coriolanus-a01-s08-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Wrench up thy power to th’ highest.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Wrench",
+              "norm": "wrench",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "up",
+              "norm": "up",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "power",
+              "norm": "power",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "th’",
+              "norm": "th'",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "highest",
+              "norm": "highest",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0013-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "coriolanus-a01-s08-i0024",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 25,
+      "serial": "coriolanus-a01-s08-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0006",
+      "speech_seq": 1,
+      "line_number": 14,
+      "line_serial": "coriolanus-a01-s08-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Wert thou the Hector",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Wert",
+              "norm": "wert",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thou",
+              "norm": "thou",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Hector",
+              "norm": "hector",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0014-t004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "coriolanus-a01-s08-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0006",
+      "speech_seq": 2,
+      "line_number": 15,
+      "line_serial": "coriolanus-a01-s08-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That was the whip of your bragged progeny,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "was",
+              "norm": "was",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "whip",
+              "norm": "whip",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "bragged",
+              "norm": "bragged",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "progeny",
+              "norm": "progeny",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0015-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "coriolanus-a01-s08-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0006",
+      "speech_seq": 3,
+      "line_number": 16,
+      "line_serial": "coriolanus-a01-s08-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Thou shouldst not scape me here.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Thou",
+              "norm": "thou",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "shouldst",
+              "norm": "shouldst",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "scape",
+              "norm": "scape",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-l0016-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "coriolanus-a01-s08-i0028",
+      "kind": "stage",
+      "subtype": null,
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Here they fight, and certain Volsces come to the aid of Aufidius.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Here",
+              "norm": "here",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0028-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0028-t004",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "certain",
+              "norm": "certain",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Volsces",
+              "norm": "volsces",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "aid",
+              "norm": "aid",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t012",
+              "em": true
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "Aufidius",
+              "norm": "aufidius",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0028-t013",
+              "em": true
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0028-t014",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "coriolanus-a01-s08-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0006",
+      "speech_seq": 4,
+      "line_number": 17,
+      "line_serial": "coriolanus-a01-s08-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Officious and not valiant, you have shamed me",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Officious",
+              "norm": "officious",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "valiant",
+              "norm": "valiant",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0029-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "shamed",
+              "norm": "shamed",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0029-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0029-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "coriolanus-a01-s08-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0006",
+      "speech_seq": 5,
+      "line_number": 18,
+      "line_serial": "coriolanus-a01-s08-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In your condemned seconds.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "condemned",
+              "norm": "condemned",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "seconds",
+              "norm": "seconds",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0030-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0030-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "coriolanus-a01-s08-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0006",
+      "speech_seq": 6,
+      "line_number": 19,
+      "line_serial": "coriolanus-a01-s08-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "[_Martius fights till they be driven in breathless. Aufidius and",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "punct",
+              "s": "[",
+              "norm": "[",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0031-t001",
+              "punct": {
+                "kind": "bracket_open",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": "_",
+              "norm": "_",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0031-t002",
+              "punct": {
+                "kind": "other",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Martius",
+              "norm": "martius",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fights",
+              "norm": "fights",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "till",
+              "norm": "till",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "driven",
+              "norm": "driven",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "breathless",
+              "norm": "breathless",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0031-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "Aufidius",
+              "norm": "aufidius",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0031-t013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "coriolanus-a01-s08-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "AUFIDIUS",
+      "speech_id": "coriolanus-a01-s08-s0006",
+      "speech_seq": 7,
+      "line_number": 20,
+      "line_serial": "coriolanus-a01-s08-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Martius exit, separately._]",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Martius",
+              "norm": "martius",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "exit",
+              "norm": "exit",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0032-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "separately",
+              "norm": "separately",
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0032-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "_",
+              "norm": "_",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0032-t006",
+              "punct": {
+                "kind": "other",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "]",
+              "norm": "]",
+              "pre": "",
+              "serial": "coriolanus-a01-s08-i0032-t007",
+              "punct": {
+                "kind": "bracket_close",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

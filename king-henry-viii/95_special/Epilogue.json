@@ -1,0 +1,1745 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "king-henry-viii/95_special/Epilogue.txt"
+    },
+    "play": {
+      "id": "king-henry-viii",
+      "title": "King Henry VIII",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "epilogue",
+      "act": null,
+      "scene": null,
+      "label": null,
+      "title": null,
+      "unit_key": "epilogue",
+      "unit_id": "king-henry-viii-epilogue",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "king-henry-viii-epilogue-i0001",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Epilogue",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Epilogue",
+              "norm": "epilogue",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-i0001-t001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "king-henry-viii-epilogue-i0002",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Epilogue.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-i0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Epilogue",
+              "norm": "epilogue",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-i0002-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-i0002-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "king-henry-viii-epilogue-i0003",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 4,
+      "serial": "king-henry-viii-epilogue-i0004",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "king-henry-viii-epilogue-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "’Tis ten to one this play can never please",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "’Tis",
+              "norm": "'tis",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "ten",
+              "norm": "ten",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "one",
+              "norm": "one",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "play",
+              "norm": "play",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "can",
+              "norm": "can",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "never",
+              "norm": "never",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "please",
+              "norm": "please",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0001-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "king-henry-viii-epilogue-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "king-henry-viii-epilogue-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "All that are here. Some come to take their ease,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0002-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "take",
+              "norm": "take",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "ease",
+              "norm": "ease",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0002-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0002-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "king-henry-viii-epilogue-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "king-henry-viii-epilogue-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And sleep an act or two—but those, we fear,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "sleep",
+              "norm": "sleep",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "act",
+              "norm": "act",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0003-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "those",
+              "norm": "those",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0003-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0003-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "fear",
+              "norm": "fear",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0003-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0003-t013",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "king-henry-viii-epilogue-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "king-henry-viii-epilogue-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "We’ve frighted with our trumpets; so, ’tis clear,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We’ve",
+              "norm": "we've",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "frighted",
+              "norm": "frighted",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "trumpets",
+              "norm": "trumpets",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0004-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0004-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "clear",
+              "norm": "clear",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0004-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0004-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "king-henry-viii-epilogue-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "king-henry-viii-epilogue-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "They’ll say ’tis naught—others, to hear the city",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "They’ll",
+              "norm": "they'll",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "say",
+              "norm": "say",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "naught",
+              "norm": "naught",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0005-t005",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "others",
+              "norm": "others",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0005-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "hear",
+              "norm": "hear",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0005-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "city",
+              "norm": "city",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0005-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "king-henry-viii-epilogue-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "king-henry-viii-epilogue-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Abused extremely and to cry “That’s witty!”—",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Abused",
+              "norm": "abused",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "extremely",
+              "norm": "extremely",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "cry",
+              "norm": "cry",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "“",
+              "norm": "\"",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0006-t006",
+              "punct": {
+                "kind": "quote_open",
+                "dash": null,
+                "quote": "double",
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "That’s",
+              "norm": "that's",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "witty",
+              "norm": "witty",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0006-t009",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "”",
+              "norm": "\"",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0006-t010",
+              "punct": {
+                "kind": "quote_close",
+                "dash": null,
+                "quote": "double",
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0006-t011",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "king-henry-viii-epilogue-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "king-henry-viii-epilogue-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Which we have not done neither—that I fear",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Which",
+              "norm": "which",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "done",
+              "norm": "done",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "neither",
+              "norm": "neither",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0007-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0007-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "fear",
+              "norm": "fear",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0007-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "king-henry-viii-epilogue-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 8,
+      "line_number": 8,
+      "line_serial": "king-henry-viii-epilogue-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "All the expected good we’re like to hear",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "expected",
+              "norm": "expected",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "we’re",
+              "norm": "we're",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "hear",
+              "norm": "hear",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0008-t008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "king-henry-viii-epilogue-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 9,
+      "line_number": 9,
+      "line_serial": "king-henry-viii-epilogue-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For this play at this time is only in",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0009-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "play",
+              "norm": "play",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "at",
+              "norm": "at",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "only",
+              "norm": "only",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0009-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "serial": "king-henry-viii-epilogue-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 10,
+      "line_number": 10,
+      "line_serial": "king-henry-viii-epilogue-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The merciful construction of good women,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "merciful",
+              "norm": "merciful",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "construction",
+              "norm": "construction",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "women",
+              "norm": "women",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0010-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "king-henry-viii-epilogue-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 11,
+      "line_number": 11,
+      "line_serial": "king-henry-viii-epilogue-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For such a one we showed ’em. If they smile",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "such",
+              "norm": "such",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "one",
+              "norm": "one",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "showed",
+              "norm": "showed",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "’em",
+              "norm": "'em",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0011-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "If",
+              "norm": "if",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "smile",
+              "norm": "smile",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0011-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "king-henry-viii-epilogue-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 12,
+      "line_number": 12,
+      "line_serial": "king-henry-viii-epilogue-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And say ’twill do, I know within a while",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "say",
+              "norm": "say",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "’twill",
+              "norm": "'twill",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0012-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "within",
+              "norm": "within",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "while",
+              "norm": "while",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0012-t010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "king-henry-viii-epilogue-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 13,
+      "line_number": 13,
+      "line_serial": "king-henry-viii-epilogue-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "All the best men are ours; for ’tis ill hap",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "All",
+              "norm": "all",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "best",
+              "norm": "best",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "ours",
+              "norm": "ours",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0013-t007",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "ill",
+              "norm": "ill",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "hap",
+              "norm": "hap",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0013-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "king-henry-viii-epilogue-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "EPILOGUE",
+      "speech_id": "king-henry-viii-epilogue-s0001",
+      "speech_seq": 14,
+      "line_number": 14,
+      "line_serial": "king-henry-viii-epilogue-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "If they hold when their ladies bid ’em clap.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "If",
+              "norm": "if",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "hold",
+              "norm": "hold",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "when",
+              "norm": "when",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "ladies",
+              "norm": "ladies",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "bid",
+              "norm": "bid",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "’em",
+              "norm": "'em",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "clap",
+              "norm": "clap",
+              "pre": " ",
+              "serial": "king-henry-viii-epilogue-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-l0014-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "king-henry-viii-epilogue-i0018",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-i0018-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "king-henry-viii-epilogue-i0018-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

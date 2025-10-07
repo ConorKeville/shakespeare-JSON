@@ -1,0 +1,4654 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "romeo-and-juliet-scenes/01_acts/Act_03/A03_S04_A_Room_in_Capulet's_House.txt"
+    },
+    "play": {
+      "id": "romeo-and-juliet-scenes",
+      "title": "Romeo and Juliet",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 3,
+      "scene": 4,
+      "label": "Act III, Scene IV",
+      "title": "SCENE IV. A Room in Capulet’s House.",
+      "unit_key": "a03-s04",
+      "unit_id": "romeo-and-juliet-scenes-a03-s04",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0001",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT III",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "III",
+              "norm": "iii",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0001-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0002",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE IV. A Room in Capulet’s House.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "IV",
+              "norm": "iv",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Room",
+              "norm": "room",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Capulet’s",
+              "norm": "capulet's",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "House",
+              "norm": "house",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0002-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0003",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter Capulet, Lady Capulet and Paris.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Capulet",
+              "norm": "capulet",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0003-t003",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Lady",
+              "norm": "lady",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Capulet",
+              "norm": "capulet",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0003-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0003-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Paris",
+              "norm": "paris",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0003-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0003-t008",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0004",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 5,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0005",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Things have fallen out, sir, so unluckily",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Things",
+              "norm": "things",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fallen",
+              "norm": "fallen",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "sir",
+              "norm": "sir",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "unluckily",
+              "norm": "unluckily",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0001-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0006",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "That we have had no time to move our daughter.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "That",
+              "norm": "that",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "had",
+              "norm": "had",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "time",
+              "norm": "time",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "move",
+              "norm": "move",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "daughter",
+              "norm": "daughter",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0002-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0007",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Look you, she lov’d her kinsman Tybalt dearly,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Look",
+              "norm": "look",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "lov’d",
+              "norm": "lov'd",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "kinsman",
+              "norm": "kinsman",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Tybalt",
+              "norm": "tybalt",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "dearly",
+              "norm": "dearly",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0003-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0001",
+      "speech_seq": 4,
+      "line_number": 4,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And so did I. Well, we were born to die.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "did",
+              "norm": "did",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Well",
+              "norm": "well",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "were",
+              "norm": "were",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "born",
+              "norm": "born",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "die",
+              "norm": "die",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0004-t013",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0001",
+      "speech_seq": 5,
+      "line_number": 5,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "’Tis very late; she’ll not come down tonight.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "’Tis",
+              "norm": "'tis",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "very",
+              "norm": "very",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "late",
+              "norm": "late",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t004",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "she’ll",
+              "norm": "she'll",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "down",
+              "norm": "down",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "tonight",
+              "norm": "tonight",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0005-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0001",
+      "speech_seq": 6,
+      "line_number": 6,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I promise you, but for your company,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "promise",
+              "norm": "promise",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "but",
+              "norm": "but",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "company",
+              "norm": "company",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0006-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0011",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0001",
+      "speech_seq": 7,
+      "line_number": 7,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I would have been abed an hour ago.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "been",
+              "norm": "been",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "abed",
+              "norm": "abed",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "hour",
+              "norm": "hour",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "ago",
+              "norm": "ago",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0007-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0012",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "PARIS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 13,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PARIS",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0002",
+      "speech_seq": 1,
+      "line_number": 8,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "These times of woe afford no tune to woo.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "These",
+              "norm": "these",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "times",
+              "norm": "times",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "woe",
+              "norm": "woe",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "afford",
+              "norm": "afford",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "tune",
+              "norm": "tune",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "woo",
+              "norm": "woo",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0008-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PARIS",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0002",
+      "speech_seq": 2,
+      "line_number": 9,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Madam, good night. Commend me to your daughter.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Madam",
+              "norm": "madam",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "night",
+              "norm": "night",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Commend",
+              "norm": "commend",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "daughter",
+              "norm": "daughter",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0009-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0015",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "LADY CAPULET",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 16,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0016",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LADY CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0003",
+      "speech_seq": 1,
+      "line_number": 10,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I will, and know her mind early tomorrow;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "mind",
+              "norm": "mind",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "early",
+              "norm": "early",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "tomorrow",
+              "norm": "tomorrow",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0010-t010",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "LADY CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0003",
+      "speech_seq": 2,
+      "line_number": 11,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Tonight she’s mew’d up to her heaviness.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Tonight",
+              "norm": "tonight",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "she’s",
+              "norm": "she's",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "mew’d",
+              "norm": "mew'd",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "up",
+              "norm": "up",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "heaviness",
+              "norm": "heaviness",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0011-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0018",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 19,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0019",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0004",
+      "speech_seq": 1,
+      "line_number": 12,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Sir Paris, I will make a desperate tender",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Sir",
+              "norm": "sir",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Paris",
+              "norm": "paris",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "desperate",
+              "norm": "desperate",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "tender",
+              "norm": "tender",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0012-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0004",
+      "speech_seq": 2,
+      "line_number": 13,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Of my child’s love. I think she will be rul’d",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Of",
+              "norm": "of",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "child’s",
+              "norm": "child's",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "think",
+              "norm": "think",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "rul’d",
+              "norm": "rul'd",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0013-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0004",
+      "speech_seq": 3,
+      "line_number": 14,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In all respects by me; nay more, I doubt it not.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "respects",
+              "norm": "respects",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "nay",
+              "norm": "nay",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "doubt",
+              "norm": "doubt",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t013"
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0014-t014",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0004",
+      "speech_seq": 4,
+      "line_number": 15,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Wife, go you to her ere you go to bed,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Wife",
+              "norm": "wife",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "ere",
+              "norm": "ere",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "bed",
+              "norm": "bed",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0015-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0004",
+      "speech_seq": 5,
+      "line_number": 16,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Acquaint her here of my son Paris’ love,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Acquaint",
+              "norm": "acquaint",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "son",
+              "norm": "son",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Paris’",
+              "norm": "paris'",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "love",
+              "norm": "love",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0016-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0024",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0004",
+      "speech_seq": 6,
+      "line_number": 17,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And bid her, mark you me, on Wednesday next,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "bid",
+              "norm": "bid",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "mark",
+              "norm": "mark",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Wednesday",
+              "norm": "wednesday",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "next",
+              "norm": "next",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0017-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0025",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0004",
+      "speech_seq": 7,
+      "line_number": 18,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "But, soft, what day is this?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "soft",
+              "norm": "soft",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0018-t009",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 26,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0026",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "PARIS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 27,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PARIS",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0005",
+      "speech_seq": 1,
+      "line_number": 19,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Monday, my lord.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Monday",
+              "norm": "monday",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0019-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0019-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0019-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0019-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0019-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0028",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 29,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 1,
+      "line_number": 20,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Monday! Ha, ha! Well, Wednesday is too soon,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Monday",
+              "norm": "monday",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t002",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Ha",
+              "norm": "ha",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "ha",
+              "norm": "ha",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t006",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Well",
+              "norm": "well",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Wednesday",
+              "norm": "wednesday",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "too",
+              "norm": "too",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "soon",
+              "norm": "soon",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0020-t013",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 2,
+      "line_number": 21,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A Thursday let it be; a Thursday, tell her,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Thursday",
+              "norm": "thursday",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "let",
+              "norm": "let",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t006",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Thursday",
+              "norm": "thursday",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "tell",
+              "norm": "tell",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0021-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 3,
+      "line_number": 22,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "She shall be married to this noble earl.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "She",
+              "norm": "she",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "married",
+              "norm": "married",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "noble",
+              "norm": "noble",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "earl",
+              "norm": "earl",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0022-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 4,
+      "line_number": 23,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Will you be ready? Do you like this haste?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Will",
+              "norm": "will",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "ready",
+              "norm": "ready",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t005",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "haste",
+              "norm": "haste",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0023-t011",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0033",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 5,
+      "line_number": 24,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "We’ll keep no great ado,—a friend or two,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "We’ll",
+              "norm": "we'll",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "keep",
+              "norm": "keep",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "no",
+              "norm": "no",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "great",
+              "norm": "great",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "ado",
+              "norm": "ado",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "friend",
+              "norm": "friend",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "two",
+              "norm": "two",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0024-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0034",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 6,
+      "line_number": 25,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For, hark you, Tybalt being slain so late,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "hark",
+              "norm": "hark",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Tybalt",
+              "norm": "tybalt",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "being",
+              "norm": "being",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "slain",
+              "norm": "slain",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "late",
+              "norm": "late",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0025-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 35,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 7,
+      "line_number": 26,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "It may be thought we held him carelessly,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "may",
+              "norm": "may",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "thought",
+              "norm": "thought",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "held",
+              "norm": "held",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "carelessly",
+              "norm": "carelessly",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0026-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 8,
+      "line_number": 27,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Being our kinsman, if we revel much.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Being",
+              "norm": "being",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "kinsman",
+              "norm": "kinsman",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "if",
+              "norm": "if",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "revel",
+              "norm": "revel",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "much",
+              "norm": "much",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0027-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 9,
+      "line_number": 28,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Therefore we’ll have some half a dozen friends,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Therefore",
+              "norm": "therefore",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "we’ll",
+              "norm": "we'll",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "some",
+              "norm": "some",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "half",
+              "norm": "half",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "dozen",
+              "norm": "dozen",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "friends",
+              "norm": "friends",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0028-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0038",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0006",
+      "speech_seq": 10,
+      "line_number": 29,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And there an end. But what say you to Thursday?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "there",
+              "norm": "there",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "end",
+              "norm": "end",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "say",
+              "norm": "say",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "Thursday",
+              "norm": "thursday",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0029-t012",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0039",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "PARIS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 40,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0040",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PARIS",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0007",
+      "speech_seq": 1,
+      "line_number": 30,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "My lord, I would that Thursday were tomorrow.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "My",
+              "norm": "my",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Thursday",
+              "norm": "thursday",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "were",
+              "norm": "were",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "tomorrow",
+              "norm": "tomorrow",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0030-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0041",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 42,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0042",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0008",
+      "speech_seq": 1,
+      "line_number": 31,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Well, get you gone. A Thursday be it then.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Well",
+              "norm": "well",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "get",
+              "norm": "get",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "gone",
+              "norm": "gone",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Thursday",
+              "norm": "thursday",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0031-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 43,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0043",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0008",
+      "speech_seq": 2,
+      "line_number": 32,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Go you to Juliet ere you go to bed,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Go",
+              "norm": "go",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Juliet",
+              "norm": "juliet",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "ere",
+              "norm": "ere",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "bed",
+              "norm": "bed",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0032-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0044",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0008",
+      "speech_seq": 3,
+      "line_number": 33,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Prepare her, wife, against this wedding day.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Prepare",
+              "norm": "prepare",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "wife",
+              "norm": "wife",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "against",
+              "norm": "against",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "wedding",
+              "norm": "wedding",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0033-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 45,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0045",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0008",
+      "speech_seq": 4,
+      "line_number": 34,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Farewell, my lord.—Light to my chamber, ho!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Farewell",
+              "norm": "farewell",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t006",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Light",
+              "norm": "light",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "chamber",
+              "norm": "chamber",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "ho",
+              "norm": "ho",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0034-t013",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 46,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0046",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0008",
+      "speech_seq": 5,
+      "line_number": 35,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0035",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Afore me, it is so very very late that we",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Afore",
+              "norm": "afore",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "very",
+              "norm": "very",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "very",
+              "norm": "very",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "late",
+              "norm": "late",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0035-t011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 47,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "CAPULET",
+      "speech_id": "romeo-and-juliet-scenes-a03-s04-s0008",
+      "speech_seq": 6,
+      "line_number": 36,
+      "line_serial": "romeo-and-juliet-scenes-a03-s04-l0036",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "May call it early by and by. Good night.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "May",
+              "norm": "may",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "call",
+              "norm": "call",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "it",
+              "norm": "it",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "early",
+              "norm": "early",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Good",
+              "norm": "good",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "night",
+              "norm": "night",
+              "pre": " ",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-l0036-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "romeo-and-juliet-scenes-a03-s04-i0048",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exeunt.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0048-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "romeo-and-juliet-scenes-a03-s04-i0048-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}

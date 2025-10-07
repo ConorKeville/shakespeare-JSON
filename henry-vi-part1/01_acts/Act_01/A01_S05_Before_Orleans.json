@@ -1,0 +1,5616 @@
+{
+  "schema_version": "2.4.2",
+  "house_style": "shakespeare-json",
+  "meta": {
+    "generated_by": "GPT-5 Pro",
+    "generated_at_utc": "2025-10-04T15:27:00Z",
+    "source": {
+      "edition": "Project Gutenberg",
+      "filename": "henry-vi-part1/01_acts/Act_01/A01_S05_Before_Orleans.txt"
+    },
+    "play": {
+      "id": "henry-vi-part1",
+      "title": "Henry Vi Part1",
+      "authors": [
+        "William Shakespeare"
+      ]
+    },
+    "unit": {
+      "type": "scene",
+      "act": 1,
+      "scene": 5,
+      "label": "Act I, Scene V",
+      "title": "SCENE V. Before Orleans.",
+      "unit_key": "a01-s05",
+      "unit_id": "henry-vi-part1-a01-s05",
+      "parent": null
+    },
+    "numbering": {
+      "seq_start": 1,
+      "line_start": 1
+    },
+    "conventions": {
+      "tokenization": "words-and-punctuation",
+      "normalization": "nfkd-ascii-lower",
+      "dash_policy": "classify em/en/hyphen as separate tokens; all dash types normalize to \"-\"",
+      "bracket_policy": "strip underscores and outer brackets from stage spans",
+      "empty_item_policy": "suppress-empty-headings-and-speeches",
+      "line_number_policy": "advance-on-visible-speech-only"
+    }
+  },
+  "items": [
+    {
+      "seq": 1,
+      "serial": "henry-vi-part1-a01-s05-i0001",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The First Part of Henry the Sixth",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "First",
+              "norm": "first",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Part",
+              "norm": "part",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Henry",
+              "norm": "henry",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0001-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Sixth",
+              "norm": "sixth",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0001-t007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "serial": "henry-vi-part1-a01-s05-i0002",
+      "kind": "heading",
+      "subtype": "act",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "ACT I",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "ACT",
+              "norm": "act",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0002-t002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "serial": "henry-vi-part1-a01-s05-i0003",
+      "kind": "heading",
+      "subtype": "scene",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "SCENE V. Before Orleans.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "SCENE",
+              "norm": "scene",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "V",
+              "norm": "v",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0003-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Before",
+              "norm": "before",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Orleans",
+              "norm": "orleans",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0003-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "serial": "henry-vi-part1-a01-s05-i0004",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Here an alarum again, and Talbot pursueth the Dauphin and driveth him;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Here",
+              "norm": "here",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "an",
+              "norm": "an",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "alarum",
+              "norm": "alarum",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "again",
+              "norm": "again",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0004-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Talbot",
+              "norm": "talbot",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "pursueth",
+              "norm": "pursueth",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Dauphin",
+              "norm": "dauphin",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "driveth",
+              "norm": "driveth",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0004-t013"
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0004-t014",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "serial": "henry-vi-part1-a01-s05-i0005",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "then enter Joan la Pucelle, driving Englishmen before her, and exit",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "then",
+              "norm": "then",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "enter",
+              "norm": "enter",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Joan",
+              "norm": "joan",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "la",
+              "norm": "la",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Pucelle",
+              "norm": "pucelle",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0005-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "driving",
+              "norm": "driving",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Englishmen",
+              "norm": "englishmen",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "before",
+              "norm": "before",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "her",
+              "norm": "her",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0005-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t012"
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "exit",
+              "norm": "exit",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0005-t013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "serial": "henry-vi-part1-a01-s05-i0006",
+      "kind": "heading",
+      "subtype": "title",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "after them. Then re-enter Talbot.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "after",
+              "norm": "after",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0006-t003",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "re",
+              "norm": "re",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0006-t005"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0006-t006",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 6
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Talbot",
+              "norm": "talbot",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0006-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "serial": "henry-vi-part1-a01-s05-i0007",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 8,
+      "serial": "henry-vi-part1-a01-s05-i0008",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0001",
+      "speech_seq": 1,
+      "line_number": 1,
+      "line_serial": "henry-vi-part1-a01-s05-l0001",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Where is my strength, my valour, and my force?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Where",
+              "norm": "where",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0001-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0001-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0001-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "strength",
+              "norm": "strength",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0001-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0001-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0001-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "valour",
+              "norm": "valour",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0001-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0001-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0001-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0001-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "force",
+              "norm": "force",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0001-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0001-t012",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "serial": "henry-vi-part1-a01-s05-i0009",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0001",
+      "speech_seq": 2,
+      "line_number": 2,
+      "line_serial": "henry-vi-part1-a01-s05-l0002",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Our English troops retire, I cannot stay them.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Our",
+              "norm": "our",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0002-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "English",
+              "norm": "english",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0002-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "troops",
+              "norm": "troops",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0002-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "retire",
+              "norm": "retire",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0002-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0002-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0002-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "cannot",
+              "norm": "cannot",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0002-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "stay",
+              "norm": "stay",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0002-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0002-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0002-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "serial": "henry-vi-part1-a01-s05-i0010",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0001",
+      "speech_seq": 3,
+      "line_number": 3,
+      "line_serial": "henry-vi-part1-a01-s05-l0003",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A woman clad in armour chaseth them.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0003-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "woman",
+              "norm": "woman",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0003-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "clad",
+              "norm": "clad",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0003-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0003-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "armour",
+              "norm": "armour",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0003-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "chaseth",
+              "norm": "chaseth",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0003-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "them",
+              "norm": "them",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0003-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0003-t008",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "serial": "henry-vi-part1-a01-s05-i0011",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Enter La Pucelle.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0011-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "La",
+              "norm": "la",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0011-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Pucelle",
+              "norm": "pucelle",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0011-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0011-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "serial": "henry-vi-part1-a01-s05-i0016",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 13,
+      "serial": "henry-vi-part1-a01-s05-i0012",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0002",
+      "speech_seq": 1,
+      "line_number": 4,
+      "line_serial": "henry-vi-part1-a01-s05-l0004",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Here, here she comes. I’ll have a bout with thee;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Here",
+              "norm": "here",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0012-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "comes",
+              "norm": "comes",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0012-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "have",
+              "norm": "have",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "bout",
+              "norm": "bout",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t011"
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0012-t012"
+            },
+            {
+              "i": 13,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0012-t013",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "serial": "henry-vi-part1-a01-s05-i0013",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0002",
+      "speech_seq": 2,
+      "line_number": 5,
+      "line_serial": "henry-vi-part1-a01-s05-l0005",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Devil or devil’s dam, I’ll conjure thee.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Devil",
+              "norm": "devil",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "devil’s",
+              "norm": "devil's",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "dam",
+              "norm": "dam",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0013-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "conjure",
+              "norm": "conjure",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0013-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0013-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "serial": "henry-vi-part1-a01-s05-i0014",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0002",
+      "speech_seq": 3,
+      "line_number": 6,
+      "line_serial": "henry-vi-part1-a01-s05-l0006",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Blood will I draw on thee, thou art a witch,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Blood",
+              "norm": "blood",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "draw",
+              "norm": "draw",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "on",
+              "norm": "on",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0014-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "thou",
+              "norm": "thou",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "art",
+              "norm": "art",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "witch",
+              "norm": "witch",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0014-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0014-t012",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "serial": "henry-vi-part1-a01-s05-i0015",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0002",
+      "speech_seq": 4,
+      "line_number": 7,
+      "line_serial": "henry-vi-part1-a01-s05-l0007",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And straightway give thy soul to him thou serv’st.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "straightway",
+              "norm": "straightway",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "give",
+              "norm": "give",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "soul",
+              "norm": "soul",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "thou",
+              "norm": "thou",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "serv’st",
+              "norm": "serv'st",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0015-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0015-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "serial": "henry-vi-part1-a01-s05-i0017",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0002",
+      "speech_seq": 5,
+      "line_number": 8,
+      "line_serial": "henry-vi-part1-a01-s05-l0008",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Come, come, ’tis only I that must disgrace thee.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Come",
+              "norm": "come",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0004-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0004-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0004-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0004-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "’tis",
+              "norm": "'tis",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0004-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "only",
+              "norm": "only",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0004-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0004-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0004-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0004-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "disgrace",
+              "norm": "disgrace",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0004-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "thee",
+              "norm": "thee",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0004-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0004-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "serial": "henry-vi-part1-a01-s05-i0018",
+      "kind": "stage",
+      "subtype": null,
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Here they fight.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Here",
+              "norm": "here",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0018-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "they",
+              "norm": "they",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0018-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0018-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0018-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "serial": "henry-vi-part1-a01-s05-i0019",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 20,
+      "serial": "henry-vi-part1-a01-s05-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0003",
+      "speech_seq": 1,
+      "line_number": 9,
+      "line_serial": "henry-vi-part1-a01-s05-l0009",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Heavens, can you suffer hell so to prevail?",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Heavens",
+              "norm": "heavens",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0005-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0005-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "can",
+              "norm": "can",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0005-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0005-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "suffer",
+              "norm": "suffer",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0005-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hell",
+              "norm": "hell",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0005-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0005-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0005-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "prevail",
+              "norm": "prevail",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0005-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "?",
+              "norm": "?",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0005-t010",
+              "punct": {
+                "kind": "qmark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "serial": "henry-vi-part1-a01-s05-i0021",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0003",
+      "speech_seq": 2,
+      "line_number": 10,
+      "line_serial": "henry-vi-part1-a01-s05-l0010",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "My breast I’ll burst with straining of my courage,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "My",
+              "norm": "my",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0006-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "breast",
+              "norm": "breast",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0006-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "I’ll",
+              "norm": "i'll",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0006-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "burst",
+              "norm": "burst",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0006-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0006-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "straining",
+              "norm": "straining",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0006-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0006-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0006-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "courage",
+              "norm": "courage",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0006-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0006-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "serial": "henry-vi-part1-a01-s05-i0022",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0003",
+      "speech_seq": 3,
+      "line_number": 11,
+      "line_serial": "henry-vi-part1-a01-s05-l0011",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "And from my shoulders crack my arms asunder,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "And",
+              "norm": "and",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0007-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0007-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0007-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "shoulders",
+              "norm": "shoulders",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0007-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "crack",
+              "norm": "crack",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0007-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0007-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "arms",
+              "norm": "arms",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0007-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "asunder",
+              "norm": "asunder",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0007-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0007-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "serial": "henry-vi-part1-a01-s05-i0023",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0003",
+      "speech_seq": 4,
+      "line_number": 12,
+      "line_serial": "henry-vi-part1-a01-s05-l0012",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "But I will chastise this high-minded strumpet.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "But",
+              "norm": "but",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0008-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0008-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0008-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "chastise",
+              "norm": "chastise",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0008-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "this",
+              "norm": "this",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0008-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "high",
+              "norm": "high",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0008-t006"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0008-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 7
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "minded",
+              "norm": "minded",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0008-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "strumpet",
+              "norm": "strumpet",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0008-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0008-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "serial": "henry-vi-part1-a01-s05-i0024",
+      "kind": "stage",
+      "subtype": null,
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "They fight again.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "They",
+              "norm": "they",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0024-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0024-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "again",
+              "norm": "again",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0024-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0024-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "serial": "henry-vi-part1-a01-s05-i0025",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 26,
+      "serial": "henry-vi-part1-a01-s05-i0026",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0004",
+      "speech_seq": 1,
+      "line_number": 13,
+      "line_serial": "henry-vi-part1-a01-s05-l0013",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Talbot, farewell; thy hour is not yet come.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Talbot",
+              "norm": "talbot",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0009-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0009-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "farewell",
+              "norm": "farewell",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0009-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0009-t004",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0009-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "hour",
+              "norm": "hour",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0009-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0009-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0009-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "yet",
+              "norm": "yet",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0009-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "come",
+              "norm": "come",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0009-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0009-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 27,
+      "serial": "henry-vi-part1-a01-s05-i0027",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0004",
+      "speech_seq": 2,
+      "line_number": 14,
+      "line_serial": "henry-vi-part1-a01-s05-l0014",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I must go victual Orleans forthwith.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0010-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "must",
+              "norm": "must",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0010-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0010-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "victual",
+              "norm": "victual",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0010-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Orleans",
+              "norm": "orleans",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0010-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "forthwith",
+              "norm": "forthwith",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0010-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0010-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 28,
+      "serial": "henry-vi-part1-a01-s05-i0028",
+      "kind": "stage",
+      "subtype": null,
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "A short alarum. Then enter the town with soldiers.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0028-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "short",
+              "norm": "short",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0028-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "alarum",
+              "norm": "alarum",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0028-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0028-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Then",
+              "norm": "then",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0028-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "enter",
+              "norm": "enter",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0028-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0028-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "town",
+              "norm": "town",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0028-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0028-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "soldiers",
+              "norm": "soldiers",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0028-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0028-t011",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 29,
+      "serial": "henry-vi-part1-a01-s05-i0029",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0004",
+      "speech_seq": 3,
+      "line_number": 15,
+      "line_serial": "henry-vi-part1-a01-s05-l0015",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "O’ertake me, if thou canst. I scorn thy strength.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "O’ertake",
+              "norm": "o'ertake",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0029-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0029-t002"
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0029-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "if",
+              "norm": "if",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0029-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "thou",
+              "norm": "thou",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0029-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "canst",
+              "norm": "canst",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0029-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0029-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0029-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "scorn",
+              "norm": "scorn",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0029-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0029-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "strength",
+              "norm": "strength",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0029-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0029-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 30,
+      "serial": "henry-vi-part1-a01-s05-i0030",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0004",
+      "speech_seq": 4,
+      "line_number": 16,
+      "line_serial": "henry-vi-part1-a01-s05-l0016",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Go, go, cheer up thy hungry-starved men;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Go",
+              "norm": "go",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0030-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0030-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "go",
+              "norm": "go",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0030-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0030-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "cheer",
+              "norm": "cheer",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0030-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "up",
+              "norm": "up",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0030-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0030-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "hungry",
+              "norm": "hungry",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0030-t008"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0030-t009",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 9
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "starved",
+              "norm": "starved",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0030-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "men",
+              "norm": "men",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0030-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0030-t012",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 31,
+      "serial": "henry-vi-part1-a01-s05-i0031",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0004",
+      "speech_seq": 5,
+      "line_number": 17,
+      "line_serial": "henry-vi-part1-a01-s05-l0017",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Help Salisbury to make his testament.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Help",
+              "norm": "help",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0031-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Salisbury",
+              "norm": "salisbury",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0031-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0031-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0031-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0031-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "testament",
+              "norm": "testament",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0031-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0031-t007",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 32,
+      "serial": "henry-vi-part1-a01-s05-i0032",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PUCELLE",
+      "speech_id": "henry-vi-part1-a01-s05-s0004",
+      "speech_seq": 6,
+      "line_number": 18,
+      "line_serial": "henry-vi-part1-a01-s05-l0018",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "This day is ours, as many more shall be.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "This",
+              "norm": "this",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0032-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0032-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0032-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "ours",
+              "norm": "ours",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0032-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0032-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0032-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "many",
+              "norm": "many",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0032-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "more",
+              "norm": "more",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0032-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "shall",
+              "norm": "shall",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0032-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0032-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0032-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 33,
+      "serial": "henry-vi-part1-a01-s05-i0033",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0033-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0033-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 34,
+      "serial": "henry-vi-part1-a01-s05-i0034",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 35,
+      "serial": "henry-vi-part1-a01-s05-i0035",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 1,
+      "line_number": 19,
+      "line_serial": "henry-vi-part1-a01-s05-l0019",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "My thoughts are whirled like a potter’s wheel;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "My",
+              "norm": "my",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0011-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "thoughts",
+              "norm": "thoughts",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0011-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "are",
+              "norm": "are",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0011-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "whirled",
+              "norm": "whirled",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0011-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0011-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0011-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "potter’s",
+              "norm": "potter's",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0011-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "wheel",
+              "norm": "wheel",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0011-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0011-t009",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 36,
+      "serial": "henry-vi-part1-a01-s05-i0036",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 2,
+      "line_number": 20,
+      "line_serial": "henry-vi-part1-a01-s05-l0020",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "I know not where I am, nor what I do.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0012-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "know",
+              "norm": "know",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "where",
+              "norm": "where",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "am",
+              "norm": "am",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0012-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "nor",
+              "norm": "nor",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "what",
+              "norm": "what",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t010"
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0012-t011"
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0012-t012",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 37,
+      "serial": "henry-vi-part1-a01-s05-i0037",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 3,
+      "line_number": 21,
+      "line_serial": "henry-vi-part1-a01-s05-l0021",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "A witch by fear, not force, like Hannibal,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0013-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "witch",
+              "norm": "witch",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0013-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "by",
+              "norm": "by",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0013-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "fear",
+              "norm": "fear",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0013-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0013-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0013-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "force",
+              "norm": "force",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0013-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0013-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0013-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Hannibal",
+              "norm": "hannibal",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0013-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0013-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 38,
+      "serial": "henry-vi-part1-a01-s05-i0038",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 4,
+      "line_number": 22,
+      "line_serial": "henry-vi-part1-a01-s05-l0022",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Drives back our troops and conquers as she lists.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Drives",
+              "norm": "drives",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0014-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "back",
+              "norm": "back",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0014-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0014-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "troops",
+              "norm": "troops",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0014-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0014-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "conquers",
+              "norm": "conquers",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0014-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "as",
+              "norm": "as",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0014-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "she",
+              "norm": "she",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0014-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "lists",
+              "norm": "lists",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0014-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0014-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 39,
+      "serial": "henry-vi-part1-a01-s05-i0039",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 5,
+      "line_number": 23,
+      "line_serial": "henry-vi-part1-a01-s05-l0023",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "So bees with smoke and doves with noisome stench",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "So",
+              "norm": "so",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0015-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "bees",
+              "norm": "bees",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0015-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0015-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "smoke",
+              "norm": "smoke",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0015-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0015-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "doves",
+              "norm": "doves",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0015-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0015-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "noisome",
+              "norm": "noisome",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0015-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "stench",
+              "norm": "stench",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0015-t009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 40,
+      "serial": "henry-vi-part1-a01-s05-i0040",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 6,
+      "line_number": 24,
+      "line_serial": "henry-vi-part1-a01-s05-l0024",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Are from their hives and houses driven away.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Are",
+              "norm": "are",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0016-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0016-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "their",
+              "norm": "their",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0016-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "hives",
+              "norm": "hives",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0016-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0016-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "houses",
+              "norm": "houses",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0016-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "driven",
+              "norm": "driven",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0016-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0016-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0016-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 41,
+      "serial": "henry-vi-part1-a01-s05-i0041",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 7,
+      "line_number": 25,
+      "line_serial": "henry-vi-part1-a01-s05-l0025",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "They call’d us for our fierceness, English dogs;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "They",
+              "norm": "they",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0017-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "call’d",
+              "norm": "call'd",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0017-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0017-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0017-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "our",
+              "norm": "our",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0017-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "fierceness",
+              "norm": "fierceness",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0017-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0017-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "English",
+              "norm": "english",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0017-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "dogs",
+              "norm": "dogs",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0017-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0017-t010",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 42,
+      "serial": "henry-vi-part1-a01-s05-i0042",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 8,
+      "line_number": 26,
+      "line_serial": "henry-vi-part1-a01-s05-l0026",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Now like to whelps we crying run away.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Now",
+              "norm": "now",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0018-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "like",
+              "norm": "like",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0018-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0018-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "whelps",
+              "norm": "whelps",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0018-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0018-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "crying",
+              "norm": "crying",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0018-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "run",
+              "norm": "run",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0018-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "away",
+              "norm": "away",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-l0018-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-l0018-t009",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 43,
+      "serial": "henry-vi-part1-a01-s05-i0043",
+      "kind": "stage",
+      "subtype": null,
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "A short alarum.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "A",
+              "norm": "a",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0043-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "short",
+              "norm": "short",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0043-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "alarum",
+              "norm": "alarum",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0043-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0043-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "henry-vi-part1-a01-s05-i0044",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 9,
+      "line_number": 27,
+      "line_serial": "henry-vi-part1-a01-s05-l0027",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Hark, countrymen, either renew the fight,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Hark",
+              "norm": "hark",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0044-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0044-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "countrymen",
+              "norm": "countrymen",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0044-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0044-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "either",
+              "norm": "either",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0044-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "renew",
+              "norm": "renew",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0044-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0044-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "fight",
+              "norm": "fight",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0044-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0044-t009",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 45,
+      "serial": "henry-vi-part1-a01-s05-i0045",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 10,
+      "line_number": 28,
+      "line_serial": "henry-vi-part1-a01-s05-l0028",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Or tear the lions out of England’s coat;",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Or",
+              "norm": "or",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0045-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "tear",
+              "norm": "tear",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0045-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0045-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "lions",
+              "norm": "lions",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0045-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "out",
+              "norm": "out",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0045-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0045-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "England’s",
+              "norm": "england's",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0045-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "coat",
+              "norm": "coat",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0045-t008"
+            },
+            {
+              "i": 9,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0045-t009",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 46,
+      "serial": "henry-vi-part1-a01-s05-i0046",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 11,
+      "line_number": 29,
+      "line_serial": "henry-vi-part1-a01-s05-l0029",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Renounce your soil, give sheep in lions’ stead.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Renounce",
+              "norm": "renounce",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0046-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0046-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "soil",
+              "norm": "soil",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0046-t003"
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0046-t004",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "give",
+              "norm": "give",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0046-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "sheep",
+              "norm": "sheep",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0046-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0046-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "lions’",
+              "norm": "lions'",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0046-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "stead",
+              "norm": "stead",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0046-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0046-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 47,
+      "serial": "henry-vi-part1-a01-s05-i0047",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 12,
+      "line_number": 30,
+      "line_serial": "henry-vi-part1-a01-s05-l0030",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Sheep run not half so treacherous from the wolf,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Sheep",
+              "norm": "sheep",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0047-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "run",
+              "norm": "run",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0047-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0047-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "half",
+              "norm": "half",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0047-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "so",
+              "norm": "so",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0047-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "treacherous",
+              "norm": "treacherous",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0047-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0047-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0047-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "wolf",
+              "norm": "wolf",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0047-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0047-t010",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 48,
+      "serial": "henry-vi-part1-a01-s05-i0048",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 13,
+      "line_number": 31,
+      "line_serial": "henry-vi-part1-a01-s05-l0031",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Or horse or oxen from the leopard,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Or",
+              "norm": "or",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0048-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "horse",
+              "norm": "horse",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0048-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0048-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "oxen",
+              "norm": "oxen",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0048-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0048-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0048-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "leopard",
+              "norm": "leopard",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0048-t007"
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0048-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 49,
+      "serial": "henry-vi-part1-a01-s05-i0049",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 14,
+      "line_number": 32,
+      "line_serial": "henry-vi-part1-a01-s05-l0032",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "As you fly from your oft-subdued slaves.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "As",
+              "norm": "as",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0049-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "you",
+              "norm": "you",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0049-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "fly",
+              "norm": "fly",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0049-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0049-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0049-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "oft",
+              "norm": "oft",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0049-t006"
+            },
+            {
+              "type": "punct",
+              "s": "-",
+              "norm": "-",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0049-t007",
+              "punct": {
+                "kind": "dash",
+                "dash": "hyphen",
+                "quote": null,
+                "role": null
+              },
+              "i": 7
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "subdued",
+              "norm": "subdued",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0049-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "slaves",
+              "norm": "slaves",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0049-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0049-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 50,
+      "serial": "henry-vi-part1-a01-s05-i0050",
+      "kind": "stage",
+      "subtype": "sound",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Alarum. Here another skirmish.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Alarum",
+              "norm": "alarum",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0050-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0050-t002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Here",
+              "norm": "here",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0050-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "another",
+              "norm": "another",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0050-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "skirmish",
+              "norm": "skirmish",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0050-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0050-t006",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 51,
+      "serial": "henry-vi-part1-a01-s05-i0051",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 15,
+      "line_number": 33,
+      "line_serial": "henry-vi-part1-a01-s05-l0033",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "It will not be! Retire into your trenches.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "It",
+              "norm": "it",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0051-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0051-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0051-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "be",
+              "norm": "be",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0051-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0051-t005",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Retire",
+              "norm": "retire",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0051-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "into",
+              "norm": "into",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0051-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "your",
+              "norm": "your",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0051-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "trenches",
+              "norm": "trenches",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0051-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0051-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 52,
+      "serial": "henry-vi-part1-a01-s05-i0052",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 16,
+      "line_number": 34,
+      "line_serial": "henry-vi-part1-a01-s05-l0034",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "You all consented unto Salisbury’s death,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "You",
+              "norm": "you",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0052-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "all",
+              "norm": "all",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0052-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "consented",
+              "norm": "consented",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0052-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "unto",
+              "norm": "unto",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0052-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Salisbury’s",
+              "norm": "salisbury's",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0052-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "death",
+              "norm": "death",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0052-t006"
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0052-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 53,
+      "serial": "henry-vi-part1-a01-s05-i0053",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 17,
+      "line_number": 35,
+      "line_serial": "henry-vi-part1-a01-s05-l0035",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "For none would strike a stroke in his revenge.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "For",
+              "norm": "for",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0053-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "none",
+              "norm": "none",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0053-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0053-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "strike",
+              "norm": "strike",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0053-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0053-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "stroke",
+              "norm": "stroke",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0053-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0053-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0053-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "revenge",
+              "norm": "revenge",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0053-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0053-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 54,
+      "serial": "henry-vi-part1-a01-s05-i0054",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 18,
+      "line_number": 36,
+      "line_serial": "henry-vi-part1-a01-s05-l0036",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Pucelle is enter’d into Orleans,",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Pucelle",
+              "norm": "pucelle",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0054-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0054-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "enter’d",
+              "norm": "enter'd",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0054-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "into",
+              "norm": "into",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0054-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Orleans",
+              "norm": "orleans",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0054-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0054-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 55,
+      "serial": "henry-vi-part1-a01-s05-i0055",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 19,
+      "line_number": 37,
+      "line_serial": "henry-vi-part1-a01-s05-l0037",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "In spite of us or aught that we could do.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "In",
+              "norm": "in",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0055-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "spite",
+              "norm": "spite",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "us",
+              "norm": "us",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "or",
+              "norm": "or",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "aught",
+              "norm": "aught",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "that",
+              "norm": "that",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "we",
+              "norm": "we",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "could",
+              "norm": "could",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "do",
+              "norm": "do",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0055-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0055-t011",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 56,
+      "serial": "henry-vi-part1-a01-s05-i0056",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 20,
+      "line_number": 38,
+      "line_serial": "henry-vi-part1-a01-s05-l0038",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "O, would I were to die with Salisbury!",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "O",
+              "norm": "o",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0056-t001"
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0056-t002",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "would",
+              "norm": "would",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0056-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0056-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "were",
+              "norm": "were",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0056-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0056-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "die",
+              "norm": "die",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0056-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0056-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Salisbury",
+              "norm": "salisbury",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0056-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0056-t010",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 57,
+      "serial": "henry-vi-part1-a01-s05-i0057",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "TALBOT",
+      "speech_id": "henry-vi-part1-a01-s05-s0005",
+      "speech_seq": 21,
+      "line_number": 39,
+      "line_serial": "henry-vi-part1-a01-s05-l0039",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The shame hereof will make me hide my head.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0057-t001"
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "shame",
+              "norm": "shame",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0057-t002"
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "hereof",
+              "norm": "hereof",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0057-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "will",
+              "norm": "will",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0057-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "make",
+              "norm": "make",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0057-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "me",
+              "norm": "me",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0057-t006"
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "hide",
+              "norm": "hide",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0057-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "my",
+              "norm": "my",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0057-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "head",
+              "norm": "head",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0057-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0057-t010",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 58,
+      "serial": "henry-vi-part1-a01-s05-i0058",
+      "kind": "stage",
+      "subtype": "exit",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Exit Talbot. Alarum; retreat.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exit",
+              "norm": "exit",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0058-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Talbot",
+              "norm": "talbot",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0058-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0058-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Alarum",
+              "norm": "alarum",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0058-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0058-t005",
+              "em": true,
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "retreat",
+              "norm": "retreat",
+              "pre": " ",
+              "serial": "henry-vi-part1-a01-s05-i0058-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part1-a01-s05-i0058-t007",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": null
+}
