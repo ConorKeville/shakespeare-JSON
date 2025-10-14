@@ -3314,7 +3314,7 @@
       "serial": "antony-and-cleopatra-a03-s12-i0044",
       "kind": "speech",
       "subtype": null,
-      "speaker": "THIDIAS",
+      "speaker": "CAESAR",
       "speech_id": "antony-and-cleopatra-a03-s12-s0010",
       "speech_seq": 1,
       "line_number": 31,
@@ -3322,159 +3322,114 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "[_To Thidias_.] To try thy eloquence now ’tis time. Dispatch.",
+          "type": "stage",
+          "em": true,
+          "text": "To Thidias.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "[",
-              "norm": "[",
-              "pre": "",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t001",
-              "punct": {
-                "kind": "bracket_open",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t002",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 3,
               "type": "word",
               "s": "To",
               "norm": "to",
               "pre": "",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t003"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t001",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 2,
               "type": "word",
               "s": "Thidias",
               "norm": "thidias",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t004"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t002",
+              "em": true
             },
             {
-              "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 6,
+              "i": 3,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t006",
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t003",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
+              },
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": "To try thy eloquence now ’tis time. Dispatch.",
+          "tokens": [
             {
-              "i": 7,
-              "type": "punct",
-              "s": "]",
-              "norm": "]",
-              "pre": "",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t007",
-              "punct": {
-                "kind": "bracket_close",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 8,
+              "i": 1,
               "type": "word",
               "s": "To",
               "norm": "to",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t008"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t004"
             },
             {
-              "i": 9,
+              "i": 2,
               "type": "word",
               "s": "try",
               "norm": "try",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t009"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t005"
             },
             {
-              "i": 10,
+              "i": 3,
               "type": "word",
               "s": "thy",
               "norm": "thy",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t010"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t006"
             },
             {
-              "i": 11,
+              "i": 4,
               "type": "word",
               "s": "eloquence",
               "norm": "eloquence",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t011"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t007"
             },
             {
-              "i": 12,
+              "i": 5,
               "type": "word",
               "s": "now",
               "norm": "now",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t012"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t008"
             },
             {
-              "i": 13,
+              "i": 6,
               "type": "word",
               "s": "’tis",
               "norm": "'tis",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t013"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t009"
             },
             {
-              "i": 14,
+              "i": 7,
               "type": "word",
               "s": "time",
               "norm": "time",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t014"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t010"
             },
             {
-              "i": 15,
+              "i": 8,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t015",
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t011",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -3483,20 +3438,20 @@
               }
             },
             {
-              "i": 16,
+              "i": 9,
               "type": "word",
               "s": "Dispatch",
               "norm": "dispatch",
               "pre": " ",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t016"
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t012"
             },
             {
-              "i": 17,
+              "i": 10,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "antony-and-cleopatra-a03-s12-i0044-t017",
+              "serial": "antony-and-cleopatra-a03-s12-i0044-t013",
               "punct": {
                 "kind": "period",
                 "dash": null,

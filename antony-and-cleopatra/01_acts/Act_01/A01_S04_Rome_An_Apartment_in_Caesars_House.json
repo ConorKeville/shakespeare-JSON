@@ -181,7 +181,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Enter Octavius [Caesar], Lepidus and their train.",
+          "text": "Enter Octavius Caesar, Lepidus and their train.",
           "stage": null,
           "tokens": [
             {
@@ -204,63 +204,51 @@
             },
             {
               "i": 3,
-              "type": "punct",
-              "s": "[",
-              "norm": "[",
-              "pre": " ",
-              "serial": "antony-and-cleopatra-a01-s04-i0002-t003",
-              "em": true,
-              "punct": {
-                "kind": "bracket_open",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 4,
               "type": "word",
               "s": "Caesar",
               "norm": "caesar",
-              "pre": "",
-              "serial": "antony-and-cleopatra-a01-s04-i0002-t004",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a01-s04-i0002-t003",
               "em": true
             },
             {
-              "i": 5,
-              "type": "punct",
-              "s": "]",
-              "norm": "]",
-              "pre": "",
-              "serial": "antony-and-cleopatra-a01-s04-i0002-t005",
-              "em": true,
-              "punct": {
-                "kind": "bracket_close",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 6,
+              "i": 4,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "antony-and-cleopatra-a01-s04-i0002-t006",
-              "em": true,
+              "serial": "antony-and-cleopatra-a01-s04-i0002-t004",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Lepidus",
+              "norm": "lepidus",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a01-s04-i0002-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "antony-and-cleopatra-a01-s04-i0002-t006",
+              "em": true
             },
             {
               "i": 7,
               "type": "word",
-              "s": "Lepidus",
-              "norm": "lepidus",
+              "s": "their",
+              "norm": "their",
               "pre": " ",
               "serial": "antony-and-cleopatra-a01-s04-i0002-t007",
               "em": true
@@ -268,44 +256,26 @@
             {
               "i": 8,
               "type": "word",
-              "s": "and",
-              "norm": "and",
+              "s": "train",
+              "norm": "train",
               "pre": " ",
               "serial": "antony-and-cleopatra-a01-s04-i0002-t008",
               "em": true
             },
             {
               "i": 9,
-              "type": "word",
-              "s": "their",
-              "norm": "their",
-              "pre": " ",
-              "serial": "antony-and-cleopatra-a01-s04-i0002-t009",
-              "em": true
-            },
-            {
-              "i": 10,
-              "type": "word",
-              "s": "train",
-              "norm": "train",
-              "pre": " ",
-              "serial": "antony-and-cleopatra-a01-s04-i0002-t010",
-              "em": true
-            },
-            {
-              "i": 11,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "antony-and-cleopatra-a01-s04-i0002-t011",
-              "em": true,
+              "serial": "antony-and-cleopatra-a01-s04-i0002-t009",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }

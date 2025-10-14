@@ -11879,7 +11879,7 @@
               "type": "word",
               "s": "kills",
               "norm": "kills",
-              "pre": "",
+              "pre": " ",
               "serial": "antony-and-cleopatra-a04-s14-l0091-t001",
               "em": true
             },
@@ -12803,7 +12803,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Thy master dies thy scholar. To do thus",
+          "text": "Thy master dies thy scholar. To do thus—",
           "tokens": [
             {
               "i": 1,
@@ -12882,6 +12882,20 @@
               "norm": "thus",
               "pre": " ",
               "serial": "antony-and-cleopatra-a04-s14-l0101-t009"
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": "—",
+              "norm": "-",
+              "pre": "",
+              "serial": "antony-and-cleopatra-a04-s14-i0160-t010",
+              "punct": {
+                "kind": "dash",
+                "dash": "em",
+                "quote": null,
+                "role": null
+              }
             }
           ]
         }
