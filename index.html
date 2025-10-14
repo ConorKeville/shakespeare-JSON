@@ -1,1 +1,122 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shakespeare JSON Viewer</title>
+  <style>
+    /* (styles omitted here for brevity in this message)
+       Use the exact CSS you already have in your working copy. */
+  </style>
+</head>
+<body>
+  <!-- ... the same markup you already have (header, toolbar, sections) ... -->
+
+  <script>
+  (function(){
+    /* ================================
+       Minimal differences to highlight
+       ================================ */
+
+    // 1) This file expects index.json next to index.html
+    const INDEX_JSON = 'index.json';
+
+    // 2) Helpers include robust numFrom() (handles roman numerals or digits)
+    const fromRoman = (s) => { /* ...same as your working version... */ };
+    const numFrom = (v) => {
+      if (v === null || v === undefined) return null;
+      if (typeof v === 'number' && Number.isFinite(v)) return v;
+      const s = String(v).trim(); if (!s) return null;
+      if (/^\d+$/.test(s)) return parseInt(s,10);
+      const r = fromRoman(s); return r || null;
+    };
+
+    // 3) When building a “full play” view, we propagate act/scene from each
+    //    scene JSON’s meta onto its items so copy/paste references are correct.
+    async function renderFullPlayById(playId){
+      const play = getPlayById(playId);
+      if (!play){ setStatus('Play not found: ' + playId, true); renderHome(); return; }
+      setStatus('Loading full play…');
+
+      const scenes = (play.scenes || []).slice().sort((a,b) => {
+        const aa = numFrom(a.act), bb = numFrom(b.act);
+        if ((aa ?? Infinity) !== (bb ?? Infinity)) return (aa ?? Infinity) - (bb ?? Infinity);
+        const as = numFrom(a.scene), bs = numFrom(b.scene);
+        return (as ?? Infinity) - (bs ?? Infinity);
+      });
+
+      const itemsCombined = [];
+      let firstMeta = null;
+      for (const sc of scenes){
+        try{
+          const path = sc.path;
+          let sj = state.sceneCache.get(path);
+          if (!sj){
+            sj = await fetchJsonNoStore(path);
+            state.sceneCache.set(path, sj);
+          }
+          if (!firstMeta) firstMeta = sj.meta || {};
+          const its = Array.isArray(sj.items) ? sj.items : [];
+
+          // >>> IMPORTANT: propagate act/scene from scene meta
+          const actFromMeta = numFrom(sj.meta?.unit?.act);
+          const sceneFromMeta = numFrom(sj.meta?.unit?.scene);
+          const annotated = its.map(it => ({ ...it, _act: actFromMeta, _scene: sceneFromMeta }));
+          itemsCombined.push(...annotated);
+        } catch(e){
+          console.warn('Failed to load scene for full play:', sc.path, e);
+        }
+      }
+      if (!firstMeta){ setStatus('No scenes to render.', true); return; }
+
+      const virtualScene = {
+        schema_version: '2.x',
+        house_style: 'shakespeare-json',
+        meta: {
+          ...(firstMeta || {}),
+          unit: { ...(firstMeta?.unit || {}), type: 'play', label: 'Full Play', title: play.title },
+          play: { ...(firstMeta?.play || {}), id: play.id, title: play.title }
+        },
+        items: itemsCombined
+      };
+
+      setStatus('');
+      renderScene(virtualScene, `FULL:${playId}`);
+    }
+
+    // 4) In renderScene(), prefer meta act/scene, update on headings,
+    //    and also honor per-item _act/_scene when present.
+    function renderScene(sceneJson, path){
+      // ... your existing renderScene code ...
+      let curAct = numFrom(sceneJson?.meta?.unit?.act);
+      let curScene = numFrom(sceneJson?.meta?.unit?.scene);
+
+      function parseHeadingForActScene(text, subtype){
+        const s = String(text || '');
+        if (subtype === 'act'){
+          const m = s.match(/ACT\s+([IVXLCDM]+)/i);
+          if (m) { const v = fromRoman(m[1]); if (v) curAct = v; }
+        } else if (subtype === 'scene'){
+          const m = s.match(/SCENE\s+([IVXLCDM]+)/i);
+          if (m) { const v = fromRoman(m[1]); if (v) curScene = v; }
+        }
+      }
+
+      // When iterating items:
+      // if (it._act !== undefined || it._scene !== undefined) { curAct = numFrom(it._act) ?? curAct; curScene = numFrom(it._scene) ?? curScene; }
+      // and pass {act: curAct, scene: curScene} into tokensToHtml() and row data-attrs.
+
+      // ...keep the rest of your viewer code (search, selection, etc.) unchanged...
+    }
+
+    // 5) Everything else (router, search, selection, copy, etc.)
+    //    stays exactly as in your working version.
+
+    /* ================================
+       Paste the rest of your JS here
+       ================================ */
+  })();
+  </script>
+</body>
+</html>
 
