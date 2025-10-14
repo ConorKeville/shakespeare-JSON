@@ -1000,9 +1000,9 @@
     {
       "seq": 14,
       "serial": "as-you-like-it-a05-s03-i0014",
-      "kind": "speaker_label",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "TOUCHSTONE",
+      "speaker": null,
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
@@ -1787,25 +1787,7 @@
       "line_number": null,
       "line_serial": null,
       "subsection": null,
-      "spans": [
-        {
-          "type": "stage",
-          "em": true,
-          "text": "SONG",
-          "stage": null,
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "SONG",
-              "norm": "song",
-              "pre": "",
-              "serial": "as-you-like-it-a05-s03-i0023-t001",
-              "em": true
-            }
-          ]
-        }
-      ]
+      "spans": []
     },
     {
       "seq": 24,
@@ -1818,40 +1800,7 @@
       "line_number": null,
       "line_serial": null,
       "subsection": null,
-      "spans": [
-        {
-          "type": "stage",
-          "em": true,
-          "text": "Sing.",
-          "stage": null,
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "Sing",
-              "norm": "sing",
-              "pre": "",
-              "serial": "as-you-like-it-a05-s03-i0025-t001",
-              "em": true
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "as-you-like-it-a05-s03-i0025-t002",
-              "em": true,
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        }
-      ]
+      "spans": []
     },
     {
       "seq": 25,
@@ -1879,8 +1828,40 @@
       "subsection": null,
       "spans": [
         {
+          "type": "stage",
+          "stage": null,
+          "em": true,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Sing",
+              "norm": "sing",
+              "pre": "",
+              "serial": "as-you-like-it-a05-s03-l0011-sg001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "as-you-like-it-a05-s03-l0011-sg002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ],
+          "text": "Sing."
+        },
+        {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    It was a lover and his lass,",
           "tokens": [
             {
@@ -1889,7 +1870,8 @@
               "s": "It",
               "norm": "it",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0026-t001"
+              "serial": "as-you-like-it-a05-s03-i0026-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1897,7 +1879,8 @@
               "s": "was",
               "norm": "was",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0026-t002"
+              "serial": "as-you-like-it-a05-s03-i0026-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -1905,7 +1888,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0026-t003"
+              "serial": "as-you-like-it-a05-s03-i0026-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1913,7 +1897,8 @@
               "s": "lover",
               "norm": "lover",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0026-t004"
+              "serial": "as-you-like-it-a05-s03-i0026-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -1921,7 +1906,8 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0026-t005"
+              "serial": "as-you-like-it-a05-s03-i0026-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -1929,7 +1915,8 @@
               "s": "his",
               "norm": "his",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0026-t006"
+              "serial": "as-you-like-it-a05-s03-i0026-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -1937,7 +1924,8 @@
               "s": "lass",
               "norm": "lass",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0026-t007"
+              "serial": "as-you-like-it-a05-s03-i0026-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -1951,7 +1939,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -1971,7 +1960,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        With a hey, and a ho, and a hey nonino,",
           "tokens": [
             {
@@ -1980,7 +1969,8 @@
               "s": "With",
               "norm": "with",
               "pre": "        ",
-              "serial": "as-you-like-it-a05-s03-i0027-t001"
+              "serial": "as-you-like-it-a05-s03-i0027-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1988,7 +1978,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t002"
+              "serial": "as-you-like-it-a05-s03-i0027-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -1996,7 +1987,8 @@
               "s": "hey",
               "norm": "hey",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t003"
+              "serial": "as-you-like-it-a05-s03-i0027-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2010,7 +2002,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -2018,7 +2011,8 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t005"
+              "serial": "as-you-like-it-a05-s03-i0027-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2026,7 +2020,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t006"
+              "serial": "as-you-like-it-a05-s03-i0027-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2034,7 +2029,8 @@
               "s": "ho",
               "norm": "ho",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t007"
+              "serial": "as-you-like-it-a05-s03-i0027-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -2048,7 +2044,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 9,
@@ -2056,7 +2053,8 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t009"
+              "serial": "as-you-like-it-a05-s03-i0027-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -2064,7 +2062,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t010"
+              "serial": "as-you-like-it-a05-s03-i0027-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -2072,7 +2071,8 @@
               "s": "hey",
               "norm": "hey",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t011"
+              "serial": "as-you-like-it-a05-s03-i0027-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -2080,7 +2080,8 @@
               "s": "nonino",
               "norm": "nonino",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0027-t012"
+              "serial": "as-you-like-it-a05-s03-i0027-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -2094,7 +2095,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2114,7 +2116,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    That o’er the green cornfield did pass",
           "tokens": [
             {
@@ -2123,7 +2125,8 @@
               "s": "That",
               "norm": "that",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0028-t001"
+              "serial": "as-you-like-it-a05-s03-i0028-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2131,7 +2134,8 @@
               "s": "o’er",
               "norm": "o'er",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0028-t002"
+              "serial": "as-you-like-it-a05-s03-i0028-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2139,7 +2143,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0028-t003"
+              "serial": "as-you-like-it-a05-s03-i0028-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2147,7 +2152,8 @@
               "s": "green",
               "norm": "green",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0028-t004"
+              "serial": "as-you-like-it-a05-s03-i0028-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2155,7 +2161,8 @@
               "s": "cornfield",
               "norm": "cornfield",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0028-t005"
+              "serial": "as-you-like-it-a05-s03-i0028-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2163,7 +2170,8 @@
               "s": "did",
               "norm": "did",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0028-t006"
+              "serial": "as-you-like-it-a05-s03-i0028-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2171,7 +2179,8 @@
               "s": "pass",
               "norm": "pass",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0028-t007"
+              "serial": "as-you-like-it-a05-s03-i0028-t007",
+              "em": true
             }
           ]
         }
@@ -2191,7 +2200,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        In the spring-time, the only pretty ring time,",
           "tokens": [
             {
@@ -2200,7 +2209,8 @@
               "s": "In",
               "norm": "in",
               "pre": "        ",
-              "serial": "as-you-like-it-a05-s03-i0029-t001"
+              "serial": "as-you-like-it-a05-s03-i0029-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2208,7 +2218,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0029-t002"
+              "serial": "as-you-like-it-a05-s03-i0029-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2216,7 +2227,8 @@
               "s": "spring",
               "norm": "spring",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0029-t003"
+              "serial": "as-you-like-it-a05-s03-i0029-t003",
+              "em": true
             },
             {
               "type": "punct",
@@ -2230,7 +2242,8 @@
                 "quote": null,
                 "role": null
               },
-              "i": 4
+              "i": 4,
+              "em": true
             },
             {
               "i": 5,
@@ -2238,7 +2251,8 @@
               "s": "time",
               "norm": "time",
               "pre": "",
-              "serial": "as-you-like-it-a05-s03-i0029-t005"
+              "serial": "as-you-like-it-a05-s03-i0029-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2252,7 +2266,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -2260,7 +2275,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0029-t007"
+              "serial": "as-you-like-it-a05-s03-i0029-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -2268,7 +2284,8 @@
               "s": "only",
               "norm": "only",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0029-t008"
+              "serial": "as-you-like-it-a05-s03-i0029-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -2276,7 +2293,8 @@
               "s": "pretty",
               "norm": "pretty",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0029-t009"
+              "serial": "as-you-like-it-a05-s03-i0029-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -2284,7 +2302,8 @@
               "s": "ring",
               "norm": "ring",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0029-t010"
+              "serial": "as-you-like-it-a05-s03-i0029-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -2292,7 +2311,8 @@
               "s": "time",
               "norm": "time",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0029-t011"
+              "serial": "as-you-like-it-a05-s03-i0029-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -2306,7 +2326,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2326,7 +2347,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        When birds do sing, hey ding a ding, ding.",
           "tokens": [
             {
@@ -2335,7 +2356,8 @@
               "s": "When",
               "norm": "when",
               "pre": "        ",
-              "serial": "as-you-like-it-a05-s03-i0030-t001"
+              "serial": "as-you-like-it-a05-s03-i0030-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2343,7 +2365,8 @@
               "s": "birds",
               "norm": "birds",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0030-t002"
+              "serial": "as-you-like-it-a05-s03-i0030-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2351,7 +2374,8 @@
               "s": "do",
               "norm": "do",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0030-t003"
+              "serial": "as-you-like-it-a05-s03-i0030-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2359,7 +2383,8 @@
               "s": "sing",
               "norm": "sing",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0030-t004"
+              "serial": "as-you-like-it-a05-s03-i0030-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2373,7 +2398,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 6,
@@ -2381,7 +2407,8 @@
               "s": "hey",
               "norm": "hey",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0030-t006"
+              "serial": "as-you-like-it-a05-s03-i0030-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2389,7 +2416,8 @@
               "s": "ding",
               "norm": "ding",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0030-t007"
+              "serial": "as-you-like-it-a05-s03-i0030-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -2397,7 +2425,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0030-t008"
+              "serial": "as-you-like-it-a05-s03-i0030-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -2405,7 +2434,8 @@
               "s": "ding",
               "norm": "ding",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0030-t009"
+              "serial": "as-you-like-it-a05-s03-i0030-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -2419,7 +2449,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 11,
@@ -2427,7 +2458,8 @@
               "s": "ding",
               "norm": "ding",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0030-t011"
+              "serial": "as-you-like-it-a05-s03-i0030-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -2441,7 +2473,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2461,7 +2494,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    Sweet lovers love the spring.",
           "tokens": [
             {
@@ -2470,7 +2503,8 @@
               "s": "Sweet",
               "norm": "sweet",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0031-t001"
+              "serial": "as-you-like-it-a05-s03-i0031-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2478,7 +2512,8 @@
               "s": "lovers",
               "norm": "lovers",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0031-t002"
+              "serial": "as-you-like-it-a05-s03-i0031-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2486,7 +2521,8 @@
               "s": "love",
               "norm": "love",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0031-t003"
+              "serial": "as-you-like-it-a05-s03-i0031-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2494,7 +2530,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0031-t004"
+              "serial": "as-you-like-it-a05-s03-i0031-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2502,7 +2539,8 @@
               "s": "spring",
               "norm": "spring",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0031-t005"
+              "serial": "as-you-like-it-a05-s03-i0031-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2516,7 +2554,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2536,7 +2575,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    Between the acres of the rye,",
           "tokens": [
             {
@@ -2545,7 +2584,8 @@
               "s": "Between",
               "norm": "between",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0032-t001"
+              "serial": "as-you-like-it-a05-s03-i0032-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2553,7 +2593,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0032-t002"
+              "serial": "as-you-like-it-a05-s03-i0032-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2561,7 +2602,8 @@
               "s": "acres",
               "norm": "acres",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0032-t003"
+              "serial": "as-you-like-it-a05-s03-i0032-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2569,7 +2611,8 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0032-t004"
+              "serial": "as-you-like-it-a05-s03-i0032-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2577,7 +2620,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0032-t005"
+              "serial": "as-you-like-it-a05-s03-i0032-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2585,7 +2629,8 @@
               "s": "rye",
               "norm": "rye",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0032-t006"
+              "serial": "as-you-like-it-a05-s03-i0032-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2599,7 +2644,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2619,7 +2665,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    These pretty country folks would lie,",
           "tokens": [
             {
@@ -2628,7 +2674,8 @@
               "s": "These",
               "norm": "these",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0033-t001"
+              "serial": "as-you-like-it-a05-s03-i0033-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2636,7 +2683,8 @@
               "s": "pretty",
               "norm": "pretty",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0033-t002"
+              "serial": "as-you-like-it-a05-s03-i0033-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2644,7 +2692,8 @@
               "s": "country",
               "norm": "country",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0033-t003"
+              "serial": "as-you-like-it-a05-s03-i0033-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2652,7 +2701,8 @@
               "s": "folks",
               "norm": "folks",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0033-t004"
+              "serial": "as-you-like-it-a05-s03-i0033-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2660,7 +2710,8 @@
               "s": "would",
               "norm": "would",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0033-t005"
+              "serial": "as-you-like-it-a05-s03-i0033-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2668,7 +2719,8 @@
               "s": "lie",
               "norm": "lie",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0033-t006"
+              "serial": "as-you-like-it-a05-s03-i0033-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2682,7 +2734,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2702,7 +2755,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    This carol they began that hour,",
           "tokens": [
             {
@@ -2711,7 +2764,8 @@
               "s": "This",
               "norm": "this",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0034-t001"
+              "serial": "as-you-like-it-a05-s03-i0034-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2719,7 +2773,8 @@
               "s": "carol",
               "norm": "carol",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0034-t002"
+              "serial": "as-you-like-it-a05-s03-i0034-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2727,7 +2782,8 @@
               "s": "they",
               "norm": "they",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0034-t003"
+              "serial": "as-you-like-it-a05-s03-i0034-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2735,7 +2791,8 @@
               "s": "began",
               "norm": "began",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0034-t004"
+              "serial": "as-you-like-it-a05-s03-i0034-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2743,7 +2800,8 @@
               "s": "that",
               "norm": "that",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0034-t005"
+              "serial": "as-you-like-it-a05-s03-i0034-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2751,7 +2809,8 @@
               "s": "hour",
               "norm": "hour",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0034-t006"
+              "serial": "as-you-like-it-a05-s03-i0034-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2765,7 +2824,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2785,7 +2845,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    How that a life was but a flower,",
           "tokens": [
             {
@@ -2794,7 +2854,8 @@
               "s": "How",
               "norm": "how",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0035-t001"
+              "serial": "as-you-like-it-a05-s03-i0035-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2802,7 +2863,8 @@
               "s": "that",
               "norm": "that",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0035-t002"
+              "serial": "as-you-like-it-a05-s03-i0035-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2810,7 +2872,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0035-t003"
+              "serial": "as-you-like-it-a05-s03-i0035-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2818,7 +2881,8 @@
               "s": "life",
               "norm": "life",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0035-t004"
+              "serial": "as-you-like-it-a05-s03-i0035-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2826,7 +2890,8 @@
               "s": "was",
               "norm": "was",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0035-t005"
+              "serial": "as-you-like-it-a05-s03-i0035-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2834,7 +2899,8 @@
               "s": "but",
               "norm": "but",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0035-t006"
+              "serial": "as-you-like-it-a05-s03-i0035-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2842,7 +2908,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0035-t007"
+              "serial": "as-you-like-it-a05-s03-i0035-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -2850,7 +2917,8 @@
               "s": "flower",
               "norm": "flower",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0035-t008"
+              "serial": "as-you-like-it-a05-s03-i0035-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -2864,7 +2932,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2884,7 +2953,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    And therefore take the present time,",
           "tokens": [
             {
@@ -2893,7 +2962,8 @@
               "s": "And",
               "norm": "and",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0036-t001"
+              "serial": "as-you-like-it-a05-s03-i0036-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2901,7 +2971,8 @@
               "s": "therefore",
               "norm": "therefore",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0036-t002"
+              "serial": "as-you-like-it-a05-s03-i0036-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2909,7 +2980,8 @@
               "s": "take",
               "norm": "take",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0036-t003"
+              "serial": "as-you-like-it-a05-s03-i0036-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2917,7 +2989,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0036-t004"
+              "serial": "as-you-like-it-a05-s03-i0036-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2925,7 +2998,8 @@
               "s": "present",
               "norm": "present",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0036-t005"
+              "serial": "as-you-like-it-a05-s03-i0036-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2933,7 +3007,8 @@
               "s": "time",
               "norm": "time",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0036-t006"
+              "serial": "as-you-like-it-a05-s03-i0036-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2947,7 +3022,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2967,7 +3043,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "    For love is crowned with the prime,",
           "tokens": [
             {
@@ -2976,7 +3052,8 @@
               "s": "For",
               "norm": "for",
               "pre": "    ",
-              "serial": "as-you-like-it-a05-s03-i0037-t001"
+              "serial": "as-you-like-it-a05-s03-i0037-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2984,7 +3061,8 @@
               "s": "love",
               "norm": "love",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0037-t002"
+              "serial": "as-you-like-it-a05-s03-i0037-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2992,7 +3070,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0037-t003"
+              "serial": "as-you-like-it-a05-s03-i0037-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -3000,7 +3079,8 @@
               "s": "crowned",
               "norm": "crowned",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0037-t004"
+              "serial": "as-you-like-it-a05-s03-i0037-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -3008,7 +3088,8 @@
               "s": "with",
               "norm": "with",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0037-t005"
+              "serial": "as-you-like-it-a05-s03-i0037-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -3016,7 +3097,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0037-t006"
+              "serial": "as-you-like-it-a05-s03-i0037-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -3024,7 +3106,8 @@
               "s": "prime",
               "norm": "prime",
               "pre": " ",
-              "serial": "as-you-like-it-a05-s03-i0037-t007"
+              "serial": "as-you-like-it-a05-s03-i0037-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -3038,7 +3121,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -3047,40 +3131,24 @@
     {
       "seq": 38,
       "serial": "as-you-like-it-a05-s03-i0038",
-      "kind": "speech",
+      "kind": "speaker_label",
       "subtype": null,
-      "speaker": "FIRST PAGE",
-      "speech_id": "as-you-like-it-a05-s03-s0008",
-      "speech_seq": 13,
-      "line_number": 23,
-      "line_serial": "as-you-like-it-a05-s03-l0023",
+      "speaker": "TOUCHSTONE",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "TOUCHSTONE",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "TOUCHSTONE",
-              "norm": "touchstone",
-              "pre": "",
-              "serial": "as-you-like-it-a05-s03-i0038-t001"
-            }
-          ]
-        }
-      ]
+      "spans": []
     },
     {
       "seq": 39,
       "serial": "as-you-like-it-a05-s03-i0039",
       "kind": "speech",
       "subtype": null,
-      "speaker": "FIRST PAGE",
-      "speech_id": "as-you-like-it-a05-s03-s0008",
-      "speech_seq": 14,
+      "speaker": "TOUCHSTONE",
+      "speech_id": "as-you-like-it-a05-s03-s0010",
+      "speech_seq": 1,
       "line_number": 24,
       "line_serial": "as-you-like-it-a05-s03-l0024",
       "subsection": null,
@@ -3237,9 +3305,9 @@
       "serial": "as-you-like-it-a05-s03-i0040",
       "kind": "speech",
       "subtype": null,
-      "speaker": "FIRST PAGE",
-      "speech_id": "as-you-like-it-a05-s03-s0008",
-      "speech_seq": 15,
+      "speaker": "TOUCHSTONE",
+      "speech_id": "as-you-like-it-a05-s03-s0010",
+      "speech_seq": 2,
       "line_number": 25,
       "line_serial": "as-you-like-it-a05-s03-l0025",
       "subsection": null,
@@ -3320,9 +3388,9 @@
       "serial": "as-you-like-it-a05-s03-i0042",
       "kind": "speech",
       "subtype": null,
-      "speaker": "FIRST PAGE",
-      "speech_id": "as-you-like-it-a05-s03-s0008",
-      "speech_seq": 16,
+      "speaker": "TOUCHSTONE",
+      "speech_id": "as-you-like-it-a05-s03-s0010",
+      "speech_seq": 3,
       "line_number": 26,
       "line_serial": "as-you-like-it-a05-s03-l0026",
       "subsection": null,
@@ -3491,9 +3559,9 @@
     {
       "seq": 42,
       "serial": "as-you-like-it-a05-s03-i0043",
-      "kind": "speaker_label",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "TOUCHSTONE",
+      "speaker": null,
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
@@ -3507,8 +3575,8 @@
       "kind": "speech",
       "subtype": null,
       "speaker": "TOUCHSTONE",
-      "speech_id": "as-you-like-it-a05-s03-s0009",
-      "speech_seq": 1,
+      "speech_id": "as-you-like-it-a05-s03-s0010",
+      "speech_seq": 4,
       "line_number": 27,
       "line_serial": "as-you-like-it-a05-s03-l0027",
       "subsection": null,
@@ -3698,8 +3766,8 @@
       "kind": "speech",
       "subtype": null,
       "speaker": "TOUCHSTONE",
-      "speech_id": "as-you-like-it-a05-s03-s0009",
-      "speech_seq": 2,
+      "speech_id": "as-you-like-it-a05-s03-s0010",
+      "speech_seq": 5,
       "line_number": 28,
       "line_serial": "as-you-like-it-a05-s03-l0028",
       "subsection": null,

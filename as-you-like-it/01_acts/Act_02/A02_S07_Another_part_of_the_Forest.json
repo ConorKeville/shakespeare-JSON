@@ -19422,101 +19422,15 @@
     {
       "seq": 222,
       "serial": "as-you-like-it-a02-s07-i0222",
-      "kind": "speech",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "AMIENS",
-      "speech_id": "as-you-like-it-a02-s07-s0036",
-      "speech_seq": 1,
-      "line_number": 178,
-      "line_serial": "as-you-like-it-a02-s07-l0178",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "(_Sings_.)",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "(",
-              "norm": "(",
-              "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0178-t001",
-              "punct": {
-                "kind": "paren_open",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0178-t002",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 3,
-              "type": "word",
-              "s": "Sings",
-              "norm": "sings",
-              "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0178-t003"
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0178-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0178-t005",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": ")",
-              "norm": ")",
-              "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0178-t006",
-              "punct": {
-                "kind": "paren_close",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        }
-      ]
+      "spans": []
     },
     {
       "seq": 223,
@@ -19531,8 +19445,40 @@
       "subsection": null,
       "spans": [
         {
+          "type": "stage",
+          "stage": null,
+          "em": true,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Sings",
+              "norm": "sings",
+              "pre": "",
+              "serial": "as-you-like-it-a02-s07-l0179-sg001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "as-you-like-it-a02-s07-l0179-sg002",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ],
+          "text": "Sings."
+        },
+        {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        Blow, blow, thou winter wind,",
           "tokens": [
             {
@@ -19541,7 +19487,8 @@
               "s": "Blow",
               "norm": "blow",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0179-t001"
+              "serial": "as-you-like-it-a02-s07-l0179-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -19555,7 +19502,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -19563,7 +19511,8 @@
               "s": "blow",
               "norm": "blow",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0179-t003"
+              "serial": "as-you-like-it-a02-s07-l0179-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -19577,7 +19526,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -19585,7 +19535,8 @@
               "s": "thou",
               "norm": "thou",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0179-t005"
+              "serial": "as-you-like-it-a02-s07-l0179-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -19593,7 +19544,8 @@
               "s": "winter",
               "norm": "winter",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0179-t006"
+              "serial": "as-you-like-it-a02-s07-l0179-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -19601,7 +19553,8 @@
               "s": "wind",
               "norm": "wind",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0179-t007"
+              "serial": "as-you-like-it-a02-s07-l0179-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -19615,7 +19568,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -19635,7 +19589,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        Thou art not so unkind",
           "tokens": [
             {
@@ -19644,7 +19598,8 @@
               "s": "Thou",
               "norm": "thou",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0180-t001"
+              "serial": "as-you-like-it-a02-s07-l0180-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -19652,7 +19607,8 @@
               "s": "art",
               "norm": "art",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0180-t002"
+              "serial": "as-you-like-it-a02-s07-l0180-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -19660,7 +19616,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0180-t003"
+              "serial": "as-you-like-it-a02-s07-l0180-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -19668,7 +19625,8 @@
               "s": "so",
               "norm": "so",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0180-t004"
+              "serial": "as-you-like-it-a02-s07-l0180-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -19676,7 +19634,8 @@
               "s": "unkind",
               "norm": "unkind",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0180-t005"
+              "serial": "as-you-like-it-a02-s07-l0180-t005",
+              "em": true
             }
           ]
         }
@@ -19696,7 +19655,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "            As man’s ingratitude.",
           "tokens": [
             {
@@ -19705,7 +19664,8 @@
               "s": "As",
               "norm": "as",
               "pre": "            ",
-              "serial": "as-you-like-it-a02-s07-l0181-t001"
+              "serial": "as-you-like-it-a02-s07-l0181-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -19713,7 +19673,8 @@
               "s": "man’s",
               "norm": "man's",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0181-t002"
+              "serial": "as-you-like-it-a02-s07-l0181-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -19721,7 +19682,8 @@
               "s": "ingratitude",
               "norm": "ingratitude",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0181-t003"
+              "serial": "as-you-like-it-a02-s07-l0181-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -19735,7 +19697,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -19755,7 +19718,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        Thy tooth is not so keen,",
           "tokens": [
             {
@@ -19764,7 +19727,8 @@
               "s": "Thy",
               "norm": "thy",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0182-t001"
+              "serial": "as-you-like-it-a02-s07-l0182-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -19772,7 +19736,8 @@
               "s": "tooth",
               "norm": "tooth",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0182-t002"
+              "serial": "as-you-like-it-a02-s07-l0182-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -19780,7 +19745,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0182-t003"
+              "serial": "as-you-like-it-a02-s07-l0182-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -19788,7 +19754,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0182-t004"
+              "serial": "as-you-like-it-a02-s07-l0182-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -19796,7 +19763,8 @@
               "s": "so",
               "norm": "so",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0182-t005"
+              "serial": "as-you-like-it-a02-s07-l0182-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -19804,7 +19772,8 @@
               "s": "keen",
               "norm": "keen",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0182-t006"
+              "serial": "as-you-like-it-a02-s07-l0182-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -19818,7 +19787,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -19838,7 +19808,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        Because thou art not seen,",
           "tokens": [
             {
@@ -19847,7 +19817,8 @@
               "s": "Because",
               "norm": "because",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0183-t001"
+              "serial": "as-you-like-it-a02-s07-l0183-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -19855,7 +19826,8 @@
               "s": "thou",
               "norm": "thou",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0183-t002"
+              "serial": "as-you-like-it-a02-s07-l0183-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -19863,7 +19835,8 @@
               "s": "art",
               "norm": "art",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0183-t003"
+              "serial": "as-you-like-it-a02-s07-l0183-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -19871,7 +19844,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0183-t004"
+              "serial": "as-you-like-it-a02-s07-l0183-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -19879,7 +19853,8 @@
               "s": "seen",
               "norm": "seen",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0183-t005"
+              "serial": "as-you-like-it-a02-s07-l0183-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -19893,7 +19868,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -19913,7 +19889,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "            Although thy breath be rude.",
           "tokens": [
             {
@@ -19922,7 +19898,8 @@
               "s": "Although",
               "norm": "although",
               "pre": "            ",
-              "serial": "as-you-like-it-a02-s07-l0184-t001"
+              "serial": "as-you-like-it-a02-s07-l0184-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -19930,7 +19907,8 @@
               "s": "thy",
               "norm": "thy",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0184-t002"
+              "serial": "as-you-like-it-a02-s07-l0184-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -19938,7 +19916,8 @@
               "s": "breath",
               "norm": "breath",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0184-t003"
+              "serial": "as-you-like-it-a02-s07-l0184-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -19946,7 +19925,8 @@
               "s": "be",
               "norm": "be",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0184-t004"
+              "serial": "as-you-like-it-a02-s07-l0184-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -19954,7 +19934,8 @@
               "s": "rude",
               "norm": "rude",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0184-t005"
+              "serial": "as-you-like-it-a02-s07-l0184-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -19968,7 +19949,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -19988,7 +19970,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "Heigh-ho, sing heigh-ho, unto the green holly.",
           "tokens": [
             {
@@ -19997,7 +19979,8 @@
               "s": "Heigh",
               "norm": "heigh",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0185-t001"
+              "serial": "as-you-like-it-a02-s07-l0185-t001",
+              "em": true
             },
             {
               "type": "punct",
@@ -20011,7 +19994,8 @@
                 "quote": null,
                 "role": null
               },
-              "i": 2
+              "i": 2,
+              "em": true
             },
             {
               "i": 3,
@@ -20019,7 +20003,8 @@
               "s": "ho",
               "norm": "ho",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0185-t003"
+              "serial": "as-you-like-it-a02-s07-l0185-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20033,7 +20018,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -20041,7 +20027,8 @@
               "s": "sing",
               "norm": "sing",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0185-t005"
+              "serial": "as-you-like-it-a02-s07-l0185-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -20049,7 +20036,8 @@
               "s": "heigh",
               "norm": "heigh",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0185-t006"
+              "serial": "as-you-like-it-a02-s07-l0185-t006",
+              "em": true
             },
             {
               "type": "punct",
@@ -20063,7 +20051,8 @@
                 "quote": null,
                 "role": null
               },
-              "i": 7
+              "i": 7,
+              "em": true
             },
             {
               "i": 8,
@@ -20071,7 +20060,8 @@
               "s": "ho",
               "norm": "ho",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0185-t008"
+              "serial": "as-you-like-it-a02-s07-l0185-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -20085,7 +20075,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 10,
@@ -20093,7 +20084,8 @@
               "s": "unto",
               "norm": "unto",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0185-t010"
+              "serial": "as-you-like-it-a02-s07-l0185-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -20101,7 +20093,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0185-t011"
+              "serial": "as-you-like-it-a02-s07-l0185-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -20109,7 +20102,8 @@
               "s": "green",
               "norm": "green",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0185-t012"
+              "serial": "as-you-like-it-a02-s07-l0185-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -20117,7 +20111,8 @@
               "s": "holly",
               "norm": "holly",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0185-t013"
+              "serial": "as-you-like-it-a02-s07-l0185-t013",
+              "em": true
             },
             {
               "i": 14,
@@ -20131,7 +20126,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -20151,7 +20147,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "Most friendship is feigning, most loving mere folly.",
           "tokens": [
             {
@@ -20160,7 +20156,8 @@
               "s": "Most",
               "norm": "most",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0186-t001"
+              "serial": "as-you-like-it-a02-s07-l0186-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20168,7 +20165,8 @@
               "s": "friendship",
               "norm": "friendship",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0186-t002"
+              "serial": "as-you-like-it-a02-s07-l0186-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -20176,7 +20174,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0186-t003"
+              "serial": "as-you-like-it-a02-s07-l0186-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20184,7 +20183,8 @@
               "s": "feigning",
               "norm": "feigning",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0186-t004"
+              "serial": "as-you-like-it-a02-s07-l0186-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -20198,7 +20198,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 6,
@@ -20206,7 +20207,8 @@
               "s": "most",
               "norm": "most",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0186-t006"
+              "serial": "as-you-like-it-a02-s07-l0186-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -20214,7 +20216,8 @@
               "s": "loving",
               "norm": "loving",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0186-t007"
+              "serial": "as-you-like-it-a02-s07-l0186-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -20222,7 +20225,8 @@
               "s": "mere",
               "norm": "mere",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0186-t008"
+              "serial": "as-you-like-it-a02-s07-l0186-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -20230,7 +20234,8 @@
               "s": "folly",
               "norm": "folly",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0186-t009"
+              "serial": "as-you-like-it-a02-s07-l0186-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -20244,7 +20249,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -20264,7 +20270,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        Then, heigh-ho, the holly!",
           "tokens": [
             {
@@ -20273,7 +20279,8 @@
               "s": "Then",
               "norm": "then",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0187-t001"
+              "serial": "as-you-like-it-a02-s07-l0187-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20287,7 +20294,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -20295,7 +20303,8 @@
               "s": "heigh",
               "norm": "heigh",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0187-t003"
+              "serial": "as-you-like-it-a02-s07-l0187-t003",
+              "em": true
             },
             {
               "type": "punct",
@@ -20309,7 +20318,8 @@
                 "quote": null,
                 "role": null
               },
-              "i": 4
+              "i": 4,
+              "em": true
             },
             {
               "i": 5,
@@ -20317,7 +20327,8 @@
               "s": "ho",
               "norm": "ho",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0187-t005"
+              "serial": "as-you-like-it-a02-s07-l0187-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -20331,7 +20342,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -20339,7 +20351,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0187-t007"
+              "serial": "as-you-like-it-a02-s07-l0187-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -20347,7 +20360,8 @@
               "s": "holly",
               "norm": "holly",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0187-t008"
+              "serial": "as-you-like-it-a02-s07-l0187-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -20361,7 +20375,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -20381,7 +20396,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "            This life is most jolly.",
           "tokens": [
             {
@@ -20390,7 +20405,8 @@
               "s": "This",
               "norm": "this",
               "pre": "            ",
-              "serial": "as-you-like-it-a02-s07-l0188-t001"
+              "serial": "as-you-like-it-a02-s07-l0188-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20398,7 +20414,8 @@
               "s": "life",
               "norm": "life",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0188-t002"
+              "serial": "as-you-like-it-a02-s07-l0188-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -20406,7 +20423,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0188-t003"
+              "serial": "as-you-like-it-a02-s07-l0188-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20414,7 +20432,8 @@
               "s": "most",
               "norm": "most",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0188-t004"
+              "serial": "as-you-like-it-a02-s07-l0188-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -20422,7 +20441,8 @@
               "s": "jolly",
               "norm": "jolly",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0188-t005"
+              "serial": "as-you-like-it-a02-s07-l0188-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -20436,7 +20456,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -20456,7 +20477,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "         Freeze, freeze, thou bitter sky,",
           "tokens": [
             {
@@ -20465,7 +20486,8 @@
               "s": "Freeze",
               "norm": "freeze",
               "pre": "         ",
-              "serial": "as-you-like-it-a02-s07-l0189-t001"
+              "serial": "as-you-like-it-a02-s07-l0189-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20479,7 +20501,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -20487,7 +20510,8 @@
               "s": "freeze",
               "norm": "freeze",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0189-t003"
+              "serial": "as-you-like-it-a02-s07-l0189-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20501,7 +20525,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -20509,7 +20534,8 @@
               "s": "thou",
               "norm": "thou",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0189-t005"
+              "serial": "as-you-like-it-a02-s07-l0189-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -20517,7 +20543,8 @@
               "s": "bitter",
               "norm": "bitter",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0189-t006"
+              "serial": "as-you-like-it-a02-s07-l0189-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -20525,7 +20552,8 @@
               "s": "sky",
               "norm": "sky",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0189-t007"
+              "serial": "as-you-like-it-a02-s07-l0189-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -20539,7 +20567,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -20559,7 +20588,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        That dost not bite so nigh",
           "tokens": [
             {
@@ -20568,7 +20597,8 @@
               "s": "That",
               "norm": "that",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0190-t001"
+              "serial": "as-you-like-it-a02-s07-l0190-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20576,7 +20606,8 @@
               "s": "dost",
               "norm": "dost",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0190-t002"
+              "serial": "as-you-like-it-a02-s07-l0190-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -20584,7 +20615,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0190-t003"
+              "serial": "as-you-like-it-a02-s07-l0190-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20592,7 +20624,8 @@
               "s": "bite",
               "norm": "bite",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0190-t004"
+              "serial": "as-you-like-it-a02-s07-l0190-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -20600,7 +20633,8 @@
               "s": "so",
               "norm": "so",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0190-t005"
+              "serial": "as-you-like-it-a02-s07-l0190-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -20608,7 +20642,8 @@
               "s": "nigh",
               "norm": "nigh",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0190-t006"
+              "serial": "as-you-like-it-a02-s07-l0190-t006",
+              "em": true
             }
           ]
         }
@@ -20628,7 +20663,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "            As benefits forgot.",
           "tokens": [
             {
@@ -20637,7 +20672,8 @@
               "s": "As",
               "norm": "as",
               "pre": "            ",
-              "serial": "as-you-like-it-a02-s07-l0191-t001"
+              "serial": "as-you-like-it-a02-s07-l0191-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20645,7 +20681,8 @@
               "s": "benefits",
               "norm": "benefits",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0191-t002"
+              "serial": "as-you-like-it-a02-s07-l0191-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -20653,7 +20690,8 @@
               "s": "forgot",
               "norm": "forgot",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0191-t003"
+              "serial": "as-you-like-it-a02-s07-l0191-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20667,7 +20705,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -20687,7 +20726,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        Though thou the waters warp,",
           "tokens": [
             {
@@ -20696,7 +20735,8 @@
               "s": "Though",
               "norm": "though",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0192-t001"
+              "serial": "as-you-like-it-a02-s07-l0192-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20704,7 +20744,8 @@
               "s": "thou",
               "norm": "thou",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0192-t002"
+              "serial": "as-you-like-it-a02-s07-l0192-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -20712,7 +20753,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0192-t003"
+              "serial": "as-you-like-it-a02-s07-l0192-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20720,7 +20762,8 @@
               "s": "waters",
               "norm": "waters",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0192-t004"
+              "serial": "as-you-like-it-a02-s07-l0192-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -20728,7 +20771,8 @@
               "s": "warp",
               "norm": "warp",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0192-t005"
+              "serial": "as-you-like-it-a02-s07-l0192-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -20742,7 +20786,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -20762,7 +20807,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        Thy sting is not so sharp",
           "tokens": [
             {
@@ -20771,7 +20816,8 @@
               "s": "Thy",
               "norm": "thy",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0193-t001"
+              "serial": "as-you-like-it-a02-s07-l0193-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20779,7 +20825,8 @@
               "s": "sting",
               "norm": "sting",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0193-t002"
+              "serial": "as-you-like-it-a02-s07-l0193-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -20787,7 +20834,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0193-t003"
+              "serial": "as-you-like-it-a02-s07-l0193-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20795,7 +20843,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0193-t004"
+              "serial": "as-you-like-it-a02-s07-l0193-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -20803,7 +20852,8 @@
               "s": "so",
               "norm": "so",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0193-t005"
+              "serial": "as-you-like-it-a02-s07-l0193-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -20811,7 +20861,8 @@
               "s": "sharp",
               "norm": "sharp",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0193-t006"
+              "serial": "as-you-like-it-a02-s07-l0193-t006",
+              "em": true
             }
           ]
         }
@@ -20831,7 +20882,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "            As friend remembered not.",
           "tokens": [
             {
@@ -20840,7 +20891,8 @@
               "s": "As",
               "norm": "as",
               "pre": "            ",
-              "serial": "as-you-like-it-a02-s07-l0194-t001"
+              "serial": "as-you-like-it-a02-s07-l0194-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -20848,7 +20900,8 @@
               "s": "friend",
               "norm": "friend",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0194-t002"
+              "serial": "as-you-like-it-a02-s07-l0194-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -20856,7 +20909,8 @@
               "s": "remembered",
               "norm": "remembered",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0194-t003"
+              "serial": "as-you-like-it-a02-s07-l0194-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20864,7 +20918,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0194-t004"
+              "serial": "as-you-like-it-a02-s07-l0194-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -20878,7 +20933,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -20898,7 +20954,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "Heigh-ho, sing heigh-ho, unto the green holly.",
           "tokens": [
             {
@@ -20907,7 +20963,8 @@
               "s": "Heigh",
               "norm": "heigh",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0195-t001"
+              "serial": "as-you-like-it-a02-s07-l0195-t001",
+              "em": true
             },
             {
               "type": "punct",
@@ -20921,7 +20978,8 @@
                 "quote": null,
                 "role": null
               },
-              "i": 2
+              "i": 2,
+              "em": true
             },
             {
               "i": 3,
@@ -20929,7 +20987,8 @@
               "s": "ho",
               "norm": "ho",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0195-t003"
+              "serial": "as-you-like-it-a02-s07-l0195-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -20943,7 +21002,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -20951,7 +21011,8 @@
               "s": "sing",
               "norm": "sing",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0195-t005"
+              "serial": "as-you-like-it-a02-s07-l0195-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -20959,7 +21020,8 @@
               "s": "heigh",
               "norm": "heigh",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0195-t006"
+              "serial": "as-you-like-it-a02-s07-l0195-t006",
+              "em": true
             },
             {
               "type": "punct",
@@ -20973,7 +21035,8 @@
                 "quote": null,
                 "role": null
               },
-              "i": 7
+              "i": 7,
+              "em": true
             },
             {
               "i": 8,
@@ -20981,7 +21044,8 @@
               "s": "ho",
               "norm": "ho",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0195-t008"
+              "serial": "as-you-like-it-a02-s07-l0195-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -20995,7 +21059,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 10,
@@ -21003,7 +21068,8 @@
               "s": "unto",
               "norm": "unto",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0195-t010"
+              "serial": "as-you-like-it-a02-s07-l0195-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -21011,7 +21077,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0195-t011"
+              "serial": "as-you-like-it-a02-s07-l0195-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -21019,7 +21086,8 @@
               "s": "green",
               "norm": "green",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0195-t012"
+              "serial": "as-you-like-it-a02-s07-l0195-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -21027,7 +21095,8 @@
               "s": "holly",
               "norm": "holly",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0195-t013"
+              "serial": "as-you-like-it-a02-s07-l0195-t013",
+              "em": true
             },
             {
               "i": 14,
@@ -21041,7 +21110,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -21061,7 +21131,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "Most friendship is feigning, most loving mere folly.",
           "tokens": [
             {
@@ -21070,7 +21140,8 @@
               "s": "Most",
               "norm": "most",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0196-t001"
+              "serial": "as-you-like-it-a02-s07-l0196-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -21078,7 +21149,8 @@
               "s": "friendship",
               "norm": "friendship",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0196-t002"
+              "serial": "as-you-like-it-a02-s07-l0196-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -21086,7 +21158,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0196-t003"
+              "serial": "as-you-like-it-a02-s07-l0196-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -21094,7 +21167,8 @@
               "s": "feigning",
               "norm": "feigning",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0196-t004"
+              "serial": "as-you-like-it-a02-s07-l0196-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -21108,7 +21182,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 6,
@@ -21116,7 +21191,8 @@
               "s": "most",
               "norm": "most",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0196-t006"
+              "serial": "as-you-like-it-a02-s07-l0196-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -21124,7 +21200,8 @@
               "s": "loving",
               "norm": "loving",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0196-t007"
+              "serial": "as-you-like-it-a02-s07-l0196-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -21132,7 +21209,8 @@
               "s": "mere",
               "norm": "mere",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0196-t008"
+              "serial": "as-you-like-it-a02-s07-l0196-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -21140,7 +21218,8 @@
               "s": "folly",
               "norm": "folly",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0196-t009"
+              "serial": "as-you-like-it-a02-s07-l0196-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -21154,7 +21233,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -21174,7 +21254,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "        Then, heigh-ho, the holly!",
           "tokens": [
             {
@@ -21183,7 +21263,8 @@
               "s": "Then",
               "norm": "then",
               "pre": "        ",
-              "serial": "as-you-like-it-a02-s07-l0197-t001"
+              "serial": "as-you-like-it-a02-s07-l0197-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -21197,7 +21278,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -21205,7 +21287,8 @@
               "s": "heigh",
               "norm": "heigh",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0197-t003"
+              "serial": "as-you-like-it-a02-s07-l0197-t003",
+              "em": true
             },
             {
               "type": "punct",
@@ -21219,7 +21302,8 @@
                 "quote": null,
                 "role": null
               },
-              "i": 4
+              "i": 4,
+              "em": true
             },
             {
               "i": 5,
@@ -21227,7 +21311,8 @@
               "s": "ho",
               "norm": "ho",
               "pre": "",
-              "serial": "as-you-like-it-a02-s07-l0197-t005"
+              "serial": "as-you-like-it-a02-s07-l0197-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -21241,7 +21326,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -21249,7 +21335,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0197-t007"
+              "serial": "as-you-like-it-a02-s07-l0197-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -21257,7 +21344,8 @@
               "s": "holly",
               "norm": "holly",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0197-t008"
+              "serial": "as-you-like-it-a02-s07-l0197-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -21271,7 +21359,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -21291,7 +21380,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "            This life is most jolly.",
           "tokens": [
             {
@@ -21300,7 +21389,8 @@
               "s": "This",
               "norm": "this",
               "pre": "            ",
-              "serial": "as-you-like-it-a02-s07-l0198-t001"
+              "serial": "as-you-like-it-a02-s07-l0198-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -21308,7 +21398,8 @@
               "s": "life",
               "norm": "life",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0198-t002"
+              "serial": "as-you-like-it-a02-s07-l0198-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -21316,7 +21407,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0198-t003"
+              "serial": "as-you-like-it-a02-s07-l0198-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -21324,7 +21416,8 @@
               "s": "most",
               "norm": "most",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0198-t004"
+              "serial": "as-you-like-it-a02-s07-l0198-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -21332,7 +21425,8 @@
               "s": "jolly",
               "norm": "jolly",
               "pre": " ",
-              "serial": "as-you-like-it-a02-s07-l0198-t005"
+              "serial": "as-you-like-it-a02-s07-l0198-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -21346,7 +21440,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -22210,7 +22305,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Support him by the arm. ",
+          "text": "Support him by the arm.",
           "tokens": [
             {
               "i": 1,
