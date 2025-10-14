@@ -1,0 +1,9 @@
+{
+  "name": "shakespeare-json-viewer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:index": "node tools/build-index.mjs",
+    "dev": "npx http-server -c-1 -p 8080"
+  }
+}
