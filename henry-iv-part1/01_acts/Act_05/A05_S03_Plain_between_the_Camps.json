@@ -3864,32 +3864,19 @@
     },
     {
       "seq": 54,
-      "serial": "henry-iv-part1-a05-s03-i0055",
-      "kind": "speaker_label",
+      "serial": "henry-iv-part1-a05-s03-i0054",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "FALSTAFF",
+      "speaker": null,
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
       "line_serial": null,
       "subsection": null,
-      "spans": []
-    },
-    {
-      "seq": 55,
-      "serial": "henry-iv-part1-a05-s03-i0054",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "FALSTAFF",
-      "speech_id": "henry-iv-part1-a05-s03-s0015",
-      "speech_seq": 1,
-      "line_number": 32,
-      "line_serial": "henry-iv-part1-a05-s03-l0032",
-      "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
+          "type": "stage",
+          "em": true,
           "text": "Alarums. Enter Falstaff solus.",
           "tokens": [
             {
@@ -3898,7 +3885,8 @@
               "s": "Alarums",
               "norm": "alarums",
               "pre": "",
-              "serial": "henry-iv-part1-a05-s03-i0054-t001"
+              "serial": "henry-iv-part1-a05-s03-i0054-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -3912,7 +3900,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -3920,7 +3909,8 @@
               "s": "Enter",
               "norm": "enter",
               "pre": " ",
-              "serial": "henry-iv-part1-a05-s03-i0054-t003"
+              "serial": "henry-iv-part1-a05-s03-i0054-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -3928,7 +3918,8 @@
               "s": "Falstaff",
               "norm": "falstaff",
               "pre": " ",
-              "serial": "henry-iv-part1-a05-s03-i0054-t004"
+              "serial": "henry-iv-part1-a05-s03-i0054-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -3936,7 +3927,8 @@
               "s": "solus",
               "norm": "solus",
               "pre": " ",
-              "serial": "henry-iv-part1-a05-s03-i0054-t005"
+              "serial": "henry-iv-part1-a05-s03-i0054-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -3950,11 +3942,26 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
+    },
+    {
+      "seq": 55,
+      "serial": "henry-iv-part1-a05-s03-i0055",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FALSTAFF",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
     },
     {
       "seq": 56,
@@ -3963,9 +3970,9 @@
       "subtype": null,
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0015",
-      "speech_seq": 2,
-      "line_number": 33,
-      "line_serial": "henry-iv-part1-a05-s03-l0033",
+      "speech_seq": 1,
+      "line_number": 32,
+      "line_serial": "henry-iv-part1-a05-s03-l0032",
       "subsection": null,
       "spans": [
         {
@@ -4138,9 +4145,9 @@
       "subtype": null,
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0015",
-      "speech_seq": 3,
-      "line_number": 34,
-      "line_serial": "henry-iv-part1-a05-s03-l0034",
+      "speech_seq": 2,
+      "line_number": 33,
+      "line_serial": "henry-iv-part1-a05-s03-l0033",
       "subsection": null,
       "spans": [
         {
@@ -4333,9 +4340,9 @@
       "subtype": null,
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0015",
-      "speech_seq": 4,
-      "line_number": 35,
-      "line_serial": "henry-iv-part1-a05-s03-l0035",
+      "speech_seq": 3,
+      "line_number": 34,
+      "line_serial": "henry-iv-part1-a05-s03-l0034",
       "subsection": null,
       "spans": [
         {
@@ -4508,9 +4515,9 @@
       "subtype": null,
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0015",
-      "speech_seq": 5,
-      "line_number": 36,
-      "line_serial": "henry-iv-part1-a05-s03-l0036",
+      "speech_seq": 4,
+      "line_number": 35,
+      "line_serial": "henry-iv-part1-a05-s03-l0035",
       "subsection": null,
       "spans": [
         {
@@ -4685,9 +4692,9 @@
       "subtype": null,
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0015",
-      "speech_seq": 6,
-      "line_number": 37,
-      "line_serial": "henry-iv-part1-a05-s03-l0037",
+      "speech_seq": 5,
+      "line_number": 36,
+      "line_serial": "henry-iv-part1-a05-s03-l0036",
       "subsection": null,
       "spans": [
         {
@@ -4830,9 +4837,9 @@
       "subtype": null,
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0015",
-      "speech_seq": 7,
-      "line_number": 38,
-      "line_serial": "henry-iv-part1-a05-s03-l0038",
+      "speech_seq": 6,
+      "line_number": 37,
+      "line_serial": "henry-iv-part1-a05-s03-l0037",
       "subsection": null,
       "spans": [
         {
@@ -4977,9 +4984,9 @@
       "subtype": null,
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0015",
-      "speech_seq": 8,
-      "line_number": 39,
-      "line_serial": "henry-iv-part1-a05-s03-l0039",
+      "speech_seq": 7,
+      "line_number": 38,
+      "line_serial": "henry-iv-part1-a05-s03-l0038",
       "subsection": null,
       "spans": [
         {
@@ -5206,8 +5213,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0016",
       "speech_seq": 1,
-      "line_number": 40,
-      "line_serial": "henry-iv-part1-a05-s03-l0040",
+      "line_number": 39,
+      "line_serial": "henry-iv-part1-a05-s03-l0039",
       "subsection": null,
       "spans": [
         {
@@ -5341,8 +5348,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0016",
       "speech_seq": 2,
-      "line_number": 41,
-      "line_serial": "henry-iv-part1-a05-s03-l0041",
+      "line_number": 40,
+      "line_serial": "henry-iv-part1-a05-s03-l0040",
       "subsection": null,
       "spans": [
         {
@@ -5418,8 +5425,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0016",
       "speech_seq": 3,
-      "line_number": 42,
-      "line_serial": "henry-iv-part1-a05-s03-l0042",
+      "line_number": 41,
+      "line_serial": "henry-iv-part1-a05-s03-l0041",
       "subsection": null,
       "spans": [
         {
@@ -5501,8 +5508,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0016",
       "speech_seq": 4,
-      "line_number": 43,
-      "line_serial": "henry-iv-part1-a05-s03-l0043",
+      "line_number": 42,
+      "line_serial": "henry-iv-part1-a05-s03-l0042",
       "subsection": null,
       "spans": [
         {
@@ -5592,8 +5599,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0016",
       "speech_seq": 5,
-      "line_number": 44,
-      "line_serial": "henry-iv-part1-a05-s03-l0044",
+      "line_number": 43,
+      "line_serial": "henry-iv-part1-a05-s03-l0043",
       "subsection": null,
       "spans": [
         {
@@ -5672,8 +5679,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0017",
       "speech_seq": 1,
-      "line_number": 45,
-      "line_serial": "henry-iv-part1-a05-s03-l0045",
+      "line_number": 44,
+      "line_serial": "henry-iv-part1-a05-s03-l0044",
       "subsection": null,
       "spans": [
         {
@@ -5825,8 +5832,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0017",
       "speech_seq": 2,
-      "line_number": 46,
-      "line_serial": "henry-iv-part1-a05-s03-l0046",
+      "line_number": 45,
+      "line_serial": "henry-iv-part1-a05-s03-l0045",
       "subsection": null,
       "spans": [
         {
@@ -6002,8 +6009,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0017",
       "speech_seq": 3,
-      "line_number": 47,
-      "line_serial": "henry-iv-part1-a05-s03-l0047",
+      "line_number": 46,
+      "line_serial": "henry-iv-part1-a05-s03-l0046",
       "subsection": null,
       "spans": [
         {
@@ -6082,8 +6089,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0018",
       "speech_seq": 1,
-      "line_number": 48,
-      "line_serial": "henry-iv-part1-a05-s03-l0048",
+      "line_number": 47,
+      "line_serial": "henry-iv-part1-a05-s03-l0047",
       "subsection": null,
       "spans": [
         {
@@ -6195,8 +6202,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0018",
       "speech_seq": 2,
-      "line_number": 49,
-      "line_serial": "henry-iv-part1-a05-s03-l0049",
+      "line_number": 48,
+      "line_serial": "henry-iv-part1-a05-s03-l0048",
       "subsection": null,
       "spans": [
         {
@@ -6305,8 +6312,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0019",
       "speech_seq": 1,
-      "line_number": 50,
-      "line_serial": "henry-iv-part1-a05-s03-l0050",
+      "line_number": 49,
+      "line_serial": "henry-iv-part1-a05-s03-l0049",
       "subsection": null,
       "spans": [
         {
@@ -6508,8 +6515,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0019",
       "speech_seq": 2,
-      "line_number": 51,
-      "line_serial": "henry-iv-part1-a05-s03-l0051",
+      "line_number": 50,
+      "line_serial": "henry-iv-part1-a05-s03-l0050",
       "subsection": null,
       "spans": [
         {
@@ -6618,8 +6625,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0020",
       "speech_seq": 1,
-      "line_number": 52,
-      "line_serial": "henry-iv-part1-a05-s03-l0052",
+      "line_number": 51,
+      "line_serial": "henry-iv-part1-a05-s03-l0051",
       "subsection": null,
       "spans": [
         {
@@ -6766,8 +6773,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0021",
       "speech_seq": 1,
-      "line_number": 53,
-      "line_serial": "henry-iv-part1-a05-s03-l0053",
+      "line_number": 52,
+      "line_serial": "henry-iv-part1-a05-s03-l0052",
       "subsection": null,
       "spans": [
         {
@@ -7075,8 +7082,8 @@
       "speaker": "PRINCE",
       "speech_id": "henry-iv-part1-a05-s03-s0022",
       "speech_seq": 1,
-      "line_number": 54,
-      "line_serial": "henry-iv-part1-a05-s03-l0054",
+      "line_number": 53,
+      "line_serial": "henry-iv-part1-a05-s03-l0053",
       "subsection": null,
       "spans": [
         {
@@ -7323,8 +7330,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0023",
       "speech_seq": 1,
-      "line_number": 55,
-      "line_serial": "henry-iv-part1-a05-s03-l0055",
+      "line_number": 54,
+      "line_serial": "henry-iv-part1-a05-s03-l0054",
       "subsection": null,
       "spans": [
         {
@@ -7542,8 +7549,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0023",
       "speech_seq": 2,
-      "line_number": 56,
-      "line_serial": "henry-iv-part1-a05-s03-l0056",
+      "line_number": 55,
+      "line_serial": "henry-iv-part1-a05-s03-l0055",
       "subsection": null,
       "spans": [
         {
@@ -7719,8 +7726,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0023",
       "speech_seq": 3,
-      "line_number": 57,
-      "line_serial": "henry-iv-part1-a05-s03-l0057",
+      "line_number": 56,
+      "line_serial": "henry-iv-part1-a05-s03-l0056",
       "subsection": null,
       "spans": [
         {
@@ -7894,8 +7901,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0023",
       "speech_seq": 4,
-      "line_number": 58,
-      "line_serial": "henry-iv-part1-a05-s03-l0058",
+      "line_number": 57,
+      "line_serial": "henry-iv-part1-a05-s03-l0057",
       "subsection": null,
       "spans": [
         {
@@ -8083,8 +8090,8 @@
       "speaker": "FALSTAFF",
       "speech_id": "henry-iv-part1-a05-s03-s0023",
       "speech_seq": 5,
-      "line_number": 59,
-      "line_serial": "henry-iv-part1-a05-s03-l0059",
+      "line_number": 58,
+      "line_serial": "henry-iv-part1-a05-s03-l0058",
       "subsection": null,
       "spans": [
         {
