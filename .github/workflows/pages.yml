@@ -1,4 +1,4 @@
-name: Deploy viewer to GitHub Pages
+name: Build & deploy Shakespeare JSON Viewer
 
 on:
   push:
@@ -26,13 +26,17 @@ jobs:
         with:
           node-version: 20
 
-      - name: Build index.json from scene files
+      # Generate index.json at repo root
+      - name: Build index.json
         run: node tools/build-index.mjs
 
-      - name: Add .nojekyll (so folders with underscores are served)
-        run: echo > .nojekyll
+      # Prevent Jekyll processing (not strictly needed with Actions,
+      # but harmless and helps if you later switch to “Deploy from a branch”)
+      - name: Add .nojekyll
+        run: touch .nojekyll
 
-      # Publish the WHOLE repo (index.html, index.json, and all your JSON)
+      # Upload the entire repo as the Pages artifact.
+      # This keeps all scene JSON files in place so the paths in index.json resolve.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -42,8 +46,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
