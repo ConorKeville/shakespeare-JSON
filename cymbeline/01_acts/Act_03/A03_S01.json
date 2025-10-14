@@ -181,7 +181,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Enter in state Cymbeline, Queen, Cloten and Lords at one door, and at",
+          "text": "Enter in state Cymbeline, Queen, Cloten and Lords at one door, and at another Caius Lucius and Attendants.",
           "stage": null,
           "tokens": [
             {
@@ -345,6 +345,66 @@
               "pre": " ",
               "serial": "cymbeline-a03-s01-i0002-t016",
               "em": true
+            },
+            {
+              "i": 1,
+              "type": "word",
+              "s": "another",
+              "norm": "another",
+              "pre": " ",
+              "serial": "cymbeline-a03-s01-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Caius",
+              "norm": "caius",
+              "pre": " ",
+              "serial": "cymbeline-a03-s01-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Lucius",
+              "norm": "lucius",
+              "pre": " ",
+              "serial": "cymbeline-a03-s01-i0003-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "cymbeline-a03-s01-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Attendants",
+              "norm": "attendants",
+              "pre": " ",
+              "serial": "cymbeline-a03-s01-i0003-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "cymbeline-a03-s01-i0003-t006",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
             }
           ]
         }
@@ -365,7 +425,7 @@
     },
     {
       "seq": 4,
-      "serial": "cymbeline-a03-s01-i0003",
+      "serial": "cymbeline-a03-s01-i0005",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
@@ -373,81 +433,6 @@
       "speech_seq": 1,
       "line_number": 1,
       "line_serial": "cymbeline-a03-s01-l0001",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": " another Caius Lucius and Attendants.",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "another",
-              "norm": "another",
-              "pre": " ",
-              "serial": "cymbeline-a03-s01-i0003-t001"
-            },
-            {
-              "i": 2,
-              "type": "word",
-              "s": "Caius",
-              "norm": "caius",
-              "pre": " ",
-              "serial": "cymbeline-a03-s01-i0003-t002"
-            },
-            {
-              "i": 3,
-              "type": "word",
-              "s": "Lucius",
-              "norm": "lucius",
-              "pre": " ",
-              "serial": "cymbeline-a03-s01-i0003-t003"
-            },
-            {
-              "i": 4,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "cymbeline-a03-s01-i0003-t004"
-            },
-            {
-              "i": 5,
-              "type": "word",
-              "s": "Attendants",
-              "norm": "attendants",
-              "pre": " ",
-              "serial": "cymbeline-a03-s01-i0003-t005"
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "cymbeline-a03-s01-i0003-t006",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 5,
-      "serial": "cymbeline-a03-s01-i0005",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "CYMBELINE",
-      "speech_id": "cymbeline-a03-s01-s0001",
-      "speech_seq": 2,
-      "line_number": 2,
-      "line_serial": "cymbeline-a03-s01-l0002",
       "subsection": null,
       "spans": [
         {
@@ -552,7 +537,7 @@
       ]
     },
     {
-      "seq": 6,
+      "seq": 5,
       "serial": "cymbeline-a03-s01-i0006",
       "kind": "speaker_label",
       "subtype": null,
@@ -565,15 +550,15 @@
       "spans": []
     },
     {
-      "seq": 7,
+      "seq": 6,
       "serial": "cymbeline-a03-s01-i0007",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 1,
-      "line_number": 3,
-      "line_serial": "cymbeline-a03-s01-l0003",
+      "line_number": 2,
+      "line_serial": "cymbeline-a03-s01-l0002",
       "subsection": null,
       "spans": [
         {
@@ -662,15 +647,15 @@
       ]
     },
     {
-      "seq": 8,
+      "seq": 7,
       "serial": "cymbeline-a03-s01-i0008",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 2,
-      "line_number": 4,
-      "line_serial": "cymbeline-a03-s01-l0004",
+      "line_number": 3,
+      "line_serial": "cymbeline-a03-s01-l0003",
       "subsection": null,
       "spans": [
         {
@@ -777,15 +762,15 @@
       ]
     },
     {
-      "seq": 9,
+      "seq": 8,
       "serial": "cymbeline-a03-s01-i0009",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 3,
-      "line_number": 5,
-      "line_serial": "cymbeline-a03-s01-l0005",
+      "line_number": 4,
+      "line_serial": "cymbeline-a03-s01-l0004",
       "subsection": null,
       "spans": [
         {
@@ -898,15 +883,15 @@
       ]
     },
     {
-      "seq": 10,
+      "seq": 9,
       "serial": "cymbeline-a03-s01-i0010",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 4,
-      "line_number": 6,
-      "line_serial": "cymbeline-a03-s01-l0006",
+      "line_number": 5,
+      "line_serial": "cymbeline-a03-s01-l0005",
       "subsection": null,
       "spans": [
         {
@@ -1009,15 +994,15 @@
       ]
     },
     {
-      "seq": 11,
+      "seq": 10,
       "serial": "cymbeline-a03-s01-i0011",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 5,
-      "line_number": 7,
-      "line_serial": "cymbeline-a03-s01-l0007",
+      "line_number": 6,
+      "line_serial": "cymbeline-a03-s01-l0006",
       "subsection": null,
       "spans": [
         {
@@ -1086,15 +1071,15 @@
       ]
     },
     {
-      "seq": 12,
+      "seq": 11,
       "serial": "cymbeline-a03-s01-i0012",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 6,
-      "line_number": 8,
-      "line_serial": "cymbeline-a03-s01-l0008",
+      "line_number": 7,
+      "line_serial": "cymbeline-a03-s01-l0007",
       "subsection": null,
       "spans": [
         {
@@ -1185,15 +1170,15 @@
       ]
     },
     {
-      "seq": 13,
+      "seq": 12,
       "serial": "cymbeline-a03-s01-i0013",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 7,
-      "line_number": 9,
-      "line_serial": "cymbeline-a03-s01-l0009",
+      "line_number": 8,
+      "line_serial": "cymbeline-a03-s01-l0008",
       "subsection": null,
       "spans": [
         {
@@ -1276,15 +1261,15 @@
       ]
     },
     {
-      "seq": 14,
+      "seq": 13,
       "serial": "cymbeline-a03-s01-i0014",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 8,
-      "line_number": 10,
-      "line_serial": "cymbeline-a03-s01-l0010",
+      "line_number": 9,
+      "line_serial": "cymbeline-a03-s01-l0009",
       "subsection": null,
       "spans": [
         {
@@ -1375,15 +1360,15 @@
       ]
     },
     {
-      "seq": 15,
+      "seq": 14,
       "serial": "cymbeline-a03-s01-i0015",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0002",
       "speech_seq": 9,
-      "line_number": 11,
-      "line_serial": "cymbeline-a03-s01-l0011",
+      "line_number": 10,
+      "line_serial": "cymbeline-a03-s01-l0010",
       "subsection": null,
       "spans": [
         {
@@ -1434,7 +1419,7 @@
       ]
     },
     {
-      "seq": 16,
+      "seq": 15,
       "serial": "cymbeline-a03-s01-i0016",
       "kind": "speaker_label",
       "subtype": null,
@@ -1447,15 +1432,15 @@
       "spans": []
     },
     {
-      "seq": 17,
+      "seq": 16,
       "serial": "cymbeline-a03-s01-i0017",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0003",
       "speech_seq": 1,
-      "line_number": 12,
-      "line_serial": "cymbeline-a03-s01-l0012",
+      "line_number": 11,
+      "line_serial": "cymbeline-a03-s01-l0011",
       "subsection": null,
       "spans": [
         {
@@ -1536,15 +1521,15 @@
       ]
     },
     {
-      "seq": 18,
+      "seq": 17,
       "serial": "cymbeline-a03-s01-i0018",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0003",
       "speech_seq": 2,
-      "line_number": 13,
-      "line_serial": "cymbeline-a03-s01-l0013",
+      "line_number": 12,
+      "line_serial": "cymbeline-a03-s01-l0012",
       "subsection": null,
       "spans": [
         {
@@ -1603,7 +1588,7 @@
       ]
     },
     {
-      "seq": 19,
+      "seq": 18,
       "serial": "cymbeline-a03-s01-i0019",
       "kind": "speaker_label",
       "subtype": null,
@@ -1616,15 +1601,15 @@
       "spans": []
     },
     {
-      "seq": 20,
+      "seq": 19,
       "serial": "cymbeline-a03-s01-i0020",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0004",
       "speech_seq": 1,
-      "line_number": 14,
-      "line_serial": "cymbeline-a03-s01-l0014",
+      "line_number": 13,
+      "line_serial": "cymbeline-a03-s01-l0013",
       "subsection": null,
       "spans": [
         {
@@ -1755,15 +1740,15 @@
       ]
     },
     {
-      "seq": 21,
+      "seq": 20,
       "serial": "cymbeline-a03-s01-i0021",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0004",
       "speech_seq": 2,
-      "line_number": 15,
-      "line_serial": "cymbeline-a03-s01-l0015",
+      "line_number": 14,
+      "line_serial": "cymbeline-a03-s01-l0014",
       "subsection": null,
       "spans": [
         {
@@ -1892,7 +1877,7 @@
       ]
     },
     {
-      "seq": 22,
+      "seq": 21,
       "serial": "cymbeline-a03-s01-i0022",
       "kind": "speaker_label",
       "subtype": null,
@@ -1905,15 +1890,15 @@
       "spans": []
     },
     {
-      "seq": 23,
+      "seq": 22,
       "serial": "cymbeline-a03-s01-i0023",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 1,
-      "line_number": 16,
-      "line_serial": "cymbeline-a03-s01-l0016",
+      "line_number": 15,
+      "line_serial": "cymbeline-a03-s01-l0015",
       "subsection": null,
       "spans": [
         {
@@ -1956,15 +1941,15 @@
       ]
     },
     {
-      "seq": 24,
+      "seq": 23,
       "serial": "cymbeline-a03-s01-i0024",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 2,
-      "line_number": 17,
-      "line_serial": "cymbeline-a03-s01-l0017",
+      "line_number": 16,
+      "line_serial": "cymbeline-a03-s01-l0016",
       "subsection": null,
       "spans": [
         {
@@ -2063,15 +2048,15 @@
       ]
     },
     {
-      "seq": 25,
+      "seq": 24,
       "serial": "cymbeline-a03-s01-i0025",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 3,
-      "line_number": 18,
-      "line_serial": "cymbeline-a03-s01-l0018",
+      "line_number": 17,
+      "line_serial": "cymbeline-a03-s01-l0017",
       "subsection": null,
       "spans": [
         {
@@ -2196,15 +2181,15 @@
       ]
     },
     {
-      "seq": 26,
+      "seq": 25,
       "serial": "cymbeline-a03-s01-i0026",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 4,
-      "line_number": 19,
-      "line_serial": "cymbeline-a03-s01-l0019",
+      "line_number": 18,
+      "line_serial": "cymbeline-a03-s01-l0018",
       "subsection": null,
       "spans": [
         {
@@ -2279,15 +2264,15 @@
       ]
     },
     {
-      "seq": 27,
+      "seq": 26,
       "serial": "cymbeline-a03-s01-i0027",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 5,
-      "line_number": 20,
-      "line_serial": "cymbeline-a03-s01-l0020",
+      "line_number": 19,
+      "line_serial": "cymbeline-a03-s01-l0019",
       "subsection": null,
       "spans": [
         {
@@ -2378,15 +2363,15 @@
       ]
     },
     {
-      "seq": 28,
+      "seq": 27,
       "serial": "cymbeline-a03-s01-i0028",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 6,
-      "line_number": 21,
-      "line_serial": "cymbeline-a03-s01-l0021",
+      "line_number": 20,
+      "line_serial": "cymbeline-a03-s01-l0020",
       "subsection": null,
       "spans": [
         {
@@ -2469,15 +2454,15 @@
       ]
     },
     {
-      "seq": 29,
+      "seq": 28,
       "serial": "cymbeline-a03-s01-i0029",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 7,
-      "line_number": 22,
-      "line_serial": "cymbeline-a03-s01-l0022",
+      "line_number": 21,
+      "line_serial": "cymbeline-a03-s01-l0021",
       "subsection": null,
       "spans": [
         {
@@ -2552,15 +2537,15 @@
       ]
     },
     {
-      "seq": 30,
+      "seq": 29,
       "serial": "cymbeline-a03-s01-i0030",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 8,
-      "line_number": 23,
-      "line_serial": "cymbeline-a03-s01-l0023",
+      "line_number": 22,
+      "line_serial": "cymbeline-a03-s01-l0022",
       "subsection": null,
       "spans": [
         {
@@ -2645,15 +2630,15 @@
       ]
     },
     {
-      "seq": 31,
+      "seq": 30,
       "serial": "cymbeline-a03-s01-i0031",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 9,
-      "line_number": 24,
-      "line_serial": "cymbeline-a03-s01-l0024",
+      "line_number": 23,
+      "line_serial": "cymbeline-a03-s01-l0023",
       "subsection": null,
       "spans": [
         {
@@ -2790,15 +2775,15 @@
       ]
     },
     {
-      "seq": 32,
+      "seq": 31,
       "serial": "cymbeline-a03-s01-i0032",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 10,
-      "line_number": 25,
-      "line_serial": "cymbeline-a03-s01-l0025",
+      "line_number": 24,
+      "line_serial": "cymbeline-a03-s01-l0024",
       "subsection": null,
       "spans": [
         {
@@ -2897,15 +2882,15 @@
       ]
     },
     {
-      "seq": 33,
+      "seq": 32,
       "serial": "cymbeline-a03-s01-i0033",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 11,
-      "line_number": 26,
-      "line_serial": "cymbeline-a03-s01-l0026",
+      "line_number": 25,
+      "line_serial": "cymbeline-a03-s01-l0025",
       "subsection": null,
       "spans": [
         {
@@ -3032,15 +3017,15 @@
       ]
     },
     {
-      "seq": 34,
+      "seq": 33,
       "serial": "cymbeline-a03-s01-i0034",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 12,
-      "line_number": 27,
-      "line_serial": "cymbeline-a03-s01-l0027",
+      "line_number": 26,
+      "line_serial": "cymbeline-a03-s01-l0026",
       "subsection": null,
       "spans": [
         {
@@ -3153,15 +3138,15 @@
       ]
     },
     {
-      "seq": 35,
+      "seq": 34,
       "serial": "cymbeline-a03-s01-i0035",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 13,
-      "line_number": 28,
-      "line_serial": "cymbeline-a03-s01-l0028",
+      "line_number": 27,
+      "line_serial": "cymbeline-a03-s01-l0027",
       "subsection": null,
       "spans": [
         {
@@ -3274,15 +3259,15 @@
       ]
     },
     {
-      "seq": 36,
+      "seq": 35,
       "serial": "cymbeline-a03-s01-i0036",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 14,
-      "line_number": 29,
-      "line_serial": "cymbeline-a03-s01-l0029",
+      "line_number": 28,
+      "line_serial": "cymbeline-a03-s01-l0028",
       "subsection": null,
       "spans": [
         {
@@ -3407,15 +3392,15 @@
       ]
     },
     {
-      "seq": 37,
+      "seq": 36,
       "serial": "cymbeline-a03-s01-i0037",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 15,
-      "line_number": 30,
-      "line_serial": "cymbeline-a03-s01-l0030",
+      "line_number": 29,
+      "line_serial": "cymbeline-a03-s01-l0029",
       "subsection": null,
       "spans": [
         {
@@ -3520,15 +3505,15 @@
       ]
     },
     {
-      "seq": 38,
+      "seq": 37,
       "serial": "cymbeline-a03-s01-i0038",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 16,
-      "line_number": 31,
-      "line_serial": "cymbeline-a03-s01-l0031",
+      "line_number": 30,
+      "line_serial": "cymbeline-a03-s01-l0030",
       "subsection": null,
       "spans": [
         {
@@ -3619,15 +3604,15 @@
       ]
     },
     {
-      "seq": 39,
+      "seq": 38,
       "serial": "cymbeline-a03-s01-i0039",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 17,
-      "line_number": 32,
-      "line_serial": "cymbeline-a03-s01-l0032",
+      "line_number": 31,
+      "line_serial": "cymbeline-a03-s01-l0031",
       "subsection": null,
       "spans": [
         {
@@ -3718,15 +3703,15 @@
       ]
     },
     {
-      "seq": 40,
+      "seq": 39,
       "serial": "cymbeline-a03-s01-i0040",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 18,
-      "line_number": 33,
-      "line_serial": "cymbeline-a03-s01-l0033",
+      "line_number": 32,
+      "line_serial": "cymbeline-a03-s01-l0032",
       "subsection": null,
       "spans": [
         {
@@ -3865,15 +3850,15 @@
       ]
     },
     {
-      "seq": 41,
+      "seq": 40,
       "serial": "cymbeline-a03-s01-i0041",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 19,
-      "line_number": 34,
-      "line_serial": "cymbeline-a03-s01-l0034",
+      "line_number": 33,
+      "line_serial": "cymbeline-a03-s01-l0033",
       "subsection": null,
       "spans": [
         {
@@ -3942,15 +3927,15 @@
       ]
     },
     {
-      "seq": 42,
+      "seq": 41,
       "serial": "cymbeline-a03-s01-i0042",
       "kind": "speech",
       "subtype": null,
       "speaker": "QUEEN",
       "speech_id": "cymbeline-a03-s01-s0005",
       "speech_seq": 20,
-      "line_number": 35,
-      "line_serial": "cymbeline-a03-s01-l0035",
+      "line_number": 34,
+      "line_serial": "cymbeline-a03-s01-l0034",
       "subsection": null,
       "spans": [
         {
@@ -4017,7 +4002,7 @@
       ]
     },
     {
-      "seq": 43,
+      "seq": 42,
       "serial": "cymbeline-a03-s01-i0043",
       "kind": "speaker_label",
       "subtype": null,
@@ -4030,15 +4015,15 @@
       "spans": []
     },
     {
-      "seq": 44,
+      "seq": 43,
       "serial": "cymbeline-a03-s01-i0044",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0006",
       "speech_seq": 1,
-      "line_number": 36,
-      "line_serial": "cymbeline-a03-s01-l0036",
+      "line_number": 35,
+      "line_serial": "cymbeline-a03-s01-l0035",
       "subsection": null,
       "spans": [
         {
@@ -4183,15 +4168,15 @@
       ]
     },
     {
-      "seq": 45,
+      "seq": 44,
       "serial": "cymbeline-a03-s01-i0045",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0006",
       "speech_seq": 2,
-      "line_number": 37,
-      "line_serial": "cymbeline-a03-s01-l0037",
+      "line_number": 36,
+      "line_serial": "cymbeline-a03-s01-l0036",
       "subsection": null,
       "spans": [
         {
@@ -4388,15 +4373,15 @@
       ]
     },
     {
-      "seq": 46,
+      "seq": 45,
       "serial": "cymbeline-a03-s01-i0046",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0006",
       "speech_seq": 3,
-      "line_number": 38,
-      "line_serial": "cymbeline-a03-s01-l0038",
+      "line_number": 37,
+      "line_serial": "cymbeline-a03-s01-l0037",
       "subsection": null,
       "spans": [
         {
@@ -4555,7 +4540,7 @@
       ]
     },
     {
-      "seq": 47,
+      "seq": 46,
       "serial": "cymbeline-a03-s01-i0047",
       "kind": "speaker_label",
       "subtype": null,
@@ -4568,15 +4553,15 @@
       "spans": []
     },
     {
-      "seq": 48,
+      "seq": 47,
       "serial": "cymbeline-a03-s01-i0048",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0007",
       "speech_seq": 1,
-      "line_number": 39,
-      "line_serial": "cymbeline-a03-s01-l0039",
+      "line_number": 38,
+      "line_serial": "cymbeline-a03-s01-l0038",
       "subsection": null,
       "spans": [
         {
@@ -4657,7 +4642,7 @@
       ]
     },
     {
-      "seq": 49,
+      "seq": 48,
       "serial": "cymbeline-a03-s01-i0049",
       "kind": "speaker_label",
       "subtype": null,
@@ -4670,15 +4655,15 @@
       "spans": []
     },
     {
-      "seq": 50,
+      "seq": 49,
       "serial": "cymbeline-a03-s01-i0050",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0008",
       "speech_seq": 1,
-      "line_number": 40,
-      "line_serial": "cymbeline-a03-s01-l0040",
+      "line_number": 39,
+      "line_serial": "cymbeline-a03-s01-l0039",
       "subsection": null,
       "spans": [
         {
@@ -4833,15 +4818,15 @@
       ]
     },
     {
-      "seq": 51,
+      "seq": 50,
       "serial": "cymbeline-a03-s01-i0051",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0008",
       "speech_seq": 2,
-      "line_number": 41,
-      "line_serial": "cymbeline-a03-s01-l0041",
+      "line_number": 40,
+      "line_serial": "cymbeline-a03-s01-l0040",
       "subsection": null,
       "spans": [
         {
@@ -5038,15 +5023,15 @@
       ]
     },
     {
-      "seq": 52,
+      "seq": 51,
       "serial": "cymbeline-a03-s01-i0052",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0008",
       "speech_seq": 3,
-      "line_number": 42,
-      "line_serial": "cymbeline-a03-s01-l0042",
+      "line_number": 41,
+      "line_serial": "cymbeline-a03-s01-l0041",
       "subsection": null,
       "spans": [
         {
@@ -5201,15 +5186,15 @@
       ]
     },
     {
-      "seq": 53,
+      "seq": 52,
       "serial": "cymbeline-a03-s01-i0053",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0008",
       "speech_seq": 4,
-      "line_number": 43,
-      "line_serial": "cymbeline-a03-s01-l0043",
+      "line_number": 42,
+      "line_serial": "cymbeline-a03-s01-l0042",
       "subsection": null,
       "spans": [
         {
@@ -5396,15 +5381,15 @@
       ]
     },
     {
-      "seq": 54,
+      "seq": 53,
       "serial": "cymbeline-a03-s01-i0054",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0008",
       "speech_seq": 5,
-      "line_number": 44,
-      "line_serial": "cymbeline-a03-s01-l0044",
+      "line_number": 43,
+      "line_serial": "cymbeline-a03-s01-l0043",
       "subsection": null,
       "spans": [
         {
@@ -5455,7 +5440,7 @@
       ]
     },
     {
-      "seq": 55,
+      "seq": 54,
       "serial": "cymbeline-a03-s01-i0055",
       "kind": "speaker_label",
       "subtype": null,
@@ -5468,15 +5453,15 @@
       "spans": []
     },
     {
-      "seq": 56,
+      "seq": 55,
       "serial": "cymbeline-a03-s01-i0056",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0009",
       "speech_seq": 1,
-      "line_number": 45,
-      "line_serial": "cymbeline-a03-s01-l0045",
+      "line_number": 44,
+      "line_serial": "cymbeline-a03-s01-l0044",
       "subsection": null,
       "spans": [
         {
@@ -5527,15 +5512,15 @@
       ]
     },
     {
-      "seq": 57,
+      "seq": 56,
       "serial": "cymbeline-a03-s01-i0057",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0009",
       "speech_seq": 2,
-      "line_number": 46,
-      "line_serial": "cymbeline-a03-s01-l0046",
+      "line_number": 45,
+      "line_serial": "cymbeline-a03-s01-l0045",
       "subsection": null,
       "spans": [
         {
@@ -5596,15 +5581,15 @@
       ]
     },
     {
-      "seq": 58,
+      "seq": 57,
       "serial": "cymbeline-a03-s01-i0058",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0009",
       "speech_seq": 3,
-      "line_number": 47,
-      "line_serial": "cymbeline-a03-s01-l0047",
+      "line_number": 46,
+      "line_serial": "cymbeline-a03-s01-l0046",
       "subsection": null,
       "spans": [
         {
@@ -5731,15 +5716,15 @@
       ]
     },
     {
-      "seq": 59,
+      "seq": 58,
       "serial": "cymbeline-a03-s01-i0059",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0009",
       "speech_seq": 4,
-      "line_number": 48,
-      "line_serial": "cymbeline-a03-s01-l0048",
+      "line_number": 47,
+      "line_serial": "cymbeline-a03-s01-l0047",
       "subsection": null,
       "spans": [
         {
@@ -5824,15 +5809,15 @@
       ]
     },
     {
-      "seq": 60,
+      "seq": 59,
       "serial": "cymbeline-a03-s01-i0060",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0009",
       "speech_seq": 5,
-      "line_number": 49,
-      "line_serial": "cymbeline-a03-s01-l0049",
+      "line_number": 48,
+      "line_serial": "cymbeline-a03-s01-l0048",
       "subsection": null,
       "spans": [
         {
@@ -5931,15 +5916,15 @@
       ]
     },
     {
-      "seq": 61,
+      "seq": 60,
       "serial": "cymbeline-a03-s01-i0061",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0009",
       "speech_seq": 6,
-      "line_number": 50,
-      "line_serial": "cymbeline-a03-s01-l0050",
+      "line_number": 49,
+      "line_serial": "cymbeline-a03-s01-l0049",
       "subsection": null,
       "spans": [
         {
@@ -6038,15 +6023,15 @@
       ]
     },
     {
-      "seq": 62,
+      "seq": 61,
       "serial": "cymbeline-a03-s01-i0062",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0009",
       "speech_seq": 7,
-      "line_number": 51,
-      "line_serial": "cymbeline-a03-s01-l0051",
+      "line_number": 50,
+      "line_serial": "cymbeline-a03-s01-l0050",
       "subsection": null,
       "spans": [
         {
@@ -6129,15 +6114,15 @@
       ]
     },
     {
-      "seq": 63,
+      "seq": 62,
       "serial": "cymbeline-a03-s01-i0063",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0009",
       "speech_seq": 8,
-      "line_number": 52,
-      "line_serial": "cymbeline-a03-s01-l0052",
+      "line_number": 51,
+      "line_serial": "cymbeline-a03-s01-l0051",
       "subsection": null,
       "spans": [
         {
@@ -6188,7 +6173,7 @@
       ]
     },
     {
-      "seq": 64,
+      "seq": 63,
       "serial": "cymbeline-a03-s01-i0064",
       "kind": "speaker_label",
       "subtype": null,
@@ -6201,15 +6186,15 @@
       "spans": []
     },
     {
-      "seq": 65,
+      "seq": 64,
       "serial": "cymbeline-a03-s01-i0065",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0010",
       "speech_seq": 1,
-      "line_number": 53,
-      "line_serial": "cymbeline-a03-s01-l0053",
+      "line_number": 52,
+      "line_serial": "cymbeline-a03-s01-l0052",
       "subsection": null,
       "spans": [
         {
@@ -6252,7 +6237,7 @@
       ]
     },
     {
-      "seq": 66,
+      "seq": 65,
       "serial": "cymbeline-a03-s01-i0066",
       "kind": "speaker_label",
       "subtype": null,
@@ -6265,15 +6250,15 @@
       "spans": []
     },
     {
-      "seq": 67,
+      "seq": 66,
       "serial": "cymbeline-a03-s01-i0067",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 1,
-      "line_number": 54,
-      "line_serial": "cymbeline-a03-s01-l0054",
+      "line_number": 53,
+      "line_serial": "cymbeline-a03-s01-l0053",
       "subsection": null,
       "spans": [
         {
@@ -6332,15 +6317,15 @@
       ]
     },
     {
-      "seq": 68,
+      "seq": 67,
       "serial": "cymbeline-a03-s01-i0068",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 2,
-      "line_number": 55,
-      "line_serial": "cymbeline-a03-s01-l0055",
+      "line_number": 54,
+      "line_serial": "cymbeline-a03-s01-l0054",
       "subsection": null,
       "spans": [
         {
@@ -6401,15 +6386,15 @@
       ]
     },
     {
-      "seq": 69,
+      "seq": 68,
       "serial": "cymbeline-a03-s01-i0069",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 3,
-      "line_number": 56,
-      "line_serial": "cymbeline-a03-s01-l0056",
+      "line_number": 55,
+      "line_serial": "cymbeline-a03-s01-l0055",
       "subsection": null,
       "spans": [
         {
@@ -6508,15 +6493,15 @@
       ]
     },
     {
-      "seq": 70,
+      "seq": 69,
       "serial": "cymbeline-a03-s01-i0070",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 4,
-      "line_number": 57,
-      "line_serial": "cymbeline-a03-s01-l0057",
+      "line_number": 56,
+      "line_serial": "cymbeline-a03-s01-l0056",
       "subsection": null,
       "spans": [
         {
@@ -6607,15 +6592,15 @@
       ]
     },
     {
-      "seq": 71,
+      "seq": 70,
       "serial": "cymbeline-a03-s01-i0071",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 5,
-      "line_number": 58,
-      "line_serial": "cymbeline-a03-s01-l0058",
+      "line_number": 57,
+      "line_serial": "cymbeline-a03-s01-l0057",
       "subsection": null,
       "spans": [
         {
@@ -6750,15 +6735,15 @@
       ]
     },
     {
-      "seq": 72,
+      "seq": 71,
       "serial": "cymbeline-a03-s01-i0072",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 6,
-      "line_number": 59,
-      "line_serial": "cymbeline-a03-s01-l0059",
+      "line_number": 58,
+      "line_serial": "cymbeline-a03-s01-l0058",
       "subsection": null,
       "spans": [
         {
@@ -6871,15 +6856,15 @@
       ]
     },
     {
-      "seq": 73,
+      "seq": 72,
       "serial": "cymbeline-a03-s01-i0073",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 7,
-      "line_number": 60,
-      "line_serial": "cymbeline-a03-s01-l0060",
+      "line_number": 59,
+      "line_serial": "cymbeline-a03-s01-l0059",
       "subsection": null,
       "spans": [
         {
@@ -6964,15 +6949,15 @@
       ]
     },
     {
-      "seq": 74,
+      "seq": 73,
       "serial": "cymbeline-a03-s01-i0074",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 8,
-      "line_number": 61,
-      "line_serial": "cymbeline-a03-s01-l0061",
+      "line_number": 60,
+      "line_serial": "cymbeline-a03-s01-l0060",
       "subsection": null,
       "spans": [
         {
@@ -7063,15 +7048,15 @@
       ]
     },
     {
-      "seq": 75,
+      "seq": 74,
       "serial": "cymbeline-a03-s01-i0075",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0011",
       "speech_seq": 9,
-      "line_number": 62,
-      "line_serial": "cymbeline-a03-s01-l0062",
+      "line_number": 61,
+      "line_serial": "cymbeline-a03-s01-l0061",
       "subsection": null,
       "spans": [
         {
@@ -7122,7 +7107,7 @@
       ]
     },
     {
-      "seq": 76,
+      "seq": 75,
       "serial": "cymbeline-a03-s01-i0076",
       "kind": "speaker_label",
       "subtype": null,
@@ -7135,15 +7120,15 @@
       "spans": []
     },
     {
-      "seq": 77,
+      "seq": 76,
       "serial": "cymbeline-a03-s01-i0077",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0012",
       "speech_seq": 1,
-      "line_number": 63,
-      "line_serial": "cymbeline-a03-s01-l0063",
+      "line_number": 62,
+      "line_serial": "cymbeline-a03-s01-l0062",
       "subsection": null,
       "spans": [
         {
@@ -7216,15 +7201,15 @@
       ]
     },
     {
-      "seq": 78,
+      "seq": 77,
       "serial": "cymbeline-a03-s01-i0078",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0012",
       "speech_seq": 2,
-      "line_number": 64,
-      "line_serial": "cymbeline-a03-s01-l0064",
+      "line_number": 63,
+      "line_serial": "cymbeline-a03-s01-l0063",
       "subsection": null,
       "spans": [
         {
@@ -7293,15 +7278,15 @@
       ]
     },
     {
-      "seq": 79,
+      "seq": 78,
       "serial": "cymbeline-a03-s01-i0079",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0012",
       "speech_seq": 3,
-      "line_number": 65,
-      "line_serial": "cymbeline-a03-s01-l0065",
+      "line_number": 64,
+      "line_serial": "cymbeline-a03-s01-l0064",
       "subsection": null,
       "spans": [
         {
@@ -7406,15 +7391,15 @@
       ]
     },
     {
-      "seq": 80,
+      "seq": 79,
       "serial": "cymbeline-a03-s01-i0080",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0012",
       "speech_seq": 4,
-      "line_number": 66,
-      "line_serial": "cymbeline-a03-s01-l0066",
+      "line_number": 65,
+      "line_serial": "cymbeline-a03-s01-l0065",
       "subsection": null,
       "spans": [
         {
@@ -7495,15 +7480,15 @@
       ]
     },
     {
-      "seq": 81,
+      "seq": 80,
       "serial": "cymbeline-a03-s01-i0081",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0012",
       "speech_seq": 5,
-      "line_number": 67,
-      "line_serial": "cymbeline-a03-s01-l0067",
+      "line_number": 66,
+      "line_serial": "cymbeline-a03-s01-l0066",
       "subsection": null,
       "spans": [
         {
@@ -7608,15 +7593,15 @@
       ]
     },
     {
-      "seq": 82,
+      "seq": 81,
       "serial": "cymbeline-a03-s01-i0082",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0012",
       "speech_seq": 6,
-      "line_number": 68,
-      "line_serial": "cymbeline-a03-s01-l0068",
+      "line_number": 67,
+      "line_serial": "cymbeline-a03-s01-l0067",
       "subsection": null,
       "spans": [
         {
@@ -7707,15 +7692,15 @@
       ]
     },
     {
-      "seq": 83,
+      "seq": 82,
       "serial": "cymbeline-a03-s01-i0083",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0012",
       "speech_seq": 7,
-      "line_number": 69,
-      "line_serial": "cymbeline-a03-s01-l0069",
+      "line_number": 68,
+      "line_serial": "cymbeline-a03-s01-l0068",
       "subsection": null,
       "spans": [
         {
@@ -7820,15 +7805,15 @@
       ]
     },
     {
-      "seq": 84,
+      "seq": 83,
       "serial": "cymbeline-a03-s01-i0084",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0012",
       "speech_seq": 8,
-      "line_number": 70,
-      "line_serial": "cymbeline-a03-s01-l0070",
+      "line_number": 69,
+      "line_serial": "cymbeline-a03-s01-l0069",
       "subsection": null,
       "spans": [
         {
@@ -7895,7 +7880,7 @@
       ]
     },
     {
-      "seq": 85,
+      "seq": 84,
       "serial": "cymbeline-a03-s01-i0085",
       "kind": "speaker_label",
       "subtype": null,
@@ -7908,15 +7893,15 @@
       "spans": []
     },
     {
-      "seq": 86,
+      "seq": 85,
       "serial": "cymbeline-a03-s01-i0086",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 1,
-      "line_number": 71,
-      "line_serial": "cymbeline-a03-s01-l0071",
+      "line_number": 70,
+      "line_serial": "cymbeline-a03-s01-l0070",
       "subsection": null,
       "spans": [
         {
@@ -7989,15 +7974,15 @@
       ]
     },
     {
-      "seq": 87,
+      "seq": 86,
       "serial": "cymbeline-a03-s01-i0087",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 2,
-      "line_number": 72,
-      "line_serial": "cymbeline-a03-s01-l0072",
+      "line_number": 71,
+      "line_serial": "cymbeline-a03-s01-l0071",
       "subsection": null,
       "spans": [
         {
@@ -8088,15 +8073,15 @@
       ]
     },
     {
-      "seq": 88,
+      "seq": 87,
       "serial": "cymbeline-a03-s01-i0088",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 3,
-      "line_number": 73,
-      "line_serial": "cymbeline-a03-s01-l0073",
+      "line_number": 72,
+      "line_serial": "cymbeline-a03-s01-l0072",
       "subsection": null,
       "spans": [
         {
@@ -8201,15 +8186,15 @@
       ]
     },
     {
-      "seq": 89,
+      "seq": 88,
       "serial": "cymbeline-a03-s01-i0089",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 4,
-      "line_number": 74,
-      "line_serial": "cymbeline-a03-s01-l0074",
+      "line_number": 73,
+      "line_serial": "cymbeline-a03-s01-l0073",
       "subsection": null,
       "spans": [
         {
@@ -8314,15 +8299,15 @@
       ]
     },
     {
-      "seq": 90,
+      "seq": 89,
       "serial": "cymbeline-a03-s01-i0090",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 5,
-      "line_number": 75,
-      "line_serial": "cymbeline-a03-s01-l0075",
+      "line_number": 74,
+      "line_serial": "cymbeline-a03-s01-l0074",
       "subsection": null,
       "spans": [
         {
@@ -8413,15 +8398,15 @@
       ]
     },
     {
-      "seq": 91,
+      "seq": 90,
       "serial": "cymbeline-a03-s01-i0091",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 6,
-      "line_number": 76,
-      "line_serial": "cymbeline-a03-s01-l0076",
+      "line_number": 75,
+      "line_serial": "cymbeline-a03-s01-l0075",
       "subsection": null,
       "spans": [
         {
@@ -8482,15 +8467,15 @@
       ]
     },
     {
-      "seq": 92,
+      "seq": 91,
       "serial": "cymbeline-a03-s01-i0092",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 7,
-      "line_number": 77,
-      "line_serial": "cymbeline-a03-s01-l0077",
+      "line_number": 76,
+      "line_serial": "cymbeline-a03-s01-l0076",
       "subsection": null,
       "spans": [
         {
@@ -8581,15 +8566,15 @@
       ]
     },
     {
-      "seq": 93,
+      "seq": 92,
       "serial": "cymbeline-a03-s01-i0093",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 8,
-      "line_number": 78,
-      "line_serial": "cymbeline-a03-s01-l0078",
+      "line_number": 77,
+      "line_serial": "cymbeline-a03-s01-l0077",
       "subsection": null,
       "spans": [
         {
@@ -8688,15 +8673,15 @@
       ]
     },
     {
-      "seq": 94,
+      "seq": 93,
       "serial": "cymbeline-a03-s01-i0094",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0013",
       "speech_seq": 9,
-      "line_number": 79,
-      "line_serial": "cymbeline-a03-s01-l0079",
+      "line_number": 78,
+      "line_serial": "cymbeline-a03-s01-l0078",
       "subsection": null,
       "spans": [
         {
@@ -8771,7 +8756,7 @@
       ]
     },
     {
-      "seq": 95,
+      "seq": 94,
       "serial": "cymbeline-a03-s01-i0095",
       "kind": "speaker_label",
       "subtype": null,
@@ -8784,15 +8769,15 @@
       "spans": []
     },
     {
-      "seq": 96,
+      "seq": 95,
       "serial": "cymbeline-a03-s01-i0096",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0014",
       "speech_seq": 1,
-      "line_number": 80,
-      "line_serial": "cymbeline-a03-s01-l0080",
+      "line_number": 79,
+      "line_serial": "cymbeline-a03-s01-l0079",
       "subsection": null,
       "spans": [
         {
@@ -8843,7 +8828,7 @@
       ]
     },
     {
-      "seq": 97,
+      "seq": 96,
       "serial": "cymbeline-a03-s01-i0097",
       "kind": "speaker_label",
       "subtype": null,
@@ -8856,15 +8841,15 @@
       "spans": []
     },
     {
-      "seq": 98,
+      "seq": 97,
       "serial": "cymbeline-a03-s01-i0098",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0015",
       "speech_seq": 1,
-      "line_number": 81,
-      "line_serial": "cymbeline-a03-s01-l0081",
+      "line_number": 80,
+      "line_serial": "cymbeline-a03-s01-l0080",
       "subsection": null,
       "spans": [
         {
@@ -9017,15 +9002,15 @@
       ]
     },
     {
-      "seq": 99,
+      "seq": 98,
       "serial": "cymbeline-a03-s01-i0099",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0015",
       "speech_seq": 2,
-      "line_number": 82,
-      "line_serial": "cymbeline-a03-s01-l0082",
+      "line_number": 81,
+      "line_serial": "cymbeline-a03-s01-l0081",
       "subsection": null,
       "spans": [
         {
@@ -9178,15 +9163,15 @@
       ]
     },
     {
-      "seq": 100,
+      "seq": 99,
       "serial": "cymbeline-a03-s01-i0100",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0015",
       "speech_seq": 3,
-      "line_number": 83,
-      "line_serial": "cymbeline-a03-s01-l0083",
+      "line_number": 82,
+      "line_serial": "cymbeline-a03-s01-l0082",
       "subsection": null,
       "spans": [
         {
@@ -9383,15 +9368,15 @@
       ]
     },
     {
-      "seq": 101,
+      "seq": 100,
       "serial": "cymbeline-a03-s01-i0101",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0015",
       "speech_seq": 4,
-      "line_number": 84,
-      "line_serial": "cymbeline-a03-s01-l0084",
+      "line_number": 83,
+      "line_serial": "cymbeline-a03-s01-l0083",
       "subsection": null,
       "spans": [
         {
@@ -9536,15 +9521,15 @@
       ]
     },
     {
-      "seq": 102,
+      "seq": 101,
       "serial": "cymbeline-a03-s01-i0102",
       "kind": "speech",
       "subtype": null,
       "speaker": "CLOTEN",
       "speech_id": "cymbeline-a03-s01-s0015",
       "speech_seq": 5,
-      "line_number": 85,
-      "line_serial": "cymbeline-a03-s01-l0085",
+      "line_number": 84,
+      "line_serial": "cymbeline-a03-s01-l0084",
       "subsection": null,
       "spans": [
         {
@@ -9595,7 +9580,7 @@
       ]
     },
     {
-      "seq": 103,
+      "seq": 102,
       "serial": "cymbeline-a03-s01-i0103",
       "kind": "speaker_label",
       "subtype": null,
@@ -9608,15 +9593,15 @@
       "spans": []
     },
     {
-      "seq": 104,
+      "seq": 103,
       "serial": "cymbeline-a03-s01-i0104",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
       "speech_id": "cymbeline-a03-s01-s0016",
       "speech_seq": 1,
-      "line_number": 86,
-      "line_serial": "cymbeline-a03-s01-l0086",
+      "line_number": 85,
+      "line_serial": "cymbeline-a03-s01-l0085",
       "subsection": null,
       "spans": [
         {
@@ -9673,7 +9658,7 @@
       ]
     },
     {
-      "seq": 105,
+      "seq": 104,
       "serial": "cymbeline-a03-s01-i0105",
       "kind": "speaker_label",
       "subtype": null,
@@ -9686,15 +9671,15 @@
       "spans": []
     },
     {
-      "seq": 106,
+      "seq": 105,
       "serial": "cymbeline-a03-s01-i0106",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0017",
       "speech_seq": 1,
-      "line_number": 87,
-      "line_serial": "cymbeline-a03-s01-l0087",
+      "line_number": 86,
+      "line_serial": "cymbeline-a03-s01-l0086",
       "subsection": null,
       "spans": [
         {
@@ -9799,15 +9784,15 @@
       ]
     },
     {
-      "seq": 107,
+      "seq": 106,
       "serial": "cymbeline-a03-s01-i0107",
       "kind": "speech",
       "subtype": null,
       "speaker": "CYMBELINE",
       "speech_id": "cymbeline-a03-s01-s0017",
       "speech_seq": 2,
-      "line_number": 88,
-      "line_serial": "cymbeline-a03-s01-l0088",
+      "line_number": 87,
+      "line_serial": "cymbeline-a03-s01-l0087",
       "subsection": null,
       "spans": [
         {
@@ -9888,7 +9873,7 @@
       ]
     },
     {
-      "seq": 108,
+      "seq": 107,
       "serial": "cymbeline-a03-s01-i0108",
       "kind": "stage",
       "subtype": "exeunt",
