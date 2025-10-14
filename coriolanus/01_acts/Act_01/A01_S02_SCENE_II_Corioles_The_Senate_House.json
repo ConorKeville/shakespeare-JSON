@@ -1324,19 +1324,19 @@
     {
       "seq": 16,
       "serial": "coriolanus-a01-s02-i0016",
-      "kind": "speech",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 7,
-      "line_number": 10,
-      "line_serial": "coriolanus-a01-s02-l0010",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
       "spans": [
         {
           "type": "stage",
           "em": true,
-          "text": "Reads.",
+          "text": "Reads. They have pressed a power, but it is not known Whether for east or west. The dearth is great. The people mutinous; and, it is rumoured, Cominius, Martius your old enemy, Who is of Rome worse hated than of you,— And Titus Lartius, a most valiant Roman, These three lead on this preparation Whither ’tis bent. Most likely ’tis for you. Consider of it.",
           "stage": null,
           "tokens": [
             {
@@ -1362,35 +1362,15 @@
                 "quote": null,
                 "role": null
               }
-            }
-          ]
-        },
-        {
-          "type": "speech",
-          "em": false,
-          "text": " _They have pressed a power, but it is not known",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             },
             {
               "i": 2,
               "type": "word",
               "s": "They",
               "norm": "they",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0010-t002"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0010-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -1398,7 +1378,8 @@
               "s": "have",
               "norm": "have",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t003"
+              "serial": "coriolanus-a01-s02-l0010-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1406,7 +1387,8 @@
               "s": "pressed",
               "norm": "pressed",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t004"
+              "serial": "coriolanus-a01-s02-l0010-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -1414,7 +1396,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t005"
+              "serial": "coriolanus-a01-s02-l0010-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -1422,7 +1405,8 @@
               "s": "power",
               "norm": "power",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t006"
+              "serial": "coriolanus-a01-s02-l0010-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -1436,7 +1420,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 8,
@@ -1444,7 +1429,8 @@
               "s": "but",
               "norm": "but",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t008"
+              "serial": "coriolanus-a01-s02-l0010-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -1452,7 +1438,8 @@
               "s": "it",
               "norm": "it",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t009"
+              "serial": "coriolanus-a01-s02-l0010-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -1460,7 +1447,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t010"
+              "serial": "coriolanus-a01-s02-l0010-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -1468,7 +1456,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t011"
+              "serial": "coriolanus-a01-s02-l0010-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -1476,36 +1465,17 @@
               "s": "known",
               "norm": "known",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0010-t012"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 17,
-      "serial": "coriolanus-a01-s02-i0017",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 8,
-      "line_number": 11,
-      "line_serial": "coriolanus-a01-s02-l0011",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "Whether for east or west. The dearth is great.",
-          "tokens": [
+              "serial": "coriolanus-a01-s02-l0010-t012",
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "Whether",
               "norm": "whether",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0011-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0011-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1513,7 +1483,8 @@
               "s": "for",
               "norm": "for",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0011-t002"
+              "serial": "coriolanus-a01-s02-l0011-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -1521,7 +1492,8 @@
               "s": "east",
               "norm": "east",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0011-t003"
+              "serial": "coriolanus-a01-s02-l0011-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1529,7 +1501,8 @@
               "s": "or",
               "norm": "or",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0011-t004"
+              "serial": "coriolanus-a01-s02-l0011-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -1537,7 +1510,8 @@
               "s": "west",
               "norm": "west",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0011-t005"
+              "serial": "coriolanus-a01-s02-l0011-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -1551,7 +1525,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -1559,7 +1534,8 @@
               "s": "The",
               "norm": "the",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0011-t007"
+              "serial": "coriolanus-a01-s02-l0011-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -1567,7 +1543,8 @@
               "s": "dearth",
               "norm": "dearth",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0011-t008"
+              "serial": "coriolanus-a01-s02-l0011-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -1575,7 +1552,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0011-t009"
+              "serial": "coriolanus-a01-s02-l0011-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -1583,7 +1561,8 @@
               "s": "great",
               "norm": "great",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0011-t010"
+              "serial": "coriolanus-a01-s02-l0011-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -1597,36 +1576,17 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 18,
-      "serial": "coriolanus-a01-s02-i0018",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 9,
-      "line_number": 12,
-      "line_serial": "coriolanus-a01-s02-l0012",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "The people mutinous; and, it is rumoured,",
-          "tokens": [
+              },
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "The",
               "norm": "the",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0012-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0012-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1634,7 +1594,8 @@
               "s": "people",
               "norm": "people",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0012-t002"
+              "serial": "coriolanus-a01-s02-l0012-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -1642,7 +1603,8 @@
               "s": "mutinous",
               "norm": "mutinous",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0012-t003"
+              "serial": "coriolanus-a01-s02-l0012-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1656,7 +1618,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -1664,7 +1627,8 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0012-t005"
+              "serial": "coriolanus-a01-s02-l0012-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -1678,7 +1642,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -1686,7 +1651,8 @@
               "s": "it",
               "norm": "it",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0012-t007"
+              "serial": "coriolanus-a01-s02-l0012-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -1694,7 +1660,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0012-t008"
+              "serial": "coriolanus-a01-s02-l0012-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -1702,7 +1669,8 @@
               "s": "rumoured",
               "norm": "rumoured",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0012-t009"
+              "serial": "coriolanus-a01-s02-l0012-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -1716,36 +1684,17 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 19,
-      "serial": "coriolanus-a01-s02-i0019",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 10,
-      "line_number": 13,
-      "line_serial": "coriolanus-a01-s02-l0013",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "Cominius, Martius your old enemy,",
-          "tokens": [
+              },
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "Cominius",
               "norm": "cominius",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0013-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0013-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1759,7 +1708,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -1767,7 +1717,8 @@
               "s": "Martius",
               "norm": "martius",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0013-t003"
+              "serial": "coriolanus-a01-s02-l0013-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1775,7 +1726,8 @@
               "s": "your",
               "norm": "your",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0013-t004"
+              "serial": "coriolanus-a01-s02-l0013-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -1783,7 +1735,8 @@
               "s": "old",
               "norm": "old",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0013-t005"
+              "serial": "coriolanus-a01-s02-l0013-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -1791,7 +1744,8 @@
               "s": "enemy",
               "norm": "enemy",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0013-t006"
+              "serial": "coriolanus-a01-s02-l0013-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -1805,36 +1759,17 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 20,
-      "serial": "coriolanus-a01-s02-i0020",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 11,
-      "line_number": 14,
-      "line_serial": "coriolanus-a01-s02-l0014",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "Who is of Rome worse hated than of you,—",
-          "tokens": [
+              },
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "Who",
               "norm": "who",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0014-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0014-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1842,7 +1777,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0014-t002"
+              "serial": "coriolanus-a01-s02-l0014-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -1850,7 +1786,8 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0014-t003"
+              "serial": "coriolanus-a01-s02-l0014-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1858,7 +1795,8 @@
               "s": "Rome",
               "norm": "rome",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0014-t004"
+              "serial": "coriolanus-a01-s02-l0014-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -1866,7 +1804,8 @@
               "s": "worse",
               "norm": "worse",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0014-t005"
+              "serial": "coriolanus-a01-s02-l0014-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -1874,7 +1813,8 @@
               "s": "hated",
               "norm": "hated",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0014-t006"
+              "serial": "coriolanus-a01-s02-l0014-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -1882,7 +1822,8 @@
               "s": "than",
               "norm": "than",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0014-t007"
+              "serial": "coriolanus-a01-s02-l0014-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -1890,7 +1831,8 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0014-t008"
+              "serial": "coriolanus-a01-s02-l0014-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -1898,7 +1840,8 @@
               "s": "you",
               "norm": "you",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0014-t009"
+              "serial": "coriolanus-a01-s02-l0014-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -1912,7 +1855,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 11,
@@ -1926,36 +1870,17 @@
                 "dash": "em",
                 "quote": null,
                 "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 21,
-      "serial": "coriolanus-a01-s02-i0021",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 12,
-      "line_number": 15,
-      "line_serial": "coriolanus-a01-s02-l0015",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "And Titus Lartius, a most valiant Roman,",
-          "tokens": [
+              },
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "And",
               "norm": "and",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0015-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0015-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1963,7 +1888,8 @@
               "s": "Titus",
               "norm": "titus",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0015-t002"
+              "serial": "coriolanus-a01-s02-l0015-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -1971,7 +1897,8 @@
               "s": "Lartius",
               "norm": "lartius",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0015-t003"
+              "serial": "coriolanus-a01-s02-l0015-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1985,7 +1912,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -1993,7 +1921,8 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0015-t005"
+              "serial": "coriolanus-a01-s02-l0015-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2001,7 +1930,8 @@
               "s": "most",
               "norm": "most",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0015-t006"
+              "serial": "coriolanus-a01-s02-l0015-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2009,7 +1939,8 @@
               "s": "valiant",
               "norm": "valiant",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0015-t007"
+              "serial": "coriolanus-a01-s02-l0015-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -2017,7 +1948,8 @@
               "s": "Roman",
               "norm": "roman",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0015-t008"
+              "serial": "coriolanus-a01-s02-l0015-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -2031,36 +1963,17 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 22,
-      "serial": "coriolanus-a01-s02-i0022",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 13,
-      "line_number": 16,
-      "line_serial": "coriolanus-a01-s02-l0016",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "These three lead on this preparation",
-          "tokens": [
+              },
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "These",
               "norm": "these",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0016-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0016-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2068,7 +1981,8 @@
               "s": "three",
               "norm": "three",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0016-t002"
+              "serial": "coriolanus-a01-s02-l0016-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2076,7 +1990,8 @@
               "s": "lead",
               "norm": "lead",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0016-t003"
+              "serial": "coriolanus-a01-s02-l0016-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2084,7 +1999,8 @@
               "s": "on",
               "norm": "on",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0016-t004"
+              "serial": "coriolanus-a01-s02-l0016-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2092,7 +2008,8 @@
               "s": "this",
               "norm": "this",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0016-t005"
+              "serial": "coriolanus-a01-s02-l0016-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2100,36 +2017,17 @@
               "s": "preparation",
               "norm": "preparation",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0016-t006"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 23,
-      "serial": "coriolanus-a01-s02-i0023",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 14,
-      "line_number": 17,
-      "line_serial": "coriolanus-a01-s02-l0017",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "Whither ’tis bent. Most likely ’tis for you.",
-          "tokens": [
+              "serial": "coriolanus-a01-s02-l0016-t006",
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "Whither",
               "norm": "whither",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0017-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0017-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2137,7 +2035,8 @@
               "s": "’tis",
               "norm": "'tis",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0017-t002"
+              "serial": "coriolanus-a01-s02-l0017-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2145,7 +2044,8 @@
               "s": "bent",
               "norm": "bent",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0017-t003"
+              "serial": "coriolanus-a01-s02-l0017-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2159,7 +2059,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -2167,7 +2068,8 @@
               "s": "Most",
               "norm": "most",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0017-t005"
+              "serial": "coriolanus-a01-s02-l0017-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2175,7 +2077,8 @@
               "s": "likely",
               "norm": "likely",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0017-t006"
+              "serial": "coriolanus-a01-s02-l0017-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2183,7 +2086,8 @@
               "s": "’tis",
               "norm": "'tis",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0017-t007"
+              "serial": "coriolanus-a01-s02-l0017-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -2191,7 +2095,8 @@
               "s": "for",
               "norm": "for",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0017-t008"
+              "serial": "coriolanus-a01-s02-l0017-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -2199,7 +2104,8 @@
               "s": "you",
               "norm": "you",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0017-t009"
+              "serial": "coriolanus-a01-s02-l0017-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -2213,36 +2119,17 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 24,
-      "serial": "coriolanus-a01-s02-i0024",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s02-s0002",
-      "speech_seq": 15,
-      "line_number": 18,
-      "line_serial": "coriolanus-a01-s02-l0018",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "Consider of it._",
-          "tokens": [
+              },
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "Consider",
               "norm": "consider",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0018-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s02-l0018-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2250,7 +2137,8 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0018-t002"
+              "serial": "coriolanus-a01-s02-l0018-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2258,7 +2146,8 @@
               "s": "it",
               "norm": "it",
               "pre": " ",
-              "serial": "coriolanus-a01-s02-l0018-t003"
+              "serial": "coriolanus-a01-s02-l0018-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2272,21 +2161,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "coriolanus-a01-s02-l0018-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -2313,8 +2189,8 @@
       "speaker": "FIRST SENATOR",
       "speech_id": "coriolanus-a01-s02-s0003",
       "speech_seq": 1,
-      "line_number": 19,
-      "line_serial": "coriolanus-a01-s02-l0019",
+      "line_number": 10,
+      "line_serial": "coriolanus-a01-s02-l0010",
       "subsection": null,
       "spans": [
         {
@@ -2388,8 +2264,8 @@
       "speaker": "FIRST SENATOR",
       "speech_id": "coriolanus-a01-s02-s0003",
       "speech_seq": 2,
-      "line_number": 20,
-      "line_serial": "coriolanus-a01-s02-l0020",
+      "line_number": 11,
+      "line_serial": "coriolanus-a01-s02-l0011",
       "subsection": null,
       "spans": [
         {
@@ -2481,8 +2357,8 @@
       "speaker": "FIRST SENATOR",
       "speech_id": "coriolanus-a01-s02-s0003",
       "speech_seq": 3,
-      "line_number": 21,
-      "line_serial": "coriolanus-a01-s02-l0021",
+      "line_number": 12,
+      "line_serial": "coriolanus-a01-s02-l0012",
       "subsection": null,
       "spans": [
         {
@@ -2553,8 +2429,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0004",
       "speech_seq": 1,
-      "line_number": 22,
-      "line_serial": "coriolanus-a01-s02-l0022",
+      "line_number": 13,
+      "line_serial": "coriolanus-a01-s02-l0013",
       "subsection": null,
       "spans": [
         {
@@ -2622,8 +2498,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0004",
       "speech_seq": 2,
-      "line_number": 23,
-      "line_serial": "coriolanus-a01-s02-l0023",
+      "line_number": 14,
+      "line_serial": "coriolanus-a01-s02-l0014",
       "subsection": null,
       "spans": [
         {
@@ -2707,8 +2583,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0004",
       "speech_seq": 3,
-      "line_number": 24,
-      "line_serial": "coriolanus-a01-s02-l0024",
+      "line_number": 15,
+      "line_serial": "coriolanus-a01-s02-l0015",
       "subsection": null,
       "spans": [
         {
@@ -2842,8 +2718,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0004",
       "speech_seq": 4,
-      "line_number": 25,
-      "line_serial": "coriolanus-a01-s02-l0025",
+      "line_number": 16,
+      "line_serial": "coriolanus-a01-s02-l0016",
       "subsection": null,
       "spans": [
         {
@@ -2955,8 +2831,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0004",
       "speech_seq": 5,
-      "line_number": 26,
-      "line_serial": "coriolanus-a01-s02-l0026",
+      "line_number": 17,
+      "line_serial": "coriolanus-a01-s02-l0017",
       "subsection": null,
       "spans": [
         {
@@ -3062,8 +2938,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0004",
       "speech_seq": 6,
-      "line_number": 27,
-      "line_serial": "coriolanus-a01-s02-l0027",
+      "line_number": 18,
+      "line_serial": "coriolanus-a01-s02-l0018",
       "subsection": null,
       "spans": [
         {
@@ -3147,8 +3023,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0004",
       "speech_seq": 7,
-      "line_number": 28,
-      "line_serial": "coriolanus-a01-s02-l0028",
+      "line_number": 19,
+      "line_serial": "coriolanus-a01-s02-l0019",
       "subsection": null,
       "spans": [
         {
@@ -3235,8 +3111,8 @@
       "speaker": "SECOND SENATOR",
       "speech_id": "coriolanus-a01-s02-s0005",
       "speech_seq": 1,
-      "line_number": 29,
-      "line_serial": "coriolanus-a01-s02-l0029",
+      "line_number": 20,
+      "line_serial": "coriolanus-a01-s02-l0020",
       "subsection": null,
       "spans": [
         {
@@ -3286,8 +3162,8 @@
       "speaker": "SECOND SENATOR",
       "speech_id": "coriolanus-a01-s02-s0005",
       "speech_seq": 2,
-      "line_number": 30,
-      "line_serial": "coriolanus-a01-s02-l0030",
+      "line_number": 21,
+      "line_serial": "coriolanus-a01-s02-l0021",
       "subsection": null,
       "spans": [
         {
@@ -3399,8 +3275,8 @@
       "speaker": "SECOND SENATOR",
       "speech_id": "coriolanus-a01-s02-s0005",
       "speech_seq": 3,
-      "line_number": 31,
-      "line_serial": "coriolanus-a01-s02-l0031",
+      "line_number": 22,
+      "line_serial": "coriolanus-a01-s02-l0022",
       "subsection": null,
       "spans": [
         {
@@ -3482,8 +3358,8 @@
       "speaker": "SECOND SENATOR",
       "speech_id": "coriolanus-a01-s02-s0005",
       "speech_seq": 4,
-      "line_number": 32,
-      "line_serial": "coriolanus-a01-s02-l0032",
+      "line_number": 23,
+      "line_serial": "coriolanus-a01-s02-l0023",
       "subsection": null,
       "spans": [
         {
@@ -3581,8 +3457,8 @@
       "speaker": "SECOND SENATOR",
       "speech_id": "coriolanus-a01-s02-s0005",
       "speech_seq": 5,
-      "line_number": 33,
-      "line_serial": "coriolanus-a01-s02-l0033",
+      "line_number": 24,
+      "line_serial": "coriolanus-a01-s02-l0024",
       "subsection": null,
       "spans": [
         {
@@ -3688,8 +3564,8 @@
       "speaker": "SECOND SENATOR",
       "speech_id": "coriolanus-a01-s02-s0005",
       "speech_seq": 6,
-      "line_number": 34,
-      "line_serial": "coriolanus-a01-s02-l0034",
+      "line_number": 25,
+      "line_serial": "coriolanus-a01-s02-l0025",
       "subsection": null,
       "spans": [
         {
@@ -3776,8 +3652,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0006",
       "speech_seq": 1,
-      "line_number": 35,
-      "line_serial": "coriolanus-a01-s02-l0035",
+      "line_number": 26,
+      "line_serial": "coriolanus-a01-s02-l0026",
       "subsection": null,
       "spans": [
         {
@@ -3857,8 +3733,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0006",
       "speech_seq": 2,
-      "line_number": 36,
-      "line_serial": "coriolanus-a01-s02-l0036",
+      "line_number": 27,
+      "line_serial": "coriolanus-a01-s02-l0027",
       "subsection": null,
       "spans": [
         {
@@ -3968,8 +3844,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0006",
       "speech_seq": 3,
-      "line_number": 37,
-      "line_serial": "coriolanus-a01-s02-l0037",
+      "line_number": 28,
+      "line_serial": "coriolanus-a01-s02-l0028",
       "subsection": null,
       "spans": [
         {
@@ -4067,8 +3943,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0006",
       "speech_seq": 4,
-      "line_number": 38,
-      "line_serial": "coriolanus-a01-s02-l0038",
+      "line_number": 29,
+      "line_serial": "coriolanus-a01-s02-l0029",
       "subsection": null,
       "spans": [
         {
@@ -4172,8 +4048,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0006",
       "speech_seq": 5,
-      "line_number": 39,
-      "line_serial": "coriolanus-a01-s02-l0039",
+      "line_number": 30,
+      "line_serial": "coriolanus-a01-s02-l0030",
       "subsection": null,
       "spans": [
         {
@@ -4271,8 +4147,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0006",
       "speech_seq": 6,
-      "line_number": 40,
-      "line_serial": "coriolanus-a01-s02-l0040",
+      "line_number": 31,
+      "line_serial": "coriolanus-a01-s02-l0031",
       "subsection": null,
       "spans": [
         {
@@ -4356,8 +4232,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0006",
       "speech_seq": 7,
-      "line_number": 41,
-      "line_serial": "coriolanus-a01-s02-l0041",
+      "line_number": 32,
+      "line_serial": "coriolanus-a01-s02-l0032",
       "subsection": null,
       "spans": [
         {
@@ -4452,8 +4328,8 @@
       "speaker": "ALL",
       "speech_id": "coriolanus-a01-s02-s0007",
       "speech_seq": 1,
-      "line_number": 42,
-      "line_serial": "coriolanus-a01-s02-l0042",
+      "line_number": 33,
+      "line_serial": "coriolanus-a01-s02-l0033",
       "subsection": null,
       "spans": [
         {
@@ -4532,8 +4408,8 @@
       "speaker": "AUFIDIUS",
       "speech_id": "coriolanus-a01-s02-s0008",
       "speech_seq": 1,
-      "line_number": 43,
-      "line_serial": "coriolanus-a01-s02-l0043",
+      "line_number": 34,
+      "line_serial": "coriolanus-a01-s02-l0034",
       "subsection": null,
       "spans": [
         {
@@ -4620,8 +4496,8 @@
       "speaker": "FIRST SENATOR",
       "speech_id": "coriolanus-a01-s02-s0009",
       "speech_seq": 1,
-      "line_number": 44,
-      "line_serial": "coriolanus-a01-s02-l0044",
+      "line_number": 35,
+      "line_serial": "coriolanus-a01-s02-l0035",
       "subsection": null,
       "spans": [
         {
@@ -4676,8 +4552,8 @@
       "speaker": "SECOND SENATOR",
       "speech_id": "coriolanus-a01-s02-s0010",
       "speech_seq": 1,
-      "line_number": 45,
-      "line_serial": "coriolanus-a01-s02-l0045",
+      "line_number": 36,
+      "line_serial": "coriolanus-a01-s02-l0036",
       "subsection": null,
       "spans": [
         {
@@ -4732,8 +4608,8 @@
       "speaker": "ALL",
       "speech_id": "coriolanus-a01-s02-s0011",
       "speech_seq": 1,
-      "line_number": 46,
-      "line_serial": "coriolanus-a01-s02-l0046",
+      "line_number": 37,
+      "line_serial": "coriolanus-a01-s02-l0037",
       "subsection": null,
       "spans": [
         {

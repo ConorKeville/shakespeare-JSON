@@ -1424,22 +1424,21 @@
       "spans": []
     },
     {
-      "seq": 19,
-      "serial": "coriolanus-a01-s08-i0019",
-      "kind": "stage",
-      "subtype": "within",
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
+      "seq": 20,
+      "serial": "coriolanus-a01-s08-i0020",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "MARTIUS",
+      "speech_id": "coriolanus-a01-s08-s0005",
+      "speech_seq": 1,
+      "line_number": 10,
+      "line_serial": "coriolanus-a01-s08-l0010",
       "subsection": null,
       "spans": [
         {
-          "type": "stage",
-          "em": true,
-          "text": "Within these three hours, Tullus,",
-          "stage": null,
+          "type": "speech",
+          "em": false,
+          "text": "Within these three hours, Tullus, Alone I fought in your Corioles’ walls,",
           "tokens": [
             {
               "i": 1,
@@ -1515,34 +1514,13 @@
                 "quote": null,
                 "role": null
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 20,
-      "serial": "coriolanus-a01-s08-i0020",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "MARTIUS",
-      "speech_id": "coriolanus-a01-s08-s0005",
-      "speech_seq": 1,
-      "line_number": 10,
-      "line_serial": "coriolanus-a01-s08-l0010",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "Alone I fought in your Corioles’ walls,",
-          "tokens": [
+            },
             {
               "i": 1,
               "type": "word",
               "s": "Alone",
               "norm": "alone",
-              "pre": "",
+              "pre": " ",
               "serial": "coriolanus-a01-s08-l0010-t001"
             },
             {
@@ -2493,55 +2471,29 @@
     {
       "seq": 31,
       "serial": "coriolanus-a01-s08-i0031",
-      "kind": "speech",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s08-s0006",
-      "speech_seq": 6,
-      "line_number": 19,
-      "line_serial": "coriolanus-a01-s08-l0019",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "[_Martius fights till they be driven in breathless. Aufidius and",
+          "type": "stage",
+          "em": true,
+          "text": "Martius fights till they be driven in breathless. Aufidius and Martius exit, separately.",
+          "stage": null,
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "[",
-              "norm": "[",
-              "pre": "",
-              "serial": "coriolanus-a01-s08-i0031-t001",
-              "punct": {
-                "kind": "bracket_open",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "coriolanus-a01-s08-i0031-t002",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 3,
               "type": "word",
               "s": "Martius",
               "norm": "martius",
               "pre": "",
-              "serial": "coriolanus-a01-s08-i0031-t003"
+              "serial": "coriolanus-a01-s08-i0031-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -2549,7 +2501,8 @@
               "s": "fights",
               "norm": "fights",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t004"
+              "serial": "coriolanus-a01-s08-i0031-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2557,7 +2510,8 @@
               "s": "till",
               "norm": "till",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t005"
+              "serial": "coriolanus-a01-s08-i0031-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -2565,7 +2519,8 @@
               "s": "they",
               "norm": "they",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t006"
+              "serial": "coriolanus-a01-s08-i0031-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -2573,7 +2528,8 @@
               "s": "be",
               "norm": "be",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t007"
+              "serial": "coriolanus-a01-s08-i0031-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -2581,7 +2537,8 @@
               "s": "driven",
               "norm": "driven",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t008"
+              "serial": "coriolanus-a01-s08-i0031-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -2589,7 +2546,8 @@
               "s": "in",
               "norm": "in",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t009"
+              "serial": "coriolanus-a01-s08-i0031-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -2597,7 +2555,8 @@
               "s": "breathless",
               "norm": "breathless",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t010"
+              "serial": "coriolanus-a01-s08-i0031-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -2611,7 +2570,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 12,
@@ -2619,7 +2579,8 @@
               "s": "Aufidius",
               "norm": "aufidius",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t012"
+              "serial": "coriolanus-a01-s08-i0031-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -2627,36 +2588,17 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0031-t013"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 32,
-      "serial": "coriolanus-a01-s08-i0032",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "AUFIDIUS",
-      "speech_id": "coriolanus-a01-s08-s0006",
-      "speech_seq": 7,
-      "line_number": 20,
-      "line_serial": "coriolanus-a01-s08-l0020",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "Martius exit, separately._]",
-          "tokens": [
+              "serial": "coriolanus-a01-s08-i0031-t013",
+              "em": true
+            },
             {
               "i": 1,
               "type": "word",
               "s": "Martius",
               "norm": "martius",
-              "pre": "",
-              "serial": "coriolanus-a01-s08-i0032-t001"
+              "pre": " ",
+              "serial": "coriolanus-a01-s08-i0032-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -2664,7 +2606,8 @@
               "s": "exit",
               "norm": "exit",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0032-t002"
+              "serial": "coriolanus-a01-s08-i0032-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -2678,7 +2621,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 4,
@@ -2686,7 +2630,8 @@
               "s": "separately",
               "norm": "separately",
               "pre": " ",
-              "serial": "coriolanus-a01-s08-i0032-t004"
+              "serial": "coriolanus-a01-s08-i0032-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -2700,35 +2645,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "coriolanus-a01-s08-i0032-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "]",
-              "norm": "]",
-              "pre": "",
-              "serial": "coriolanus-a01-s08-i0032-t007",
-              "punct": {
-                "kind": "bracket_close",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
