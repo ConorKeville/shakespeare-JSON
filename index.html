@@ -29,11 +29,8 @@
     .stage{font-style:italic;color:var(--muted);margin:.25rem 0}
     .speech{margin:.75rem 0 1rem}
     .speaker{margin:.75rem 0 .25rem;font-weight:700;font-size:.95rem;color:var(--accent);text-transform:capitalize}
-    .line{margin:.1rem 0;display:grid;grid-template-columns:minmax(4ch,auto) 1fr;gap:.75rem;align-items:flex-start;user-select:text;border-radius:.35rem;padding:.15rem .25rem}
-    .line.in-range{background:rgba(176,140,255,.2)}
-    .line-number{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
-    .line[data-line] .line-number{cursor:pointer}
-    .line-number:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+    .line{margin:.1rem 0;display:grid;grid-template-columns:minmax(4ch,auto) 1fr;gap:.75rem;align-items:flex-start}
+    .line-number{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right;user-select:text}
     .line-text{white-space:pre-wrap}
     .play summary{cursor:pointer;font-weight:600}
     .play small.muted{color:var(--muted);font-weight:500}
@@ -89,7 +86,6 @@
     }
 
     const state = { index:null, byPath:new Map(), byPlay:new Map(), current:null, cache:new Map() };
-    const selection = {start:null,end:null};
 
     async function loadIndex(){
       const res = await fetch('index.json');               // IMPORTANT: relative path (works at /shakespeare-JSON/)
@@ -111,7 +107,6 @@
           class:'scene-link full',
           'data-play':play.id
         }, 'Full play')));
-        const grouped = new Map();
         play.scenes.forEach(s=>{
           const act = s.act ?? 'Other';
           if (!grouped.has(act)) grouped.set(act, []);
@@ -147,77 +142,6 @@
       return spans.map(sp=>sp.text || '').join('');
     }
 
-    function clearSelection(){
-      selection.start = selection.end = null;
-      updateSelectionUI();
-    }
-
-    function onLineNumberClick(event){
-      const lineEl = event.currentTarget.closest('.line');
-      const value = lineEl?.dataset.line;
-      const ln = value !== undefined ? Number(value) : NaN;
-      if (!Number.isFinite(ln)) return;
-      if (selection.start === null || selection.end !== null){
-        selection.start = ln;
-        selection.end = null;
-      } else if (selection.start !== null && selection.end === null){
-        selection.end = ln;
-      }
-      updateSelectionUI();
-    }
-
-    function updateSelectionUI(){
-      const lines = Array.from(document.querySelectorAll('.line[data-line]'));
-      lines.forEach(line=>line.classList.remove('in-range'));
-      const banner = $('#selection');
-      const label = $('#selection-label');
-      if (selection.start === null){
-        banner.classList.remove('active');
-        label.textContent = '';
-        return;
-      }
-      const [start,end] = selection.end === null ? [selection.start, selection.start] : [Math.min(selection.start, selection.end), Math.max(selection.start, selection.end)];
-      lines.forEach(line=>{
-        const value = line.dataset.line;
-        const num = value !== undefined ? Number(value) : NaN;
-        if (Number.isFinite(num) && num >= start && num <= end){
-          line.classList.add('in-range');
-        }
-      });
-      label.innerHTML = selection.end === null ? `Selected line <strong>${start}</strong>` : `Selected lines <strong>${start}</strong>–<strong>${end}</strong>`;
-      banner.classList.add('active');
-    }
-
-    $('#copy-selection').addEventListener('click', async ()=>{
-      if (selection.start === null) return;
-      const [start,end] = selection.end === null ? [selection.start, selection.start] : [Math.min(selection.start, selection.end), Math.max(selection.start, selection.end)];
-      const lines = Array.from(document.querySelectorAll('.line[data-line]')).filter(line=>{
-        const value = line.dataset.line;
-        const ln = value !== undefined ? Number(value) : NaN;
-        return Number.isFinite(ln) && ln >= start && ln <= end;
-      });
-      const text = lines.map(line=>{
-        const num = line.querySelector('.line-number')?.textContent?.trim() || '';
-        const words = line.querySelector('.line-text')?.textContent || '';
-        return num ? `${num}\t${words}` : words;
-      }).join('\n');
-      try {
-        await navigator.clipboard.writeText(text);
-      } catch(err){
-        const ta = document.createElement('textarea');
-        ta.value = text;
-        ta.setAttribute('readonly','');
-        ta.style.position = 'absolute';
-        ta.style.left = '-9999px';
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand('copy');
-        document.body.removeChild(ta);
-      }
-    });
-
-    $('#clear-selection').addEventListener('click', clearSelection);
-
     function renderScene(json,{playTitle:playOverride,unitTitle:unitOverride}={}){
       const playTitle = playOverride || json.meta?.play?.title || json.meta?.play?.id || 'Unknown play';
       let unitTitle;
@@ -248,16 +172,9 @@
             lastSpeechId = item.speech_id;
             pendingSpeaker = null;
           }
-          const attrs = {class:'line'};
-          if (item.line_number !== null && item.line_number !== undefined) attrs['data-line'] = item.line_number;
-          const line = el('p',attrs);
+          const line = el('p',{class:'line','data-line':item.line_number ?? ''});
           const ln = item.line_number ? String(item.line_number) : '\u00A0';
-          const lineNumber = el('span',{class:'line-number', tabindex:item.line_number ? '0' : null}, ln);
-          lineNumber.addEventListener('click', onLineNumberClick);
-          lineNumber.addEventListener('keydown', e=>{
-            if (e.key==='Enter' || e.key===' ') { e.preventDefault(); onLineNumberClick(e); }
-          });
-          line.appendChild(lineNumber);
+          line.appendChild(el('span',{class:'line-number'}, ln));
           line.appendChild(el('span',{class:'line-text'}, textFromItem(item)));
           cur.appendChild(line);
         } else if (item.kind === 'speaker_label'){
@@ -268,6 +185,24 @@
       }
       content.scrollTop = 0;
       updateSelectionUI();
+    }
+
+    async function fetchJSON(path){
+      if (state.cache.has(path)) return state.cache.get(path);
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
+      const json = await res.json();
+      state.cache.set(path,json);
+      return json;
+    }
+
+    function setActiveLink(selector){
+      document.querySelectorAll('.scene-link.active').forEach(a=>a.classList.remove('active'));
+      if (selector){
+        const node = document.querySelector(selector);
+        node?.classList.add('active');
+        node?.closest('details')?.setAttribute('open','');
+      }
     }
 
     async function fetchJSON(path){
