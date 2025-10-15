@@ -29,15 +29,26 @@
     .stage{font-style:italic;color:var(--muted);margin:.25rem 0}
     .speech{margin:.75rem 0 1rem}
     .speaker{margin:.75rem 0 .25rem;font-weight:700;font-size:.95rem;color:var(--accent);text-transform:capitalize}
-    .line{margin:.1rem 0}
+    .line{margin:.1rem 0;display:grid;grid-template-columns:minmax(4ch,auto) 1fr;gap:.75rem;align-items:flex-start;user-select:text;border-radius:.35rem;padding:.15rem .25rem}
+    .line.in-range{background:rgba(176,140,255,.2)}
+    .line-number{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
+    .line[data-line] .line-number{cursor:pointer}
+    .line-number:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+    .line-text{white-space:pre-wrap}
     .play summary{cursor:pointer;font-weight:600}
     .play small.muted{color:var(--muted);font-weight:500}
-    ul.scenes{list-style:none;padding:.25rem 0 .5rem .25rem;margin:0}
-    ul.scenes li{margin:.15rem 0}
+    ul.scenes{list-style:none;padding:.25rem 0 .5rem .25rem;margin:0;display:grid;gap:.35rem}
+    .act-group{margin:.35rem 0 0}
+    .act-title{font-size:.85rem;font-weight:600;color:var(--muted);margin:.4rem 0 .15rem;text-transform:uppercase;letter-spacing:.04em}
+    .scene-items{list-style:none;margin:0;padding:0;display:grid;gap:.2rem}
     a.scene-link{color:inherit;text-decoration:none;border-radius:.35rem;padding:.2rem .35rem;display:inline-block}
     a.scene-link:hover{background:rgba(176,140,255,.18)}
     a.scene-link.active{background:rgba(176,140,255,.35)}
     .error{white-space:pre-wrap;background:#ffeded0f;border:1px solid #fca5a5;color:#fecaca;padding:1rem;border-radius:.5rem}
+    #selection{display:none;align-items:center;gap:.75rem;padding:.6rem 1rem;border-bottom:1px solid var(--border);background:rgba(176,140,255,.12)}
+    #selection.active{display:flex}
+    #selection strong{font-variant-numeric:tabular-nums;letter-spacing:.02em}
+    #selection button{border:1px solid var(--border);background:transparent;color:var(--text);padding:.35rem .6rem;border-radius:.5rem;font:inherit;cursor:pointer}
     @media (max-width:920px){aside{display:none}main{border-left:none}}
   </style>
 </head>
@@ -50,6 +61,13 @@
         <button id="prev" disabled>← Prev</button>
         <div id="crumbs">Loading…</div>
         <button id="next" disabled>Next →</button>
+      </div>
+      <div id="selection" role="status" aria-live="polite">
+        <span id="selection-label"></span>
+        <div style="margin-left:auto;display:flex;gap:.5rem;align-items:center">
+          <button id="copy-selection">Copy range</button>
+          <button id="clear-selection">Clear</button>
+        </div>
       </div>
       <article id="content" aria-live="polite"></article>
     </main>
@@ -70,7 +88,8 @@
       return n;
     }
 
-    const state = { index:null, byPath:new Map(), currentPath:null };
+    const state = { index:null, byPath:new Map(), byPlay:new Map(), current:null, cache:new Map() };
+    const selection = {start:null,end:null};
 
     async function loadIndex(){
       const res = await fetch('index.json');               // IMPORTANT: relative path (works at /shakespeare-JSON/)
@@ -87,10 +106,36 @@
         const details = el('details',{class:'play'});
         details.appendChild(el('summary',{}, play.title+' ', el('small',{class:'muted'},`(${play.scene_count})`)));
         const ul = el('ul',{class:'scenes'});
+        ul.appendChild(el('li',{}, el('a',{
+          href:'#p='+encodeURIComponent(play.id),
+          class:'scene-link full',
+          'data-play':play.id
+        }, 'Full play')));
+        const grouped = new Map();
         play.scenes.forEach(s=>{
-          const label = s.title || `Act ${s.act ?? '?'} Scene ${s.scene ?? '?'}`;
-          const a = el('a',{href:'#s='+encodeURIComponent(s.path), class:'scene-link', 'data-path':s.path}, label);
-          ul.appendChild(el('li',{}, a));
+          const act = s.act ?? 'Other';
+          if (!grouped.has(act)) grouped.set(act, []);
+          grouped.get(act).push(s);
+        });
+        const sortedActs = Array.from(grouped.keys()).sort((a,b)=>{
+          if (typeof a === 'number' && typeof b === 'number') return a-b;
+          if (typeof a === 'number') return -1;
+          if (typeof b === 'number') return 1;
+          return String(a).localeCompare(String(b));
+        });
+        sortedActs.forEach(act=>{
+          const scenes = grouped.get(act);
+          const actTitle = typeof act === 'number' ? `Act ${act}` : String(act);
+          const li = el('li',{class:'act-group'});
+          li.appendChild(el('div',{class:'act-title'}, actTitle));
+          const list = el('ul',{class:'scene-items'});
+          scenes.forEach(s=>{
+            const label = s.title || (typeof s.scene === 'number' ? `Scene ${s.scene}` : s.scene || 'Scene');
+            const a = el('a',{href:'#s='+encodeURIComponent(s.path), class:'scene-link', 'data-path':s.path}, label);
+            list.appendChild(el('li',{}, a));
+          });
+          li.appendChild(list);
+          ul.appendChild(li);
         });
         details.appendChild(ul);
         root.appendChild(details);
@@ -102,49 +147,154 @@
       return spans.map(sp=>sp.text || '').join('');
     }
 
-    function renderScene(json){
-      const playTitle = json.meta?.play?.title || json.meta?.play?.id || 'Unknown play';
-      const unitTitle = json.meta?.unit?.title || json.meta?.unit?.label || '';
+    function clearSelection(){
+      selection.start = selection.end = null;
+      updateSelectionUI();
+    }
+
+    function onLineNumberClick(event){
+      const lineEl = event.currentTarget.closest('.line');
+      const value = lineEl?.dataset.line;
+      const ln = value !== undefined ? Number(value) : NaN;
+      if (!Number.isFinite(ln)) return;
+      if (selection.start === null || selection.end !== null){
+        selection.start = ln;
+        selection.end = null;
+      } else if (selection.start !== null && selection.end === null){
+        selection.end = ln;
+      }
+      updateSelectionUI();
+    }
+
+    function updateSelectionUI(){
+      const lines = Array.from(document.querySelectorAll('.line[data-line]'));
+      lines.forEach(line=>line.classList.remove('in-range'));
+      const banner = $('#selection');
+      const label = $('#selection-label');
+      if (selection.start === null){
+        banner.classList.remove('active');
+        label.textContent = '';
+        return;
+      }
+      const [start,end] = selection.end === null ? [selection.start, selection.start] : [Math.min(selection.start, selection.end), Math.max(selection.start, selection.end)];
+      lines.forEach(line=>{
+        const value = line.dataset.line;
+        const num = value !== undefined ? Number(value) : NaN;
+        if (Number.isFinite(num) && num >= start && num <= end){
+          line.classList.add('in-range');
+        }
+      });
+      label.innerHTML = selection.end === null ? `Selected line <strong>${start}</strong>` : `Selected lines <strong>${start}</strong>–<strong>${end}</strong>`;
+      banner.classList.add('active');
+    }
+
+    $('#copy-selection').addEventListener('click', async ()=>{
+      if (selection.start === null) return;
+      const [start,end] = selection.end === null ? [selection.start, selection.start] : [Math.min(selection.start, selection.end), Math.max(selection.start, selection.end)];
+      const lines = Array.from(document.querySelectorAll('.line[data-line]')).filter(line=>{
+        const value = line.dataset.line;
+        const ln = value !== undefined ? Number(value) : NaN;
+        return Number.isFinite(ln) && ln >= start && ln <= end;
+      });
+      const text = lines.map(line=>{
+        const num = line.querySelector('.line-number')?.textContent?.trim() || '';
+        const words = line.querySelector('.line-text')?.textContent || '';
+        return num ? `${num}\t${words}` : words;
+      }).join('\n');
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch(err){
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly','');
+        ta.style.position = 'absolute';
+        ta.style.left = '-9999px';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      }
+    });
+
+    $('#clear-selection').addEventListener('click', clearSelection);
+
+    function renderScene(json,{playTitle:playOverride,unitTitle:unitOverride}={}){
+      const playTitle = playOverride || json.meta?.play?.title || json.meta?.play?.id || 'Unknown play';
+      let unitTitle;
+      if (unitOverride !== undefined) unitTitle = unitOverride;
+      else unitTitle = json.meta?.unit?.title || json.meta?.unit?.label || '';
       $('#crumbs').textContent = unitTitle ? `${playTitle} › ${unitTitle}` : playTitle;
 
       const content = $('#content'); content.innerHTML = '';
       if (unitTitle) content.appendChild(el('h1',{class:'unit'}, unitTitle));
 
       let lastSpeechId = null, cur = null;
+      let pendingSpeaker = null;
+      clearSelection();
       for (const item of (json.items || [])){
         if (item.kind === 'heading'){
           const level = (item.subtype==='scene' || item.subtype==='title') ? 'h2' : 'h3';
           content.appendChild(el(level,{class:'heading '+(item.subtype||'')}, textFromItem(item)));
-          lastSpeechId = null; cur = null;
+          lastSpeechId = null; cur = null; pendingSpeaker = null;
         } else if (item.kind === 'stage'){
           content.appendChild(el('div',{class:'stage'}, textFromItem(item)));
         } else if (item.kind === 'speech'){
           if (item.speech_id !== lastSpeechId){
             cur = el('section',{class:'speech'});
-            const speaker = (item.speaker || '').replaceAll('_',' ').trim();
+            const speakerRaw = pendingSpeaker || item.speaker || '';
+            const speaker = speakerRaw.replaceAll('_',' ').trim();
             if (speaker) cur.appendChild(el('h4',{class:'speaker'}, speaker));
             content.appendChild(cur);
             lastSpeechId = item.speech_id;
+            pendingSpeaker = null;
           }
-          cur.appendChild(el('p',{class:'line','data-line':item.line_number ?? ''}, textFromItem(item)));
+          const attrs = {class:'line'};
+          if (item.line_number !== null && item.line_number !== undefined) attrs['data-line'] = item.line_number;
+          const line = el('p',attrs);
+          const ln = item.line_number ? String(item.line_number) : '\u00A0';
+          const lineNumber = el('span',{class:'line-number', tabindex:item.line_number ? '0' : null}, ln);
+          lineNumber.addEventListener('click', onLineNumberClick);
+          lineNumber.addEventListener('keydown', e=>{
+            if (e.key==='Enter' || e.key===' ') { e.preventDefault(); onLineNumberClick(e); }
+          });
+          line.appendChild(lineNumber);
+          line.appendChild(el('span',{class:'line-text'}, textFromItem(item)));
+          cur.appendChild(line);
         } else if (item.kind === 'speaker_label'){
-          cur = el('section',{class:'speech'});
-          cur.appendChild(el('h4',{class:'speaker'}, (item.speaker||'').replaceAll('_',' ').trim()));
-          content.appendChild(cur);
+          pendingSpeaker = (item.speaker||'').replaceAll('_',' ').trim();
+          cur = null;
           lastSpeechId = null;
         }
       }
       content.scrollTop = 0;
+      updateSelectionUI();
+    }
+
+    async function fetchJSON(path){
+      if (state.cache.has(path)) return state.cache.get(path);
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
+      const json = await res.json();
+      state.cache.set(path,json);
+      return json;
+    }
+
+    function setActiveLink(selector){
+      document.querySelectorAll('.scene-link.active').forEach(a=>a.classList.remove('active'));
+      if (selector){
+        const node = document.querySelector(selector);
+        node?.classList.add('active');
+        node?.closest('details')?.setAttribute('open','');
+      }
     }
 
     async function loadSceneByPath(path){
       // highlight active & open the play
-      document.querySelectorAll('.scene-link.active').forEach(a=>a.classList.remove('active'));
-      const a = document.querySelector(`.scene-link[data-path="${CSS.escape(path)}"]`);
-      if (a){ a.classList.add('active'); a.closest('details')?.setAttribute('open',''); }
+      setActiveLink(`.scene-link[data-path="${CSS.escape(path)}"]`);
 
       // prev/next within the same play
       const loc = state.byPath.get(path);
+      if (!loc) throw new Error(`Unknown scene: ${path}`);
       const play = state.index.plays[loc.playIndex];
       const prev = play.scenes[loc.sceneIndex-1];
       const next = play.scenes[loc.sceneIndex+1];
@@ -152,15 +302,50 @@
       $('#prev').onclick = prev ? ()=>navigateTo(prev.path) : null;
       $('#next').onclick = next ? ()=>navigateTo(next.path) : null;
 
-      const res = await fetch(path);
-      if (!res.ok) throw new Error(`Failed to load scene ${path}: ${res.status}`);
-      const json = await res.json();
-      state.currentPath = path;
-      renderScene(json);
+      const key = `scene:${path}`;
+      state.current = key;
+      try {
+        const json = await fetchJSON(path);
+        renderScene(json);
+      } catch(err){
+        state.current = null;
+        throw err;
+      }
+    }
+
+    async function loadPlayById(id){
+      const play = state.byPlay.get(id);
+      if (!play) throw new Error(`Unknown play: ${id}`);
+      setActiveLink(`.scene-link.full[data-play="${CSS.escape(id)}"]`);
+      $('#prev').disabled = true; $('#next').disabled = true;
+      $('#prev').onclick = null; $('#next').onclick = null;
+
+      const key = `play:${id}`;
+      state.current = key;
+      try {
+        const scenes = await Promise.all(play.scenes.map(s=>fetchJSON(s.path)));
+        if (!scenes.length) throw new Error(`Play has no scenes: ${id}`);
+        const items = scenes.flatMap(s=>s.items || []);
+        const combined = {
+          meta: { play: scenes[0].meta?.play },
+          items
+        };
+        renderScene(combined,{playTitle:play.title, unitTitle:'Full Play'});
+      } catch(err){
+        state.current = null;
+        throw err;
+      }
     }
 
     function navigateTo(path){ location.hash = '#s=' + encodeURIComponent(path); }
-    function sceneFromHash(){ const m = location.hash.match(/#s=([^&]+)/); return m ? decodeURIComponent(m[1]) : null; }
+    function navigateToPlay(id){ location.hash = '#p=' + encodeURIComponent(id); }
+    function hashState(){
+      const scene = location.hash.match(/#s=([^&]+)/);
+      if (scene) return {type:'scene', value:decodeURIComponent(scene[1])};
+      const play = location.hash.match(/#p=([^&]+)/);
+      if (play) return {type:'play', value:decodeURIComponent(play[1])};
+      return null;
+    }
 
     function showError(err){
       const content = $('#content'); content.innerHTML = '';
@@ -169,8 +354,12 @@
     }
 
     window.addEventListener('hashchange', ()=>{
-      const p = sceneFromHash();
-      if (p && p !== state.currentPath) loadSceneByPath(p).catch(showError);
+      const target = hashState();
+      if (!target) return;
+      const key = `${target.type}:${target.value}`;
+      if (key === state.current) return;
+      const loader = target.type === 'scene' ? loadSceneByPath(target.value) : loadPlayById(target.value);
+      Promise.resolve(loader).catch(showError);
     });
 
     window.addEventListener('keydown', e=>{
@@ -180,13 +369,21 @@
 
     (async function start(){
       await loadIndex();
+      state.byPlay.clear();
+      state.index.plays.forEach(p=>state.byPlay.set(p.id,p));
       renderSidebar();
-      let path = sceneFromHash();
-      if (!path){
-        const first = state.index.plays[0]?.scenes[0];
-        if (first){ path = first.path; location.hash = '#s='+encodeURIComponent(path); }
+      let target = hashState();
+      if (!target){
+        const firstPlay = state.index.plays[0];
+        if (firstPlay){
+          navigateToPlay(firstPlay.id);
+          target = {type:'play', value:firstPlay.id};
+        }
       }
-      if (path) await loadSceneByPath(path);
+      if (target){
+        if (target.type==='scene') await loadSceneByPath(target.value);
+        else await loadPlayById(target.value);
+      }
     })().catch(showError);
   })();
   </script>
