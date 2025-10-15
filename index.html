@@ -35,6 +35,7 @@
     .line-text{white-space:pre-wrap}
     .token{cursor:pointer;display:inline;border-radius:.2rem;padding:0 .1rem;margin:0 -.1rem;transition:background-color .15s ease,color .15s ease}
     .token:hover{background:rgba(176,140,255,.18)}
+    .token.selected{background:rgba(176,140,255,.35);color:var(--accent)}
     .token.copied{background:rgba(176,140,255,.35);color:var(--accent)}
     .token.em{font-style:italic}
     .line[data-line]{cursor:pointer}
@@ -93,13 +94,17 @@
       return n;
     }
 
-    const state = { index:null, byPath:new Map(), byPlay:new Map(), current:null, cache:new Map() };
-    const selection = { anchor:null, focus:null };
+    const state = { index:null, byPath:new Map(), byPlay:new Map(), current:null, cache:new Map(), meta:null };
+    const selection = { type:null, anchor:null, focus:null };
     let awaitingFocusClick = false;
     let copyFeedbackTimer = null;
 
     function lineElements(){
       return Array.from(document.querySelectorAll('#content .line'));
+    }
+
+    function tokenElements(){
+      return Array.from(document.querySelectorAll('#content .line .token'));
     }
 
     function selectableLines(){
@@ -110,25 +115,73 @@
     }
 
     function selectionRange(){
-      const lines = selectableLines();
-      const {anchor, focus} = selection;
-      if (!anchor || !focus) return {nodes:[], start:null, end:null, count:0};
-      const anchorIndex = lines.indexOf(anchor);
-      const focusIndex = lines.indexOf(focus);
-      if (anchorIndex === -1 || focusIndex === -1) return {nodes:[], start:null, end:null, count:0};
-      const startIndex = Math.min(anchorIndex, focusIndex);
-      const endIndex = Math.max(anchorIndex, focusIndex);
-      const nodes = lines.slice(startIndex, endIndex+1);
-      const start = nodes[0]?.dataset.line || null;
-      const end = nodes[nodes.length-1]?.dataset.line || null;
-      return {nodes, start, end, count:nodes.length};
+      const base = {type:selection.type, nodes:[], lines:[], lineStart:null, lineEnd:null, tokenCount:0, lineCount:0};
+      const {anchor, focus, type} = selection;
+      if (!anchor || !focus || !type) return base;
+      if (type === 'line'){
+        const lines = selectableLines();
+        const anchorIndex = lines.indexOf(anchor);
+        const focusIndex = lines.indexOf(focus);
+        if (anchorIndex === -1 || focusIndex === -1) return base;
+        const startIndex = Math.min(anchorIndex, focusIndex);
+        const endIndex = Math.max(anchorIndex, focusIndex);
+        const nodes = lines.slice(startIndex, endIndex+1);
+        const lineStart = nodes[0]?.dataset.line || null;
+        const lineEnd = nodes[nodes.length-1]?.dataset.line || null;
+        return {
+          ...base,
+          nodes,
+          lines:nodes,
+          lineStart,
+          lineEnd,
+          lineCount:nodes.length
+        };
+      }
+      if (type === 'token'){
+        const tokens = tokenElements();
+        const anchorIndex = tokens.indexOf(anchor);
+        const focusIndex = tokens.indexOf(focus);
+        if (anchorIndex === -1 || focusIndex === -1) return base;
+        const startIndex = Math.min(anchorIndex, focusIndex);
+        const endIndex = Math.max(anchorIndex, focusIndex);
+        const nodes = tokens.slice(startIndex, endIndex+1);
+        const seenLines = new Set();
+        const lines = [];
+        nodes.forEach(token=>{
+          const line = token.closest('.line');
+          if (!line) return;
+          if (!seenLines.has(line)){
+            seenLines.add(line);
+            lines.push(line);
+          }
+        });
+        const lineStart = lines[0]?.dataset.line || null;
+        const lineEnd = lines[lines.length-1]?.dataset.line || null;
+        return {
+          ...base,
+          nodes,
+          lines,
+          lineStart,
+          lineEnd,
+          tokenCount:nodes.length,
+          lineCount:lines.length
+        };
+      }
+      return base;
     }
 
     function updateSelectionHighlight(){
-      const selected = new Set(selectionRange().nodes);
+      const range = selectionRange();
+      const selectedNodes = new Set(range.nodes);
+      const selectedLines = new Set(range.lines);
       lineElements().forEach(line=>{
-        if (selected.has(line)) line.classList.add('selected');
+        if (selection.type === 'line' && selectedNodes.has(line)) line.classList.add('selected');
+        else if (selection.type === 'token' && selectedLines.has(line)) line.classList.add('selected');
         else line.classList.remove('selected');
+      });
+      tokenElements().forEach(token=>{
+        if (selection.type === 'token' && selectedNodes.has(token)) token.classList.add('selected');
+        else token.classList.remove('selected');
       });
     }
 
@@ -140,10 +193,23 @@
     }
 
     function formatSelectionLabel(range){
-      if (!range.count) return '';
-      if (range.start === range.end) return `Line ${range.start}`;
-      const suffix = range.count > 1 ? ` · ${range.count} lines` : '';
-      return `Lines ${range.start}–${range.end}${suffix}`;
+      if (!range.nodes.length) return '';
+      const {lineStart, lineEnd, type, tokenCount, lineCount} = range;
+      if (lineStart && lineEnd){
+        const base = lineStart === lineEnd ? `Line ${lineStart}` : `Lines ${lineStart}–${lineEnd}`;
+        if (type === 'token'){
+          const words = tokenCount === 1 ? ' · 1 word' : ` · ${tokenCount} words`;
+          return `${base}${words}`;
+        }
+        if (type === 'line' && lineCount > 1){
+          return `${base} · ${lineCount} lines`;
+        }
+        return base;
+      }
+      if (type === 'token'){
+        return tokenCount === 1 ? '1 word' : `${tokenCount} words`;
+      }
+      return lineCount === 1 ? '1 line' : `${lineCount} lines`;
     }
 
     function updateSelectionUI(){
@@ -151,7 +217,7 @@
       const copyBtn = $('#copy-selection');
       const clearBtn = $('#clear-selection');
       const range = selectionRange();
-      if (range.count){
+      if (range.nodes.length){
         bar.classList.add('active');
         setSelectionLabel(formatSelectionLabel(range));
         copyBtn.disabled = false;
@@ -165,6 +231,7 @@
     }
 
     function clearSelection(){
+      selection.type = null;
       selection.anchor = null;
       selection.focus = null;
       awaitingFocusClick = false;
@@ -184,14 +251,86 @@
       }, 2000);
     }
 
-    async function copySelectionRange(){
-      const range = selectionRange();
-      if (!range.count) return;
-      const text = range.nodes.map(line=>{
+    function speakerForLine(line){
+      if (!line) return '';
+      const speech = line.closest('.speech');
+      if (!speech) return '';
+      const speaker = speech.querySelector('.speaker');
+      return speaker?.textContent.trim() || '';
+    }
+
+    function buildTokenCopy(range){
+      const groups = [];
+      const seen = new Map();
+      range.nodes.forEach(token=>{
+        const line = token.closest('.line');
+        if (!line) return;
+        let group = seen.get(line);
+        if (!group){
+          group = {line, tokens:[]};
+          seen.set(line, group);
+          groups.push(group);
+        }
+        group.tokens.push(token);
+      });
+      return groups.map(group=>{
+        const rng = document.createRange();
+        rng.setStartBefore(group.tokens[0]);
+        rng.setEndAfter(group.tokens[group.tokens.length-1]);
+        const raw = rng.toString().replace(/\s*\n\s*/g,' ');
+        const snippet = raw.replace(/\s+/g,' ').trim();
+        const num = group.line.querySelector('.line-number')?.textContent.trim() || '';
+        return num ? `${num} ${snippet}` : snippet;
+      }).join('\n');
+    }
+
+    function buildLineCopy(range){
+      return range.nodes.map(line=>{
         const num = line.querySelector('.line-number')?.textContent.trim() || '';
         const body = line.querySelector('.line-text')?.textContent || '';
         return num ? `${num} ${body}` : body;
       }).join('\n');
+    }
+
+    function selectionDetails(range){
+      const meta = state.meta || {};
+      const playTitle = meta.playTitle || '';
+      const unit = meta.unit || {};
+      const act = unit?.act ?? null;
+      const scene = unit?.scene ?? null;
+      const unitTitle = meta.unitTitle || unit?.label || '';
+      const speaker = speakerForLine(range.lines[0]);
+      const startLine = range.lineStart;
+      const endLine = range.lineEnd;
+      let lineSegment = '';
+      if (startLine && endLine){
+        lineSegment = `Lines ${startLine} - ${endLine}`;
+      }
+      const headerParts = [];
+      if (speaker) headerParts.push(speaker);
+      if (playTitle && lineSegment) headerParts.push(`${playTitle} ${lineSegment}`);
+      else if (playTitle) headerParts.push(playTitle);
+      else if (lineSegment) headerParts.push(lineSegment);
+      if (act != null) headerParts.push(`Act ${act}`);
+      if (scene != null) headerParts.push(`Scene ${scene}`);
+      else if (!scene && unitTitle && !headerParts.includes(unitTitle)) headerParts.push(unitTitle);
+      const header = headerParts.join(', ');
+      return {header, speaker, playTitle, act, scene, unitTitle, startLine, endLine};
+    }
+
+    function copyPayload(range){
+      const details = selectionDetails(range);
+      const body = range.type === 'token' ? buildTokenCopy(range) : buildLineCopy(range);
+      if (!body) return '';
+      const header = details.header;
+      return header ? `${header}\n\n${body}` : body;
+    }
+
+    async function copySelectionRange(){
+      const range = selectionRange();
+      if (!range.nodes.length) return;
+      const text = copyPayload(range);
+      if (!text) return;
       const copied = await copyTextToClipboard(text);
       flashCopyFeedback(copied ? 'Copied!' : 'Copy failed');
     }
@@ -223,16 +362,6 @@
       }
     }
 
-    async function copyTokenNode(token){
-      const text = token.dataset.copy ?? token.textContent ?? '';
-      const copied = await copyTextToClipboard(text);
-      token.classList.remove('copied');
-      if (copied){
-        token.classList.add('copied');
-        window.setTimeout(()=>token.classList.remove('copied'), 1200);
-      }
-    }
-
     function spanText(span){
       if (!span) return '';
       if (typeof span.text === 'string') return span.text;
@@ -245,17 +374,16 @@
     function createTokenElement(tok){
       const tokenNode = el('span',{
         class:'token',
-        title:'Click to copy',
+        title:'Click to select word',
         role:'button',
-        tabindex:'0',
-        'data-copy':tok.s ?? ''
+        tabindex:'0'
       });
       if (tok.norm) tokenNode.dataset.norm = tok.norm;
       if (tok.type) tokenNode.dataset.type = tok.type;
       if (tok.serial) tokenNode.dataset.serial = tok.serial;
       if (tok.em) tokenNode.classList.add('em');
       tokenNode.textContent = tok.s || '';
-      const label = tok.s ? `Copy “${tok.s}”` : 'Copy token';
+      const label = tok.s ? `Select “${tok.s}”` : 'Select token';
       tokenNode.setAttribute('aria-label', label);
       return tokenNode;
     }
@@ -277,32 +405,49 @@
       }
     }
 
+    function applySelection(type, node, extend){
+      if (!node) return;
+      if (extend && selection.type === type && selection.anchor){
+        selection.type = type;
+        selection.focus = node;
+        awaitingFocusClick = false;
+      } else {
+        selection.type = type;
+        selection.anchor = node;
+        selection.focus = node;
+        awaitingFocusClick = true;
+      }
+      updateSelectionHighlight();
+      updateSelectionUI();
+    }
+
+    function handleTokenSelection(token, event){
+      const line = token.closest('.line');
+      const value = (line?.dataset.line || '').trim();
+      if (!line || !value) return;
+      const extend = (event.shiftKey || awaitingFocusClick) && selection.type === 'token';
+      applySelection('token', token, extend);
+    }
+
+    function handleLineSelection(line, event){
+      const value = (line?.dataset.line || '').trim();
+      if (!line || !value) return;
+      const extend = (event.shiftKey || awaitingFocusClick) && selection.type === 'line';
+      applySelection('line', line, extend);
+    }
+
     $('#content').addEventListener('click', e=>{
       const token = e.target.closest('.token');
       if (token){
         e.preventDefault();
         e.stopPropagation();
-        copyTokenNode(token);
+        handleTokenSelection(token, e);
         return;
       }
 
       const line = e.target.closest('.line');
       if (!line) return;
-      const value = (line.dataset.line || '').trim();
-      if (!value) return;
-      if (e.shiftKey && selection.anchor){
-        selection.focus = line;
-        awaitingFocusClick = false;
-      } else if (awaitingFocusClick && selection.anchor){
-        selection.focus = line;
-        awaitingFocusClick = false;
-      } else {
-        selection.anchor = line;
-        selection.focus = line;
-        awaitingFocusClick = true;
-      }
-      updateSelectionHighlight();
-      updateSelectionUI();
+      handleLineSelection(line, e);
     });
 
     $('#content').addEventListener('keydown', e=>{
@@ -310,8 +455,14 @@
       if (!token) return;
       if (e.key === 'Enter' || e.key === ' '){
         e.preventDefault();
-        copyTokenNode(token);
+        handleTokenSelection(token, e);
       }
+    });
+
+    document.addEventListener('click', e=>{
+      if (!selectionRange().nodes.length) return;
+      if (e.target.closest('.line, .token, #selection')) return;
+      clearSelection();
     });
 
     $('#clear-selection').addEventListener('click', e=>{
@@ -387,6 +538,12 @@
       let unitTitle;
       if (unitOverride !== undefined) unitTitle = unitOverride;
       else unitTitle = json.meta?.unit?.title || json.meta?.unit?.label || '';
+      state.meta = {
+        playTitle,
+        playId: json.meta?.play?.id || '',
+        unit: json.meta?.unit || null,
+        unitTitle
+      };
       $('#crumbs').textContent = unitTitle ? `${playTitle} › ${unitTitle}` : playTitle;
 
       const content = $('#content'); content.innerHTML = '';
