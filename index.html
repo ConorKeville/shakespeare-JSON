@@ -173,10 +173,8 @@
     function updateSelectionHighlight(){
       const range = selectionRange();
       const selectedNodes = new Set(range.nodes);
-      const selectedLines = new Set(range.lines);
       lineElements().forEach(line=>{
         if (selection.type === 'line' && selectedNodes.has(line)) line.classList.add('selected');
-        else if (selection.type === 'token' && selectedLines.has(line)) line.classList.add('selected');
         else line.classList.remove('selected');
       });
       tokenElements().forEach(token=>{
