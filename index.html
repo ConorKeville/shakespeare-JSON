@@ -381,7 +381,16 @@
     function copyContentText(){
       const content = $('#content');
       if (!content) return '';
-      const text = content.innerText || '';
+      const clone = content.cloneNode(true);
+      clone.querySelectorAll('.line').forEach(line=>{
+        const number = line.querySelector('.line-number');
+        const body = line.querySelector('.line-text');
+        const numberText = number?.textContent.trim() || '';
+        const bodyText = body?.textContent || '';
+        const combined = numberText ? `${numberText} ${bodyText}` : bodyText;
+        line.textContent = combined;
+      });
+      const text = clone.innerText || '';
       if (!text) return '';
       const sanitized = text.replace(/\u00A0/g, ' ');
       return sanitized.replace(/\s+$/, '');
