@@ -381,19 +381,66 @@
     function copyContentText(){
       const content = $('#content');
       if (!content) return '';
-      const clone = content.cloneNode(true);
-      clone.querySelectorAll('.line').forEach(line=>{
-        const number = line.querySelector('.line-number');
-        const body = line.querySelector('.line-text');
-        const numberText = number?.textContent.trim() || '';
-        const bodyText = body?.textContent || '';
-        const combined = numberText ? `${numberText} ${bodyText}` : bodyText;
-        line.textContent = combined;
+
+      const normalizeLine = line => (line || '').replace(/\u00A0/g, ' ').replace(/[ \t]+$/, '');
+      const trimBlankEdges = lines => {
+        const copy = Array.from(lines);
+        while (copy.length && copy[0].trim() === '') copy.shift();
+        while (copy.length && copy[copy.length-1].trim() === '') copy.pop();
+        return copy;
+      };
+      const output = [];
+      const appendBlock = lines => {
+        const normalized = trimBlankEdges(lines.map(normalizeLine));
+        if (!normalized.length) return;
+        if (output.length && output[output.length-1] !== '') output.push('');
+        output.push(...normalized);
+      };
+      const stageBlockLines = node => {
+        const text = node.textContent || '';
+        return text.split(/\r?\n/);
+      };
+      const speechBlockLines = node => {
+        const block = [];
+        const speaker = node.querySelector('.speaker');
+        if (speaker){
+          const speakerText = (speaker.textContent || '').replace(/\u00A0/g, ' ').trim();
+          if (speakerText) block.push(speakerText);
+        }
+        node.querySelectorAll('.line').forEach(line=>{
+          const numberNode = line.querySelector('.line-number');
+          const textNode = line.querySelector('.line-text');
+          const numberRaw = (numberNode?.textContent || '').replace(/\u00A0/g, ' ');
+          const textRaw = (textNode?.textContent || '').replace(/\u00A0/g, ' ');
+          const number = numberRaw.trim();
+          let body = textRaw.replace(/[ \t]+$/, '');
+          if (number) body = body.replace(/^\s+/, '');
+          const combined = number ? `${number} ${body}` : body;
+          block.push(combined);
+        });
+        return block;
+      };
+      content.childNodes.forEach(node=>{
+        if (node.nodeType !== 1) return;
+        if (node.matches('h1.unit, .heading')){
+          const text = (node.textContent || '').replace(/\u00A0/g, ' ').trim();
+          if (text) appendBlock([text]);
+          return;
+        }
+        if (node.matches('.stage')){
+          appendBlock(stageBlockLines(node));
+          return;
+        }
+        if (node.matches('.speech')){
+          appendBlock(speechBlockLines(node));
+          return;
+        }
+        const text = (node.textContent || '').replace(/\u00A0/g, ' ');
+        appendBlock(text.split(/\r?\n/));
       });
-      const text = clone.innerText || '';
-      if (!text) return '';
-      const sanitized = text.replace(/\u00A0/g, ' ');
-      return sanitized.replace(/\s+$/, '');
+
+      while (output.length && output[output.length-1] === '') output.pop();
+      return output.join('\n');
     }
 
     function copyPlayButtonBaseLabel(){
