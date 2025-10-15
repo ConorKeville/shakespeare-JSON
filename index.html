@@ -29,7 +29,9 @@
     .stage{font-style:italic;color:var(--muted);margin:.25rem 0}
     .speech{margin:.75rem 0 1rem}
     .speaker{margin:.75rem 0 .25rem;font-weight:700;font-size:.95rem;color:var(--accent);text-transform:capitalize}
-    .line{margin:.1rem 0}
+    .line{margin:.1rem 0;display:grid;grid-template-columns:minmax(4ch,auto) 1fr;gap:.75rem;align-items:flex-start}
+    .line-number{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right;user-select:text}
+    .line-text{white-space:pre-wrap}
     .play summary{cursor:pointer;font-weight:600}
     .play small.muted{color:var(--muted);font-weight:500}
     ul.scenes{list-style:none;padding:.25rem 0 .5rem .25rem;margin:0}
@@ -70,7 +72,7 @@
       return n;
     }
 
-    const state = { index:null, byPath:new Map(), currentPath:null };
+    const state = { index:null, byPath:new Map(), byPlay:new Map(), current:null, cache:new Map() };
 
     async function loadIndex(){
       const res = await fetch('index.json');               // IMPORTANT: relative path (works at /shakespeare-JSON/)
@@ -87,6 +89,11 @@
         const details = el('details',{class:'play'});
         details.appendChild(el('summary',{}, play.title+' ', el('small',{class:'muted'},`(${play.scene_count})`)));
         const ul = el('ul',{class:'scenes'});
+        ul.appendChild(el('li',{}, el('a',{
+          href:'#p='+encodeURIComponent(play.id),
+          class:'scene-link full',
+          'data-play':play.id
+        }, 'Full play')));
         play.scenes.forEach(s=>{
           const label = s.title || `Act ${s.act ?? '?'} Scene ${s.scene ?? '?'}`;
           const a = el('a',{href:'#s='+encodeURIComponent(s.path), class:'scene-link', 'data-path':s.path}, label);
@@ -102,9 +109,11 @@
       return spans.map(sp=>sp.text || '').join('');
     }
 
-    function renderScene(json){
-      const playTitle = json.meta?.play?.title || json.meta?.play?.id || 'Unknown play';
-      const unitTitle = json.meta?.unit?.title || json.meta?.unit?.label || '';
+    function renderScene(json,{playTitle:playOverride,unitTitle:unitOverride}={}){
+      const playTitle = playOverride || json.meta?.play?.title || json.meta?.play?.id || 'Unknown play';
+      let unitTitle;
+      if (unitOverride !== undefined) unitTitle = unitOverride;
+      else unitTitle = json.meta?.unit?.title || json.meta?.unit?.label || '';
       $('#crumbs').textContent = unitTitle ? `${playTitle} › ${unitTitle}` : playTitle;
 
       const content = $('#content'); content.innerHTML = '';
@@ -126,7 +135,11 @@
             content.appendChild(cur);
             lastSpeechId = item.speech_id;
           }
-          cur.appendChild(el('p',{class:'line','data-line':item.line_number ?? ''}, textFromItem(item)));
+          const line = el('p',{class:'line','data-line':item.line_number ?? ''});
+          const ln = item.line_number ? String(item.line_number) : '\u00A0';
+          line.appendChild(el('span',{class:'line-number'}, ln));
+          line.appendChild(el('span',{class:'line-text'}, textFromItem(item)));
+          cur.appendChild(line);
         } else if (item.kind === 'speaker_label'){
           cur = el('section',{class:'speech'});
           cur.appendChild(el('h4',{class:'speaker'}, (item.speaker||'').replaceAll('_',' ').trim()));
@@ -137,14 +150,31 @@
       content.scrollTop = 0;
     }
 
+    async function fetchJSON(path){
+      if (state.cache.has(path)) return state.cache.get(path);
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
+      const json = await res.json();
+      state.cache.set(path,json);
+      return json;
+    }
+
+    function setActiveLink(selector){
+      document.querySelectorAll('.scene-link.active').forEach(a=>a.classList.remove('active'));
+      if (selector){
+        const node = document.querySelector(selector);
+        node?.classList.add('active');
+        node?.closest('details')?.setAttribute('open','');
+      }
+    }
+
     async function loadSceneByPath(path){
       // highlight active & open the play
-      document.querySelectorAll('.scene-link.active').forEach(a=>a.classList.remove('active'));
-      const a = document.querySelector(`.scene-link[data-path="${CSS.escape(path)}"]`);
-      if (a){ a.classList.add('active'); a.closest('details')?.setAttribute('open',''); }
+      setActiveLink(`.scene-link[data-path="${CSS.escape(path)}"]`);
 
       // prev/next within the same play
       const loc = state.byPath.get(path);
+      if (!loc) throw new Error(`Unknown scene: ${path}`);
       const play = state.index.plays[loc.playIndex];
       const prev = play.scenes[loc.sceneIndex-1];
       const next = play.scenes[loc.sceneIndex+1];
@@ -152,15 +182,50 @@
       $('#prev').onclick = prev ? ()=>navigateTo(prev.path) : null;
       $('#next').onclick = next ? ()=>navigateTo(next.path) : null;
 
-      const res = await fetch(path);
-      if (!res.ok) throw new Error(`Failed to load scene ${path}: ${res.status}`);
-      const json = await res.json();
-      state.currentPath = path;
-      renderScene(json);
+      const key = `scene:${path}`;
+      state.current = key;
+      try {
+        const json = await fetchJSON(path);
+        renderScene(json);
+      } catch(err){
+        state.current = null;
+        throw err;
+      }
+    }
+
+    async function loadPlayById(id){
+      const play = state.byPlay.get(id);
+      if (!play) throw new Error(`Unknown play: ${id}`);
+      setActiveLink(`.scene-link.full[data-play="${CSS.escape(id)}"]`);
+      $('#prev').disabled = true; $('#next').disabled = true;
+      $('#prev').onclick = null; $('#next').onclick = null;
+
+      const key = `play:${id}`;
+      state.current = key;
+      try {
+        const scenes = await Promise.all(play.scenes.map(s=>fetchJSON(s.path)));
+        if (!scenes.length) throw new Error(`Play has no scenes: ${id}`);
+        const items = scenes.flatMap(s=>s.items || []);
+        const combined = {
+          meta: { play: scenes[0].meta?.play },
+          items
+        };
+        renderScene(combined,{playTitle:play.title, unitTitle:'Full Play'});
+      } catch(err){
+        state.current = null;
+        throw err;
+      }
     }
 
     function navigateTo(path){ location.hash = '#s=' + encodeURIComponent(path); }
-    function sceneFromHash(){ const m = location.hash.match(/#s=([^&]+)/); return m ? decodeURIComponent(m[1]) : null; }
+    function navigateToPlay(id){ location.hash = '#p=' + encodeURIComponent(id); }
+    function hashState(){
+      const scene = location.hash.match(/#s=([^&]+)/);
+      if (scene) return {type:'scene', value:decodeURIComponent(scene[1])};
+      const play = location.hash.match(/#p=([^&]+)/);
+      if (play) return {type:'play', value:decodeURIComponent(play[1])};
+      return null;
+    }
 
     function showError(err){
       const content = $('#content'); content.innerHTML = '';
@@ -169,8 +234,12 @@
     }
 
     window.addEventListener('hashchange', ()=>{
-      const p = sceneFromHash();
-      if (p && p !== state.currentPath) loadSceneByPath(p).catch(showError);
+      const target = hashState();
+      if (!target) return;
+      const key = `${target.type}:${target.value}`;
+      if (key === state.current) return;
+      const loader = target.type === 'scene' ? loadSceneByPath(target.value) : loadPlayById(target.value);
+      Promise.resolve(loader).catch(showError);
     });
 
     window.addEventListener('keydown', e=>{
@@ -180,13 +249,21 @@
 
     (async function start(){
       await loadIndex();
+      state.byPlay.clear();
+      state.index.plays.forEach(p=>state.byPlay.set(p.id,p));
       renderSidebar();
-      let path = sceneFromHash();
-      if (!path){
-        const first = state.index.plays[0]?.scenes[0];
-        if (first){ path = first.path; location.hash = '#s='+encodeURIComponent(path); }
+      let target = hashState();
+      if (!target){
+        const firstPlay = state.index.plays[0];
+        if (firstPlay){
+          navigateToPlay(firstPlay.id);
+          target = {type:'play', value:firstPlay.id};
+        }
       }
-      if (path) await loadSceneByPath(path);
+      if (target){
+        if (target.type==='scene') await loadSceneByPath(target.value);
+        else await loadPlayById(target.value);
+      }
     })().catch(showError);
   })();
   </script>
