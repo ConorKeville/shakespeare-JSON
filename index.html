@@ -102,6 +102,7 @@
         const details = el('details',{class:'play'});
         details.appendChild(el('summary',{}, play.title+' ', el('small',{class:'muted'},`(${play.scene_count})`)));
         const ul = el('ul',{class:'scenes'});
+        const grouped = new Map();
         ul.appendChild(el('li',{}, el('a',{
           href:'#p='+encodeURIComponent(play.id),
           class:'scene-link full',
