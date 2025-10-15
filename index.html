@@ -33,6 +33,10 @@
     .line{margin:.1rem 0;display:grid;grid-template-columns:minmax(4ch,auto) 1fr;gap:.75rem;align-items:flex-start}
     .line-number{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right;user-select:text}
     .line-text{white-space:pre-wrap}
+    .token{cursor:pointer;display:inline;border-radius:.2rem;padding:0 .1rem;margin:0 -.1rem;transition:background-color .15s ease,color .15s ease}
+    .token:hover{background:rgba(176,140,255,.18)}
+    .token.copied{background:rgba(176,140,255,.35);color:var(--accent)}
+    .token.em{font-style:italic}
     .line[data-line]{cursor:pointer}
     .line.selected{background:rgba(176,140,255,.18);border-radius:.35rem}
     .line.selected .line-number{color:var(--accent)}
@@ -91,6 +95,7 @@
 
     const state = { index:null, byPath:new Map(), byPlay:new Map(), current:null, cache:new Map() };
     const selection = { anchor:null, focus:null };
+    let awaitingFocusClick = false;
     let copyFeedbackTimer = null;
 
     function lineElements(){
@@ -162,6 +167,7 @@
     function clearSelection(){
       selection.anchor = null;
       selection.focus = null;
+      awaitingFocusClick = false;
       updateSelectionHighlight();
       updateSelectionUI();
     }
@@ -186,50 +192,126 @@
         const body = line.querySelector('.line-text')?.textContent || '';
         return num ? `${num} ${body}` : body;
       }).join('\n');
+      const copied = await copyTextToClipboard(text);
+      flashCopyFeedback(copied ? 'Copied!' : 'Copy failed');
+    }
 
-      let copied = false;
+    async function copyTextToClipboard(text){
+      if (!text) return false;
       if (navigator.clipboard?.writeText){
         try {
           await navigator.clipboard.writeText(text);
-          copied = true;
+          return true;
         } catch(err){
           console.error('Clipboard API copy failed', err);
         }
       }
-
-      if (!copied){
-        try {
-          const textarea = document.createElement('textarea');
-          textarea.value = text;
-          textarea.setAttribute('readonly','');
-          textarea.style.position = 'fixed';
-          textarea.style.opacity = '0';
-          document.body.appendChild(textarea);
-          textarea.select();
-          copied = document.execCommand('copy');
-          document.body.removeChild(textarea);
-        } catch(err){
-          console.error('Fallback copy failed', err);
-          copied = false;
-        }
+      try {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.setAttribute('readonly','');
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        const copied = document.execCommand('copy');
+        document.body.removeChild(textarea);
+        return copied;
+      } catch(err){
+        console.error('Fallback copy failed', err);
+        return false;
       }
+    }
 
-      flashCopyFeedback(copied ? 'Copied!' : 'Copy failed');
+    async function copyTokenNode(token){
+      const text = token.dataset.copy ?? token.textContent ?? '';
+      const copied = await copyTextToClipboard(text);
+      token.classList.remove('copied');
+      if (copied){
+        token.classList.add('copied');
+        window.setTimeout(()=>token.classList.remove('copied'), 1200);
+      }
+    }
+
+    function spanText(span){
+      if (!span) return '';
+      if (typeof span.text === 'string') return span.text;
+      if (Array.isArray(span.tokens)){
+        return span.tokens.map(tok=>`${tok.pre||''}${tok.s||''}`).join('');
+      }
+      return '';
+    }
+
+    function createTokenElement(tok){
+      const tokenNode = el('span',{
+        class:'token',
+        title:'Click to copy',
+        role:'button',
+        tabindex:'0',
+        'data-copy':tok.s ?? ''
+      });
+      if (tok.norm) tokenNode.dataset.norm = tok.norm;
+      if (tok.type) tokenNode.dataset.type = tok.type;
+      if (tok.serial) tokenNode.dataset.serial = tok.serial;
+      if (tok.em) tokenNode.classList.add('em');
+      tokenNode.textContent = tok.s || '';
+      const label = tok.s ? `Copy “${tok.s}”` : 'Copy token';
+      tokenNode.setAttribute('aria-label', label);
+      return tokenNode;
+    }
+
+    function appendSpanContent(container, spans, {withTokens=false}={}){
+      const list = Array.isArray(spans) ? spans : [];
+      for (const span of list){
+        const wrapper = span?.em ? el('em') : null;
+        const target = wrapper || container;
+        if (withTokens && Array.isArray(span?.tokens) && span.tokens.length){
+          for (const tok of span.tokens){
+            if (tok.pre) target.appendChild(document.createTextNode(tok.pre));
+            target.appendChild(createTokenElement(tok));
+          }
+        } else {
+          target.appendChild(document.createTextNode(spanText(span)));
+        }
+        if (wrapper) container.appendChild(wrapper);
+      }
     }
 
     $('#content').addEventListener('click', e=>{
+      const token = e.target.closest('.token');
+      if (token){
+        e.preventDefault();
+        e.stopPropagation();
+        copyTokenNode(token);
+        return;
+      }
+
       const line = e.target.closest('.line');
       if (!line) return;
       const value = (line.dataset.line || '').trim();
       if (!value) return;
       if (e.shiftKey && selection.anchor){
         selection.focus = line;
+        awaitingFocusClick = false;
+      } else if (awaitingFocusClick && selection.anchor){
+        selection.focus = line;
+        awaitingFocusClick = false;
       } else {
         selection.anchor = line;
         selection.focus = line;
+        awaitingFocusClick = true;
       }
       updateSelectionHighlight();
       updateSelectionUI();
+    });
+
+    $('#content').addEventListener('keydown', e=>{
+      const token = e.target.closest('.token');
+      if (!token) return;
+      if (e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        copyTokenNode(token);
+      }
     });
 
     $('#clear-selection').addEventListener('click', e=>{
@@ -319,7 +401,9 @@
           content.appendChild(el(level,{class:'heading '+(item.subtype||'')}, textFromItem(item)));
           lastSpeechId = null; cur = null; pendingSpeaker = null;
         } else if (item.kind === 'stage'){
-          content.appendChild(el('div',{class:'stage'}, textFromItem(item)));
+          const stage = el('div',{class:'stage'});
+          appendSpanContent(stage, item.spans,{withTokens:true});
+          content.appendChild(stage);
         } else if (item.kind === 'speech'){
           if (item.speech_id !== lastSpeechId){
             cur = el('section',{class:'speech'});
@@ -333,7 +417,9 @@
           const line = el('p',{class:'line','data-line':item.line_number ?? ''});
           const ln = item.line_number ? String(item.line_number) : '\u00A0';
           line.appendChild(el('span',{class:'line-number'}, ln));
-          line.appendChild(el('span',{class:'line-text'}, textFromItem(item)));
+          const lineText = el('span',{class:'line-text'});
+          appendSpanContent(lineText, item.spans,{withTokens:true});
+          line.appendChild(lineText);
           cur.appendChild(line);
         } else if (item.kind === 'speaker_label'){
           pendingSpeaker = (item.speaker||'').replaceAll('_',' ').trim();
