@@ -54,7 +54,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "ACT II.",
+          "text": "ACT II",
           "tokens": [
             {
               "i": 1,
@@ -71,20 +71,6 @@
               "norm": "ii",
               "pre": " ",
               "serial": "alls-well-that-ends-well-a02-s05-i0001-t002"
-            },
-            {
-              "i": 3,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a02-s05-i0001-t003",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -2395,50 +2381,80 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Aside to Parolles.",
+          "text": "[Aside to Parolles.]",
           "stage": null,
           "tokens": [
             {
               "i": 1,
-              "type": "word",
-              "s": "Aside",
-              "norm": "aside",
+              "type": "punct",
+              "s": "[",
+              "norm": "[",
               "pre": "",
               "serial": "alls-well-that-ends-well-a02-s05-l0017-t001",
+              "punct": {
+                "kind": "lbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
               "em": true
             },
             {
               "i": 2,
               "type": "word",
-              "s": "to",
-              "norm": "to",
-              "pre": " ",
+              "s": "Aside",
+              "norm": "aside",
+              "pre": "",
               "serial": "alls-well-that-ends-well-a02-s05-l0017-t002",
               "em": true
             },
             {
               "i": 3,
               "type": "word",
-              "s": "Parolles",
-              "norm": "parolles",
+              "s": "to",
+              "norm": "to",
               "pre": " ",
               "serial": "alls-well-that-ends-well-a02-s05-l0017-t003",
               "em": true
             },
             {
               "i": 4,
+              "type": "word",
+              "s": "Parolles",
+              "norm": "parolles",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a02-s05-l0017-t004",
+              "em": true
+            },
+            {
+              "i": 5,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a02-s05-l0017-t004",
-              "em": true,
+              "serial": "alls-well-that-ends-well-a02-s05-l0017-t005",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "]",
+              "norm": "]",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a02-s05-l0017-t006",
+              "punct": {
+                "kind": "rbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
             }
           ]
         },
@@ -7840,6 +7856,86 @@
                 "quote": null,
                 "role": null
               }
+            }
+          ]
+        },
+        {
+          "type": "stage",
+          "em": true,
+          "text": " [Giving a letter.]",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "punct",
+              "s": "[",
+              "norm": "[",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a02-s05-l0062-t001",
+              "punct": {
+                "kind": "lbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Giving",
+              "norm": "giving",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a02-s05-l0062-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a02-s05-l0062-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "letter",
+              "norm": "letter",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a02-s05-l0062-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a02-s05-l0062-t005",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": "]",
+              "norm": "]",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a02-s05-l0062-t006",
+              "punct": {
+                "kind": "rbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
             }
           ]
         }

@@ -226,7 +226,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Enter Bertram, the Countess of Rossillon, Helena, and Lafew, all in",
+          "text": "Enter Bertram, the Countess of Rossillon, Helena, and Lafew, all in black.",
           "stage": null,
           "tokens": [
             {
@@ -254,13 +254,13 @@
               "norm": ",",
               "pre": "",
               "serial": "alls-well-that-ends-well-a01-s01-i0003-t003",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 4,
@@ -305,13 +305,13 @@
               "norm": ",",
               "pre": "",
               "serial": "alls-well-that-ends-well-a01-s01-i0003-t008",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 9,
@@ -329,13 +329,13 @@
               "norm": ",",
               "pre": "",
               "serial": "alls-well-that-ends-well-a01-s01-i0003-t010",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 11,
@@ -362,13 +362,13 @@
               "norm": ",",
               "pre": "",
               "serial": "alls-well-that-ends-well-a01-s01-i0003-t013",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 14,
@@ -386,6 +386,30 @@
               "norm": "in",
               "pre": " ",
               "serial": "alls-well-that-ends-well-a01-s01-i0003-t015",
+              "em": true
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "black",
+              "norm": "black",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a01-s01-i0003-t016",
+              "em": true
+            },
+            {
+              "i": 17,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a01-s01-i0003-t017",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
               "em": true
             }
           ]
@@ -407,49 +431,6 @@
     },
     {
       "seq": 5,
-      "serial": "alls-well-that-ends-well-a01-s01-i0004",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "COUNTESS",
-      "speech_id": "alls-well-that-ends-well-a01-s01-s0001",
-      "speech_seq": 1,
-      "line_number": 1,
-      "line_serial": "alls-well-that-ends-well-a01-s01-l0001",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": " black.",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "black",
-              "norm": "black",
-              "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0004-t001"
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-i0004-t002",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 6,
       "serial": "alls-well-that-ends-well-a01-s01-i0006",
       "kind": "speech",
       "subtype": null,
@@ -586,7 +567,7 @@
       ]
     },
     {
-      "seq": 7,
+      "seq": 6,
       "serial": "alls-well-that-ends-well-a01-s01-i0007",
       "kind": "speaker_label",
       "subtype": null,
@@ -599,7 +580,7 @@
       "spans": []
     },
     {
-      "seq": 8,
+      "seq": 7,
       "serial": "alls-well-that-ends-well-a01-s01-i0008",
       "kind": "speech",
       "subtype": null,
@@ -774,7 +755,7 @@
       ]
     },
     {
-      "seq": 9,
+      "seq": 8,
       "serial": "alls-well-that-ends-well-a01-s01-i0009",
       "kind": "speech",
       "subtype": null,
@@ -927,7 +908,7 @@
       ]
     },
     {
-      "seq": 10,
+      "seq": 9,
       "serial": "alls-well-that-ends-well-a01-s01-i0010",
       "kind": "speech",
       "subtype": null,
@@ -970,7 +951,7 @@
       ]
     },
     {
-      "seq": 11,
+      "seq": 10,
       "serial": "alls-well-that-ends-well-a01-s01-i0011",
       "kind": "speaker_label",
       "subtype": null,
@@ -983,7 +964,7 @@
       "spans": []
     },
     {
-      "seq": 12,
+      "seq": 11,
       "serial": "alls-well-that-ends-well-a01-s01-i0012",
       "kind": "speech",
       "subtype": null,
@@ -1186,7 +1167,7 @@
       ]
     },
     {
-      "seq": 13,
+      "seq": 12,
       "serial": "alls-well-that-ends-well-a01-s01-i0013",
       "kind": "speech",
       "subtype": null,
@@ -1325,7 +1306,7 @@
       ]
     },
     {
-      "seq": 14,
+      "seq": 13,
       "serial": "alls-well-that-ends-well-a01-s01-i0014",
       "kind": "speech",
       "subtype": null,
@@ -1470,7 +1451,7 @@
       ]
     },
     {
-      "seq": 15,
+      "seq": 14,
       "serial": "alls-well-that-ends-well-a01-s01-i0015",
       "kind": "speech",
       "subtype": null,
@@ -1577,7 +1558,7 @@
       ]
     },
     {
-      "seq": 16,
+      "seq": 15,
       "serial": "alls-well-that-ends-well-a01-s01-i0016",
       "kind": "speaker_label",
       "subtype": null,
@@ -1590,7 +1571,7 @@
       "spans": []
     },
     {
-      "seq": 17,
+      "seq": 16,
       "serial": "alls-well-that-ends-well-a01-s01-i0017",
       "kind": "speech",
       "subtype": null,
@@ -1689,7 +1670,7 @@
       ]
     },
     {
-      "seq": 18,
+      "seq": 17,
       "serial": "alls-well-that-ends-well-a01-s01-i0018",
       "kind": "speaker_label",
       "subtype": null,
@@ -1702,7 +1683,7 @@
       "spans": []
     },
     {
-      "seq": 19,
+      "seq": 18,
       "serial": "alls-well-that-ends-well-a01-s01-i0019",
       "kind": "speech",
       "subtype": null,
@@ -1839,7 +1820,7 @@
       ]
     },
     {
-      "seq": 20,
+      "seq": 19,
       "serial": "alls-well-that-ends-well-a01-s01-i0020",
       "kind": "speech",
       "subtype": null,
@@ -1970,7 +1951,7 @@
       ]
     },
     {
-      "seq": 21,
+      "seq": 20,
       "serial": "alls-well-that-ends-well-a01-s01-i0021",
       "kind": "speech",
       "subtype": null,
@@ -2069,7 +2050,7 @@
       ]
     },
     {
-      "seq": 22,
+      "seq": 21,
       "serial": "alls-well-that-ends-well-a01-s01-i0022",
       "kind": "speaker_label",
       "subtype": null,
@@ -2082,7 +2063,7 @@
       "spans": []
     },
     {
-      "seq": 23,
+      "seq": 22,
       "serial": "alls-well-that-ends-well-a01-s01-i0023",
       "kind": "speech",
       "subtype": null,
@@ -2277,7 +2258,7 @@
       ]
     },
     {
-      "seq": 24,
+      "seq": 23,
       "serial": "alls-well-that-ends-well-a01-s01-i0024",
       "kind": "speech",
       "subtype": null,
@@ -2444,7 +2425,7 @@
       ]
     },
     {
-      "seq": 25,
+      "seq": 24,
       "serial": "alls-well-that-ends-well-a01-s01-i0025",
       "kind": "speech",
       "subtype": null,
@@ -2597,7 +2578,7 @@
       ]
     },
     {
-      "seq": 26,
+      "seq": 25,
       "serial": "alls-well-that-ends-well-a01-s01-i0026",
       "kind": "speech",
       "subtype": null,
@@ -2758,7 +2739,7 @@
       ]
     },
     {
-      "seq": 27,
+      "seq": 26,
       "serial": "alls-well-that-ends-well-a01-s01-i0027",
       "kind": "speech",
       "subtype": null,
@@ -2857,7 +2838,7 @@
       ]
     },
     {
-      "seq": 28,
+      "seq": 27,
       "serial": "alls-well-that-ends-well-a01-s01-i0028",
       "kind": "speaker_label",
       "subtype": null,
@@ -2870,7 +2851,7 @@
       "spans": []
     },
     {
-      "seq": 29,
+      "seq": 28,
       "serial": "alls-well-that-ends-well-a01-s01-i0029",
       "kind": "speech",
       "subtype": null,
@@ -2991,7 +2972,7 @@
       ]
     },
     {
-      "seq": 30,
+      "seq": 29,
       "serial": "alls-well-that-ends-well-a01-s01-i0030",
       "kind": "speaker_label",
       "subtype": null,
@@ -3004,7 +2985,7 @@
       "spans": []
     },
     {
-      "seq": 31,
+      "seq": 30,
       "serial": "alls-well-that-ends-well-a01-s01-i0031",
       "kind": "speech",
       "subtype": null,
@@ -3187,7 +3168,7 @@
       ]
     },
     {
-      "seq": 32,
+      "seq": 31,
       "serial": "alls-well-that-ends-well-a01-s01-i0032",
       "kind": "speech",
       "subtype": null,
@@ -3268,7 +3249,7 @@
       ]
     },
     {
-      "seq": 33,
+      "seq": 32,
       "serial": "alls-well-that-ends-well-a01-s01-i0033",
       "kind": "speaker_label",
       "subtype": null,
@@ -3281,7 +3262,7 @@
       "spans": []
     },
     {
-      "seq": 34,
+      "seq": 33,
       "serial": "alls-well-that-ends-well-a01-s01-i0034",
       "kind": "speech",
       "subtype": null,
@@ -3426,7 +3407,7 @@
       ]
     },
     {
-      "seq": 35,
+      "seq": 34,
       "serial": "alls-well-that-ends-well-a01-s01-i0035",
       "kind": "speech",
       "subtype": null,
@@ -3577,7 +3558,7 @@
       ]
     },
     {
-      "seq": 36,
+      "seq": 35,
       "serial": "alls-well-that-ends-well-a01-s01-i0036",
       "kind": "speech",
       "subtype": null,
@@ -3676,7 +3657,7 @@
       ]
     },
     {
-      "seq": 37,
+      "seq": 36,
       "serial": "alls-well-that-ends-well-a01-s01-i0037",
       "kind": "speaker_label",
       "subtype": null,
@@ -3689,7 +3670,7 @@
       "spans": []
     },
     {
-      "seq": 38,
+      "seq": 37,
       "serial": "alls-well-that-ends-well-a01-s01-i0038",
       "kind": "speech",
       "subtype": null,
@@ -3832,7 +3813,7 @@
       ]
     },
     {
-      "seq": 39,
+      "seq": 38,
       "serial": "alls-well-that-ends-well-a01-s01-i0039",
       "kind": "speaker_label",
       "subtype": null,
@@ -3845,7 +3826,7 @@
       "spans": []
     },
     {
-      "seq": 40,
+      "seq": 39,
       "serial": "alls-well-that-ends-well-a01-s01-i0040",
       "kind": "speech",
       "subtype": null,
@@ -3926,7 +3907,7 @@
       ]
     },
     {
-      "seq": 41,
+      "seq": 40,
       "serial": "alls-well-that-ends-well-a01-s01-i0041",
       "kind": "speaker_label",
       "subtype": null,
@@ -3939,7 +3920,7 @@
       "spans": []
     },
     {
-      "seq": 42,
+      "seq": 41,
       "serial": "alls-well-that-ends-well-a01-s01-i0042",
       "kind": "speech",
       "subtype": null,
@@ -4022,7 +4003,7 @@
       ]
     },
     {
-      "seq": 43,
+      "seq": 42,
       "serial": "alls-well-that-ends-well-a01-s01-i0043",
       "kind": "speaker_label",
       "subtype": null,
@@ -4035,7 +4016,7 @@
       "spans": []
     },
     {
-      "seq": 44,
+      "seq": 43,
       "serial": "alls-well-that-ends-well-a01-s01-i0044",
       "kind": "speech",
       "subtype": null,
@@ -4166,7 +4147,7 @@
       ]
     },
     {
-      "seq": 45,
+      "seq": 44,
       "serial": "alls-well-that-ends-well-a01-s01-i0045",
       "kind": "speech",
       "subtype": null,
@@ -4225,7 +4206,7 @@
       ]
     },
     {
-      "seq": 46,
+      "seq": 45,
       "serial": "alls-well-that-ends-well-a01-s01-i0046",
       "kind": "speaker_label",
       "subtype": null,
@@ -4238,7 +4219,7 @@
       "spans": []
     },
     {
-      "seq": 47,
+      "seq": 46,
       "serial": "alls-well-that-ends-well-a01-s01-i0047",
       "kind": "speech",
       "subtype": null,
@@ -4405,7 +4386,7 @@
       ]
     },
     {
-      "seq": 48,
+      "seq": 47,
       "serial": "alls-well-that-ends-well-a01-s01-i0048",
       "kind": "speech",
       "subtype": null,
@@ -4514,7 +4495,7 @@
       ]
     },
     {
-      "seq": 49,
+      "seq": 48,
       "serial": "alls-well-that-ends-well-a01-s01-i0049",
       "kind": "speech",
       "subtype": null,
@@ -4651,7 +4632,7 @@
       ]
     },
     {
-      "seq": 50,
+      "seq": 49,
       "serial": "alls-well-that-ends-well-a01-s01-i0050",
       "kind": "speech",
       "subtype": null,
@@ -4780,7 +4761,7 @@
       ]
     },
     {
-      "seq": 51,
+      "seq": 50,
       "serial": "alls-well-that-ends-well-a01-s01-i0051",
       "kind": "speech",
       "subtype": null,
@@ -4911,7 +4892,7 @@
       ]
     },
     {
-      "seq": 52,
+      "seq": 51,
       "serial": "alls-well-that-ends-well-a01-s01-i0052",
       "kind": "speech",
       "subtype": null,
@@ -5046,7 +5027,7 @@
       ]
     },
     {
-      "seq": 53,
+      "seq": 52,
       "serial": "alls-well-that-ends-well-a01-s01-i0053",
       "kind": "speaker_label",
       "subtype": null,
@@ -5059,7 +5040,7 @@
       "spans": []
     },
     {
-      "seq": 54,
+      "seq": 53,
       "serial": "alls-well-that-ends-well-a01-s01-i0054",
       "kind": "speech",
       "subtype": null,
@@ -5178,7 +5159,7 @@
       ]
     },
     {
-      "seq": 55,
+      "seq": 54,
       "serial": "alls-well-that-ends-well-a01-s01-i0055",
       "kind": "speaker_label",
       "subtype": null,
@@ -5191,7 +5172,7 @@
       "spans": []
     },
     {
-      "seq": 56,
+      "seq": 55,
       "serial": "alls-well-that-ends-well-a01-s01-i0056",
       "kind": "speech",
       "subtype": null,
@@ -5330,7 +5311,7 @@
       ]
     },
     {
-      "seq": 57,
+      "seq": 56,
       "serial": "alls-well-that-ends-well-a01-s01-i0057",
       "kind": "speech",
       "subtype": null,
@@ -5455,7 +5436,7 @@
       ]
     },
     {
-      "seq": 58,
+      "seq": 57,
       "serial": "alls-well-that-ends-well-a01-s01-i0058",
       "kind": "speech",
       "subtype": null,
@@ -5644,7 +5625,7 @@
       ]
     },
     {
-      "seq": 59,
+      "seq": 58,
       "serial": "alls-well-that-ends-well-a01-s01-i0059",
       "kind": "speech",
       "subtype": null,
@@ -5797,7 +5778,7 @@
       ]
     },
     {
-      "seq": 60,
+      "seq": 59,
       "serial": "alls-well-that-ends-well-a01-s01-i0060",
       "kind": "speaker_label",
       "subtype": null,
@@ -5810,7 +5791,7 @@
       "spans": []
     },
     {
-      "seq": 61,
+      "seq": 60,
       "serial": "alls-well-that-ends-well-a01-s01-i0061",
       "kind": "speech",
       "subtype": null,
@@ -5947,7 +5928,7 @@
       ]
     },
     {
-      "seq": 62,
+      "seq": 61,
       "serial": "alls-well-that-ends-well-a01-s01-i0062",
       "kind": "speaker_label",
       "subtype": null,
@@ -5960,7 +5941,7 @@
       "spans": []
     },
     {
-      "seq": 63,
+      "seq": 62,
       "serial": "alls-well-that-ends-well-a01-s01-i0063",
       "kind": "speech",
       "subtype": null,
@@ -6083,7 +6064,7 @@
       ]
     },
     {
-      "seq": 64,
+      "seq": 63,
       "serial": "alls-well-that-ends-well-a01-s01-i0064",
       "kind": "speech",
       "subtype": null,
@@ -6150,7 +6131,7 @@
       ]
     },
     {
-      "seq": 65,
+      "seq": 64,
       "serial": "alls-well-that-ends-well-a01-s01-i0065",
       "kind": "speaker_label",
       "subtype": null,
@@ -6163,7 +6144,7 @@
       "spans": []
     },
     {
-      "seq": 66,
+      "seq": 65,
       "serial": "alls-well-that-ends-well-a01-s01-i0066",
       "kind": "speech",
       "subtype": null,
@@ -6324,7 +6305,7 @@
       ]
     },
     {
-      "seq": 67,
+      "seq": 66,
       "serial": "alls-well-that-ends-well-a01-s01-i0067",
       "kind": "speaker_label",
       "subtype": null,
@@ -6337,7 +6318,7 @@
       "spans": []
     },
     {
-      "seq": 68,
+      "seq": 67,
       "serial": "alls-well-that-ends-well-a01-s01-i0068",
       "kind": "speech",
       "subtype": null,
@@ -6434,7 +6415,7 @@
       ]
     },
     {
-      "seq": 69,
+      "seq": 68,
       "serial": "alls-well-that-ends-well-a01-s01-i0069",
       "kind": "speaker_label",
       "subtype": null,
@@ -6447,7 +6428,7 @@
       "spans": []
     },
     {
-      "seq": 70,
+      "seq": 69,
       "serial": "alls-well-that-ends-well-a01-s01-i0070",
       "kind": "speech",
       "subtype": null,
@@ -6514,7 +6495,7 @@
       ]
     },
     {
-      "seq": 71,
+      "seq": 70,
       "serial": "alls-well-that-ends-well-a01-s01-i0071",
       "kind": "speaker_label",
       "subtype": null,
@@ -6527,7 +6508,7 @@
       "spans": []
     },
     {
-      "seq": 72,
+      "seq": 71,
       "serial": "alls-well-that-ends-well-a01-s01-i0072",
       "kind": "speech",
       "subtype": null,
@@ -6640,7 +6621,7 @@
       ]
     },
     {
-      "seq": 73,
+      "seq": 72,
       "serial": "alls-well-that-ends-well-a01-s01-i0073",
       "kind": "speech",
       "subtype": null,
@@ -6761,7 +6742,7 @@
       ]
     },
     {
-      "seq": 74,
+      "seq": 73,
       "serial": "alls-well-that-ends-well-a01-s01-i0074",
       "kind": "speech",
       "subtype": null,
@@ -6860,7 +6841,7 @@
       ]
     },
     {
-      "seq": 75,
+      "seq": 74,
       "serial": "alls-well-that-ends-well-a01-s01-i0075",
       "kind": "speech",
       "subtype": null,
@@ -6995,7 +6976,7 @@
       ]
     },
     {
-      "seq": 76,
+      "seq": 75,
       "serial": "alls-well-that-ends-well-a01-s01-i0076",
       "kind": "speech",
       "subtype": null,
@@ -7102,7 +7083,7 @@
       ]
     },
     {
-      "seq": 77,
+      "seq": 76,
       "serial": "alls-well-that-ends-well-a01-s01-i0077",
       "kind": "speech",
       "subtype": null,
@@ -7209,7 +7190,7 @@
       ]
     },
     {
-      "seq": 78,
+      "seq": 77,
       "serial": "alls-well-that-ends-well-a01-s01-i0078",
       "kind": "speech",
       "subtype": null,
@@ -7330,7 +7311,7 @@
       ]
     },
     {
-      "seq": 79,
+      "seq": 78,
       "serial": "alls-well-that-ends-well-a01-s01-i0079",
       "kind": "speech",
       "subtype": null,
@@ -7451,7 +7432,7 @@
       ]
     },
     {
-      "seq": 80,
+      "seq": 79,
       "serial": "alls-well-that-ends-well-a01-s01-i0080",
       "kind": "speech",
       "subtype": null,
@@ -7558,7 +7539,7 @@
       ]
     },
     {
-      "seq": 81,
+      "seq": 80,
       "serial": "alls-well-that-ends-well-a01-s01-i0081",
       "kind": "speech",
       "subtype": null,
@@ -7677,7 +7658,7 @@
       ]
     },
     {
-      "seq": 82,
+      "seq": 81,
       "serial": "alls-well-that-ends-well-a01-s01-i0082",
       "kind": "speech",
       "subtype": null,
@@ -7782,7 +7763,7 @@
       ]
     },
     {
-      "seq": 83,
+      "seq": 82,
       "serial": "alls-well-that-ends-well-a01-s01-i0083",
       "kind": "speech",
       "subtype": null,
@@ -7833,7 +7814,7 @@
       ]
     },
     {
-      "seq": 84,
+      "seq": 83,
       "serial": "alls-well-that-ends-well-a01-s01-i0084",
       "kind": "speaker_label",
       "subtype": null,
@@ -7846,7 +7827,7 @@
       "spans": []
     },
     {
-      "seq": 85,
+      "seq": 84,
       "serial": "alls-well-that-ends-well-a01-s01-i0085",
       "kind": "speech",
       "subtype": null,
@@ -7907,7 +7888,7 @@
       ]
     },
     {
-      "seq": 86,
+      "seq": 85,
       "serial": "alls-well-that-ends-well-a01-s01-i0086",
       "kind": "speech",
       "subtype": null,
@@ -7982,7 +7963,7 @@
       ]
     },
     {
-      "seq": 87,
+      "seq": 86,
       "serial": "alls-well-that-ends-well-a01-s01-i0087",
       "kind": "speaker_label",
       "subtype": null,
@@ -7995,7 +7976,7 @@
       "spans": []
     },
     {
-      "seq": 88,
+      "seq": 87,
       "serial": "alls-well-that-ends-well-a01-s01-i0088",
       "kind": "speech",
       "subtype": null,
@@ -8098,7 +8079,7 @@
       ]
     },
     {
-      "seq": 89,
+      "seq": 88,
       "serial": "alls-well-that-ends-well-a01-s01-i0089",
       "kind": "stage",
       "subtype": "exit",
@@ -8153,7 +8134,7 @@
       ]
     },
     {
-      "seq": 90,
+      "seq": 89,
       "serial": "alls-well-that-ends-well-a01-s01-i0090",
       "kind": "speaker_label",
       "subtype": null,
@@ -8166,7 +8147,7 @@
       "spans": []
     },
     {
-      "seq": 91,
+      "seq": 90,
       "serial": "alls-well-that-ends-well-a01-s01-i0091",
       "kind": "speech",
       "subtype": null,
@@ -8313,7 +8294,7 @@
       ]
     },
     {
-      "seq": 92,
+      "seq": 91,
       "serial": "alls-well-that-ends-well-a01-s01-i0092",
       "kind": "speech",
       "subtype": null,
@@ -8327,41 +8308,71 @@
         {
           "type": "stage",
           "em": true,
-          "text": "To Helena.",
+          "text": "[To Helena.]",
           "stage": null,
           "tokens": [
             {
               "i": 1,
-              "type": "word",
-              "s": "To",
-              "norm": "to",
+              "type": "punct",
+              "s": "[",
+              "norm": "[",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-l0062-t001",
+              "serial": "alls-well-that-ends-well-a01-s01-l0063-t001",
+              "punct": {
+                "kind": "lbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
               "em": true
             },
             {
               "i": 2,
               "type": "word",
-              "s": "Helena",
-              "norm": "helena",
-              "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0062-t002",
+              "s": "To",
+              "norm": "to",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a01-s01-l0063-t002",
               "em": true
             },
             {
               "i": 3,
+              "type": "word",
+              "s": "Helena",
+              "norm": "helena",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a01-s01-l0063-t003",
+              "em": true
+            },
+            {
+              "i": 4,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-l0062-t003",
-              "em": true,
+              "serial": "alls-well-that-ends-well-a01-s01-l0063-t004",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "]",
+              "norm": "]",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a01-s01-l0063-t005",
+              "punct": {
+                "kind": "rbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
             }
           ]
         },
@@ -8475,7 +8486,7 @@
       ]
     },
     {
-      "seq": 93,
+      "seq": 92,
       "serial": "alls-well-that-ends-well-a01-s01-i0093",
       "kind": "speech",
       "subtype": null,
@@ -8534,7 +8545,7 @@
       ]
     },
     {
-      "seq": 94,
+      "seq": 93,
       "serial": "alls-well-that-ends-well-a01-s01-i0094",
       "kind": "speaker_label",
       "subtype": null,
@@ -8547,7 +8558,7 @@
       "spans": []
     },
     {
-      "seq": 95,
+      "seq": 94,
       "serial": "alls-well-that-ends-well-a01-s01-i0095",
       "kind": "speech",
       "subtype": null,
@@ -8698,7 +8709,7 @@
       ]
     },
     {
-      "seq": 96,
+      "seq": 95,
       "serial": "alls-well-that-ends-well-a01-s01-i0096",
       "kind": "stage",
       "subtype": "exeunt",
@@ -8771,7 +8782,7 @@
       ]
     },
     {
-      "seq": 97,
+      "seq": 96,
       "serial": "alls-well-that-ends-well-a01-s01-i0097",
       "kind": "speaker_label",
       "subtype": null,
@@ -8784,7 +8795,7 @@
       "spans": []
     },
     {
-      "seq": 98,
+      "seq": 97,
       "serial": "alls-well-that-ends-well-a01-s01-i0098",
       "kind": "speech",
       "subtype": null,
@@ -8927,7 +8938,7 @@
       ]
     },
     {
-      "seq": 99,
+      "seq": 98,
       "serial": "alls-well-that-ends-well-a01-s01-i0099",
       "kind": "speech",
       "subtype": null,
@@ -9012,7 +9023,7 @@
       ]
     },
     {
-      "seq": 100,
+      "seq": 99,
       "serial": "alls-well-that-ends-well-a01-s01-i0100",
       "kind": "speech",
       "subtype": null,
@@ -9141,7 +9152,7 @@
       ]
     },
     {
-      "seq": 101,
+      "seq": 100,
       "serial": "alls-well-that-ends-well-a01-s01-i0101",
       "kind": "speech",
       "subtype": null,
@@ -9224,7 +9235,7 @@
       ]
     },
     {
-      "seq": 102,
+      "seq": 101,
       "serial": "alls-well-that-ends-well-a01-s01-i0102",
       "kind": "speech",
       "subtype": null,
@@ -9307,7 +9318,7 @@
       ]
     },
     {
-      "seq": 103,
+      "seq": 102,
       "serial": "alls-well-that-ends-well-a01-s01-i0103",
       "kind": "speech",
       "subtype": null,
@@ -9434,7 +9445,7 @@
       ]
     },
     {
-      "seq": 104,
+      "seq": 103,
       "serial": "alls-well-that-ends-well-a01-s01-i0104",
       "kind": "speech",
       "subtype": null,
@@ -9525,7 +9536,7 @@
       ]
     },
     {
-      "seq": 105,
+      "seq": 104,
       "serial": "alls-well-that-ends-well-a01-s01-i0105",
       "kind": "speech",
       "subtype": null,
@@ -9624,7 +9635,7 @@
       ]
     },
     {
-      "seq": 106,
+      "seq": 105,
       "serial": "alls-well-that-ends-well-a01-s01-i0106",
       "kind": "speech",
       "subtype": null,
@@ -9753,7 +9764,7 @@
       ]
     },
     {
-      "seq": 107,
+      "seq": 106,
       "serial": "alls-well-that-ends-well-a01-s01-i0107",
       "kind": "speech",
       "subtype": null,
@@ -9830,7 +9841,7 @@
       ]
     },
     {
-      "seq": 108,
+      "seq": 107,
       "serial": "alls-well-that-ends-well-a01-s01-i0108",
       "kind": "speech",
       "subtype": null,
@@ -9943,7 +9954,7 @@
       ]
     },
     {
-      "seq": 109,
+      "seq": 108,
       "serial": "alls-well-that-ends-well-a01-s01-i0109",
       "kind": "speech",
       "subtype": null,
@@ -10034,7 +10045,7 @@
       ]
     },
     {
-      "seq": 110,
+      "seq": 109,
       "serial": "alls-well-that-ends-well-a01-s01-i0110",
       "kind": "speech",
       "subtype": null,
@@ -10127,7 +10138,7 @@
       ]
     },
     {
-      "seq": 111,
+      "seq": 110,
       "serial": "alls-well-that-ends-well-a01-s01-i0111",
       "kind": "speech",
       "subtype": null,
@@ -10262,7 +10273,7 @@
       ]
     },
     {
-      "seq": 112,
+      "seq": 111,
       "serial": "alls-well-that-ends-well-a01-s01-i0112",
       "kind": "speech",
       "subtype": null,
@@ -10369,7 +10380,7 @@
       ]
     },
     {
-      "seq": 113,
+      "seq": 112,
       "serial": "alls-well-that-ends-well-a01-s01-i0113",
       "kind": "speech",
       "subtype": null,
@@ -10496,7 +10507,7 @@
       ]
     },
     {
-      "seq": 114,
+      "seq": 113,
       "serial": "alls-well-that-ends-well-a01-s01-i0114",
       "kind": "speech",
       "subtype": null,
@@ -10601,7 +10612,7 @@
       ]
     },
     {
-      "seq": 115,
+      "seq": 114,
       "serial": "alls-well-that-ends-well-a01-s01-i0115",
       "kind": "speech",
       "subtype": null,
@@ -10708,7 +10719,7 @@
       ]
     },
     {
-      "seq": 116,
+      "seq": 115,
       "serial": "alls-well-that-ends-well-a01-s01-i0116",
       "kind": "speech",
       "subtype": null,
@@ -10807,7 +10818,7 @@
       ]
     },
     {
-      "seq": 117,
+      "seq": 116,
       "serial": "alls-well-that-ends-well-a01-s01-i0117",
       "kind": "speech",
       "subtype": null,
@@ -10912,7 +10923,7 @@
       ]
     },
     {
-      "seq": 118,
+      "seq": 117,
       "serial": "alls-well-that-ends-well-a01-s01-i0118",
       "kind": "stage",
       "subtype": "enter",
@@ -10967,7 +10978,7 @@
       ]
     },
     {
-      "seq": 119,
+      "seq": 118,
       "serial": "alls-well-that-ends-well-a01-s01-i0126",
       "kind": "speaker_label",
       "subtype": null,
@@ -10980,7 +10991,7 @@
       "spans": []
     },
     {
-      "seq": 120,
+      "seq": 119,
       "serial": "alls-well-that-ends-well-a01-s01-i0119",
       "kind": "speech",
       "subtype": null,
@@ -11117,7 +11128,7 @@
       ]
     },
     {
-      "seq": 121,
+      "seq": 120,
       "serial": "alls-well-that-ends-well-a01-s01-i0120",
       "kind": "speech",
       "subtype": null,
@@ -11216,7 +11227,7 @@
       ]
     },
     {
-      "seq": 122,
+      "seq": 121,
       "serial": "alls-well-that-ends-well-a01-s01-i0121",
       "kind": "speech",
       "subtype": null,
@@ -11337,7 +11348,7 @@
       ]
     },
     {
-      "seq": 123,
+      "seq": 122,
       "serial": "alls-well-that-ends-well-a01-s01-i0122",
       "kind": "speech",
       "subtype": null,
@@ -11430,7 +11441,7 @@
       ]
     },
     {
-      "seq": 124,
+      "seq": 123,
       "serial": "alls-well-that-ends-well-a01-s01-i0123",
       "kind": "speech",
       "subtype": null,
@@ -11515,7 +11526,7 @@
       ]
     },
     {
-      "seq": 125,
+      "seq": 124,
       "serial": "alls-well-that-ends-well-a01-s01-i0124",
       "kind": "speech",
       "subtype": null,
@@ -11652,7 +11663,7 @@
       ]
     },
     {
-      "seq": 126,
+      "seq": 125,
       "serial": "alls-well-that-ends-well-a01-s01-i0125",
       "kind": "speech",
       "subtype": null,
@@ -11735,7 +11746,7 @@
       ]
     },
     {
-      "seq": 127,
+      "seq": 126,
       "serial": "alls-well-that-ends-well-a01-s01-i0127",
       "kind": "speech",
       "subtype": null,
@@ -11816,7 +11827,7 @@
       ]
     },
     {
-      "seq": 128,
+      "seq": 127,
       "serial": "alls-well-that-ends-well-a01-s01-i0128",
       "kind": "speaker_label",
       "subtype": null,
@@ -11829,7 +11840,7 @@
       "spans": []
     },
     {
-      "seq": 129,
+      "seq": 128,
       "serial": "alls-well-that-ends-well-a01-s01-i0129",
       "kind": "speech",
       "subtype": null,
@@ -11902,7 +11913,7 @@
       ]
     },
     {
-      "seq": 130,
+      "seq": 129,
       "serial": "alls-well-that-ends-well-a01-s01-i0130",
       "kind": "speaker_label",
       "subtype": null,
@@ -11915,7 +11926,7 @@
       "spans": []
     },
     {
-      "seq": 131,
+      "seq": 130,
       "serial": "alls-well-that-ends-well-a01-s01-i0131",
       "kind": "speech",
       "subtype": null,
@@ -11958,7 +11969,7 @@
       ]
     },
     {
-      "seq": 132,
+      "seq": 131,
       "serial": "alls-well-that-ends-well-a01-s01-i0132",
       "kind": "speaker_label",
       "subtype": null,
@@ -11971,7 +11982,7 @@
       "spans": []
     },
     {
-      "seq": 133,
+      "seq": 132,
       "serial": "alls-well-that-ends-well-a01-s01-i0133",
       "kind": "speech",
       "subtype": null,
@@ -12022,7 +12033,7 @@
       ]
     },
     {
-      "seq": 134,
+      "seq": 133,
       "serial": "alls-well-that-ends-well-a01-s01-i0134",
       "kind": "speaker_label",
       "subtype": null,
@@ -12035,7 +12046,7 @@
       "spans": []
     },
     {
-      "seq": 135,
+      "seq": 134,
       "serial": "alls-well-that-ends-well-a01-s01-i0135",
       "kind": "speech",
       "subtype": null,
@@ -12110,7 +12121,7 @@
       ]
     },
     {
-      "seq": 136,
+      "seq": 135,
       "serial": "alls-well-that-ends-well-a01-s01-i0136",
       "kind": "speaker_label",
       "subtype": null,
@@ -12123,7 +12134,7 @@
       "spans": []
     },
     {
-      "seq": 137,
+      "seq": 136,
       "serial": "alls-well-that-ends-well-a01-s01-i0137",
       "kind": "speech",
       "subtype": null,
@@ -12306,7 +12317,7 @@
       ]
     },
     {
-      "seq": 138,
+      "seq": 137,
       "serial": "alls-well-that-ends-well-a01-s01-i0138",
       "kind": "speech",
       "subtype": null,
@@ -12451,7 +12462,7 @@
       ]
     },
     {
-      "seq": 139,
+      "seq": 138,
       "serial": "alls-well-that-ends-well-a01-s01-i0139",
       "kind": "speaker_label",
       "subtype": null,
@@ -12464,7 +12475,7 @@
       "spans": []
     },
     {
-      "seq": 140,
+      "seq": 139,
       "serial": "alls-well-that-ends-well-a01-s01-i0140",
       "kind": "speech",
       "subtype": null,
@@ -12523,7 +12534,7 @@
       ]
     },
     {
-      "seq": 141,
+      "seq": 140,
       "serial": "alls-well-that-ends-well-a01-s01-i0141",
       "kind": "speaker_label",
       "subtype": null,
@@ -12536,7 +12547,7 @@
       "spans": []
     },
     {
-      "seq": 142,
+      "seq": 141,
       "serial": "alls-well-that-ends-well-a01-s01-i0142",
       "kind": "speech",
       "subtype": null,
@@ -12709,7 +12720,7 @@
       ]
     },
     {
-      "seq": 143,
+      "seq": 142,
       "serial": "alls-well-that-ends-well-a01-s01-i0143",
       "kind": "speech",
       "subtype": null,
@@ -12822,7 +12833,7 @@
       ]
     },
     {
-      "seq": 144,
+      "seq": 143,
       "serial": "alls-well-that-ends-well-a01-s01-i0144",
       "kind": "speaker_label",
       "subtype": null,
@@ -12835,7 +12846,7 @@
       "spans": []
     },
     {
-      "seq": 145,
+      "seq": 144,
       "serial": "alls-well-that-ends-well-a01-s01-i0145",
       "kind": "speech",
       "subtype": null,
@@ -12974,7 +12985,7 @@
       ]
     },
     {
-      "seq": 146,
+      "seq": 145,
       "serial": "alls-well-that-ends-well-a01-s01-i0146",
       "kind": "speech",
       "subtype": null,
@@ -13025,7 +13036,7 @@
       ]
     },
     {
-      "seq": 147,
+      "seq": 146,
       "serial": "alls-well-that-ends-well-a01-s01-i0147",
       "kind": "speaker_label",
       "subtype": null,
@@ -13038,7 +13049,7 @@
       "spans": []
     },
     {
-      "seq": 148,
+      "seq": 147,
       "serial": "alls-well-that-ends-well-a01-s01-i0148",
       "kind": "speech",
       "subtype": null,
@@ -13183,7 +13194,7 @@
       ]
     },
     {
-      "seq": 149,
+      "seq": 148,
       "serial": "alls-well-that-ends-well-a01-s01-i0149",
       "kind": "speech",
       "subtype": null,
@@ -13282,7 +13293,7 @@
       ]
     },
     {
-      "seq": 150,
+      "seq": 149,
       "serial": "alls-well-that-ends-well-a01-s01-i0150",
       "kind": "speaker_label",
       "subtype": null,
@@ -13295,7 +13306,7 @@
       "spans": []
     },
     {
-      "seq": 151,
+      "seq": 150,
       "serial": "alls-well-that-ends-well-a01-s01-i0151",
       "kind": "speech",
       "subtype": null,
@@ -13454,7 +13465,7 @@
       ]
     },
     {
-      "seq": 152,
+      "seq": 151,
       "serial": "alls-well-that-ends-well-a01-s01-i0152",
       "kind": "speech",
       "subtype": null,
@@ -13599,7 +13610,7 @@
       ]
     },
     {
-      "seq": 153,
+      "seq": 152,
       "serial": "alls-well-that-ends-well-a01-s01-i0153",
       "kind": "speech",
       "subtype": null,
@@ -13730,7 +13741,7 @@
       ]
     },
     {
-      "seq": 154,
+      "seq": 153,
       "serial": "alls-well-that-ends-well-a01-s01-i0154",
       "kind": "speech",
       "subtype": null,
@@ -13867,7 +13878,7 @@
       ]
     },
     {
-      "seq": 155,
+      "seq": 154,
       "serial": "alls-well-that-ends-well-a01-s01-i0155",
       "kind": "speech",
       "subtype": null,
@@ -14006,7 +14017,7 @@
       ]
     },
     {
-      "seq": 156,
+      "seq": 155,
       "serial": "alls-well-that-ends-well-a01-s01-i0156",
       "kind": "speech",
       "subtype": null,
@@ -14173,7 +14184,7 @@
       ]
     },
     {
-      "seq": 157,
+      "seq": 156,
       "serial": "alls-well-that-ends-well-a01-s01-i0157",
       "kind": "speech",
       "subtype": null,
@@ -14362,7 +14373,7 @@
       ]
     },
     {
-      "seq": 158,
+      "seq": 157,
       "serial": "alls-well-that-ends-well-a01-s01-i0158",
       "kind": "speech",
       "subtype": null,
@@ -14421,7 +14432,7 @@
       ]
     },
     {
-      "seq": 159,
+      "seq": 158,
       "serial": "alls-well-that-ends-well-a01-s01-i0159",
       "kind": "speaker_label",
       "subtype": null,
@@ -14434,7 +14445,7 @@
       "spans": []
     },
     {
-      "seq": 160,
+      "seq": 159,
       "serial": "alls-well-that-ends-well-a01-s01-i0160",
       "kind": "speech",
       "subtype": null,
@@ -14579,7 +14590,7 @@
       ]
     },
     {
-      "seq": 161,
+      "seq": 160,
       "serial": "alls-well-that-ends-well-a01-s01-i0161",
       "kind": "speaker_label",
       "subtype": null,
@@ -14592,7 +14603,7 @@
       "spans": []
     },
     {
-      "seq": 162,
+      "seq": 161,
       "serial": "alls-well-that-ends-well-a01-s01-i0162",
       "kind": "speech",
       "subtype": null,
@@ -14745,7 +14756,7 @@
       ]
     },
     {
-      "seq": 163,
+      "seq": 162,
       "serial": "alls-well-that-ends-well-a01-s01-i0163",
       "kind": "speech",
       "subtype": null,
@@ -14892,7 +14903,7 @@
       ]
     },
     {
-      "seq": 164,
+      "seq": 163,
       "serial": "alls-well-that-ends-well-a01-s01-i0164",
       "kind": "speech",
       "subtype": null,
@@ -15021,7 +15032,7 @@
       ]
     },
     {
-      "seq": 165,
+      "seq": 164,
       "serial": "alls-well-that-ends-well-a01-s01-i0165",
       "kind": "speech",
       "subtype": null,
@@ -15152,7 +15163,7 @@
       ]
     },
     {
-      "seq": 166,
+      "seq": 165,
       "serial": "alls-well-that-ends-well-a01-s01-i0166",
       "kind": "speech",
       "subtype": null,
@@ -15273,7 +15284,7 @@
       ]
     },
     {
-      "seq": 167,
+      "seq": 166,
       "serial": "alls-well-that-ends-well-a01-s01-i0167",
       "kind": "speech",
       "subtype": null,
@@ -15287,7 +15298,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "mites, much like a cheese; consumes itself to the very paring, and so",
+          "text": "mites, much like a cheese; consumes itself to the very paring, and so dies with feeding his own stomach. Besides, virginity is peevish,",
           "tokens": [
             {
               "i": 1,
@@ -15295,7 +15306,7 @@
               "s": "mites",
               "norm": "mites",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t001"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t001"
             },
             {
               "i": 2,
@@ -15303,7 +15314,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t002",
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -15317,7 +15328,7 @@
               "s": "much",
               "norm": "much",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t003"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t003"
             },
             {
               "i": 4,
@@ -15325,7 +15336,7 @@
               "s": "like",
               "norm": "like",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t004"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t004"
             },
             {
               "i": 5,
@@ -15333,7 +15344,7 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t005"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t005"
             },
             {
               "i": 6,
@@ -15341,7 +15352,7 @@
               "s": "cheese",
               "norm": "cheese",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t006"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t006"
             },
             {
               "i": 7,
@@ -15349,7 +15360,7 @@
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t007",
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t007",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
@@ -15363,7 +15374,7 @@
               "s": "consumes",
               "norm": "consumes",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t008"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t008"
             },
             {
               "i": 9,
@@ -15371,7 +15382,7 @@
               "s": "itself",
               "norm": "itself",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t009"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t009"
             },
             {
               "i": 10,
@@ -15379,7 +15390,7 @@
               "s": "to",
               "norm": "to",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t010"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t010"
             },
             {
               "i": 11,
@@ -15387,7 +15398,7 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t011"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t011"
             },
             {
               "i": 12,
@@ -15395,7 +15406,7 @@
               "s": "very",
               "norm": "very",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t012"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t012"
             },
             {
               "i": 13,
@@ -15403,7 +15414,7 @@
               "s": "paring",
               "norm": "paring",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t013"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t013"
             },
             {
               "i": 14,
@@ -15411,7 +15422,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t014",
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t014",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -15425,7 +15436,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t015"
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t015"
             },
             {
               "i": 16,
@@ -15433,92 +15444,63 @@
               "s": "so",
               "norm": "so",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-l0113-t016"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 168,
-      "serial": "alls-well-that-ends-well-a01-s01-i0168",
-      "kind": "stage",
-      "subtype": null,
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
-      "subsection": null,
-      "spans": [
-        {
-          "type": "stage",
-          "em": true,
-          "text": "dies with feeding his own stomach. Besides, virginity is peevish,",
-          "stage": null,
-          "tokens": [
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t016"
+            },
             {
-              "i": 1,
+              "i": 17,
               "type": "word",
               "s": "dies",
               "norm": "dies",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t001",
-              "em": true
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t017"
             },
             {
-              "i": 2,
+              "i": 18,
               "type": "word",
               "s": "with",
               "norm": "with",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t002",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t018"
             },
             {
-              "i": 3,
+              "i": 19,
               "type": "word",
               "s": "feeding",
               "norm": "feeding",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t003",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t019"
             },
             {
-              "i": 4,
+              "i": 20,
               "type": "word",
               "s": "his",
               "norm": "his",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t004",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t020"
             },
             {
-              "i": 5,
+              "i": 21,
               "type": "word",
               "s": "own",
               "norm": "own",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t005",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t021"
             },
             {
-              "i": 6,
+              "i": 22,
               "type": "word",
               "s": "stomach",
               "norm": "stomach",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t006",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t022"
             },
             {
-              "i": 7,
+              "i": 23,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t007",
-              "em": true,
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t023",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -15527,22 +15509,20 @@
               }
             },
             {
-              "i": 8,
+              "i": 24,
               "type": "word",
               "s": "Besides",
               "norm": "besides",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t008",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t024"
             },
             {
-              "i": 9,
+              "i": 25,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t009",
-              "em": true,
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t025",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -15551,40 +15531,36 @@
               }
             },
             {
-              "i": 10,
+              "i": 26,
               "type": "word",
               "s": "virginity",
               "norm": "virginity",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t010",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t026"
             },
             {
-              "i": 11,
+              "i": 27,
               "type": "word",
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t011",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t027"
             },
             {
-              "i": 12,
+              "i": 28,
               "type": "word",
               "s": "peevish",
               "norm": "peevish",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t012",
-              "em": true
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t028"
             },
             {
-              "i": 13,
+              "i": 29,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s01-i0168-t013",
-              "em": true,
+              "serial": "alls-well-that-ends-well-a01-s01-l0121-t029",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -15597,7 +15573,7 @@
       ]
     },
     {
-      "seq": 169,
+      "seq": 167,
       "serial": "alls-well-that-ends-well-a01-s01-i0173",
       "kind": "speaker_label",
       "subtype": null,
@@ -15610,7 +15586,7 @@
       "spans": []
     },
     {
-      "seq": 170,
+      "seq": 168,
       "serial": "alls-well-that-ends-well-a01-s01-i0169",
       "kind": "speech",
       "subtype": null,
@@ -15799,7 +15775,7 @@
       ]
     },
     {
-      "seq": 171,
+      "seq": 169,
       "serial": "alls-well-that-ends-well-a01-s01-i0170",
       "kind": "speech",
       "subtype": null,
@@ -15980,7 +15956,7 @@
       ]
     },
     {
-      "seq": 172,
+      "seq": 170,
       "serial": "alls-well-that-ends-well-a01-s01-i0171",
       "kind": "speech",
       "subtype": null,
@@ -16141,7 +16117,7 @@
       ]
     },
     {
-      "seq": 173,
+      "seq": 171,
       "serial": "alls-well-that-ends-well-a01-s01-i0172",
       "kind": "speech",
       "subtype": null,
@@ -16262,7 +16238,7 @@
       ]
     },
     {
-      "seq": 174,
+      "seq": 172,
       "serial": "alls-well-that-ends-well-a01-s01-i0174",
       "kind": "speech",
       "subtype": null,
@@ -16421,7 +16397,7 @@
       ]
     },
     {
-      "seq": 175,
+      "seq": 173,
       "serial": "alls-well-that-ends-well-a01-s01-i0175",
       "kind": "speaker_label",
       "subtype": null,
@@ -16434,7 +16410,7 @@
       "spans": []
     },
     {
-      "seq": 176,
+      "seq": 174,
       "serial": "alls-well-that-ends-well-a01-s01-i0176",
       "kind": "speech",
       "subtype": null,
@@ -16623,7 +16599,7 @@
       ]
     },
     {
-      "seq": 177,
+      "seq": 175,
       "serial": "alls-well-that-ends-well-a01-s01-i0177",
       "kind": "speech",
       "subtype": null,
@@ -16768,7 +16744,7 @@
       ]
     },
     {
-      "seq": 178,
+      "seq": 176,
       "serial": "alls-well-that-ends-well-a01-s01-i0178",
       "kind": "speech",
       "subtype": null,
@@ -16919,7 +16895,7 @@
       ]
     },
     {
-      "seq": 179,
+      "seq": 177,
       "serial": "alls-well-that-ends-well-a01-s01-i0179",
       "kind": "speech",
       "subtype": null,
@@ -17078,7 +17054,7 @@
       ]
     },
     {
-      "seq": 180,
+      "seq": 178,
       "serial": "alls-well-that-ends-well-a01-s01-i0180",
       "kind": "speech",
       "subtype": null,
@@ -17229,7 +17205,7 @@
       ]
     },
     {
-      "seq": 181,
+      "seq": 179,
       "serial": "alls-well-that-ends-well-a01-s01-i0181",
       "kind": "speech",
       "subtype": null,
@@ -17384,7 +17360,7 @@
       ]
     },
     {
-      "seq": 182,
+      "seq": 180,
       "serial": "alls-well-that-ends-well-a01-s01-i0182",
       "kind": "speech",
       "subtype": null,
@@ -17551,7 +17527,7 @@
       ]
     },
     {
-      "seq": 183,
+      "seq": 181,
       "serial": "alls-well-that-ends-well-a01-s01-i0183",
       "kind": "speech",
       "subtype": null,
@@ -17724,7 +17700,7 @@
       ]
     },
     {
-      "seq": 184,
+      "seq": 182,
       "serial": "alls-well-that-ends-well-a01-s01-i0184",
       "kind": "speech",
       "subtype": null,
@@ -17897,7 +17873,7 @@
       ]
     },
     {
-      "seq": 185,
+      "seq": 183,
       "serial": "alls-well-that-ends-well-a01-s01-i0185",
       "kind": "speech",
       "subtype": null,
@@ -17972,7 +17948,7 @@
       ]
     },
     {
-      "seq": 186,
+      "seq": 184,
       "serial": "alls-well-that-ends-well-a01-s01-i0186",
       "kind": "speaker_label",
       "subtype": null,
@@ -17985,7 +17961,7 @@
       "spans": []
     },
     {
-      "seq": 187,
+      "seq": 185,
       "serial": "alls-well-that-ends-well-a01-s01-i0187",
       "kind": "speech",
       "subtype": null,
@@ -18052,7 +18028,7 @@
       ]
     },
     {
-      "seq": 188,
+      "seq": 186,
       "serial": "alls-well-that-ends-well-a01-s01-i0188",
       "kind": "speech",
       "subtype": null,
@@ -18151,7 +18127,7 @@
       ]
     },
     {
-      "seq": 189,
+      "seq": 187,
       "serial": "alls-well-that-ends-well-a01-s01-i0189",
       "kind": "speech",
       "subtype": null,
@@ -18278,7 +18254,7 @@
       ]
     },
     {
-      "seq": 190,
+      "seq": 188,
       "serial": "alls-well-that-ends-well-a01-s01-i0190",
       "kind": "speech",
       "subtype": null,
@@ -18389,7 +18365,7 @@
       ]
     },
     {
-      "seq": 191,
+      "seq": 189,
       "serial": "alls-well-that-ends-well-a01-s01-i0191",
       "kind": "speech",
       "subtype": null,
@@ -18508,7 +18484,7 @@
       ]
     },
     {
-      "seq": 192,
+      "seq": 190,
       "serial": "alls-well-that-ends-well-a01-s01-i0192",
       "kind": "speech",
       "subtype": null,
@@ -18627,7 +18603,7 @@
       ]
     },
     {
-      "seq": 193,
+      "seq": 191,
       "serial": "alls-well-that-ends-well-a01-s01-i0193",
       "kind": "speech",
       "subtype": null,
@@ -18716,7 +18692,7 @@
       ]
     },
     {
-      "seq": 194,
+      "seq": 192,
       "serial": "alls-well-that-ends-well-a01-s01-i0194",
       "kind": "speech",
       "subtype": null,
@@ -18821,7 +18797,7 @@
       ]
     },
     {
-      "seq": 195,
+      "seq": 193,
       "serial": "alls-well-that-ends-well-a01-s01-i0195",
       "kind": "speech",
       "subtype": null,
@@ -18934,7 +18910,7 @@
       ]
     },
     {
-      "seq": 196,
+      "seq": 194,
       "serial": "alls-well-that-ends-well-a01-s01-i0196",
       "kind": "speech",
       "subtype": null,
@@ -19023,7 +18999,7 @@
       ]
     },
     {
-      "seq": 197,
+      "seq": 195,
       "serial": "alls-well-that-ends-well-a01-s01-i0197",
       "kind": "speech",
       "subtype": null,
@@ -19128,7 +19104,7 @@
       ]
     },
     {
-      "seq": 198,
+      "seq": 196,
       "serial": "alls-well-that-ends-well-a01-s01-i0198",
       "kind": "speech",
       "subtype": null,
@@ -19257,7 +19233,7 @@
       ]
     },
     {
-      "seq": 199,
+      "seq": 197,
       "serial": "alls-well-that-ends-well-a01-s01-i0199",
       "kind": "speech",
       "subtype": null,
@@ -19392,7 +19368,7 @@
       ]
     },
     {
-      "seq": 200,
+      "seq": 198,
       "serial": "alls-well-that-ends-well-a01-s01-i0200",
       "kind": "speaker_label",
       "subtype": null,
@@ -19405,7 +19381,7 @@
       "spans": []
     },
     {
-      "seq": 201,
+      "seq": 199,
       "serial": "alls-well-that-ends-well-a01-s01-i0201",
       "kind": "speech",
       "subtype": null,
@@ -19486,7 +19462,7 @@
       ]
     },
     {
-      "seq": 202,
+      "seq": 200,
       "serial": "alls-well-that-ends-well-a01-s01-i0202",
       "kind": "speaker_label",
       "subtype": null,
@@ -19499,7 +19475,7 @@
       "spans": []
     },
     {
-      "seq": 203,
+      "seq": 201,
       "serial": "alls-well-that-ends-well-a01-s01-i0203",
       "kind": "speech",
       "subtype": null,
@@ -19596,7 +19572,7 @@
       ]
     },
     {
-      "seq": 204,
+      "seq": 202,
       "serial": "alls-well-that-ends-well-a01-s01-i0204",
       "kind": "speaker_label",
       "subtype": null,
@@ -19609,7 +19585,7 @@
       "spans": []
     },
     {
-      "seq": 205,
+      "seq": 203,
       "serial": "alls-well-that-ends-well-a01-s01-i0205",
       "kind": "speech",
       "subtype": null,
@@ -19660,7 +19636,7 @@
       ]
     },
     {
-      "seq": 206,
+      "seq": 204,
       "serial": "alls-well-that-ends-well-a01-s01-i0206",
       "kind": "speaker_label",
       "subtype": null,
@@ -19673,7 +19649,7 @@
       "spans": []
     },
     {
-      "seq": 207,
+      "seq": 205,
       "serial": "alls-well-that-ends-well-a01-s01-i0207",
       "kind": "speech",
       "subtype": null,
@@ -19758,7 +19734,7 @@
       ]
     },
     {
-      "seq": 208,
+      "seq": 206,
       "serial": "alls-well-that-ends-well-a01-s01-i0208",
       "kind": "speech",
       "subtype": null,
@@ -19893,7 +19869,7 @@
       ]
     },
     {
-      "seq": 209,
+      "seq": 207,
       "serial": "alls-well-that-ends-well-a01-s01-i0209",
       "kind": "speech",
       "subtype": null,
@@ -20000,7 +19976,7 @@
       ]
     },
     {
-      "seq": 210,
+      "seq": 208,
       "serial": "alls-well-that-ends-well-a01-s01-i0210",
       "kind": "speech",
       "subtype": null,
@@ -20099,7 +20075,7 @@
       ]
     },
     {
-      "seq": 211,
+      "seq": 209,
       "serial": "alls-well-that-ends-well-a01-s01-i0211",
       "kind": "speech",
       "subtype": null,
@@ -20206,7 +20182,7 @@
       ]
     },
     {
-      "seq": 212,
+      "seq": 210,
       "serial": "alls-well-that-ends-well-a01-s01-i0212",
       "kind": "speech",
       "subtype": null,
@@ -20265,7 +20241,7 @@
       ]
     },
     {
-      "seq": 213,
+      "seq": 211,
       "serial": "alls-well-that-ends-well-a01-s01-i0213",
       "kind": "stage",
       "subtype": "enter",
@@ -20329,7 +20305,7 @@
       ]
     },
     {
-      "seq": 214,
+      "seq": 212,
       "serial": "alls-well-that-ends-well-a01-s01-i0214",
       "kind": "speaker_label",
       "subtype": null,
@@ -20342,7 +20318,7 @@
       "spans": []
     },
     {
-      "seq": 215,
+      "seq": 213,
       "serial": "alls-well-that-ends-well-a01-s01-i0215",
       "kind": "speech",
       "subtype": null,
@@ -20447,7 +20423,7 @@
       ]
     },
     {
-      "seq": 216,
+      "seq": 214,
       "serial": "alls-well-that-ends-well-a01-s01-i0216",
       "kind": "stage",
       "subtype": "exit",
@@ -20502,7 +20478,7 @@
       ]
     },
     {
-      "seq": 217,
+      "seq": 215,
       "serial": "alls-well-that-ends-well-a01-s01-i0217",
       "kind": "speaker_label",
       "subtype": null,
@@ -20515,7 +20491,7 @@
       "spans": []
     },
     {
-      "seq": 218,
+      "seq": 216,
       "serial": "alls-well-that-ends-well-a01-s01-i0218",
       "kind": "speech",
       "subtype": null,
@@ -20690,7 +20666,7 @@
       ]
     },
     {
-      "seq": 219,
+      "seq": 217,
       "serial": "alls-well-that-ends-well-a01-s01-i0219",
       "kind": "speech",
       "subtype": null,
@@ -20733,7 +20709,7 @@
       ]
     },
     {
-      "seq": 220,
+      "seq": 218,
       "serial": "alls-well-that-ends-well-a01-s01-i0220",
       "kind": "speaker_label",
       "subtype": null,
@@ -20746,7 +20722,7 @@
       "spans": []
     },
     {
-      "seq": 221,
+      "seq": 219,
       "serial": "alls-well-that-ends-well-a01-s01-i0221",
       "kind": "speech",
       "subtype": null,
@@ -20867,7 +20843,7 @@
       ]
     },
     {
-      "seq": 222,
+      "seq": 220,
       "serial": "alls-well-that-ends-well-a01-s01-i0222",
       "kind": "speaker_label",
       "subtype": null,
@@ -20880,7 +20856,7 @@
       "spans": []
     },
     {
-      "seq": 223,
+      "seq": 221,
       "serial": "alls-well-that-ends-well-a01-s01-i0223",
       "kind": "speech",
       "subtype": null,
@@ -20953,7 +20929,7 @@
       ]
     },
     {
-      "seq": 224,
+      "seq": 222,
       "serial": "alls-well-that-ends-well-a01-s01-i0224",
       "kind": "speaker_label",
       "subtype": null,
@@ -20966,7 +20942,7 @@
       "spans": []
     },
     {
-      "seq": 225,
+      "seq": 223,
       "serial": "alls-well-that-ends-well-a01-s01-i0225",
       "kind": "speech",
       "subtype": null,
@@ -21055,7 +21031,7 @@
       ]
     },
     {
-      "seq": 226,
+      "seq": 224,
       "serial": "alls-well-that-ends-well-a01-s01-i0226",
       "kind": "speaker_label",
       "subtype": null,
@@ -21068,7 +21044,7 @@
       "spans": []
     },
     {
-      "seq": 227,
+      "seq": 225,
       "serial": "alls-well-that-ends-well-a01-s01-i0227",
       "kind": "speech",
       "subtype": null,
@@ -21127,7 +21103,7 @@
       ]
     },
     {
-      "seq": 228,
+      "seq": 226,
       "serial": "alls-well-that-ends-well-a01-s01-i0228",
       "kind": "speaker_label",
       "subtype": null,
@@ -21140,7 +21116,7 @@
       "spans": []
     },
     {
-      "seq": 229,
+      "seq": 227,
       "serial": "alls-well-that-ends-well-a01-s01-i0229",
       "kind": "speech",
       "subtype": null,
@@ -21287,7 +21263,7 @@
       ]
     },
     {
-      "seq": 230,
+      "seq": 228,
       "serial": "alls-well-that-ends-well-a01-s01-i0230",
       "kind": "speech",
       "subtype": null,
@@ -21330,7 +21306,7 @@
       ]
     },
     {
-      "seq": 231,
+      "seq": 229,
       "serial": "alls-well-that-ends-well-a01-s01-i0231",
       "kind": "speaker_label",
       "subtype": null,
@@ -21343,7 +21319,7 @@
       "spans": []
     },
     {
-      "seq": 232,
+      "seq": 230,
       "serial": "alls-well-that-ends-well-a01-s01-i0232",
       "kind": "speech",
       "subtype": null,
@@ -21410,7 +21386,7 @@
       ]
     },
     {
-      "seq": 233,
+      "seq": 231,
       "serial": "alls-well-that-ends-well-a01-s01-i0233",
       "kind": "speaker_label",
       "subtype": null,
@@ -21423,7 +21399,7 @@
       "spans": []
     },
     {
-      "seq": 234,
+      "seq": 232,
       "serial": "alls-well-that-ends-well-a01-s01-i0234",
       "kind": "speech",
       "subtype": null,
@@ -21528,7 +21504,7 @@
       ]
     },
     {
-      "seq": 235,
+      "seq": 233,
       "serial": "alls-well-that-ends-well-a01-s01-i0235",
       "kind": "speaker_label",
       "subtype": null,
@@ -21541,7 +21517,7 @@
       "spans": []
     },
     {
-      "seq": 236,
+      "seq": 234,
       "serial": "alls-well-that-ends-well-a01-s01-i0236",
       "kind": "speech",
       "subtype": null,
@@ -21608,7 +21584,7 @@
       ]
     },
     {
-      "seq": 237,
+      "seq": 235,
       "serial": "alls-well-that-ends-well-a01-s01-i0237",
       "kind": "speaker_label",
       "subtype": null,
@@ -21621,7 +21597,7 @@
       "spans": []
     },
     {
-      "seq": 238,
+      "seq": 236,
       "serial": "alls-well-that-ends-well-a01-s01-i0238",
       "kind": "speech",
       "subtype": null,
@@ -21720,7 +21696,7 @@
       ]
     },
     {
-      "seq": 239,
+      "seq": 237,
       "serial": "alls-well-that-ends-well-a01-s01-i0239",
       "kind": "speaker_label",
       "subtype": null,
@@ -21733,7 +21709,7 @@
       "spans": []
     },
     {
-      "seq": 240,
+      "seq": 238,
       "serial": "alls-well-that-ends-well-a01-s01-i0240",
       "kind": "speech",
       "subtype": null,
@@ -21792,7 +21768,7 @@
       ]
     },
     {
-      "seq": 241,
+      "seq": 239,
       "serial": "alls-well-that-ends-well-a01-s01-i0241",
       "kind": "speaker_label",
       "subtype": null,
@@ -21805,7 +21781,7 @@
       "spans": []
     },
     {
-      "seq": 242,
+      "seq": 240,
       "serial": "alls-well-that-ends-well-a01-s01-i0242",
       "kind": "speech",
       "subtype": null,
@@ -21950,7 +21926,7 @@
       ]
     },
     {
-      "seq": 243,
+      "seq": 241,
       "serial": "alls-well-that-ends-well-a01-s01-i0243",
       "kind": "speech",
       "subtype": null,
@@ -22113,7 +22089,7 @@
       ]
     },
     {
-      "seq": 244,
+      "seq": 242,
       "serial": "alls-well-that-ends-well-a01-s01-i0244",
       "kind": "speech",
       "subtype": null,
@@ -22188,7 +22164,7 @@
       ]
     },
     {
-      "seq": 245,
+      "seq": 243,
       "serial": "alls-well-that-ends-well-a01-s01-i0245",
       "kind": "speaker_label",
       "subtype": null,
@@ -22201,7 +22177,7 @@
       "spans": []
     },
     {
-      "seq": 246,
+      "seq": 244,
       "serial": "alls-well-that-ends-well-a01-s01-i0246",
       "kind": "speech",
       "subtype": null,
@@ -22348,7 +22324,7 @@
       ]
     },
     {
-      "seq": 247,
+      "seq": 245,
       "serial": "alls-well-that-ends-well-a01-s01-i0247",
       "kind": "speech",
       "subtype": null,
@@ -22471,7 +22447,7 @@
       ]
     },
     {
-      "seq": 248,
+      "seq": 246,
       "serial": "alls-well-that-ends-well-a01-s01-i0248",
       "kind": "speech",
       "subtype": null,
@@ -22616,7 +22592,7 @@
       ]
     },
     {
-      "seq": 249,
+      "seq": 247,
       "serial": "alls-well-that-ends-well-a01-s01-i0249",
       "kind": "speech",
       "subtype": null,
@@ -22739,7 +22715,7 @@
       ]
     },
     {
-      "seq": 250,
+      "seq": 248,
       "serial": "alls-well-that-ends-well-a01-s01-i0250",
       "kind": "speech",
       "subtype": null,
@@ -22874,7 +22850,7 @@
       ]
     },
     {
-      "seq": 251,
+      "seq": 249,
       "serial": "alls-well-that-ends-well-a01-s01-i0251",
       "kind": "speech",
       "subtype": null,
@@ -23033,7 +23009,7 @@
       ]
     },
     {
-      "seq": 252,
+      "seq": 250,
       "serial": "alls-well-that-ends-well-a01-s01-i0252",
       "kind": "speech",
       "subtype": null,
@@ -23222,7 +23198,7 @@
       ]
     },
     {
-      "seq": 253,
+      "seq": 251,
       "serial": "alls-well-that-ends-well-a01-s01-i0253",
       "kind": "speech",
       "subtype": null,
@@ -23265,7 +23241,7 @@
       ]
     },
     {
-      "seq": 254,
+      "seq": 252,
       "serial": "alls-well-that-ends-well-a01-s01-i0254",
       "kind": "stage",
       "subtype": "exit",
@@ -23311,7 +23287,7 @@
       ]
     },
     {
-      "seq": 255,
+      "seq": 253,
       "serial": "alls-well-that-ends-well-a01-s01-i0255",
       "kind": "speaker_label",
       "subtype": null,
@@ -23324,7 +23300,7 @@
       "spans": []
     },
     {
-      "seq": 256,
+      "seq": 254,
       "serial": "alls-well-that-ends-well-a01-s01-i0256",
       "kind": "speech",
       "subtype": null,
@@ -23415,7 +23391,7 @@
       ]
     },
     {
-      "seq": 257,
+      "seq": 255,
       "serial": "alls-well-that-ends-well-a01-s01-i0257",
       "kind": "speech",
       "subtype": null,
@@ -23514,7 +23490,7 @@
       ]
     },
     {
-      "seq": 258,
+      "seq": 256,
       "serial": "alls-well-that-ends-well-a01-s01-i0258",
       "kind": "speech",
       "subtype": null,
@@ -23613,7 +23589,7 @@
       ]
     },
     {
-      "seq": 259,
+      "seq": 257,
       "serial": "alls-well-that-ends-well-a01-s01-i0259",
       "kind": "speech",
       "subtype": null,
@@ -23712,7 +23688,7 @@
       ]
     },
     {
-      "seq": 260,
+      "seq": 258,
       "serial": "alls-well-that-ends-well-a01-s01-i0260",
       "kind": "speech",
       "subtype": null,
@@ -23827,7 +23803,7 @@
       ]
     },
     {
-      "seq": 261,
+      "seq": 259,
       "serial": "alls-well-that-ends-well-a01-s01-i0261",
       "kind": "speech",
       "subtype": null,
@@ -23948,7 +23924,7 @@
       ]
     },
     {
-      "seq": 262,
+      "seq": 260,
       "serial": "alls-well-that-ends-well-a01-s01-i0262",
       "kind": "speech",
       "subtype": null,
@@ -24025,7 +24001,7 @@
       ]
     },
     {
-      "seq": 263,
+      "seq": 261,
       "serial": "alls-well-that-ends-well-a01-s01-i0263",
       "kind": "speech",
       "subtype": null,
@@ -24146,7 +24122,7 @@
       ]
     },
     {
-      "seq": 264,
+      "seq": 262,
       "serial": "alls-well-that-ends-well-a01-s01-i0264",
       "kind": "speech",
       "subtype": null,
@@ -24215,7 +24191,7 @@
       ]
     },
     {
-      "seq": 265,
+      "seq": 263,
       "serial": "alls-well-that-ends-well-a01-s01-i0265",
       "kind": "speech",
       "subtype": null,
@@ -24322,7 +24298,7 @@
       ]
     },
     {
-      "seq": 266,
+      "seq": 264,
       "serial": "alls-well-that-ends-well-a01-s01-i0266",
       "kind": "speech",
       "subtype": null,
@@ -24421,7 +24397,7 @@
       ]
     },
     {
-      "seq": 267,
+      "seq": 265,
       "serial": "alls-well-that-ends-well-a01-s01-i0267",
       "kind": "speech",
       "subtype": null,
@@ -24528,7 +24504,7 @@
       ]
     },
     {
-      "seq": 268,
+      "seq": 266,
       "serial": "alls-well-that-ends-well-a01-s01-i0268",
       "kind": "speech",
       "subtype": null,
@@ -24655,7 +24631,7 @@
       ]
     },
     {
-      "seq": 269,
+      "seq": 267,
       "serial": "alls-well-that-ends-well-a01-s01-i0269",
       "kind": "speech",
       "subtype": null,
@@ -24784,7 +24760,7 @@
       ]
     },
     {
-      "seq": 270,
+      "seq": 268,
       "serial": "alls-well-that-ends-well-a01-s01-i0270",
       "kind": "stage",
       "subtype": "exit",
