@@ -34,12 +34,18 @@
     .line-text{white-space:pre-wrap}
     .play summary{cursor:pointer;font-weight:600}
     .play small.muted{color:var(--muted);font-weight:500}
-    ul.scenes{list-style:none;padding:.25rem 0 .5rem .25rem;margin:0}
-    ul.scenes li{margin:.15rem 0}
+    ul.scenes{list-style:none;padding:.25rem 0 .5rem .25rem;margin:0;display:grid;gap:.35rem}
+    .act-group{margin:.35rem 0 0}
+    .act-title{font-size:.85rem;font-weight:600;color:var(--muted);margin:.4rem 0 .15rem;text-transform:uppercase;letter-spacing:.04em}
+    .scene-items{list-style:none;margin:0;padding:0;display:grid;gap:.2rem}
     a.scene-link{color:inherit;text-decoration:none;border-radius:.35rem;padding:.2rem .35rem;display:inline-block}
     a.scene-link:hover{background:rgba(176,140,255,.18)}
     a.scene-link.active{background:rgba(176,140,255,.35)}
     .error{white-space:pre-wrap;background:#ffeded0f;border:1px solid #fca5a5;color:#fecaca;padding:1rem;border-radius:.5rem}
+    #selection{display:none;align-items:center;gap:.75rem;padding:.6rem 1rem;border-bottom:1px solid var(--border);background:rgba(176,140,255,.12)}
+    #selection.active{display:flex}
+    #selection strong{font-variant-numeric:tabular-nums;letter-spacing:.02em}
+    #selection button{border:1px solid var(--border);background:transparent;color:var(--text);padding:.35rem .6rem;border-radius:.5rem;font:inherit;cursor:pointer}
     @media (max-width:920px){aside{display:none}main{border-left:none}}
   </style>
 </head>
@@ -52,6 +58,13 @@
         <button id="prev" disabled>← Prev</button>
         <div id="crumbs">Loading…</div>
         <button id="next" disabled>Next →</button>
+      </div>
+      <div id="selection" role="status" aria-live="polite">
+        <span id="selection-label"></span>
+        <div style="margin-left:auto;display:flex;gap:.5rem;align-items:center">
+          <button id="copy-selection">Copy range</button>
+          <button id="clear-selection">Clear</button>
+        </div>
       </div>
       <article id="content" aria-live="polite"></article>
     </main>
@@ -95,9 +108,29 @@
           'data-play':play.id
         }, 'Full play')));
         play.scenes.forEach(s=>{
-          const label = s.title || `Act ${s.act ?? '?'} Scene ${s.scene ?? '?'}`;
-          const a = el('a',{href:'#s='+encodeURIComponent(s.path), class:'scene-link', 'data-path':s.path}, label);
-          ul.appendChild(el('li',{}, a));
+          const act = s.act ?? 'Other';
+          if (!grouped.has(act)) grouped.set(act, []);
+          grouped.get(act).push(s);
+        });
+        const sortedActs = Array.from(grouped.keys()).sort((a,b)=>{
+          if (typeof a === 'number' && typeof b === 'number') return a-b;
+          if (typeof a === 'number') return -1;
+          if (typeof b === 'number') return 1;
+          return String(a).localeCompare(String(b));
+        });
+        sortedActs.forEach(act=>{
+          const scenes = grouped.get(act);
+          const actTitle = typeof act === 'number' ? `Act ${act}` : String(act);
+          const li = el('li',{class:'act-group'});
+          li.appendChild(el('div',{class:'act-title'}, actTitle));
+          const list = el('ul',{class:'scene-items'});
+          scenes.forEach(s=>{
+            const label = s.title || (typeof s.scene === 'number' ? `Scene ${s.scene}` : s.scene || 'Scene');
+            const a = el('a',{href:'#s='+encodeURIComponent(s.path), class:'scene-link', 'data-path':s.path}, label);
+            list.appendChild(el('li',{}, a));
+          });
+          li.appendChild(list);
+          ul.appendChild(li);
         });
         details.appendChild(ul);
         root.appendChild(details);
@@ -120,20 +153,24 @@
       if (unitTitle) content.appendChild(el('h1',{class:'unit'}, unitTitle));
 
       let lastSpeechId = null, cur = null;
+      let pendingSpeaker = null;
+      clearSelection();
       for (const item of (json.items || [])){
         if (item.kind === 'heading'){
           const level = (item.subtype==='scene' || item.subtype==='title') ? 'h2' : 'h3';
           content.appendChild(el(level,{class:'heading '+(item.subtype||'')}, textFromItem(item)));
-          lastSpeechId = null; cur = null;
+          lastSpeechId = null; cur = null; pendingSpeaker = null;
         } else if (item.kind === 'stage'){
           content.appendChild(el('div',{class:'stage'}, textFromItem(item)));
         } else if (item.kind === 'speech'){
           if (item.speech_id !== lastSpeechId){
             cur = el('section',{class:'speech'});
-            const speaker = (item.speaker || '').replaceAll('_',' ').trim();
+            const speakerRaw = pendingSpeaker || item.speaker || '';
+            const speaker = speakerRaw.replaceAll('_',' ').trim();
             if (speaker) cur.appendChild(el('h4',{class:'speaker'}, speaker));
             content.appendChild(cur);
             lastSpeechId = item.speech_id;
+            pendingSpeaker = null;
           }
           const line = el('p',{class:'line','data-line':item.line_number ?? ''});
           const ln = item.line_number ? String(item.line_number) : '\u00A0';
@@ -141,13 +178,31 @@
           line.appendChild(el('span',{class:'line-text'}, textFromItem(item)));
           cur.appendChild(line);
         } else if (item.kind === 'speaker_label'){
-          cur = el('section',{class:'speech'});
-          cur.appendChild(el('h4',{class:'speaker'}, (item.speaker||'').replaceAll('_',' ').trim()));
-          content.appendChild(cur);
+          pendingSpeaker = (item.speaker||'').replaceAll('_',' ').trim();
+          cur = null;
           lastSpeechId = null;
         }
       }
       content.scrollTop = 0;
+      updateSelectionUI();
+    }
+
+    async function fetchJSON(path){
+      if (state.cache.has(path)) return state.cache.get(path);
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
+      const json = await res.json();
+      state.cache.set(path,json);
+      return json;
+    }
+
+    function setActiveLink(selector){
+      document.querySelectorAll('.scene-link.active').forEach(a=>a.classList.remove('active'));
+      if (selector){
+        const node = document.querySelector(selector);
+        node?.classList.add('active');
+        node?.closest('details')?.setAttribute('open','');
+      }
     }
 
     async function fetchJSON(path){
