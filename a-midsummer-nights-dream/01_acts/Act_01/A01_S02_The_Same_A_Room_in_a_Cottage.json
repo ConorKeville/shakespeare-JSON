@@ -1394,7 +1394,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Marry, our play is _The most lamentable comedy and most cruel death of",
+          "text": "Marry, our play is",
           "tokens": [
             {
               "i": 1,
@@ -1441,92 +1441,6 @@
               "norm": "is",
               "pre": " ",
               "serial": "a-midsummer-nights-dream-a01-s02-l0009-t005"
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 7,
-              "type": "word",
-              "s": "The",
-              "norm": "the",
-              "pre": "",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t007"
-            },
-            {
-              "i": 8,
-              "type": "word",
-              "s": "most",
-              "norm": "most",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t008"
-            },
-            {
-              "i": 9,
-              "type": "word",
-              "s": "lamentable",
-              "norm": "lamentable",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t009"
-            },
-            {
-              "i": 10,
-              "type": "word",
-              "s": "comedy",
-              "norm": "comedy",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t010"
-            },
-            {
-              "i": 11,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t011"
-            },
-            {
-              "i": 12,
-              "type": "word",
-              "s": "most",
-              "norm": "most",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t012"
-            },
-            {
-              "i": 13,
-              "type": "word",
-              "s": "cruel",
-              "norm": "cruel",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t013"
-            },
-            {
-              "i": 14,
-              "type": "word",
-              "s": "death",
-              "norm": "death",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t014"
-            },
-            {
-              "i": 15,
-              "type": "word",
-              "s": "of",
-              "norm": "of",
-              "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0009-t015"
             }
           ]
         }
@@ -1546,54 +1460,131 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "Pyramus and Thisbe_.",
+          "em": true,
+          "text": "The most lamentable comedy and most cruel death of Pyramus and Thisbe",
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "Pyramus",
-              "norm": "pyramus",
+              "s": "The",
+              "norm": "the",
               "pre": "",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t001"
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t001",
+              "em": true
             },
             {
               "i": 2,
               "type": "word",
-              "s": "and",
-              "norm": "and",
+              "s": "most",
+              "norm": "most",
               "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t002"
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t002",
+              "em": true
             },
             {
               "i": 3,
               "type": "word",
-              "s": "Thisbe",
-              "norm": "thisbe",
+              "s": "lamentable",
+              "norm": "lamentable",
               "pre": " ",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t003"
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t003",
+              "em": true
             },
             {
               "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
+              "type": "word",
+              "s": "comedy",
+              "norm": "comedy",
+              "pre": " ",
               "serial": "a-midsummer-nights-dream-a01-s02-l0010-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "em": true
             },
             {
               "i": 5,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "most",
+              "norm": "most",
+              "pre": " ",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "cruel",
+              "norm": "cruel",
+              "pre": " ",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "death",
+              "norm": "death",
+              "pre": " ",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "Pyramus",
+              "norm": "pyramus",
+              "pre": " ",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "Thisbe",
+              "norm": "thisbe",
+              "pre": " ",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t012",
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ".",
+          "tokens": [
+            {
+              "i": 13,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t005",
+              "serial": "a-midsummer-nights-dream-a01-s02-l0010-t013",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -3659,7 +3650,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "    And Phibbus’ car",
+          "text": "    And Phoebus’ car",
           "tokens": [
             {
               "i": 1,
@@ -3672,8 +3663,8 @@
             {
               "i": 2,
               "type": "word",
-              "s": "Phibbus’",
-              "norm": "phibbus'",
+              "s": "Phoebus’",
+              "norm": "phoebus’",
               "pre": " ",
               "serial": "a-midsummer-nights-dream-a01-s02-l0027-t002"
             },
