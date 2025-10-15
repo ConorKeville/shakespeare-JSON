@@ -54,7 +54,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "ACT II.",
+          "text": "ACT II",
           "tokens": [
             {
               "i": 1,
@@ -71,20 +71,6 @@
               "norm": "ii",
               "pre": " ",
               "serial": "alls-well-that-ends-well-a02-s01-i0001-t002"
-            },
-            {
-              "i": 3,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a02-s01-i0001-t003",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -7629,7 +7615,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Pardon, my lord ",
+          "text": "Pardon, my lord,",
           "tokens": [
             {
               "i": 1,
@@ -7637,7 +7623,7 @@
               "s": "Pardon",
               "norm": "pardon",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t001"
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t001"
             },
             {
               "i": 2,
@@ -7645,7 +7631,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t002",
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -7659,7 +7645,7 @@
               "s": "my",
               "norm": "my",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t003"
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t003"
             },
             {
               "i": 4,
@@ -7667,23 +7653,82 @@
               "s": "lord",
               "norm": "lord",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t004"
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t005",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
             }
           ]
         },
         {
           "type": "stage",
           "em": true,
-          "text": "kneeling",
+          "text": " [kneeling,]",
           "stage": null,
           "tokens": [
             {
               "i": 1,
+              "type": "punct",
+              "s": "[",
+              "norm": "[",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t001",
+              "punct": {
+                "kind": "lbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
+            },
+            {
+              "i": 2,
               "type": "word",
               "s": "kneeling",
               "norm": "kneeling",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t001",
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t003",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": "]",
+              "norm": "]",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t004",
+              "punct": {
+                "kind": "rbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
               "em": true
             }
           ]
@@ -7691,77 +7736,63 @@
         {
           "type": "speech",
           "em": false,
-          "text": ", for me and for my tidings.",
+          "text": " for me and for my tidings.",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t001",
-              "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "type": "word",
+              "s": "for",
+              "norm": "for",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t001"
             },
             {
               "i": 2,
               "type": "word",
-              "s": "for",
-              "norm": "for",
+              "s": "me",
+              "norm": "me",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t002"
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t002"
             },
             {
               "i": 3,
               "type": "word",
-              "s": "me",
-              "norm": "me",
+              "s": "and",
+              "norm": "and",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t003"
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t003"
             },
             {
               "i": 4,
               "type": "word",
-              "s": "and",
-              "norm": "and",
+              "s": "for",
+              "norm": "for",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t004"
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t004"
             },
             {
               "i": 5,
               "type": "word",
-              "s": "for",
-              "norm": "for",
+              "s": "my",
+              "norm": "my",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t005"
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t005"
             },
             {
               "i": 6,
               "type": "word",
-              "s": "my",
-              "norm": "my",
-              "pre": " ",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t006"
-            },
-            {
-              "i": 7,
-              "type": "word",
               "s": "tidings",
               "norm": "tidings",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t007"
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t006"
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a02-s01-l0059-t008",
+              "serial": "alls-well-that-ends-well-a02-s01-l0060-t007",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -9549,7 +9580,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Is powerful to araise King Pippen, nay,",
+          "text": "Is powerful to raise King Pepin, nay,",
           "tokens": [
             {
               "i": 1,
@@ -9594,8 +9625,8 @@
             {
               "i": 6,
               "type": "word",
-              "s": "Pippen",
-              "norm": "pippen",
+              "s": "Pepin",
+              "norm": "pepin",
               "pre": " ",
               "serial": "alls-well-that-ends-well-a02-s01-l0077-t006"
             },

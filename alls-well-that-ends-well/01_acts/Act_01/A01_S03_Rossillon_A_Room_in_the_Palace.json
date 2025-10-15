@@ -6424,84 +6424,77 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "   _For I the ballad will repeat,",
+          "em": true,
+          "text": "   For I the ballad will repeat,",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "type": "word",
+              "s": "For",
+              "norm": "for",
               "pre": "   ",
               "serial": "alls-well-that-ends-well-a01-s03-l0045-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "em": true
             },
             {
               "i": 2,
               "type": "word",
-              "s": "For",
-              "norm": "for",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-l0045-t002"
+              "s": "I",
+              "norm": "i",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a01-s03-l0045-t002",
+              "em": true
             },
             {
               "i": 3,
               "type": "word",
-              "s": "I",
-              "norm": "i",
+              "s": "the",
+              "norm": "the",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0045-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0045-t003",
+              "em": true
             },
             {
               "i": 4,
               "type": "word",
-              "s": "the",
-              "norm": "the",
+              "s": "ballad",
+              "norm": "ballad",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0045-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0045-t004",
+              "em": true
             },
             {
               "i": 5,
               "type": "word",
-              "s": "ballad",
-              "norm": "ballad",
+              "s": "will",
+              "norm": "will",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0045-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0045-t005",
+              "em": true
             },
             {
               "i": 6,
               "type": "word",
-              "s": "will",
-              "norm": "will",
-              "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0045-t006"
-            },
-            {
-              "i": 7,
-              "type": "word",
               "s": "repeat",
               "norm": "repeat",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0045-t007"
+              "serial": "alls-well-that-ends-well-a01-s03-l0045-t006",
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-l0045-t008",
+              "serial": "alls-well-that-ends-well-a01-s03-l0045-t007",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -6521,7 +6514,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "   Which men full true shall find;",
           "tokens": [
             {
@@ -6530,7 +6523,8 @@
               "s": "Which",
               "norm": "which",
               "pre": "   ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0046-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0046-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -6538,7 +6532,8 @@
               "s": "men",
               "norm": "men",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0046-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0046-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -6546,7 +6541,8 @@
               "s": "full",
               "norm": "full",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0046-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0046-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -6554,7 +6550,8 @@
               "s": "true",
               "norm": "true",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0046-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0046-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -6562,7 +6559,8 @@
               "s": "shall",
               "norm": "shall",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0046-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0046-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -6570,7 +6568,8 @@
               "s": "find",
               "norm": "find",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0046-t006"
+              "serial": "alls-well-that-ends-well-a01-s03-l0046-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -6584,7 +6583,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -6604,7 +6604,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "   Your marriage comes by destiny,",
           "tokens": [
             {
@@ -6613,7 +6613,8 @@
               "s": "Your",
               "norm": "your",
               "pre": "   ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0047-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0047-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -6621,7 +6622,8 @@
               "s": "marriage",
               "norm": "marriage",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0047-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0047-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -6629,7 +6631,8 @@
               "s": "comes",
               "norm": "comes",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0047-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0047-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -6637,7 +6640,8 @@
               "s": "by",
               "norm": "by",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0047-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0047-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -6645,7 +6649,8 @@
               "s": "destiny",
               "norm": "destiny",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0047-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0047-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -6659,7 +6664,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -6679,8 +6685,8 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "   Your cuckoo sings by kind._",
+          "em": true,
+          "text": "   Your cuckoo sings by kind.",
           "tokens": [
             {
               "i": 1,
@@ -6688,7 +6694,8 @@
               "s": "Your",
               "norm": "your",
               "pre": "   ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0048-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0048-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -6696,7 +6703,8 @@
               "s": "cuckoo",
               "norm": "cuckoo",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0048-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0048-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -6704,7 +6712,8 @@
               "s": "sings",
               "norm": "sings",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0048-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0048-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -6712,7 +6721,8 @@
               "s": "by",
               "norm": "by",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0048-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0048-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -6720,7 +6730,8 @@
               "s": "kind",
               "norm": "kind",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-l0048-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0048-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -6734,21 +6745,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-l0048-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -7352,32 +7350,71 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Sings.",
+          "text": "[She sings.]",
           "stage": null,
           "tokens": [
             {
               "i": 1,
-              "type": "word",
-              "s": "Sings",
-              "norm": "sings",
+              "type": "punct",
+              "s": "[",
+              "norm": "[",
               "pre": "",
               "serial": "alls-well-that-ends-well-a01-s03-i0082-t001",
+              "punct": {
+                "kind": "lbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
               "em": true
             },
             {
               "i": 2,
+              "type": "word",
+              "s": "She",
+              "norm": "she",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a01-s03-i0082-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "sings",
+              "norm": "sings",
+              "pre": " ",
+              "serial": "alls-well-that-ends-well-a01-s03-i0082-t003",
+              "em": true
+            },
+            {
+              "i": 4,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0082-t002",
-              "em": true,
+              "serial": "alls-well-that-ends-well-a01-s03-i0082-t004",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "]",
+              "norm": "]",
+              "pre": "",
+              "serial": "alls-well-that-ends-well-a01-s03-i0082-t005",
+              "punct": {
+                "kind": "rbracket",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
             }
           ]
         }
@@ -7410,114 +7447,110 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_   Was this fair face the cause, quoth she,",
+          "em": true,
+          "text": "   Was this fair face the cause, quoth she,",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Was",
               "norm": "was",
               "pre": "   ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "this",
               "norm": "this",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t002",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "fair",
               "norm": "fair",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "face",
               "norm": "face",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "word",
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t006"
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t005",
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "word",
               "s": "cause",
               "norm": "cause",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t007"
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t006",
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t008",
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t007",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 9,
+              "i": 8,
               "type": "word",
               "s": "quoth",
               "norm": "quoth",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t009"
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t008",
+              "em": true
             },
             {
-              "i": 10,
+              "i": 9,
               "type": "word",
               "s": "she",
               "norm": "she",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t010"
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t009",
+              "em": true
             },
             {
-              "i": 11,
+              "i": 10,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0083-t011",
+              "serial": "alls-well-that-ends-well-a01-s03-l0053-t010",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -7537,7 +7570,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "     Why the Grecians sacked Troy?",
           "tokens": [
             {
@@ -7546,7 +7579,8 @@
               "s": "Why",
               "norm": "why",
               "pre": "     ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0084-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0054-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -7554,7 +7588,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0084-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0054-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -7562,7 +7597,8 @@
               "s": "Grecians",
               "norm": "grecians",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0084-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0054-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -7570,7 +7606,8 @@
               "s": "sacked",
               "norm": "sacked",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0084-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0054-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -7578,7 +7615,8 @@
               "s": "Troy",
               "norm": "troy",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0084-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0054-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -7586,13 +7624,14 @@
               "s": "?",
               "norm": "?",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0084-t006",
+              "serial": "alls-well-that-ends-well-a01-s03-l0054-t006",
               "punct": {
                 "kind": "qmark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -7612,7 +7651,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "   Fond done, done fond,",
           "tokens": [
             {
@@ -7621,7 +7660,8 @@
               "s": "Fond",
               "norm": "fond",
               "pre": "   ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0085-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0055-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -7629,7 +7669,8 @@
               "s": "done",
               "norm": "done",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0085-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0055-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -7637,13 +7678,14 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0085-t003",
+              "serial": "alls-well-that-ends-well-a01-s03-l0055-t003",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 4,
@@ -7651,7 +7693,8 @@
               "s": "done",
               "norm": "done",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0085-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0055-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -7659,7 +7702,8 @@
               "s": "fond",
               "norm": "fond",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0085-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0055-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -7667,13 +7711,14 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0085-t006",
+              "serial": "alls-well-that-ends-well-a01-s03-l0055-t006",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -7693,7 +7738,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "      Was this King Priam’s joy?",
           "tokens": [
             {
@@ -7702,7 +7747,8 @@
               "s": "Was",
               "norm": "was",
               "pre": "      ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0086-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0056-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -7710,7 +7756,8 @@
               "s": "this",
               "norm": "this",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0086-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0056-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -7718,7 +7765,8 @@
               "s": "King",
               "norm": "king",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0086-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0056-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -7726,7 +7774,8 @@
               "s": "Priam’s",
               "norm": "priam's",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0086-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0056-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -7734,7 +7783,8 @@
               "s": "joy",
               "norm": "joy",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0086-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0056-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -7742,13 +7792,14 @@
               "s": "?",
               "norm": "?",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0086-t006",
+              "serial": "alls-well-that-ends-well-a01-s03-l0056-t006",
               "punct": {
                 "kind": "qmark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -7768,7 +7819,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "   With that she sighed as she stood,",
           "tokens": [
             {
@@ -7777,7 +7828,8 @@
               "s": "With",
               "norm": "with",
               "pre": "   ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0087-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0057-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -7785,7 +7837,8 @@
               "s": "that",
               "norm": "that",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0087-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0057-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -7793,7 +7846,8 @@
               "s": "she",
               "norm": "she",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0087-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0057-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -7801,7 +7855,8 @@
               "s": "sighed",
               "norm": "sighed",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0087-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0057-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -7809,7 +7864,8 @@
               "s": "as",
               "norm": "as",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0087-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0057-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -7817,7 +7873,8 @@
               "s": "she",
               "norm": "she",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0087-t006"
+              "serial": "alls-well-that-ends-well-a01-s03-l0057-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -7825,7 +7882,8 @@
               "s": "stood",
               "norm": "stood",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0087-t007"
+              "serial": "alls-well-that-ends-well-a01-s03-l0057-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -7833,13 +7891,14 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0087-t008",
+              "serial": "alls-well-that-ends-well-a01-s03-l0057-t008",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -7859,7 +7918,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "      And gave this sentence then:",
           "tokens": [
             {
@@ -7868,7 +7927,8 @@
               "s": "And",
               "norm": "and",
               "pre": "      ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0088-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0058-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -7876,7 +7936,8 @@
               "s": "gave",
               "norm": "gave",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0088-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0058-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -7884,7 +7945,8 @@
               "s": "this",
               "norm": "this",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0088-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0058-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -7892,7 +7954,8 @@
               "s": "sentence",
               "norm": "sentence",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0088-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0058-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -7900,7 +7963,8 @@
               "s": "then",
               "norm": "then",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0088-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0058-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -7908,13 +7972,14 @@
               "s": ":",
               "norm": ":",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0088-t006",
+              "serial": "alls-well-that-ends-well-a01-s03-l0058-t006",
               "punct": {
                 "kind": "colon",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -7934,7 +7999,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "   Among nine bad if one be good,",
           "tokens": [
             {
@@ -7943,7 +8008,8 @@
               "s": "Among",
               "norm": "among",
               "pre": "   ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0089-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0059-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -7951,7 +8017,8 @@
               "s": "nine",
               "norm": "nine",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0089-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0059-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -7959,7 +8026,8 @@
               "s": "bad",
               "norm": "bad",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0089-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0059-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -7967,7 +8035,8 @@
               "s": "if",
               "norm": "if",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0089-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0059-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -7975,7 +8044,8 @@
               "s": "one",
               "norm": "one",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0089-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0059-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -7983,7 +8053,8 @@
               "s": "be",
               "norm": "be",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0089-t006"
+              "serial": "alls-well-that-ends-well-a01-s03-l0059-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -7991,7 +8062,8 @@
               "s": "good",
               "norm": "good",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0089-t007"
+              "serial": "alls-well-that-ends-well-a01-s03-l0059-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -7999,13 +8071,14 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0089-t008",
+              "serial": "alls-well-that-ends-well-a01-s03-l0059-t008",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -8025,8 +8098,8 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "     There’s yet one good in ten._",
+          "em": true,
+          "text": "     There’s yet one good in ten.",
           "tokens": [
             {
               "i": 1,
@@ -8034,7 +8107,8 @@
               "s": "There’s",
               "norm": "there's",
               "pre": "     ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0090-t001"
+              "serial": "alls-well-that-ends-well-a01-s03-l0060-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -8042,7 +8116,8 @@
               "s": "yet",
               "norm": "yet",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0090-t002"
+              "serial": "alls-well-that-ends-well-a01-s03-l0060-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -8050,7 +8125,8 @@
               "s": "one",
               "norm": "one",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0090-t003"
+              "serial": "alls-well-that-ends-well-a01-s03-l0060-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -8058,7 +8134,8 @@
               "s": "good",
               "norm": "good",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0090-t004"
+              "serial": "alls-well-that-ends-well-a01-s03-l0060-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -8066,7 +8143,8 @@
               "s": "in",
               "norm": "in",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0090-t005"
+              "serial": "alls-well-that-ends-well-a01-s03-l0060-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -8074,7 +8152,8 @@
               "s": "ten",
               "norm": "ten",
               "pre": " ",
-              "serial": "alls-well-that-ends-well-a01-s03-i0090-t006"
+              "serial": "alls-well-that-ends-well-a01-s03-l0060-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -8082,27 +8161,14 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0090-t007",
+              "serial": "alls-well-that-ends-well-a01-s03-l0060-t007",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 8,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "alls-well-that-ends-well-a01-s03-i0090-t008",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
