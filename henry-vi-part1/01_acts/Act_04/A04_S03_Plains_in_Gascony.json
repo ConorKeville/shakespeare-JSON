@@ -257,7 +257,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Enter a Messenger that meets York. Enter York with trumpet and many",
+          "text": "Enter York with trumpet and many soldiers, meeting a Messenger.",
           "stage": null,
           "tokens": [
             {
@@ -272,8 +272,8 @@
             {
               "i": 2,
               "type": "word",
-              "s": "a",
-              "norm": "a",
+              "s": "York",
+              "norm": "york",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t002",
               "em": true
@@ -281,8 +281,8 @@
             {
               "i": 3,
               "type": "word",
-              "s": "Messenger",
-              "norm": "messenger",
+              "s": "with",
+              "norm": "with",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t003",
               "em": true
@@ -290,8 +290,8 @@
             {
               "i": 4,
               "type": "word",
-              "s": "that",
-              "norm": "that",
+              "s": "trumpet",
+              "norm": "trumpet",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t004",
               "em": true
@@ -299,8 +299,8 @@
             {
               "i": 5,
               "type": "word",
-              "s": "meets",
-              "norm": "meets",
+              "s": "and",
+              "norm": "and",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t005",
               "em": true
@@ -308,41 +308,41 @@
             {
               "i": 6,
               "type": "word",
-              "s": "York",
-              "norm": "york",
+              "s": "many",
+              "norm": "many",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t006",
               "em": true
             },
             {
               "i": 7,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
+              "type": "word",
+              "s": "soldiers",
+              "norm": "soldiers",
+              "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t007",
-              "em": true,
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "em": true
             },
             {
               "i": 8,
-              "type": "word",
-              "s": "Enter",
-              "norm": "enter",
-              "pre": " ",
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
               "serial": "henry-vi-part1-a04-s03-i0004-t008",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
               "em": true
             },
             {
               "i": 9,
               "type": "word",
-              "s": "York",
-              "norm": "york",
+              "s": "meeting",
+              "norm": "meeting",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t009",
               "em": true
@@ -350,8 +350,8 @@
             {
               "i": 10,
               "type": "word",
-              "s": "with",
-              "norm": "with",
+              "s": "a",
+              "norm": "a",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t010",
               "em": true
@@ -359,28 +359,25 @@
             {
               "i": 11,
               "type": "word",
-              "s": "trumpet",
-              "norm": "trumpet",
+              "s": "Messenger",
+              "norm": "messenger",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s03-i0004-t011",
               "em": true
             },
             {
               "i": 12,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
               "serial": "henry-vi-part1-a04-s03-i0004-t012",
-              "em": true
-            },
-            {
-              "i": 13,
-              "type": "word",
-              "s": "many",
-              "norm": "many",
-              "pre": " ",
-              "serial": "henry-vi-part1-a04-s03-i0004-t013",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
               "em": true
             }
           ]
@@ -402,43 +399,14 @@
     },
     {
       "seq": 6,
-      "serial": "henry-vi-part1-a04-s03-i0005",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "YORK",
-      "speech_id": "henry-vi-part1-a04-s03-s0001",
-      "speech_seq": 1,
-      "line_number": 1,
-      "line_serial": "henry-vi-part1-a04-s03-l0001",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "soldiers",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "soldiers",
-              "norm": "soldiers",
-              "pre": "",
-              "serial": "henry-vi-part1-a04-s03-i0005-t001"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 7,
       "serial": "henry-vi-part1-a04-s03-i0007",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0001",
       "speech_seq": 2,
-      "line_number": 2,
-      "line_serial": "henry-vi-part1-a04-s03-l0002",
+      "line_number": 1,
+      "line_serial": "henry-vi-part1-a04-s03-l0001",
       "subsection": null,
       "spans": [
         {
@@ -507,15 +475,15 @@
       ]
     },
     {
-      "seq": 8,
+      "seq": 7,
       "serial": "henry-vi-part1-a04-s03-i0008",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0001",
       "speech_seq": 3,
-      "line_number": 3,
-      "line_serial": "henry-vi-part1-a04-s03-l0003",
+      "line_number": 2,
+      "line_serial": "henry-vi-part1-a04-s03-l0002",
       "subsection": null,
       "spans": [
         {
@@ -606,7 +574,7 @@
       ]
     },
     {
-      "seq": 9,
+      "seq": 8,
       "serial": "henry-vi-part1-a04-s03-i0009",
       "kind": "speaker_label",
       "subtype": null,
@@ -619,15 +587,15 @@
       "spans": []
     },
     {
-      "seq": 10,
+      "seq": 9,
       "serial": "henry-vi-part1-a04-s03-i0010",
       "kind": "speech",
       "subtype": null,
       "speaker": "MESSENGER",
       "speech_id": "henry-vi-part1-a04-s03-s0002",
       "speech_seq": 1,
-      "line_number": 4,
-      "line_serial": "henry-vi-part1-a04-s03-l0004",
+      "line_number": 3,
+      "line_serial": "henry-vi-part1-a04-s03-l0003",
       "subsection": null,
       "spans": [
         {
@@ -740,15 +708,15 @@
       ]
     },
     {
-      "seq": 11,
+      "seq": 10,
       "serial": "henry-vi-part1-a04-s03-i0011",
       "kind": "speech",
       "subtype": null,
       "speaker": "MESSENGER",
       "speech_id": "henry-vi-part1-a04-s03-s0002",
       "speech_seq": 2,
-      "line_number": 5,
-      "line_serial": "henry-vi-part1-a04-s03-l0005",
+      "line_number": 4,
+      "line_serial": "henry-vi-part1-a04-s03-l0004",
       "subsection": null,
       "spans": [
         {
@@ -847,15 +815,15 @@
       ]
     },
     {
-      "seq": 12,
+      "seq": 11,
       "serial": "henry-vi-part1-a04-s03-i0012",
       "kind": "speech",
       "subtype": null,
       "speaker": "MESSENGER",
       "speech_id": "henry-vi-part1-a04-s03-s0002",
       "speech_seq": 3,
-      "line_number": 6,
-      "line_serial": "henry-vi-part1-a04-s03-l0006",
+      "line_number": 5,
+      "line_serial": "henry-vi-part1-a04-s03-l0005",
       "subsection": null,
       "spans": [
         {
@@ -960,15 +928,15 @@
       ]
     },
     {
-      "seq": 13,
+      "seq": 12,
       "serial": "henry-vi-part1-a04-s03-i0013",
       "kind": "speech",
       "subtype": null,
       "speaker": "MESSENGER",
       "speech_id": "henry-vi-part1-a04-s03-s0002",
       "speech_seq": 4,
-      "line_number": 7,
-      "line_serial": "henry-vi-part1-a04-s03-l0007",
+      "line_number": 6,
+      "line_serial": "henry-vi-part1-a04-s03-l0006",
       "subsection": null,
       "spans": [
         {
@@ -1021,15 +989,15 @@
       ]
     },
     {
-      "seq": 14,
+      "seq": 13,
       "serial": "henry-vi-part1-a04-s03-i0014",
       "kind": "speech",
       "subtype": null,
       "speaker": "MESSENGER",
       "speech_id": "henry-vi-part1-a04-s03-s0002",
       "speech_seq": 5,
-      "line_number": 8,
-      "line_serial": "henry-vi-part1-a04-s03-l0008",
+      "line_number": 7,
+      "line_serial": "henry-vi-part1-a04-s03-l0007",
       "subsection": null,
       "spans": [
         {
@@ -1120,15 +1088,15 @@
       ]
     },
     {
-      "seq": 15,
+      "seq": 14,
       "serial": "henry-vi-part1-a04-s03-i0015",
       "kind": "speech",
       "subtype": null,
       "speaker": "MESSENGER",
       "speech_id": "henry-vi-part1-a04-s03-s0002",
       "speech_seq": 6,
-      "line_number": 9,
-      "line_serial": "henry-vi-part1-a04-s03-l0009",
+      "line_number": 8,
+      "line_serial": "henry-vi-part1-a04-s03-l0008",
       "subsection": null,
       "spans": [
         {
@@ -1235,7 +1203,7 @@
       ]
     },
     {
-      "seq": 16,
+      "seq": 15,
       "serial": "henry-vi-part1-a04-s03-i0016",
       "kind": "stage",
       "subtype": "exit",
@@ -1281,7 +1249,7 @@
       ]
     },
     {
-      "seq": 17,
+      "seq": 16,
       "serial": "henry-vi-part1-a04-s03-i0017",
       "kind": "speaker_label",
       "subtype": null,
@@ -1294,15 +1262,15 @@
       "spans": []
     },
     {
-      "seq": 18,
+      "seq": 17,
       "serial": "henry-vi-part1-a04-s03-i0018",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0003",
       "speech_seq": 1,
-      "line_number": 10,
-      "line_serial": "henry-vi-part1-a04-s03-l0010",
+      "line_number": 9,
+      "line_serial": "henry-vi-part1-a04-s03-l0009",
       "subsection": null,
       "spans": [
         {
@@ -1363,15 +1331,15 @@
       ]
     },
     {
-      "seq": 19,
+      "seq": 18,
       "serial": "henry-vi-part1-a04-s03-i0019",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0003",
       "speech_seq": 2,
-      "line_number": 11,
-      "line_serial": "henry-vi-part1-a04-s03-l0011",
+      "line_number": 10,
+      "line_serial": "henry-vi-part1-a04-s03-l0010",
       "subsection": null,
       "spans": [
         {
@@ -1432,15 +1400,15 @@
       ]
     },
     {
-      "seq": 20,
+      "seq": 19,
       "serial": "henry-vi-part1-a04-s03-i0020",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0003",
       "speech_seq": 3,
-      "line_number": 12,
-      "line_serial": "henry-vi-part1-a04-s03-l0012",
+      "line_number": 11,
+      "line_serial": "henry-vi-part1-a04-s03-l0011",
       "subsection": null,
       "spans": [
         {
@@ -1531,15 +1499,15 @@
       ]
     },
     {
-      "seq": 21,
+      "seq": 20,
       "serial": "henry-vi-part1-a04-s03-i0021",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0003",
       "speech_seq": 4,
-      "line_number": 13,
-      "line_serial": "henry-vi-part1-a04-s03-l0013",
+      "line_number": 12,
+      "line_serial": "henry-vi-part1-a04-s03-l0012",
       "subsection": null,
       "spans": [
         {
@@ -1614,15 +1582,15 @@
       ]
     },
     {
-      "seq": 22,
+      "seq": 21,
       "serial": "henry-vi-part1-a04-s03-i0022",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0003",
       "speech_seq": 5,
-      "line_number": 14,
-      "line_serial": "henry-vi-part1-a04-s03-l0014",
+      "line_number": 13,
+      "line_serial": "henry-vi-part1-a04-s03-l0013",
       "subsection": null,
       "spans": [
         {
@@ -1699,15 +1667,15 @@
       ]
     },
     {
-      "seq": 23,
+      "seq": 22,
       "serial": "henry-vi-part1-a04-s03-i0023",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0003",
       "speech_seq": 6,
-      "line_number": 15,
-      "line_serial": "henry-vi-part1-a04-s03-l0015",
+      "line_number": 14,
+      "line_serial": "henry-vi-part1-a04-s03-l0014",
       "subsection": null,
       "spans": [
         {
@@ -1782,15 +1750,15 @@
       ]
     },
     {
-      "seq": 24,
+      "seq": 23,
       "serial": "henry-vi-part1-a04-s03-i0024",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0003",
       "speech_seq": 7,
-      "line_number": 16,
-      "line_serial": "henry-vi-part1-a04-s03-l0016",
+      "line_number": 15,
+      "line_serial": "henry-vi-part1-a04-s03-l0015",
       "subsection": null,
       "spans": [
         {
@@ -1865,15 +1833,15 @@
       ]
     },
     {
-      "seq": 25,
+      "seq": 24,
       "serial": "henry-vi-part1-a04-s03-i0025",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0003",
       "speech_seq": 8,
-      "line_number": 17,
-      "line_serial": "henry-vi-part1-a04-s03-l0017",
+      "line_number": 16,
+      "line_serial": "henry-vi-part1-a04-s03-l0016",
       "subsection": null,
       "spans": [
         {
@@ -1970,7 +1938,7 @@
       ]
     },
     {
-      "seq": 26,
+      "seq": 25,
       "serial": "henry-vi-part1-a04-s03-i0026",
       "kind": "stage",
       "subtype": "enter",
@@ -2043,7 +2011,7 @@
       ]
     },
     {
-      "seq": 27,
+      "seq": 26,
       "serial": "henry-vi-part1-a04-s03-i0027",
       "kind": "speaker_label",
       "subtype": null,
@@ -2056,15 +2024,15 @@
       "spans": []
     },
     {
-      "seq": 28,
+      "seq": 27,
       "serial": "henry-vi-part1-a04-s03-i0028",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0004",
       "speech_seq": 1,
-      "line_number": 18,
-      "line_serial": "henry-vi-part1-a04-s03-l0018",
+      "line_number": 17,
+      "line_serial": "henry-vi-part1-a04-s03-l0017",
       "subsection": null,
       "spans": [
         {
@@ -2147,15 +2115,15 @@
       ]
     },
     {
-      "seq": 29,
+      "seq": 28,
       "serial": "henry-vi-part1-a04-s03-i0029",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0004",
       "speech_seq": 2,
-      "line_number": 19,
-      "line_serial": "henry-vi-part1-a04-s03-l0019",
+      "line_number": 18,
+      "line_serial": "henry-vi-part1-a04-s03-l0018",
       "subsection": null,
       "spans": [
         {
@@ -2246,15 +2214,15 @@
       ]
     },
     {
-      "seq": 30,
+      "seq": 29,
       "serial": "henry-vi-part1-a04-s03-i0030",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0004",
       "speech_seq": 3,
-      "line_number": 20,
-      "line_serial": "henry-vi-part1-a04-s03-l0020",
+      "line_number": 19,
+      "line_serial": "henry-vi-part1-a04-s03-l0019",
       "subsection": null,
       "spans": [
         {
@@ -2345,15 +2313,15 @@
       ]
     },
     {
-      "seq": 31,
+      "seq": 30,
       "serial": "henry-vi-part1-a04-s03-i0031",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0004",
       "speech_seq": 4,
-      "line_number": 21,
-      "line_serial": "henry-vi-part1-a04-s03-l0021",
+      "line_number": 20,
+      "line_serial": "henry-vi-part1-a04-s03-l0020",
       "subsection": null,
       "spans": [
         {
@@ -2452,15 +2420,15 @@
       ]
     },
     {
-      "seq": 32,
+      "seq": 31,
       "serial": "henry-vi-part1-a04-s03-i0032",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0004",
       "speech_seq": 5,
-      "line_number": 22,
-      "line_serial": "henry-vi-part1-a04-s03-l0022",
+      "line_number": 21,
+      "line_serial": "henry-vi-part1-a04-s03-l0021",
       "subsection": null,
       "spans": [
         {
@@ -2535,15 +2503,15 @@
       ]
     },
     {
-      "seq": 33,
+      "seq": 32,
       "serial": "henry-vi-part1-a04-s03-i0033",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0004",
       "speech_seq": 6,
-      "line_number": 23,
-      "line_serial": "henry-vi-part1-a04-s03-l0023",
+      "line_number": 22,
+      "line_serial": "henry-vi-part1-a04-s03-l0022",
       "subsection": null,
       "spans": [
         {
@@ -2668,15 +2636,15 @@
       ]
     },
     {
-      "seq": 34,
+      "seq": 33,
       "serial": "henry-vi-part1-a04-s03-i0034",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0004",
       "speech_seq": 7,
-      "line_number": 24,
-      "line_serial": "henry-vi-part1-a04-s03-l0024",
+      "line_number": 23,
+      "line_serial": "henry-vi-part1-a04-s03-l0023",
       "subsection": null,
       "spans": [
         {
@@ -2801,7 +2769,7 @@
       ]
     },
     {
-      "seq": 35,
+      "seq": 34,
       "serial": "henry-vi-part1-a04-s03-i0035",
       "kind": "speaker_label",
       "subtype": null,
@@ -2814,15 +2782,15 @@
       "spans": []
     },
     {
-      "seq": 36,
+      "seq": 35,
       "serial": "henry-vi-part1-a04-s03-i0036",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0005",
       "speech_seq": 1,
-      "line_number": 25,
-      "line_serial": "henry-vi-part1-a04-s03-l0025",
+      "line_number": 24,
+      "line_serial": "henry-vi-part1-a04-s03-l0024",
       "subsection": null,
       "spans": [
         {
@@ -2927,15 +2895,15 @@
       ]
     },
     {
-      "seq": 37,
+      "seq": 36,
       "serial": "henry-vi-part1-a04-s03-i0037",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0005",
       "speech_seq": 2,
-      "line_number": 26,
-      "line_serial": "henry-vi-part1-a04-s03-l0026",
+      "line_number": 25,
+      "line_serial": "henry-vi-part1-a04-s03-l0025",
       "subsection": null,
       "spans": [
         {
@@ -3040,15 +3008,15 @@
       ]
     },
     {
-      "seq": 38,
+      "seq": 37,
       "serial": "henry-vi-part1-a04-s03-i0038",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0005",
       "speech_seq": 3,
-      "line_number": 27,
-      "line_serial": "henry-vi-part1-a04-s03-l0027",
+      "line_number": 26,
+      "line_serial": "henry-vi-part1-a04-s03-l0026",
       "subsection": null,
       "spans": [
         {
@@ -3117,15 +3085,15 @@
       ]
     },
     {
-      "seq": 39,
+      "seq": 38,
       "serial": "henry-vi-part1-a04-s03-i0039",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0005",
       "speech_seq": 4,
-      "line_number": 28,
-      "line_serial": "henry-vi-part1-a04-s03-l0028",
+      "line_number": 27,
+      "line_serial": "henry-vi-part1-a04-s03-l0027",
       "subsection": null,
       "spans": [
         {
@@ -3208,15 +3176,15 @@
       ]
     },
     {
-      "seq": 40,
+      "seq": 39,
       "serial": "henry-vi-part1-a04-s03-i0040",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0005",
       "speech_seq": 5,
-      "line_number": 29,
-      "line_serial": "henry-vi-part1-a04-s03-l0029",
+      "line_number": 28,
+      "line_serial": "henry-vi-part1-a04-s03-l0028",
       "subsection": null,
       "spans": [
         {
@@ -3293,15 +3261,15 @@
       ]
     },
     {
-      "seq": 41,
+      "seq": 40,
       "serial": "henry-vi-part1-a04-s03-i0041",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0005",
       "speech_seq": 6,
-      "line_number": 30,
-      "line_serial": "henry-vi-part1-a04-s03-l0030",
+      "line_number": 29,
+      "line_serial": "henry-vi-part1-a04-s03-l0029",
       "subsection": null,
       "spans": [
         {
@@ -3392,7 +3360,7 @@
       ]
     },
     {
-      "seq": 42,
+      "seq": 41,
       "serial": "henry-vi-part1-a04-s03-i0042",
       "kind": "speaker_label",
       "subtype": null,
@@ -3405,15 +3373,15 @@
       "spans": []
     },
     {
-      "seq": 43,
+      "seq": 42,
       "serial": "henry-vi-part1-a04-s03-i0043",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0006",
       "speech_seq": 1,
-      "line_number": 31,
-      "line_serial": "henry-vi-part1-a04-s03-l0031",
+      "line_number": 30,
+      "line_serial": "henry-vi-part1-a04-s03-l0030",
       "subsection": null,
       "spans": [
         {
@@ -3518,7 +3486,7 @@
       ]
     },
     {
-      "seq": 44,
+      "seq": 43,
       "serial": "henry-vi-part1-a04-s03-i0044",
       "kind": "speaker_label",
       "subtype": null,
@@ -3531,15 +3499,15 @@
       "spans": []
     },
     {
-      "seq": 45,
+      "seq": 44,
       "serial": "henry-vi-part1-a04-s03-i0045",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0007",
       "speech_seq": 1,
-      "line_number": 32,
-      "line_serial": "henry-vi-part1-a04-s03-l0032",
+      "line_number": 31,
+      "line_serial": "henry-vi-part1-a04-s03-l0031",
       "subsection": null,
       "spans": [
         {
@@ -3666,15 +3634,15 @@
       ]
     },
     {
-      "seq": 46,
+      "seq": 45,
       "serial": "henry-vi-part1-a04-s03-i0046",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0007",
       "speech_seq": 2,
-      "line_number": 33,
-      "line_serial": "henry-vi-part1-a04-s03-l0033",
+      "line_number": 32,
+      "line_serial": "henry-vi-part1-a04-s03-l0032",
       "subsection": null,
       "spans": [
         {
@@ -3815,15 +3783,15 @@
       ]
     },
     {
-      "seq": 47,
+      "seq": 46,
       "serial": "henry-vi-part1-a04-s03-i0047",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0007",
       "speech_seq": 3,
-      "line_number": 34,
-      "line_serial": "henry-vi-part1-a04-s03-l0034",
+      "line_number": 33,
+      "line_serial": "henry-vi-part1-a04-s03-l0033",
       "subsection": null,
       "spans": [
         {
@@ -3906,7 +3874,7 @@
       ]
     },
     {
-      "seq": 48,
+      "seq": 47,
       "serial": "henry-vi-part1-a04-s03-i0048",
       "kind": "speaker_label",
       "subtype": null,
@@ -3919,15 +3887,15 @@
       "spans": []
     },
     {
-      "seq": 49,
+      "seq": 48,
       "serial": "henry-vi-part1-a04-s03-i0049",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0008",
       "speech_seq": 1,
-      "line_number": 35,
-      "line_serial": "henry-vi-part1-a04-s03-l0035",
+      "line_number": 34,
+      "line_serial": "henry-vi-part1-a04-s03-l0034",
       "subsection": null,
       "spans": [
         {
@@ -4018,15 +3986,15 @@
       ]
     },
     {
-      "seq": 50,
+      "seq": 49,
       "serial": "henry-vi-part1-a04-s03-i0050",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0008",
       "speech_seq": 2,
-      "line_number": 36,
-      "line_serial": "henry-vi-part1-a04-s03-l0036",
+      "line_number": 35,
+      "line_serial": "henry-vi-part1-a04-s03-l0035",
       "subsection": null,
       "spans": [
         {
@@ -4133,15 +4101,15 @@
       ]
     },
     {
-      "seq": 51,
+      "seq": 50,
       "serial": "henry-vi-part1-a04-s03-i0051",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0008",
       "speech_seq": 3,
-      "line_number": 37,
-      "line_serial": "henry-vi-part1-a04-s03-l0037",
+      "line_number": 36,
+      "line_serial": "henry-vi-part1-a04-s03-l0036",
       "subsection": null,
       "spans": [
         {
@@ -4232,15 +4200,15 @@
       ]
     },
     {
-      "seq": 52,
+      "seq": 51,
       "serial": "henry-vi-part1-a04-s03-i0052",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0008",
       "speech_seq": 4,
-      "line_number": 38,
-      "line_serial": "henry-vi-part1-a04-s03-l0038",
+      "line_number": 37,
+      "line_serial": "henry-vi-part1-a04-s03-l0037",
       "subsection": null,
       "spans": [
         {
@@ -4339,15 +4307,15 @@
       ]
     },
     {
-      "seq": 53,
+      "seq": 52,
       "serial": "henry-vi-part1-a04-s03-i0053",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0008",
       "speech_seq": 5,
-      "line_number": 39,
-      "line_serial": "henry-vi-part1-a04-s03-l0039",
+      "line_number": 38,
+      "line_serial": "henry-vi-part1-a04-s03-l0038",
       "subsection": null,
       "spans": [
         {
@@ -4454,7 +4422,7 @@
       ]
     },
     {
-      "seq": 54,
+      "seq": 53,
       "serial": "henry-vi-part1-a04-s03-i0054",
       "kind": "speaker_label",
       "subtype": null,
@@ -4467,15 +4435,15 @@
       "spans": []
     },
     {
-      "seq": 55,
+      "seq": 54,
       "serial": "henry-vi-part1-a04-s03-i0055",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0009",
       "speech_seq": 1,
-      "line_number": 40,
-      "line_serial": "henry-vi-part1-a04-s03-l0040",
+      "line_number": 39,
+      "line_serial": "henry-vi-part1-a04-s03-l0039",
       "subsection": null,
       "spans": [
         {
@@ -4558,15 +4526,15 @@
       ]
     },
     {
-      "seq": 56,
+      "seq": 55,
       "serial": "henry-vi-part1-a04-s03-i0056",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0009",
       "speech_seq": 2,
-      "line_number": 41,
-      "line_serial": "henry-vi-part1-a04-s03-l0041",
+      "line_number": 40,
+      "line_serial": "henry-vi-part1-a04-s03-l0040",
       "subsection": null,
       "spans": [
         {
@@ -4665,15 +4633,15 @@
       ]
     },
     {
-      "seq": 57,
+      "seq": 56,
       "serial": "henry-vi-part1-a04-s03-i0057",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0009",
       "speech_seq": 3,
-      "line_number": 42,
-      "line_serial": "henry-vi-part1-a04-s03-l0042",
+      "line_number": 41,
+      "line_serial": "henry-vi-part1-a04-s03-l0041",
       "subsection": null,
       "spans": [
         {
@@ -4762,15 +4730,15 @@
       ]
     },
     {
-      "seq": 58,
+      "seq": 57,
       "serial": "henry-vi-part1-a04-s03-i0058",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0009",
       "speech_seq": 4,
-      "line_number": 43,
-      "line_serial": "henry-vi-part1-a04-s03-l0043",
+      "line_number": 42,
+      "line_serial": "henry-vi-part1-a04-s03-l0042",
       "subsection": null,
       "spans": [
         {
@@ -4869,15 +4837,15 @@
       ]
     },
     {
-      "seq": 59,
+      "seq": 58,
       "serial": "henry-vi-part1-a04-s03-i0059",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0009",
       "speech_seq": 5,
-      "line_number": 44,
-      "line_serial": "henry-vi-part1-a04-s03-l0044",
+      "line_number": 43,
+      "line_serial": "henry-vi-part1-a04-s03-l0043",
       "subsection": null,
       "spans": [
         {
@@ -4974,15 +4942,15 @@
       ]
     },
     {
-      "seq": 60,
+      "seq": 59,
       "serial": "henry-vi-part1-a04-s03-i0060",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0009",
       "speech_seq": 6,
-      "line_number": 45,
-      "line_serial": "henry-vi-part1-a04-s03-l0045",
+      "line_number": 44,
+      "line_serial": "henry-vi-part1-a04-s03-l0044",
       "subsection": null,
       "spans": [
         {
@@ -5081,15 +5049,15 @@
       ]
     },
     {
-      "seq": 61,
+      "seq": 60,
       "serial": "henry-vi-part1-a04-s03-i0061",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0009",
       "speech_seq": 7,
-      "line_number": 46,
-      "line_serial": "henry-vi-part1-a04-s03-l0046",
+      "line_number": 45,
+      "line_serial": "henry-vi-part1-a04-s03-l0045",
       "subsection": null,
       "spans": [
         {
@@ -5236,15 +5204,15 @@
       ]
     },
     {
-      "seq": 62,
+      "seq": 61,
       "serial": "henry-vi-part1-a04-s03-i0062",
       "kind": "speech",
       "subtype": null,
       "speaker": "YORK",
       "speech_id": "henry-vi-part1-a04-s03-s0009",
       "speech_seq": 8,
-      "line_number": 47,
-      "line_serial": "henry-vi-part1-a04-s03-l0047",
+      "line_number": 46,
+      "line_serial": "henry-vi-part1-a04-s03-l0046",
       "subsection": null,
       "spans": [
         {
@@ -5327,7 +5295,7 @@
       ]
     },
     {
-      "seq": 63,
+      "seq": 62,
       "serial": "henry-vi-part1-a04-s03-i0063",
       "kind": "stage",
       "subtype": null,
@@ -5415,7 +5383,7 @@
       ]
     },
     {
-      "seq": 64,
+      "seq": 63,
       "serial": "henry-vi-part1-a04-s03-i0064",
       "kind": "speaker_label",
       "subtype": null,
@@ -5428,15 +5396,15 @@
       "spans": []
     },
     {
-      "seq": 65,
+      "seq": 64,
       "serial": "henry-vi-part1-a04-s03-i0065",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0010",
       "speech_seq": 1,
-      "line_number": 48,
-      "line_serial": "henry-vi-part1-a04-s03-l0048",
+      "line_number": 47,
+      "line_serial": "henry-vi-part1-a04-s03-l0047",
       "subsection": null,
       "spans": [
         {
@@ -5511,15 +5479,15 @@
       ]
     },
     {
-      "seq": 66,
+      "seq": 65,
       "serial": "henry-vi-part1-a04-s03-i0066",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0010",
       "speech_seq": 2,
-      "line_number": 49,
-      "line_serial": "henry-vi-part1-a04-s03-l0049",
+      "line_number": 48,
+      "line_serial": "henry-vi-part1-a04-s03-l0048",
       "subsection": null,
       "spans": [
         {
@@ -5610,15 +5578,15 @@
       ]
     },
     {
-      "seq": 67,
+      "seq": 66,
       "serial": "henry-vi-part1-a04-s03-i0067",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0010",
       "speech_seq": 3,
-      "line_number": 50,
-      "line_serial": "henry-vi-part1-a04-s03-l0050",
+      "line_number": 49,
+      "line_serial": "henry-vi-part1-a04-s03-l0049",
       "subsection": null,
       "spans": [
         {
@@ -5679,15 +5647,15 @@
       ]
     },
     {
-      "seq": 68,
+      "seq": 67,
       "serial": "henry-vi-part1-a04-s03-i0068",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0010",
       "speech_seq": 4,
-      "line_number": 51,
-      "line_serial": "henry-vi-part1-a04-s03-l0051",
+      "line_number": 50,
+      "line_serial": "henry-vi-part1-a04-s03-l0050",
       "subsection": null,
       "spans": [
         {
@@ -5784,15 +5752,15 @@
       ]
     },
     {
-      "seq": 69,
+      "seq": 68,
       "serial": "henry-vi-part1-a04-s03-i0069",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0010",
       "speech_seq": 5,
-      "line_number": 52,
-      "line_serial": "henry-vi-part1-a04-s03-l0052",
+      "line_number": 51,
+      "line_serial": "henry-vi-part1-a04-s03-l0051",
       "subsection": null,
       "spans": [
         {
@@ -5881,15 +5849,15 @@
       ]
     },
     {
-      "seq": 70,
+      "seq": 69,
       "serial": "henry-vi-part1-a04-s03-i0070",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0010",
       "speech_seq": 6,
-      "line_number": 53,
-      "line_serial": "henry-vi-part1-a04-s03-l0053",
+      "line_number": 52,
+      "line_serial": "henry-vi-part1-a04-s03-l0052",
       "subsection": null,
       "spans": [
         {
@@ -5994,15 +5962,15 @@
       ]
     },
     {
-      "seq": 71,
+      "seq": 70,
       "serial": "henry-vi-part1-a04-s03-i0071",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCY",
       "speech_id": "henry-vi-part1-a04-s03-s0010",
       "speech_seq": 7,
-      "line_number": 54,
-      "line_serial": "henry-vi-part1-a04-s03-l0054",
+      "line_number": 53,
+      "line_serial": "henry-vi-part1-a04-s03-l0053",
       "subsection": null,
       "spans": [
         {
@@ -6135,7 +6103,7 @@
       ]
     },
     {
-      "seq": 72,
+      "seq": 71,
       "serial": "henry-vi-part1-a04-s03-i0072",
       "kind": "stage",
       "subtype": "exit",
