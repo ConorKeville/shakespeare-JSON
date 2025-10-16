@@ -259,8 +259,8 @@
     {
       "seq": 4,
       "serial": "henry-vi-part1-a05-s01-i0004",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": "other",
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -269,9 +269,10 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
+          "type": "stage",
+          "em": true,
           "text": "Sennet. Enter King, Gloucester and Exeter.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -279,7 +280,8 @@
               "s": "Sennet",
               "norm": "sennet",
               "pre": "",
-              "serial": "henry-vi-part1-a05-s01-i0004-t001"
+              "serial": "henry-vi-part1-a05-s01-i0004-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -288,6 +290,7 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part1-a05-s01-i0004-t002",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -301,7 +304,8 @@
               "s": "Enter",
               "norm": "enter",
               "pre": " ",
-              "serial": "henry-vi-part1-a05-s01-i0004-t003"
+              "serial": "henry-vi-part1-a05-s01-i0004-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -309,7 +313,8 @@
               "s": "King",
               "norm": "king",
               "pre": " ",
-              "serial": "henry-vi-part1-a05-s01-i0004-t004"
+              "serial": "henry-vi-part1-a05-s01-i0004-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -318,6 +323,7 @@
               "norm": ",",
               "pre": "",
               "serial": "henry-vi-part1-a05-s01-i0004-t005",
+              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -331,7 +337,8 @@
               "s": "Gloucester",
               "norm": "gloucester",
               "pre": " ",
-              "serial": "henry-vi-part1-a05-s01-i0004-t006"
+              "serial": "henry-vi-part1-a05-s01-i0004-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -339,7 +346,8 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part1-a05-s01-i0004-t007"
+              "serial": "henry-vi-part1-a05-s01-i0004-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -347,7 +355,8 @@
               "s": "Exeter",
               "norm": "exeter",
               "pre": " ",
-              "serial": "henry-vi-part1-a05-s01-i0004-t008"
+              "serial": "henry-vi-part1-a05-s01-i0004-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -356,6 +365,7 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part1-a05-s01-i0004-t009",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -3078,7 +3088,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Enter Winchester in Cardinal’s habit, a  Legate and two Ambassadors.",
+          "text": "Enter Winchester in Cardinal’s habit, a Legate and two Ambassadors.",
           "stage": null,
           "tokens": [
             {
@@ -3155,7 +3165,7 @@
               "type": "word",
               "s": "Legate",
               "norm": "legate",
-              "pre": "  ",
+              "pre": " ",
               "serial": "henry-vi-part1-a05-s01-i0039-t008",
               "em": true
             },
@@ -5989,7 +5999,7 @@
       "serial": "henry-vi-part1-a05-s01-i0075",
       "kind": "speaker_label",
       "subtype": null,
-      "speaker": "WINCHESTER",
+      "speaker": "WINCHESTER (aside)",
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
@@ -6002,7 +6012,7 @@
       "serial": "henry-vi-part1-a05-s01-i0076",
       "kind": "speech",
       "subtype": null,
-      "speaker": "WINCHESTER",
+      "speaker": "WINCHESTER (aside)",
       "speech_id": "henry-vi-part1-a05-s01-s0014",
       "speech_seq": 1,
       "line_number": 56,
@@ -6010,48 +6020,16 @@
       "subsection": null,
       "spans": [
         {
-          "type": "stage",
-          "em": true,
-          "text": "Aside.",
-          "stage": null,
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "Aside",
-              "norm": "aside",
-              "pre": "",
-              "serial": "henry-vi-part1-a05-s01-l0056-t001",
-              "em": true
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-vi-part1-a05-s01-l0056-t002",
-              "em": true,
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        },
-        {
           "type": "speech",
           "em": false,
-          "text": " Now Winchester will not submit, I trow,",
+          "text": "Now Winchester will not submit, I trow,",
           "tokens": [
             {
               "i": 1,
               "type": "word",
               "s": "Now",
               "norm": "now",
-              "pre": " ",
+              "pre": "",
               "serial": "henry-vi-part1-a05-s01-l0056-t001"
             },
             {
