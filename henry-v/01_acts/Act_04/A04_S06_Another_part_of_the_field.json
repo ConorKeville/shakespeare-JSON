@@ -184,8 +184,8 @@
     {
       "seq": 3,
       "serial": "henry-v-a04-s06-i0003",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": null,
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -194,8 +194,8 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
+          "type": "stage",
+          "em": true,
           "text": "Alarum. Enter King Henry and his train, with prisoners.",
           "tokens": [
             {
@@ -204,7 +204,8 @@
               "s": "Alarum",
               "norm": "alarum",
               "pre": "",
-              "serial": "henry-v-a04-s06-i0003-t001"
+              "serial": "henry-v-a04-s06-i0003-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -218,7 +219,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -226,7 +228,8 @@
               "s": "Enter",
               "norm": "enter",
               "pre": " ",
-              "serial": "henry-v-a04-s06-i0003-t003"
+              "serial": "henry-v-a04-s06-i0003-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -234,7 +237,8 @@
               "s": "King",
               "norm": "king",
               "pre": " ",
-              "serial": "henry-v-a04-s06-i0003-t004"
+              "serial": "henry-v-a04-s06-i0003-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -242,7 +246,8 @@
               "s": "Henry",
               "norm": "henry",
               "pre": " ",
-              "serial": "henry-v-a04-s06-i0003-t005"
+              "serial": "henry-v-a04-s06-i0003-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -250,7 +255,8 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-v-a04-s06-i0003-t006"
+              "serial": "henry-v-a04-s06-i0003-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -258,7 +264,8 @@
               "s": "his",
               "norm": "his",
               "pre": " ",
-              "serial": "henry-v-a04-s06-i0003-t007"
+              "serial": "henry-v-a04-s06-i0003-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -266,7 +273,8 @@
               "s": "train",
               "norm": "train",
               "pre": " ",
-              "serial": "henry-v-a04-s06-i0003-t008"
+              "serial": "henry-v-a04-s06-i0003-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -280,7 +288,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 10,
@@ -288,7 +297,8 @@
               "s": "with",
               "norm": "with",
               "pre": " ",
-              "serial": "henry-v-a04-s06-i0003-t010"
+              "serial": "henry-v-a04-s06-i0003-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -296,7 +306,8 @@
               "s": "prisoners",
               "norm": "prisoners",
               "pre": " ",
-              "serial": "henry-v-a04-s06-i0003-t011"
+              "serial": "henry-v-a04-s06-i0003-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -310,9 +321,11 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
