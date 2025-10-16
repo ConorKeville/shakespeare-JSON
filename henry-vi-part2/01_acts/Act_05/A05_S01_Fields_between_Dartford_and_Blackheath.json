@@ -790,7 +790,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Ah, _sancta majestas_, who would not buy thee dear?",
+          "text": "Ah, *sancta majestas*, who would not buy thee dear?",
           "tokens": [
             {
               "i": 1,
@@ -817,8 +817,8 @@
             {
               "i": 3,
               "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "s": "*",
+              "norm": "*",
               "pre": " ",
               "serial": "henry-vi-part2-a05-s01-l0005-t003",
               "punct": {
@@ -847,8 +847,8 @@
             {
               "i": 6,
               "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "s": "*",
+              "norm": "*",
               "pre": "",
               "serial": "henry-vi-part2-a05-s01-l0005-t006",
               "punct": {
@@ -2952,7 +2952,7 @@
       "serial": "henry-vi-part2-a05-s01-i0031",
       "kind": "speaker_label",
       "subtype": null,
-      "speaker": "YORK",
+      "speaker": "YORK (aside)",
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
@@ -2973,48 +2973,16 @@
       "subsection": null,
       "spans": [
         {
-          "type": "stage",
-          "em": true,
-          "text": "Aside.",
-          "stage": null,
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "Aside",
-              "norm": "aside",
-              "pre": "",
-              "serial": "henry-vi-part2-a05-s01-l0021-t001",
-              "em": true
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-vi-part2-a05-s01-l0021-t002",
-              "em": true,
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        },
-        {
           "type": "speech",
           "em": false,
-          "text": " Scarce can I speak, my choler is so great.",
+          "text": "Scarce can I speak, my choler is so great.",
           "tokens": [
             {
               "i": 1,
               "type": "word",
               "s": "Scarce",
               "norm": "scarce",
-              "pre": " ",
+              "pre": "",
               "serial": "henry-vi-part2-a05-s01-l0021-t001"
             },
             {
@@ -9778,25 +9746,34 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Rises.",
+          "text": "He rises.",
           "stage": null,
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "Rises",
-              "norm": "rises",
+              "s": "He",
+              "norm": "he",
               "pre": "",
               "serial": "henry-vi-part2-a05-s01-i0112-t001",
               "em": true
             },
             {
               "i": 2,
+              "type": "word",
+              "s": "rises",
+              "norm": "rises",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s01-i0112-t002",
+              "em": true
+            },
+            {
+              "i": 3,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s01-i0112-t002",
+              "serial": "henry-vi-part2-a05-s01-i0112-t003",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -14876,25 +14853,34 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Rises.",
+          "text": "He rises.",
           "stage": null,
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "Rises",
-              "norm": "rises",
+              "s": "He",
+              "norm": "he",
               "pre": "",
               "serial": "henry-vi-part2-a05-s01-i0169-t001",
               "em": true
             },
             {
               "i": 2,
+              "type": "word",
+              "s": "rises",
+              "norm": "rises",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s01-i0169-t002",
+              "em": true
+            },
+            {
+              "i": 3,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s01-i0169-t002",
+              "serial": "henry-vi-part2-a05-s01-i0169-t003",
               "em": true,
               "punct": {
                 "kind": "period",
