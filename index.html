@@ -46,12 +46,16 @@
     .play small.muted{color:var(--muted);font-weight:500}
     ul.scenes{list-style:none;padding:.25rem 0 .5rem .25rem;margin:0;display:grid;gap:.35rem}
     .act-group{margin:.35rem 0 0}
-    .act-title{font-size:.85rem;font-weight:600;color:var(--muted);margin:.4rem 0 .15rem;text-transform:uppercase;letter-spacing:.04em}
+    .act-header{display:flex;align-items:center;gap:.5rem;margin:.4rem 0 .15rem}
+    .act-title{font-size:.85rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;flex:1}
     .scene-items{list-style:none;margin:0;padding:0;display:grid;gap:.2rem}
     a.scene-link{color:inherit;text-decoration:none;border-radius:.35rem;padding:.2rem .35rem;display:inline-block}
     a.scene-link:hover{background:rgba(176,140,255,.18)}
     a.scene-link.active{background:rgba(176,140,255,.35)}
     .error{white-space:pre-wrap;background:#ffeded0f;border:1px solid #fca5a5;color:#fecaca;padding:1rem;border-radius:.5rem}
+    .act-copy{border:1px solid var(--border);background:transparent;color:var(--text);padding:.2rem .45rem;border-radius:.35rem;font:inherit;font-size:.75rem;cursor:pointer;line-height:1}
+    .act-copy:hover:not(:disabled){background:rgba(176,140,255,.18)}
+    .act-copy:disabled{opacity:.4;cursor:default}
     #selection{display:none;align-items:center;gap:.75rem;padding:.6rem 1rem;border-bottom:1px solid var(--border);background:rgba(176,140,255,.12)}
     #selection.active{display:flex}
     #selection strong{font-variant-numeric:tabular-nums;letter-spacing:.02em}
@@ -107,6 +111,7 @@
     let awaitingFocusClick = false;
     let copyFeedbackTimer = null;
     let copyPlayFeedbackTimer = null;
+    const copyActFeedbackTimers = new WeakMap();
 
     function lineElements(){
       return Array.from(document.querySelectorAll('#content .line'));
@@ -378,10 +383,7 @@
       return '';
     }
 
-    function copyContentText(){
-      const content = $('#content');
-      if (!content) return '';
-
+    function createCopyAccumulator(){
       const normalizeLine = line => (line || '').replace(/\u00A0/g, ' ').replace(/[ \t]+$/, '');
       const trimBlankEdges = lines => {
         const copy = Array.from(lines);
@@ -390,12 +392,26 @@
         return copy;
       };
       const output = [];
-      const appendBlock = lines => {
-        const normalized = trimBlankEdges(lines.map(normalizeLine));
-        if (!normalized.length) return;
-        if (output.length && output[output.length-1] !== '') output.push('');
-        output.push(...normalized);
+      return {
+        append(lines){
+          const normalized = trimBlankEdges(lines.map(normalizeLine));
+          if (!normalized.length) return;
+          if (output.length && output[output.length-1] !== '') output.push('');
+          output.push(...normalized);
+        },
+        result(){
+          while (output.length && output[output.length-1] === '') output.pop();
+          return output.join('\n');
+        }
       };
+    }
+
+    function copyContentText(){
+      const content = $('#content');
+      if (!content) return '';
+
+      const acc = createCopyAccumulator();
+      const appendBlock = lines => acc.append(lines);
       const stageBlockLines = node => {
         const text = node.textContent || '';
         return text.split(/\r?\n/);
@@ -439,8 +455,7 @@
         appendBlock(text.split(/\r?\n/));
       });
 
-      while (output.length && output[output.length-1] === '') output.pop();
-      return output.join('\n');
+      return acc.result();
     }
 
     function copyPlayButtonBaseLabel(){
@@ -661,7 +676,22 @@
           const scenes = grouped.get(act);
           const actTitle = typeof act === 'number' ? `Act ${act}` : String(act);
           const li = el('li',{class:'act-group'});
-          li.appendChild(el('div',{class:'act-title'}, actTitle));
+          const header = el('div',{class:'act-header'});
+          header.appendChild(el('div',{class:'act-title'}, actTitle));
+          const copyBtn = el('button',{type:'button',class:'act-copy'}, 'Copy');
+          const ariaLabel = `Copy ${actTitle} from ${play.title}`;
+          setupActCopyButton(copyBtn, 'Copy', ariaLabel);
+          copyBtn.addEventListener('click', e=>{
+            e.preventDefault();
+            handleActCopy(copyBtn, {
+              playId: play.id,
+              actKey: act,
+              actTitle,
+              playTitle: play.title
+            });
+          });
+          header.appendChild(copyBtn);
+          li.appendChild(header);
           const list = el('ul',{class:'scene-items'});
           scenes.forEach(s=>{
             const label = s.title || (typeof s.scene === 'number' ? `Scene ${s.scene}` : s.scene || 'Scene');
@@ -679,6 +709,144 @@
     function textFromItem(item){
       const spans = item.spans || [];
       return spans.map(sp=>sp.text || '').join('');
+    }
+
+    function copyTextFromItems(items){
+      const acc = createCopyAccumulator();
+      const appendBlock = lines => acc.append(lines);
+      let currentSpeech = null;
+      let lastSpeechId = null;
+      let pendingSpeaker = null;
+
+      const flushSpeech = () => {
+        if (!currentSpeech) return;
+        const block = [];
+        if (currentSpeech.speaker) block.push(currentSpeech.speaker);
+        block.push(...currentSpeech.lines);
+        appendBlock(block);
+        currentSpeech = null;
+        lastSpeechId = null;
+      };
+
+      const speakerName = value => (value || '').replaceAll('_',' ').replace(/\u00A0/g, ' ').trim();
+
+      for (const item of items || []){
+        if (!item) continue;
+        if (item.kind === 'speech'){
+          const speechId = item.speech_id ?? null;
+          if (!currentSpeech || speechId !== lastSpeechId){
+            flushSpeech();
+            const speakerRaw = pendingSpeaker || item.speaker || '';
+            const speaker = speakerName(speakerRaw);
+            currentSpeech = {speaker, lines:[]};
+            lastSpeechId = speechId;
+            pendingSpeaker = null;
+          }
+          const numberRaw = item.line_number != null ? String(item.line_number) : '';
+          const textRaw = (item.spans || []).map(spanText).join('').replace(/\u00A0/g, ' ');
+          let body = textRaw.replace(/[ \t]+$/, '');
+          if (numberRaw) body = body.replace(/^\s+/, '');
+          const combined = numberRaw ? `${numberRaw} ${body}` : body;
+          currentSpeech.lines.push(combined);
+          continue;
+        }
+        if (item.kind === 'speaker_label'){
+          pendingSpeaker = speakerName(item.speaker || '');
+          flushSpeech();
+          continue;
+        }
+        flushSpeech();
+        if (item.kind === 'stage'){
+          const stageText = (item.spans || []).map(spanText).join('');
+          appendBlock(stageText.split(/\r?\n/));
+          continue;
+        }
+        if (item.kind === 'heading'){
+          const headingText = textFromItem(item).replace(/\u00A0/g, ' ');
+          appendBlock([headingText]);
+          continue;
+        }
+        const fallbackText = (item.spans || []).map(spanText).join('');
+        appendBlock(fallbackText.split(/\r?\n/));
+      }
+      flushSpeech();
+      return acc.result();
+    }
+
+    async function copyActContent(playId, actKey){
+      const play = state.byPlay.get(playId);
+      if (!play) return '';
+      const matchingScenes = play.scenes.filter(scene => ((scene.act ?? 'Other') === actKey));
+      if (!matchingScenes.length) return '';
+      const scenes = await Promise.all(matchingScenes.map(scene=>fetchJSON(scene.path)));
+      const items = scenes.flatMap(scene=>scene.items || []);
+      return copyTextFromItems(items);
+    }
+
+    function setupActCopyButton(button, label, ariaLabel){
+      if (!button) return;
+      button.dataset.baseLabel = label;
+      if (ariaLabel){
+        button.dataset.baseAriaLabel = ariaLabel;
+        button.setAttribute('aria-label', ariaLabel);
+        button.title = ariaLabel;
+      } else {
+        delete button.dataset.baseAriaLabel;
+        button.removeAttribute('aria-label');
+        button.removeAttribute('title');
+      }
+      button.textContent = label;
+    }
+
+    function resetCopyActButton(button){
+      if (!button) return;
+      const base = button.dataset.baseLabel || 'Copy';
+      button.textContent = base;
+      const aria = button.dataset.baseAriaLabel;
+      if (aria){
+        button.setAttribute('aria-label', aria);
+        button.title = aria;
+      } else {
+        button.removeAttribute('aria-label');
+        button.removeAttribute('title');
+      }
+      copyActFeedbackTimers.delete(button);
+    }
+
+    function showCopyActFeedback(button, success){
+      if (!button) return;
+      const msg = success ? 'Copied!' : 'Copy failed';
+      const baseAria = button.dataset.baseAriaLabel || '';
+      const aria = baseAria ? `${msg}. ${baseAria}` : msg;
+      button.textContent = msg;
+      button.setAttribute('aria-label', aria);
+      button.title = aria;
+      const existing = copyActFeedbackTimers.get(button);
+      if (existing) window.clearTimeout(existing);
+      const timer = window.setTimeout(()=>{ resetCopyActButton(button); }, 2000);
+      copyActFeedbackTimers.set(button, timer);
+    }
+
+    async function handleActCopy(button, {playId, actKey, actTitle, playTitle}){
+      if (!button || button.disabled) return;
+      const existing = copyActFeedbackTimers.get(button);
+      if (existing) window.clearTimeout(existing);
+      copyActFeedbackTimers.delete(button);
+      button.disabled = true;
+      const copyingAria = `Copying ${actTitle} from ${playTitle}`;
+      button.textContent = 'Copying…';
+      button.setAttribute('aria-label', copyingAria);
+      button.title = copyingAria;
+      try {
+        const text = await copyActContent(playId, actKey);
+        const success = text ? await copyTextToClipboard(text) : false;
+        showCopyActFeedback(button, success);
+      } catch(err){
+        console.error('Failed to copy act', err);
+        showCopyActFeedback(button, false);
+      } finally {
+        button.disabled = false;
+      }
     }
 
     function renderScene(json,{playTitle:playOverride,unitTitle:unitOverride}={}){
