@@ -4931,32 +4931,19 @@
     {
       "seq": 64,
       "serial": "henry-vi-part1-a02-s01-i0068",
-      "kind": "speaker_label",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "BASTARD",
+      "speaker": null,
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
       "line_serial": null,
       "subsection": null,
-      "spans": []
-    },
-    {
-      "seq": 65,
-      "serial": "henry-vi-part1-a02-s01-i0064",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "BASTARD",
-      "speech_id": "henry-vi-part1-a02-s01-s0016",
-      "speech_seq": 1,
-      "line_number": 42,
-      "line_serial": "henry-vi-part1-a02-s01-l0042",
-      "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "The French leap over the walls in their shirts. Enter several ways the ",
+          "type": "stage",
+          "em": true,
+          "text": "The French leap over the walls in their shirts. Enter several ways the Bastard of Orleans, Alençon and Reignier, half ready and half unready.",
           "tokens": [
             {
               "i": 1,
@@ -5075,38 +5062,17 @@
               "norm": "the",
               "pre": " ",
               "serial": "henry-vi-part1-a02-s01-i0064-t014"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 66,
-      "serial": "henry-vi-part1-a02-s01-i0065",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "BASTARD",
-      "speech_id": "henry-vi-part1-a02-s01-s0016",
-      "speech_seq": 2,
-      "line_number": 43,
-      "line_serial": "henry-vi-part1-a02-s01-l0043",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "Bastard of Orleans, Alençon and Reignier, half ready and half unready.",
-          "tokens": [
+            },
             {
-              "i": 1,
+              "i": 15,
               "type": "word",
               "s": "Bastard",
               "norm": "bastard",
-              "pre": "",
+              "pre": " ",
               "serial": "henry-vi-part1-a02-s01-i0065-t001"
             },
             {
-              "i": 2,
+              "i": 16,
               "type": "word",
               "s": "of",
               "norm": "of",
@@ -5114,7 +5080,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t002"
             },
             {
-              "i": 3,
+              "i": 17,
               "type": "word",
               "s": "Orleans",
               "norm": "orleans",
@@ -5122,7 +5088,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t003"
             },
             {
-              "i": 4,
+              "i": 18,
               "type": "punct",
               "s": ",",
               "norm": ",",
@@ -5136,7 +5102,7 @@
               }
             },
             {
-              "i": 5,
+              "i": 19,
               "type": "word",
               "s": "Alençon",
               "norm": "alencon",
@@ -5144,7 +5110,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t005"
             },
             {
-              "i": 6,
+              "i": 20,
               "type": "word",
               "s": "and",
               "norm": "and",
@@ -5152,7 +5118,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t006"
             },
             {
-              "i": 7,
+              "i": 21,
               "type": "word",
               "s": "Reignier",
               "norm": "reignier",
@@ -5160,7 +5126,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t007"
             },
             {
-              "i": 8,
+              "i": 22,
               "type": "punct",
               "s": ",",
               "norm": ",",
@@ -5174,7 +5140,7 @@
               }
             },
             {
-              "i": 9,
+              "i": 23,
               "type": "word",
               "s": "half",
               "norm": "half",
@@ -5182,7 +5148,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t009"
             },
             {
-              "i": 10,
+              "i": 24,
               "type": "word",
               "s": "ready",
               "norm": "ready",
@@ -5190,7 +5156,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t010"
             },
             {
-              "i": 11,
+              "i": 25,
               "type": "word",
               "s": "and",
               "norm": "and",
@@ -5198,7 +5164,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t011"
             },
             {
-              "i": 12,
+              "i": 26,
               "type": "word",
               "s": "half",
               "norm": "half",
@@ -5206,7 +5172,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t012"
             },
             {
-              "i": 13,
+              "i": 27,
               "type": "word",
               "s": "unready",
               "norm": "unready",
@@ -5214,7 +5180,7 @@
               "serial": "henry-vi-part1-a02-s01-i0065-t013"
             },
             {
-              "i": 14,
+              "i": 28,
               "type": "punct",
               "s": ".",
               "norm": ".",
@@ -5232,56 +5198,26 @@
       ]
     },
     {
-      "seq": 67,
-      "serial": "henry-vi-part1-a02-s01-i0066",
-      "kind": "speech",
+      "seq": 65,
+      "serial": "henry-vi-part1-a02-s01-i0064",
+      "kind": "speaker_label",
       "subtype": null,
-      "speaker": "BASTARD",
-      "speech_id": "henry-vi-part1-a02-s01-s0016",
-      "speech_seq": 3,
-      "line_number": 44,
-      "line_serial": "henry-vi-part1-a02-s01-l0044",
+      "speaker": "ALENÇON",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "ALENÇON.",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "ALENÇON",
-              "norm": "alencon",
-              "pre": "",
-              "serial": "henry-vi-part1-a02-s01-i0066-t001"
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-vi-part1-a02-s01-i0066-t002",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        }
-      ]
+      "spans": []
     },
     {
-      "seq": 68,
-      "serial": "henry-vi-part1-a02-s01-i0067",
+      "seq": 66,
+      "serial": "henry-vi-part1-a02-s01-i0065",
       "kind": "speech",
       "subtype": null,
-      "speaker": "BASTARD",
-      "speech_id": "henry-vi-part1-a02-s01-s0016",
-      "speech_seq": 4,
+      "speaker": "ALENÇON",
+      "speech_id": "henry-vi-part1-a02-s01-s0030",
+      "speech_seq": 1,
       "line_number": 45,
       "line_serial": "henry-vi-part1-a02-s01-l0045",
       "subsection": null,
@@ -5416,13 +5352,26 @@
       ]
     },
     {
-      "seq": 69,
-      "serial": "henry-vi-part1-a02-s01-i0069",
+      "seq": 67,
+      "serial": "henry-vi-part1-a02-s01-i0066",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "BASTARD",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
+      "seq": 68,
+      "serial": "henry-vi-part1-a02-s01-i0067",
       "kind": "speech",
       "subtype": null,
       "speaker": "BASTARD",
-      "speech_id": "henry-vi-part1-a02-s01-s0016",
-      "speech_seq": 5,
+      "speech_id": "henry-vi-part1-a02-s01-s0031",
+      "speech_seq": 1,
       "line_number": 46,
       "line_serial": "henry-vi-part1-a02-s01-l0046",
       "subsection": null,
@@ -5543,7 +5492,7 @@
       ]
     },
     {
-      "seq": 70,
+      "seq": 69,
       "serial": "henry-vi-part1-a02-s01-i0070",
       "kind": "speaker_label",
       "subtype": null,
@@ -5556,7 +5505,7 @@
       "spans": []
     },
     {
-      "seq": 71,
+      "seq": 70,
       "serial": "henry-vi-part1-a02-s01-i0071",
       "kind": "speech",
       "subtype": null,
@@ -5699,7 +5648,7 @@
       ]
     },
     {
-      "seq": 72,
+      "seq": 71,
       "serial": "henry-vi-part1-a02-s01-i0072",
       "kind": "speech",
       "subtype": null,
@@ -5796,56 +5745,26 @@
       ]
     },
     {
-      "seq": 73,
+      "seq": 72,
       "serial": "henry-vi-part1-a02-s01-i0073",
-      "kind": "speech",
+      "kind": "speaker_label",
       "subtype": null,
-      "speaker": "REIGNIER",
-      "speech_id": "henry-vi-part1-a02-s01-s0017",
-      "speech_seq": 3,
-      "line_number": 49,
-      "line_serial": "henry-vi-part1-a02-s01-l0049",
+      "speaker": "ALENÇON",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "ALENÇON.",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "ALENÇON",
-              "norm": "alencon",
-              "pre": "",
-              "serial": "henry-vi-part1-a02-s01-l0042-t001"
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-vi-part1-a02-s01-l0042-t002",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        }
-      ]
+      "spans": []
     },
     {
-      "seq": 74,
+      "seq": 73,
       "serial": "henry-vi-part1-a02-s01-i0074",
       "kind": "speech",
       "subtype": null,
-      "speaker": "REIGNIER",
-      "speech_id": "henry-vi-part1-a02-s01-s0017",
-      "speech_seq": 4,
+      "speaker": "ALENÇON",
+      "speech_id": "henry-vi-part1-a02-s01-s0032",
+      "speech_seq": 1,
       "line_number": 50,
       "line_serial": "henry-vi-part1-a02-s01-l0050",
       "subsection": null,
@@ -5924,13 +5843,13 @@
       ]
     },
     {
-      "seq": 75,
+      "seq": 74,
       "serial": "henry-vi-part1-a02-s01-i0075",
       "kind": "speech",
       "subtype": null,
-      "speaker": "REIGNIER",
-      "speech_id": "henry-vi-part1-a02-s01-s0017",
-      "speech_seq": 5,
+      "speaker": "ALENÇON",
+      "speech_id": "henry-vi-part1-a02-s01-s0032",
+      "speech_seq": 2,
       "line_number": 51,
       "line_serial": "henry-vi-part1-a02-s01-l0051",
       "subsection": null,
@@ -6001,13 +5920,13 @@
       ]
     },
     {
-      "seq": 76,
+      "seq": 75,
       "serial": "henry-vi-part1-a02-s01-i0076",
       "kind": "speech",
       "subtype": null,
-      "speaker": "REIGNIER",
-      "speech_id": "henry-vi-part1-a02-s01-s0017",
-      "speech_seq": 6,
+      "speaker": "ALENÇON",
+      "speech_id": "henry-vi-part1-a02-s01-s0032",
+      "speech_seq": 3,
       "line_number": 52,
       "line_serial": "henry-vi-part1-a02-s01-l0052",
       "subsection": null,
@@ -6084,7 +6003,7 @@
       ]
     },
     {
-      "seq": 77,
+      "seq": 76,
       "serial": "henry-vi-part1-a02-s01-i0077",
       "kind": "speaker_label",
       "subtype": null,
@@ -6097,7 +6016,7 @@
       "spans": []
     },
     {
-      "seq": 78,
+      "seq": 77,
       "serial": "henry-vi-part1-a02-s01-i0078",
       "kind": "speech",
       "subtype": null,
@@ -6204,7 +6123,7 @@
       ]
     },
     {
-      "seq": 79,
+      "seq": 78,
       "serial": "henry-vi-part1-a02-s01-i0079",
       "kind": "speaker_label",
       "subtype": null,
@@ -6217,7 +6136,7 @@
       "spans": []
     },
     {
-      "seq": 80,
+      "seq": 79,
       "serial": "henry-vi-part1-a02-s01-i0080",
       "kind": "speech",
       "subtype": null,
@@ -6366,56 +6285,26 @@
       ]
     },
     {
-      "seq": 81,
+      "seq": 80,
       "serial": "henry-vi-part1-a02-s01-i0081",
-      "kind": "speech",
+      "kind": "speaker_label",
       "subtype": null,
-      "speaker": "REIGNIER",
-      "speech_id": "henry-vi-part1-a02-s01-s0019",
-      "speech_seq": 2,
-      "line_number": 55,
-      "line_serial": "henry-vi-part1-a02-s01-l0055",
+      "speaker": "ALENÇON",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "ALENÇON.",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "ALENÇON",
-              "norm": "alencon",
-              "pre": "",
-              "serial": "henry-vi-part1-a02-s01-l0048-t001"
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-vi-part1-a02-s01-l0048-t002",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        }
-      ]
+      "spans": []
     },
     {
-      "seq": 82,
+      "seq": 81,
       "serial": "henry-vi-part1-a02-s01-i0082",
       "kind": "speech",
       "subtype": null,
-      "speaker": "REIGNIER",
-      "speech_id": "henry-vi-part1-a02-s01-s0019",
-      "speech_seq": 3,
+      "speaker": "ALENÇON",
+      "speech_id": "henry-vi-part1-a02-s01-s0033",
+      "speech_seq": 1,
       "line_number": 56,
       "line_serial": "henry-vi-part1-a02-s01-l0056",
       "subsection": null,
@@ -6522,7 +6411,7 @@
       ]
     },
     {
-      "seq": 83,
+      "seq": 82,
       "serial": "henry-vi-part1-a02-s01-i0083",
       "kind": "stage",
       "subtype": "enter",
@@ -6604,7 +6493,7 @@
       ]
     },
     {
-      "seq": 84,
+      "seq": 83,
       "serial": "henry-vi-part1-a02-s01-i0084",
       "kind": "speaker_label",
       "subtype": null,
@@ -6617,7 +6506,7 @@
       "spans": []
     },
     {
-      "seq": 85,
+      "seq": 84,
       "serial": "henry-vi-part1-a02-s01-i0085",
       "kind": "speech",
       "subtype": null,
@@ -6722,7 +6611,7 @@
       ]
     },
     {
-      "seq": 86,
+      "seq": 85,
       "serial": "henry-vi-part1-a02-s01-i0086",
       "kind": "speaker_label",
       "subtype": null,
@@ -6735,7 +6624,7 @@
       "spans": []
     },
     {
-      "seq": 87,
+      "seq": 86,
       "serial": "henry-vi-part1-a02-s01-i0087",
       "kind": "speech",
       "subtype": null,
@@ -6840,7 +6729,7 @@
       ]
     },
     {
-      "seq": 88,
+      "seq": 87,
       "serial": "henry-vi-part1-a02-s01-i0088",
       "kind": "speech",
       "subtype": null,
@@ -6953,7 +6842,7 @@
       ]
     },
     {
-      "seq": 89,
+      "seq": 88,
       "serial": "henry-vi-part1-a02-s01-i0089",
       "kind": "speech",
       "subtype": null,
@@ -7044,7 +6933,7 @@
       ]
     },
     {
-      "seq": 90,
+      "seq": 89,
       "serial": "henry-vi-part1-a02-s01-i0090",
       "kind": "speech",
       "subtype": null,
@@ -7159,7 +7048,7 @@
       ]
     },
     {
-      "seq": 91,
+      "seq": 90,
       "serial": "henry-vi-part1-a02-s01-i0091",
       "kind": "speaker_label",
       "subtype": null,
@@ -7172,7 +7061,7 @@
       "spans": []
     },
     {
-      "seq": 92,
+      "seq": 91,
       "serial": "henry-vi-part1-a02-s01-i0092",
       "kind": "speech",
       "subtype": null,
@@ -7263,7 +7152,7 @@
       ]
     },
     {
-      "seq": 93,
+      "seq": 92,
       "serial": "henry-vi-part1-a02-s01-i0093",
       "kind": "speech",
       "subtype": null,
@@ -7370,7 +7259,7 @@
       ]
     },
     {
-      "seq": 94,
+      "seq": 93,
       "serial": "henry-vi-part1-a02-s01-i0094",
       "kind": "speech",
       "subtype": null,
@@ -7475,7 +7364,7 @@
       ]
     },
     {
-      "seq": 95,
+      "seq": 94,
       "serial": "henry-vi-part1-a02-s01-i0095",
       "kind": "speech",
       "subtype": null,
@@ -7590,7 +7479,7 @@
       ]
     },
     {
-      "seq": 96,
+      "seq": 95,
       "serial": "henry-vi-part1-a02-s01-i0096",
       "kind": "speech",
       "subtype": null,
@@ -7695,7 +7584,7 @@
       ]
     },
     {
-      "seq": 97,
+      "seq": 96,
       "serial": "henry-vi-part1-a02-s01-i0097",
       "kind": "speech",
       "subtype": null,
@@ -7786,7 +7675,7 @@
       ]
     },
     {
-      "seq": 98,
+      "seq": 97,
       "serial": "henry-vi-part1-a02-s01-i0098",
       "kind": "speaker_label",
       "subtype": null,
@@ -7799,7 +7688,7 @@
       "spans": []
     },
     {
-      "seq": 99,
+      "seq": 98,
       "serial": "henry-vi-part1-a02-s01-i0099",
       "kind": "speech",
       "subtype": null,
@@ -7904,7 +7793,7 @@
       ]
     },
     {
-      "seq": 100,
+      "seq": 99,
       "serial": "henry-vi-part1-a02-s01-i0100",
       "kind": "speech",
       "subtype": null,
@@ -8009,7 +7898,7 @@
       ]
     },
     {
-      "seq": 101,
+      "seq": 100,
       "serial": "henry-vi-part1-a02-s01-i0101",
       "kind": "speech",
       "subtype": null,
@@ -8108,7 +7997,7 @@
       ]
     },
     {
-      "seq": 102,
+      "seq": 101,
       "serial": "henry-vi-part1-a02-s01-i0102",
       "kind": "speech",
       "subtype": null,
@@ -8151,7 +8040,7 @@
       ]
     },
     {
-      "seq": 103,
+      "seq": 102,
       "serial": "henry-vi-part1-a02-s01-i0103",
       "kind": "speech",
       "subtype": null,
@@ -8236,7 +8125,7 @@
       ]
     },
     {
-      "seq": 104,
+      "seq": 103,
       "serial": "henry-vi-part1-a02-s01-i0104",
       "kind": "speech",
       "subtype": null,
@@ -8327,7 +8216,7 @@
       ]
     },
     {
-      "seq": 105,
+      "seq": 104,
       "serial": "henry-vi-part1-a02-s01-i0105",
       "kind": "speech",
       "subtype": null,
@@ -8418,7 +8307,7 @@
       ]
     },
     {
-      "seq": 106,
+      "seq": 105,
       "serial": "henry-vi-part1-a02-s01-i0106",
       "kind": "speaker_label",
       "subtype": null,
@@ -8431,7 +8320,7 @@
       "spans": []
     },
     {
-      "seq": 107,
+      "seq": 106,
       "serial": "henry-vi-part1-a02-s01-i0107",
       "kind": "speech",
       "subtype": null,
@@ -8490,7 +8379,7 @@
       ]
     },
     {
-      "seq": 108,
+      "seq": 107,
       "serial": "henry-vi-part1-a02-s01-i0108",
       "kind": "speaker_label",
       "subtype": null,
@@ -8503,7 +8392,7 @@
       "spans": []
     },
     {
-      "seq": 109,
+      "seq": 108,
       "serial": "henry-vi-part1-a02-s01-i0109",
       "kind": "speech",
       "subtype": null,
@@ -8600,7 +8489,7 @@
       ]
     },
     {
-      "seq": 110,
+      "seq": 109,
       "serial": "henry-vi-part1-a02-s01-i0110",
       "kind": "speaker_label",
       "subtype": null,
@@ -8613,7 +8502,7 @@
       "spans": []
     },
     {
-      "seq": 111,
+      "seq": 110,
       "serial": "henry-vi-part1-a02-s01-i0111",
       "kind": "speech",
       "subtype": null,
@@ -8627,7 +8516,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "And for myself, most part of all this night,",
+          "text": "And for myself, most part of all this night, Within her quarter and mine own precinct,",
           "tokens": [
             {
               "i": 1,
@@ -8728,98 +8617,83 @@
                 "quote": null,
                 "role": null
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 112,
-      "serial": "henry-vi-part1-a02-s01-i0112",
-      "kind": "stage",
-      "subtype": "within",
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
-      "subsection": null,
-      "spans": [
-        {
-          "type": "stage",
-          "em": true,
-          "text": "Within her quarter and mine own precinct",
-          "stage": null,
-          "tokens": [
+            },
             {
-              "i": 1,
+              "i": 12,
               "type": "word",
               "s": "Within",
               "norm": "within",
-              "pre": "",
-              "serial": "henry-vi-part1-a02-s01-i0112-t001",
-              "em": true
+              "pre": " ",
+              "serial": "henry-vi-part1-a02-s01-i0112-t001"
             },
             {
-              "i": 2,
+              "i": 13,
               "type": "word",
               "s": "her",
               "norm": "her",
               "pre": " ",
-              "serial": "henry-vi-part1-a02-s01-i0112-t002",
-              "em": true
+              "serial": "henry-vi-part1-a02-s01-i0112-t002"
             },
             {
-              "i": 3,
+              "i": 14,
               "type": "word",
               "s": "quarter",
               "norm": "quarter",
               "pre": " ",
-              "serial": "henry-vi-part1-a02-s01-i0112-t003",
-              "em": true
+              "serial": "henry-vi-part1-a02-s01-i0112-t003"
             },
             {
-              "i": 4,
+              "i": 15,
               "type": "word",
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part1-a02-s01-i0112-t004",
-              "em": true
+              "serial": "henry-vi-part1-a02-s01-i0112-t004"
             },
             {
-              "i": 5,
+              "i": 16,
               "type": "word",
               "s": "mine",
               "norm": "mine",
               "pre": " ",
-              "serial": "henry-vi-part1-a02-s01-i0112-t005",
-              "em": true
+              "serial": "henry-vi-part1-a02-s01-i0112-t005"
             },
             {
-              "i": 6,
+              "i": 17,
               "type": "word",
               "s": "own",
               "norm": "own",
               "pre": " ",
-              "serial": "henry-vi-part1-a02-s01-i0112-t006",
-              "em": true
+              "serial": "henry-vi-part1-a02-s01-i0112-t006"
             },
             {
-              "i": 7,
+              "i": 18,
               "type": "word",
               "s": "precinct",
               "norm": "precinct",
               "pre": " ",
-              "serial": "henry-vi-part1-a02-s01-i0112-t007",
-              "em": true
+              "serial": "henry-vi-part1-a02-s01-i0112-t007"
+            },
+            {
+              "i": 19,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part1-a02-s01-l0077-t019",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
             }
           ]
         }
       ]
     },
     {
-      "seq": 113,
+      "seq": 111,
       "serial": "henry-vi-part1-a02-s01-i0113",
       "kind": "speech",
       "subtype": null,
@@ -8904,7 +8778,7 @@
       ]
     },
     {
-      "seq": 114,
+      "seq": 112,
       "serial": "henry-vi-part1-a02-s01-i0114",
       "kind": "speech",
       "subtype": null,
@@ -8979,7 +8853,7 @@
       ]
     },
     {
-      "seq": 115,
+      "seq": 113,
       "serial": "henry-vi-part1-a02-s01-i0115",
       "kind": "speech",
       "subtype": null,
@@ -9094,7 +8968,7 @@
       ]
     },
     {
-      "seq": 116,
+      "seq": 114,
       "serial": "henry-vi-part1-a02-s01-i0116",
       "kind": "speaker_label",
       "subtype": null,
@@ -9107,7 +8981,7 @@
       "spans": []
     },
     {
-      "seq": 117,
+      "seq": 115,
       "serial": "henry-vi-part1-a02-s01-i0117",
       "kind": "speech",
       "subtype": null,
@@ -9234,7 +9108,7 @@
       ]
     },
     {
-      "seq": 118,
+      "seq": 116,
       "serial": "henry-vi-part1-a02-s01-i0118",
       "kind": "speech",
       "subtype": null,
@@ -9349,7 +9223,7 @@
       ]
     },
     {
-      "seq": 119,
+      "seq": 117,
       "serial": "henry-vi-part1-a02-s01-i0119",
       "kind": "speech",
       "subtype": null,
@@ -9462,7 +9336,7 @@
       ]
     },
     {
-      "seq": 120,
+      "seq": 118,
       "serial": "henry-vi-part1-a02-s01-i0120",
       "kind": "speech",
       "subtype": null,
@@ -9569,7 +9443,7 @@
       ]
     },
     {
-      "seq": 121,
+      "seq": 119,
       "serial": "henry-vi-part1-a02-s01-i0121",
       "kind": "speech",
       "subtype": null,
@@ -9674,7 +9548,7 @@
       ]
     },
     {
-      "seq": 122,
+      "seq": 120,
       "serial": "henry-vi-part1-a02-s01-i0122",
       "kind": "speech",
       "subtype": null,
@@ -9765,21 +9639,21 @@
       ]
     },
     {
-      "seq": 123,
+      "seq": 121,
       "serial": "henry-vi-part1-a02-s01-i0123",
-      "kind": "speech",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "PUCELLE",
-      "speech_id": "henry-vi-part1-a02-s01-s0028",
-      "speech_seq": 7,
-      "line_number": 87,
-      "line_serial": "henry-vi-part1-a02-s01-l0087",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "Alarum. Enter an  English Soldier, crying “A Talbot! A Talbot!” They",
+          "type": "stage",
+          "em": true,
+          "text": "Alarum. Enter an English Soldier, crying “A Talbot! A Talbot!” They fly, leaving their clothes behind.",
           "tokens": [
             {
               "i": 1,
@@ -9824,7 +9698,7 @@
               "type": "word",
               "s": "English",
               "norm": "english",
-              "pre": "  ",
+              "pre": " ",
               "serial": "henry-vi-part1-a02-s01-l0080-t005"
             },
             {
@@ -9952,38 +9826,17 @@
               "norm": "they",
               "pre": " ",
               "serial": "henry-vi-part1-a02-s01-l0080-t017"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 124,
-      "serial": "henry-vi-part1-a02-s01-i0124",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "PUCELLE",
-      "speech_id": "henry-vi-part1-a02-s01-s0028",
-      "speech_seq": 8,
-      "line_number": 88,
-      "line_serial": "henry-vi-part1-a02-s01-l0088",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "fly, leaving their clothes behind.",
-          "tokens": [
+            },
             {
-              "i": 1,
+              "i": 18,
               "type": "word",
               "s": "fly",
               "norm": "fly",
-              "pre": "",
+              "pre": " ",
               "serial": "henry-vi-part1-a02-s01-l0081-t001"
             },
             {
-              "i": 2,
+              "i": 19,
               "type": "punct",
               "s": ",",
               "norm": ",",
@@ -9997,7 +9850,7 @@
               }
             },
             {
-              "i": 3,
+              "i": 20,
               "type": "word",
               "s": "leaving",
               "norm": "leaving",
@@ -10005,7 +9858,7 @@
               "serial": "henry-vi-part1-a02-s01-l0081-t003"
             },
             {
-              "i": 4,
+              "i": 21,
               "type": "word",
               "s": "their",
               "norm": "their",
@@ -10013,7 +9866,7 @@
               "serial": "henry-vi-part1-a02-s01-l0081-t004"
             },
             {
-              "i": 5,
+              "i": 22,
               "type": "word",
               "s": "clothes",
               "norm": "clothes",
@@ -10021,7 +9874,7 @@
               "serial": "henry-vi-part1-a02-s01-l0081-t005"
             },
             {
-              "i": 6,
+              "i": 23,
               "type": "word",
               "s": "behind",
               "norm": "behind",
@@ -10029,7 +9882,7 @@
               "serial": "henry-vi-part1-a02-s01-l0081-t006"
             },
             {
-              "i": 7,
+              "i": 24,
               "type": "punct",
               "s": ".",
               "norm": ".",
@@ -10047,7 +9900,7 @@
       ]
     },
     {
-      "seq": 125,
+      "seq": 122,
       "serial": "henry-vi-part1-a02-s01-i0125",
       "kind": "speaker_label",
       "subtype": null,
@@ -10060,7 +9913,7 @@
       "spans": []
     },
     {
-      "seq": 126,
+      "seq": 123,
       "serial": "henry-vi-part1-a02-s01-i0126",
       "kind": "speech",
       "subtype": null,
@@ -10175,7 +10028,7 @@
       ]
     },
     {
-      "seq": 127,
+      "seq": 124,
       "serial": "henry-vi-part1-a02-s01-i0127",
       "kind": "speech",
       "subtype": null,
@@ -10310,7 +10163,7 @@
       ]
     },
     {
-      "seq": 128,
+      "seq": 125,
       "serial": "henry-vi-part1-a02-s01-i0128",
       "kind": "speech",
       "subtype": null,
@@ -10409,7 +10262,7 @@
       ]
     },
     {
-      "seq": 129,
+      "seq": 126,
       "serial": "henry-vi-part1-a02-s01-i0129",
       "kind": "speech",
       "subtype": null,
@@ -10500,7 +10353,7 @@
       ]
     },
     {
-      "seq": 130,
+      "seq": 127,
       "serial": "henry-vi-part1-a02-s01-i0130",
       "kind": "stage",
       "subtype": "exit",
