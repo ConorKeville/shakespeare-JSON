@@ -146,8 +146,8 @@
     {
       "seq": 3,
       "serial": "henry-vi-part2-a05-s02-i0003",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": null,
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -156,9 +156,10 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "The sign of the Castle Inn is displayed. Alarums to the battle. Enter",
+          "type": "stage",
+          "em": true,
+          "text": "The sign of the Castle Inn is displayed.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -166,7 +167,8 @@
               "s": "The",
               "norm": "the",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s02-i0003-t001"
+              "serial": "henry-vi-part2-a05-s02-i0003-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -174,7 +176,8 @@
               "s": "sign",
               "norm": "sign",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t002"
+              "serial": "henry-vi-part2-a05-s02-i0003-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -182,7 +185,8 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t003"
+              "serial": "henry-vi-part2-a05-s02-i0003-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -190,7 +194,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t004"
+              "serial": "henry-vi-part2-a05-s02-i0003-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -198,7 +203,8 @@
               "s": "Castle",
               "norm": "castle",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t005"
+              "serial": "henry-vi-part2-a05-s02-i0003-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -206,7 +212,8 @@
               "s": "Inn",
               "norm": "inn",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t006"
+              "serial": "henry-vi-part2-a05-s02-i0003-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -214,7 +221,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t007"
+              "serial": "henry-vi-part2-a05-s02-i0003-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -222,7 +230,8 @@
               "s": "displayed",
               "norm": "displayed",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t008"
+              "serial": "henry-vi-part2-a05-s02-i0003-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -231,66 +240,13 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part2-a05-s02-i0003-t009",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 10,
-              "type": "word",
-              "s": "Alarums",
-              "norm": "alarums",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t010"
-            },
-            {
-              "i": 11,
-              "type": "word",
-              "s": "to",
-              "norm": "to",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t011"
-            },
-            {
-              "i": 12,
-              "type": "word",
-              "s": "the",
-              "norm": "the",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t012"
-            },
-            {
-              "i": 13,
-              "type": "word",
-              "s": "battle",
-              "norm": "battle",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t013"
-            },
-            {
-              "i": 14,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-vi-part2-a05-s02-i0003-t014",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 15,
-              "type": "word",
-              "s": "Enter",
-              "norm": "enter",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0003-t015"
             }
           ]
         }
@@ -299,8 +255,8 @@
     {
       "seq": 4,
       "serial": "henry-vi-part2-a05-s02-i0004",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": null,
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -309,25 +265,88 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "Warwick.",
+          "type": "stage",
+          "em": true,
+          "text": "Alarums to the battle. Enter Warwick.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "Warwick",
-              "norm": "warwick",
+              "s": "Alarums",
+              "norm": "alarums",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s02-i0004-t001"
+              "serial": "henry-vi-part2-a05-s02-i0004-t001",
+              "em": true
             },
             {
               "i": 2,
+              "type": "word",
+              "s": "to",
+              "norm": "to",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s02-i0004-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s02-i0004-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "battle",
+              "norm": "battle",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s02-i0004-t004",
+              "em": true
+            },
+            {
+              "i": 5,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s02-i0004-t002",
+              "serial": "henry-vi-part2-a05-s02-i0004-t005",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s02-i0004-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "Warwick",
+              "norm": "warwick",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s02-i0004-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-vi-part2-a05-s02-i0004-t008",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -3688,13 +3707,13 @@
         {
           "type": "speech",
           "em": false,
-          "text": "_La fin couronne les oeuvres._",
+          "text": "*La fin couronne les œuvres.*",
           "tokens": [
             {
               "i": 1,
               "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "s": "*",
+              "norm": "*",
               "pre": "",
               "serial": "henry-vi-part2-a05-s02-l0027-t001",
               "punct": {
@@ -3739,7 +3758,7 @@
             {
               "i": 6,
               "type": "word",
-              "s": "oeuvres",
+              "s": "œuvres",
               "norm": "oeuvres",
               "pre": " ",
               "serial": "henry-vi-part2-a05-s02-l0027-t006"
@@ -3761,8 +3780,8 @@
             {
               "i": 8,
               "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "s": "*",
+              "norm": "*",
               "pre": "",
               "serial": "henry-vi-part2-a05-s02-l0027-t008",
               "punct": {
@@ -5207,52 +5226,61 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Sees his dead father.",
+          "text": "He sees his dead father.",
           "stage": null,
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "Sees",
-              "norm": "sees",
+              "s": "He",
+              "norm": "he",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s02-l0039-t001",
+              "serial": "henry-vi-part2-a05-s02-i0065-t001",
               "em": true
             },
             {
               "i": 2,
               "type": "word",
-              "s": "his",
-              "norm": "his",
+              "s": "sees",
+              "norm": "sees",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-l0039-t002",
+              "serial": "henry-vi-part2-a05-s02-i0065-t002",
               "em": true
             },
             {
               "i": 3,
               "type": "word",
-              "s": "dead",
-              "norm": "dead",
+              "s": "his",
+              "norm": "his",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-l0039-t003",
+              "serial": "henry-vi-part2-a05-s02-i0065-t003",
               "em": true
             },
             {
               "i": 4,
               "type": "word",
-              "s": "father",
-              "norm": "father",
+              "s": "dead",
+              "norm": "dead",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-l0039-t004",
+              "serial": "henry-vi-part2-a05-s02-i0065-t004",
               "em": true
             },
             {
               "i": 5,
+              "type": "word",
+              "s": "father",
+              "norm": "father",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s02-i0065-t005",
+              "em": true
+            },
+            {
+              "i": 6,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s02-l0039-t005",
+              "serial": "henry-vi-part2-a05-s02-i0065-t006",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -8815,34 +8843,22 @@
       ]
     },
     {
-      "seq": 102,
-      "serial": "henry-vi-part2-a05-s02-i0103",
-      "kind": "speaker_label",
+      "seq": 103,
+      "serial": "henry-vi-part2-a05-s02-i0102",
+      "kind": "stage",
       "subtype": null,
-      "speaker": "QUEEN MARGARET",
+      "speaker": null,
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
       "line_serial": null,
       "subsection": null,
-      "spans": []
-    },
-    {
-      "seq": 103,
-      "serial": "henry-vi-part2-a05-s02-i0102",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "QUEEN MARGARET",
-      "speech_id": "henry-vi-part2-a05-s02-s0016",
-      "speech_seq": 1,
-      "line_number": 72,
-      "line_serial": "henry-vi-part2-a05-s02-l0072",
-      "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
+          "type": "stage",
+          "em": true,
           "text": "Fight. Excursions. Enter King, Queen and others.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -8850,7 +8866,8 @@
               "s": "Fight",
               "norm": "fight",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s02-i0102-t001"
+              "serial": "henry-vi-part2-a05-s02-i0102-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -8859,6 +8876,7 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part2-a05-s02-i0102-t002",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -8872,7 +8890,8 @@
               "s": "Excursions",
               "norm": "excursions",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0102-t003"
+              "serial": "henry-vi-part2-a05-s02-i0102-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -8881,6 +8900,7 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part2-a05-s02-i0102-t004",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -8894,7 +8914,8 @@
               "s": "Enter",
               "norm": "enter",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0102-t005"
+              "serial": "henry-vi-part2-a05-s02-i0102-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -8902,7 +8923,8 @@
               "s": "King",
               "norm": "king",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0102-t006"
+              "serial": "henry-vi-part2-a05-s02-i0102-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -8911,6 +8933,7 @@
               "norm": ",",
               "pre": "",
               "serial": "henry-vi-part2-a05-s02-i0102-t007",
+              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -8924,7 +8947,8 @@
               "s": "Queen",
               "norm": "queen",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0102-t008"
+              "serial": "henry-vi-part2-a05-s02-i0102-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -8932,7 +8956,8 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0102-t009"
+              "serial": "henry-vi-part2-a05-s02-i0102-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -8940,7 +8965,8 @@
               "s": "others",
               "norm": "others",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s02-i0102-t010"
+              "serial": "henry-vi-part2-a05-s02-i0102-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -8949,6 +8975,7 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part2-a05-s02-i0102-t011",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,

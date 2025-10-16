@@ -162,8 +162,8 @@
     {
       "seq": 3,
       "serial": "henry-vi-part2-a05-s03-i0003",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": null,
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -172,9 +172,10 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "Alarum. Retreat. Enter York, Richard, Warwick and Soldiers with drum",
+          "type": "stage",
+          "em": true,
+          "text": "Alarum. Retreat.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -182,7 +183,8 @@
               "s": "Alarum",
               "norm": "alarum",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s03-i0003-t001"
+              "serial": "henry-vi-part2-a05-s03-i0003-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -191,6 +193,7 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part2-a05-s03-i0003-t002",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -204,7 +207,8 @@
               "s": "Retreat",
               "norm": "retreat",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t003"
+              "serial": "henry-vi-part2-a05-s03-i0003-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -213,104 +217,13 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part2-a05-s03-i0003-t004",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 5,
-              "type": "word",
-              "s": "Enter",
-              "norm": "enter",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t005"
-            },
-            {
-              "i": 6,
-              "type": "word",
-              "s": "York",
-              "norm": "york",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t006"
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "henry-vi-part2-a05-s03-i0003-t007",
-              "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 8,
-              "type": "word",
-              "s": "Richard",
-              "norm": "richard",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t008"
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "henry-vi-part2-a05-s03-i0003-t009",
-              "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 10,
-              "type": "word",
-              "s": "Warwick",
-              "norm": "warwick",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t010"
-            },
-            {
-              "i": 11,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t011"
-            },
-            {
-              "i": 12,
-              "type": "word",
-              "s": "Soldiers",
-              "norm": "soldiers",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t012"
-            },
-            {
-              "i": 13,
-              "type": "word",
-              "s": "with",
-              "norm": "with",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t013"
-            },
-            {
-              "i": 14,
-              "type": "word",
-              "s": "drum",
-              "norm": "drum",
-              "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0003-t014"
             }
           ]
         }
@@ -319,8 +232,8 @@
     {
       "seq": 4,
       "serial": "henry-vi-part2-a05-s03-i0004",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": null,
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -329,33 +242,139 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "and colours.",
+          "type": "stage",
+          "em": true,
+          "text": "Enter York, Richard, Warwick and Soldiers with drum and colours.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "and",
-              "norm": "and",
+              "s": "Enter",
+              "norm": "enter",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s03-i0004-t001"
+              "serial": "henry-vi-part2-a05-s03-i0004-t001",
+              "em": true
             },
             {
               "i": 2,
               "type": "word",
-              "s": "colours",
-              "norm": "colours",
+              "s": "York",
+              "norm": "york",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0004-t002"
+              "serial": "henry-vi-part2-a05-s03-i0004-t002",
+              "em": true
             },
             {
               "i": 3,
               "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part2-a05-s03-i0004-t003",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "Richard",
+              "norm": "richard",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s03-i0004-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-vi-part2-a05-s03-i0004-t005",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "Warwick",
+              "norm": "warwick",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s03-i0004-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s03-i0004-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Soldiers",
+              "norm": "soldiers",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s03-i0004-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s03-i0004-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "drum",
+              "norm": "drum",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s03-i0004-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s03-i0004-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "word",
+              "s": "colours",
+              "norm": "colours",
+              "pre": " ",
+              "serial": "henry-vi-part2-a05-s03-i0004-t012",
+              "em": true
+            },
+            {
+              "i": 13,
+              "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s03-i0004-t003",
+              "serial": "henry-vi-part2-a05-s03-i0004-t013",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -3968,20 +3987,19 @@
     {
       "seq": 43,
       "serial": "henry-vi-part2-a05-s03-i0043",
-      "kind": "stage",
-      "subtype": "sound",
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "WARWICK",
+      "speech_id": "henry-vi-part2-a05-s03-s0005",
+      "speech_seq": 5,
+      "line_number": 33,
+      "line_serial": "henry-vi-part2-a05-s03-l0033",
       "subsection": null,
       "spans": [
         {
-          "type": "stage",
-          "em": true,
+          "type": "speech",
+          "em": false,
           "text": "Sound drums and trumpets, and to London all;",
-          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -3989,8 +4007,7 @@
               "s": "Sound",
               "norm": "sound",
               "pre": "",
-              "serial": "henry-vi-part2-a05-s03-i0043-t001",
-              "em": true
+              "serial": "henry-vi-part2-a05-s03-i0043-t001"
             },
             {
               "i": 2,
@@ -3998,8 +4015,7 @@
               "s": "drums",
               "norm": "drums",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0043-t002",
-              "em": true
+              "serial": "henry-vi-part2-a05-s03-i0043-t002"
             },
             {
               "i": 3,
@@ -4007,8 +4023,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0043-t003",
-              "em": true
+              "serial": "henry-vi-part2-a05-s03-i0043-t003"
             },
             {
               "i": 4,
@@ -4016,8 +4031,7 @@
               "s": "trumpets",
               "norm": "trumpets",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0043-t004",
-              "em": true
+              "serial": "henry-vi-part2-a05-s03-i0043-t004"
             },
             {
               "i": 5,
@@ -4026,7 +4040,6 @@
               "norm": ",",
               "pre": "",
               "serial": "henry-vi-part2-a05-s03-i0043-t005",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -4040,8 +4053,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0043-t006",
-              "em": true
+              "serial": "henry-vi-part2-a05-s03-i0043-t006"
             },
             {
               "i": 7,
@@ -4049,8 +4061,7 @@
               "s": "to",
               "norm": "to",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0043-t007",
-              "em": true
+              "serial": "henry-vi-part2-a05-s03-i0043-t007"
             },
             {
               "i": 8,
@@ -4058,8 +4069,7 @@
               "s": "London",
               "norm": "london",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0043-t008",
-              "em": true
+              "serial": "henry-vi-part2-a05-s03-i0043-t008"
             },
             {
               "i": 9,
@@ -4067,8 +4077,7 @@
               "s": "all",
               "norm": "all",
               "pre": " ",
-              "serial": "henry-vi-part2-a05-s03-i0043-t009",
-              "em": true
+              "serial": "henry-vi-part2-a05-s03-i0043-t009"
             },
             {
               "i": 10,
@@ -4077,7 +4086,6 @@
               "norm": ";",
               "pre": "",
               "serial": "henry-vi-part2-a05-s03-i0043-t010",
-              "em": true,
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
@@ -4096,9 +4104,9 @@
       "subtype": null,
       "speaker": "WARWICK",
       "speech_id": "henry-vi-part2-a05-s03-s0005",
-      "speech_seq": 5,
-      "line_number": 33,
-      "line_serial": "henry-vi-part2-a05-s03-l0033",
+      "speech_seq": 6,
+      "line_number": 34,
+      "line_serial": "henry-vi-part2-a05-s03-l0034",
       "subsection": null,
       "spans": [
         {
