@@ -469,171 +469,145 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Monte à cheval!_ My horse, _varlet! laquais_, ha!",
+          "type": "stage",
+          "em": true,
+          "text": "Monte à cheval!",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Monte",
               "norm": "monte",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t002"
+              "serial": "henry-v-a04-s02-l0002-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "à",
+              "norm": "à",
+              "pre": " ",
+              "serial": "henry-v-a04-s02-l0002-t002",
+              "em": true
             },
             {
               "i": 3,
               "type": "word",
-              "s": "à",
-              "norm": "a",
-              "pre": " ",
-              "serial": "henry-v-a04-s02-l0002-t003"
-            },
-            {
-              "i": 4,
-              "type": "word",
               "s": "cheval",
               "norm": "cheval",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0002-t004"
+              "serial": "henry-v-a04-s02-l0002-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t005",
+              "serial": "henry-v-a04-s02-l0002-t004",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
+              },
+              "em": true
+            }
+          ],
+          "stage": null
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " My horse,",
+          "tokens": [
             {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 7,
+              "i": 5,
               "type": "word",
               "s": "My",
               "norm": "my",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0002-t007"
+              "serial": "henry-v-a04-s02-l0002-t005"
             },
             {
-              "i": 8,
+              "i": 6,
               "type": "word",
               "s": "horse",
               "norm": "horse",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0002-t008"
+              "serial": "henry-v-a04-s02-l0002-t006"
             },
             {
-              "i": 9,
+              "i": 7,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t009",
+              "serial": "henry-v-a04-s02-l0002-t007",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
               }
-            },
+            }
+          ]
+        },
+        {
+          "type": "stage",
+          "em": true,
+          "text": "varlet! laquais",
+          "tokens": [
             {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a04-s02-l0002-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 11,
+              "i": 8,
               "type": "word",
               "s": "varlet",
               "norm": "varlet",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t011"
+              "pre": " ",
+              "serial": "henry-v-a04-s02-l0002-t008",
+              "em": true
             },
             {
-              "i": 12,
+              "i": 9,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t012",
+              "serial": "henry-v-a04-s02-l0002-t009",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 13,
+              "i": 10,
               "type": "word",
               "s": "laquais",
               "norm": "laquais",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0002-t013"
-            },
+              "serial": "henry-v-a04-s02-l0002-t010",
+              "em": true
+            }
+          ],
+          "stage": null
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", ha!",
+          "tokens": [
             {
-              "i": 14,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t014",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 15,
+              "i": 11,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t015",
+              "serial": "henry-v-a04-s02-l0002-t011",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -642,20 +616,20 @@
               }
             },
             {
-              "i": 16,
+              "i": 12,
               "type": "word",
               "s": "ha",
               "norm": "ha",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0002-t016"
+              "serial": "henry-v-a04-s02-l0002-t012"
             },
             {
-              "i": 17,
+              "i": 13,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0002-t017",
+              "serial": "henry-v-a04-s02-l0002-t013",
               "punct": {
                 "kind": "emark",
                 "dash": null,
@@ -765,39 +739,27 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Via, les eaux et terre!_",
+          "type": "stage",
+          "em": true,
+          "text": "Via, les eaux et terre!",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "type": "word",
+              "s": "Via",
               "pre": "",
               "serial": "henry-v-a04-s02-l0004-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "em": true,
+              "norm": "via"
             },
             {
               "i": 2,
-              "type": "word",
-              "s": "Via",
-              "norm": "via",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0004-t002"
-            },
-            {
-              "i": 3,
               "type": "punct",
               "s": ",",
-              "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0004-t003",
+              "serial": "henry-v-a04-s02-l0004-t002",
+              "em": true,
+              "norm": ",",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -806,66 +768,58 @@
               }
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "les",
-              "norm": "les",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0004-t004"
+              "serial": "henry-v-a04-s02-l0004-t003",
+              "em": true,
+              "norm": "les"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "eaux",
+              "pre": " ",
+              "serial": "henry-v-a04-s02-l0004-t004",
+              "em": true,
+              "norm": "eaux"
             },
             {
               "i": 5,
               "type": "word",
-              "s": "eaux",
-              "norm": "eaux",
+              "s": "et",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0004-t005"
+              "serial": "henry-v-a04-s02-l0004-t005",
+              "em": true,
+              "norm": "et"
             },
             {
               "i": 6,
               "type": "word",
-              "s": "et",
-              "norm": "et",
+              "s": "terre",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0004-t006"
+              "serial": "henry-v-a04-s02-l0004-t006",
+              "em": true,
+              "norm": "terre"
             },
             {
               "i": 7,
-              "type": "word",
-              "s": "terre",
-              "norm": "terre",
-              "pre": " ",
-              "serial": "henry-v-a04-s02-l0004-t007"
-            },
-            {
-              "i": 8,
               "type": "punct",
               "s": "!",
-              "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0004-t008",
+              "serial": "henry-v-a04-s02-l0004-t007",
+              "em": true,
+              "norm": "!",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0004-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -895,107 +849,87 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Rien puis? L’air et feu?_",
+          "type": "stage",
+          "em": true,
+          "text": "Rien puis? L’air et feu?",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "type": "word",
+              "s": "Rien",
               "pre": "",
               "serial": "henry-v-a04-s02-l0005-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "em": true,
+              "norm": "rien"
             },
             {
               "i": 2,
               "type": "word",
-              "s": "Rien",
-              "norm": "rien",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0005-t002"
+              "s": "puis",
+              "pre": " ",
+              "serial": "henry-v-a04-s02-l0005-t002",
+              "em": true,
+              "norm": "puis"
             },
             {
               "i": 3,
-              "type": "word",
-              "s": "puis",
-              "norm": "puis",
-              "pre": " ",
-              "serial": "henry-v-a04-s02-l0005-t003"
-            },
-            {
-              "i": 4,
               "type": "punct",
               "s": "?",
-              "norm": "?",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0005-t004",
+              "serial": "henry-v-a04-s02-l0005-t003",
+              "em": true,
+              "norm": "?",
               "punct": {
                 "kind": "qmark",
                 "dash": null,
                 "quote": null,
                 "role": null
               }
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "L’air",
+              "pre": " ",
+              "serial": "henry-v-a04-s02-l0005-t004",
+              "em": true,
+              "norm": "l’air"
             },
             {
               "i": 5,
               "type": "word",
-              "s": "L’air",
-              "norm": "l'air",
+              "s": "et",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0005-t005"
+              "serial": "henry-v-a04-s02-l0005-t005",
+              "em": true,
+              "norm": "et"
             },
             {
               "i": 6,
               "type": "word",
-              "s": "et",
-              "norm": "et",
+              "s": "feu",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0005-t006"
+              "serial": "henry-v-a04-s02-l0005-t006",
+              "em": true,
+              "norm": "feu"
             },
             {
               "i": 7,
-              "type": "word",
-              "s": "feu",
-              "norm": "feu",
-              "pre": " ",
-              "serial": "henry-v-a04-s02-l0005-t007"
-            },
-            {
-              "i": 8,
               "type": "punct",
               "s": "?",
-              "norm": "?",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0005-t008",
+              "serial": "henry-v-a04-s02-l0005-t007",
+              "em": true,
+              "norm": "?",
               "punct": {
                 "kind": "qmark",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0005-t009",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
               }
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -1025,53 +959,34 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Cieux_, cousin Orleans.",
+          "type": "stage",
+          "em": true,
+          "text": "Cieux",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0006-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Cieux",
               "norm": "cieux",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0006-t002"
-            },
+              "serial": "henry-v-a04-s02-l0006-t001",
+              "em": true
+            }
+          ],
+          "stage": null
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", cousin Orleans.",
+          "tokens": [
             {
-              "i": 3,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s02-l0006-t003",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 4,
+              "i": 2,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0006-t004",
+              "serial": "henry-v-a04-s02-l0006-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -1080,28 +995,28 @@
               }
             },
             {
-              "i": 5,
+              "i": 3,
               "type": "word",
               "s": "cousin",
               "norm": "cousin",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0006-t005"
+              "serial": "henry-v-a04-s02-l0006-t003"
             },
             {
-              "i": 6,
+              "i": 4,
               "type": "word",
               "s": "Orleans",
               "norm": "orleans",
               "pre": " ",
-              "serial": "henry-v-a04-s02-l0006-t006"
+              "serial": "henry-v-a04-s02-l0006-t004"
             },
             {
-              "i": 7,
+              "i": 5,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a04-s02-l0006-t007",
+              "serial": "henry-v-a04-s02-l0006-t005",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -1173,7 +1088,7 @@
       "serial": "henry-v-a04-s02-i0018",
       "kind": "speaker_label",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "DAUPHIN",
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
@@ -1186,7 +1101,7 @@
       "serial": "henry-v-a04-s02-i0017",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "DAUPHIN",
       "speech_id": "henry-v-a04-s02-s0007",
       "speech_seq": 1,
       "line_number": 7,
@@ -4534,7 +4449,7 @@
       "serial": "henry-v-a04-s02-i0074",
       "kind": "speaker_label",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
@@ -4547,7 +4462,7 @@
       "serial": "henry-v-a04-s02-i0055",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 1,
       "line_number": 38,
@@ -4590,7 +4505,7 @@
       "serial": "henry-v-a04-s02-i0056",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 2,
       "line_number": 39,
@@ -4719,7 +4634,7 @@
       "serial": "henry-v-a04-s02-i0057",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 3,
       "line_number": 40,
@@ -4824,7 +4739,7 @@
       "serial": "henry-v-a04-s02-i0058",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 4,
       "line_number": 41,
@@ -4921,7 +4836,7 @@
       "serial": "henry-v-a04-s02-i0059",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 5,
       "line_number": 42,
@@ -5012,7 +4927,7 @@
       "serial": "henry-v-a04-s02-i0060",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 6,
       "line_number": 43,
@@ -5103,7 +5018,7 @@
       "serial": "henry-v-a04-s02-i0061",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 7,
       "line_number": 44,
@@ -5202,7 +5117,7 @@
       "serial": "henry-v-a04-s02-i0062",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 8,
       "line_number": 45,
@@ -5293,7 +5208,7 @@
       "serial": "henry-v-a04-s02-i0063",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 9,
       "line_number": 46,
@@ -5362,7 +5277,7 @@
       "serial": "henry-v-a04-s02-i0064",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 10,
       "line_number": 47,
@@ -5491,7 +5406,7 @@
       "serial": "henry-v-a04-s02-i0065",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 11,
       "line_number": 48,
@@ -5612,7 +5527,7 @@
       "serial": "henry-v-a04-s02-i0066",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 12,
       "line_number": 49,
@@ -5747,7 +5662,7 @@
       "serial": "henry-v-a04-s02-i0067",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 13,
       "line_number": 50,
@@ -5840,7 +5755,7 @@
       "serial": "henry-v-a04-s02-i0068",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 14,
       "line_number": 51,
@@ -5967,7 +5882,7 @@
       "serial": "henry-v-a04-s02-i0069",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 15,
       "line_number": 52,
@@ -6064,7 +5979,7 @@
       "serial": "henry-v-a04-s02-i0070",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 16,
       "line_number": 53,
@@ -6177,7 +6092,7 @@
       "serial": "henry-v-a04-s02-i0071",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 17,
       "line_number": 54,
@@ -6246,7 +6161,7 @@
       "serial": "henry-v-a04-s02-i0072",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 18,
       "line_number": 55,
@@ -6345,7 +6260,7 @@
       "serial": "henry-v-a04-s02-i0073",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 19,
       "line_number": 56,
@@ -6444,7 +6359,7 @@
       "serial": "henry-v-a04-s02-i0075",
       "kind": "speech",
       "subtype": null,
-      "speaker": "CONSTABLE",
+      "speaker": "GRANDPRÉ",
       "speech_id": "henry-v-a04-s02-s0012",
       "speech_seq": 20,
       "line_number": 57,

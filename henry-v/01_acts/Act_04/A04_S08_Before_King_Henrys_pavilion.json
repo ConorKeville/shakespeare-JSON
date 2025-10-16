@@ -14266,7 +14266,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Let there be sung _Non nobis_ and _Te Deum_,",
+          "text": "Let there be sung",
           "tokens": [
             {
               "i": 1,
@@ -14299,110 +14299,88 @@
               "norm": "sung",
               "pre": " ",
               "serial": "henry-v-a04-s08-l0100-t004"
-            },
+            }
+          ]
+        },
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Non nobis",
+          "tokens": [
             {
               "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "type": "word",
+              "s": "Non",
+              "norm": "non",
               "pre": " ",
               "serial": "henry-v-a04-s08-l0100-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "em": true
             },
             {
               "i": 6,
               "type": "word",
-              "s": "Non",
-              "norm": "non",
-              "pre": "",
-              "serial": "henry-v-a04-s08-l0100-t006"
-            },
-            {
-              "i": 7,
-              "type": "word",
               "s": "nobis",
               "norm": "nobis",
               "pre": " ",
-              "serial": "henry-v-a04-s08-l0100-t007"
-            },
+              "serial": "henry-v-a04-s08-l0100-t006",
+              "em": true
+            }
+          ],
+          "stage": null
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " and",
+          "tokens": [
             {
-              "i": 8,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s08-l0100-t008",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 9,
+              "i": 7,
               "type": "word",
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-v-a04-s08-l0100-t009"
-            },
+              "serial": "henry-v-a04-s08-l0100-t007"
+            }
+          ]
+        },
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Te Deum",
+          "tokens": [
             {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a04-s08-l0100-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 11,
+              "i": 8,
               "type": "word",
               "s": "Te",
               "norm": "te",
-              "pre": "",
-              "serial": "henry-v-a04-s08-l0100-t011"
+              "pre": " ",
+              "serial": "henry-v-a04-s08-l0100-t008",
+              "em": true
             },
             {
-              "i": 12,
+              "i": 9,
               "type": "word",
               "s": "Deum",
               "norm": "deum",
               "pre": " ",
-              "serial": "henry-v-a04-s08-l0100-t012"
-            },
+              "serial": "henry-v-a04-s08-l0100-t009",
+              "em": true
+            }
+          ],
+          "stage": null
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ",",
+          "tokens": [
             {
-              "i": 13,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s08-l0100-t013",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 14,
+              "i": 10,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s08-l0100-t014",
+              "serial": "henry-v-a04-s08-l0100-t010",
               "punct": {
                 "kind": "comma",
                 "dash": null,

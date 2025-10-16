@@ -176,8 +176,8 @@
     {
       "seq": 3,
       "serial": "henry-v-a04-s04-i0003",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": null,
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -186,25 +186,27 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "Alarum. Excursions. Enter Pistol, French Soldier and Boy.",
+          "type": "stage",
+          "em": true,
+          "text": "Alarum. Excursions. Enter Pistol, French Soldier, and Boy.",
           "tokens": [
             {
               "i": 1,
               "type": "word",
               "s": "Alarum",
-              "norm": "alarum",
               "pre": "",
-              "serial": "henry-v-a04-s04-i0003-t001"
+              "serial": "henry-v-a04-s04-i0003-t001",
+              "em": true,
+              "norm": "alarum"
             },
             {
               "i": 2,
               "type": "punct",
               "s": ".",
-              "norm": ".",
               "pre": "",
               "serial": "henry-v-a04-s04-i0003-t002",
+              "em": true,
+              "norm": ".",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -216,17 +218,19 @@
               "i": 3,
               "type": "word",
               "s": "Excursions",
-              "norm": "excursions",
               "pre": " ",
-              "serial": "henry-v-a04-s04-i0003-t003"
+              "serial": "henry-v-a04-s04-i0003-t003",
+              "em": true,
+              "norm": "excursions"
             },
             {
               "i": 4,
               "type": "punct",
               "s": ".",
-              "norm": ".",
               "pre": "",
               "serial": "henry-v-a04-s04-i0003-t004",
+              "em": true,
+              "norm": ".",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -238,25 +242,28 @@
               "i": 5,
               "type": "word",
               "s": "Enter",
-              "norm": "enter",
               "pre": " ",
-              "serial": "henry-v-a04-s04-i0003-t005"
+              "serial": "henry-v-a04-s04-i0003-t005",
+              "em": true,
+              "norm": "enter"
             },
             {
               "i": 6,
               "type": "word",
               "s": "Pistol",
-              "norm": "pistol",
               "pre": " ",
-              "serial": "henry-v-a04-s04-i0003-t006"
+              "serial": "henry-v-a04-s04-i0003-t006",
+              "em": true,
+              "norm": "pistol"
             },
             {
               "i": 7,
               "type": "punct",
               "s": ",",
-              "norm": ",",
               "pre": "",
               "serial": "henry-v-a04-s04-i0003-t007",
+              "em": true,
+              "norm": ",",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -268,41 +275,61 @@
               "i": 8,
               "type": "word",
               "s": "French",
-              "norm": "french",
               "pre": " ",
-              "serial": "henry-v-a04-s04-i0003-t008"
+              "serial": "henry-v-a04-s04-i0003-t008",
+              "em": true,
+              "norm": "french"
             },
             {
               "i": 9,
               "type": "word",
               "s": "Soldier",
-              "norm": "soldier",
               "pre": " ",
-              "serial": "henry-v-a04-s04-i0003-t009"
+              "serial": "henry-v-a04-s04-i0003-t009",
+              "em": true,
+              "norm": "soldier"
             },
             {
               "i": 10,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-i0003-t010"
+              "type": "punct",
+              "s": ",",
+              "pre": "",
+              "serial": "henry-v-a04-s04-i0003-t010",
+              "em": true,
+              "norm": ",",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
             },
             {
               "i": 11,
               "type": "word",
-              "s": "Boy",
-              "norm": "boy",
+              "s": "and",
               "pre": " ",
-              "serial": "henry-v-a04-s04-i0003-t011"
+              "serial": "henry-v-a04-s04-i0003-t011",
+              "em": true,
+              "norm": "and"
             },
             {
               "i": 12,
+              "type": "word",
+              "s": "Boy",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-i0003-t012",
+              "em": true,
+              "norm": "boy"
+            },
+            {
+              "i": 13,
               "type": "punct",
               "s": ".",
-              "norm": ".",
               "pre": "",
-              "serial": "henry-v-a04-s04-i0003-t012",
+              "serial": "henry-v-a04-s04-i0003-t013",
+              "em": true,
+              "norm": ".",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -310,7 +337,8 @@
                 "role": null
               }
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -418,133 +446,117 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Je pense que vous êtes le gentilhomme de bonne qualité._",
+          "type": "stage",
+          "em": true,
+          "text": "Je pense que vous êtes le gentilhomme de bonne qualité.",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0002-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Je",
               "norm": "je",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0002-t002"
+              "serial": "henry-v-a04-s04-l0002-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "pense",
               "norm": "pense",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t003"
+              "serial": "henry-v-a04-s04-l0002-t002",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "que",
               "norm": "que",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t004"
+              "serial": "henry-v-a04-s04-l0002-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "vous",
               "norm": "vous",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t005"
+              "serial": "henry-v-a04-s04-l0002-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "êtes",
+              "norm": "êtes",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-l0002-t005",
+              "em": true
             },
             {
               "i": 6,
               "type": "word",
-              "s": "êtes",
-              "norm": "etes",
+              "s": "le",
+              "norm": "le",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t006"
+              "serial": "henry-v-a04-s04-l0002-t006",
+              "em": true
             },
             {
               "i": 7,
               "type": "word",
-              "s": "le",
-              "norm": "le",
+              "s": "gentilhomme",
+              "norm": "gentilhomme",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t007"
+              "serial": "henry-v-a04-s04-l0002-t007",
+              "em": true
             },
             {
               "i": 8,
               "type": "word",
-              "s": "gentilhomme",
-              "norm": "gentilhomme",
+              "s": "de",
+              "norm": "de",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t008"
+              "serial": "henry-v-a04-s04-l0002-t008",
+              "em": true
             },
             {
               "i": 9,
               "type": "word",
-              "s": "de",
-              "norm": "de",
+              "s": "bonne",
+              "norm": "bonne",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t009"
+              "serial": "henry-v-a04-s04-l0002-t009",
+              "em": true
             },
             {
               "i": 10,
               "type": "word",
-              "s": "bonne",
-              "norm": "bonne",
+              "s": "qualité",
+              "norm": "qualité",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t010"
+              "serial": "henry-v-a04-s04-l0002-t010",
+              "em": true
             },
             {
               "i": 11,
-              "type": "word",
-              "s": "qualité",
-              "norm": "qualite",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-l0002-t011"
-            },
-            {
-              "i": 12,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0002-t012",
+              "serial": "henry-v-a04-s04-l0002-t011",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0002-t013",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -574,99 +586,78 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Qualité? Caleno custore me!_",
+          "type": "stage",
+          "em": true,
+          "text": "Qualité? Caleno custore me!",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "type": "word",
+              "s": "Qualité",
+              "norm": "qualité",
               "pre": "",
               "serial": "henry-v-a04-s04-l0003-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "em": true
             },
             {
               "i": 2,
-              "type": "word",
-              "s": "Qualité",
-              "norm": "qualite",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0003-t002"
-            },
-            {
-              "i": 3,
               "type": "punct",
               "s": "?",
               "norm": "?",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0003-t003",
+              "serial": "henry-v-a04-s04-l0003-t002",
               "punct": {
                 "kind": "qmark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "Caleno",
               "norm": "caleno",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0003-t004"
+              "serial": "henry-v-a04-s04-l0003-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "custore",
               "norm": "custore",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0003-t005"
+              "serial": "henry-v-a04-s04-l0003-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "word",
               "s": "me",
               "norm": "me",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0003-t006"
+              "serial": "henry-v-a04-s04-l0003-t005",
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0003-t007",
+              "serial": "henry-v-a04-s04-l0003-t006",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 8,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0003-t008",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -852,77 +843,54 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_O Seigneur Dieu!_",
+          "type": "stage",
+          "em": true,
+          "text": "O Seigneur Dieu!",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0006-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "O",
               "norm": "o",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0006-t002"
+              "serial": "henry-v-a04-s04-l0006-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "Seigneur",
               "norm": "seigneur",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0006-t003"
+              "serial": "henry-v-a04-s04-l0006-t002",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "Dieu",
               "norm": "dieu",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0006-t004"
+              "serial": "henry-v-a04-s04-l0006-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0006-t005",
+              "serial": "henry-v-a04-s04-l0006-t004",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0006-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -1482,137 +1450,120 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_O, prenez miséricorde! Ayez pitié de moi!_",
+          "type": "stage",
+          "em": true,
+          "text": "O, prenez miséricorde! Ayez pitié de moi!",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0012-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "O",
               "norm": "o",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0012-t002"
+              "serial": "henry-v-a04-s04-l0012-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0012-t003",
+              "serial": "henry-v-a04-s04-l0012-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "prenez",
               "norm": "prenez",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0012-t004"
+              "serial": "henry-v-a04-s04-l0012-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "miséricorde",
+              "norm": "miséricorde",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-l0012-t004",
+              "em": true
             },
             {
               "i": 5,
-              "type": "word",
-              "s": "miséricorde",
-              "norm": "misericorde",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-l0012-t005"
-            },
-            {
-              "i": 6,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0012-t006",
+              "serial": "henry-v-a04-s04-l0012-t005",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "word",
               "s": "Ayez",
               "norm": "ayez",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0012-t007"
+              "serial": "henry-v-a04-s04-l0012-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "pitié",
+              "norm": "pitié",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-l0012-t007",
+              "em": true
             },
             {
               "i": 8,
               "type": "word",
-              "s": "pitié",
-              "norm": "pitie",
+              "s": "de",
+              "norm": "de",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0012-t008"
+              "serial": "henry-v-a04-s04-l0012-t008",
+              "em": true
             },
             {
               "i": 9,
               "type": "word",
-              "s": "de",
-              "norm": "de",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-l0012-t009"
-            },
-            {
-              "i": 10,
-              "type": "word",
               "s": "moi",
               "norm": "moi",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0012-t010"
+              "serial": "henry-v-a04-s04-l0012-t009",
+              "em": true
             },
             {
-              "i": 11,
+              "i": 10,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0012-t011",
+              "serial": "henry-v-a04-s04-l0012-t010",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 12,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0012-t012",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -1952,139 +1903,123 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Est-il impossible d’échapper la force de ton bras?_",
+          "type": "stage",
+          "em": true,
+          "text": "Est-il impossible d’échapper la force de ton bras?",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0016-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Est",
               "norm": "est",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0016-t002"
+              "serial": "henry-v-a04-s04-l0016-t001",
+              "em": true
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0016-t003",
+              "serial": "henry-v-a04-s04-l0016-t002",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
                 "quote": null,
                 "role": null
               },
-              "i": 3
+              "i": 2,
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "il",
               "norm": "il",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0016-t004"
+              "serial": "henry-v-a04-s04-l0016-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "impossible",
               "norm": "impossible",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0016-t005"
+              "serial": "henry-v-a04-s04-l0016-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "d’échapper",
+              "norm": "d’échapper",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-l0016-t005",
+              "em": true
             },
             {
               "i": 6,
               "type": "word",
-              "s": "d’échapper",
-              "norm": "d'echapper",
+              "s": "la",
+              "norm": "la",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0016-t006"
+              "serial": "henry-v-a04-s04-l0016-t006",
+              "em": true
             },
             {
               "i": 7,
               "type": "word",
-              "s": "la",
-              "norm": "la",
+              "s": "force",
+              "norm": "force",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0016-t007"
+              "serial": "henry-v-a04-s04-l0016-t007",
+              "em": true
             },
             {
               "i": 8,
               "type": "word",
-              "s": "force",
-              "norm": "force",
+              "s": "de",
+              "norm": "de",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0016-t008"
+              "serial": "henry-v-a04-s04-l0016-t008",
+              "em": true
             },
             {
               "i": 9,
               "type": "word",
-              "s": "de",
-              "norm": "de",
+              "s": "ton",
+              "norm": "ton",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0016-t009"
+              "serial": "henry-v-a04-s04-l0016-t009",
+              "em": true
             },
             {
               "i": 10,
               "type": "word",
-              "s": "ton",
-              "norm": "ton",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-l0016-t010"
-            },
-            {
-              "i": 11,
-              "type": "word",
               "s": "bras",
               "norm": "bras",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0016-t011"
+              "serial": "henry-v-a04-s04-l0016-t010",
+              "em": true
             },
             {
-              "i": 12,
+              "i": 11,
               "type": "punct",
               "s": "?",
               "norm": "?",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0016-t012",
+              "serial": "henry-v-a04-s04-l0016-t011",
               "punct": {
                 "kind": "qmark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0016-t013",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -2334,91 +2269,69 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_O pardonnez-moi!_",
+          "type": "stage",
+          "em": true,
+          "text": "O pardonnez-moi!",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0020-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "O",
               "norm": "o",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0020-t002"
+              "serial": "henry-v-a04-s04-l0020-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "pardonnez",
               "norm": "pardonnez",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0020-t003"
+              "serial": "henry-v-a04-s04-l0020-t002",
+              "em": true
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0020-t004",
+              "serial": "henry-v-a04-s04-l0020-t003",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
                 "quote": null,
                 "role": null
               },
-              "i": 4
+              "i": 3,
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "moi",
               "norm": "moi",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0020-t005"
+              "serial": "henry-v-a04-s04-l0020-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0020-t006",
+              "serial": "henry-v-a04-s04-l0020-t005",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0020-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -2778,121 +2691,102 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Écoutez. Comment êtes-vous appelé?_",
+          "type": "stage",
+          "em": true,
+          "text": "Écoutez. Comment êtes-vous appelé?",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
+              "type": "word",
+              "s": "Écoutez",
+              "norm": "écoutez",
               "pre": "",
               "serial": "henry-v-a04-s04-l0024-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "em": true
             },
             {
               "i": 2,
-              "type": "word",
-              "s": "Écoutez",
-              "norm": "ecoutez",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0024-t002"
-            },
-            {
-              "i": 3,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0024-t003",
+              "serial": "henry-v-a04-s04-l0024-t002",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "Comment",
               "norm": "comment",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0024-t004"
+              "serial": "henry-v-a04-s04-l0024-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "êtes",
-              "norm": "etes",
+              "norm": "êtes",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0024-t005"
+              "serial": "henry-v-a04-s04-l0024-t004",
+              "em": true
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0024-t006",
+              "serial": "henry-v-a04-s04-l0024-t005",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
                 "quote": null,
                 "role": null
               },
-              "i": 6
+              "i": 5,
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "word",
               "s": "vous",
               "norm": "vous",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0024-t007"
+              "serial": "henry-v-a04-s04-l0024-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "appelé",
+              "norm": "appelé",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-l0024-t007",
+              "em": true
             },
             {
               "i": 8,
-              "type": "word",
-              "s": "appelé",
-              "norm": "appele",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-l0024-t008"
-            },
-            {
-              "i": 9,
               "type": "punct",
               "s": "?",
               "norm": "?",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0024-t009",
+              "serial": "henry-v-a04-s04-l0024-t008",
               "punct": {
                 "kind": "qmark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0024-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -2922,77 +2816,54 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Monsieur le Fer._",
+          "type": "stage",
+          "em": true,
+          "text": "Monsieur le Fer.",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0025-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Monsieur",
               "norm": "monsieur",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0025-t002"
+              "serial": "henry-v-a04-s04-l0025-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "le",
               "norm": "le",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0025-t003"
+              "serial": "henry-v-a04-s04-l0025-t002",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "Fer",
               "norm": "fer",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0025-t004"
+              "serial": "henry-v-a04-s04-l0025-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0025-t005",
+              "serial": "henry-v-a04-s04-l0025-t004",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0025-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -3701,113 +3572,93 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Que dit-il, monsieur?_",
+          "type": "stage",
+          "em": true,
+          "text": "Que dit-il, monsieur?",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0031-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Que",
               "norm": "que",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0031-t002"
+              "serial": "henry-v-a04-s04-l0031-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "dit",
               "norm": "dit",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0031-t003"
+              "serial": "henry-v-a04-s04-l0031-t002",
+              "em": true
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0031-t004",
+              "serial": "henry-v-a04-s04-l0031-t003",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
                 "quote": null,
                 "role": null
               },
-              "i": 4
+              "i": 3,
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "il",
               "norm": "il",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0031-t005"
+              "serial": "henry-v-a04-s04-l0031-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0031-t006",
+              "serial": "henry-v-a04-s04-l0031-t005",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "word",
               "s": "monsieur",
               "norm": "monsieur",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0031-t007"
+              "serial": "henry-v-a04-s04-l0031-t006",
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "punct",
               "s": "?",
               "norm": "?",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0031-t008",
+              "serial": "henry-v-a04-s04-l0031-t007",
               "punct": {
                 "kind": "qmark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0031-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -3837,151 +3688,153 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Il me commande à vous dire que vous faites vous prêt, car ce soldat",
+          "type": "stage",
+          "em": true,
+          "text": "Il me commande à vous dire que vous faites vous prêt, car ce soldat",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0032-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Il",
               "norm": "il",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0032-t002"
+              "serial": "henry-v-a04-s04-l0032-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "me",
               "norm": "me",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t003"
+              "serial": "henry-v-a04-s04-l0032-t002",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "commande",
               "norm": "commande",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t004"
+              "serial": "henry-v-a04-s04-l0032-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "à",
+              "norm": "à",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-l0032-t004",
+              "em": true
             },
             {
               "i": 5,
               "type": "word",
-              "s": "à",
-              "norm": "a",
+              "s": "vous",
+              "norm": "vous",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t005"
+              "serial": "henry-v-a04-s04-l0032-t005",
+              "em": true
             },
             {
               "i": 6,
               "type": "word",
-              "s": "vous",
-              "norm": "vous",
+              "s": "dire",
+              "norm": "dire",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t006"
+              "serial": "henry-v-a04-s04-l0032-t006",
+              "em": true
             },
             {
               "i": 7,
               "type": "word",
-              "s": "dire",
-              "norm": "dire",
+              "s": "que",
+              "norm": "que",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t007"
+              "serial": "henry-v-a04-s04-l0032-t007",
+              "em": true
             },
             {
               "i": 8,
               "type": "word",
-              "s": "que",
-              "norm": "que",
+              "s": "vous",
+              "norm": "vous",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t008"
+              "serial": "henry-v-a04-s04-l0032-t008",
+              "em": true
             },
             {
               "i": 9,
               "type": "word",
-              "s": "vous",
-              "norm": "vous",
+              "s": "faites",
+              "norm": "faites",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t009"
+              "serial": "henry-v-a04-s04-l0032-t009",
+              "em": true
             },
             {
               "i": 10,
               "type": "word",
-              "s": "faites",
-              "norm": "faites",
+              "s": "vous",
+              "norm": "vous",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t010"
+              "serial": "henry-v-a04-s04-l0032-t010",
+              "em": true
             },
             {
               "i": 11,
               "type": "word",
-              "s": "vous",
-              "norm": "vous",
+              "s": "prêt",
+              "norm": "prêt",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t011"
+              "serial": "henry-v-a04-s04-l0032-t011",
+              "em": true
             },
             {
               "i": 12,
-              "type": "word",
-              "s": "prêt",
-              "norm": "pret",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t012"
-            },
-            {
-              "i": 13,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0032-t013",
+              "serial": "henry-v-a04-s04-l0032-t012",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 14,
+              "i": 13,
               "type": "word",
               "s": "car",
               "norm": "car",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t014"
+              "serial": "henry-v-a04-s04-l0032-t013",
+              "em": true
             },
             {
-              "i": 15,
+              "i": 14,
               "type": "word",
               "s": "ce",
               "norm": "ce",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t015"
+              "serial": "henry-v-a04-s04-l0032-t014",
+              "em": true
             },
             {
-              "i": 16,
+              "i": 15,
               "type": "word",
               "s": "soldat",
               "norm": "soldat",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0032-t016"
+              "serial": "henry-v-a04-s04-l0032-t015",
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -3998,9 +3851,9 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "ici est disposé tout à cette heure de couper votre gorge._",
+          "type": "stage",
+          "em": true,
+          "text": "ici est disposé tout à cette heure de couper votre gorge.",
           "tokens": [
             {
               "i": 1,
@@ -4008,7 +3861,8 @@
               "s": "ici",
               "norm": "ici",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0033-t001"
+              "serial": "henry-v-a04-s04-l0033-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -4016,15 +3870,17 @@
               "s": "est",
               "norm": "est",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t002"
+              "serial": "henry-v-a04-s04-l0033-t002",
+              "em": true
             },
             {
               "i": 3,
               "type": "word",
               "s": "disposé",
-              "norm": "dispose",
+              "norm": "disposé",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t003"
+              "serial": "henry-v-a04-s04-l0033-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -4032,15 +3888,17 @@
               "s": "tout",
               "norm": "tout",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t004"
+              "serial": "henry-v-a04-s04-l0033-t004",
+              "em": true
             },
             {
               "i": 5,
               "type": "word",
               "s": "à",
-              "norm": "a",
+              "norm": "à",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t005"
+              "serial": "henry-v-a04-s04-l0033-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -4048,7 +3906,8 @@
               "s": "cette",
               "norm": "cette",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t006"
+              "serial": "henry-v-a04-s04-l0033-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -4056,7 +3915,8 @@
               "s": "heure",
               "norm": "heure",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t007"
+              "serial": "henry-v-a04-s04-l0033-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -4064,7 +3924,8 @@
               "s": "de",
               "norm": "de",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t008"
+              "serial": "henry-v-a04-s04-l0033-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -4072,7 +3933,8 @@
               "s": "couper",
               "norm": "couper",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t009"
+              "serial": "henry-v-a04-s04-l0033-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -4080,7 +3942,8 @@
               "s": "votre",
               "norm": "votre",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t010"
+              "serial": "henry-v-a04-s04-l0033-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -4088,7 +3951,8 @@
               "s": "gorge",
               "norm": "gorge",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0033-t011"
+              "serial": "henry-v-a04-s04-l0033-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -4102,23 +3966,11 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0033-t013",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -4490,185 +4342,189 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_O, je vous supplie, pour l’amour de Dieu, me pardonner! Je suis le",
+          "type": "stage",
+          "em": true,
+          "text": "O, je vous supplie, pour l’amour de Dieu, me pardonner! Je suis le",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0037-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "O",
               "norm": "o",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0037-t002"
+              "serial": "henry-v-a04-s04-l0037-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0037-t003",
+              "serial": "henry-v-a04-s04-l0037-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "je",
               "norm": "je",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t004"
+              "serial": "henry-v-a04-s04-l0037-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "vous",
               "norm": "vous",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t005"
+              "serial": "henry-v-a04-s04-l0037-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "word",
               "s": "supplie",
               "norm": "supplie",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t006"
+              "serial": "henry-v-a04-s04-l0037-t005",
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0037-t007",
+              "serial": "henry-v-a04-s04-l0037-t006",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "word",
               "s": "pour",
               "norm": "pour",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t008"
+              "serial": "henry-v-a04-s04-l0037-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "l’amour",
+              "norm": "l’amour",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-l0037-t008",
+              "em": true
             },
             {
               "i": 9,
               "type": "word",
-              "s": "l’amour",
-              "norm": "l'amour",
+              "s": "de",
+              "norm": "de",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t009"
+              "serial": "henry-v-a04-s04-l0037-t009",
+              "em": true
             },
             {
               "i": 10,
               "type": "word",
-              "s": "de",
-              "norm": "de",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t010"
-            },
-            {
-              "i": 11,
-              "type": "word",
               "s": "Dieu",
               "norm": "dieu",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t011"
+              "serial": "henry-v-a04-s04-l0037-t010",
+              "em": true
             },
             {
-              "i": 12,
+              "i": 11,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0037-t012",
+              "serial": "henry-v-a04-s04-l0037-t011",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 13,
+              "i": 12,
               "type": "word",
               "s": "me",
               "norm": "me",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t013"
+              "serial": "henry-v-a04-s04-l0037-t012",
+              "em": true
             },
             {
-              "i": 14,
+              "i": 13,
               "type": "word",
               "s": "pardonner",
               "norm": "pardonner",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t014"
+              "serial": "henry-v-a04-s04-l0037-t013",
+              "em": true
             },
             {
-              "i": 15,
+              "i": 14,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0037-t015",
+              "serial": "henry-v-a04-s04-l0037-t014",
               "punct": {
                 "kind": "emark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 16,
+              "i": 15,
               "type": "word",
               "s": "Je",
               "norm": "je",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t016"
+              "serial": "henry-v-a04-s04-l0037-t015",
+              "em": true
             },
             {
-              "i": 17,
+              "i": 16,
               "type": "word",
               "s": "suis",
               "norm": "suis",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t017"
+              "serial": "henry-v-a04-s04-l0037-t016",
+              "em": true
             },
             {
-              "i": 18,
+              "i": 17,
               "type": "word",
               "s": "le",
               "norm": "le",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0037-t018"
+              "serial": "henry-v-a04-s04-l0037-t017",
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -4685,8 +4541,8 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
+          "type": "stage",
+          "em": true,
           "text": "gentilhomme de bonne maison; gardez ma vie, et je vous donnerai deux",
           "tokens": [
             {
@@ -4695,7 +4551,8 @@
               "s": "gentilhomme",
               "norm": "gentilhomme",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0038-t001"
+              "serial": "henry-v-a04-s04-l0038-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -4703,7 +4560,8 @@
               "s": "de",
               "norm": "de",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t002"
+              "serial": "henry-v-a04-s04-l0038-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -4711,7 +4569,8 @@
               "s": "bonne",
               "norm": "bonne",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t003"
+              "serial": "henry-v-a04-s04-l0038-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -4719,7 +4578,8 @@
               "s": "maison",
               "norm": "maison",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t004"
+              "serial": "henry-v-a04-s04-l0038-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -4733,7 +4593,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 6,
@@ -4741,7 +4602,8 @@
               "s": "gardez",
               "norm": "gardez",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t006"
+              "serial": "henry-v-a04-s04-l0038-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -4749,7 +4611,8 @@
               "s": "ma",
               "norm": "ma",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t007"
+              "serial": "henry-v-a04-s04-l0038-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -4757,7 +4620,8 @@
               "s": "vie",
               "norm": "vie",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t008"
+              "serial": "henry-v-a04-s04-l0038-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -4771,7 +4635,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 10,
@@ -4779,7 +4644,8 @@
               "s": "et",
               "norm": "et",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t010"
+              "serial": "henry-v-a04-s04-l0038-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -4787,7 +4653,8 @@
               "s": "je",
               "norm": "je",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t011"
+              "serial": "henry-v-a04-s04-l0038-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -4795,7 +4662,8 @@
               "s": "vous",
               "norm": "vous",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t012"
+              "serial": "henry-v-a04-s04-l0038-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -4803,7 +4671,8 @@
               "s": "donnerai",
               "norm": "donnerai",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t013"
+              "serial": "henry-v-a04-s04-l0038-t013",
+              "em": true
             },
             {
               "i": 14,
@@ -4811,9 +4680,11 @@
               "s": "deux",
               "norm": "deux",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0038-t014"
+              "serial": "henry-v-a04-s04-l0038-t014",
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -4830,9 +4701,9 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "cents écus._",
+          "type": "stage",
+          "em": true,
+          "text": "cents écus.",
           "tokens": [
             {
               "i": 1,
@@ -4840,15 +4711,17 @@
               "s": "cents",
               "norm": "cents",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0039-t001"
+              "serial": "henry-v-a04-s04-l0039-t001",
+              "em": true
             },
             {
               "i": 2,
               "type": "word",
               "s": "écus",
-              "norm": "ecus",
+              "norm": "écus",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0039-t002"
+              "serial": "henry-v-a04-s04-l0039-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -4862,23 +4735,11 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0039-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -5472,121 +5333,102 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Petit monsieur, que dit-il?_",
+          "type": "stage",
+          "em": true,
+          "text": "Petit monsieur, que dit-il?",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0045-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Petit",
               "norm": "petit",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0045-t002"
+              "serial": "henry-v-a04-s04-l0045-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "monsieur",
               "norm": "monsieur",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0045-t003"
+              "serial": "henry-v-a04-s04-l0045-t002",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0045-t004",
+              "serial": "henry-v-a04-s04-l0045-t003",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "que",
               "norm": "que",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0045-t005"
+              "serial": "henry-v-a04-s04-l0045-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "word",
               "s": "dit",
               "norm": "dit",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0045-t006"
+              "serial": "henry-v-a04-s04-l0045-t005",
+              "em": true
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0045-t007",
+              "serial": "henry-v-a04-s04-l0045-t006",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
                 "quote": null,
                 "role": null
               },
-              "i": 7
+              "i": 6,
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "word",
               "s": "il",
               "norm": "il",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0045-t008"
+              "serial": "henry-v-a04-s04-l0045-t007",
+              "em": true
             },
             {
-              "i": 9,
+              "i": 8,
               "type": "punct",
               "s": "?",
               "norm": "?",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0045-t009",
+              "serial": "henry-v-a04-s04-l0045-t008",
               "punct": {
                 "kind": "qmark",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0045-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -5616,119 +5458,117 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Encore qu’il est contre son jurement de pardonner aucun prisonnier;",
+          "type": "stage",
+          "em": true,
+          "text": "Encore qu’il est contre son jurement de pardonner aucun prisonnier;",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0046-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Encore",
               "norm": "encore",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0046-t002"
+              "serial": "henry-v-a04-s04-l0046-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "qu’il",
+              "norm": "qu’il",
+              "pre": " ",
+              "serial": "henry-v-a04-s04-l0046-t002",
+              "em": true
             },
             {
               "i": 3,
               "type": "word",
-              "s": "qu’il",
-              "norm": "qu'il",
+              "s": "est",
+              "norm": "est",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t003"
+              "serial": "henry-v-a04-s04-l0046-t003",
+              "em": true
             },
             {
               "i": 4,
               "type": "word",
-              "s": "est",
-              "norm": "est",
+              "s": "contre",
+              "norm": "contre",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t004"
+              "serial": "henry-v-a04-s04-l0046-t004",
+              "em": true
             },
             {
               "i": 5,
               "type": "word",
-              "s": "contre",
-              "norm": "contre",
+              "s": "son",
+              "norm": "son",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t005"
+              "serial": "henry-v-a04-s04-l0046-t005",
+              "em": true
             },
             {
               "i": 6,
               "type": "word",
-              "s": "son",
-              "norm": "son",
+              "s": "jurement",
+              "norm": "jurement",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t006"
+              "serial": "henry-v-a04-s04-l0046-t006",
+              "em": true
             },
             {
               "i": 7,
               "type": "word",
-              "s": "jurement",
-              "norm": "jurement",
+              "s": "de",
+              "norm": "de",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t007"
+              "serial": "henry-v-a04-s04-l0046-t007",
+              "em": true
             },
             {
               "i": 8,
               "type": "word",
-              "s": "de",
-              "norm": "de",
+              "s": "pardonner",
+              "norm": "pardonner",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t008"
+              "serial": "henry-v-a04-s04-l0046-t008",
+              "em": true
             },
             {
               "i": 9,
               "type": "word",
-              "s": "pardonner",
-              "norm": "pardonner",
+              "s": "aucun",
+              "norm": "aucun",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t009"
+              "serial": "henry-v-a04-s04-l0046-t009",
+              "em": true
             },
             {
               "i": 10,
               "type": "word",
-              "s": "aucun",
-              "norm": "aucun",
-              "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t010"
-            },
-            {
-              "i": 11,
-              "type": "word",
               "s": "prisonnier",
               "norm": "prisonnier",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0046-t011"
+              "serial": "henry-v-a04-s04-l0046-t010",
+              "em": true
             },
             {
-              "i": 12,
+              "i": 11,
               "type": "punct",
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0046-t012",
+              "serial": "henry-v-a04-s04-l0046-t011",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -5745,17 +5585,18 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
+          "type": "stage",
+          "em": true,
           "text": "néanmoins, pour les écus que vous lui avez promis, il est content à",
           "tokens": [
             {
               "i": 1,
               "type": "word",
               "s": "néanmoins",
-              "norm": "neanmoins",
+              "norm": "néanmoins",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0047-t001"
+              "serial": "henry-v-a04-s04-l0047-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -5769,7 +5610,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -5777,7 +5619,8 @@
               "s": "pour",
               "norm": "pour",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t003"
+              "serial": "henry-v-a04-s04-l0047-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -5785,15 +5628,17 @@
               "s": "les",
               "norm": "les",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t004"
+              "serial": "henry-v-a04-s04-l0047-t004",
+              "em": true
             },
             {
               "i": 5,
               "type": "word",
               "s": "écus",
-              "norm": "ecus",
+              "norm": "écus",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t005"
+              "serial": "henry-v-a04-s04-l0047-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -5801,7 +5646,8 @@
               "s": "que",
               "norm": "que",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t006"
+              "serial": "henry-v-a04-s04-l0047-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -5809,7 +5655,8 @@
               "s": "vous",
               "norm": "vous",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t007"
+              "serial": "henry-v-a04-s04-l0047-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -5817,7 +5664,8 @@
               "s": "lui",
               "norm": "lui",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t008"
+              "serial": "henry-v-a04-s04-l0047-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -5825,7 +5673,8 @@
               "s": "avez",
               "norm": "avez",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t009"
+              "serial": "henry-v-a04-s04-l0047-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -5833,7 +5682,8 @@
               "s": "promis",
               "norm": "promis",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t010"
+              "serial": "henry-v-a04-s04-l0047-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -5847,7 +5697,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 12,
@@ -5855,7 +5706,8 @@
               "s": "il",
               "norm": "il",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t012"
+              "serial": "henry-v-a04-s04-l0047-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -5863,7 +5715,8 @@
               "s": "est",
               "norm": "est",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t013"
+              "serial": "henry-v-a04-s04-l0047-t013",
+              "em": true
             },
             {
               "i": 14,
@@ -5871,17 +5724,20 @@
               "s": "content",
               "norm": "content",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t014"
+              "serial": "henry-v-a04-s04-l0047-t014",
+              "em": true
             },
             {
               "i": 15,
               "type": "word",
               "s": "à",
-              "norm": "a",
+              "norm": "à",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0047-t015"
+              "serial": "henry-v-a04-s04-l0047-t015",
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -5898,9 +5754,9 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "vous donner la liberté, le franchisement._",
+          "type": "stage",
+          "em": true,
+          "text": "vous donner la liberté, le franchisement.",
           "tokens": [
             {
               "i": 1,
@@ -5908,7 +5764,8 @@
               "s": "vous",
               "norm": "vous",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0048-t001"
+              "serial": "henry-v-a04-s04-l0048-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -5916,7 +5773,8 @@
               "s": "donner",
               "norm": "donner",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0048-t002"
+              "serial": "henry-v-a04-s04-l0048-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -5924,15 +5782,17 @@
               "s": "la",
               "norm": "la",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0048-t003"
+              "serial": "henry-v-a04-s04-l0048-t003",
+              "em": true
             },
             {
               "i": 4,
               "type": "word",
               "s": "liberté",
-              "norm": "liberte",
+              "norm": "liberté",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0048-t004"
+              "serial": "henry-v-a04-s04-l0048-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -5946,7 +5806,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 6,
@@ -5954,7 +5815,8 @@
               "s": "le",
               "norm": "le",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0048-t006"
+              "serial": "henry-v-a04-s04-l0048-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -5962,7 +5824,8 @@
               "s": "franchisement",
               "norm": "franchisement",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0048-t007"
+              "serial": "henry-v-a04-s04-l0048-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -5976,23 +5839,11 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0048-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -6022,127 +5873,126 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Sur mes genoux je vous donne mille remerciements; et je m’estime",
+          "type": "stage",
+          "em": true,
+          "text": "Sur mes genoux je vous donne mille remerciements; et je m’estime",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0049-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Sur",
               "norm": "sur",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0049-t002"
+              "serial": "henry-v-a04-s04-l0049-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "mes",
               "norm": "mes",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t003"
+              "serial": "henry-v-a04-s04-l0049-t002",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "genoux",
               "norm": "genoux",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t004"
+              "serial": "henry-v-a04-s04-l0049-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "je",
               "norm": "je",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t005"
+              "serial": "henry-v-a04-s04-l0049-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "word",
               "s": "vous",
               "norm": "vous",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t006"
+              "serial": "henry-v-a04-s04-l0049-t005",
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "word",
               "s": "donne",
               "norm": "donne",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t007"
+              "serial": "henry-v-a04-s04-l0049-t006",
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "word",
               "s": "mille",
               "norm": "mille",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t008"
+              "serial": "henry-v-a04-s04-l0049-t007",
+              "em": true
             },
             {
-              "i": 9,
+              "i": 8,
               "type": "word",
               "s": "remerciements",
               "norm": "remerciements",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t009"
+              "serial": "henry-v-a04-s04-l0049-t008",
+              "em": true
             },
             {
-              "i": 10,
+              "i": 9,
               "type": "punct",
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0049-t010",
+              "serial": "henry-v-a04-s04-l0049-t009",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 11,
+              "i": 10,
               "type": "word",
               "s": "et",
               "norm": "et",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t011"
+              "serial": "henry-v-a04-s04-l0049-t010",
+              "em": true
             },
             {
-              "i": 12,
+              "i": 11,
               "type": "word",
               "s": "je",
               "norm": "je",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t012"
+              "serial": "henry-v-a04-s04-l0049-t011",
+              "em": true
             },
             {
-              "i": 13,
+              "i": 12,
               "type": "word",
               "s": "m’estime",
-              "norm": "m'estime",
+              "norm": "m’estime",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0049-t013"
+              "serial": "henry-v-a04-s04-l0049-t012",
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -6159,8 +6009,8 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
+          "type": "stage",
+          "em": true,
           "text": "heureux que je suis tombé entre les mains d’un chevalier, je pense, le",
           "tokens": [
             {
@@ -6169,7 +6019,8 @@
               "s": "heureux",
               "norm": "heureux",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0050-t001"
+              "serial": "henry-v-a04-s04-l0050-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -6177,7 +6028,8 @@
               "s": "que",
               "norm": "que",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t002"
+              "serial": "henry-v-a04-s04-l0050-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -6185,7 +6037,8 @@
               "s": "je",
               "norm": "je",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t003"
+              "serial": "henry-v-a04-s04-l0050-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -6193,15 +6046,17 @@
               "s": "suis",
               "norm": "suis",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t004"
+              "serial": "henry-v-a04-s04-l0050-t004",
+              "em": true
             },
             {
               "i": 5,
               "type": "word",
               "s": "tombé",
-              "norm": "tombe",
+              "norm": "tombé",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t005"
+              "serial": "henry-v-a04-s04-l0050-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -6209,7 +6064,8 @@
               "s": "entre",
               "norm": "entre",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t006"
+              "serial": "henry-v-a04-s04-l0050-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -6217,7 +6073,8 @@
               "s": "les",
               "norm": "les",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t007"
+              "serial": "henry-v-a04-s04-l0050-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -6225,15 +6082,17 @@
               "s": "mains",
               "norm": "mains",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t008"
+              "serial": "henry-v-a04-s04-l0050-t008",
+              "em": true
             },
             {
               "i": 9,
               "type": "word",
               "s": "d’un",
-              "norm": "d'un",
+              "norm": "d’un",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t009"
+              "serial": "henry-v-a04-s04-l0050-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -6241,7 +6100,8 @@
               "s": "chevalier",
               "norm": "chevalier",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t010"
+              "serial": "henry-v-a04-s04-l0050-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -6255,7 +6115,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 12,
@@ -6263,7 +6124,8 @@
               "s": "je",
               "norm": "je",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t012"
+              "serial": "henry-v-a04-s04-l0050-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -6271,7 +6133,8 @@
               "s": "pense",
               "norm": "pense",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t013"
+              "serial": "henry-v-a04-s04-l0050-t013",
+              "em": true
             },
             {
               "i": 14,
@@ -6285,7 +6148,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 15,
@@ -6293,9 +6157,11 @@
               "s": "le",
               "norm": "le",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0050-t015"
+              "serial": "henry-v-a04-s04-l0050-t015",
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -6312,9 +6178,9 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "plus brave, vaillant, et très distingué seigneur d’Angleterre._",
+          "type": "stage",
+          "em": true,
+          "text": "plus brave, vaillant, et très distingué seigneur d’Angleterre.",
           "tokens": [
             {
               "i": 1,
@@ -6322,7 +6188,8 @@
               "s": "plus",
               "norm": "plus",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0051-t001"
+              "serial": "henry-v-a04-s04-l0051-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -6330,7 +6197,8 @@
               "s": "brave",
               "norm": "brave",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0051-t002"
+              "serial": "henry-v-a04-s04-l0051-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -6344,7 +6212,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 4,
@@ -6352,7 +6221,8 @@
               "s": "vaillant",
               "norm": "vaillant",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0051-t004"
+              "serial": "henry-v-a04-s04-l0051-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -6366,7 +6236,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 6,
@@ -6374,23 +6245,26 @@
               "s": "et",
               "norm": "et",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0051-t006"
+              "serial": "henry-v-a04-s04-l0051-t006",
+              "em": true
             },
             {
               "i": 7,
               "type": "word",
               "s": "très",
-              "norm": "tres",
+              "norm": "très",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0051-t007"
+              "serial": "henry-v-a04-s04-l0051-t007",
+              "em": true
             },
             {
               "i": 8,
               "type": "word",
               "s": "distingué",
-              "norm": "distingue",
+              "norm": "distingué",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0051-t008"
+              "serial": "henry-v-a04-s04-l0051-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -6398,15 +6272,17 @@
               "s": "seigneur",
               "norm": "seigneur",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0051-t009"
+              "serial": "henry-v-a04-s04-l0051-t009",
+              "em": true
             },
             {
               "i": 10,
               "type": "word",
               "s": "d’Angleterre",
-              "norm": "d'angleterre",
+              "norm": "d’angleterre",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0051-t010"
+              "serial": "henry-v-a04-s04-l0051-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -6420,23 +6296,11 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 12,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0051-t012",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
@@ -7249,107 +7113,87 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "_Suivez-vous le grand capitaine._",
+          "type": "stage",
+          "em": true,
+          "text": "Suivez-vous le grand capitaine.",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0058-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Suivez",
               "norm": "suivez",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0058-t002"
+              "serial": "henry-v-a04-s04-l0058-t001",
+              "em": true
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0058-t003",
+              "serial": "henry-v-a04-s04-l0058-t002",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
                 "quote": null,
                 "role": null
               },
-              "i": 3
+              "i": 2,
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "vous",
               "norm": "vous",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0058-t004"
+              "serial": "henry-v-a04-s04-l0058-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "le",
               "norm": "le",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0058-t005"
+              "serial": "henry-v-a04-s04-l0058-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "word",
               "s": "grand",
               "norm": "grand",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0058-t006"
+              "serial": "henry-v-a04-s04-l0058-t005",
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "word",
               "s": "capitaine",
               "norm": "capitaine",
               "pre": " ",
-              "serial": "henry-v-a04-s04-l0058-t007"
+              "serial": "henry-v-a04-s04-l0058-t006",
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a04-s04-l0058-t008",
+              "serial": "henry-v-a04-s04-l0058-t007",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a04-s04-l0058-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
