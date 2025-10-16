@@ -5587,42 +5587,26 @@
     {
       "seq": 90,
       "serial": "hamlet-a01-s01-i0090",
-      "kind": "speech",
+      "kind": "speaker_label",
       "subtype": null,
-      "speaker": "HORATIO",
-      "speech_id": "hamlet-a01-s01-s0033",
-      "speech_seq": 2,
-      "line_number": 51,
-      "line_serial": "hamlet-a01-s01-l0051",
+      "speaker": "BARNARDO",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "BARNARDO",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "BARNARDO",
-              "norm": "barnardo",
-              "pre": "",
-              "serial": "hamlet-a01-s01-l0051-t001"
-            }
-          ]
-        }
-      ]
+      "spans": []
     },
     {
       "seq": 91,
       "serial": "hamlet-a01-s01-i0091",
       "kind": "speech",
       "subtype": null,
-      "speaker": "HORATIO",
-      "speech_id": "hamlet-a01-s01-s0033",
-      "speech_seq": 3,
-      "line_number": 52,
-      "line_serial": "hamlet-a01-s01-l0052",
+      "speaker": "BARNARDO",
+      "speech_id": "hamlet-a01-s01-s0033a",
+      "speech_seq": 1,
+      "line_number": 51,
+      "line_serial": "hamlet-a01-s01-l0051",
       "subsection": null,
       "spans": [
         {
@@ -14158,19 +14142,20 @@
     {
       "seq": 193,
       "serial": "hamlet-a01-s01-i0193",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "HORATIO",
-      "speech_id": "hamlet-a01-s01-s0049",
-      "speech_seq": 15,
-      "line_number": 137,
-      "line_serial": "hamlet-a01-s01-l0137",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
+          "type": "stage",
+          "em": true,
           "text": "Re-enter Ghost.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -14178,21 +14163,23 @@
               "s": "Re",
               "norm": "re",
               "pre": "",
-              "serial": "hamlet-a01-s01-l0137-t001"
+              "serial": "hamlet-a01-s01-i0193-t001",
+              "em": true
             },
             {
+              "i": 2,
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "hamlet-a01-s01-l0137-t002",
+              "serial": "hamlet-a01-s01-i0193-t002",
+              "em": true,
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
                 "quote": null,
                 "role": null
-              },
-              "i": 2
+              }
             },
             {
               "i": 3,
@@ -14200,7 +14187,8 @@
               "s": "enter",
               "norm": "enter",
               "pre": "",
-              "serial": "hamlet-a01-s01-l0137-t003"
+              "serial": "hamlet-a01-s01-i0193-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -14208,7 +14196,8 @@
               "s": "Ghost",
               "norm": "ghost",
               "pre": " ",
-              "serial": "hamlet-a01-s01-l0137-t004"
+              "serial": "hamlet-a01-s01-i0193-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -14216,7 +14205,8 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "hamlet-a01-s01-l0137-t005",
+              "serial": "hamlet-a01-s01-i0193-t005",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
