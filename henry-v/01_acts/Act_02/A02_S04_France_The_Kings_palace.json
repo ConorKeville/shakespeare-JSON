@@ -190,8 +190,8 @@
     {
       "seq": 3,
       "serial": "henry-v-a02-s04-i0003",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": null,
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -200,9 +200,10 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "Flourish. Enter the French King, the Dauphin, the Dukes of Berry and",
+          "type": "stage",
+          "em": true,
+          "text": "Flourish. Enter the French King, the Dauphin, the Dukes of Berry and of Brittany, the Constable, and others.",
+          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -210,7 +211,8 @@
               "s": "Flourish",
               "norm": "flourish",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0003-t001"
+              "serial": "henry-v-a02-s04-i0003-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -219,6 +221,7 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-v-a02-s04-i0003-t002",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -232,7 +235,8 @@
               "s": "Enter",
               "norm": "enter",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t003"
+              "serial": "henry-v-a02-s04-i0003-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -240,7 +244,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t004"
+              "serial": "henry-v-a02-s04-i0003-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -248,7 +253,8 @@
               "s": "French",
               "norm": "french",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t005"
+              "serial": "henry-v-a02-s04-i0003-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -256,7 +262,8 @@
               "s": "King",
               "norm": "king",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t006"
+              "serial": "henry-v-a02-s04-i0003-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -265,6 +272,7 @@
               "norm": ",",
               "pre": "",
               "serial": "henry-v-a02-s04-i0003-t007",
+              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -278,7 +286,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t008"
+              "serial": "henry-v-a02-s04-i0003-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -286,7 +295,8 @@
               "s": "Dauphin",
               "norm": "dauphin",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t009"
+              "serial": "henry-v-a02-s04-i0003-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -295,6 +305,7 @@
               "norm": ",",
               "pre": "",
               "serial": "henry-v-a02-s04-i0003-t010",
+              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -308,7 +319,8 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t011"
+              "serial": "henry-v-a02-s04-i0003-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -316,7 +328,8 @@
               "s": "Dukes",
               "norm": "dukes",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t012"
+              "serial": "henry-v-a02-s04-i0003-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -324,7 +337,8 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t013"
+              "serial": "henry-v-a02-s04-i0003-t013",
+              "em": true
             },
             {
               "i": 14,
@@ -332,7 +346,8 @@
               "s": "Berry",
               "norm": "berry",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t014"
+              "serial": "henry-v-a02-s04-i0003-t014",
+              "em": true
             },
             {
               "i": 15,
@@ -340,44 +355,35 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0003-t015"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 4,
-      "serial": "henry-v-a02-s04-i0004",
-      "kind": "heading",
-      "subtype": "title",
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": " Brittany, the Constable and others.",
-          "tokens": [
+              "serial": "henry-v-a02-s04-i0003-t015",
+              "em": true
+            },
             {
-              "i": 1,
+              "i": 16,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-a02-s04-i0003-t016",
+              "em": true
+            },
+            {
+              "i": 17,
               "type": "word",
               "s": "Brittany",
               "norm": "brittany",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0004-t001"
+              "serial": "henry-v-a02-s04-i0003-t017",
+              "em": true
             },
             {
-              "i": 2,
+              "i": 18,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0004-t002",
+              "serial": "henry-v-a02-s04-i0003-t018",
+              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -386,44 +392,64 @@
               }
             },
             {
-              "i": 3,
+              "i": 19,
               "type": "word",
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0004-t003"
+              "serial": "henry-v-a02-s04-i0003-t019",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 20,
               "type": "word",
               "s": "Constable",
               "norm": "constable",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0004-t004"
+              "serial": "henry-v-a02-s04-i0003-t020",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 21,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a02-s04-i0003-t021",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 22,
               "type": "word",
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0004-t005"
+              "serial": "henry-v-a02-s04-i0003-t022",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 23,
               "type": "word",
               "s": "others",
               "norm": "others",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0004-t006"
+              "serial": "henry-v-a02-s04-i0003-t023",
+              "em": true
             },
             {
-              "i": 7,
+              "i": 24,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0004-t007",
+              "serial": "henry-v-a02-s04-i0003-t024",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -436,8 +462,8 @@
       ]
     },
     {
-      "seq": 5,
-      "serial": "henry-v-a02-s04-i0005",
+      "seq": 4,
+      "serial": "henry-v-a02-s04-i0004",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -449,8 +475,8 @@
       "spans": []
     },
     {
-      "seq": 6,
-      "serial": "henry-v-a02-s04-i0006",
+      "seq": 5,
+      "serial": "henry-v-a02-s04-i0005",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -556,8 +582,8 @@
       ]
     },
     {
-      "seq": 7,
-      "serial": "henry-v-a02-s04-i0007",
+      "seq": 6,
+      "serial": "henry-v-a02-s04-i0006",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -633,8 +659,8 @@
       ]
     },
     {
-      "seq": 8,
-      "serial": "henry-v-a02-s04-i0008",
+      "seq": 7,
+      "serial": "henry-v-a02-s04-i0007",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -716,8 +742,8 @@
       ]
     },
     {
-      "seq": 9,
-      "serial": "henry-v-a02-s04-i0009",
+      "seq": 8,
+      "serial": "henry-v-a02-s04-i0008",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -815,8 +841,8 @@
       ]
     },
     {
-      "seq": 10,
-      "serial": "henry-v-a02-s04-i0010",
+      "seq": 9,
+      "serial": "henry-v-a02-s04-i0009",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -928,8 +954,8 @@
       ]
     },
     {
-      "seq": 11,
-      "serial": "henry-v-a02-s04-i0011",
+      "seq": 10,
+      "serial": "henry-v-a02-s04-i0010",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1055,8 +1081,8 @@
       ]
     },
     {
-      "seq": 12,
-      "serial": "henry-v-a02-s04-i0012",
+      "seq": 11,
+      "serial": "henry-v-a02-s04-i0011",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1148,8 +1174,8 @@
       ]
     },
     {
-      "seq": 13,
-      "serial": "henry-v-a02-s04-i0013",
+      "seq": 12,
+      "serial": "henry-v-a02-s04-i0012",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1247,8 +1273,8 @@
       ]
     },
     {
-      "seq": 14,
-      "serial": "henry-v-a02-s04-i0014",
+      "seq": 13,
+      "serial": "henry-v-a02-s04-i0013",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1324,8 +1350,8 @@
       ]
     },
     {
-      "seq": 15,
-      "serial": "henry-v-a02-s04-i0015",
+      "seq": 14,
+      "serial": "henry-v-a02-s04-i0014",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1423,8 +1449,8 @@
       ]
     },
     {
-      "seq": 16,
-      "serial": "henry-v-a02-s04-i0016",
+      "seq": 15,
+      "serial": "henry-v-a02-s04-i0015",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1508,8 +1534,8 @@
       ]
     },
     {
-      "seq": 17,
-      "serial": "henry-v-a02-s04-i0017",
+      "seq": 16,
+      "serial": "henry-v-a02-s04-i0016",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1601,8 +1627,8 @@
       ]
     },
     {
-      "seq": 18,
-      "serial": "henry-v-a02-s04-i0018",
+      "seq": 17,
+      "serial": "henry-v-a02-s04-i0017",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1678,8 +1704,8 @@
       ]
     },
     {
-      "seq": 19,
-      "serial": "henry-v-a02-s04-i0019",
+      "seq": 18,
+      "serial": "henry-v-a02-s04-i0018",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -1737,8 +1763,8 @@
       ]
     },
     {
-      "seq": 20,
-      "serial": "henry-v-a02-s04-i0020",
+      "seq": 19,
+      "serial": "henry-v-a02-s04-i0019",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -1750,8 +1776,8 @@
       "spans": []
     },
     {
-      "seq": 21,
-      "serial": "henry-v-a02-s04-i0021",
+      "seq": 20,
+      "serial": "henry-v-a02-s04-i0020",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -1817,8 +1843,8 @@
       ]
     },
     {
-      "seq": 22,
-      "serial": "henry-v-a02-s04-i0022",
+      "seq": 21,
+      "serial": "henry-v-a02-s04-i0021",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -1932,8 +1958,8 @@
       ]
     },
     {
-      "seq": 23,
-      "serial": "henry-v-a02-s04-i0023",
+      "seq": 22,
+      "serial": "henry-v-a02-s04-i0022",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2039,8 +2065,8 @@
       ]
     },
     {
-      "seq": 24,
-      "serial": "henry-v-a02-s04-i0024",
+      "seq": 23,
+      "serial": "henry-v-a02-s04-i0023",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2146,8 +2172,8 @@
       ]
     },
     {
-      "seq": 25,
-      "serial": "henry-v-a02-s04-i0025",
+      "seq": 24,
+      "serial": "henry-v-a02-s04-i0024",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2249,8 +2275,8 @@
       ]
     },
     {
-      "seq": 26,
-      "serial": "henry-v-a02-s04-i0026",
+      "seq": 25,
+      "serial": "henry-v-a02-s04-i0025",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2360,8 +2386,8 @@
       ]
     },
     {
-      "seq": 27,
-      "serial": "henry-v-a02-s04-i0027",
+      "seq": 26,
+      "serial": "henry-v-a02-s04-i0026",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2443,8 +2469,8 @@
       ]
     },
     {
-      "seq": 28,
-      "serial": "henry-v-a02-s04-i0028",
+      "seq": 27,
+      "serial": "henry-v-a02-s04-i0027",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2564,8 +2590,8 @@
       ]
     },
     {
-      "seq": 29,
-      "serial": "henry-v-a02-s04-i0029",
+      "seq": 28,
+      "serial": "henry-v-a02-s04-i0028",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2671,8 +2697,8 @@
       ]
     },
     {
-      "seq": 30,
-      "serial": "henry-v-a02-s04-i0030",
+      "seq": 29,
+      "serial": "henry-v-a02-s04-i0029",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2786,8 +2812,8 @@
       ]
     },
     {
-      "seq": 31,
-      "serial": "henry-v-a02-s04-i0031",
+      "seq": 30,
+      "serial": "henry-v-a02-s04-i0030",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -2901,8 +2927,8 @@
       ]
     },
     {
-      "seq": 32,
-      "serial": "henry-v-a02-s04-i0032",
+      "seq": 31,
+      "serial": "henry-v-a02-s04-i0031",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -3006,8 +3032,8 @@
       ]
     },
     {
-      "seq": 33,
-      "serial": "henry-v-a02-s04-i0033",
+      "seq": 32,
+      "serial": "henry-v-a02-s04-i0032",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -3141,8 +3167,8 @@
       ]
     },
     {
-      "seq": 34,
-      "serial": "henry-v-a02-s04-i0034",
+      "seq": 33,
+      "serial": "henry-v-a02-s04-i0033",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -3202,8 +3228,8 @@
       ]
     },
     {
-      "seq": 35,
-      "serial": "henry-v-a02-s04-i0035",
+      "seq": 34,
+      "serial": "henry-v-a02-s04-i0034",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -3335,8 +3361,8 @@
       ]
     },
     {
-      "seq": 36,
-      "serial": "henry-v-a02-s04-i0036",
+      "seq": 35,
+      "serial": "henry-v-a02-s04-i0035",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -3410,8 +3436,8 @@
       ]
     },
     {
-      "seq": 37,
-      "serial": "henry-v-a02-s04-i0037",
+      "seq": 36,
+      "serial": "henry-v-a02-s04-i0036",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -3423,8 +3449,8 @@
       "spans": []
     },
     {
-      "seq": 38,
-      "serial": "henry-v-a02-s04-i0038",
+      "seq": 37,
+      "serial": "henry-v-a02-s04-i0037",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -3504,8 +3530,8 @@
       ]
     },
     {
-      "seq": 39,
-      "serial": "henry-v-a02-s04-i0039",
+      "seq": 38,
+      "serial": "henry-v-a02-s04-i0038",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -3603,8 +3629,8 @@
       ]
     },
     {
-      "seq": 40,
-      "serial": "henry-v-a02-s04-i0040",
+      "seq": 39,
+      "serial": "henry-v-a02-s04-i0039",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -3672,8 +3698,8 @@
       ]
     },
     {
-      "seq": 41,
-      "serial": "henry-v-a02-s04-i0041",
+      "seq": 40,
+      "serial": "henry-v-a02-s04-i0040",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -3771,8 +3797,8 @@
       ]
     },
     {
-      "seq": 42,
-      "serial": "henry-v-a02-s04-i0042",
+      "seq": 41,
+      "serial": "henry-v-a02-s04-i0041",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -3854,8 +3880,8 @@
       ]
     },
     {
-      "seq": 43,
-      "serial": "henry-v-a02-s04-i0043",
+      "seq": 42,
+      "serial": "henry-v-a02-s04-i0042",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -3937,8 +3963,8 @@
       ]
     },
     {
-      "seq": 44,
-      "serial": "henry-v-a02-s04-i0044",
+      "seq": 43,
+      "serial": "henry-v-a02-s04-i0043",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -4012,8 +4038,8 @@
       ]
     },
     {
-      "seq": 45,
-      "serial": "henry-v-a02-s04-i0045",
+      "seq": 44,
+      "serial": "henry-v-a02-s04-i0044",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -4089,8 +4115,8 @@
       ]
     },
     {
-      "seq": 46,
-      "serial": "henry-v-a02-s04-i0046",
+      "seq": 45,
+      "serial": "henry-v-a02-s04-i0045",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -4188,8 +4214,8 @@
       ]
     },
     {
-      "seq": 47,
-      "serial": "henry-v-a02-s04-i0047",
+      "seq": 46,
+      "serial": "henry-v-a02-s04-i0046",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -4279,8 +4305,8 @@
       ]
     },
     {
-      "seq": 48,
-      "serial": "henry-v-a02-s04-i0048",
+      "seq": 47,
+      "serial": "henry-v-a02-s04-i0047",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -4364,8 +4390,8 @@
       ]
     },
     {
-      "seq": 49,
-      "serial": "henry-v-a02-s04-i0049",
+      "seq": 48,
+      "serial": "henry-v-a02-s04-i0048",
       "kind": "speech",
       "subtype": null,
       "speaker": "CONSTABLE",
@@ -4463,8 +4489,8 @@
       ]
     },
     {
-      "seq": 50,
-      "serial": "henry-v-a02-s04-i0050",
+      "seq": 49,
+      "serial": "henry-v-a02-s04-i0049",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -4476,8 +4502,8 @@
       "spans": []
     },
     {
-      "seq": 51,
-      "serial": "henry-v-a02-s04-i0051",
+      "seq": 50,
+      "serial": "henry-v-a02-s04-i0050",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -4603,8 +4629,8 @@
       ]
     },
     {
-      "seq": 52,
-      "serial": "henry-v-a02-s04-i0052",
+      "seq": 51,
+      "serial": "henry-v-a02-s04-i0051",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -4732,8 +4758,8 @@
       ]
     },
     {
-      "seq": 53,
-      "serial": "henry-v-a02-s04-i0053",
+      "seq": 52,
+      "serial": "henry-v-a02-s04-i0052",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -4817,8 +4843,8 @@
       ]
     },
     {
-      "seq": 54,
-      "serial": "henry-v-a02-s04-i0054",
+      "seq": 53,
+      "serial": "henry-v-a02-s04-i0053",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -4908,8 +4934,8 @@
       ]
     },
     {
-      "seq": 55,
-      "serial": "henry-v-a02-s04-i0055",
+      "seq": 54,
+      "serial": "henry-v-a02-s04-i0054",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -4999,8 +5025,8 @@
       ]
     },
     {
-      "seq": 56,
-      "serial": "henry-v-a02-s04-i0056",
+      "seq": 55,
+      "serial": "henry-v-a02-s04-i0055",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -5104,8 +5130,8 @@
       ]
     },
     {
-      "seq": 57,
-      "serial": "henry-v-a02-s04-i0057",
+      "seq": 56,
+      "serial": "henry-v-a02-s04-i0056",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -5225,8 +5251,8 @@
       ]
     },
     {
-      "seq": 58,
-      "serial": "henry-v-a02-s04-i0058",
+      "seq": 57,
+      "serial": "henry-v-a02-s04-i0057",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -5284,8 +5310,8 @@
       ]
     },
     {
-      "seq": 59,
-      "serial": "henry-v-a02-s04-i0059",
+      "seq": 58,
+      "serial": "henry-v-a02-s04-i0058",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -5297,8 +5323,8 @@
       "spans": []
     },
     {
-      "seq": 60,
-      "serial": "henry-v-a02-s04-i0060",
+      "seq": 59,
+      "serial": "henry-v-a02-s04-i0059",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -5372,8 +5398,8 @@
       ]
     },
     {
-      "seq": 61,
-      "serial": "henry-v-a02-s04-i0061",
+      "seq": 60,
+      "serial": "henry-v-a02-s04-i0060",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -5507,8 +5533,8 @@
       ]
     },
     {
-      "seq": 62,
-      "serial": "henry-v-a02-s04-i0062",
+      "seq": 61,
+      "serial": "henry-v-a02-s04-i0061",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -5614,8 +5640,8 @@
       ]
     },
     {
-      "seq": 63,
-      "serial": "henry-v-a02-s04-i0063",
+      "seq": 62,
+      "serial": "henry-v-a02-s04-i0062",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -5707,8 +5733,8 @@
       ]
     },
     {
-      "seq": 64,
-      "serial": "henry-v-a02-s04-i0064",
+      "seq": 63,
+      "serial": "henry-v-a02-s04-i0063",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -5798,8 +5824,8 @@
       ]
     },
     {
-      "seq": 65,
-      "serial": "henry-v-a02-s04-i0065",
+      "seq": 64,
+      "serial": "henry-v-a02-s04-i0064",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -5867,8 +5893,8 @@
       ]
     },
     {
-      "seq": 66,
-      "serial": "henry-v-a02-s04-i0066",
+      "seq": 65,
+      "serial": "henry-v-a02-s04-i0065",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -5950,8 +5976,8 @@
       ]
     },
     {
-      "seq": 67,
-      "serial": "henry-v-a02-s04-i0067",
+      "seq": 66,
+      "serial": "henry-v-a02-s04-i0066",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6035,8 +6061,8 @@
       ]
     },
     {
-      "seq": 68,
-      "serial": "henry-v-a02-s04-i0068",
+      "seq": 67,
+      "serial": "henry-v-a02-s04-i0067",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6170,8 +6196,8 @@
       ]
     },
     {
-      "seq": 69,
-      "serial": "henry-v-a02-s04-i0069",
+      "seq": 68,
+      "serial": "henry-v-a02-s04-i0068",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6283,8 +6309,8 @@
       ]
     },
     {
-      "seq": 70,
-      "serial": "henry-v-a02-s04-i0070",
+      "seq": 69,
+      "serial": "henry-v-a02-s04-i0069",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6404,8 +6430,8 @@
       ]
     },
     {
-      "seq": 71,
-      "serial": "henry-v-a02-s04-i0071",
+      "seq": 70,
+      "serial": "henry-v-a02-s04-i0070",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6525,8 +6551,8 @@
       ]
     },
     {
-      "seq": 72,
-      "serial": "henry-v-a02-s04-i0072",
+      "seq": 71,
+      "serial": "henry-v-a02-s04-i0071",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6602,8 +6628,8 @@
       ]
     },
     {
-      "seq": 73,
-      "serial": "henry-v-a02-s04-i0073",
+      "seq": 72,
+      "serial": "henry-v-a02-s04-i0072",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6695,8 +6721,8 @@
       ]
     },
     {
-      "seq": 74,
-      "serial": "henry-v-a02-s04-i0074",
+      "seq": 73,
+      "serial": "henry-v-a02-s04-i0073",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6802,8 +6828,8 @@
       ]
     },
     {
-      "seq": 75,
-      "serial": "henry-v-a02-s04-i0075",
+      "seq": 74,
+      "serial": "henry-v-a02-s04-i0074",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6901,8 +6927,8 @@
       ]
     },
     {
-      "seq": 76,
-      "serial": "henry-v-a02-s04-i0076",
+      "seq": 75,
+      "serial": "henry-v-a02-s04-i0075",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -6992,8 +7018,8 @@
       ]
     },
     {
-      "seq": 77,
-      "serial": "henry-v-a02-s04-i0077",
+      "seq": 76,
+      "serial": "henry-v-a02-s04-i0076",
       "kind": "stage",
       "subtype": "enter",
       "speaker": null,
@@ -7015,7 +7041,7 @@
               "s": "Enter",
               "norm": "enter",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0077-t001",
+              "serial": "henry-v-a02-s04-i0076-t001",
               "em": true
             },
             {
@@ -7024,7 +7050,7 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0077-t002",
+              "serial": "henry-v-a02-s04-i0076-t002",
               "em": true
             },
             {
@@ -7033,7 +7059,7 @@
               "s": "Messenger",
               "norm": "messenger",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0077-t003",
+              "serial": "henry-v-a02-s04-i0076-t003",
               "em": true
             },
             {
@@ -7042,7 +7068,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0077-t004",
+              "serial": "henry-v-a02-s04-i0076-t004",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -7056,8 +7082,8 @@
       ]
     },
     {
-      "seq": 78,
-      "serial": "henry-v-a02-s04-i0078",
+      "seq": 77,
+      "serial": "henry-v-a02-s04-i0077",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "MESSENGER",
@@ -7069,8 +7095,8 @@
       "spans": []
     },
     {
-      "seq": 79,
-      "serial": "henry-v-a02-s04-i0079",
+      "seq": 78,
+      "serial": "henry-v-a02-s04-i0078",
       "kind": "speech",
       "subtype": null,
       "speaker": "MESSENGER",
@@ -7138,8 +7164,8 @@
       ]
     },
     {
-      "seq": 80,
-      "serial": "henry-v-a02-s04-i0080",
+      "seq": 79,
+      "serial": "henry-v-a02-s04-i0079",
       "kind": "speech",
       "subtype": null,
       "speaker": "MESSENGER",
@@ -7221,8 +7247,8 @@
       ]
     },
     {
-      "seq": 81,
-      "serial": "henry-v-a02-s04-i0081",
+      "seq": 80,
+      "serial": "henry-v-a02-s04-i0080",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -7234,8 +7260,8 @@
       "spans": []
     },
     {
-      "seq": 82,
-      "serial": "henry-v-a02-s04-i0082",
+      "seq": 81,
+      "serial": "henry-v-a02-s04-i0081",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -7369,8 +7395,8 @@
       ]
     },
     {
-      "seq": 83,
-      "serial": "henry-v-a02-s04-i0083",
+      "seq": 82,
+      "serial": "henry-v-a02-s04-i0082",
       "kind": "stage",
       "subtype": "exeunt",
       "speaker": null,
@@ -7392,7 +7418,7 @@
               "s": "Exeunt",
               "norm": "exeunt",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0083-t001",
+              "serial": "henry-v-a02-s04-i0082-t001",
               "em": true
             },
             {
@@ -7401,7 +7427,7 @@
               "s": "Messenger",
               "norm": "messenger",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0083-t002",
+              "serial": "henry-v-a02-s04-i0082-t002",
               "em": true
             },
             {
@@ -7410,7 +7436,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0083-t003",
+              "serial": "henry-v-a02-s04-i0082-t003",
               "em": true
             },
             {
@@ -7419,7 +7445,7 @@
               "s": "certain",
               "norm": "certain",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0083-t004",
+              "serial": "henry-v-a02-s04-i0082-t004",
               "em": true
             },
             {
@@ -7428,7 +7454,7 @@
               "s": "Lords",
               "norm": "lords",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0083-t005",
+              "serial": "henry-v-a02-s04-i0082-t005",
               "em": true
             },
             {
@@ -7437,7 +7463,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0083-t006",
+              "serial": "henry-v-a02-s04-i0082-t006",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -7451,8 +7477,8 @@
       ]
     },
     {
-      "seq": 84,
-      "serial": "henry-v-a02-s04-i0085",
+      "seq": 83,
+      "serial": "henry-v-a02-s04-i0083",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -7464,7 +7490,7 @@
       "spans": []
     },
     {
-      "seq": 85,
+      "seq": 84,
       "serial": "henry-v-a02-s04-i0084",
       "kind": "speech",
       "subtype": null,
@@ -7577,8 +7603,8 @@
       ]
     },
     {
-      "seq": 86,
-      "serial": "henry-v-a02-s04-i0086",
+      "seq": 85,
+      "serial": "henry-v-a02-s04-i0085",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -7676,8 +7702,8 @@
       ]
     },
     {
-      "seq": 87,
-      "serial": "henry-v-a02-s04-i0087",
+      "seq": 86,
+      "serial": "henry-v-a02-s04-i0086",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -7777,8 +7803,8 @@
       ]
     },
     {
-      "seq": 88,
-      "serial": "henry-v-a02-s04-i0088",
+      "seq": 87,
+      "serial": "henry-v-a02-s04-i0087",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -7882,8 +7908,8 @@
       ]
     },
     {
-      "seq": 89,
-      "serial": "henry-v-a02-s04-i0089",
+      "seq": 88,
+      "serial": "henry-v-a02-s04-i0088",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -7989,8 +8015,8 @@
       ]
     },
     {
-      "seq": 90,
-      "serial": "henry-v-a02-s04-i0090",
+      "seq": 89,
+      "serial": "henry-v-a02-s04-i0089",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -8088,8 +8114,8 @@
       ]
     },
     {
-      "seq": 91,
-      "serial": "henry-v-a02-s04-i0091",
+      "seq": 90,
+      "serial": "henry-v-a02-s04-i0090",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -8231,8 +8257,8 @@
       ]
     },
     {
-      "seq": 92,
-      "serial": "henry-v-a02-s04-i0092",
+      "seq": 91,
+      "serial": "henry-v-a02-s04-i0091",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -8304,8 +8330,8 @@
       ]
     },
     {
-      "seq": 93,
-      "serial": "henry-v-a02-s04-i0093",
+      "seq": 92,
+      "serial": "henry-v-a02-s04-i0092",
       "kind": "stage",
       "subtype": "enter",
       "speaker": null,
@@ -8327,7 +8353,7 @@
               "s": "Enter",
               "norm": "enter",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0093-t001",
+              "serial": "henry-v-a02-s04-i0092-t001",
               "em": true
             },
             {
@@ -8336,7 +8362,7 @@
               "s": "Exeter",
               "norm": "exeter",
               "pre": " ",
-              "serial": "henry-v-a02-s04-i0093-t002",
+              "serial": "henry-v-a02-s04-i0092-t002",
               "em": true
             },
             {
@@ -8345,7 +8371,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0093-t003",
+              "serial": "henry-v-a02-s04-i0092-t003",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -8359,8 +8385,8 @@
       ]
     },
     {
-      "seq": 94,
-      "serial": "henry-v-a02-s04-i0094",
+      "seq": 93,
+      "serial": "henry-v-a02-s04-i0093",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -8372,8 +8398,8 @@
       "spans": []
     },
     {
-      "seq": 95,
-      "serial": "henry-v-a02-s04-i0095",
+      "seq": 94,
+      "serial": "henry-v-a02-s04-i0094",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -8447,8 +8473,8 @@
       ]
     },
     {
-      "seq": 96,
-      "serial": "henry-v-a02-s04-i0096",
+      "seq": 95,
+      "serial": "henry-v-a02-s04-i0095",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "EXETER",
@@ -8460,8 +8486,8 @@
       "spans": []
     },
     {
-      "seq": 97,
-      "serial": "henry-v-a02-s04-i0097",
+      "seq": 96,
+      "serial": "henry-v-a02-s04-i0096",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -8573,8 +8599,8 @@
       ]
     },
     {
-      "seq": 98,
-      "serial": "henry-v-a02-s04-i0098",
+      "seq": 97,
+      "serial": "henry-v-a02-s04-i0097",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -8694,8 +8720,8 @@
       ]
     },
     {
-      "seq": 99,
-      "serial": "henry-v-a02-s04-i0099",
+      "seq": 98,
+      "serial": "henry-v-a02-s04-i0098",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -8785,8 +8811,8 @@
       ]
     },
     {
-      "seq": 100,
-      "serial": "henry-v-a02-s04-i0100",
+      "seq": 99,
+      "serial": "henry-v-a02-s04-i0099",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -8884,8 +8910,8 @@
       ]
     },
     {
-      "seq": 101,
-      "serial": "henry-v-a02-s04-i0101",
+      "seq": 100,
+      "serial": "henry-v-a02-s04-i0100",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -8983,8 +9009,8 @@
       ]
     },
     {
-      "seq": 102,
-      "serial": "henry-v-a02-s04-i0102",
+      "seq": 101,
+      "serial": "henry-v-a02-s04-i0101",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9104,8 +9130,8 @@
       ]
     },
     {
-      "seq": 103,
-      "serial": "henry-v-a02-s04-i0103",
+      "seq": 102,
+      "serial": "henry-v-a02-s04-i0102",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9195,8 +9221,8 @@
       ]
     },
     {
-      "seq": 104,
-      "serial": "henry-v-a02-s04-i0104",
+      "seq": 103,
+      "serial": "henry-v-a02-s04-i0103",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9272,8 +9298,8 @@
       ]
     },
     {
-      "seq": 105,
-      "serial": "henry-v-a02-s04-i0105",
+      "seq": 104,
+      "serial": "henry-v-a02-s04-i0104",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9379,8 +9405,8 @@
       ]
     },
     {
-      "seq": 106,
-      "serial": "henry-v-a02-s04-i0106",
+      "seq": 105,
+      "serial": "henry-v-a02-s04-i0105",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9456,8 +9482,8 @@
       ]
     },
     {
-      "seq": 107,
-      "serial": "henry-v-a02-s04-i0107",
+      "seq": 106,
+      "serial": "henry-v-a02-s04-i0106",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9591,8 +9617,8 @@
       ]
     },
     {
-      "seq": 108,
-      "serial": "henry-v-a02-s04-i0108",
+      "seq": 107,
+      "serial": "henry-v-a02-s04-i0107",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9690,8 +9716,8 @@
       ]
     },
     {
-      "seq": 109,
-      "serial": "henry-v-a02-s04-i0109",
+      "seq": 108,
+      "serial": "henry-v-a02-s04-i0108",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9781,8 +9807,8 @@
       ]
     },
     {
-      "seq": 110,
-      "serial": "henry-v-a02-s04-i0110",
+      "seq": 109,
+      "serial": "henry-v-a02-s04-i0109",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9856,8 +9882,8 @@
       ]
     },
     {
-      "seq": 111,
-      "serial": "henry-v-a02-s04-i0111",
+      "seq": 110,
+      "serial": "henry-v-a02-s04-i0110",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -9931,8 +9957,8 @@
       ]
     },
     {
-      "seq": 112,
-      "serial": "henry-v-a02-s04-i0112",
+      "seq": 111,
+      "serial": "henry-v-a02-s04-i0111",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10008,8 +10034,8 @@
       ]
     },
     {
-      "seq": 113,
-      "serial": "henry-v-a02-s04-i0113",
+      "seq": 112,
+      "serial": "henry-v-a02-s04-i0112",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10099,8 +10125,8 @@
       ]
     },
     {
-      "seq": 114,
-      "serial": "henry-v-a02-s04-i0114",
+      "seq": 113,
+      "serial": "henry-v-a02-s04-i0113",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10198,8 +10224,8 @@
       ]
     },
     {
-      "seq": 115,
-      "serial": "henry-v-a02-s04-i0115",
+      "seq": 114,
+      "serial": "henry-v-a02-s04-i0114",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10281,8 +10307,8 @@
       ]
     },
     {
-      "seq": 116,
-      "serial": "henry-v-a02-s04-i0116",
+      "seq": 115,
+      "serial": "henry-v-a02-s04-i0115",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10386,8 +10412,8 @@
       ]
     },
     {
-      "seq": 117,
-      "serial": "henry-v-a02-s04-i0117",
+      "seq": 116,
+      "serial": "henry-v-a02-s04-i0116",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -10399,8 +10425,8 @@
       "spans": []
     },
     {
-      "seq": 118,
-      "serial": "henry-v-a02-s04-i0118",
+      "seq": 117,
+      "serial": "henry-v-a02-s04-i0117",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -10466,8 +10492,8 @@
       ]
     },
     {
-      "seq": 119,
-      "serial": "henry-v-a02-s04-i0119",
+      "seq": 118,
+      "serial": "henry-v-a02-s04-i0118",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "EXETER",
@@ -10479,8 +10505,8 @@
       "spans": []
     },
     {
-      "seq": 120,
-      "serial": "henry-v-a02-s04-i0120",
+      "seq": 119,
+      "serial": "henry-v-a02-s04-i0119",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10578,8 +10604,8 @@
       ]
     },
     {
-      "seq": 121,
-      "serial": "henry-v-a02-s04-i0121",
+      "seq": 120,
+      "serial": "henry-v-a02-s04-i0120",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10707,8 +10733,8 @@
       ]
     },
     {
-      "seq": 122,
-      "serial": "henry-v-a02-s04-i0122",
+      "seq": 121,
+      "serial": "henry-v-a02-s04-i0121",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10798,8 +10824,8 @@
       ]
     },
     {
-      "seq": 123,
-      "serial": "henry-v-a02-s04-i0123",
+      "seq": 122,
+      "serial": "henry-v-a02-s04-i0122",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -10911,8 +10937,8 @@
       ]
     },
     {
-      "seq": 124,
-      "serial": "henry-v-a02-s04-i0124",
+      "seq": 123,
+      "serial": "henry-v-a02-s04-i0123",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11030,8 +11056,8 @@
       ]
     },
     {
-      "seq": 125,
-      "serial": "henry-v-a02-s04-i0125",
+      "seq": 124,
+      "serial": "henry-v-a02-s04-i0124",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11151,8 +11177,8 @@
       ]
     },
     {
-      "seq": 126,
-      "serial": "henry-v-a02-s04-i0126",
+      "seq": 125,
+      "serial": "henry-v-a02-s04-i0125",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11250,8 +11276,8 @@
       ]
     },
     {
-      "seq": 127,
-      "serial": "henry-v-a02-s04-i0127",
+      "seq": 126,
+      "serial": "henry-v-a02-s04-i0126",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11343,8 +11369,8 @@
       ]
     },
     {
-      "seq": 128,
-      "serial": "henry-v-a02-s04-i0128",
+      "seq": 127,
+      "serial": "henry-v-a02-s04-i0127",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11442,8 +11468,8 @@
       ]
     },
     {
-      "seq": 129,
-      "serial": "henry-v-a02-s04-i0129",
+      "seq": 128,
+      "serial": "henry-v-a02-s04-i0128",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11547,8 +11573,8 @@
       ]
     },
     {
-      "seq": 130,
-      "serial": "henry-v-a02-s04-i0130",
+      "seq": 129,
+      "serial": "henry-v-a02-s04-i0129",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11660,8 +11686,8 @@
       ]
     },
     {
-      "seq": 131,
-      "serial": "henry-v-a02-s04-i0131",
+      "seq": 130,
+      "serial": "henry-v-a02-s04-i0130",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11771,8 +11797,8 @@
       ]
     },
     {
-      "seq": 132,
-      "serial": "henry-v-a02-s04-i0132",
+      "seq": 131,
+      "serial": "henry-v-a02-s04-i0131",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11862,8 +11888,8 @@
       ]
     },
     {
-      "seq": 133,
-      "serial": "henry-v-a02-s04-i0133",
+      "seq": 132,
+      "serial": "henry-v-a02-s04-i0132",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -11997,8 +12023,8 @@
       ]
     },
     {
-      "seq": 134,
-      "serial": "henry-v-a02-s04-i0134",
+      "seq": 133,
+      "serial": "henry-v-a02-s04-i0133",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -12088,8 +12114,8 @@
       ]
     },
     {
-      "seq": 135,
-      "serial": "henry-v-a02-s04-i0135",
+      "seq": 134,
+      "serial": "henry-v-a02-s04-i0134",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -12179,8 +12205,8 @@
       ]
     },
     {
-      "seq": 136,
-      "serial": "henry-v-a02-s04-i0136",
+      "seq": 135,
+      "serial": "henry-v-a02-s04-i0135",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -12192,8 +12218,8 @@
       "spans": []
     },
     {
-      "seq": 137,
-      "serial": "henry-v-a02-s04-i0137",
+      "seq": 136,
+      "serial": "henry-v-a02-s04-i0136",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -12305,8 +12331,8 @@
       ]
     },
     {
-      "seq": 138,
-      "serial": "henry-v-a02-s04-i0138",
+      "seq": 137,
+      "serial": "henry-v-a02-s04-i0137",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -12382,8 +12408,8 @@
       ]
     },
     {
-      "seq": 139,
-      "serial": "henry-v-a02-s04-i0139",
+      "seq": 138,
+      "serial": "henry-v-a02-s04-i0138",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -12465,8 +12491,8 @@
       ]
     },
     {
-      "seq": 140,
-      "serial": "henry-v-a02-s04-i0140",
+      "seq": 139,
+      "serial": "henry-v-a02-s04-i0139",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -12478,8 +12504,8 @@
       "spans": []
     },
     {
-      "seq": 141,
-      "serial": "henry-v-a02-s04-i0141",
+      "seq": 140,
+      "serial": "henry-v-a02-s04-i0140",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -12537,8 +12563,8 @@
       ]
     },
     {
-      "seq": 142,
-      "serial": "henry-v-a02-s04-i0142",
+      "seq": 141,
+      "serial": "henry-v-a02-s04-i0141",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -12666,8 +12692,8 @@
       ]
     },
     {
-      "seq": 143,
-      "serial": "henry-v-a02-s04-i0143",
+      "seq": 142,
+      "serial": "henry-v-a02-s04-i0142",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "EXETER",
@@ -12679,8 +12705,8 @@
       "spans": []
     },
     {
-      "seq": 144,
-      "serial": "henry-v-a02-s04-i0144",
+      "seq": 143,
+      "serial": "henry-v-a02-s04-i0143",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -12790,8 +12816,8 @@
       ]
     },
     {
-      "seq": 145,
-      "serial": "henry-v-a02-s04-i0145",
+      "seq": 144,
+      "serial": "henry-v-a02-s04-i0144",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -12859,8 +12885,8 @@
       ]
     },
     {
-      "seq": 146,
-      "serial": "henry-v-a02-s04-i0146",
+      "seq": 145,
+      "serial": "henry-v-a02-s04-i0145",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -12972,8 +12998,8 @@
       ]
     },
     {
-      "seq": 147,
-      "serial": "henry-v-a02-s04-i0147",
+      "seq": 146,
+      "serial": "henry-v-a02-s04-i0146",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -13079,8 +13105,8 @@
       ]
     },
     {
-      "seq": 148,
-      "serial": "henry-v-a02-s04-i0148",
+      "seq": 147,
+      "serial": "henry-v-a02-s04-i0147",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -13200,8 +13226,8 @@
       ]
     },
     {
-      "seq": 149,
-      "serial": "henry-v-a02-s04-i0149",
+      "seq": 148,
+      "serial": "henry-v-a02-s04-i0148",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -13299,8 +13325,8 @@
       ]
     },
     {
-      "seq": 150,
-      "serial": "henry-v-a02-s04-i0150",
+      "seq": 149,
+      "serial": "henry-v-a02-s04-i0149",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -13400,8 +13426,8 @@
       ]
     },
     {
-      "seq": 151,
-      "serial": "henry-v-a02-s04-i0151",
+      "seq": 150,
+      "serial": "henry-v-a02-s04-i0150",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -13477,8 +13503,8 @@
       ]
     },
     {
-      "seq": 152,
-      "serial": "henry-v-a02-s04-i0152",
+      "seq": 151,
+      "serial": "henry-v-a02-s04-i0151",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -13562,8 +13588,8 @@
       ]
     },
     {
-      "seq": 153,
-      "serial": "henry-v-a02-s04-i0153",
+      "seq": 152,
+      "serial": "henry-v-a02-s04-i0152",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -13645,8 +13671,8 @@
       ]
     },
     {
-      "seq": 154,
-      "serial": "henry-v-a02-s04-i0154",
+      "seq": 153,
+      "serial": "henry-v-a02-s04-i0153",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -13658,8 +13684,8 @@
       "spans": []
     },
     {
-      "seq": 155,
-      "serial": "henry-v-a02-s04-i0155",
+      "seq": 154,
+      "serial": "henry-v-a02-s04-i0154",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -13763,8 +13789,8 @@
       ]
     },
     {
-      "seq": 156,
-      "serial": "henry-v-a02-s04-i0156",
+      "seq": 155,
+      "serial": "henry-v-a02-s04-i0155",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -13862,8 +13888,8 @@
       ]
     },
     {
-      "seq": 157,
-      "serial": "henry-v-a02-s04-i0157",
+      "seq": 156,
+      "serial": "henry-v-a02-s04-i0156",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -13975,8 +14001,8 @@
       ]
     },
     {
-      "seq": 158,
-      "serial": "henry-v-a02-s04-i0158",
+      "seq": 157,
+      "serial": "henry-v-a02-s04-i0157",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -14066,8 +14092,8 @@
       ]
     },
     {
-      "seq": 159,
-      "serial": "henry-v-a02-s04-i0159",
+      "seq": 158,
+      "serial": "henry-v-a02-s04-i0158",
       "kind": "speech",
       "subtype": null,
       "speaker": "DAUPHIN",
@@ -14165,8 +14191,8 @@
       ]
     },
     {
-      "seq": 160,
-      "serial": "henry-v-a02-s04-i0160",
+      "seq": 159,
+      "serial": "henry-v-a02-s04-i0159",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "EXETER",
@@ -14178,8 +14204,8 @@
       "spans": []
     },
     {
-      "seq": 161,
-      "serial": "henry-v-a02-s04-i0161",
+      "seq": 160,
+      "serial": "henry-v-a02-s04-i0160",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -14277,8 +14303,8 @@
       ]
     },
     {
-      "seq": 162,
-      "serial": "henry-v-a02-s04-i0162",
+      "seq": 161,
+      "serial": "henry-v-a02-s04-i0161",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -14390,8 +14416,8 @@
       ]
     },
     {
-      "seq": 163,
-      "serial": "henry-v-a02-s04-i0163",
+      "seq": 162,
+      "serial": "henry-v-a02-s04-i0162",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -14509,8 +14535,8 @@
       ]
     },
     {
-      "seq": 164,
-      "serial": "henry-v-a02-s04-i0164",
+      "seq": 163,
+      "serial": "henry-v-a02-s04-i0163",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -14608,8 +14634,8 @@
       ]
     },
     {
-      "seq": 165,
-      "serial": "henry-v-a02-s04-i0165",
+      "seq": 164,
+      "serial": "henry-v-a02-s04-i0164",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -14685,8 +14711,8 @@
       ]
     },
     {
-      "seq": 166,
-      "serial": "henry-v-a02-s04-i0166",
+      "seq": 165,
+      "serial": "henry-v-a02-s04-i0165",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -14792,8 +14818,8 @@
       ]
     },
     {
-      "seq": 167,
-      "serial": "henry-v-a02-s04-i0167",
+      "seq": 166,
+      "serial": "henry-v-a02-s04-i0166",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -14899,8 +14925,8 @@
       ]
     },
     {
-      "seq": 168,
-      "serial": "henry-v-a02-s04-i0168",
+      "seq": 167,
+      "serial": "henry-v-a02-s04-i0167",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -15020,8 +15046,8 @@
       ]
     },
     {
-      "seq": 169,
-      "serial": "henry-v-a02-s04-i0169",
+      "seq": 168,
+      "serial": "henry-v-a02-s04-i0168",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -15033,8 +15059,8 @@
       "spans": []
     },
     {
-      "seq": 170,
-      "serial": "henry-v-a02-s04-i0170",
+      "seq": 169,
+      "serial": "henry-v-a02-s04-i0169",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -15132,8 +15158,8 @@
       ]
     },
     {
-      "seq": 171,
-      "serial": "henry-v-a02-s04-i0171",
+      "seq": 170,
+      "serial": "henry-v-a02-s04-i0170",
       "kind": "stage",
       "subtype": "music",
       "speaker": null,
@@ -15155,7 +15181,7 @@
               "s": "Flourish",
               "norm": "flourish",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0171-t001",
+              "serial": "henry-v-a02-s04-i0170-t001",
               "em": true
             },
             {
@@ -15164,7 +15190,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0171-t002",
+              "serial": "henry-v-a02-s04-i0170-t002",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -15178,8 +15204,8 @@
       ]
     },
     {
-      "seq": 172,
-      "serial": "henry-v-a02-s04-i0172",
+      "seq": 171,
+      "serial": "henry-v-a02-s04-i0171",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "EXETER",
@@ -15191,8 +15217,8 @@
       "spans": []
     },
     {
-      "seq": 173,
-      "serial": "henry-v-a02-s04-i0173",
+      "seq": 172,
+      "serial": "henry-v-a02-s04-i0172",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -15298,8 +15324,8 @@
       ]
     },
     {
-      "seq": 174,
-      "serial": "henry-v-a02-s04-i0174",
+      "seq": 173,
+      "serial": "henry-v-a02-s04-i0173",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -15389,8 +15415,8 @@
       ]
     },
     {
-      "seq": 175,
-      "serial": "henry-v-a02-s04-i0175",
+      "seq": 174,
+      "serial": "henry-v-a02-s04-i0174",
       "kind": "speech",
       "subtype": null,
       "speaker": "EXETER",
@@ -15488,8 +15514,8 @@
       ]
     },
     {
-      "seq": 176,
-      "serial": "henry-v-a02-s04-i0176",
+      "seq": 175,
+      "serial": "henry-v-a02-s04-i0175",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -15501,8 +15527,8 @@
       "spans": []
     },
     {
-      "seq": 177,
-      "serial": "henry-v-a02-s04-i0177",
+      "seq": 176,
+      "serial": "henry-v-a02-s04-i0176",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -15600,8 +15626,8 @@
       ]
     },
     {
-      "seq": 178,
-      "serial": "henry-v-a02-s04-i0178",
+      "seq": 177,
+      "serial": "henry-v-a02-s04-i0177",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -15693,8 +15719,8 @@
       ]
     },
     {
-      "seq": 179,
-      "serial": "henry-v-a02-s04-i0179",
+      "seq": 178,
+      "serial": "henry-v-a02-s04-i0178",
       "kind": "speech",
       "subtype": null,
       "speaker": "FRENCH KING",
@@ -15776,8 +15802,8 @@
       ]
     },
     {
-      "seq": 180,
-      "serial": "henry-v-a02-s04-i0180",
+      "seq": 179,
+      "serial": "henry-v-a02-s04-i0179",
       "kind": "stage",
       "subtype": "exeunt",
       "speaker": null,
@@ -15799,7 +15825,7 @@
               "s": "Exeunt",
               "norm": "exeunt",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0180-t001",
+              "serial": "henry-v-a02-s04-i0179-t001",
               "em": true
             },
             {
@@ -15808,7 +15834,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s04-i0180-t002",
+              "serial": "henry-v-a02-s04-i0179-t002",
               "em": true,
               "punct": {
                 "kind": "period",
