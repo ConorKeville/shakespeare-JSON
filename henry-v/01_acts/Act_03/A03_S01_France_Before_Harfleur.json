@@ -182,8 +182,8 @@
     {
       "seq": 3,
       "serial": "henry-v-a03-s01-i0003",
-      "kind": "heading",
-      "subtype": "title",
+      "kind": "stage",
+      "subtype": "enter",
       "speaker": null,
       "speech_id": null,
       "speech_seq": null,
@@ -192,9 +192,9 @@
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": "Alarum. Enter King Henry, Exeter, Bedford, Gloucester and Soldiers,",
+          "type": "stage",
+          "em": true,
+          "text": "Alarum. Enter King Henry, Exeter, Bedford, Gloucester, and Soldiers with scaling-ladders.",
           "tokens": [
             {
               "i": 1,
@@ -202,7 +202,8 @@
               "s": "Alarum",
               "norm": "alarum",
               "pre": "",
-              "serial": "henry-v-a03-s01-i0003-t001"
+              "serial": "henry-v-a03-s01-i0003-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -216,7 +217,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -224,7 +226,8 @@
               "s": "Enter",
               "norm": "enter",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0003-t003"
+              "serial": "henry-v-a03-s01-i0003-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -232,7 +235,8 @@
               "s": "King",
               "norm": "king",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0003-t004"
+              "serial": "henry-v-a03-s01-i0003-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -240,7 +244,8 @@
               "s": "Henry",
               "norm": "henry",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0003-t005"
+              "serial": "henry-v-a03-s01-i0003-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -254,7 +259,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -262,7 +268,8 @@
               "s": "Exeter",
               "norm": "exeter",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0003-t007"
+              "serial": "henry-v-a03-s01-i0003-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -276,7 +283,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 9,
@@ -284,7 +292,8 @@
               "s": "Bedford",
               "norm": "bedford",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0003-t009"
+              "serial": "henry-v-a03-s01-i0003-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -298,7 +307,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 11,
@@ -306,117 +316,106 @@
               "s": "Gloucester",
               "norm": "gloucester",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0003-t011"
+              "serial": "henry-v-a03-s01-i0003-t011",
+              "em": true
             },
             {
               "i": 12,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "henry-v-a03-s01-i0003-t012"
-            },
-            {
-              "i": 13,
-              "type": "word",
-              "s": "Soldiers",
-              "norm": "soldiers",
-              "pre": " ",
-              "serial": "henry-v-a03-s01-i0003-t013"
-            },
-            {
-              "i": 14,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a03-s01-i0003-t014",
+              "serial": "henry-v-a03-s01-i0003-t012",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 4,
-      "serial": "henry-v-a03-s01-i0004",
-      "kind": "heading",
-      "subtype": "title",
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": " with scaling-ladders.",
-          "tokens": [
+              },
+              "em": true
+            },
             {
-              "i": 1,
+              "i": 13,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-a03-s01-i0003-t013",
+              "em": true
+            },
+            {
+              "i": 14,
+              "type": "word",
+              "s": "Soldiers",
+              "norm": "soldiers",
+              "pre": " ",
+              "serial": "henry-v-a03-s01-i0003-t014",
+              "em": true
+            },
+            {
+              "i": 15,
               "type": "word",
               "s": "with",
               "norm": "with",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0004-t001"
+              "serial": "henry-v-a03-s01-i0003-t015",
+              "em": true
             },
             {
-              "i": 2,
+              "i": 16,
               "type": "word",
               "s": "scaling",
               "norm": "scaling",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0004-t002"
+              "serial": "henry-v-a03-s01-i0003-t016",
+              "em": true
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-v-a03-s01-i0004-t003",
+              "serial": "henry-v-a03-s01-i0003-t017",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
                 "quote": null,
                 "role": null
               },
-              "i": 3
+              "i": 17,
+              "em": true
             },
             {
-              "i": 4,
+              "i": 18,
               "type": "word",
               "s": "ladders",
               "norm": "ladders",
               "pre": "",
-              "serial": "henry-v-a03-s01-i0004-t004"
+              "serial": "henry-v-a03-s01-i0003-t018",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 19,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a03-s01-i0004-t005",
+              "serial": "henry-v-a03-s01-i0003-t019",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
-          ]
+          ],
+          "stage": null
         }
       ]
     },
     {
-      "seq": 5,
+      "seq": 4,
       "serial": "henry-v-a03-s01-i0005",
       "kind": "speaker_label",
       "subtype": null,
@@ -429,7 +428,7 @@
       "spans": []
     },
     {
-      "seq": 6,
+      "seq": 5,
       "serial": "henry-v-a03-s01-i0006",
       "kind": "speech",
       "subtype": null,
@@ -564,7 +563,7 @@
       ]
     },
     {
-      "seq": 7,
+      "seq": 6,
       "serial": "henry-v-a03-s01-i0007",
       "kind": "speech",
       "subtype": null,
@@ -671,7 +670,7 @@
       ]
     },
     {
-      "seq": 8,
+      "seq": 7,
       "serial": "henry-v-a03-s01-i0008",
       "kind": "speech",
       "subtype": null,
@@ -756,7 +755,7 @@
       ]
     },
     {
-      "seq": 9,
+      "seq": 8,
       "serial": "henry-v-a03-s01-i0009",
       "kind": "speech",
       "subtype": null,
@@ -831,7 +830,7 @@
       ]
     },
     {
-      "seq": 10,
+      "seq": 9,
       "serial": "henry-v-a03-s01-i0010",
       "kind": "speech",
       "subtype": null,
@@ -946,7 +945,7 @@
       ]
     },
     {
-      "seq": 11,
+      "seq": 10,
       "serial": "henry-v-a03-s01-i0011",
       "kind": "speech",
       "subtype": null,
@@ -1037,7 +1036,7 @@
       ]
     },
     {
-      "seq": 12,
+      "seq": 11,
       "serial": "henry-v-a03-s01-i0012",
       "kind": "speech",
       "subtype": null,
@@ -1142,7 +1141,7 @@
       ]
     },
     {
-      "seq": 13,
+      "seq": 12,
       "serial": "henry-v-a03-s01-i0013",
       "kind": "speech",
       "subtype": null,
@@ -1247,7 +1246,7 @@
       ]
     },
     {
-      "seq": 14,
+      "seq": 13,
       "serial": "henry-v-a03-s01-i0014",
       "kind": "speech",
       "subtype": null,
@@ -1338,7 +1337,7 @@
       ]
     },
     {
-      "seq": 15,
+      "seq": 14,
       "serial": "henry-v-a03-s01-i0015",
       "kind": "speech",
       "subtype": null,
@@ -1431,7 +1430,7 @@
       ]
     },
     {
-      "seq": 16,
+      "seq": 15,
       "serial": "henry-v-a03-s01-i0016",
       "kind": "speech",
       "subtype": null,
@@ -1538,7 +1537,7 @@
       ]
     },
     {
-      "seq": 17,
+      "seq": 16,
       "serial": "henry-v-a03-s01-i0017",
       "kind": "speech",
       "subtype": null,
@@ -1615,7 +1614,7 @@
       ]
     },
     {
-      "seq": 18,
+      "seq": 17,
       "serial": "henry-v-a03-s01-i0018",
       "kind": "speech",
       "subtype": null,
@@ -1698,7 +1697,7 @@
       ]
     },
     {
-      "seq": 19,
+      "seq": 18,
       "serial": "henry-v-a03-s01-i0019",
       "kind": "speech",
       "subtype": null,
@@ -1789,7 +1788,7 @@
       ]
     },
     {
-      "seq": 20,
+      "seq": 19,
       "serial": "henry-v-a03-s01-i0020",
       "kind": "speech",
       "subtype": null,
@@ -1896,7 +1895,7 @@
       ]
     },
     {
-      "seq": 21,
+      "seq": 20,
       "serial": "henry-v-a03-s01-i0021",
       "kind": "speech",
       "subtype": null,
@@ -2003,7 +2002,7 @@
       ]
     },
     {
-      "seq": 22,
+      "seq": 21,
       "serial": "henry-v-a03-s01-i0022",
       "kind": "speech",
       "subtype": null,
@@ -2152,7 +2151,7 @@
       ]
     },
     {
-      "seq": 23,
+      "seq": 22,
       "serial": "henry-v-a03-s01-i0023",
       "kind": "speech",
       "subtype": null,
@@ -2273,7 +2272,7 @@
       ]
     },
     {
-      "seq": 24,
+      "seq": 23,
       "serial": "henry-v-a03-s01-i0024",
       "kind": "speech",
       "subtype": null,
@@ -2370,7 +2369,7 @@
       ]
     },
     {
-      "seq": 25,
+      "seq": 24,
       "serial": "henry-v-a03-s01-i0025",
       "kind": "speech",
       "subtype": null,
@@ -2477,7 +2476,7 @@
       ]
     },
     {
-      "seq": 26,
+      "seq": 25,
       "serial": "henry-v-a03-s01-i0026",
       "kind": "speech",
       "subtype": null,
@@ -2576,7 +2575,7 @@
       ]
     },
     {
-      "seq": 27,
+      "seq": 26,
       "serial": "henry-v-a03-s01-i0027",
       "kind": "speech",
       "subtype": null,
@@ -2659,7 +2658,7 @@
       ]
     },
     {
-      "seq": 28,
+      "seq": 27,
       "serial": "henry-v-a03-s01-i0028",
       "kind": "speech",
       "subtype": null,
@@ -2766,7 +2765,7 @@
       ]
     },
     {
-      "seq": 29,
+      "seq": 28,
       "serial": "henry-v-a03-s01-i0029",
       "kind": "speech",
       "subtype": null,
@@ -2865,7 +2864,7 @@
       ]
     },
     {
-      "seq": 30,
+      "seq": 29,
       "serial": "henry-v-a03-s01-i0030",
       "kind": "speech",
       "subtype": null,
@@ -3008,7 +3007,7 @@
       ]
     },
     {
-      "seq": 31,
+      "seq": 30,
       "serial": "henry-v-a03-s01-i0031",
       "kind": "speech",
       "subtype": null,
@@ -3115,7 +3114,7 @@
       ]
     },
     {
-      "seq": 32,
+      "seq": 31,
       "serial": "henry-v-a03-s01-i0032",
       "kind": "speech",
       "subtype": null,
@@ -3214,7 +3213,7 @@
       ]
     },
     {
-      "seq": 33,
+      "seq": 32,
       "serial": "henry-v-a03-s01-i0033",
       "kind": "speech",
       "subtype": null,
@@ -3343,7 +3342,7 @@
       ]
     },
     {
-      "seq": 34,
+      "seq": 33,
       "serial": "henry-v-a03-s01-i0034",
       "kind": "speech",
       "subtype": null,
@@ -3458,7 +3457,7 @@
       ]
     },
     {
-      "seq": 35,
+      "seq": 34,
       "serial": "henry-v-a03-s01-i0035",
       "kind": "speech",
       "subtype": null,
@@ -3557,7 +3556,7 @@
       ]
     },
     {
-      "seq": 36,
+      "seq": 35,
       "serial": "henry-v-a03-s01-i0036",
       "kind": "speech",
       "subtype": null,
@@ -3664,7 +3663,7 @@
       ]
     },
     {
-      "seq": 37,
+      "seq": 36,
       "serial": "henry-v-a03-s01-i0037",
       "kind": "speech",
       "subtype": null,
@@ -3769,7 +3768,7 @@
       ]
     },
     {
-      "seq": 38,
+      "seq": 37,
       "serial": "henry-v-a03-s01-i0038",
       "kind": "speech",
       "subtype": null,
@@ -3860,7 +3859,7 @@
       ]
     },
     {
-      "seq": 39,
+      "seq": 38,
       "serial": "henry-v-a03-s01-i0039",
       "kind": "speech",
       "subtype": null,
@@ -4015,7 +4014,7 @@
       ]
     },
     {
-      "seq": 40,
+      "seq": 39,
       "serial": "henry-v-a03-s01-i0040",
       "kind": "stage",
       "subtype": "exeunt",
@@ -4029,7 +4028,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Exeunt. Alarum, and chambers go off.",
+          "text": "Exeunt.",
           "stage": null,
           "tokens": [
             {
@@ -4048,88 +4047,101 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-v-a03-s01-i0040-t002",
-              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 40,
+      "serial": "henry-v-a03-s01-i0040a",
+      "kind": "stage",
+      "subtype": "sound",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "stage": null,
+          "text": "Alarum; chambers go off.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Alarum",
+              "norm": "alarum",
+              "pre": "",
+              "serial": "henry-v-a03-s01-i0040a-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "punct",
+              "s": ";",
+              "norm": ";",
+              "pre": "",
+              "serial": "henry-v-a03-s01-i0040a-t002",
+              "punct": {
+                "kind": "semicolon",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
             },
             {
               "i": 3,
               "type": "word",
-              "s": "Alarum",
-              "norm": "alarum",
+              "s": "chambers",
+              "norm": "chambers",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0040-t003",
+              "serial": "henry-v-a03-s01-i0040a-t003",
               "em": true
             },
             {
               "i": 4,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "henry-v-a03-s01-i0040-t004",
-              "em": true,
-              "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 5,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "henry-v-a03-s01-i0040-t005",
-              "em": true
-            },
-            {
-              "i": 6,
-              "type": "word",
-              "s": "chambers",
-              "norm": "chambers",
-              "pre": " ",
-              "serial": "henry-v-a03-s01-i0040-t006",
-              "em": true
-            },
-            {
-              "i": 7,
               "type": "word",
               "s": "go",
               "norm": "go",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0040-t007",
+              "serial": "henry-v-a03-s01-i0040a-t004",
               "em": true
             },
             {
-              "i": 8,
+              "i": 5,
               "type": "word",
               "s": "off",
               "norm": "off",
               "pre": " ",
-              "serial": "henry-v-a03-s01-i0040-t008",
+              "serial": "henry-v-a03-s01-i0040a-t005",
               "em": true
             },
             {
-              "i": 9,
+              "i": 6,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a03-s01-i0040-t009",
-              "em": true,
+              "serial": "henry-v-a03-s01-i0040a-t006",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }

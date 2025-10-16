@@ -172,7 +172,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Enter the King of France, the Dauphin, the Duke of Bourbon, the",
+          "text": "Enter the King of France, the Dauphin, the Duke of Bourbon, the Constable of France, and others.",
           "stage": null,
           "tokens": [
             {
@@ -227,13 +227,13 @@
               "norm": ",",
               "pre": "",
               "serial": "henry-v-a03-s05-i0003-t006",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -260,13 +260,13 @@
               "norm": ",",
               "pre": "",
               "serial": "henry-v-a03-s05-i0003-t009",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 10,
@@ -311,13 +311,13 @@
               "norm": ",",
               "pre": "",
               "serial": "henry-v-a03-s05-i0003-t014",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 15,
@@ -327,6 +327,81 @@
               "pre": " ",
               "serial": "henry-v-a03-s05-i0003-t015",
               "em": true
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "Constable",
+              "norm": "constable",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0003-t016",
+              "em": true
+            },
+            {
+              "i": 17,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0003-t017",
+              "em": true
+            },
+            {
+              "i": 18,
+              "type": "word",
+              "s": "France",
+              "norm": "france",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0003-t018",
+              "em": true
+            },
+            {
+              "i": 19,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a03-s05-i0003-t019",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
+            },
+            {
+              "i": 20,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0003-t020",
+              "em": true
+            },
+            {
+              "i": 21,
+              "type": "word",
+              "s": "others",
+              "norm": "others",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0003-t021",
+              "em": true
+            },
+            {
+              "i": 22,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-a03-s05-i0003-t022",
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
             }
           ]
         }
@@ -334,81 +409,57 @@
     },
     {
       "seq": 4,
-      "serial": "henry-v-a03-s05-i0005",
-      "kind": "speaker_label",
-      "subtype": null,
-      "speaker": "FRENCH KING",
+      "serial": "henry-v-a03-s05-i0003a",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
       "line_serial": null,
       "subsection": null,
-      "spans": []
-    },
-    {
-      "seq": 5,
-      "serial": "henry-v-a03-s05-i0004",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "FRENCH KING",
-      "speech_id": "henry-v-a03-s05-s0001",
-      "speech_seq": 1,
-      "line_number": 1,
-      "line_serial": "henry-v-a03-s05-l0001",
-      "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": " Constable of France and others.",
+          "type": "stage",
+          "em": true,
+          "stage": null,
+          "text": "Enter a Messenger.",
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "Constable",
-              "norm": "constable",
-              "pre": " ",
-              "serial": "henry-v-a03-s05-i0004-t001"
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-v-a03-s05-i0003a-t001",
+              "em": true
             },
             {
               "i": 2,
               "type": "word",
-              "s": "of",
-              "norm": "of",
+              "s": "a",
+              "norm": "a",
               "pre": " ",
-              "serial": "henry-v-a03-s05-i0004-t002"
+              "serial": "henry-v-a03-s05-i0003a-t002",
+              "em": true
             },
             {
               "i": 3,
               "type": "word",
-              "s": "France",
-              "norm": "france",
+              "s": "Messenger",
+              "norm": "messenger",
               "pre": " ",
-              "serial": "henry-v-a03-s05-i0004-t003"
+              "serial": "henry-v-a03-s05-i0003a-t003",
+              "em": true
             },
             {
               "i": 4,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "henry-v-a03-s05-i0004-t004"
-            },
-            {
-              "i": 5,
-              "type": "word",
-              "s": "others",
-              "norm": "others",
-              "pre": " ",
-              "serial": "henry-v-a03-s05-i0004-t005"
-            },
-            {
-              "i": 6,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a03-s05-i0004-t006",
+              "serial": "henry-v-a03-s05-i0003a-t004",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -419,6 +470,19 @@
           ]
         }
       ]
+    },
+    {
+      "seq": 5,
+      "serial": "henry-v-a03-s05-i0005",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "FRENCH KING",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
     },
     {
       "seq": 6,
@@ -894,23 +958,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_O Dieu vivant_! shall a few sprays of us,",
+          "em": true,
+          "text": "O Dieu vivant",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s05-l0005-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -934,21 +984,14 @@
               "norm": "vivant",
               "pre": " ",
               "serial": "henry-v-a03-s05-l0005-t004"
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s05-l0005-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": "! shall a few sprays of us,",
+          "tokens": [
             {
               "i": 6,
               "type": "punct",
@@ -1507,23 +1550,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Mort de ma vie_, if they march along",
+          "em": true,
+          "text": "Mort de ma vie",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s05-l0011-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -1555,21 +1584,14 @@
               "norm": "vie",
               "pre": " ",
               "serial": "henry-v-a03-s05-l0011-t005"
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s05-l0011-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", if they march along",
+          "tokens": [
             {
               "i": 7,
               "type": "punct",
@@ -1950,23 +1972,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Dieu de batailles_, where have they this mettle?",
+          "em": true,
+          "text": "Dieu de batailles",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s05-l0015-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -1990,21 +1998,14 @@
               "norm": "batailles",
               "pre": " ",
               "serial": "henry-v-a03-s05-l0015-t004"
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s05-l0015-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", where have they this mettle?",
+          "tokens": [
             {
               "i": 6,
               "type": "punct",
@@ -7886,6 +7887,88 @@
     },
     {
       "seq": 86,
+      "serial": "henry-v-a03-s05-i0085a",
+      "kind": "stage",
+      "subtype": "exeunt",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "stage": null,
+          "text": "Exeunt Messenger and certain Lords.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Exeunt",
+              "norm": "exeunt",
+              "pre": "",
+              "serial": "henry-v-a03-s05-i0085a-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Messenger",
+              "norm": "messenger",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0085a-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0085a-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "certain",
+              "norm": "certain",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0085a-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Lords",
+              "norm": "lords",
+              "pre": " ",
+              "serial": "henry-v-a03-s05-i0085a-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-a03-s05-i0085a-t006",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 87,
       "serial": "henry-v-a03-s05-i0086",
       "kind": "stage",
       "subtype": "exeunt",
