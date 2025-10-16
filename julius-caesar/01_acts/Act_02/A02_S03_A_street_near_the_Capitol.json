@@ -305,188 +305,191 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_“Caesar, beware of Brutus; take heed of Cassius; come not near Casca;",
+          "em": true,
+          "text": "“Caesar, beware of Brutus; take heed of Cassius; come not near Casca;",
           "tokens": [
             {
               "i": 1,
               "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "julius-caesar-a02-s03-l0001-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
-              "type": "punct",
               "s": "“",
               "norm": "\"",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0001-t002",
+              "serial": "julius-caesar-a02-s03-l0001-t001",
               "punct": {
                 "kind": "quote_open",
                 "dash": null,
                 "quote": "double",
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "word",
               "s": "Caesar",
               "norm": "caesar",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0001-t003"
+              "serial": "julius-caesar-a02-s03-l0001-t002",
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0001-t004",
+              "serial": "julius-caesar-a02-s03-l0001-t003",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "beware",
               "norm": "beware",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t005"
+              "serial": "julius-caesar-a02-s03-l0001-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "julius-caesar-a02-s03-l0001-t005",
+              "em": true
             },
             {
               "i": 6,
               "type": "word",
-              "s": "of",
-              "norm": "of",
-              "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t006"
-            },
-            {
-              "i": 7,
-              "type": "word",
               "s": "Brutus",
               "norm": "brutus",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t007"
+              "serial": "julius-caesar-a02-s03-l0001-t006",
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "punct",
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0001-t008",
+              "serial": "julius-caesar-a02-s03-l0001-t007",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 9,
+              "i": 8,
               "type": "word",
               "s": "take",
               "norm": "take",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t009"
+              "serial": "julius-caesar-a02-s03-l0001-t008",
+              "em": true
             },
             {
-              "i": 10,
+              "i": 9,
               "type": "word",
               "s": "heed",
               "norm": "heed",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t010"
+              "serial": "julius-caesar-a02-s03-l0001-t009",
+              "em": true
             },
             {
-              "i": 11,
+              "i": 10,
               "type": "word",
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t011"
+              "serial": "julius-caesar-a02-s03-l0001-t010",
+              "em": true
             },
             {
-              "i": 12,
+              "i": 11,
               "type": "word",
               "s": "Cassius",
               "norm": "cassius",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t012"
+              "serial": "julius-caesar-a02-s03-l0001-t011",
+              "em": true
             },
             {
-              "i": 13,
+              "i": 12,
               "type": "punct",
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0001-t013",
+              "serial": "julius-caesar-a02-s03-l0001-t012",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 14,
+              "i": 13,
               "type": "word",
               "s": "come",
               "norm": "come",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t014"
+              "serial": "julius-caesar-a02-s03-l0001-t013",
+              "em": true
             },
             {
-              "i": 15,
+              "i": 14,
               "type": "word",
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t015"
+              "serial": "julius-caesar-a02-s03-l0001-t014",
+              "em": true
             },
             {
-              "i": 16,
+              "i": 15,
               "type": "word",
               "s": "near",
               "norm": "near",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t016"
+              "serial": "julius-caesar-a02-s03-l0001-t015",
+              "em": true
             },
             {
-              "i": 17,
+              "i": 16,
               "type": "word",
               "s": "Casca",
               "norm": "casca",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0001-t017"
+              "serial": "julius-caesar-a02-s03-l0001-t016",
+              "em": true
             },
             {
-              "i": 18,
+              "i": 17,
               "type": "punct",
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0001-t018",
+              "serial": "julius-caesar-a02-s03-l0001-t017",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -506,7 +509,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "have an eye to Cinna; trust not Trebonius; mark well Metellus Cimber;",
           "tokens": [
             {
@@ -515,7 +518,8 @@
               "s": "have",
               "norm": "have",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0002-t001"
+              "serial": "julius-caesar-a02-s03-l0002-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -523,7 +527,8 @@
               "s": "an",
               "norm": "an",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t002"
+              "serial": "julius-caesar-a02-s03-l0002-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -531,7 +536,8 @@
               "s": "eye",
               "norm": "eye",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t003"
+              "serial": "julius-caesar-a02-s03-l0002-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -539,7 +545,8 @@
               "s": "to",
               "norm": "to",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t004"
+              "serial": "julius-caesar-a02-s03-l0002-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -547,7 +554,8 @@
               "s": "Cinna",
               "norm": "cinna",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t005"
+              "serial": "julius-caesar-a02-s03-l0002-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -561,7 +569,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -569,7 +578,8 @@
               "s": "trust",
               "norm": "trust",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t007"
+              "serial": "julius-caesar-a02-s03-l0002-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -577,7 +587,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t008"
+              "serial": "julius-caesar-a02-s03-l0002-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -585,7 +596,8 @@
               "s": "Trebonius",
               "norm": "trebonius",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t009"
+              "serial": "julius-caesar-a02-s03-l0002-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -599,7 +611,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 11,
@@ -607,7 +620,8 @@
               "s": "mark",
               "norm": "mark",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t011"
+              "serial": "julius-caesar-a02-s03-l0002-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -615,7 +629,8 @@
               "s": "well",
               "norm": "well",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t012"
+              "serial": "julius-caesar-a02-s03-l0002-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -623,7 +638,8 @@
               "s": "Metellus",
               "norm": "metellus",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t013"
+              "serial": "julius-caesar-a02-s03-l0002-t013",
+              "em": true
             },
             {
               "i": 14,
@@ -631,7 +647,8 @@
               "s": "Cimber",
               "norm": "cimber",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0002-t014"
+              "serial": "julius-caesar-a02-s03-l0002-t014",
+              "em": true
             },
             {
               "i": 15,
@@ -645,7 +662,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -665,7 +683,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "Decius Brutus loves thee not; thou hast wrong’d Caius Ligarius. There",
           "tokens": [
             {
@@ -674,7 +692,8 @@
               "s": "Decius",
               "norm": "decius",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0003-t001"
+              "serial": "julius-caesar-a02-s03-l0003-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -682,7 +701,8 @@
               "s": "Brutus",
               "norm": "brutus",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t002"
+              "serial": "julius-caesar-a02-s03-l0003-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -690,7 +710,8 @@
               "s": "loves",
               "norm": "loves",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t003"
+              "serial": "julius-caesar-a02-s03-l0003-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -698,7 +719,8 @@
               "s": "thee",
               "norm": "thee",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t004"
+              "serial": "julius-caesar-a02-s03-l0003-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -706,7 +728,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t005"
+              "serial": "julius-caesar-a02-s03-l0003-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -720,7 +743,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -728,7 +752,8 @@
               "s": "thou",
               "norm": "thou",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t007"
+              "serial": "julius-caesar-a02-s03-l0003-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -736,7 +761,8 @@
               "s": "hast",
               "norm": "hast",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t008"
+              "serial": "julius-caesar-a02-s03-l0003-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -744,7 +770,8 @@
               "s": "wrong’d",
               "norm": "wrong'd",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t009"
+              "serial": "julius-caesar-a02-s03-l0003-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -752,7 +779,8 @@
               "s": "Caius",
               "norm": "caius",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t010"
+              "serial": "julius-caesar-a02-s03-l0003-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -760,7 +788,8 @@
               "s": "Ligarius",
               "norm": "ligarius",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t011"
+              "serial": "julius-caesar-a02-s03-l0003-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -774,7 +803,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 13,
@@ -782,7 +812,8 @@
               "s": "There",
               "norm": "there",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0003-t013"
+              "serial": "julius-caesar-a02-s03-l0003-t013",
+              "em": true
             }
           ]
         }
@@ -802,7 +833,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "is but one mind in all these men, and it is bent against Caesar. If",
           "tokens": [
             {
@@ -811,7 +842,8 @@
               "s": "is",
               "norm": "is",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0004-t001"
+              "serial": "julius-caesar-a02-s03-l0004-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -819,7 +851,8 @@
               "s": "but",
               "norm": "but",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t002"
+              "serial": "julius-caesar-a02-s03-l0004-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -827,7 +860,8 @@
               "s": "one",
               "norm": "one",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t003"
+              "serial": "julius-caesar-a02-s03-l0004-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -835,7 +869,8 @@
               "s": "mind",
               "norm": "mind",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t004"
+              "serial": "julius-caesar-a02-s03-l0004-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -843,7 +878,8 @@
               "s": "in",
               "norm": "in",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t005"
+              "serial": "julius-caesar-a02-s03-l0004-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -851,7 +887,8 @@
               "s": "all",
               "norm": "all",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t006"
+              "serial": "julius-caesar-a02-s03-l0004-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -859,7 +896,8 @@
               "s": "these",
               "norm": "these",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t007"
+              "serial": "julius-caesar-a02-s03-l0004-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -867,7 +905,8 @@
               "s": "men",
               "norm": "men",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t008"
+              "serial": "julius-caesar-a02-s03-l0004-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -881,7 +920,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 10,
@@ -889,7 +929,8 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t010"
+              "serial": "julius-caesar-a02-s03-l0004-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -897,7 +938,8 @@
               "s": "it",
               "norm": "it",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t011"
+              "serial": "julius-caesar-a02-s03-l0004-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -905,7 +947,8 @@
               "s": "is",
               "norm": "is",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t012"
+              "serial": "julius-caesar-a02-s03-l0004-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -913,7 +956,8 @@
               "s": "bent",
               "norm": "bent",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t013"
+              "serial": "julius-caesar-a02-s03-l0004-t013",
+              "em": true
             },
             {
               "i": 14,
@@ -921,7 +965,8 @@
               "s": "against",
               "norm": "against",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t014"
+              "serial": "julius-caesar-a02-s03-l0004-t014",
+              "em": true
             },
             {
               "i": 15,
@@ -929,7 +974,8 @@
               "s": "Caesar",
               "norm": "caesar",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t015"
+              "serial": "julius-caesar-a02-s03-l0004-t015",
+              "em": true
             },
             {
               "i": 16,
@@ -943,7 +989,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 17,
@@ -951,7 +998,8 @@
               "s": "If",
               "norm": "if",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0004-t017"
+              "serial": "julius-caesar-a02-s03-l0004-t017",
+              "em": true
             }
           ]
         }
@@ -971,7 +1019,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "thou be’st not immortal, look about you: security gives way to",
           "tokens": [
             {
@@ -980,7 +1028,8 @@
               "s": "thou",
               "norm": "thou",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0005-t001"
+              "serial": "julius-caesar-a02-s03-l0005-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -988,7 +1037,8 @@
               "s": "be’st",
               "norm": "be'st",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t002"
+              "serial": "julius-caesar-a02-s03-l0005-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -996,7 +1046,8 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t003"
+              "serial": "julius-caesar-a02-s03-l0005-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1004,7 +1055,8 @@
               "s": "immortal",
               "norm": "immortal",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t004"
+              "serial": "julius-caesar-a02-s03-l0005-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -1018,7 +1070,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 6,
@@ -1026,7 +1079,8 @@
               "s": "look",
               "norm": "look",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t006"
+              "serial": "julius-caesar-a02-s03-l0005-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -1034,7 +1088,8 @@
               "s": "about",
               "norm": "about",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t007"
+              "serial": "julius-caesar-a02-s03-l0005-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -1042,7 +1097,8 @@
               "s": "you",
               "norm": "you",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t008"
+              "serial": "julius-caesar-a02-s03-l0005-t008",
+              "em": true
             },
             {
               "i": 9,
@@ -1056,7 +1112,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 10,
@@ -1064,7 +1121,8 @@
               "s": "security",
               "norm": "security",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t010"
+              "serial": "julius-caesar-a02-s03-l0005-t010",
+              "em": true
             },
             {
               "i": 11,
@@ -1072,7 +1130,8 @@
               "s": "gives",
               "norm": "gives",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t011"
+              "serial": "julius-caesar-a02-s03-l0005-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -1080,7 +1139,8 @@
               "s": "way",
               "norm": "way",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t012"
+              "serial": "julius-caesar-a02-s03-l0005-t012",
+              "em": true
             },
             {
               "i": 13,
@@ -1088,7 +1148,8 @@
               "s": "to",
               "norm": "to",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0005-t013"
+              "serial": "julius-caesar-a02-s03-l0005-t013",
+              "em": true
             }
           ]
         }
@@ -1108,7 +1169,7 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
+          "em": true,
           "text": "conspiracy. The mighty gods defend thee!",
           "tokens": [
             {
@@ -1117,7 +1178,8 @@
               "s": "conspiracy",
               "norm": "conspiracy",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0006-t001"
+              "serial": "julius-caesar-a02-s03-l0006-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1131,7 +1193,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 3,
@@ -1139,7 +1202,8 @@
               "s": "The",
               "norm": "the",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0006-t003"
+              "serial": "julius-caesar-a02-s03-l0006-t003",
+              "em": true
             },
             {
               "i": 4,
@@ -1147,7 +1211,8 @@
               "s": "mighty",
               "norm": "mighty",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0006-t004"
+              "serial": "julius-caesar-a02-s03-l0006-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -1155,7 +1220,8 @@
               "s": "gods",
               "norm": "gods",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0006-t005"
+              "serial": "julius-caesar-a02-s03-l0006-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -1163,7 +1229,8 @@
               "s": "defend",
               "norm": "defend",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0006-t006"
+              "serial": "julius-caesar-a02-s03-l0006-t006",
+              "em": true
             },
             {
               "i": 7,
@@ -1171,7 +1238,8 @@
               "s": "thee",
               "norm": "thee",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0006-t007"
+              "serial": "julius-caesar-a02-s03-l0006-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -1185,7 +1253,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -1205,8 +1274,8 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "Thy lover, Artemidorus.”_ Here will I stand till Caesar pass along, And",
+          "em": true,
+          "text": "Thy lover, Artemidorus.”",
           "tokens": [
             {
               "i": 1,
@@ -1214,7 +1283,8 @@
               "s": "Thy",
               "norm": "thy",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0007-t001"
+              "serial": "julius-caesar-a02-s03-l0007-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -1222,7 +1292,8 @@
               "s": "lover",
               "norm": "lover",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t002"
+              "serial": "julius-caesar-a02-s03-l0007-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -1236,7 +1307,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 4,
@@ -1244,7 +1316,8 @@
               "s": "Artemidorus",
               "norm": "artemidorus",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t004"
+              "serial": "julius-caesar-a02-s03-l0007-t004",
+              "em": true
             },
             {
               "i": 5,
@@ -1258,7 +1331,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 6,
@@ -1272,93 +1346,87 @@
                 "dash": null,
                 "quote": "double",
                 "role": null
-              }
-            },
+              },
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": "Here will I stand till Caesar pass along, And",
+          "tokens": [
             {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "julius-caesar-a02-s03-l0007-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 8,
+              "i": 1,
               "type": "word",
               "s": "Here",
               "norm": "here",
-              "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t008"
+              "pre": "",
+              "serial": "julius-caesar-a02-s03-l0007-r001"
             },
             {
-              "i": 9,
+              "i": 2,
               "type": "word",
               "s": "will",
               "norm": "will",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t009"
+              "serial": "julius-caesar-a02-s03-l0007-r002"
             },
             {
-              "i": 10,
+              "i": 3,
               "type": "word",
               "s": "I",
               "norm": "i",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t010"
+              "serial": "julius-caesar-a02-s03-l0007-r003"
             },
             {
-              "i": 11,
+              "i": 4,
               "type": "word",
               "s": "stand",
               "norm": "stand",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t011"
+              "serial": "julius-caesar-a02-s03-l0007-r004"
             },
             {
-              "i": 12,
+              "i": 5,
               "type": "word",
               "s": "till",
               "norm": "till",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t012"
+              "serial": "julius-caesar-a02-s03-l0007-r005"
             },
             {
-              "i": 13,
+              "i": 6,
               "type": "word",
               "s": "Caesar",
               "norm": "caesar",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t013"
+              "serial": "julius-caesar-a02-s03-l0007-r006"
             },
             {
-              "i": 14,
+              "i": 7,
               "type": "word",
               "s": "pass",
               "norm": "pass",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t014"
+              "serial": "julius-caesar-a02-s03-l0007-r007"
             },
             {
-              "i": 15,
+              "i": 8,
               "type": "word",
               "s": "along",
               "norm": "along",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t015"
+              "serial": "julius-caesar-a02-s03-l0007-r008"
             },
             {
-              "i": 16,
+              "i": 9,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "julius-caesar-a02-s03-l0007-t016",
+              "serial": "julius-caesar-a02-s03-l0007-r009",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -1367,12 +1435,12 @@
               }
             },
             {
-              "i": 17,
+              "i": 10,
               "type": "word",
               "s": "And",
               "norm": "and",
               "pre": " ",
-              "serial": "julius-caesar-a02-s03-l0007-t017"
+              "serial": "julius-caesar-a02-s03-l0007-r010"
             }
           ]
         }

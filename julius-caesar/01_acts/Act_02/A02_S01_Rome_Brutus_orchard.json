@@ -5699,120 +5699,116 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Brutus, thou sleep’st: awake and see thyself.",
+          "em": true,
+          "text": "Brutus, thou sleep’st: awake and see thyself.",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "julius-caesar-a02-s01-i0066-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Brutus",
               "norm": "brutus",
               "pre": "",
-              "serial": "julius-caesar-a02-s01-i0066-t002"
+              "serial": "julius-caesar-a02-s01-i0066-t001",
+              "em": true
             },
             {
-              "i": 3,
+              "i": 2,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "julius-caesar-a02-s01-i0066-t003",
+              "serial": "julius-caesar-a02-s01-i0066-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 4,
+              "i": 3,
               "type": "word",
               "s": "thou",
               "norm": "thou",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0066-t004"
+              "serial": "julius-caesar-a02-s01-i0066-t003",
+              "em": true
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
               "s": "sleep’st",
               "norm": "sleep'st",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0066-t005"
+              "serial": "julius-caesar-a02-s01-i0066-t004",
+              "em": true
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "punct",
               "s": ":",
               "norm": ":",
               "pre": "",
-              "serial": "julius-caesar-a02-s01-i0066-t006",
+              "serial": "julius-caesar-a02-s01-i0066-t005",
               "punct": {
                 "kind": "colon",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
-              "i": 7,
+              "i": 6,
               "type": "word",
               "s": "awake",
               "norm": "awake",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0066-t007"
+              "serial": "julius-caesar-a02-s01-i0066-t006",
+              "em": true
             },
             {
-              "i": 8,
+              "i": 7,
               "type": "word",
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0066-t008"
+              "serial": "julius-caesar-a02-s01-i0066-t007",
+              "em": true
             },
             {
-              "i": 9,
+              "i": 8,
               "type": "word",
               "s": "see",
               "norm": "see",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0066-t009"
+              "serial": "julius-caesar-a02-s01-i0066-t008",
+              "em": true
             },
             {
-              "i": 10,
+              "i": 9,
               "type": "word",
               "s": "thyself",
               "norm": "thyself",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0066-t010"
+              "serial": "julius-caesar-a02-s01-i0066-t009",
+              "em": true
             },
             {
-              "i": 11,
+              "i": 10,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "julius-caesar-a02-s01-i0066-t011",
+              "serial": "julius-caesar-a02-s01-i0066-t010",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -5832,8 +5828,8 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "Shall Rome, &c. Speak, strike, redress!_",
+          "em": true,
+          "text": "Shall Rome, &c. Speak, strike, redress!",
           "tokens": [
             {
               "i": 1,
@@ -5841,7 +5837,8 @@
               "s": "Shall",
               "norm": "shall",
               "pre": "",
-              "serial": "julius-caesar-a02-s01-i0067-t001"
+              "serial": "julius-caesar-a02-s01-i0067-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -5849,7 +5846,8 @@
               "s": "Rome",
               "norm": "rome",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0067-t002"
+              "serial": "julius-caesar-a02-s01-i0067-t002",
+              "em": true
             },
             {
               "i": 3,
@@ -5863,7 +5861,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 4,
@@ -5877,7 +5876,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 5,
@@ -5885,7 +5885,8 @@
               "s": "c",
               "norm": "c",
               "pre": "",
-              "serial": "julius-caesar-a02-s01-i0067-t005"
+              "serial": "julius-caesar-a02-s01-i0067-t005",
+              "em": true
             },
             {
               "i": 6,
@@ -5899,7 +5900,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 7,
@@ -5907,7 +5909,8 @@
               "s": "Speak",
               "norm": "speak",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0067-t007"
+              "serial": "julius-caesar-a02-s01-i0067-t007",
+              "em": true
             },
             {
               "i": 8,
@@ -5921,7 +5924,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 9,
@@ -5929,7 +5933,8 @@
               "s": "strike",
               "norm": "strike",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0067-t009"
+              "serial": "julius-caesar-a02-s01-i0067-t009",
+              "em": true
             },
             {
               "i": 10,
@@ -5943,7 +5948,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 11,
@@ -5951,7 +5957,8 @@
               "s": "redress",
               "norm": "redress",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0067-t011"
+              "serial": "julius-caesar-a02-s01-i0067-t011",
+              "em": true
             },
             {
               "i": 12,
@@ -5965,21 +5972,8 @@
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "julius-caesar-a02-s01-i0067-t013",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -32368,21 +32362,20 @@
     },
     {
       "seq": 380,
-      "serial": "julius-caesar-a02-s01-i0380",
-      "kind": "stage",
-      "subtype": "within",
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
+      "serial": "julius-caesar-a02-s01-i0381",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PORTIA",
+      "speech_id": "julius-caesar-a02-s01-s0069",
+      "speech_seq": 2,
+      "line_number": 292,
+      "line_serial": "julius-caesar-a02-s01-l0292",
       "subsection": null,
       "spans": [
         {
-          "type": "stage",
-          "em": true,
+          "type": "speech",
+          "em": false,
           "text": "Within the bond of marriage, tell me, Brutus,",
-          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -32390,8 +32383,7 @@
               "s": "Within",
               "norm": "within",
               "pre": "",
-              "serial": "julius-caesar-a02-s01-i0380-t001",
-              "em": true
+              "serial": "julius-caesar-a02-s01-i0380-t001"
             },
             {
               "i": 2,
@@ -32399,8 +32391,7 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0380-t002",
-              "em": true
+              "serial": "julius-caesar-a02-s01-i0380-t002"
             },
             {
               "i": 3,
@@ -32408,8 +32399,7 @@
               "s": "bond",
               "norm": "bond",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0380-t003",
-              "em": true
+              "serial": "julius-caesar-a02-s01-i0380-t003"
             },
             {
               "i": 4,
@@ -32417,8 +32407,7 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0380-t004",
-              "em": true
+              "serial": "julius-caesar-a02-s01-i0380-t004"
             },
             {
               "i": 5,
@@ -32426,8 +32415,7 @@
               "s": "marriage",
               "norm": "marriage",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0380-t005",
-              "em": true
+              "serial": "julius-caesar-a02-s01-i0380-t005"
             },
             {
               "i": 6,
@@ -32436,7 +32424,6 @@
               "norm": ",",
               "pre": "",
               "serial": "julius-caesar-a02-s01-i0380-t006",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -32450,8 +32437,7 @@
               "s": "tell",
               "norm": "tell",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0380-t007",
-              "em": true
+              "serial": "julius-caesar-a02-s01-i0380-t007"
             },
             {
               "i": 8,
@@ -32459,8 +32445,7 @@
               "s": "me",
               "norm": "me",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0380-t008",
-              "em": true
+              "serial": "julius-caesar-a02-s01-i0380-t008"
             },
             {
               "i": 9,
@@ -32469,7 +32454,6 @@
               "norm": ",",
               "pre": "",
               "serial": "julius-caesar-a02-s01-i0380-t009",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -32483,8 +32467,7 @@
               "s": "Brutus",
               "norm": "brutus",
               "pre": " ",
-              "serial": "julius-caesar-a02-s01-i0380-t010",
-              "em": true
+              "serial": "julius-caesar-a02-s01-i0380-t010"
             },
             {
               "i": 11,
@@ -32493,7 +32476,6 @@
               "norm": ",",
               "pre": "",
               "serial": "julius-caesar-a02-s01-i0380-t011",
-              "em": true,
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -32502,21 +32484,7 @@
               }
             }
           ]
-        }
-      ]
-    },
-    {
-      "seq": 381,
-      "serial": "julius-caesar-a02-s01-i0381",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "PORTIA",
-      "speech_id": "julius-caesar-a02-s01-s0069",
-      "speech_seq": 2,
-      "line_number": 292,
-      "line_serial": "julius-caesar-a02-s01-l0292",
-      "subsection": null,
-      "spans": [
+        },
         {
           "type": "speech",
           "em": false,
@@ -32591,7 +32559,7 @@
       ]
     },
     {
-      "seq": 382,
+      "seq": 381,
       "serial": "julius-caesar-a02-s01-i0382",
       "kind": "speech",
       "subtype": null,
@@ -32690,7 +32658,7 @@
       ]
     },
     {
-      "seq": 383,
+      "seq": 382,
       "serial": "julius-caesar-a02-s01-i0383",
       "kind": "speech",
       "subtype": null,
@@ -32817,7 +32785,7 @@
       ]
     },
     {
-      "seq": 384,
+      "seq": 383,
       "serial": "julius-caesar-a02-s01-i0384",
       "kind": "speech",
       "subtype": null,
@@ -32938,7 +32906,7 @@
       ]
     },
     {
-      "seq": 385,
+      "seq": 384,
       "serial": "julius-caesar-a02-s01-i0385",
       "kind": "speech",
       "subtype": null,
@@ -33061,7 +33029,7 @@
       ]
     },
     {
-      "seq": 386,
+      "seq": 385,
       "serial": "julius-caesar-a02-s01-i0386",
       "kind": "speech",
       "subtype": null,
@@ -33182,7 +33150,7 @@
       ]
     },
     {
-      "seq": 387,
+      "seq": 386,
       "serial": "julius-caesar-a02-s01-i0387",
       "kind": "speech",
       "subtype": null,
@@ -33287,7 +33255,7 @@
       ]
     },
     {
-      "seq": 388,
+      "seq": 387,
       "serial": "julius-caesar-a02-s01-i0388",
       "kind": "speaker_label",
       "subtype": null,
@@ -33300,7 +33268,7 @@
       "spans": []
     },
     {
-      "seq": 389,
+      "seq": 388,
       "serial": "julius-caesar-a02-s01-i0389",
       "kind": "speech",
       "subtype": null,
@@ -33391,7 +33359,7 @@
       ]
     },
     {
-      "seq": 390,
+      "seq": 389,
       "serial": "julius-caesar-a02-s01-i0390",
       "kind": "speech",
       "subtype": null,
@@ -33484,7 +33452,7 @@
       ]
     },
     {
-      "seq": 391,
+      "seq": 390,
       "serial": "julius-caesar-a02-s01-i0391",
       "kind": "speech",
       "subtype": null,
@@ -33559,7 +33527,7 @@
       ]
     },
     {
-      "seq": 392,
+      "seq": 391,
       "serial": "julius-caesar-a02-s01-i0392",
       "kind": "speaker_label",
       "subtype": null,
@@ -33572,7 +33540,7 @@
       "spans": []
     },
     {
-      "seq": 393,
+      "seq": 392,
       "serial": "julius-caesar-a02-s01-i0393",
       "kind": "speech",
       "subtype": null,
@@ -33701,7 +33669,7 @@
       ]
     },
     {
-      "seq": 394,
+      "seq": 393,
       "serial": "julius-caesar-a02-s01-i0394",
       "kind": "speech",
       "subtype": null,
@@ -33800,7 +33768,7 @@
       ]
     },
     {
-      "seq": 395,
+      "seq": 394,
       "serial": "julius-caesar-a02-s01-i0395",
       "kind": "speech",
       "subtype": null,
@@ -33899,7 +33867,7 @@
       ]
     },
     {
-      "seq": 396,
+      "seq": 395,
       "serial": "julius-caesar-a02-s01-i0396",
       "kind": "speech",
       "subtype": null,
@@ -33998,7 +33966,7 @@
       ]
     },
     {
-      "seq": 397,
+      "seq": 396,
       "serial": "julius-caesar-a02-s01-i0397",
       "kind": "speech",
       "subtype": null,
@@ -34095,7 +34063,7 @@
       ]
     },
     {
-      "seq": 398,
+      "seq": 397,
       "serial": "julius-caesar-a02-s01-i0398",
       "kind": "speech",
       "subtype": null,
@@ -34202,7 +34170,7 @@
       ]
     },
     {
-      "seq": 399,
+      "seq": 398,
       "serial": "julius-caesar-a02-s01-i0399",
       "kind": "speech",
       "subtype": null,
@@ -34285,7 +34253,7 @@
       ]
     },
     {
-      "seq": 400,
+      "seq": 399,
       "serial": "julius-caesar-a02-s01-i0400",
       "kind": "speech",
       "subtype": null,
@@ -34406,7 +34374,7 @@
       ]
     },
     {
-      "seq": 401,
+      "seq": 400,
       "serial": "julius-caesar-a02-s01-i0401",
       "kind": "speech",
       "subtype": null,
@@ -34505,7 +34473,7 @@
       ]
     },
     {
-      "seq": 402,
+      "seq": 401,
       "serial": "julius-caesar-a02-s01-i0402",
       "kind": "speech",
       "subtype": null,
@@ -34566,7 +34534,7 @@
       ]
     },
     {
-      "seq": 403,
+      "seq": 402,
       "serial": "julius-caesar-a02-s01-i0403",
       "kind": "speech",
       "subtype": null,
@@ -34695,7 +34663,7 @@
       ]
     },
     {
-      "seq": 404,
+      "seq": 403,
       "serial": "julius-caesar-a02-s01-i0404",
       "kind": "speech",
       "subtype": null,
@@ -34770,7 +34738,7 @@
       ]
     },
     {
-      "seq": 405,
+      "seq": 404,
       "serial": "julius-caesar-a02-s01-i0405",
       "kind": "speaker_label",
       "subtype": null,
@@ -34783,7 +34751,7 @@
       "spans": []
     },
     {
-      "seq": 406,
+      "seq": 405,
       "serial": "julius-caesar-a02-s01-i0406",
       "kind": "speech",
       "subtype": null,
@@ -34842,7 +34810,7 @@
       ]
     },
     {
-      "seq": 407,
+      "seq": 406,
       "serial": "julius-caesar-a02-s01-i0407",
       "kind": "speech",
       "subtype": null,
@@ -34933,7 +34901,7 @@
       ]
     },
     {
-      "seq": 408,
+      "seq": 407,
       "serial": "julius-caesar-a02-s01-i0408",
       "kind": "stage",
       "subtype": null,
@@ -34979,7 +34947,7 @@
       ]
     },
     {
-      "seq": 409,
+      "seq": 408,
       "serial": "julius-caesar-a02-s01-i0409",
       "kind": "speech",
       "subtype": null,
@@ -35134,7 +35102,7 @@
       ]
     },
     {
-      "seq": 410,
+      "seq": 409,
       "serial": "julius-caesar-a02-s01-i0410",
       "kind": "speech",
       "subtype": null,
@@ -35219,7 +35187,7 @@
       ]
     },
     {
-      "seq": 411,
+      "seq": 410,
       "serial": "julius-caesar-a02-s01-i0411",
       "kind": "speech",
       "subtype": null,
@@ -35294,7 +35262,7 @@
       ]
     },
     {
-      "seq": 412,
+      "seq": 411,
       "serial": "julius-caesar-a02-s01-i0412",
       "kind": "speech",
       "subtype": null,
@@ -35393,7 +35361,7 @@
       ]
     },
     {
-      "seq": 413,
+      "seq": 412,
       "serial": "julius-caesar-a02-s01-i0413",
       "kind": "speech",
       "subtype": null,
@@ -35484,7 +35452,7 @@
       ]
     },
     {
-      "seq": 414,
+      "seq": 413,
       "serial": "julius-caesar-a02-s01-i0414",
       "kind": "speech",
       "subtype": null,
@@ -35551,7 +35519,7 @@
       ]
     },
     {
-      "seq": 415,
+      "seq": 414,
       "serial": "julius-caesar-a02-s01-i0415",
       "kind": "stage",
       "subtype": "exit",
@@ -35606,7 +35574,7 @@
       ]
     },
     {
-      "seq": 416,
+      "seq": 415,
       "serial": "julius-caesar-a02-s01-i0416",
       "kind": "stage",
       "subtype": "enter",
@@ -35679,11 +35647,11 @@
       ]
     },
     {
-      "seq": 417,
+      "seq": 416,
       "serial": "julius-caesar-a02-s01-i0418",
       "kind": "speaker_label",
       "subtype": null,
-      "speaker": "LUCIUS",
+      "speaker": "BRUTUS",
       "speech_id": null,
       "speech_seq": null,
       "line_number": null,
@@ -35692,11 +35660,11 @@
       "spans": []
     },
     {
-      "seq": 418,
+      "seq": 417,
       "serial": "julius-caesar-a02-s01-i0417",
       "kind": "speech",
       "subtype": null,
-      "speaker": "LUCIUS",
+      "speaker": "BRUTUS",
       "speech_id": "julius-caesar-a02-s01-s0074",
       "speech_seq": 1,
       "line_number": 322,
@@ -35773,13 +35741,26 @@
       ]
     },
     {
+      "seq": 418,
+      "serial": "julius-caesar-a02-s01-i0418a",
+      "kind": "speaker_label",
+      "subtype": null,
+      "speaker": "LUCIUS",
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": []
+    },
+    {
       "seq": 419,
       "serial": "julius-caesar-a02-s01-i0419",
       "kind": "speech",
       "subtype": null,
       "speaker": "LUCIUS",
-      "speech_id": "julius-caesar-a02-s01-s0074",
-      "speech_seq": 2,
+      "speech_id": "julius-caesar-a02-s01-s0070",
+      "speech_seq": 1,
       "line_number": 323,
       "line_serial": "julius-caesar-a02-s01-l0323",
       "subsection": null,
