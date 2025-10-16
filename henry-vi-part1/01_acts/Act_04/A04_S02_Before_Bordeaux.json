@@ -249,7 +249,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Enter Talbot with trump and drum.",
+          "text": "Enter Talbot with trumpet and drum.",
           "stage": null,
           "tokens": [
             {
@@ -282,8 +282,8 @@
             {
               "i": 4,
               "type": "word",
-              "s": "trump",
-              "norm": "trump",
+              "s": "trumpet",
+              "norm": "trumpet",
               "pre": " ",
               "serial": "henry-vi-part1-a04-s02-i0004-t004",
               "em": true
@@ -313,13 +313,13 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part1-a04-s02-i0004-t007",
-              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -541,7 +541,7 @@
         {
           "type": "stage",
           "em": true,
-          "text": "Trumpet sounds. Enter  General and others aloft.",
+          "text": "Trumpet sounds. Enter General and others aloft (above).",
           "stage": null,
           "tokens": [
             {
@@ -569,13 +569,13 @@
               "norm": ".",
               "pre": "",
               "serial": "henry-vi-part1-a04-s02-i0008-t003",
-              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             },
             {
               "i": 4,
@@ -591,7 +591,7 @@
               "type": "word",
               "s": "General",
               "norm": "general",
-              "pre": "  ",
+              "pre": " ",
               "serial": "henry-vi-part1-a04-s02-i0008-t005",
               "em": true
             },
@@ -625,17 +625,56 @@
             {
               "i": 9,
               "type": "punct",
+              "s": "(",
+              "norm": "(",
+              "pre": " ",
+              "serial": "henry-vi-part1-a04-s02-i0008-t009",
+              "punct": {
+                "kind": "paren",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "above",
+              "norm": "above",
+              "pre": "",
+              "serial": "henry-vi-part1-a04-s02-i0008-t010",
+              "em": true
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ")",
+              "norm": ")",
+              "pre": "",
+              "serial": "henry-vi-part1-a04-s02-i0008-t011",
+              "punct": {
+                "kind": "paren",
+                "dash": null,
+                "quote": null,
+                "role": null
+              },
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-i0008-t009",
-              "em": true,
+              "serial": "henry-vi-part1-a04-s02-i0008-t012",
               "punct": {
                 "kind": "period",
                 "dash": null,
                 "quote": null,
                 "role": null
-              }
+              },
+              "em": true
             }
           ]
         }
@@ -4474,20 +4513,19 @@
     {
       "seq": 48,
       "serial": "henry-vi-part1-a04-s02-i0048",
-      "kind": "stage",
+      "kind": "speech",
       "subtype": null,
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
+      "speaker": "GENERAL",
+      "speech_id": "henry-vi-part1-a04-s02-s0002",
+      "speech_seq": 38,
+      "line_number": 40,
+      "line_serial": "henry-vi-part1-a04-s02-l0040",
       "subsection": null,
       "spans": [
         {
-          "type": "stage",
-          "em": true,
+          "type": "speech",
+          "em": false,
           "text": "Sings heavy music to thy timorous soul,",
-          "stage": null,
           "tokens": [
             {
               "i": 1,
@@ -4495,8 +4533,7 @@
               "s": "Sings",
               "norm": "sings",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-i0048-t001",
-              "em": true
+              "serial": "henry-vi-part1-a04-s02-l0040-t001"
             },
             {
               "i": 2,
@@ -4504,8 +4541,7 @@
               "s": "heavy",
               "norm": "heavy",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-i0048-t002",
-              "em": true
+              "serial": "henry-vi-part1-a04-s02-l0040-t002"
             },
             {
               "i": 3,
@@ -4513,8 +4549,7 @@
               "s": "music",
               "norm": "music",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-i0048-t003",
-              "em": true
+              "serial": "henry-vi-part1-a04-s02-l0040-t003"
             },
             {
               "i": 4,
@@ -4522,8 +4557,7 @@
               "s": "to",
               "norm": "to",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-i0048-t004",
-              "em": true
+              "serial": "henry-vi-part1-a04-s02-l0040-t004"
             },
             {
               "i": 5,
@@ -4531,8 +4565,7 @@
               "s": "thy",
               "norm": "thy",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-i0048-t005",
-              "em": true
+              "serial": "henry-vi-part1-a04-s02-l0040-t005"
             },
             {
               "i": 6,
@@ -4540,8 +4573,7 @@
               "s": "timorous",
               "norm": "timorous",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-i0048-t006",
-              "em": true
+              "serial": "henry-vi-part1-a04-s02-l0040-t006"
             },
             {
               "i": 7,
@@ -4549,8 +4581,7 @@
               "s": "soul",
               "norm": "soul",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-i0048-t007",
-              "em": true
+              "serial": "henry-vi-part1-a04-s02-l0040-t007"
             },
             {
               "i": 8,
@@ -4558,8 +4589,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-i0048-t008",
-              "em": true,
+              "serial": "henry-vi-part1-a04-s02-l0040-t008",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -4578,9 +4608,9 @@
       "subtype": null,
       "speaker": "GENERAL",
       "speech_id": "henry-vi-part1-a04-s02-s0002",
-      "speech_seq": 38,
-      "line_number": 40,
-      "line_serial": "henry-vi-part1-a04-s02-l0040",
+      "speech_seq": 39,
+      "line_number": 41,
+      "line_serial": "henry-vi-part1-a04-s02-l0041",
       "subsection": null,
       "spans": [
         {
@@ -4770,8 +4800,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 1,
-      "line_number": 41,
-      "line_serial": "henry-vi-part1-a04-s02-l0041",
+      "line_number": 42,
+      "line_serial": "henry-vi-part1-a04-s02-l0042",
       "subsection": null,
       "spans": [
         {
@@ -4785,7 +4815,7 @@
               "s": "He",
               "norm": "he",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0027-t001"
+              "serial": "henry-vi-part1-a04-s02-l0042-t001"
             },
             {
               "i": 2,
@@ -4793,7 +4823,7 @@
               "s": "fables",
               "norm": "fables",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0027-t002"
+              "serial": "henry-vi-part1-a04-s02-l0042-t002"
             },
             {
               "i": 3,
@@ -4801,7 +4831,7 @@
               "s": "not",
               "norm": "not",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0027-t003"
+              "serial": "henry-vi-part1-a04-s02-l0042-t003"
             },
             {
               "i": 4,
@@ -4809,7 +4839,7 @@
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0027-t004",
+              "serial": "henry-vi-part1-a04-s02-l0042-t004",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
@@ -4823,7 +4853,7 @@
               "s": "I",
               "norm": "i",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0027-t005"
+              "serial": "henry-vi-part1-a04-s02-l0042-t005"
             },
             {
               "i": 6,
@@ -4831,7 +4861,7 @@
               "s": "hear",
               "norm": "hear",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0027-t006"
+              "serial": "henry-vi-part1-a04-s02-l0042-t006"
             },
             {
               "i": 7,
@@ -4839,7 +4869,7 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0027-t007"
+              "serial": "henry-vi-part1-a04-s02-l0042-t007"
             },
             {
               "i": 8,
@@ -4847,7 +4877,7 @@
               "s": "enemy",
               "norm": "enemy",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0027-t008"
+              "serial": "henry-vi-part1-a04-s02-l0042-t008"
             },
             {
               "i": 9,
@@ -4855,7 +4885,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0027-t009",
+              "serial": "henry-vi-part1-a04-s02-l0042-t009",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -4875,8 +4905,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 2,
-      "line_number": 42,
-      "line_serial": "henry-vi-part1-a04-s02-l0042",
+      "line_number": 43,
+      "line_serial": "henry-vi-part1-a04-s02-l0043",
       "subsection": null,
       "spans": [
         {
@@ -4890,7 +4920,7 @@
               "s": "Out",
               "norm": "out",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0028-t001"
+              "serial": "henry-vi-part1-a04-s02-l0043-t001"
             },
             {
               "i": 2,
@@ -4898,7 +4928,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0028-t002",
+              "serial": "henry-vi-part1-a04-s02-l0043-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -4912,7 +4942,7 @@
               "s": "some",
               "norm": "some",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0028-t003"
+              "serial": "henry-vi-part1-a04-s02-l0043-t003"
             },
             {
               "i": 4,
@@ -4920,7 +4950,7 @@
               "s": "light",
               "norm": "light",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0028-t004"
+              "serial": "henry-vi-part1-a04-s02-l0043-t004"
             },
             {
               "i": 5,
@@ -4928,7 +4958,7 @@
               "s": "horsemen",
               "norm": "horsemen",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0028-t005"
+              "serial": "henry-vi-part1-a04-s02-l0043-t005"
             },
             {
               "i": 6,
@@ -4936,7 +4966,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0028-t006",
+              "serial": "henry-vi-part1-a04-s02-l0043-t006",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -4950,7 +4980,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0028-t007"
+              "serial": "henry-vi-part1-a04-s02-l0043-t007"
             },
             {
               "i": 8,
@@ -4958,7 +4988,7 @@
               "s": "peruse",
               "norm": "peruse",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0028-t008"
+              "serial": "henry-vi-part1-a04-s02-l0043-t008"
             },
             {
               "i": 9,
@@ -4966,7 +4996,7 @@
               "s": "their",
               "norm": "their",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0028-t009"
+              "serial": "henry-vi-part1-a04-s02-l0043-t009"
             },
             {
               "i": 10,
@@ -4974,7 +5004,7 @@
               "s": "wings",
               "norm": "wings",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0028-t010"
+              "serial": "henry-vi-part1-a04-s02-l0043-t010"
             },
             {
               "i": 11,
@@ -4982,7 +5012,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0028-t011",
+              "serial": "henry-vi-part1-a04-s02-l0043-t011",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -5002,8 +5032,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 3,
-      "line_number": 43,
-      "line_serial": "henry-vi-part1-a04-s02-l0043",
+      "line_number": 44,
+      "line_serial": "henry-vi-part1-a04-s02-l0044",
       "subsection": null,
       "spans": [
         {
@@ -5017,7 +5047,7 @@
               "s": "O",
               "norm": "o",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0029-t001"
+              "serial": "henry-vi-part1-a04-s02-l0044-t001"
             },
             {
               "i": 2,
@@ -5025,7 +5055,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0029-t002",
+              "serial": "henry-vi-part1-a04-s02-l0044-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5039,7 +5069,7 @@
               "s": "negligent",
               "norm": "negligent",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0029-t003"
+              "serial": "henry-vi-part1-a04-s02-l0044-t003"
             },
             {
               "i": 4,
@@ -5047,7 +5077,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0029-t004"
+              "serial": "henry-vi-part1-a04-s02-l0044-t004"
             },
             {
               "i": 5,
@@ -5055,7 +5085,7 @@
               "s": "heedless",
               "norm": "heedless",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0029-t005"
+              "serial": "henry-vi-part1-a04-s02-l0044-t005"
             },
             {
               "i": 6,
@@ -5063,7 +5093,7 @@
               "s": "discipline",
               "norm": "discipline",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0029-t006"
+              "serial": "henry-vi-part1-a04-s02-l0044-t006"
             },
             {
               "i": 7,
@@ -5071,7 +5101,7 @@
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0029-t007",
+              "serial": "henry-vi-part1-a04-s02-l0044-t007",
               "punct": {
                 "kind": "emark",
                 "dash": null,
@@ -5091,8 +5121,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 4,
-      "line_number": 44,
-      "line_serial": "henry-vi-part1-a04-s02-l0044",
+      "line_number": 45,
+      "line_serial": "henry-vi-part1-a04-s02-l0045",
       "subsection": null,
       "spans": [
         {
@@ -5106,7 +5136,7 @@
               "s": "How",
               "norm": "how",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0030-t001"
+              "serial": "henry-vi-part1-a04-s02-l0045-t001"
             },
             {
               "i": 2,
@@ -5114,7 +5144,7 @@
               "s": "are",
               "norm": "are",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0030-t002"
+              "serial": "henry-vi-part1-a04-s02-l0045-t002"
             },
             {
               "i": 3,
@@ -5122,7 +5152,7 @@
               "s": "we",
               "norm": "we",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0030-t003"
+              "serial": "henry-vi-part1-a04-s02-l0045-t003"
             },
             {
               "i": 4,
@@ -5130,7 +5160,7 @@
               "s": "park’d",
               "norm": "park'd",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0030-t004"
+              "serial": "henry-vi-part1-a04-s02-l0045-t004"
             },
             {
               "i": 5,
@@ -5138,7 +5168,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0030-t005"
+              "serial": "henry-vi-part1-a04-s02-l0045-t005"
             },
             {
               "i": 6,
@@ -5146,7 +5176,7 @@
               "s": "bounded",
               "norm": "bounded",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0030-t006"
+              "serial": "henry-vi-part1-a04-s02-l0045-t006"
             },
             {
               "i": 7,
@@ -5154,7 +5184,7 @@
               "s": "in",
               "norm": "in",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0030-t007"
+              "serial": "henry-vi-part1-a04-s02-l0045-t007"
             },
             {
               "i": 8,
@@ -5162,7 +5192,7 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0030-t008"
+              "serial": "henry-vi-part1-a04-s02-l0045-t008"
             },
             {
               "i": 9,
@@ -5170,7 +5200,7 @@
               "s": "pale",
               "norm": "pale",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0030-t009"
+              "serial": "henry-vi-part1-a04-s02-l0045-t009"
             },
             {
               "i": 10,
@@ -5178,7 +5208,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0030-t010",
+              "serial": "henry-vi-part1-a04-s02-l0045-t010",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5198,8 +5228,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 5,
-      "line_number": 45,
-      "line_serial": "henry-vi-part1-a04-s02-l0045",
+      "line_number": 46,
+      "line_serial": "henry-vi-part1-a04-s02-l0046",
       "subsection": null,
       "spans": [
         {
@@ -5213,7 +5243,7 @@
               "s": "A",
               "norm": "a",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0031-t001"
+              "serial": "henry-vi-part1-a04-s02-l0046-t001"
             },
             {
               "i": 2,
@@ -5221,7 +5251,7 @@
               "s": "little",
               "norm": "little",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0031-t002"
+              "serial": "henry-vi-part1-a04-s02-l0046-t002"
             },
             {
               "i": 3,
@@ -5229,7 +5259,7 @@
               "s": "herd",
               "norm": "herd",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0031-t003"
+              "serial": "henry-vi-part1-a04-s02-l0046-t003"
             },
             {
               "i": 4,
@@ -5237,7 +5267,7 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0031-t004"
+              "serial": "henry-vi-part1-a04-s02-l0046-t004"
             },
             {
               "i": 5,
@@ -5245,7 +5275,7 @@
               "s": "England’s",
               "norm": "england's",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0031-t005"
+              "serial": "henry-vi-part1-a04-s02-l0046-t005"
             },
             {
               "i": 6,
@@ -5253,7 +5283,7 @@
               "s": "timorous",
               "norm": "timorous",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0031-t006"
+              "serial": "henry-vi-part1-a04-s02-l0046-t006"
             },
             {
               "i": 7,
@@ -5261,7 +5291,7 @@
               "s": "deer",
               "norm": "deer",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0031-t007"
+              "serial": "henry-vi-part1-a04-s02-l0046-t007"
             },
             {
               "i": 8,
@@ -5269,7 +5299,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0031-t008",
+              "serial": "henry-vi-part1-a04-s02-l0046-t008",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5289,8 +5319,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 6,
-      "line_number": 46,
-      "line_serial": "henry-vi-part1-a04-s02-l0046",
+      "line_number": 47,
+      "line_serial": "henry-vi-part1-a04-s02-l0047",
       "subsection": null,
       "spans": [
         {
@@ -5304,7 +5334,7 @@
               "s": "Mazed",
               "norm": "mazed",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0032-t001"
+              "serial": "henry-vi-part1-a04-s02-l0047-t001"
             },
             {
               "i": 2,
@@ -5312,7 +5342,7 @@
               "s": "with",
               "norm": "with",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0032-t002"
+              "serial": "henry-vi-part1-a04-s02-l0047-t002"
             },
             {
               "i": 3,
@@ -5320,7 +5350,7 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0032-t003"
+              "serial": "henry-vi-part1-a04-s02-l0047-t003"
             },
             {
               "i": 4,
@@ -5328,7 +5358,7 @@
               "s": "yelping",
               "norm": "yelping",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0032-t004"
+              "serial": "henry-vi-part1-a04-s02-l0047-t004"
             },
             {
               "i": 5,
@@ -5336,7 +5366,7 @@
               "s": "kennel",
               "norm": "kennel",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0032-t005"
+              "serial": "henry-vi-part1-a04-s02-l0047-t005"
             },
             {
               "i": 6,
@@ -5344,7 +5374,7 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0032-t006"
+              "serial": "henry-vi-part1-a04-s02-l0047-t006"
             },
             {
               "i": 7,
@@ -5352,7 +5382,7 @@
               "s": "French",
               "norm": "french",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0032-t007"
+              "serial": "henry-vi-part1-a04-s02-l0047-t007"
             },
             {
               "i": 8,
@@ -5360,7 +5390,7 @@
               "s": "curs",
               "norm": "curs",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0032-t008"
+              "serial": "henry-vi-part1-a04-s02-l0047-t008"
             },
             {
               "i": 9,
@@ -5368,7 +5398,7 @@
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0032-t009",
+              "serial": "henry-vi-part1-a04-s02-l0047-t009",
               "punct": {
                 "kind": "emark",
                 "dash": null,
@@ -5388,8 +5418,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 7,
-      "line_number": 47,
-      "line_serial": "henry-vi-part1-a04-s02-l0047",
+      "line_number": 48,
+      "line_serial": "henry-vi-part1-a04-s02-l0048",
       "subsection": null,
       "spans": [
         {
@@ -5403,7 +5433,7 @@
               "s": "If",
               "norm": "if",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0033-t001"
+              "serial": "henry-vi-part1-a04-s02-l0048-t001"
             },
             {
               "i": 2,
@@ -5411,7 +5441,7 @@
               "s": "we",
               "norm": "we",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0033-t002"
+              "serial": "henry-vi-part1-a04-s02-l0048-t002"
             },
             {
               "i": 3,
@@ -5419,7 +5449,7 @@
               "s": "be",
               "norm": "be",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0033-t003"
+              "serial": "henry-vi-part1-a04-s02-l0048-t003"
             },
             {
               "i": 4,
@@ -5427,7 +5457,7 @@
               "s": "English",
               "norm": "english",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0033-t004"
+              "serial": "henry-vi-part1-a04-s02-l0048-t004"
             },
             {
               "i": 5,
@@ -5435,7 +5465,7 @@
               "s": "deer",
               "norm": "deer",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0033-t005"
+              "serial": "henry-vi-part1-a04-s02-l0048-t005"
             },
             {
               "i": 6,
@@ -5443,7 +5473,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0033-t006",
+              "serial": "henry-vi-part1-a04-s02-l0048-t006",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5457,7 +5487,7 @@
               "s": "be",
               "norm": "be",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0033-t007"
+              "serial": "henry-vi-part1-a04-s02-l0048-t007"
             },
             {
               "i": 8,
@@ -5465,7 +5495,7 @@
               "s": "then",
               "norm": "then",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0033-t008"
+              "serial": "henry-vi-part1-a04-s02-l0048-t008"
             },
             {
               "i": 9,
@@ -5473,7 +5503,7 @@
               "s": "in",
               "norm": "in",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0033-t009"
+              "serial": "henry-vi-part1-a04-s02-l0048-t009"
             },
             {
               "i": 10,
@@ -5481,7 +5511,7 @@
               "s": "blood",
               "norm": "blood",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0033-t010"
+              "serial": "henry-vi-part1-a04-s02-l0048-t010"
             },
             {
               "i": 11,
@@ -5489,7 +5519,7 @@
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0033-t011",
+              "serial": "henry-vi-part1-a04-s02-l0048-t011",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
@@ -5509,8 +5539,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 8,
-      "line_number": 48,
-      "line_serial": "henry-vi-part1-a04-s02-l0048",
+      "line_number": 49,
+      "line_serial": "henry-vi-part1-a04-s02-l0049",
       "subsection": null,
       "spans": [
         {
@@ -5524,7 +5554,7 @@
               "s": "Not",
               "norm": "not",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0034-t001"
+              "serial": "henry-vi-part1-a04-s02-l0049-t001"
             },
             {
               "i": 2,
@@ -5532,14 +5562,14 @@
               "s": "rascal",
               "norm": "rascal",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0034-t002"
+              "serial": "henry-vi-part1-a04-s02-l0049-t002"
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0034-t003",
+              "serial": "henry-vi-part1-a04-s02-l0049-t003",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
@@ -5554,7 +5584,7 @@
               "s": "like",
               "norm": "like",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0034-t004"
+              "serial": "henry-vi-part1-a04-s02-l0049-t004"
             },
             {
               "i": 5,
@@ -5562,7 +5592,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0034-t005",
+              "serial": "henry-vi-part1-a04-s02-l0049-t005",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5576,7 +5606,7 @@
               "s": "to",
               "norm": "to",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0034-t006"
+              "serial": "henry-vi-part1-a04-s02-l0049-t006"
             },
             {
               "i": 7,
@@ -5584,7 +5614,7 @@
               "s": "fall",
               "norm": "fall",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0034-t007"
+              "serial": "henry-vi-part1-a04-s02-l0049-t007"
             },
             {
               "i": 8,
@@ -5592,7 +5622,7 @@
               "s": "down",
               "norm": "down",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0034-t008"
+              "serial": "henry-vi-part1-a04-s02-l0049-t008"
             },
             {
               "i": 9,
@@ -5600,7 +5630,7 @@
               "s": "with",
               "norm": "with",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0034-t009"
+              "serial": "henry-vi-part1-a04-s02-l0049-t009"
             },
             {
               "i": 10,
@@ -5608,7 +5638,7 @@
               "s": "a",
               "norm": "a",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0034-t010"
+              "serial": "henry-vi-part1-a04-s02-l0049-t010"
             },
             {
               "i": 11,
@@ -5616,7 +5646,7 @@
               "s": "pinch",
               "norm": "pinch",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0034-t011"
+              "serial": "henry-vi-part1-a04-s02-l0049-t011"
             },
             {
               "i": 12,
@@ -5624,7 +5654,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0034-t012",
+              "serial": "henry-vi-part1-a04-s02-l0049-t012",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5644,8 +5674,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 9,
-      "line_number": 49,
-      "line_serial": "henry-vi-part1-a04-s02-l0049",
+      "line_number": 50,
+      "line_serial": "henry-vi-part1-a04-s02-l0050",
       "subsection": null,
       "spans": [
         {
@@ -5659,7 +5689,7 @@
               "s": "But",
               "norm": "but",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0035-t001"
+              "serial": "henry-vi-part1-a04-s02-l0050-t001"
             },
             {
               "i": 2,
@@ -5667,7 +5697,7 @@
               "s": "rather",
               "norm": "rather",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0035-t002"
+              "serial": "henry-vi-part1-a04-s02-l0050-t002"
             },
             {
               "i": 3,
@@ -5675,7 +5705,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0035-t003",
+              "serial": "henry-vi-part1-a04-s02-l0050-t003",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5689,14 +5719,14 @@
               "s": "moody",
               "norm": "moody",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0035-t004"
+              "serial": "henry-vi-part1-a04-s02-l0050-t004"
             },
             {
               "type": "punct",
               "s": "-",
               "norm": "-",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0035-t005",
+              "serial": "henry-vi-part1-a04-s02-l0050-t005",
               "punct": {
                 "kind": "dash",
                 "dash": "hyphen",
@@ -5711,7 +5741,7 @@
               "s": "mad",
               "norm": "mad",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0035-t006"
+              "serial": "henry-vi-part1-a04-s02-l0050-t006"
             },
             {
               "i": 7,
@@ -5719,7 +5749,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0035-t007"
+              "serial": "henry-vi-part1-a04-s02-l0050-t007"
             },
             {
               "i": 8,
@@ -5727,7 +5757,7 @@
               "s": "desperate",
               "norm": "desperate",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0035-t008"
+              "serial": "henry-vi-part1-a04-s02-l0050-t008"
             },
             {
               "i": 9,
@@ -5735,7 +5765,7 @@
               "s": "stags",
               "norm": "stags",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0035-t009"
+              "serial": "henry-vi-part1-a04-s02-l0050-t009"
             },
             {
               "i": 10,
@@ -5743,7 +5773,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0035-t010",
+              "serial": "henry-vi-part1-a04-s02-l0050-t010",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5763,8 +5793,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 10,
-      "line_number": 50,
-      "line_serial": "henry-vi-part1-a04-s02-l0050",
+      "line_number": 51,
+      "line_serial": "henry-vi-part1-a04-s02-l0051",
       "subsection": null,
       "spans": [
         {
@@ -5778,7 +5808,7 @@
               "s": "Turn",
               "norm": "turn",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0036-t001"
+              "serial": "henry-vi-part1-a04-s02-l0051-t001"
             },
             {
               "i": 2,
@@ -5786,7 +5816,7 @@
               "s": "on",
               "norm": "on",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0036-t002"
+              "serial": "henry-vi-part1-a04-s02-l0051-t002"
             },
             {
               "i": 3,
@@ -5794,7 +5824,7 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0036-t003"
+              "serial": "henry-vi-part1-a04-s02-l0051-t003"
             },
             {
               "i": 4,
@@ -5802,7 +5832,7 @@
               "s": "bloody",
               "norm": "bloody",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0036-t004"
+              "serial": "henry-vi-part1-a04-s02-l0051-t004"
             },
             {
               "i": 5,
@@ -5810,7 +5840,7 @@
               "s": "hounds",
               "norm": "hounds",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0036-t005"
+              "serial": "henry-vi-part1-a04-s02-l0051-t005"
             },
             {
               "i": 6,
@@ -5818,7 +5848,7 @@
               "s": "with",
               "norm": "with",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0036-t006"
+              "serial": "henry-vi-part1-a04-s02-l0051-t006"
             },
             {
               "i": 7,
@@ -5826,7 +5856,7 @@
               "s": "heads",
               "norm": "heads",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0036-t007"
+              "serial": "henry-vi-part1-a04-s02-l0051-t007"
             },
             {
               "i": 8,
@@ -5834,7 +5864,7 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0036-t008"
+              "serial": "henry-vi-part1-a04-s02-l0051-t008"
             },
             {
               "i": 9,
@@ -5842,7 +5872,7 @@
               "s": "steel",
               "norm": "steel",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0036-t009"
+              "serial": "henry-vi-part1-a04-s02-l0051-t009"
             }
           ]
         }
@@ -5856,8 +5886,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 11,
-      "line_number": 51,
-      "line_serial": "henry-vi-part1-a04-s02-l0051",
+      "line_number": 52,
+      "line_serial": "henry-vi-part1-a04-s02-l0052",
       "subsection": null,
       "spans": [
         {
@@ -5871,7 +5901,7 @@
               "s": "And",
               "norm": "and",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0037-t001"
+              "serial": "henry-vi-part1-a04-s02-l0052-t001"
             },
             {
               "i": 2,
@@ -5879,7 +5909,7 @@
               "s": "make",
               "norm": "make",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0037-t002"
+              "serial": "henry-vi-part1-a04-s02-l0052-t002"
             },
             {
               "i": 3,
@@ -5887,7 +5917,7 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0037-t003"
+              "serial": "henry-vi-part1-a04-s02-l0052-t003"
             },
             {
               "i": 4,
@@ -5895,7 +5925,7 @@
               "s": "cowards",
               "norm": "cowards",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0037-t004"
+              "serial": "henry-vi-part1-a04-s02-l0052-t004"
             },
             {
               "i": 5,
@@ -5903,7 +5933,7 @@
               "s": "stand",
               "norm": "stand",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0037-t005"
+              "serial": "henry-vi-part1-a04-s02-l0052-t005"
             },
             {
               "i": 6,
@@ -5911,7 +5941,7 @@
               "s": "aloof",
               "norm": "aloof",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0037-t006"
+              "serial": "henry-vi-part1-a04-s02-l0052-t006"
             },
             {
               "i": 7,
@@ -5919,7 +5949,7 @@
               "s": "at",
               "norm": "at",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0037-t007"
+              "serial": "henry-vi-part1-a04-s02-l0052-t007"
             },
             {
               "i": 8,
@@ -5927,7 +5957,7 @@
               "s": "bay",
               "norm": "bay",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0037-t008"
+              "serial": "henry-vi-part1-a04-s02-l0052-t008"
             },
             {
               "i": 9,
@@ -5935,7 +5965,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0037-t009",
+              "serial": "henry-vi-part1-a04-s02-l0052-t009",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -5955,8 +5985,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 12,
-      "line_number": 52,
-      "line_serial": "henry-vi-part1-a04-s02-l0052",
+      "line_number": 53,
+      "line_serial": "henry-vi-part1-a04-s02-l0053",
       "subsection": null,
       "spans": [
         {
@@ -5970,7 +6000,7 @@
               "s": "Sell",
               "norm": "sell",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0038-t001"
+              "serial": "henry-vi-part1-a04-s02-l0053-t001"
             },
             {
               "i": 2,
@@ -5978,7 +6008,7 @@
               "s": "every",
               "norm": "every",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0038-t002"
+              "serial": "henry-vi-part1-a04-s02-l0053-t002"
             },
             {
               "i": 3,
@@ -5986,7 +6016,7 @@
               "s": "man",
               "norm": "man",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0038-t003"
+              "serial": "henry-vi-part1-a04-s02-l0053-t003"
             },
             {
               "i": 4,
@@ -5994,7 +6024,7 @@
               "s": "his",
               "norm": "his",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0038-t004"
+              "serial": "henry-vi-part1-a04-s02-l0053-t004"
             },
             {
               "i": 5,
@@ -6002,7 +6032,7 @@
               "s": "life",
               "norm": "life",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0038-t005"
+              "serial": "henry-vi-part1-a04-s02-l0053-t005"
             },
             {
               "i": 6,
@@ -6010,7 +6040,7 @@
               "s": "as",
               "norm": "as",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0038-t006"
+              "serial": "henry-vi-part1-a04-s02-l0053-t006"
             },
             {
               "i": 7,
@@ -6018,7 +6048,7 @@
               "s": "dear",
               "norm": "dear",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0038-t007"
+              "serial": "henry-vi-part1-a04-s02-l0053-t007"
             },
             {
               "i": 8,
@@ -6026,7 +6056,7 @@
               "s": "as",
               "norm": "as",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0038-t008"
+              "serial": "henry-vi-part1-a04-s02-l0053-t008"
             },
             {
               "i": 9,
@@ -6034,7 +6064,7 @@
               "s": "mine",
               "norm": "mine",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0038-t009"
+              "serial": "henry-vi-part1-a04-s02-l0053-t009"
             },
             {
               "i": 10,
@@ -6042,7 +6072,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0038-t010",
+              "serial": "henry-vi-part1-a04-s02-l0053-t010",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -6062,8 +6092,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 13,
-      "line_number": 53,
-      "line_serial": "henry-vi-part1-a04-s02-l0053",
+      "line_number": 54,
+      "line_serial": "henry-vi-part1-a04-s02-l0054",
       "subsection": null,
       "spans": [
         {
@@ -6077,7 +6107,7 @@
               "s": "And",
               "norm": "and",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0039-t001"
+              "serial": "henry-vi-part1-a04-s02-l0054-t001"
             },
             {
               "i": 2,
@@ -6085,7 +6115,7 @@
               "s": "they",
               "norm": "they",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t002"
+              "serial": "henry-vi-part1-a04-s02-l0054-t002"
             },
             {
               "i": 3,
@@ -6093,7 +6123,7 @@
               "s": "shall",
               "norm": "shall",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t003"
+              "serial": "henry-vi-part1-a04-s02-l0054-t003"
             },
             {
               "i": 4,
@@ -6101,7 +6131,7 @@
               "s": "find",
               "norm": "find",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t004"
+              "serial": "henry-vi-part1-a04-s02-l0054-t004"
             },
             {
               "i": 5,
@@ -6109,7 +6139,7 @@
               "s": "dear",
               "norm": "dear",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t005"
+              "serial": "henry-vi-part1-a04-s02-l0054-t005"
             },
             {
               "i": 6,
@@ -6117,7 +6147,7 @@
               "s": "deer",
               "norm": "deer",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t006"
+              "serial": "henry-vi-part1-a04-s02-l0054-t006"
             },
             {
               "i": 7,
@@ -6125,7 +6155,7 @@
               "s": "of",
               "norm": "of",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t007"
+              "serial": "henry-vi-part1-a04-s02-l0054-t007"
             },
             {
               "i": 8,
@@ -6133,7 +6163,7 @@
               "s": "us",
               "norm": "us",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t008"
+              "serial": "henry-vi-part1-a04-s02-l0054-t008"
             },
             {
               "i": 9,
@@ -6141,7 +6171,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0039-t009",
+              "serial": "henry-vi-part1-a04-s02-l0054-t009",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -6155,7 +6185,7 @@
               "s": "my",
               "norm": "my",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t010"
+              "serial": "henry-vi-part1-a04-s02-l0054-t010"
             },
             {
               "i": 11,
@@ -6163,7 +6193,7 @@
               "s": "friends",
               "norm": "friends",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0039-t011"
+              "serial": "henry-vi-part1-a04-s02-l0054-t011"
             },
             {
               "i": 12,
@@ -6171,7 +6201,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0039-t012",
+              "serial": "henry-vi-part1-a04-s02-l0054-t012",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -6191,8 +6221,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 14,
-      "line_number": 54,
-      "line_serial": "henry-vi-part1-a04-s02-l0054",
+      "line_number": 55,
+      "line_serial": "henry-vi-part1-a04-s02-l0055",
       "subsection": null,
       "spans": [
         {
@@ -6206,7 +6236,7 @@
               "s": "God",
               "norm": "god",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0040-t001"
+              "serial": "henry-vi-part1-a04-s02-l0055-t001"
             },
             {
               "i": 2,
@@ -6214,7 +6244,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0040-t002"
+              "serial": "henry-vi-part1-a04-s02-l0055-t002"
             },
             {
               "i": 3,
@@ -6222,7 +6252,7 @@
               "s": "Saint",
               "norm": "saint",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0040-t003"
+              "serial": "henry-vi-part1-a04-s02-l0055-t003"
             },
             {
               "i": 4,
@@ -6230,7 +6260,7 @@
               "s": "George",
               "norm": "george",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0040-t004"
+              "serial": "henry-vi-part1-a04-s02-l0055-t004"
             },
             {
               "i": 5,
@@ -6238,7 +6268,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0040-t005",
+              "serial": "henry-vi-part1-a04-s02-l0055-t005",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -6252,7 +6282,7 @@
               "s": "Talbot",
               "norm": "talbot",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0040-t006"
+              "serial": "henry-vi-part1-a04-s02-l0055-t006"
             },
             {
               "i": 7,
@@ -6260,7 +6290,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0040-t007"
+              "serial": "henry-vi-part1-a04-s02-l0055-t007"
             },
             {
               "i": 8,
@@ -6268,7 +6298,7 @@
               "s": "England’s",
               "norm": "england's",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0040-t008"
+              "serial": "henry-vi-part1-a04-s02-l0055-t008"
             },
             {
               "i": 9,
@@ -6276,7 +6306,7 @@
               "s": "right",
               "norm": "right",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0040-t009"
+              "serial": "henry-vi-part1-a04-s02-l0055-t009"
             },
             {
               "i": 10,
@@ -6284,7 +6314,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0040-t010",
+              "serial": "henry-vi-part1-a04-s02-l0055-t010",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -6304,8 +6334,8 @@
       "speaker": "TALBOT",
       "speech_id": "henry-vi-part1-a04-s02-s0003",
       "speech_seq": 15,
-      "line_number": 55,
-      "line_serial": "henry-vi-part1-a04-s02-l0055",
+      "line_number": 56,
+      "line_serial": "henry-vi-part1-a04-s02-l0056",
       "subsection": null,
       "spans": [
         {
@@ -6319,7 +6349,7 @@
               "s": "Prosper",
               "norm": "prosper",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0041-t001"
+              "serial": "henry-vi-part1-a04-s02-l0056-t001"
             },
             {
               "i": 2,
@@ -6327,7 +6357,7 @@
               "s": "our",
               "norm": "our",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0041-t002"
+              "serial": "henry-vi-part1-a04-s02-l0056-t002"
             },
             {
               "i": 3,
@@ -6335,7 +6365,7 @@
               "s": "colours",
               "norm": "colours",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0041-t003"
+              "serial": "henry-vi-part1-a04-s02-l0056-t003"
             },
             {
               "i": 4,
@@ -6343,7 +6373,7 @@
               "s": "in",
               "norm": "in",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0041-t004"
+              "serial": "henry-vi-part1-a04-s02-l0056-t004"
             },
             {
               "i": 5,
@@ -6351,7 +6381,7 @@
               "s": "this",
               "norm": "this",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0041-t005"
+              "serial": "henry-vi-part1-a04-s02-l0056-t005"
             },
             {
               "i": 6,
@@ -6359,7 +6389,7 @@
               "s": "dangerous",
               "norm": "dangerous",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0041-t006"
+              "serial": "henry-vi-part1-a04-s02-l0056-t006"
             },
             {
               "i": 7,
@@ -6367,7 +6397,7 @@
               "s": "fight",
               "norm": "fight",
               "pre": " ",
-              "serial": "henry-vi-part1-a04-s02-l0041-t007"
+              "serial": "henry-vi-part1-a04-s02-l0056-t007"
             },
             {
               "i": 8,
@@ -6375,7 +6405,7 @@
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-vi-part1-a04-s02-l0041-t008",
+              "serial": "henry-vi-part1-a04-s02-l0056-t008",
               "punct": {
                 "kind": "emark",
                 "dash": null,
