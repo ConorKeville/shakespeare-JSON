@@ -49,6 +49,8 @@
     .act-header{display:flex;align-items:center;gap:.5rem;margin:.4rem 0 .15rem}
     .act-title{font-size:.85rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;flex:1}
     .scene-items{list-style:none;margin:0;padding:0;display:grid;gap:.2rem}
+    .scene-item{display:flex;align-items:center;gap:.35rem}
+    .scene-item .scene-link{flex:1;min-width:0}
     a.scene-link{color:inherit;text-decoration:none;border-radius:.35rem;padding:.2rem .35rem;display:inline-block}
     a.scene-link:hover{background:rgba(176,140,255,.18)}
     a.scene-link.active{background:rgba(176,140,255,.35)}
@@ -111,7 +113,7 @@
     let awaitingFocusClick = false;
     let copyFeedbackTimer = null;
     let copyPlayFeedbackTimer = null;
-    const copyActFeedbackTimers = new WeakMap();
+    const copyButtonFeedbackTimers = new WeakMap();
 
     function lineElements(){
       return Array.from(document.querySelectorAll('#content .line'));
@@ -680,7 +682,7 @@
           header.appendChild(el('div',{class:'act-title'}, actTitle));
           const copyBtn = el('button',{type:'button',class:'act-copy'}, 'Copy');
           const ariaLabel = `Copy ${actTitle} from ${play.title}`;
-          setupActCopyButton(copyBtn, 'Copy', ariaLabel);
+          setupCopyButton(copyBtn, 'Copy', ariaLabel);
           copyBtn.addEventListener('click', e=>{
             e.preventDefault();
             handleActCopy(copyBtn, {
@@ -695,8 +697,25 @@
           const list = el('ul',{class:'scene-items'});
           scenes.forEach(s=>{
             const label = s.title || (typeof s.scene === 'number' ? `Scene ${s.scene}` : s.scene || 'Scene');
+            const li = el('li',{});
+            const row = el('div',{class:'scene-item'});
             const a = el('a',{href:'#s='+encodeURIComponent(s.path), class:'scene-link', 'data-path':s.path}, label);
-            list.appendChild(el('li',{}, a));
+            row.appendChild(a);
+            const copyBtn = el('button',{type:'button',class:'act-copy scene-copy'}, 'Copy');
+            const ariaLabel = `Copy ${label} from ${play.title}`;
+            setupCopyButton(copyBtn, 'Copy', ariaLabel);
+            copyBtn.addEventListener('click', e=>{
+              e.preventDefault();
+              e.stopPropagation();
+              handleSceneCopy(copyBtn, {
+                scenePath: s.path,
+                sceneLabel: label,
+                playTitle: play.title
+              });
+            });
+            row.appendChild(copyBtn);
+            li.appendChild(row);
+            list.appendChild(li);
           });
           li.appendChild(list);
           ul.appendChild(li);
@@ -783,7 +802,13 @@
       return copyTextFromItems(items);
     }
 
-    function setupActCopyButton(button, label, ariaLabel){
+    async function copySceneContent(scenePath){
+      if (!scenePath) return '';
+      const scene = await fetchJSON(scenePath);
+      return copyTextFromItems(scene.items || []);
+    }
+
+    function setupCopyButton(button, label, ariaLabel){
       if (!button) return;
       button.dataset.baseLabel = label;
       if (ariaLabel){
@@ -798,7 +823,7 @@
       button.textContent = label;
     }
 
-    function resetCopyActButton(button){
+    function resetCopyButton(button){
       if (!button) return;
       const base = button.dataset.baseLabel || 'Copy';
       button.textContent = base;
@@ -810,10 +835,10 @@
         button.removeAttribute('aria-label');
         button.removeAttribute('title');
       }
-      copyActFeedbackTimers.delete(button);
+      copyButtonFeedbackTimers.delete(button);
     }
 
-    function showCopyActFeedback(button, success){
+    function showCopyFeedback(button, success){
       if (!button) return;
       const msg = success ? 'Copied!' : 'Copy failed';
       const baseAria = button.dataset.baseAriaLabel || '';
@@ -821,32 +846,55 @@
       button.textContent = msg;
       button.setAttribute('aria-label', aria);
       button.title = aria;
-      const existing = copyActFeedbackTimers.get(button);
+      const existing = copyButtonFeedbackTimers.get(button);
       if (existing) window.clearTimeout(existing);
-      const timer = window.setTimeout(()=>{ resetCopyActButton(button); }, 2000);
-      copyActFeedbackTimers.set(button, timer);
+      const timer = window.setTimeout(()=>{ resetCopyButton(button); }, 2000);
+      copyButtonFeedbackTimers.set(button, timer);
     }
 
-    async function handleActCopy(button, {playId, actKey, actTitle, playTitle}){
+    async function handleCopyAction(button, {copyingAria, getText, errorContext}){
       if (!button || button.disabled) return;
-      const existing = copyActFeedbackTimers.get(button);
+      const existing = copyButtonFeedbackTimers.get(button);
       if (existing) window.clearTimeout(existing);
-      copyActFeedbackTimers.delete(button);
+      copyButtonFeedbackTimers.delete(button);
       button.disabled = true;
-      const copyingAria = `Copying ${actTitle} from ${playTitle}`;
       button.textContent = 'Copying…';
-      button.setAttribute('aria-label', copyingAria);
-      button.title = copyingAria;
+      if (copyingAria){
+        button.setAttribute('aria-label', copyingAria);
+        button.title = copyingAria;
+      } else {
+        button.removeAttribute('aria-label');
+        button.removeAttribute('title');
+      }
       try {
-        const text = await copyActContent(playId, actKey);
+        const text = await getText();
         const success = text ? await copyTextToClipboard(text) : false;
-        showCopyActFeedback(button, success);
+        showCopyFeedback(button, success);
       } catch(err){
-        console.error('Failed to copy act', err);
-        showCopyActFeedback(button, false);
+        if (errorContext) console.error(errorContext, err);
+        else console.error('Failed to copy content', err);
+        showCopyFeedback(button, false);
       } finally {
         button.disabled = false;
       }
+    }
+
+    async function handleActCopy(button, {playId, actKey, actTitle, playTitle}){
+      const copyingAria = `Copying ${actTitle} from ${playTitle}`;
+      return handleCopyAction(button, {
+        copyingAria,
+        getText: ()=>copyActContent(playId, actKey),
+        errorContext: 'Failed to copy act'
+      });
+    }
+
+    async function handleSceneCopy(button, {scenePath, sceneLabel, playTitle}){
+      const copyingAria = `Copying ${sceneLabel} from ${playTitle}`;
+      return handleCopyAction(button, {
+        copyingAria,
+        getText: ()=>copySceneContent(scenePath),
+        errorContext: `Failed to copy scene "${sceneLabel}"`
+      });
     }
 
     function renderScene(json,{playTitle:playOverride,unitTitle:unitOverride}={}){
