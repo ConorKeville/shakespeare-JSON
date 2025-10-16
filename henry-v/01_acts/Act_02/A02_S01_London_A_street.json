@@ -4187,7 +4187,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "but it will be thought we keep a bawdy house straight. [_Nym and Pistol",
+          "text": "but it will be thought we keep a bawdy house straight.",
           "tokens": [
             {
               "i": 1,
@@ -4290,58 +4290,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": "[",
-              "norm": "[",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0027-t013",
-              "punct": {
-                "kind": "bracket_open",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 14,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0027-t014",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 15,
-              "type": "word",
-              "s": "Nym",
-              "norm": "nym",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0027-t015"
-            },
-            {
-              "i": 16,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0027-t016"
-            },
-            {
-              "i": 17,
-              "type": "word",
-              "s": "Pistol",
-              "norm": "pistol",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0027-t017"
             }
           ]
         }
@@ -4350,6 +4298,79 @@
     {
       "seq": 43,
       "serial": "henry-v-a02-s01-i0043",
+      "kind": "stage",
+      "subtype": null,
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "text": "Nym and Pistol draw.",
+          "stage": null,
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Nym",
+              "norm": "nym",
+              "pre": "",
+              "serial": "henry-v-a02-s01-i0043-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-i0043-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Pistol",
+              "norm": "pistol",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-i0043-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "draw",
+              "norm": "draw",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-i0043-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-a02-s01-i0043-t005",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 44,
+      "serial": "henry-v-a02-s01-i0044",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -4362,181 +4383,131 @@
         {
           "type": "speech",
           "em": false,
-          "text": "draw._] O well a day, Lady, if he be not drawn now! We shall see wilful",
+          "text": "O well a day, Lady, if he be not drawn now! We shall see wilful",
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "draw",
-              "norm": "draw",
+              "s": "O",
+              "norm": "o",
               "pre": "",
               "serial": "henry-v-a02-s01-l0028-t001"
             },
             {
               "i": 2,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0028-t002",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "type": "word",
+              "s": "well",
+              "norm": "well",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0028-t002"
             },
             {
               "i": 3,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0028-t003",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "type": "word",
+              "s": "a",
+              "norm": "a",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0028-t003"
             },
             {
               "i": 4,
+              "type": "word",
+              "s": "day",
+              "norm": "day",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0028-t004"
+            },
+            {
+              "i": 5,
               "type": "punct",
-              "s": "]",
-              "norm": "]",
+              "s": ",",
+              "norm": ",",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0028-t004",
+              "serial": "henry-v-a02-s01-l0028-t005",
               "punct": {
-                "kind": "bracket_close",
+                "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 5,
-              "type": "word",
-              "s": "O",
-              "norm": "o",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t005"
             },
             {
               "i": 6,
               "type": "word",
-              "s": "well",
-              "norm": "well",
+              "s": "Lady",
+              "norm": "lady",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0028-t006"
             },
             {
               "i": 7,
-              "type": "word",
-              "s": "a",
-              "norm": "a",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t007"
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a02-s01-l0028-t007",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
             },
             {
               "i": 8,
               "type": "word",
-              "s": "day",
-              "norm": "day",
+              "s": "if",
+              "norm": "if",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0028-t008"
             },
             {
               "i": 9,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0028-t009",
-              "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "type": "word",
+              "s": "he",
+              "norm": "he",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0028-t009"
             },
             {
               "i": 10,
               "type": "word",
-              "s": "Lady",
-              "norm": "lady",
+              "s": "be",
+              "norm": "be",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0028-t010"
             },
             {
               "i": 11,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0028-t011",
-              "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "type": "word",
+              "s": "not",
+              "norm": "not",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0028-t011"
             },
             {
               "i": 12,
               "type": "word",
-              "s": "if",
-              "norm": "if",
+              "s": "drawn",
+              "norm": "drawn",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0028-t012"
             },
             {
               "i": 13,
               "type": "word",
-              "s": "he",
-              "norm": "he",
+              "s": "now",
+              "norm": "now",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0028-t013"
             },
             {
               "i": 14,
-              "type": "word",
-              "s": "be",
-              "norm": "be",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t014"
-            },
-            {
-              "i": 15,
-              "type": "word",
-              "s": "not",
-              "norm": "not",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t015"
-            },
-            {
-              "i": 16,
-              "type": "word",
-              "s": "drawn",
-              "norm": "drawn",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t016"
-            },
-            {
-              "i": 17,
-              "type": "word",
-              "s": "now",
-              "norm": "now",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t017"
-            },
-            {
-              "i": 18,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0028-t018",
+              "serial": "henry-v-a02-s01-l0028-t014",
               "punct": {
                 "kind": "emark",
                 "dash": null,
@@ -4545,44 +4516,44 @@
               }
             },
             {
-              "i": 19,
+              "i": 15,
               "type": "word",
               "s": "We",
               "norm": "we",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t019"
+              "serial": "henry-v-a02-s01-l0028-t015"
             },
             {
-              "i": 20,
+              "i": 16,
               "type": "word",
               "s": "shall",
               "norm": "shall",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t020"
+              "serial": "henry-v-a02-s01-l0028-t016"
             },
             {
-              "i": 21,
+              "i": 17,
               "type": "word",
               "s": "see",
               "norm": "see",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t021"
+              "serial": "henry-v-a02-s01-l0028-t017"
             },
             {
-              "i": 22,
+              "i": 18,
               "type": "word",
               "s": "wilful",
               "norm": "wilful",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0028-t022"
+              "serial": "henry-v-a02-s01-l0028-t018"
             }
           ]
         }
       ]
     },
     {
-      "seq": 44,
-      "serial": "henry-v-a02-s01-i0044",
+      "seq": 45,
+      "serial": "henry-v-a02-s01-i0045",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -4648,8 +4619,8 @@
       ]
     },
     {
-      "seq": 45,
-      "serial": "henry-v-a02-s01-i0045",
+      "seq": 46,
+      "serial": "henry-v-a02-s01-i0046",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -4661,8 +4632,8 @@
       "spans": []
     },
     {
-      "seq": 46,
-      "serial": "henry-v-a02-s01-i0046",
+      "seq": 47,
+      "serial": "henry-v-a02-s01-i0047",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -4780,8 +4751,8 @@
       ]
     },
     {
-      "seq": 47,
-      "serial": "henry-v-a02-s01-i0047",
+      "seq": 48,
+      "serial": "henry-v-a02-s01-i0048",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -4793,8 +4764,8 @@
       "spans": []
     },
     {
-      "seq": 48,
-      "serial": "henry-v-a02-s01-i0048",
+      "seq": 49,
+      "serial": "henry-v-a02-s01-i0049",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -4836,8 +4807,8 @@
       ]
     },
     {
-      "seq": 49,
-      "serial": "henry-v-a02-s01-i0049",
+      "seq": 50,
+      "serial": "henry-v-a02-s01-i0050",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -4849,8 +4820,8 @@
       "spans": []
     },
     {
-      "seq": 50,
-      "serial": "henry-v-a02-s01-i0050",
+      "seq": 51,
+      "serial": "henry-v-a02-s01-i0051",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -5014,8 +4985,8 @@
       ]
     },
     {
-      "seq": 51,
-      "serial": "henry-v-a02-s01-i0051",
+      "seq": 52,
+      "serial": "henry-v-a02-s01-i0052",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -5027,8 +4998,8 @@
       "spans": []
     },
     {
-      "seq": 52,
-      "serial": "henry-v-a02-s01-i0052",
+      "seq": 53,
+      "serial": "henry-v-a02-s01-i0053",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -5178,8 +5149,8 @@
       ]
     },
     {
-      "seq": 53,
-      "serial": "henry-v-a02-s01-i0053",
+      "seq": 54,
+      "serial": "henry-v-a02-s01-i0054",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -5191,8 +5162,8 @@
       "spans": []
     },
     {
-      "seq": 54,
-      "serial": "henry-v-a02-s01-i0054",
+      "seq": 55,
+      "serial": "henry-v-a02-s01-i0055",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -5205,7 +5176,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Will you shog off? I would have you _solus_.",
+          "text": "Will you shog off? I would have you",
           "tokens": [
             {
               "i": 1,
@@ -5284,50 +5255,37 @@
               "norm": "you",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0034-t009"
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " solus",
+          "tokens": [
             {
               "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0034-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 11,
               "type": "word",
               "s": "solus",
               "norm": "solus",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0034-t011"
-            },
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0034-t010",
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ".",
+          "tokens": [
             {
-              "i": 12,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0034-t012",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 13,
+              "i": 11,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0034-t013",
+              "serial": "henry-v-a02-s01-l0034-t011",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -5340,8 +5298,8 @@
       ]
     },
     {
-      "seq": 55,
-      "serial": "henry-v-a02-s01-i0055",
+      "seq": 56,
+      "serial": "henry-v-a02-s01-i0056",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -5353,8 +5311,8 @@
       "spans": []
     },
     {
-      "seq": 56,
-      "serial": "henry-v-a02-s01-i0056",
+      "seq": 57,
+      "serial": "henry-v-a02-s01-i0057",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -5366,52 +5324,32 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Solus_, egregious dog! O viper vile!",
+          "em": true,
+          "text": "Solus",
           "tokens": [
             {
               "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0035-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 2,
               "type": "word",
               "s": "Solus",
               "norm": "solus",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0035-t002"
-            },
+              "serial": "henry-v-a02-s01-l0035-t001",
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", egregious dog! O viper vile!",
+          "tokens": [
             {
-              "i": 3,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0035-t003",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 4,
+              "i": 2,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0035-t004",
+              "serial": "henry-v-a02-s01-l0035-t002",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -5420,187 +5358,68 @@
               }
             },
             {
-              "i": 5,
+              "i": 3,
               "type": "word",
               "s": "egregious",
               "norm": "egregious",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0035-t005"
+              "serial": "henry-v-a02-s01-l0035-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "dog",
+              "norm": "dog",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0035-t004"
+            },
+            {
+              "i": 5,
+              "type": "punct",
+              "s": "!",
+              "norm": "!",
+              "pre": "",
+              "serial": "henry-v-a02-s01-l0035-t005",
+              "punct": {
+                "kind": "emark",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
             },
             {
               "i": 6,
               "type": "word",
-              "s": "dog",
-              "norm": "dog",
+              "s": "O",
+              "norm": "o",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0035-t006"
             },
             {
               "i": 7,
-              "type": "punct",
-              "s": "!",
-              "norm": "!",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0035-t007",
-              "punct": {
-                "kind": "emark",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "type": "word",
+              "s": "viper",
+              "norm": "viper",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0035-t007"
             },
             {
               "i": 8,
               "type": "word",
-              "s": "O",
-              "norm": "o",
+              "s": "vile",
+              "norm": "vile",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0035-t008"
             },
             {
               "i": 9,
-              "type": "word",
-              "s": "viper",
-              "norm": "viper",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0035-t009"
-            },
-            {
-              "i": 10,
-              "type": "word",
-              "s": "vile",
-              "norm": "vile",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0035-t010"
-            },
-            {
-              "i": 11,
               "type": "punct",
               "s": "!",
               "norm": "!",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0035-t011",
+              "serial": "henry-v-a02-s01-l0035-t009",
               "punct": {
                 "kind": "emark",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 57,
-      "serial": "henry-v-a02-s01-i0057",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "PISTOL",
-      "speech_id": "henry-v-a02-s01-s0017",
-      "speech_seq": 2,
-      "line_number": 36,
-      "line_serial": "henry-v-a02-s01-l0036",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "The _solus_ in thy most mervailous face;",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "The",
-              "norm": "the",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0036-t001"
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0036-t002",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 3,
-              "type": "word",
-              "s": "solus",
-              "norm": "solus",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0036-t003"
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0036-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 5,
-              "type": "word",
-              "s": "in",
-              "norm": "in",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0036-t005"
-            },
-            {
-              "i": 6,
-              "type": "word",
-              "s": "thy",
-              "norm": "thy",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0036-t006"
-            },
-            {
-              "i": 7,
-              "type": "word",
-              "s": "most",
-              "norm": "most",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0036-t007"
-            },
-            {
-              "i": 8,
-              "type": "word",
-              "s": "mervailous",
-              "norm": "mervailous",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0036-t008"
-            },
-            {
-              "i": 9,
-              "type": "word",
-              "s": "face",
-              "norm": "face",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0036-t009"
-            },
-            {
-              "i": 10,
-              "type": "punct",
-              "s": ";",
-              "norm": ";",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0036-t010",
-              "punct": {
-                "kind": "semicolon",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -5617,15 +5436,15 @@
       "subtype": null,
       "speaker": "PISTOL",
       "speech_id": "henry-v-a02-s01-s0017",
-      "speech_seq": 3,
-      "line_number": 37,
-      "line_serial": "henry-v-a02-s01-l0037",
+      "speech_seq": 2,
+      "line_number": 36,
+      "line_serial": "henry-v-a02-s01-l0036",
       "subsection": null,
       "spans": [
         {
           "type": "speech",
           "em": false,
-          "text": "The _solus_ in thy teeth, and in thy throat,",
+          "text": "The",
           "tokens": [
             {
               "i": 1,
@@ -5633,123 +5452,80 @@
               "s": "The",
               "norm": "the",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0037-t001"
-            },
+              "serial": "henry-v-a02-s01-l0036-t001"
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " solus",
+          "tokens": [
             {
               "i": 2,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0037-t002",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 3,
               "type": "word",
               "s": "solus",
               "norm": "solus",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0037-t003"
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0036-t002",
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " in thy most mervailous face;",
+          "tokens": [
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0036-t003"
             },
             {
               "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0037-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0036-t004"
             },
             {
               "i": 5,
               "type": "word",
-              "s": "in",
-              "norm": "in",
+              "s": "most",
+              "norm": "most",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0037-t005"
+              "serial": "henry-v-a02-s01-l0036-t005"
             },
             {
               "i": 6,
               "type": "word",
-              "s": "thy",
-              "norm": "thy",
+              "s": "mervailous",
+              "norm": "mervailous",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0037-t006"
+              "serial": "henry-v-a02-s01-l0036-t006"
             },
             {
               "i": 7,
               "type": "word",
-              "s": "teeth",
-              "norm": "teeth",
+              "s": "face",
+              "norm": "face",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0037-t007"
+              "serial": "henry-v-a02-s01-l0036-t007"
             },
             {
               "i": 8,
               "type": "punct",
-              "s": ",",
-              "norm": ",",
+              "s": ";",
+              "norm": ";",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0037-t008",
+              "serial": "henry-v-a02-s01-l0036-t008",
               "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 9,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0037-t009"
-            },
-            {
-              "i": 10,
-              "type": "word",
-              "s": "in",
-              "norm": "in",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0037-t010"
-            },
-            {
-              "i": 11,
-              "type": "word",
-              "s": "thy",
-              "norm": "thy",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0037-t011"
-            },
-            {
-              "i": 12,
-              "type": "word",
-              "s": "throat",
-              "norm": "throat",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0037-t012"
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0037-t013",
-              "punct": {
-                "kind": "comma",
+                "kind": "semicolon",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -5762,6 +5538,142 @@
     {
       "seq": 59,
       "serial": "henry-v-a02-s01-i0059",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "PISTOL",
+      "speech_id": "henry-v-a02-s01-s0017",
+      "speech_seq": 3,
+      "line_number": 37,
+      "line_serial": "henry-v-a02-s01-l0037",
+      "subsection": null,
+      "spans": [
+        {
+          "type": "speech",
+          "em": false,
+          "text": "The",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "The",
+              "norm": "the",
+              "pre": "",
+              "serial": "henry-v-a02-s01-l0037-t001"
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " solus",
+          "tokens": [
+            {
+              "i": 2,
+              "type": "word",
+              "s": "solus",
+              "norm": "solus",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0037-t002",
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " in thy teeth, and in thy throat,",
+          "tokens": [
+            {
+              "i": 3,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0037-t003"
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0037-t004"
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "teeth",
+              "norm": "teeth",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0037-t005"
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a02-s01-l0037-t006",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0037-t007"
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0037-t008"
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0037-t009"
+            },
+            {
+              "i": 10,
+              "type": "word",
+              "s": "throat",
+              "norm": "throat",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0037-t010"
+            },
+            {
+              "i": 11,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a02-s01-l0037-t011",
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 60,
+      "serial": "henry-v-a02-s01-i0060",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -5917,8 +5829,8 @@
       ]
     },
     {
-      "seq": 60,
-      "serial": "henry-v-a02-s01-i0060",
+      "seq": 61,
+      "serial": "henry-v-a02-s01-i0061",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -6044,8 +5956,8 @@
       ]
     },
     {
-      "seq": 61,
-      "serial": "henry-v-a02-s01-i0061",
+      "seq": 62,
+      "serial": "henry-v-a02-s01-i0062",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -6058,7 +5970,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "I do retort the _solus_ in thy bowels;",
+          "text": "I do retort the",
           "tokens": [
             {
               "i": 1,
@@ -6091,74 +6003,61 @@
               "norm": "the",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0040-t004"
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " solus",
+          "tokens": [
             {
               "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0040-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 6,
               "type": "word",
               "s": "solus",
               "norm": "solus",
-              "pre": "",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0040-t005",
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " in thy bowels;",
+          "tokens": [
+            {
+              "i": 6,
+              "type": "word",
+              "s": "in",
+              "norm": "in",
+              "pre": " ",
               "serial": "henry-v-a02-s01-l0040-t006"
             },
             {
               "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0040-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
+              "type": "word",
+              "s": "thy",
+              "norm": "thy",
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0040-t007"
             },
             {
               "i": 8,
               "type": "word",
-              "s": "in",
-              "norm": "in",
+              "s": "bowels",
+              "norm": "bowels",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0040-t008"
             },
             {
               "i": 9,
-              "type": "word",
-              "s": "thy",
-              "norm": "thy",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0040-t009"
-            },
-            {
-              "i": 10,
-              "type": "word",
-              "s": "bowels",
-              "norm": "bowels",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0040-t010"
-            },
-            {
-              "i": 11,
               "type": "punct",
               "s": ";",
               "norm": ";",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0040-t011",
+              "serial": "henry-v-a02-s01-l0040-t009",
               "punct": {
                 "kind": "semicolon",
                 "dash": null,
@@ -6171,8 +6070,8 @@
       ]
     },
     {
-      "seq": 62,
-      "serial": "henry-v-a02-s01-i0062",
+      "seq": 63,
+      "serial": "henry-v-a02-s01-i0063",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -6292,8 +6191,8 @@
       ]
     },
     {
-      "seq": 63,
-      "serial": "henry-v-a02-s01-i0063",
+      "seq": 64,
+      "serial": "henry-v-a02-s01-i0064",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -6367,8 +6266,8 @@
       ]
     },
     {
-      "seq": 64,
-      "serial": "henry-v-a02-s01-i0064",
+      "seq": 65,
+      "serial": "henry-v-a02-s01-i0065",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -6380,8 +6279,8 @@
       "spans": []
     },
     {
-      "seq": 65,
-      "serial": "henry-v-a02-s01-i0065",
+      "seq": 66,
+      "serial": "henry-v-a02-s01-i0066",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -6549,8 +6448,8 @@
       ]
     },
     {
-      "seq": 66,
-      "serial": "henry-v-a02-s01-i0066",
+      "seq": 67,
+      "serial": "henry-v-a02-s01-i0067",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -6716,8 +6615,8 @@
       ]
     },
     {
-      "seq": 67,
-      "serial": "henry-v-a02-s01-i0067",
+      "seq": 68,
+      "serial": "henry-v-a02-s01-i0068",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -6921,8 +6820,8 @@
       ]
     },
     {
-      "seq": 68,
-      "serial": "henry-v-a02-s01-i0068",
+      "seq": 69,
+      "serial": "henry-v-a02-s01-i0069",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -7096,8 +6995,8 @@
       ]
     },
     {
-      "seq": 69,
-      "serial": "henry-v-a02-s01-i0069",
+      "seq": 70,
+      "serial": "henry-v-a02-s01-i0070",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -7155,8 +7054,8 @@
       ]
     },
     {
-      "seq": 70,
-      "serial": "henry-v-a02-s01-i0070",
+      "seq": 71,
+      "serial": "henry-v-a02-s01-i0071",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -7168,8 +7067,8 @@
       "spans": []
     },
     {
-      "seq": 71,
-      "serial": "henry-v-a02-s01-i0071",
+      "seq": 72,
+      "serial": "henry-v-a02-s01-i0072",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -7259,8 +7158,8 @@
       ]
     },
     {
-      "seq": 72,
-      "serial": "henry-v-a02-s01-i0072",
+      "seq": 73,
+      "serial": "henry-v-a02-s01-i0073",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -7380,8 +7279,8 @@
       ]
     },
     {
-      "seq": 73,
-      "serial": "henry-v-a02-s01-i0073",
+      "seq": 74,
+      "serial": "henry-v-a02-s01-i0074",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -7431,8 +7330,8 @@
       ]
     },
     {
-      "seq": 74,
-      "serial": "henry-v-a02-s01-i0074",
+      "seq": 75,
+      "serial": "henry-v-a02-s01-i0075",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -7444,8 +7343,8 @@
       "spans": []
     },
     {
-      "seq": 75,
-      "serial": "henry-v-a02-s01-i0075",
+      "seq": 76,
+      "serial": "henry-v-a02-s01-i0076",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -7613,8 +7512,8 @@
       ]
     },
     {
-      "seq": 76,
-      "serial": "henry-v-a02-s01-i0076",
+      "seq": 77,
+      "serial": "henry-v-a02-s01-i0077",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -7742,8 +7641,8 @@
       ]
     },
     {
-      "seq": 77,
-      "serial": "henry-v-a02-s01-i0077",
+      "seq": 78,
+      "serial": "henry-v-a02-s01-i0078",
       "kind": "stage",
       "subtype": null,
       "speaker": null,
@@ -7765,7 +7664,7 @@
               "s": "Draws",
               "norm": "draws",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0077-t001",
+              "serial": "henry-v-a02-s01-i0078-t001",
               "em": true
             },
             {
@@ -7774,7 +7673,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0077-t002",
+              "serial": "henry-v-a02-s01-i0078-t002",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -7788,8 +7687,8 @@
       ]
     },
     {
-      "seq": 78,
-      "serial": "henry-v-a02-s01-i0078",
+      "seq": 79,
+      "serial": "henry-v-a02-s01-i0079",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -7801,8 +7700,8 @@
       "spans": []
     },
     {
-      "seq": 79,
-      "serial": "henry-v-a02-s01-i0079",
+      "seq": 80,
+      "serial": "henry-v-a02-s01-i0080",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -7922,8 +7821,8 @@
       ]
     },
     {
-      "seq": 80,
-      "serial": "henry-v-a02-s01-i0080",
+      "seq": 81,
+      "serial": "henry-v-a02-s01-i0081",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -8065,8 +7964,8 @@
       ]
     },
     {
-      "seq": 81,
-      "serial": "henry-v-a02-s01-i0081",
+      "seq": 82,
+      "serial": "henry-v-a02-s01-i0082",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -8140,8 +8039,8 @@
       ]
     },
     {
-      "seq": 82,
-      "serial": "henry-v-a02-s01-i0082",
+      "seq": 83,
+      "serial": "henry-v-a02-s01-i0083",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -8153,8 +8052,8 @@
       "spans": []
     },
     {
-      "seq": 83,
-      "serial": "henry-v-a02-s01-i0083",
+      "seq": 84,
+      "serial": "henry-v-a02-s01-i0084",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -8336,8 +8235,8 @@
       ]
     },
     {
-      "seq": 84,
-      "serial": "henry-v-a02-s01-i0084",
+      "seq": 85,
+      "serial": "henry-v-a02-s01-i0085",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -8395,8 +8294,8 @@
       ]
     },
     {
-      "seq": 85,
-      "serial": "henry-v-a02-s01-i0085",
+      "seq": 86,
+      "serial": "henry-v-a02-s01-i0086",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -8408,8 +8307,8 @@
       "spans": []
     },
     {
-      "seq": 86,
-      "serial": "henry-v-a02-s01-i0086",
+      "seq": 87,
+      "serial": "henry-v-a02-s01-i0087",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -8495,8 +8394,8 @@
       ]
     },
     {
-      "seq": 87,
-      "serial": "henry-v-a02-s01-i0087",
+      "seq": 88,
+      "serial": "henry-v-a02-s01-i0088",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -8608,8 +8507,8 @@
       ]
     },
     {
-      "seq": 88,
-      "serial": "henry-v-a02-s01-i0088",
+      "seq": 89,
+      "serial": "henry-v-a02-s01-i0089",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -8737,8 +8636,8 @@
       ]
     },
     {
-      "seq": 89,
-      "serial": "henry-v-a02-s01-i0089",
+      "seq": 90,
+      "serial": "henry-v-a02-s01-i0090",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -8826,8 +8725,8 @@
       ]
     },
     {
-      "seq": 90,
-      "serial": "henry-v-a02-s01-i0090",
+      "seq": 91,
+      "serial": "henry-v-a02-s01-i0091",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -8903,8 +8802,8 @@
       ]
     },
     {
-      "seq": 91,
-      "serial": "henry-v-a02-s01-i0091",
+      "seq": 92,
+      "serial": "henry-v-a02-s01-i0092",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -9002,8 +8901,8 @@
       ]
     },
     {
-      "seq": 92,
-      "serial": "henry-v-a02-s01-i0092",
+      "seq": 93,
+      "serial": "henry-v-a02-s01-i0093",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -9115,8 +9014,8 @@
       ]
     },
     {
-      "seq": 93,
-      "serial": "henry-v-a02-s01-i0093",
+      "seq": 94,
+      "serial": "henry-v-a02-s01-i0094",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -9236,8 +9135,8 @@
       ]
     },
     {
-      "seq": 94,
-      "serial": "henry-v-a02-s01-i0094",
+      "seq": 95,
+      "serial": "henry-v-a02-s01-i0095",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -9250,7 +9149,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "For the only she; and _pauca_, there’s enough.",
+          "text": "For the only she; and",
           "tokens": [
             {
               "i": 1,
@@ -9305,50 +9204,37 @@
               "norm": "and",
               "pre": " ",
               "serial": "henry-v-a02-s01-l0066-t006"
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " pauca",
+          "tokens": [
             {
               "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a02-s01-l0066-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 8,
               "type": "word",
               "s": "pauca",
               "norm": "pauca",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0066-t008"
-            },
+              "pre": " ",
+              "serial": "henry-v-a02-s01-l0066-t007",
+              "em": true
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", there’s enough.",
+          "tokens": [
             {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a02-s01-l0066-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 10,
+              "i": 8,
               "type": "punct",
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0066-t010",
+              "serial": "henry-v-a02-s01-l0066-t008",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -9357,28 +9243,28 @@
               }
             },
             {
-              "i": 11,
+              "i": 9,
               "type": "word",
               "s": "there’s",
               "norm": "there's",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0066-t011"
+              "serial": "henry-v-a02-s01-l0066-t009"
             },
             {
-              "i": 12,
+              "i": 10,
               "type": "word",
               "s": "enough",
               "norm": "enough",
               "pre": " ",
-              "serial": "henry-v-a02-s01-l0066-t012"
+              "serial": "henry-v-a02-s01-l0066-t010"
             },
             {
-              "i": 13,
+              "i": 11,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s01-l0066-t013",
+              "serial": "henry-v-a02-s01-l0066-t011",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -9391,8 +9277,8 @@
       ]
     },
     {
-      "seq": 95,
-      "serial": "henry-v-a02-s01-i0095",
+      "seq": 96,
+      "serial": "henry-v-a02-s01-i0096",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -9442,8 +9328,8 @@
       ]
     },
     {
-      "seq": 96,
-      "serial": "henry-v-a02-s01-i0096",
+      "seq": 97,
+      "serial": "henry-v-a02-s01-i0097",
       "kind": "stage",
       "subtype": "enter",
       "speaker": null,
@@ -9465,7 +9351,7 @@
               "s": "Enter",
               "norm": "enter",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0096-t001",
+              "serial": "henry-v-a02-s01-i0097-t001",
               "em": true
             },
             {
@@ -9474,7 +9360,7 @@
               "s": "the",
               "norm": "the",
               "pre": " ",
-              "serial": "henry-v-a02-s01-i0096-t002",
+              "serial": "henry-v-a02-s01-i0097-t002",
               "em": true
             },
             {
@@ -9483,7 +9369,7 @@
               "s": "Boy",
               "norm": "boy",
               "pre": " ",
-              "serial": "henry-v-a02-s01-i0096-t003",
+              "serial": "henry-v-a02-s01-i0097-t003",
               "em": true
             },
             {
@@ -9492,7 +9378,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0096-t004",
+              "serial": "henry-v-a02-s01-i0097-t004",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -9506,8 +9392,8 @@
       ]
     },
     {
-      "seq": 97,
-      "serial": "henry-v-a02-s01-i0097",
+      "seq": 98,
+      "serial": "henry-v-a02-s01-i0098",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "BOY",
@@ -9519,8 +9405,8 @@
       "spans": []
     },
     {
-      "seq": 98,
-      "serial": "henry-v-a02-s01-i0098",
+      "seq": 99,
+      "serial": "henry-v-a02-s01-i0099",
       "kind": "speech",
       "subtype": null,
       "speaker": "BOY",
@@ -9708,8 +9594,8 @@
       ]
     },
     {
-      "seq": 99,
-      "serial": "henry-v-a02-s01-i0099",
+      "seq": 100,
+      "serial": "henry-v-a02-s01-i0100",
       "kind": "speech",
       "subtype": null,
       "speaker": "BOY",
@@ -9875,8 +9761,8 @@
       ]
     },
     {
-      "seq": 100,
-      "serial": "henry-v-a02-s01-i0100",
+      "seq": 101,
+      "serial": "henry-v-a02-s01-i0101",
       "kind": "speech",
       "subtype": null,
       "speaker": "BOY",
@@ -10070,8 +9956,8 @@
       ]
     },
     {
-      "seq": 101,
-      "serial": "henry-v-a02-s01-i0101",
+      "seq": 102,
+      "serial": "henry-v-a02-s01-i0102",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -10083,8 +9969,8 @@
       "spans": []
     },
     {
-      "seq": 102,
-      "serial": "henry-v-a02-s01-i0102",
+      "seq": 103,
+      "serial": "henry-v-a02-s01-i0103",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -10156,8 +10042,8 @@
       ]
     },
     {
-      "seq": 103,
-      "serial": "henry-v-a02-s01-i0103",
+      "seq": 104,
+      "serial": "henry-v-a02-s01-i0104",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -10169,8 +10055,8 @@
       "spans": []
     },
     {
-      "seq": 104,
-      "serial": "henry-v-a02-s01-i0104",
+      "seq": 105,
+      "serial": "henry-v-a02-s01-i0105",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -10322,8 +10208,8 @@
       ]
     },
     {
-      "seq": 105,
-      "serial": "henry-v-a02-s01-i0105",
+      "seq": 106,
+      "serial": "henry-v-a02-s01-i0106",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -10405,8 +10291,8 @@
       ]
     },
     {
-      "seq": 106,
-      "serial": "henry-v-a02-s01-i0106",
+      "seq": 107,
+      "serial": "henry-v-a02-s01-i0107",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -10494,8 +10380,8 @@
       ]
     },
     {
-      "seq": 107,
-      "serial": "henry-v-a02-s01-i0107",
+      "seq": 108,
+      "serial": "henry-v-a02-s01-i0108",
       "kind": "stage",
       "subtype": "exeunt",
       "speaker": null,
@@ -10517,7 +10403,7 @@
               "s": "Exeunt",
               "norm": "exeunt",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0107-t001",
+              "serial": "henry-v-a02-s01-i0108-t001",
               "em": true
             },
             {
@@ -10526,7 +10412,7 @@
               "s": "Hostess",
               "norm": "hostess",
               "pre": " ",
-              "serial": "henry-v-a02-s01-i0107-t002",
+              "serial": "henry-v-a02-s01-i0108-t002",
               "em": true
             },
             {
@@ -10535,7 +10421,7 @@
               "s": "and",
               "norm": "and",
               "pre": " ",
-              "serial": "henry-v-a02-s01-i0107-t003",
+              "serial": "henry-v-a02-s01-i0108-t003",
               "em": true
             },
             {
@@ -10544,7 +10430,7 @@
               "s": "Boy",
               "norm": "boy",
               "pre": " ",
-              "serial": "henry-v-a02-s01-i0107-t004",
+              "serial": "henry-v-a02-s01-i0108-t004",
               "em": true
             },
             {
@@ -10553,7 +10439,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0107-t005",
+              "serial": "henry-v-a02-s01-i0108-t005",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -10567,8 +10453,8 @@
       ]
     },
     {
-      "seq": 108,
-      "serial": "henry-v-a02-s01-i0108",
+      "seq": 109,
+      "serial": "henry-v-a02-s01-i0109",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -10580,8 +10466,8 @@
       "spans": []
     },
     {
-      "seq": 109,
-      "serial": "henry-v-a02-s01-i0109",
+      "seq": 110,
+      "serial": "henry-v-a02-s01-i0110",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -10755,8 +10641,8 @@
       ]
     },
     {
-      "seq": 110,
-      "serial": "henry-v-a02-s01-i0110",
+      "seq": 111,
+      "serial": "henry-v-a02-s01-i0111",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -10870,8 +10756,8 @@
       ]
     },
     {
-      "seq": 111,
-      "serial": "henry-v-a02-s01-i0111",
+      "seq": 112,
+      "serial": "henry-v-a02-s01-i0112",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -10883,8 +10769,8 @@
       "spans": []
     },
     {
-      "seq": 112,
-      "serial": "henry-v-a02-s01-i0112",
+      "seq": 113,
+      "serial": "henry-v-a02-s01-i0113",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -11004,8 +10890,8 @@
       ]
     },
     {
-      "seq": 113,
-      "serial": "henry-v-a02-s01-i0113",
+      "seq": 114,
+      "serial": "henry-v-a02-s01-i0114",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -11017,8 +10903,8 @@
       "spans": []
     },
     {
-      "seq": 114,
-      "serial": "henry-v-a02-s01-i0114",
+      "seq": 115,
+      "serial": "henry-v-a02-s01-i0115",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -11148,8 +11034,8 @@
       ]
     },
     {
-      "seq": 115,
-      "serial": "henry-v-a02-s01-i0115",
+      "seq": 116,
+      "serial": "henry-v-a02-s01-i0116",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -11161,8 +11047,8 @@
       "spans": []
     },
     {
-      "seq": 116,
-      "serial": "henry-v-a02-s01-i0116",
+      "seq": 117,
+      "serial": "henry-v-a02-s01-i0117",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -11244,8 +11130,8 @@
       ]
     },
     {
-      "seq": 117,
-      "serial": "henry-v-a02-s01-i0117",
+      "seq": 118,
+      "serial": "henry-v-a02-s01-i0118",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -11257,8 +11143,8 @@
       "spans": []
     },
     {
-      "seq": 118,
-      "serial": "henry-v-a02-s01-i0118",
+      "seq": 119,
+      "serial": "henry-v-a02-s01-i0119",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -11386,8 +11272,8 @@
       ]
     },
     {
-      "seq": 119,
-      "serial": "henry-v-a02-s01-i0119",
+      "seq": 120,
+      "serial": "henry-v-a02-s01-i0120",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -11399,8 +11285,8 @@
       "spans": []
     },
     {
-      "seq": 120,
-      "serial": "henry-v-a02-s01-i0120",
+      "seq": 121,
+      "serial": "henry-v-a02-s01-i0121",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -11496,8 +11382,8 @@
       ]
     },
     {
-      "seq": 121,
-      "serial": "henry-v-a02-s01-i0121",
+      "seq": 122,
+      "serial": "henry-v-a02-s01-i0122",
       "kind": "stage",
       "subtype": null,
       "speaker": null,
@@ -11519,7 +11405,7 @@
               "s": "They",
               "norm": "they",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0121-t001",
+              "serial": "henry-v-a02-s01-i0122-t001",
               "em": true
             },
             {
@@ -11528,7 +11414,7 @@
               "s": "draw",
               "norm": "draw",
               "pre": " ",
-              "serial": "henry-v-a02-s01-i0121-t002",
+              "serial": "henry-v-a02-s01-i0122-t002",
               "em": true
             },
             {
@@ -11537,7 +11423,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0121-t003",
+              "serial": "henry-v-a02-s01-i0122-t003",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -11551,8 +11437,8 @@
       ]
     },
     {
-      "seq": 122,
-      "serial": "henry-v-a02-s01-i0122",
+      "seq": 123,
+      "serial": "henry-v-a02-s01-i0123",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -11564,8 +11450,8 @@
       "spans": []
     },
     {
-      "seq": 123,
-      "serial": "henry-v-a02-s01-i0123",
+      "seq": 124,
+      "serial": "henry-v-a02-s01-i0124",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -11739,8 +11625,8 @@
       ]
     },
     {
-      "seq": 124,
-      "serial": "henry-v-a02-s01-i0124",
+      "seq": 125,
+      "serial": "henry-v-a02-s01-i0125",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -11812,8 +11698,8 @@
       ]
     },
     {
-      "seq": 125,
-      "serial": "henry-v-a02-s01-i0125",
+      "seq": 126,
+      "serial": "henry-v-a02-s01-i0126",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -11825,8 +11711,8 @@
       "spans": []
     },
     {
-      "seq": 126,
-      "serial": "henry-v-a02-s01-i0126",
+      "seq": 127,
+      "serial": "henry-v-a02-s01-i0127",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -11954,8 +11840,8 @@
       ]
     },
     {
-      "seq": 127,
-      "serial": "henry-v-a02-s01-i0127",
+      "seq": 128,
+      "serial": "henry-v-a02-s01-i0128",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -11967,8 +11853,8 @@
       "spans": []
     },
     {
-      "seq": 128,
-      "serial": "henry-v-a02-s01-i0128",
+      "seq": 129,
+      "serial": "henry-v-a02-s01-i0129",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -12148,8 +12034,8 @@
       ]
     },
     {
-      "seq": 129,
-      "serial": "henry-v-a02-s01-i0129",
+      "seq": 130,
+      "serial": "henry-v-a02-s01-i0130",
       "kind": "speech",
       "subtype": null,
       "speaker": "BARDOLPH",
@@ -12319,8 +12205,8 @@
       ]
     },
     {
-      "seq": 130,
-      "serial": "henry-v-a02-s01-i0130",
+      "seq": 131,
+      "serial": "henry-v-a02-s01-i0131",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -12332,8 +12218,8 @@
       "spans": []
     },
     {
-      "seq": 131,
-      "serial": "henry-v-a02-s01-i0131",
+      "seq": 132,
+      "serial": "henry-v-a02-s01-i0132",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -12463,8 +12349,8 @@
       ]
     },
     {
-      "seq": 132,
-      "serial": "henry-v-a02-s01-i0132",
+      "seq": 133,
+      "serial": "henry-v-a02-s01-i0133",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -12476,8 +12362,8 @@
       "spans": []
     },
     {
-      "seq": 133,
-      "serial": "henry-v-a02-s01-i0133",
+      "seq": 134,
+      "serial": "henry-v-a02-s01-i0134",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -12589,8 +12475,8 @@
       ]
     },
     {
-      "seq": 134,
-      "serial": "henry-v-a02-s01-i0134",
+      "seq": 135,
+      "serial": "henry-v-a02-s01-i0135",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -12688,8 +12574,8 @@
       ]
     },
     {
-      "seq": 135,
-      "serial": "henry-v-a02-s01-i0135",
+      "seq": 136,
+      "serial": "henry-v-a02-s01-i0136",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -12785,8 +12671,8 @@
       ]
     },
     {
-      "seq": 136,
-      "serial": "henry-v-a02-s01-i0136",
+      "seq": 137,
+      "serial": "henry-v-a02-s01-i0137",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -12914,8 +12800,8 @@
       ]
     },
     {
-      "seq": 137,
-      "serial": "henry-v-a02-s01-i0137",
+      "seq": 138,
+      "serial": "henry-v-a02-s01-i0138",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -13021,8 +12907,8 @@
       ]
     },
     {
-      "seq": 138,
-      "serial": "henry-v-a02-s01-i0138",
+      "seq": 139,
+      "serial": "henry-v-a02-s01-i0139",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -13126,8 +13012,8 @@
       ]
     },
     {
-      "seq": 139,
-      "serial": "henry-v-a02-s01-i0139",
+      "seq": 140,
+      "serial": "henry-v-a02-s01-i0140",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -13193,8 +13079,8 @@
       ]
     },
     {
-      "seq": 140,
-      "serial": "henry-v-a02-s01-i0140",
+      "seq": 141,
+      "serial": "henry-v-a02-s01-i0141",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -13206,8 +13092,8 @@
       "spans": []
     },
     {
-      "seq": 141,
-      "serial": "henry-v-a02-s01-i0141",
+      "seq": 142,
+      "serial": "henry-v-a02-s01-i0142",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -13281,8 +13167,8 @@
       ]
     },
     {
-      "seq": 142,
-      "serial": "henry-v-a02-s01-i0142",
+      "seq": 143,
+      "serial": "henry-v-a02-s01-i0143",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -13294,8 +13180,8 @@
       "spans": []
     },
     {
-      "seq": 143,
-      "serial": "henry-v-a02-s01-i0143",
+      "seq": 144,
+      "serial": "henry-v-a02-s01-i0144",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -13369,8 +13255,8 @@
       ]
     },
     {
-      "seq": 144,
-      "serial": "henry-v-a02-s01-i0144",
+      "seq": 145,
+      "serial": "henry-v-a02-s01-i0145",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -13382,8 +13268,8 @@
       "spans": []
     },
     {
-      "seq": 145,
-      "serial": "henry-v-a02-s01-i0145",
+      "seq": 146,
+      "serial": "henry-v-a02-s01-i0146",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -13493,8 +13379,8 @@
       ]
     },
     {
-      "seq": 146,
-      "serial": "henry-v-a02-s01-i0146",
+      "seq": 147,
+      "serial": "henry-v-a02-s01-i0147",
       "kind": "stage",
       "subtype": "enter",
       "speaker": null,
@@ -13516,7 +13402,7 @@
               "s": "Enter",
               "norm": "enter",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0146-t001",
+              "serial": "henry-v-a02-s01-i0147-t001",
               "em": true
             },
             {
@@ -13525,7 +13411,7 @@
               "s": "Hostess",
               "norm": "hostess",
               "pre": " ",
-              "serial": "henry-v-a02-s01-i0146-t002",
+              "serial": "henry-v-a02-s01-i0147-t002",
               "em": true
             },
             {
@@ -13534,7 +13420,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0146-t003",
+              "serial": "henry-v-a02-s01-i0147-t003",
               "em": true,
               "punct": {
                 "kind": "period",
@@ -13548,8 +13434,8 @@
       ]
     },
     {
-      "seq": 147,
-      "serial": "henry-v-a02-s01-i0147",
+      "seq": 148,
+      "serial": "henry-v-a02-s01-i0148",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -13561,8 +13447,8 @@
       "spans": []
     },
     {
-      "seq": 148,
-      "serial": "henry-v-a02-s01-i0148",
+      "seq": 149,
+      "serial": "henry-v-a02-s01-i0149",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -13706,8 +13592,8 @@
       ]
     },
     {
-      "seq": 149,
-      "serial": "henry-v-a02-s01-i0149",
+      "seq": 150,
+      "serial": "henry-v-a02-s01-i0150",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -13865,8 +13751,8 @@
       ]
     },
     {
-      "seq": 150,
-      "serial": "henry-v-a02-s01-i0150",
+      "seq": 151,
+      "serial": "henry-v-a02-s01-i0151",
       "kind": "speech",
       "subtype": null,
       "speaker": "HOSTESS",
@@ -14024,8 +13910,8 @@
       ]
     },
     {
-      "seq": 151,
-      "serial": "henry-v-a02-s01-i0151",
+      "seq": 152,
+      "serial": "henry-v-a02-s01-i0152",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -14037,8 +13923,8 @@
       "spans": []
     },
     {
-      "seq": 152,
-      "serial": "henry-v-a02-s01-i0152",
+      "seq": 153,
+      "serial": "henry-v-a02-s01-i0153",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -14198,8 +14084,8 @@
       ]
     },
     {
-      "seq": 153,
-      "serial": "henry-v-a02-s01-i0153",
+      "seq": 154,
+      "serial": "henry-v-a02-s01-i0154",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -14211,8 +14097,8 @@
       "spans": []
     },
     {
-      "seq": 154,
-      "serial": "henry-v-a02-s01-i0154",
+      "seq": 155,
+      "serial": "henry-v-a02-s01-i0155",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -14308,8 +14194,8 @@
       ]
     },
     {
-      "seq": 155,
-      "serial": "henry-v-a02-s01-i0155",
+      "seq": 156,
+      "serial": "henry-v-a02-s01-i0156",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -14391,8 +14277,8 @@
       ]
     },
     {
-      "seq": 156,
-      "serial": "henry-v-a02-s01-i0156",
+      "seq": 157,
+      "serial": "henry-v-a02-s01-i0157",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "NYM",
@@ -14404,8 +14290,8 @@
       "spans": []
     },
     {
-      "seq": 157,
-      "serial": "henry-v-a02-s01-i0157",
+      "seq": 158,
+      "serial": "henry-v-a02-s01-i0158",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -14581,8 +14467,8 @@
       ]
     },
     {
-      "seq": 158,
-      "serial": "henry-v-a02-s01-i0158",
+      "seq": 159,
+      "serial": "henry-v-a02-s01-i0159",
       "kind": "speech",
       "subtype": null,
       "speaker": "NYM",
@@ -14640,8 +14526,8 @@
       ]
     },
     {
-      "seq": 159,
-      "serial": "henry-v-a02-s01-i0159",
+      "seq": 160,
+      "serial": "henry-v-a02-s01-i0160",
       "kind": "speaker_label",
       "subtype": null,
       "speaker": "PISTOL",
@@ -14653,8 +14539,8 @@
       "spans": []
     },
     {
-      "seq": 160,
-      "serial": "henry-v-a02-s01-i0160",
+      "seq": 161,
+      "serial": "henry-v-a02-s01-i0161",
       "kind": "speech",
       "subtype": null,
       "speaker": "PISTOL",
@@ -14810,8 +14696,8 @@
       ]
     },
     {
-      "seq": 161,
-      "serial": "henry-v-a02-s01-i0161",
+      "seq": 162,
+      "serial": "henry-v-a02-s01-i0162",
       "kind": "stage",
       "subtype": "exeunt",
       "speaker": null,
@@ -14833,7 +14719,7 @@
               "s": "Exeunt",
               "norm": "exeunt",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0161-t001",
+              "serial": "henry-v-a02-s01-i0162-t001",
               "em": true
             },
             {
@@ -14842,7 +14728,7 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a02-s01-i0161-t002",
+              "serial": "henry-v-a02-s01-i0162-t002",
               "em": true,
               "punct": {
                 "kind": "period",
