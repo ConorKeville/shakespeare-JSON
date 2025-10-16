@@ -6263,7 +6263,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Die and be damn’d! and _fico_ for thy friendship!",
+          "text": "Die and be damn’d! and",
           "tokens": [
             {
               "i": 1,
@@ -6318,21 +6318,14 @@
               "norm": "and",
               "pre": " ",
               "serial": "henry-v-a03-s06-l0047-t006"
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0047-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "fico",
+          "tokens": [
             {
               "i": 8,
               "type": "word",
@@ -6340,21 +6333,14 @@
               "norm": "fico",
               "pre": "",
               "serial": "henry-v-a03-s06-l0047-t008"
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s06-l0047-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " for thy friendship!",
+          "tokens": [
             {
               "i": 10,
               "type": "word",
@@ -9508,7 +9494,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "coat, I will tell him my mind. ",
+          "text": "coat, I will tell him my mind.",
           "tokens": [
             {
               "i": 1,
@@ -9595,12 +9581,26 @@
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "seq": 99,
+      "serial": "henry-v-a03-s06-i0098a",
+      "kind": "stage",
+      "subtype": "sound",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
         {
           "type": "stage",
           "em": true,
-          "text": "Drum heard.",
           "stage": null,
+          "text": "Drum heard.",
           "tokens": [
             {
               "i": 1,
@@ -9608,7 +9608,7 @@
               "s": "Drum",
               "norm": "drum",
               "pre": "",
-              "serial": "henry-v-a03-s06-l0069-t001",
+              "serial": "henry-v-a03-s06-i0098a-t001",
               "em": true
             },
             {
@@ -9617,7 +9617,7 @@
               "s": "heard",
               "norm": "heard",
               "pre": " ",
-              "serial": "henry-v-a03-s06-l0069-t002",
+              "serial": "henry-v-a03-s06-i0098a-t002",
               "em": true
             },
             {
@@ -9626,198 +9626,8 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a03-s06-l0069-t003",
+              "serial": "henry-v-a03-s06-i0098a-t003",
               "em": true,
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            }
-          ]
-        },
-        {
-          "type": "speech",
-          "em": false,
-          "text": " Hark you, the King is",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "Hark",
-              "norm": "hark",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0069-t001"
-            },
-            {
-              "i": 2,
-              "type": "word",
-              "s": "you",
-              "norm": "you",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0069-t002"
-            },
-            {
-              "i": 3,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "henry-v-a03-s06-l0069-t003",
-              "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 4,
-              "type": "word",
-              "s": "the",
-              "norm": "the",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0069-t004"
-            },
-            {
-              "i": 5,
-              "type": "word",
-              "s": "King",
-              "norm": "king",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0069-t005"
-            },
-            {
-              "i": 6,
-              "type": "word",
-              "s": "is",
-              "norm": "is",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0069-t006"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seq": 99,
-      "serial": "henry-v-a03-s06-i0099",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "FLUELLEN",
-      "speech_id": "henry-v-a03-s06-s0024",
-      "speech_seq": 4,
-      "line_number": 70,
-      "line_serial": "henry-v-a03-s06-l0070",
-      "subsection": null,
-      "spans": [
-        {
-          "type": "speech",
-          "em": false,
-          "text": "coming, and I must speak with him from the pridge.",
-          "tokens": [
-            {
-              "i": 1,
-              "type": "word",
-              "s": "coming",
-              "norm": "coming",
-              "pre": "",
-              "serial": "henry-v-a03-s06-l0070-t001"
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": ",",
-              "norm": ",",
-              "pre": "",
-              "serial": "henry-v-a03-s06-l0070-t002",
-              "punct": {
-                "kind": "comma",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 3,
-              "type": "word",
-              "s": "and",
-              "norm": "and",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t003"
-            },
-            {
-              "i": 4,
-              "type": "word",
-              "s": "I",
-              "norm": "i",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t004"
-            },
-            {
-              "i": 5,
-              "type": "word",
-              "s": "must",
-              "norm": "must",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t005"
-            },
-            {
-              "i": 6,
-              "type": "word",
-              "s": "speak",
-              "norm": "speak",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t006"
-            },
-            {
-              "i": 7,
-              "type": "word",
-              "s": "with",
-              "norm": "with",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t007"
-            },
-            {
-              "i": 8,
-              "type": "word",
-              "s": "him",
-              "norm": "him",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t008"
-            },
-            {
-              "i": 9,
-              "type": "word",
-              "s": "from",
-              "norm": "from",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t009"
-            },
-            {
-              "i": 10,
-              "type": "word",
-              "s": "the",
-              "norm": "the",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t010"
-            },
-            {
-              "i": 11,
-              "type": "word",
-              "s": "pridge",
-              "norm": "pridge",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0070-t011"
-            },
-            {
-              "i": 12,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-v-a03-s06-l0070-t012",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -9831,90 +9641,82 @@
     },
     {
       "seq": 100,
-      "serial": "henry-v-a03-s06-i0100",
-      "kind": "stage",
-      "subtype": "sound",
-      "speaker": null,
-      "speech_id": null,
-      "speech_seq": null,
-      "line_number": null,
-      "line_serial": null,
+      "serial": "henry-v-a03-s06-i0099",
+      "kind": "speech",
+      "subtype": null,
+      "speaker": "FLUELLEN",
+      "speech_id": "henry-v-a03-s06-s0024",
+      "speech_seq": 4,
+      "line_number": 70,
+      "line_serial": "henry-v-a03-s06-l0070",
       "subsection": null,
       "spans": [
         {
-          "type": "stage",
-          "em": true,
-          "text": "Drum and colours. Enter King Henry, Gloucester and his poor soldiers.",
-          "stage": null,
+          "type": "speech",
+          "em": false,
+          "text": "Hark you, the King is coming, and I must speak with him from the pridge.",
           "tokens": [
             {
               "i": 1,
               "type": "word",
-              "s": "Drum",
-              "norm": "drum",
+              "s": "Hark",
+              "norm": "hark",
               "pre": "",
-              "serial": "henry-v-a03-s06-i0100-t001",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t001"
             },
             {
               "i": 2,
               "type": "word",
-              "s": "and",
-              "norm": "and",
+              "s": "you",
+              "norm": "you",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t002",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t002"
             },
             {
               "i": 3,
-              "type": "word",
-              "s": "colours",
-              "norm": "colours",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t003",
-              "em": true
-            },
-            {
-              "i": 4,
               "type": "punct",
-              "s": ".",
-              "norm": ".",
+              "s": ",",
+              "norm": ",",
               "pre": "",
-              "serial": "henry-v-a03-s06-i0100-t004",
-              "em": true,
+              "serial": "henry-v-a03-s06-l0070-t003",
               "punct": {
-                "kind": "period",
+                "kind": "comma",
                 "dash": null,
                 "quote": null,
                 "role": null
               }
             },
             {
-              "i": 5,
+              "i": 4,
               "type": "word",
-              "s": "Enter",
-              "norm": "enter",
+              "s": "the",
+              "norm": "the",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t005",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t004"
             },
             {
-              "i": 6,
+              "i": 5,
               "type": "word",
               "s": "King",
               "norm": "king",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t006",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t005"
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "is",
+              "norm": "is",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-l0070-t006"
             },
             {
               "i": 7,
               "type": "word",
-              "s": "Henry",
-              "norm": "henry",
+              "s": "coming",
+              "norm": "coming",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t007",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t007"
             },
             {
               "i": 8,
@@ -9922,8 +9724,7 @@
               "s": ",",
               "norm": ",",
               "pre": "",
-              "serial": "henry-v-a03-s06-i0100-t008",
-              "em": true,
+              "serial": "henry-v-a03-s06-l0070-t008",
               "punct": {
                 "kind": "comma",
                 "dash": null,
@@ -9934,56 +9735,82 @@
             {
               "i": 9,
               "type": "word",
-              "s": "Gloucester",
-              "norm": "gloucester",
+              "s": "and",
+              "norm": "and",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t009",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t009"
             },
             {
               "i": 10,
               "type": "word",
-              "s": "and",
-              "norm": "and",
+              "s": "I",
+              "norm": "i",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t010",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t010"
             },
             {
               "i": 11,
               "type": "word",
-              "s": "his",
-              "norm": "his",
+              "s": "must",
+              "norm": "must",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t011",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t011"
             },
             {
               "i": 12,
               "type": "word",
-              "s": "poor",
-              "norm": "poor",
+              "s": "speak",
+              "norm": "speak",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t012",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t012"
             },
             {
               "i": 13,
               "type": "word",
-              "s": "soldiers",
-              "norm": "soldiers",
+              "s": "with",
+              "norm": "with",
               "pre": " ",
-              "serial": "henry-v-a03-s06-i0100-t013",
-              "em": true
+              "serial": "henry-v-a03-s06-l0070-t013"
             },
             {
               "i": 14,
+              "type": "word",
+              "s": "him",
+              "norm": "him",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-l0070-t014"
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "from",
+              "norm": "from",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-l0070-t015"
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-l0070-t016"
+            },
+            {
+              "i": 17,
+              "type": "word",
+              "s": "pridge",
+              "norm": "pridge",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-l0070-t017"
+            },
+            {
+              "i": 18,
               "type": "punct",
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a03-s06-i0100-t014",
-              "em": true,
+              "serial": "henry-v-a03-s06-l0070-t018",
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -9997,6 +9824,194 @@
     },
     {
       "seq": 101,
+      "serial": "henry-v-a03-s06-i0100a",
+      "kind": "stage",
+      "subtype": "sound",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "stage": null,
+          "text": "Drum and colours.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Drum",
+              "norm": "drum",
+              "pre": "",
+              "serial": "henry-v-a03-s06-i0100a-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100a-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "colours",
+              "norm": "colours",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100a-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-a03-s06-i0100a-t004",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 102,
+      "serial": "henry-v-a03-s06-i0100b",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "stage": null,
+          "text": "Enter King Henry, Gloucester and his poor soldiers.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-v-a03-s06-i0100b-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "King",
+              "norm": "king",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100b-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Henry",
+              "norm": "henry",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100b-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a03-s06-i0100b-t004",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "Gloucester",
+              "norm": "gloucester",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100b-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "word",
+              "s": "and",
+              "norm": "and",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100b-t006",
+              "em": true
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "his",
+              "norm": "his",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100b-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "poor",
+              "norm": "poor",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100b-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "soldiers",
+              "norm": "soldiers",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0100b-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-a03-s06-i0100b-t010",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 103,
       "serial": "henry-v-a03-s06-i0102",
       "kind": "speaker_label",
       "subtype": null,
@@ -10009,7 +10024,7 @@
       "spans": []
     },
     {
-      "seq": 102,
+      "seq": 104,
       "serial": "henry-v-a03-s06-i0101",
       "kind": "speech",
       "subtype": null,
@@ -10076,7 +10091,7 @@
       ]
     },
     {
-      "seq": 103,
+      "seq": 105,
       "serial": "henry-v-a03-s06-i0103",
       "kind": "speech",
       "subtype": null,
@@ -10203,7 +10218,7 @@
       ]
     },
     {
-      "seq": 104,
+      "seq": 106,
       "serial": "henry-v-a03-s06-i0104",
       "kind": "speaker_label",
       "subtype": null,
@@ -10216,7 +10231,7 @@
       "spans": []
     },
     {
-      "seq": 105,
+      "seq": 107,
       "serial": "henry-v-a03-s06-i0105",
       "kind": "speech",
       "subtype": null,
@@ -10361,7 +10376,7 @@
       ]
     },
     {
-      "seq": 106,
+      "seq": 108,
       "serial": "henry-v-a03-s06-i0106",
       "kind": "speech",
       "subtype": null,
@@ -10528,7 +10543,7 @@
       ]
     },
     {
-      "seq": 107,
+      "seq": 109,
       "serial": "henry-v-a03-s06-i0107",
       "kind": "speech",
       "subtype": null,
@@ -10657,7 +10672,7 @@
       ]
     },
     {
-      "seq": 108,
+      "seq": 110,
       "serial": "henry-v-a03-s06-i0108",
       "kind": "speech",
       "subtype": null,
@@ -10818,7 +10833,7 @@
       ]
     },
     {
-      "seq": 109,
+      "seq": 111,
       "serial": "henry-v-a03-s06-i0109",
       "kind": "speech",
       "subtype": null,
@@ -10987,7 +11002,7 @@
       ]
     },
     {
-      "seq": 110,
+      "seq": 112,
       "serial": "henry-v-a03-s06-i0110",
       "kind": "speech",
       "subtype": null,
@@ -11038,7 +11053,7 @@
       ]
     },
     {
-      "seq": 111,
+      "seq": 113,
       "serial": "henry-v-a03-s06-i0111",
       "kind": "speaker_label",
       "subtype": null,
@@ -11051,7 +11066,7 @@
       "spans": []
     },
     {
-      "seq": 112,
+      "seq": 114,
       "serial": "henry-v-a03-s06-i0112",
       "kind": "speech",
       "subtype": null,
@@ -11148,7 +11163,7 @@
       ]
     },
     {
-      "seq": 113,
+      "seq": 115,
       "serial": "henry-v-a03-s06-i0113",
       "kind": "speaker_label",
       "subtype": null,
@@ -11161,7 +11176,7 @@
       "spans": []
     },
     {
-      "seq": 114,
+      "seq": 116,
       "serial": "henry-v-a03-s06-i0114",
       "kind": "speech",
       "subtype": null,
@@ -11298,7 +11313,7 @@
       ]
     },
     {
-      "seq": 115,
+      "seq": 117,
       "serial": "henry-v-a03-s06-i0115",
       "kind": "speech",
       "subtype": null,
@@ -11481,7 +11496,7 @@
       ]
     },
     {
-      "seq": 116,
+      "seq": 118,
       "serial": "henry-v-a03-s06-i0116",
       "kind": "speech",
       "subtype": null,
@@ -11642,7 +11657,7 @@
       ]
     },
     {
-      "seq": 117,
+      "seq": 119,
       "serial": "henry-v-a03-s06-i0117",
       "kind": "speech",
       "subtype": null,
@@ -11823,7 +11838,7 @@
       ]
     },
     {
-      "seq": 118,
+      "seq": 120,
       "serial": "henry-v-a03-s06-i0118",
       "kind": "speech",
       "subtype": null,
@@ -12000,7 +12015,7 @@
       ]
     },
     {
-      "seq": 119,
+      "seq": 121,
       "serial": "henry-v-a03-s06-i0119",
       "kind": "speech",
       "subtype": null,
@@ -12145,7 +12160,7 @@
       ]
     },
     {
-      "seq": 120,
+      "seq": 122,
       "serial": "henry-v-a03-s06-i0120",
       "kind": "speech",
       "subtype": null,
@@ -12234,7 +12249,7 @@
       ]
     },
     {
-      "seq": 121,
+      "seq": 123,
       "serial": "henry-v-a03-s06-i0121",
       "kind": "speaker_label",
       "subtype": null,
@@ -12247,7 +12262,7 @@
       "spans": []
     },
     {
-      "seq": 122,
+      "seq": 124,
       "serial": "henry-v-a03-s06-i0122",
       "kind": "speech",
       "subtype": null,
@@ -12386,7 +12401,7 @@
       ]
     },
     {
-      "seq": 123,
+      "seq": 125,
       "serial": "henry-v-a03-s06-i0123",
       "kind": "speech",
       "subtype": null,
@@ -12523,7 +12538,7 @@
       ]
     },
     {
-      "seq": 124,
+      "seq": 126,
       "serial": "henry-v-a03-s06-i0124",
       "kind": "speech",
       "subtype": null,
@@ -12668,7 +12683,7 @@
       ]
     },
     {
-      "seq": 125,
+      "seq": 127,
       "serial": "henry-v-a03-s06-i0125",
       "kind": "speech",
       "subtype": null,
@@ -12791,7 +12806,7 @@
       ]
     },
     {
-      "seq": 126,
+      "seq": 128,
       "serial": "henry-v-a03-s06-i0126",
       "kind": "speech",
       "subtype": null,
@@ -12936,29 +12951,31 @@
       ]
     },
     {
-      "seq": 127,
-      "serial": "henry-v-a03-s06-i0127",
-      "kind": "speech",
-      "subtype": null,
-      "speaker": "KING HENRY",
-      "speech_id": "henry-v-a03-s06-s0029",
-      "speech_seq": 6,
-      "line_number": 92,
-      "line_serial": "henry-v-a03-s06-l0092",
+      "seq": 129,
+      "serial": "henry-v-a03-s06-i0127a",
+      "kind": "stage",
+      "subtype": "sound",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
       "subsection": null,
       "spans": [
         {
-          "type": "speech",
-          "em": false,
-          "text": " Tucket. Enter Montjoy.",
+          "type": "stage",
+          "em": true,
+          "stage": null,
+          "text": "Tucket.",
           "tokens": [
             {
               "i": 1,
               "type": "word",
               "s": "Tucket",
               "norm": "tucket",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0091-t001"
+              "pre": "",
+              "serial": "henry-v-a03-s06-i0127a-t001",
+              "em": true
             },
             {
               "i": 2,
@@ -12966,37 +12983,8 @@
               "s": ".",
               "norm": ".",
               "pre": "",
-              "serial": "henry-v-a03-s06-l0091-t002",
-              "punct": {
-                "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 3,
-              "type": "word",
-              "s": "Enter",
-              "norm": "enter",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0091-t003"
-            },
-            {
-              "i": 4,
-              "type": "word",
-              "s": "Montjoy",
-              "norm": "montjoy",
-              "pre": " ",
-              "serial": "henry-v-a03-s06-l0091-t004"
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": ".",
-              "norm": ".",
-              "pre": "",
-              "serial": "henry-v-a03-s06-l0091-t005",
+              "serial": "henry-v-a03-s06-i0127a-t002",
+              "em": true,
               "punct": {
                 "kind": "period",
                 "dash": null,
@@ -13009,7 +12997,62 @@
       ]
     },
     {
-      "seq": 128,
+      "seq": 130,
+      "serial": "henry-v-a03-s06-i0127b",
+      "kind": "stage",
+      "subtype": "enter",
+      "speaker": null,
+      "speech_id": null,
+      "speech_seq": null,
+      "line_number": null,
+      "line_serial": null,
+      "subsection": null,
+      "spans": [
+        {
+          "type": "stage",
+          "em": true,
+          "stage": null,
+          "text": "Enter Montjoy.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-v-a03-s06-i0127b-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "Montjoy",
+              "norm": "montjoy",
+              "pre": " ",
+              "serial": "henry-v-a03-s06-i0127b-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-a03-s06-i0127b-t003",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seq": 131,
       "serial": "henry-v-a03-s06-i0128",
       "kind": "speaker_label",
       "subtype": null,
@@ -13022,7 +13065,7 @@
       "spans": []
     },
     {
-      "seq": 129,
+      "seq": 132,
       "serial": "henry-v-a03-s06-i0129",
       "kind": "speech",
       "subtype": null,
@@ -13105,7 +13148,7 @@
       ]
     },
     {
-      "seq": 130,
+      "seq": 133,
       "serial": "henry-v-a03-s06-i0130",
       "kind": "speaker_label",
       "subtype": null,
@@ -13118,7 +13161,7 @@
       "spans": []
     },
     {
-      "seq": 131,
+      "seq": 134,
       "serial": "henry-v-a03-s06-i0131",
       "kind": "speech",
       "subtype": null,
@@ -13255,7 +13298,7 @@
       ]
     },
     {
-      "seq": 132,
+      "seq": 135,
       "serial": "henry-v-a03-s06-i0132",
       "kind": "speaker_label",
       "subtype": null,
@@ -13268,7 +13311,7 @@
       "spans": []
     },
     {
-      "seq": 133,
+      "seq": 136,
       "serial": "henry-v-a03-s06-i0133",
       "kind": "speech",
       "subtype": null,
@@ -13327,7 +13370,7 @@
       ]
     },
     {
-      "seq": 134,
+      "seq": 137,
       "serial": "henry-v-a03-s06-i0134",
       "kind": "speaker_label",
       "subtype": null,
@@ -13340,7 +13383,7 @@
       "spans": []
     },
     {
-      "seq": 135,
+      "seq": 138,
       "serial": "henry-v-a03-s06-i0135",
       "kind": "speech",
       "subtype": null,
@@ -13391,7 +13434,7 @@
       ]
     },
     {
-      "seq": 136,
+      "seq": 139,
       "serial": "henry-v-a03-s06-i0136",
       "kind": "speaker_label",
       "subtype": null,
@@ -13404,7 +13447,7 @@
       "spans": []
     },
     {
-      "seq": 137,
+      "seq": 140,
       "serial": "henry-v-a03-s06-i0137",
       "kind": "speech",
       "subtype": null,
@@ -13579,7 +13622,7 @@
       ]
     },
     {
-      "seq": 138,
+      "seq": 141,
       "serial": "henry-v-a03-s06-i0138",
       "kind": "speech",
       "subtype": null,
@@ -13732,7 +13775,7 @@
       ]
     },
     {
-      "seq": 139,
+      "seq": 142,
       "serial": "henry-v-a03-s06-i0139",
       "kind": "speech",
       "subtype": null,
@@ -13879,7 +13922,7 @@
       ]
     },
     {
-      "seq": 140,
+      "seq": 143,
       "serial": "henry-v-a03-s06-i0140",
       "kind": "speech",
       "subtype": null,
@@ -14048,7 +14091,7 @@
       ]
     },
     {
-      "seq": 141,
+      "seq": 144,
       "serial": "henry-v-a03-s06-i0141",
       "kind": "speech",
       "subtype": null,
@@ -14185,7 +14228,7 @@
       ]
     },
     {
-      "seq": 142,
+      "seq": 145,
       "serial": "henry-v-a03-s06-i0142",
       "kind": "speech",
       "subtype": null,
@@ -14322,7 +14365,7 @@
       ]
     },
     {
-      "seq": 143,
+      "seq": 146,
       "serial": "henry-v-a03-s06-i0143",
       "kind": "speech",
       "subtype": null,
@@ -14467,7 +14510,7 @@
       ]
     },
     {
-      "seq": 144,
+      "seq": 147,
       "serial": "henry-v-a03-s06-i0144",
       "kind": "speech",
       "subtype": null,
@@ -14648,7 +14691,7 @@
       ]
     },
     {
-      "seq": 145,
+      "seq": 148,
       "serial": "henry-v-a03-s06-i0145",
       "kind": "speech",
       "subtype": null,
@@ -14793,7 +14836,7 @@
       ]
     },
     {
-      "seq": 146,
+      "seq": 149,
       "serial": "henry-v-a03-s06-i0146",
       "kind": "speech",
       "subtype": null,
@@ -14946,7 +14989,7 @@
       ]
     },
     {
-      "seq": 147,
+      "seq": 150,
       "serial": "henry-v-a03-s06-i0147",
       "kind": "speech",
       "subtype": null,
@@ -15113,7 +15156,7 @@
       ]
     },
     {
-      "seq": 148,
+      "seq": 151,
       "serial": "henry-v-a03-s06-i0148",
       "kind": "speech",
       "subtype": null,
@@ -15272,7 +15315,7 @@
       ]
     },
     {
-      "seq": 149,
+      "seq": 152,
       "serial": "henry-v-a03-s06-i0149",
       "kind": "speech",
       "subtype": null,
@@ -15415,7 +15458,7 @@
       ]
     },
     {
-      "seq": 150,
+      "seq": 153,
       "serial": "henry-v-a03-s06-i0150",
       "kind": "speech",
       "subtype": null,
@@ -15560,7 +15603,7 @@
       ]
     },
     {
-      "seq": 151,
+      "seq": 154,
       "serial": "henry-v-a03-s06-i0151",
       "kind": "speech",
       "subtype": null,
@@ -15603,7 +15646,7 @@
       ]
     },
     {
-      "seq": 152,
+      "seq": 155,
       "serial": "henry-v-a03-s06-i0152",
       "kind": "speaker_label",
       "subtype": null,
@@ -15616,7 +15659,7 @@
       "spans": []
     },
     {
-      "seq": 153,
+      "seq": 156,
       "serial": "henry-v-a03-s06-i0153",
       "kind": "speech",
       "subtype": null,
@@ -15729,7 +15772,7 @@
       ]
     },
     {
-      "seq": 154,
+      "seq": 157,
       "serial": "henry-v-a03-s06-i0154",
       "kind": "speaker_label",
       "subtype": null,
@@ -15742,7 +15785,7 @@
       "spans": []
     },
     {
-      "seq": 155,
+      "seq": 158,
       "serial": "henry-v-a03-s06-i0155",
       "kind": "speech",
       "subtype": null,
@@ -15785,7 +15828,7 @@
       ]
     },
     {
-      "seq": 156,
+      "seq": 159,
       "serial": "henry-v-a03-s06-i0156",
       "kind": "speaker_label",
       "subtype": null,
@@ -15798,7 +15841,7 @@
       "spans": []
     },
     {
-      "seq": 157,
+      "seq": 160,
       "serial": "henry-v-a03-s06-i0157",
       "kind": "speech",
       "subtype": null,
@@ -15911,7 +15954,7 @@
       ]
     },
     {
-      "seq": 158,
+      "seq": 161,
       "serial": "henry-v-a03-s06-i0158",
       "kind": "speech",
       "subtype": null,
@@ -16026,7 +16069,7 @@
       ]
     },
     {
-      "seq": 159,
+      "seq": 162,
       "serial": "henry-v-a03-s06-i0159",
       "kind": "speech",
       "subtype": null,
@@ -16119,7 +16162,7 @@
       ]
     },
     {
-      "seq": 160,
+      "seq": 163,
       "serial": "henry-v-a03-s06-i0160",
       "kind": "speech",
       "subtype": null,
@@ -16238,7 +16281,7 @@
       ]
     },
     {
-      "seq": 161,
+      "seq": 164,
       "serial": "henry-v-a03-s06-i0161",
       "kind": "speech",
       "subtype": null,
@@ -16323,7 +16366,7 @@
       ]
     },
     {
-      "seq": 162,
+      "seq": 165,
       "serial": "henry-v-a03-s06-i0162",
       "kind": "speech",
       "subtype": null,
@@ -16414,7 +16457,7 @@
       ]
     },
     {
-      "seq": 163,
+      "seq": 166,
       "serial": "henry-v-a03-s06-i0163",
       "kind": "speech",
       "subtype": null,
@@ -16505,7 +16548,7 @@
       ]
     },
     {
-      "seq": 164,
+      "seq": 167,
       "serial": "henry-v-a03-s06-i0164",
       "kind": "speech",
       "subtype": null,
@@ -16604,7 +16647,7 @@
       ]
     },
     {
-      "seq": 165,
+      "seq": 168,
       "serial": "henry-v-a03-s06-i0165",
       "kind": "speech",
       "subtype": null,
@@ -16695,7 +16738,7 @@
       ]
     },
     {
-      "seq": 166,
+      "seq": 169,
       "serial": "henry-v-a03-s06-i0166",
       "kind": "speech",
       "subtype": null,
@@ -16838,7 +16881,7 @@
       ]
     },
     {
-      "seq": 167,
+      "seq": 170,
       "serial": "henry-v-a03-s06-i0167",
       "kind": "speech",
       "subtype": null,
@@ -16923,7 +16966,7 @@
       ]
     },
     {
-      "seq": 168,
+      "seq": 171,
       "serial": "henry-v-a03-s06-i0168",
       "kind": "speech",
       "subtype": null,
@@ -17064,7 +17107,7 @@
       ]
     },
     {
-      "seq": 169,
+      "seq": 172,
       "serial": "henry-v-a03-s06-i0169",
       "kind": "speech",
       "subtype": null,
@@ -17179,7 +17222,7 @@
       ]
     },
     {
-      "seq": 170,
+      "seq": 173,
       "serial": "henry-v-a03-s06-i0170",
       "kind": "speech",
       "subtype": null,
@@ -17300,7 +17343,7 @@
       ]
     },
     {
-      "seq": 171,
+      "seq": 174,
       "serial": "henry-v-a03-s06-i0171",
       "kind": "speech",
       "subtype": null,
@@ -17413,7 +17456,7 @@
       ]
     },
     {
-      "seq": 172,
+      "seq": 175,
       "serial": "henry-v-a03-s06-i0172",
       "kind": "speech",
       "subtype": null,
@@ -17512,7 +17555,7 @@
       ]
     },
     {
-      "seq": 173,
+      "seq": 176,
       "serial": "henry-v-a03-s06-i0173",
       "kind": "speech",
       "subtype": null,
@@ -17611,7 +17654,7 @@
       ]
     },
     {
-      "seq": 174,
+      "seq": 177,
       "serial": "henry-v-a03-s06-i0174",
       "kind": "speech",
       "subtype": null,
@@ -17746,7 +17789,7 @@
       ]
     },
     {
-      "seq": 175,
+      "seq": 178,
       "serial": "henry-v-a03-s06-i0175",
       "kind": "speech",
       "subtype": null,
@@ -17823,7 +17866,7 @@
       ]
     },
     {
-      "seq": 176,
+      "seq": 179,
       "serial": "henry-v-a03-s06-i0176",
       "kind": "speech",
       "subtype": null,
@@ -17958,7 +18001,7 @@
       ]
     },
     {
-      "seq": 177,
+      "seq": 180,
       "serial": "henry-v-a03-s06-i0177",
       "kind": "speech",
       "subtype": null,
@@ -18063,7 +18106,7 @@
       ]
     },
     {
-      "seq": 178,
+      "seq": 181,
       "serial": "henry-v-a03-s06-i0178",
       "kind": "speech",
       "subtype": null,
@@ -18206,7 +18249,7 @@
       ]
     },
     {
-      "seq": 179,
+      "seq": 182,
       "serial": "henry-v-a03-s06-i0179",
       "kind": "speech",
       "subtype": null,
@@ -18299,7 +18342,7 @@
       ]
     },
     {
-      "seq": 180,
+      "seq": 183,
       "serial": "henry-v-a03-s06-i0180",
       "kind": "speech",
       "subtype": null,
@@ -18432,7 +18475,7 @@
       ]
     },
     {
-      "seq": 181,
+      "seq": 184,
       "serial": "henry-v-a03-s06-i0181",
       "kind": "speech",
       "subtype": null,
@@ -18539,7 +18582,7 @@
       ]
     },
     {
-      "seq": 182,
+      "seq": 185,
       "serial": "henry-v-a03-s06-i0182",
       "kind": "speech",
       "subtype": null,
@@ -18660,7 +18703,7 @@
       ]
     },
     {
-      "seq": 183,
+      "seq": 186,
       "serial": "henry-v-a03-s06-i0183",
       "kind": "speech",
       "subtype": null,
@@ -18811,7 +18854,7 @@
       ]
     },
     {
-      "seq": 184,
+      "seq": 187,
       "serial": "henry-v-a03-s06-i0184",
       "kind": "speech",
       "subtype": null,
@@ -18878,7 +18921,7 @@
       ]
     },
     {
-      "seq": 185,
+      "seq": 188,
       "serial": "henry-v-a03-s06-i0185",
       "kind": "speaker_label",
       "subtype": null,
@@ -18891,7 +18934,7 @@
       "spans": []
     },
     {
-      "seq": 186,
+      "seq": 189,
       "serial": "henry-v-a03-s06-i0186",
       "kind": "speech",
       "subtype": null,
@@ -19004,7 +19047,7 @@
       ]
     },
     {
-      "seq": 187,
+      "seq": 190,
       "serial": "henry-v-a03-s06-i0187",
       "kind": "stage",
       "subtype": "exit",
@@ -19050,7 +19093,7 @@
       ]
     },
     {
-      "seq": 188,
+      "seq": 191,
       "serial": "henry-v-a03-s06-i0188",
       "kind": "speaker_label",
       "subtype": null,
@@ -19063,7 +19106,7 @@
       "spans": []
     },
     {
-      "seq": 189,
+      "seq": 192,
       "serial": "henry-v-a03-s06-i0189",
       "kind": "speech",
       "subtype": null,
@@ -19170,7 +19213,7 @@
       ]
     },
     {
-      "seq": 190,
+      "seq": 193,
       "serial": "henry-v-a03-s06-i0190",
       "kind": "speaker_label",
       "subtype": null,
@@ -19183,7 +19226,7 @@
       "spans": []
     },
     {
-      "seq": 191,
+      "seq": 194,
       "serial": "henry-v-a03-s06-i0191",
       "kind": "speech",
       "subtype": null,
@@ -19318,7 +19361,7 @@
       ]
     },
     {
-      "seq": 192,
+      "seq": 195,
       "serial": "henry-v-a03-s06-i0192",
       "kind": "speech",
       "subtype": null,
@@ -19439,7 +19482,7 @@
       ]
     },
     {
-      "seq": 193,
+      "seq": 196,
       "serial": "henry-v-a03-s06-i0193",
       "kind": "speech",
       "subtype": null,
@@ -19522,7 +19565,7 @@
       ]
     },
     {
-      "seq": 194,
+      "seq": 197,
       "serial": "henry-v-a03-s06-i0194",
       "kind": "speech",
       "subtype": null,
@@ -19613,7 +19656,7 @@
       ]
     },
     {
-      "seq": 195,
+      "seq": 198,
       "serial": "henry-v-a03-s06-i0195",
       "kind": "stage",
       "subtype": "exeunt",

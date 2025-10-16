@@ -208,7 +208,195 @@
       "subsection": null,
       "spans": [
         {
-          "text": "Enter the Constable of France, the Lord Rambures, Orleans, Dauphin with others."
+          "type": "stage",
+          "em": true,
+          "stage": null,
+          "text": "Enter the Constable of France, the Lord Rambures, Orleans, Dauphin, with others.",
+          "tokens": [
+            {
+              "i": 1,
+              "type": "word",
+              "s": "Enter",
+              "norm": "enter",
+              "pre": "",
+              "serial": "henry-v-a03-s07-i0003-t001",
+              "em": true
+            },
+            {
+              "i": 2,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t002",
+              "em": true
+            },
+            {
+              "i": 3,
+              "type": "word",
+              "s": "Constable",
+              "norm": "constable",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t003",
+              "em": true
+            },
+            {
+              "i": 4,
+              "type": "word",
+              "s": "of",
+              "norm": "of",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t004",
+              "em": true
+            },
+            {
+              "i": 5,
+              "type": "word",
+              "s": "France",
+              "norm": "france",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t005",
+              "em": true
+            },
+            {
+              "i": 6,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a03-s07-i0003-t006",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 7,
+              "type": "word",
+              "s": "the",
+              "norm": "the",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t007",
+              "em": true
+            },
+            {
+              "i": 8,
+              "type": "word",
+              "s": "Lord",
+              "norm": "lord",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t008",
+              "em": true
+            },
+            {
+              "i": 9,
+              "type": "word",
+              "s": "Rambures",
+              "norm": "rambures",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t009",
+              "em": true
+            },
+            {
+              "i": 10,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a03-s07-i0003-t010",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 11,
+              "type": "word",
+              "s": "Orleans",
+              "norm": "orleans",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t011",
+              "em": true
+            },
+            {
+              "i": 12,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a03-s07-i0003-t012",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 13,
+              "type": "word",
+              "s": "Dauphin",
+              "norm": "dauphin",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t013",
+              "em": true
+            },
+            {
+              "i": 14,
+              "type": "punct",
+              "s": ",",
+              "norm": ",",
+              "pre": "",
+              "serial": "henry-v-a03-s07-i0003-t014",
+              "em": true,
+              "punct": {
+                "kind": "comma",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            },
+            {
+              "i": 15,
+              "type": "word",
+              "s": "with",
+              "norm": "with",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t015",
+              "em": true
+            },
+            {
+              "i": 16,
+              "type": "word",
+              "s": "others",
+              "norm": "others",
+              "pre": " ",
+              "serial": "henry-v-a03-s07-i0003-t016",
+              "em": true
+            },
+            {
+              "i": 17,
+              "type": "punct",
+              "s": ".",
+              "norm": ".",
+              "pre": "",
+              "serial": "henry-v-a03-s07-i0003-t017",
+              "em": true,
+              "punct": {
+                "kind": "period",
+                "dash": null,
+                "quote": null,
+                "role": null
+              }
+            }
+          ]
         }
       ]
     },
@@ -1490,7 +1678,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "entrails were hairs; _le cheval volant_, the Pegasus, _qui a les",
+          "text": "entrails were hairs;",
           "tokens": [
             {
               "i": 1,
@@ -1529,21 +1717,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s07-l0011-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "le cheval volant",
+          "tokens": [
             {
               "i": 6,
               "type": "word",
@@ -1567,21 +1748,14 @@
               "norm": "volant",
               "pre": " ",
               "serial": "henry-v-a03-s07-l0011-t008"
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s07-l0011-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", the Pegasus,",
+          "tokens": [
             {
               "i": 10,
               "type": "punct",
@@ -1625,21 +1799,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 14,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s07-l0011-t014",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "qui a les",
+          "tokens": [
             {
               "i": 15,
               "type": "word",
@@ -1683,7 +1850,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "narines de feu!_ When I bestride him, I soar, I am a hawk. He trots the",
+          "text": "narines de feu!",
           "tokens": [
             {
               "i": 1,
@@ -1722,21 +1889,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s07-l0012-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " When I bestride him, I soar, I am a hawk. He trots the",
+          "tokens": [
             {
               "i": 6,
               "type": "word",
@@ -6784,7 +6944,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "“_Le chien est retourné à son propre vomissement, et la truie lavée au",
+          "text": "“",
           "tokens": [
             {
               "i": 1,
@@ -6799,21 +6959,14 @@
                 "quote": "double",
                 "role": null
               }
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s07-l0049-t002",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "Le chien est retourné à son propre vomissement, et la truie lavée au",
+          "tokens": [
             {
               "i": 3,
               "type": "word",
@@ -6951,7 +7104,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "bourbier_.” Thou mak’st use of anything.",
+          "text": "bourbier",
           "tokens": [
             {
               "i": 1,
@@ -6960,21 +7113,14 @@
               "norm": "bourbier",
               "pre": "",
               "serial": "henry-v-a03-s07-l0050-t001"
-            },
-            {
-              "i": 2,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s07-l0050-t002",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": ".” Thou mak’st use of anything.",
+          "tokens": [
             {
               "i": 3,
               "type": "punct",

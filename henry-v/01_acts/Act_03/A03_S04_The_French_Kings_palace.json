@@ -315,23 +315,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Alice, tu as été en Angleterre, et tu parles bien le langage._",
+          "em": true,
+          "text": "Alice, tu as été en Angleterre, et tu parles bien le langage.",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0001-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -469,20 +455,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 17,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0001-t017",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -515,23 +487,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Un peu, madame._",
+          "em": true,
+          "text": "Un peu, madame.",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0002-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -583,20 +541,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0002-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -629,23 +573,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Je te prie, m’enseignez; il faut que j’apprenne à parler.",
+          "em": true,
+          "text": "Je te prie, m’enseignez; il faut que j’apprenne à parler.",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0003-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -787,7 +717,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "Comment appelez-vous la main en anglais?_",
+          "text": "Comment appelez-vous la main en anglais?",
           "tokens": [
             {
               "i": 1,
@@ -872,20 +802,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0004-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -918,23 +834,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_La main? Elle est appelée_ de hand.",
+          "em": true,
+          "text": "La main? Elle est appelée",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0005-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -988,21 +890,14 @@
               "norm": "appelee",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0005-t007"
-            },
-            {
-              "i": 8,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0005-t008",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " de hand.",
+          "tokens": [
             {
               "i": 9,
               "type": "word",
@@ -1065,7 +960,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De hand. _Et les doigts?_",
+          "text": "De hand.",
           "tokens": [
             {
               "i": 1,
@@ -1096,21 +991,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0006-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "Et les doigts?",
+          "tokens": [
             {
               "i": 5,
               "type": "word",
@@ -1148,20 +1036,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0006-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -1194,23 +1068,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Les doigts? Ma foi, j’oublie les doigts; mais je me souviendrai. Les",
+          "em": true,
+          "text": "Les doigts? Ma foi, j’oublie les doigts; mais je me souviendrai. Les",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0007-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -1382,7 +1242,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "doigts? Je pense qu’ils sont appelés_ de fingres; _oui_, de fingres.",
+          "text": "doigts? Je pense qu’ils sont appelés",
           "tokens": [
             {
               "i": 1,
@@ -1445,21 +1305,14 @@
               "norm": "appeles",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0008-t007"
-            },
-            {
-              "i": 8,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0008-t008",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " de fingres;",
+          "tokens": [
             {
               "i": 9,
               "type": "word",
@@ -1489,21 +1342,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 12,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0008-t012",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": "oui",
+          "tokens": [
             {
               "i": 13,
               "type": "word",
@@ -1511,21 +1357,14 @@
               "norm": "oui",
               "pre": "",
               "serial": "henry-v-a03-s04-l0008-t013"
-            },
-            {
-              "i": 14,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0008-t014",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": ", de fingres.",
+          "tokens": [
             {
               "i": 15,
               "type": "punct",
@@ -1601,23 +1440,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_La main_, de hand; _les doigts_, de fingres. _Je pense que je suis le",
+          "em": true,
+          "text": "La main",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0009-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -1633,21 +1458,14 @@
               "norm": "main",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0009-t003"
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0009-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", de hand;",
+          "tokens": [
             {
               "i": 5,
               "type": "punct",
@@ -1691,21 +1509,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0009-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "les doigts",
+          "tokens": [
             {
               "i": 10,
               "type": "word",
@@ -1721,21 +1532,14 @@
               "norm": "doigts",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0009-t011"
-            },
-            {
-              "i": 12,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0009-t012",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", de fingres.",
+          "tokens": [
             {
               "i": 13,
               "type": "punct",
@@ -1779,21 +1583,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 17,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0009-t017",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "Je pense que je suis le",
+          "tokens": [
             {
               "i": 18,
               "type": "word",
@@ -1982,7 +1779,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "appelez-vous les ongles?_",
+          "text": "appelez-vous les ongles?",
           "tokens": [
             {
               "i": 1,
@@ -2043,20 +1840,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0011-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -2089,23 +1872,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Les ongles? Nous les appelons_ de nails.",
+          "em": true,
+          "text": "Les ongles? Nous les appelons",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0012-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -2159,21 +1928,14 @@
               "norm": "appelons",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0012-t007"
-            },
-            {
-              "i": 8,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0012-t008",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " de nails.",
+          "tokens": [
             {
               "i": 9,
               "type": "word",
@@ -2236,7 +1998,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De nails. _Écoutez; dites-moi, si je parle bien:_ de hand, de fingres,",
+          "text": "De nails.",
           "tokens": [
             {
               "i": 1,
@@ -2267,21 +2029,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0013-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "Écoutez; dites-moi, si je parle bien:",
+          "tokens": [
             {
               "i": 5,
               "type": "word",
@@ -2393,21 +2148,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 16,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0013-t016",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " de hand, de fingres,",
+          "tokens": [
             {
               "i": 17,
               "type": "word",
@@ -2486,23 +2234,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_et_ de nails.",
+          "em": true,
+          "text": "et",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0014-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -2510,21 +2244,14 @@
               "norm": "et",
               "pre": "",
               "serial": "henry-v-a03-s04-l0014-t002"
-            },
-            {
-              "i": 3,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0014-t003",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " de nails.",
+          "tokens": [
             {
               "i": 4,
               "type": "word",
@@ -2586,23 +2313,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_C’est bien dit, madame; il est fort bon anglais._",
+          "em": true,
+          "text": "C’est bien dit, madame; il est fort bon anglais.",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0015-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -2716,20 +2429,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 14,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0015-t014",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -2762,23 +2461,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Dites-moi l’anglais pour le bras._",
+          "em": true,
+          "text": "Dites-moi l’anglais pour le bras.",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0016-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -2854,20 +2539,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0016-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -2901,7 +2572,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De arm, _madame._",
+          "text": "De arm,",
           "tokens": [
             {
               "i": 1,
@@ -2932,21 +2603,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0017-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "madame.",
+          "tokens": [
             {
               "i": 5,
               "type": "word",
@@ -2964,20 +2628,6 @@
               "serial": "henry-v-a03-s04-l0017-t006",
               "punct": {
                 "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0017-t007",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -3014,23 +2664,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Et le coude?_",
+          "em": true,
+          "text": "Et le coude?",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0018-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -3064,20 +2700,6 @@
               "serial": "henry-v-a03-s04-l0018-t005",
               "punct": {
                 "kind": "qmark",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0018-t006",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -3171,7 +2793,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "D’elbow. _Je m’en fais la répétition de tous les mots que vous m’avez",
+          "text": "D’elbow.",
           "tokens": [
             {
               "i": 1,
@@ -3194,21 +2816,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 3,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0020-t003",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "Je m’en fais la répétition de tous les mots que vous m’avez",
+          "tokens": [
             {
               "i": 4,
               "type": "word",
@@ -3324,7 +2939,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "appris dès à présent._",
+          "text": "appris dès à présent.",
           "tokens": [
             {
               "i": 1,
@@ -3371,20 +2986,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0021-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -3417,23 +3018,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Il est trop difficile, madame, comme je pense._",
+          "em": true,
+          "text": "Il est trop difficile, madame, comme je pense.",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0022-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -3539,20 +3126,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0022-t013",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -3585,23 +3158,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Excusez-moi, Alice. Écoutez:_ d’hand, de fingres, de nails, d’arm, de",
+          "em": true,
+          "text": "Excusez-moi, Alice. Écoutez:",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0023-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -3689,21 +3248,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0023-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " d’hand, de fingres, de nails, d’arm, de",
+          "tokens": [
             {
               "i": 11,
               "type": "word",
@@ -3891,7 +3443,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "D’elbow, _madame._",
+          "text": "D’elbow,",
           "tokens": [
             {
               "i": 1,
@@ -3914,21 +3466,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 3,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0025-t003",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "madame.",
+          "tokens": [
             {
               "i": 4,
               "type": "word",
@@ -3946,20 +3491,6 @@
               "serial": "henry-v-a03-s04-l0025-t005",
               "punct": {
                 "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0025-t006",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -3996,23 +3527,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_O Seigneur Dieu, je m’en oublie!_ D’elbow.",
+          "em": true,
+          "text": "O Seigneur Dieu, je m’en oublie!",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0026-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -4088,21 +3605,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0026-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " D’elbow.",
+          "tokens": [
             {
               "i": 11,
               "type": "word",
@@ -4143,23 +3653,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Comment appelez-vous le col?_",
+          "em": true,
+          "text": "Comment appelez-vous le col?",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0027-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -4227,20 +3723,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0027-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -4274,7 +3756,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De nick, _madame._",
+          "text": "De nick,",
           "tokens": [
             {
               "i": 1,
@@ -4305,21 +3787,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0028-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "madame.",
+          "tokens": [
             {
               "i": 5,
               "type": "word",
@@ -4337,20 +3812,6 @@
               "serial": "henry-v-a03-s04-l0028-t006",
               "punct": {
                 "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0028-t007",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -4388,7 +3849,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De nick. _Et le menton?_",
+          "text": "De nick.",
           "tokens": [
             {
               "i": 1,
@@ -4419,21 +3880,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0029-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "Et le menton?",
+          "tokens": [
             {
               "i": 5,
               "type": "word",
@@ -4467,20 +3921,6 @@
               "serial": "henry-v-a03-s04-l0029-t008",
               "punct": {
                 "kind": "qmark",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0029-t009",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -4582,7 +4022,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De sin. _Le col_, de nick; _le menton_, de sin.",
+          "text": "De sin.",
           "tokens": [
             {
               "i": 1,
@@ -4613,21 +4053,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0031-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "Le col",
+          "tokens": [
             {
               "i": 5,
               "type": "word",
@@ -4643,21 +4076,14 @@
               "norm": "col",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0031-t006"
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0031-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", de nick;",
+          "tokens": [
             {
               "i": 8,
               "type": "punct",
@@ -4701,21 +4127,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 12,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0031-t012",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "le menton",
+          "tokens": [
             {
               "i": 13,
               "type": "word",
@@ -4731,21 +4150,14 @@
               "norm": "menton",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0031-t014"
-            },
-            {
-              "i": 15,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0031-t015",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", de sin.",
+          "tokens": [
             {
               "i": 16,
               "type": "punct",
@@ -4821,23 +4233,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Oui. Sauf votre honneur, en vérité, vous prononcez les mots aussi",
+          "em": true,
+          "text": "Oui. Sauf votre honneur, en vérité, vous prononcez les mots aussi",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0032-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -4987,7 +4385,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "droit que les natifs d’Angleterre._",
+          "text": "droit que les natifs d’Angleterre.",
           "tokens": [
             {
               "i": 1,
@@ -5042,20 +4440,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0033-t007",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -5088,23 +4472,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Je ne doute point d’apprendre, par la grâce de Dieu, et en peu de",
+          "em": true,
+          "text": "Je ne doute point d’apprendre, par la grâce de Dieu, et en peu de",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0034-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -5264,7 +4634,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "temps._",
+          "text": "temps.",
           "tokens": [
             {
               "i": 1,
@@ -5283,20 +4653,6 @@
               "serial": "henry-v-a03-s04-l0035-t002",
               "punct": {
                 "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 3,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0035-t003",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -5333,23 +4689,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_N’avez-vous pas déjà oublié ce que je vous ai enseigné?_",
+          "em": true,
+          "text": "N’avez-vous pas déjà oublié ce que je vous ai enseigné?",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0036-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -5465,20 +4807,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 15,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0036-t015",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -5511,23 +4839,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Non, je réciterai à vous promptement:_ d’hand, de fingres, de mails,—",
+          "em": true,
+          "text": "Non, je réciterai à vous promptement:",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0037-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -5603,21 +4917,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 10,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0037-t010",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " d’hand, de fingres, de mails,—",
+          "tokens": [
             {
               "i": 11,
               "type": "word",
@@ -5746,7 +5053,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De nails, _madame._",
+          "text": "De nails,",
           "tokens": [
             {
               "i": 1,
@@ -5777,21 +5084,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0038-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "madame.",
+          "tokens": [
             {
               "i": 5,
               "type": "word",
@@ -5809,20 +5109,6 @@
               "serial": "henry-v-a03-s04-l0038-t006",
               "punct": {
                 "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 7,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0038-t007",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
@@ -5983,23 +5269,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Sauf votre honneur_, de elbow.",
+          "em": true,
+          "text": "Sauf votre honneur",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0040-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -6023,21 +5295,14 @@
               "norm": "honneur",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0040-t004"
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0040-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", de elbow.",
+          "tokens": [
             {
               "i": 6,
               "type": "punct",
@@ -6113,23 +5378,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Ainsi dis-je_, d’elbow, de nick, _et_ de sin. _Comment appelez-vous le",
+          "em": true,
+          "text": "Ainsi dis-je",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0041-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -6167,21 +5418,14 @@
               "norm": "je",
               "pre": "",
               "serial": "henry-v-a03-s04-l0041-t005"
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0041-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": ", d’elbow, de nick,",
+          "tokens": [
             {
               "i": 7,
               "type": "punct",
@@ -6247,21 +5491,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0041-t013",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "et",
+          "tokens": [
             {
               "i": 14,
               "type": "word",
@@ -6269,21 +5506,14 @@
               "norm": "et",
               "pre": "",
               "serial": "henry-v-a03-s04-l0041-t014"
-            },
-            {
-              "i": 15,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0041-t015",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " de sin.",
+          "tokens": [
             {
               "i": 16,
               "type": "word",
@@ -6313,21 +5543,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 19,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0041-t019",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "Comment appelez-vous le",
+          "tokens": [
             {
               "i": 20,
               "type": "word",
@@ -6393,7 +5616,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "pied et la robe?_",
+          "text": "pied et la robe?",
           "tokens": [
             {
               "i": 1,
@@ -6440,20 +5663,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0042-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -6487,7 +5696,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De foot, _madame; et_ de coun.",
+          "text": "De foot,",
           "tokens": [
             {
               "i": 1,
@@ -6518,21 +5727,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 4,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0043-t004",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "madame; et",
+          "tokens": [
             {
               "i": 5,
               "type": "word",
@@ -6562,21 +5764,14 @@
               "norm": "et",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0043-t007"
-            },
-            {
-              "i": 8,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0043-t008",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " de coun.",
+          "tokens": [
             {
               "i": 9,
               "type": "word",
@@ -6639,7 +5834,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "De foot _et_ de coun! _O Seigneur Dieu! ils sont les mots de son",
+          "text": "De foot",
           "tokens": [
             {
               "i": 1,
@@ -6656,21 +5851,14 @@
               "norm": "foot",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0044-t002"
-            },
-            {
-              "i": 3,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0044-t003",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "et",
+          "tokens": [
             {
               "i": 4,
               "type": "word",
@@ -6678,21 +5866,14 @@
               "norm": "et",
               "pre": "",
               "serial": "henry-v-a03-s04-l0044-t004"
-            },
-            {
-              "i": 5,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0044-t005",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " de coun!",
+          "tokens": [
             {
               "i": 6,
               "type": "word",
@@ -6722,21 +5903,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 9,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0044-t009",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": "O Seigneur Dieu! ils sont les mots de son",
+          "tokens": [
             {
               "i": 10,
               "type": "word",
@@ -7114,7 +6288,7 @@
         {
           "type": "speech",
           "em": false,
-          "text": "seigneurs de France pour tout le monde. Foh!_ le foot _et_ le coun!",
+          "text": "seigneurs de France pour tout le monde. Foh!",
           "tokens": [
             {
               "i": 1,
@@ -7207,21 +6381,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 11,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0047-t011",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " le foot",
+          "tokens": [
             {
               "i": 12,
               "type": "word",
@@ -7237,21 +6404,14 @@
               "norm": "foot",
               "pre": " ",
               "serial": "henry-v-a03-s04-l0047-t013"
-            },
-            {
-              "i": 14,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": " ",
-              "serial": "henry-v-a03-s04-l0047-t014",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": "et",
+          "tokens": [
             {
               "i": 15,
               "type": "word",
@@ -7259,21 +6419,14 @@
               "norm": "et",
               "pre": "",
               "serial": "henry-v-a03-s04-l0047-t015"
-            },
-            {
-              "i": 16,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0047-t016",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": true,
+          "text": " le coun!",
+          "tokens": [
             {
               "i": 17,
               "type": "word",
@@ -7322,23 +6475,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Néanmoins, je réciterai une autre fois ma leçon ensemble:_ d’hand, de",
+          "em": true,
+          "text": "Néanmoins, je réciterai une autre fois ma leçon ensemble:",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0048-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -7438,21 +6577,14 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 13,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0048-t013",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
+            }
+          ]
+        },
+        {
+          "type": "speech",
+          "em": false,
+          "text": " d’hand, de",
+          "tokens": [
             {
               "i": 14,
               "type": "word",
@@ -7751,23 +6883,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_Excellent, madame!_",
+          "em": true,
+          "text": "Excellent, madame!",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0050-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -7811,20 +6929,6 @@
                 "quote": null,
                 "role": null
               }
-            },
-            {
-              "i": 6,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0050-t006",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
             }
           ]
         }
@@ -7857,23 +6961,9 @@
       "spans": [
         {
           "type": "speech",
-          "em": false,
-          "text": "_C’est assez pour une fois. Allons-nous à dîner._",
+          "em": true,
+          "text": "C’est assez pour une fois. Allons-nous à dîner.",
           "tokens": [
-            {
-              "i": 1,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0051-t001",
-              "punct": {
-                "kind": "other",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
             {
               "i": 2,
               "type": "word",
@@ -7983,20 +7073,6 @@
               "serial": "henry-v-a03-s04-l0051-t013",
               "punct": {
                 "kind": "period",
-                "dash": null,
-                "quote": null,
-                "role": null
-              }
-            },
-            {
-              "i": 14,
-              "type": "punct",
-              "s": "_",
-              "norm": "_",
-              "pre": "",
-              "serial": "henry-v-a03-s04-l0051-t014",
-              "punct": {
-                "kind": "other",
                 "dash": null,
                 "quote": null,
                 "role": null
